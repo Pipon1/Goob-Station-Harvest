@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BulletFoam
-  name: foam dart
-  description: I hope you're wearing eye protection.
+  name: fléchette en mousse
+  description: J'espère que vous portez des lunettes de protection.
   components:
   - type: Fixtures
     fixtures:

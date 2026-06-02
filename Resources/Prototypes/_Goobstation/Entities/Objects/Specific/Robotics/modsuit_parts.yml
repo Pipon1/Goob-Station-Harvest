@@ -4,7 +4,7 @@
   id: PartModsuit
   parent: BaseItem
   name: MOD part
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   abstract: true
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
   id: ModsuitPlatingExternal
   parent: PartModsuit
   name: MOD standard external plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -148,7 +148,7 @@
   id: ModsuitPlatingParamedic
   parent: PartModsuit
   name: MOD standard paramedic 'sanitater' plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -168,7 +168,7 @@
   id: ModsuitPlatingEngineer
   parent: PartModsuit
   name: MOD standard engineer 'sapper' plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -188,7 +188,7 @@
   id: ModsuitPlatingSecurity
   parent: PartModsuit
   name: MOD standard security 'soldat' plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -207,8 +207,8 @@
 - type: entity
   id: ModsuitPlatingHeadOfSecurity
   parent: PartModsuit
-  name: MOD standard head of security 'bulwark' plating
-  description: A part used in MOD construction.
+  name: blindage MOD standard du chef de la sécurité 'bulwark'
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -228,7 +228,7 @@
   id: ModsuitPlatingCaptain
   parent: PartModsuit
   name: MOD standard captain's magnate plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -248,7 +248,7 @@
   id: ModsuitPlatingRD
   parent: PartModsuit
   name: MOD standard RD's 'minerva' plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating
@@ -268,7 +268,7 @@
   id: ModsuitPlatingAtmostech
   parent: PartModsuit
   name: MOD standard atmospheric technician's 'aeolus' plating
-  description: A part used in MOD construction.
+  description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
     state: standard-plating

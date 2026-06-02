@@ -3,8 +3,8 @@
 - type: entity
   parent: CrateScienceSecure
   id: CrateScienceBiosuit
-  name: scientist bio suit crate
-  description: Contains 2 biohazard suits to ensure that no disease will distract you from doing science. Requires Science access to open.
+  name: caisse de combinaisons biologiques de scientifiques
+  description: Contient 2 combinaisons biologiques pour qu'aucune maladie ne vous détourne de la science. Nécessite l'accès science pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -19,8 +19,8 @@
 - type: entity
   parent: CrateScienceSecure
   id: CrateCrewMonitoring
-  name: crew monitoring crate
-  description: Contains a flatpack of a crew monitoring server and a few crew monitoring computers. Requires Science access to open.
+  name: caisse de surveillance d'équipage
+  description: Contient un kit de serveur de surveillance d'équipage et quelques ordinateurs de surveillance. Nécessite l'accès science pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:

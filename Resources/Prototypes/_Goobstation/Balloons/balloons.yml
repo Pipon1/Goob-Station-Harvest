@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: base balloon
+  name: ballon de base
   parent: BaseStructureDynamic
   id: BaseBalloonTD      # Base balloon
   abstract: true # Make sure it doesn't appear
@@ -38,9 +38,9 @@
 
 # Red Balloon
 - type: entity
-  name: red balloon
+  name: ballon rouge
   parent: BaseBalloonTD
-  description: The weakest balloon.
+  description: Le ballon le plus faible.
   id: RedBalloon
   components:
   - type: Sprite
@@ -67,9 +67,9 @@
 
 # Blue Balloon
 - type: entity
-  name: blue balloon
+  name: ballon bleu
   parent: BaseBalloonTD
-  description: A pretty chill balloon.
+  description: Un ballon plutôt cool.
   id: BlueBalloon
   components:
   - type: Sprite
@@ -99,9 +99,9 @@
 
 # Green Balloon
 - type: entity
-  name: green balloon
+  name: ballon vert
   parent: BaseBalloonTD
-  description: The most strategically minded balloon of the bunch. Capable of planning advanced waves, if only it had a track to follow.
+  description: Le ballon le plus stratégique du groupe. Capable de planifier des vagues avancées, si seulement il avait un terrain à suivre.
   id: GreenBalloon
   components:
   - type: Sprite
@@ -131,9 +131,9 @@
 
 # Yellow Balloon
 - type: entity
-  name: yellow balloon
+  name: ballon jaune
   parent: BaseBalloonTD
-  description: The greediest balloon, always flaunting its wealth to the other balloons.
+  description: Le ballon le plus avide, toujours à étaler sa richesse devant les autres ballons.
   id: YellowBalloon
   components:
   - type: Sprite
@@ -163,9 +163,9 @@
 
 # Pink Balloon
 - type: entity
-  name: pink balloon
+  name: ballon rose
   parent: BaseBalloonTD
-  description: The most annoying and insufferable balloon.
+  description: Le ballon le plus agaçant et insupportable.
   id: PinkBalloon
   components:
   - type: Sprite
@@ -195,9 +195,9 @@
 
 # Black Balloon
 - type: entity
-  name: black balloon
+  name: ballon noir
   parent: BaseBalloonTD
-  description: The edgiest balloon, never grew out of its emo phase. Immune to heat and shock damage!
+  description: Le ballon le plus edgy, jamais sorti de sa phase emo. Immunisé aux dégâts de chaleur et d'électricité !
   id: BlackBalloon
   components:
   - type: Sprite
@@ -228,9 +228,9 @@
         acts: [ "Destruction" ]
 # White Balloon
 - type: entity
-  name: white balloon
+  name: ballon blanc
   parent: BaseBalloonTD
-  description: The most emotionless balloon. Isn't even given a proper name, only a purpose. Immune to cold damage!
+  description: Le ballon le plus impassible. On ne lui donne même pas un vrai nom, seulement un but. Immunisé aux dégâts de froid !
   id: WhiteBalloon
   components:
   - type: Sprite
@@ -262,9 +262,9 @@
 
 # Zebra Balloon
 - type: entity
-  name: zebra balloon
+  name: ballon zèbre
   parent: BaseBalloonTD
-  description: Belongs in a zoo. Immune to all burn damage!
+  description: Sa place est dans un zoo. Immunisé à tous les dégâts de brûlure !
   id: ZebraBalloon
   components:
   - type: Sprite
@@ -299,9 +299,9 @@
 
 # steel balloon
 - type: entity
-  name: steel balloon
+  name: ballon d'acier
   parent: BaseBalloonTD
-  description: The most armored balloon. So feared that even animals don't attack it. Immune to brute damage!
+  description: Le ballon le plus blindé. Si redouté que même les animaux ne l'attaquent pas. Immunisé aux dégâts contondants !
   id: SteelBalloon
   components:
   - type: Sprite
@@ -336,9 +336,9 @@
 
 # rainbow balloon
 - type: entity
-  name: rainbow balloon
+  name: ballon arc-en-ciel
   parent: BaseBalloonTD
-  description: The most evil balloon of them all. Don't let the pretty colors fool you.
+  description: Le ballon le plus maléfique de tous. Ne vous laissez pas tromper par ses jolies couleurs.
   id: RainbowBalloon
   components:
   - type: Sprite
@@ -367,9 +367,9 @@
         acts: [ "Destruction" ]
         # Bloons 2
 - type: entity
-  name: carp balloon
+  name: ballon carpe
   parent: BaseBalloonTD
-  description: Is it a combination of balloon and carp DNA? Or a balloon in a carp suit? Nobody knows.
+  description: Est-ce une combinaison d'ADN de ballon et de carpe ? Ou un ballon dans un costume de carpe ? Nul ne le sait.
   id: CeramicBalloon
   components:
   - type: Sprite

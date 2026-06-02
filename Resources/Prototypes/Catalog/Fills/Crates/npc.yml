@@ -3,8 +3,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCBee
-  name: crate of bees
-  description: A crate containing a swarm of eight bees.
+  name: caisse d'abeilles
+  description: Une caisse contenant un essaim de huit abeilles.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCButterflies
-  name: crate of butterflies
-  description: A crate containing five butterflies.
+  name: caisse de papillons
+  description: Une caisse contenant cinq papillons.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -27,8 +27,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCCat
-  name: cat crate
-  description: A crate containing a single cat.
+  name: caisse de chat
+  description: Une caisse contenant un seul chat.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -46,8 +46,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCChicken
-  name: chicken crate
-  description: A crate containing four fully grown chickens.
+  name: caisse de poulets
+  description: Une caisse contenant quatre poulets adultes.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCCrab
-  name: crab crate
-  description: A crate containing three huge crabs.
+  name: caisse de crabes
+  description: Une caisse contenant trois énormes crabes.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -70,8 +70,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCDuck
-  name: duck crate
-  description: A crate containing six fully grown ducks.
+  name: caisse de canards
+  description: Une caisse contenant six canards adultes.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCCorgi
-  name: corgi crate
-  description: A crate containing a single corgi.
+  name: caisse de corgi
+  description: Une caisse contenant un seul corgi.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCPuppyCorgi
-  name: puppy corgi crate
-  description: A crate containing a single puppy corgi. Awww.
+  name: caisse de chiot corgi
+  description: Une caisse contenant un seul chiot corgi. Awww.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -107,8 +107,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCCow
-  name: cow crate
-  description: A crate containing a single cow.
+  name: caisse de vache
+  description: Une caisse contenant une seule vache.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -118,8 +118,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCGoat
-  name: goat crate
-  description: A crate containing a single goat.
+  name: caisse de chèvre
+  description: Une caisse contenant une seule chèvre.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -129,8 +129,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCGoose
-  name: goose crate
-  description: A crate containing two geese.
+  name: caisse d'oies
+  description: Une caisse contenant deux oies.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -141,8 +141,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCGorilla
-  name: gorilla crate
-  description: A crate containing a single gorilla.
+  name: caisse de gorille
+  description: Une caisse contenant un seul gorille.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -152,8 +152,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateNPCMonkeyCube
-  name: monkey cube crate
-  description: A crate containing single box of monkey cubes.
+  name: caisse de cubes de singe
+  description: Une caisse contenant une seule boîte de cubes de singe.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateNPCKoboldCube
-  name: kobold cube crate
-  description: A crate containing single box of kobold cubes.
+  name: caisse de cubes de kobold
+  description: Une caisse contenant une seule boîte de cubes de kobold.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -174,8 +174,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCMouse
-  name: mice crate
-  description: A crate containing five mice.
+  name: caisse de souris
+  description: Une caisse contenant cinq souris.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -186,8 +186,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCParrot
-  name: parrot crate
-  description: A crate containing three parrots.
+  name: caisse de perroquets
+  description: Une caisse contenant trois perroquets.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -198,8 +198,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCPenguin
-  name: penguin crate
-  description: A crate containing two penguins.
+  name: caisse de pingouins
+  description: Une caisse contenant deux pingouins.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -210,8 +210,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCPig
-  name: pig crate
-  description: A crate containing a single pig.
+  name: caisse de cochon
+  description: Une caisse contenant un seul cochon.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -221,8 +221,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCSnake
-  name: snake crate
-  description: A crate containing three snakes.
+  name: caisse de serpents
+  description: Une caisse contenant trois serpents.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: CrateRodentCage
   id: CrateNPCHamster
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: EntityTableContainerFill
     containers:
@@ -256,8 +256,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCLizard
-  name: lizard crate
-  description: A crate containing a lizard.
+  name: caisse de lézard
+  description: Une caisse contenant un lézard.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -267,8 +267,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCKangaroo
-  name: kangaroo crate
-  description: A crate containing a kangaroo.
+  name: caisse de kangourou
+  description: Une caisse contenant un kangourou.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -278,8 +278,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCMothroach
-  name: crate of mothroaches
-  description: A crate containing four mothroaches.
+  name: caisse de blattémites
+  description: Une caisse contenant quatre blattémites.
   components:
   - type: EntityTableContainerFill
     containers:

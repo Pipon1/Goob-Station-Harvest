@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: cartouche (.30 fusil)
   components:
   - type: Tag
     tags:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseCartridgeLightRifle
   id: CartridgeLightRifle
-  name: cartridge (.30 rifle)
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
+  name: cartouche (.30 fusil)
+  description: Une cartouche intermédiaire classique utilisée par de nombreux fusils de combat et mitrailleuses légères. Les munitions cinétiques standard sont courantes et utiles dans la plupart des situations.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifle
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseCartridgeLightRifle
   id: CartridgeLightRiflePractice
-  name: cartridge (.30 rifle practice)
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: cartouche (.30 fusil entraînement)
+  description: Une cartouche intermédiaire classique utilisée par de nombreux fusils de combat et mitrailleuses légères. Les munitions à craie sont généralement inoffensives, utilisées pour l'entraînement.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRiflePractice
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseCartridgeLightRifle
   id: CartridgeLightRifleIncendiary
-  name: cartridge (.30 rifle incendiary)
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+  name: cartouche (.30 fusil incendiaire)
+  description: Une cartouche intermédiaire classique utilisée par de nombreux fusils de combat et mitrailleuses légères. Les munitions incendiaires contiennent un composé à auto-allumage qui embrase la cible.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleIncendiary
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseCartridgeLightRifle
   id: CartridgeLightRifleUranium
-  name: cartridge (.30 rifle uranium)
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+  name: cartouche (.30 fusil uranium)
+  description: Une cartouche intermédiaire classique utilisée par de nombreux fusils de combat et mitrailleuses légères. Les munitions à uranium remplacent le noyau de plomb de la balle par du matériau fissile, irradiant la cible de l'intérieur.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleUranium

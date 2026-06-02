@@ -15,8 +15,8 @@
 - type: entity
   parent: [ BaseKey, BaseSecurityContraband ]
   id: VehicleKeySecway
-  name: secway keys
-  description: The keys to the future.
+  name: clés du secway
+  description: Les clés du futur.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/secway.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: [ BaseKey, BaseSyndicateContraband ]
   id: VehicleKeySyndicateSegway
-  name: syndicate segway keys
-  description: Patterned after the iconic EMAG design.
+  name: clés du segway syndical
+  description: Inspiré du design iconique EMAG.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/syndicatesegway.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeyATV
-  name: ATV keys
-  description: Think this looks like just one key? ATV keys means "actually two vehicle keys."
+  name: clés du VTT
+  description: Vous croyez que c'est une seule clé ? ATV signifie "actuellement deux clés de véhicule."
   components:
   - type: Sprite
     sprite: Objects/Vehicles/atv.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeyJanicart
-  name: janicart keys
-  description: Interesting design.
+  name: clés du janicart
+  description: Design intéressant.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseKey
   id: VehicleKeyForklift
-  name: forklift keys
-  description: Keys to the lift!
+  name: clés du chariot élévateur
+  description: Les clés du monte-charge !
   components:
   - type: Sprite
     sprite: Objects/Vehicles/atv.rsi

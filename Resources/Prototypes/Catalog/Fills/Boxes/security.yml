@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: MIT
 
 - type: entity
-  name: handcuff box
+  name: boîte de menottes
   parent: BoxCardboard
   id: BoxHandcuff
-  description: A box full of handcuffs.
+  description: Une boîte pleine de menottes.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -17,10 +17,10 @@
     - state: handcuff
 
 - type: entity
-  name: ziptie box
+  name: boîte de serflex
   parent: BoxCardboard
   id: BoxZiptie
-  description: A box full of zipties.
+  description: Une boîte pleine de serflex.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -33,7 +33,7 @@
     - state: ziptie
 
 - type: entity
-  name: flashbang box
+  name: boîte de grenades aveuglantes
   parent: BoxCardboard
   id: BoxFlashbang
   description: 'WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use.'
@@ -49,10 +49,10 @@
     - state: flashbang
 
 - type: entity
-  name: stinger grenade box
+  name: boîte de grenades stinger
   parent: BoxCardboard
   id: BoxStinger
-  description: A box full of stinger grenades. Disperse!
+  description: Une boîte pleine de grenades stinger. Dispersez-vous !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -65,10 +65,10 @@
     - state: flashbang
 
 - type: entity
-  name: tear gas grenade box
+  name: boîte de grenades lacrymogènes
   parent: BoxCardboard
   id: BoxTearGas
-  description: A box full of tear gas grenades. Hold your breath.
+  description: Une boîte pleine de grenades lacrymogènes. Retenez votre souffle.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -81,10 +81,10 @@
     - state: flashbang
 
 - type: entity
-  name: sechud box
+  name: boîte de visières de sécurité
   parent: BoxCardboard
   id: BoxSechud
-  description: A box of sechuds.
+  description: Une boîte de visières de sécurité.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -97,10 +97,10 @@
     - state: sechud
 
 - type: entity
-  name: secglasses box
+  name: boîte de lunettes de sécurité
   parent: BoxCardboard
   id: BoxSecglasses
-  description: A box of security glasses.
+  description: Une boîte de lunettes de sécurité.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -113,10 +113,10 @@
     - state: secglasses
 
 - type: entity
-  name: sunglasses box
+  name: boîte de lunettes de soleil
   parent: BoxCardboard
   id: BoxSunglasses
-  description: A box of cool flash-proof sunglasses.
+  description: Une boîte de lunettes de soleil résistantes aux flashs.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -129,10 +129,10 @@
     - state: sunglasses
 
 - type: entity
-  name: forensic pad box
+  name: boîte de tampons médico-légaux
   parent: BoxCardboard
   id: BoxForensicPad
-  description: A box of forensic pads.
+  description: Une boîte de tampons médico-légaux.
   components:
   - type: Item
     shape:

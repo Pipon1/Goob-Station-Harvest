@@ -2,7 +2,7 @@
 
 - type: entity
   parent: Bible
-  name: Quaran
+  name: Coran
   description: "Inshallah."
   id: BibleQuaran
   components:
@@ -14,7 +14,7 @@
 #- type: entity Goobstation replaced by upstream keeping here in case shit breaks.
 #  parent: Bible
 #  name: Tanakh
-#  description: "Choose life, that you and your offspring may live."
+#  description: "Choisis la vie, afin que tu vives, toi et ta descendance."
 #  id: BibleTanakh
 #  components:
 #  - type: Sprite
@@ -33,8 +33,8 @@
 
 - type: entity
   parent: Bible
-  name: clockwork slab
-  description: A strange metal tablet. A clock in the center turns around and around.
+  name: Dalle de l'Horlogerie
+  description: Une étrange tablette métallique. Une horloge en son centre tourne encore et encore.
   id: BibleSlabClockwork
   components:
   - type: Sprite
@@ -44,8 +44,8 @@
 
 - type: entity
   parent: Bible
-  name: slavic-Aryan Vedas
-  description: A book of the new religious movement Ynglism, one of the Slavic neopaganisms.
+  name: Védas slavo-aryens
+  description: Un livre du nouveau mouvement religieux qu'est l'Ynglisme, l'un des néopaganismes slaves.
   id: BibleVeda
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 
 - type: entity
   parent: Bible
-  name: book of veles
-  description: It plays a significant role in many directions of Slavic neopaganism, where it is used as a basis and proof of neopagan religiosity.
+  name: Livre de Veles
+  description: Il joue un rôle important dans de nombreuses branches du néopaganisme slave, où il est utilisé comme fondement et preuve de la religiosité néopaïenne.
   id: BibleVelesBook
   components:
   - type: Sprite

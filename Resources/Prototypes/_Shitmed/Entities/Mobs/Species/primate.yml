@@ -5,7 +5,7 @@
   parent: BaseSpeciesDummy
   id: MobMonkeyDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy monkey meant to be used in character setup.
+  description: Un singe factice destiné à la configuration de personnage.
   components:
   - type: Icon
     sprite: Mobs/Animals/monkey.rsi
@@ -26,7 +26,7 @@
   parent: BaseSpeciesDummy
   id: MobKoboldDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy kobold meant to be used in character setup.
+  description: Un kobold factice destiné à la configuration de personnage.
   components:
   - type: Icon
     sprite: Mobs/Animals/kobold.rsi

@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseMechAction
   id: ActionMechCycleEquipment
-  name: Cycle
-  description: Cycles currently selected equipment
+  name: Faire défiler
+  description: Fait défiler l'équipement actuellement sélectionné
   components:
   - type: Action
     useDelay: 0.5
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseMechAction
   id: ActionMechOpenUI
-  name: Control Panel
-  description: Opens the control panel for the mech
+  name: Panneau de contrôle
+  description: Ouvre le panneau de contrôle du mech
   components:
   - type: Action
     useDelay: 1
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseMechAction
   id: ActionMechEject
-  name: Eject
-  description: Ejects the pilot from the mech
+  name: Éjecter
+  description: Éjecte le pilote du mech
   components:
   - type: Action
     icon:

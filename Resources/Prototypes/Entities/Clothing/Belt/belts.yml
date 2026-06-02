@@ -5,8 +5,8 @@
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase, BaseCommandContraband]
   id: ClothingBeltSheath
-  name: sabre sheath
-  description: An ornate sheath designed to hold an officer's blade.
+  name: fourreau de sabre
+  description: Un fourreau orné conçu pour accueillir la lame d'un officier.
   components:
   - type: Sprite
     sprite: Clothing/Belt/sheath.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: [ClothingBeltAmmoProviderBase, BaseSecurityBartenderContraband]
   id: ClothingBeltBandolier
-  name: bandolier
-  description: A bandolier for holding shotgun ammunition.
+  name: bandoulière
+  description: Une bandoulière pour transporter des munitions de fusil à pompe.
   components:
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseMagicalContraband ]
   id: ClothingBeltWand
-  name: wand belt
-  description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
+  name: ceinture de champion
+  description: Prouve au monde entier que vous êtes le plus fort !
   components:
   - type: Sprite
     sprite: Clothing/Belt/wand.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: ClothingBeltSecurity
   id: ClothingBeltSecurityWebbing
-  name: security carrier
-  description: Unique and versatile chest rig, can hold security gear.
+  name: harnais de sécurité
+  description: Gilet tactique unique et polyvalent, peut contenir l'équipement de sécurité.
   components:
   - type: Sprite
     sprite: Clothing/Belt/securitywebbing.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseSecurityCargoContraband ]
   id: ClothingBeltMercWebbing
-  name: mercenary webbing
-  description: Ideal for storing everything from ammo to weapons and combat essentials.
+  name: harnais de mercenaire
+  description: Idéal pour tout ranger, des munitions aux armes en passant par les essentiels du combat.
   components:
   - type: Sprite
     sprite: Clothing/Belt/mercwebbing.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSalvageWebbing
-  name: salvage rig
-  description: Universal unloading system for work in space.
+  name: harnais de récupération
+  description: Système de déchargement universel pour le travail dans l'espace.
   components:
   - type: Sprite
     sprite: Clothing/Belt/salvagewebbing.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
   id: ClothingBeltMilitaryWebbing
-  name: chest rig
-  description: A set of tactical webbing worn by Syndicate boarding parties.
+  name: gilet tactique
+  description: Un ensemble de sangles tactiques porté par les groupes d'assaut du Syndicat.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbing.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: ClothingBeltMilitaryWebbing
   id: ClothingBeltMilitaryWebbingMed
-  name: medical chest rig
-  description: A set of tactical webbing worn by Gorlex Marauder medic operatives.
+  name: gilet tactique médical
+  description: Un ensemble de sangles tactiques porté par les agents médecins des Maraudeurs Gorlex.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbingmed.rsi
@@ -241,8 +241,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingBeltMilitaryWebbing ] # Goobstation
   id: ClothingBeltMilitaryWebbingERT
-  name: ERT chest rig
-  description: A set of tactical webbing worn by Emergency Response Team operatives.
+  name: Gilet tactique ERT
+  description: Un ensemble de sangles tactiques porté par les opérateurs de l'équipe d'intervention d'urgence.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbingert.rsi

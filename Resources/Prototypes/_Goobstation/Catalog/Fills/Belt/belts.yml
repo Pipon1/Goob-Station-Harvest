@@ -2,7 +2,7 @@
 
 - type: entity
   parent: ClothingBeltMilitaryWebbingCMO
-  suffix: Filled, DO NOT MAP
+  suffix: Rempli, NE PAS PLACER
   id: ClothingBeltMilitaryWebbingCMOFilled
   components:
   - type: StorageFill
@@ -20,10 +20,10 @@
 
 - type: entity
   parent: [ ClothingBeltDeathsquadWebbing, BaseCentcommContraband ]
-  suffix: Filled, DO NOT MAP
+  suffix: Rempli, NE PAS PLACER
   id: ClothingBeltDeathsquadWebbingFilled
-  name: deathsquad operative chestrig
-  description: "A robust and durable chestrig, containing everything you need to keep you in the fight. You probably won't need to use it."
+  name: gilet tactique d'opératif escadron de la mort
+  description: "Un gilet tactique robuste et durable, contenant tout ce dont vous avez besoin pour rester dans la bataille. Vous n'aurez probablement pas besoin de l'utiliser."
   components:
   - type: StorageFill
     contents:
@@ -44,7 +44,7 @@
 - type: entity
   id: ClothingBeltHolsterFilledCentComm
   parent: ClothingBeltHolster
-  suffix: Filled, N1984
+  suffix: Rempli, N1984
   components:
   - type: EntityTableContainerFill
     containers:
@@ -58,7 +58,7 @@
 - type: entity
   id: ClothingBeltSecurityWebbingFilledMedical
   parent: [ClothingBeltSecurityWebbingMedical, BaseCentcommContraband]
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   id: ClothingBeltSheathFilledNavyOfficer
   parent: ClothingBeltSheath
-  suffix: Filled, Navy Officer
+  suffix: Rempli, Officier de Marine
   components:
   - type: ContainerFill
     containers:
@@ -87,7 +87,7 @@
 - type: entity
   id: ClothingBeltSheathHeadOfSecurityFilled
   parent: ClothingBeltSheathHeadOfSecurity
-  suffix: Filled, Head Of Security
+  suffix: Rempli, Chef de la Sécurité
   components:
   - type: ContainerFill
     containers:
@@ -107,7 +107,7 @@
 - type: entity
   id: ClothingBeltCorporateJudoFilled
   parent: ClothingBeltCorporateJudo
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: EntityTableContainerFill
     containers:
@@ -117,9 +117,9 @@
 - type: entity
   id: ClothingBeltHolsterFilledChaplain
   parent: ClothingBeltBase
-  name: Chaplains' Holster
-  description: A shoulder holster from the Gods. Contains a set of dual pistols.
-  suffix: Filled, Chaplain
+  name: Holster des Chapelains
+  description: Un holster d'épaule venu des Dieux. Contient une paire de pistolets jumeaux.
+  suffix: Rempli, Chapelain
   components:
   - type: Item
     size: Ginormous
@@ -180,7 +180,7 @@
 - type: entity
   id: ClothingBeltMilitaryWebbingFilled
   parent: ClothingBeltMilitaryWebbing
-  suffix: Filled, BSO
+  suffix: Rempli, BSO
   components:
   - type: EntityTableContainerFill
     containers:
@@ -190,7 +190,7 @@
 - type: entity
   parent: ChemBag
   id: ChemBagFilled
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: StorageFill
     contents:
@@ -203,7 +203,7 @@
 - type: entity
   parent: ClothingBeltChemBagSyndi
   id: ClothingBeltChemBagSyndiFilled
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: StorageFill
     contents:
@@ -225,7 +225,7 @@
 - type: entity
   id: ClothingBeltHolsterFilledBlueshield
   parent: ClothingBeltHolster
-  suffix: Filled, EG-4
+  suffix: Rempli, EG-4
   components:
   - type: EntityTableContainerFill
     containers:
@@ -240,7 +240,7 @@
 - type: entity
   id: ClothingBeltMilitaryRigGrenadierFilled
   parent: ClothingBeltMilitaryRigGrenadier
-  suffix: Grenadier bundle, filled
+  suffix: Paquet Grenadier, rempli
   components:         # How many nades do you want?
   - type: StorageFill # Yes.
     contents:         # If seriously this is like 100 TC worth of explosives.

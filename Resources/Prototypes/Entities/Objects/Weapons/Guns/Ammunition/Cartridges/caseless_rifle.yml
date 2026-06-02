@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: BaseCartridgeCaselessRifle
-  name: cartridge (9.5mm) # Goob edit
+  name: cartouche (9.5mm) # Goob edit
   components:
   - type: Tag
     tags:
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRifle
-  name: cartridge (9.5mm HP) # Goob edit
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
+  name: cartouche (9.5mm HP) # Goob edit
+  description: Un petit calibre utilisant la technologie sans douille, remplaçant l'étui en laiton conventionnel par un propulseur durci. Les munitions cinétiques standard sont courantes et utiles dans la plupart des situations.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRifle
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRiflePractice
-  name: cartridge (9.5mm practice) # Goob edit
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: cartouche (9.5mm entraînement) # Goob edit
+  description: Un petit calibre utilisant la technologie sans douille, remplaçant l'étui en laiton conventionnel par un propulseur durci. Les munitions à craie sont généralement inoffensives, utilisées pour l'entraînement.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRiflePractice

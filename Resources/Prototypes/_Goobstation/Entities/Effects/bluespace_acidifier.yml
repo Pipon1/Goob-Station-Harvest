@@ -3,8 +3,8 @@
 - type: entity
   parent: Acidifier
   id: BluespaceLifeline
-  name: bluespace lifeline
-  description: Teleports your body to save your life!
+  name: ligne de vie bluespace
+  description: Téléporte votre corps pour sauver votre vie !
   components:
   - type: Transform
     anchored: True
@@ -26,8 +26,8 @@
 - type: entity
   parent: BluespaceLifeline
   id: BluespaceLifelineSpawnCore
-  name: bluespace lifeline
-  description: Teleports your body to save your life!
+  name: ligne de vie bluespace
+  description: Téléporte votre corps pour sauver votre vie !
   components:
   - type: Transform
     anchored: True

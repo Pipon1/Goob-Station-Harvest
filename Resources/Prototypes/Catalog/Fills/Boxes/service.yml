@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: cleanades box
+  name: boîte de grenades nettoyantes
   parent: BoxCardboard
   id: BoxCleanerGrenades
-  description: A box full of cleanades.
+  description: Une boîte pleine de grenades nettoyantes.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -17,10 +17,10 @@
       - state: flashbang
 
 - type: entity
-  name: NT "AgriChem Is Fun" kit
+  name: Kit NT « L'AgroChimie, c'est Fun »
   parent: BoxCardboard
   id: BoxAgrichem
-  description: For the budding botanist ready to learn about maximizing farm output. This faded box must be at least 50 years old.
+  description: Pour le botaniste en herbe prêt à apprendre à maximiser les rendements agricoles. Cette boîte fanée doit avoir au moins 50 ans.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,7 +47,7 @@
 - type: entity
   parent: BoxLightbulb
   id: BoxLightbulbColorfulMixed
-  name: mixed colorful lightbulb box
+  name: boîte d'ampoules colorées mixtes
   components:
   - type: EntityTableContainerFill
     containers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: BoxLighttube
   id: BoxLighttubeColorfulMixed
-  name: mixed colorful lighttube box
+  name: boîte de tubes colorés mixtes
   components:
   - type: EntityTableContainerFill
     containers:

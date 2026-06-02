@@ -6,7 +6,7 @@
   abstract: true
   parent: BaseItem
   id: BaseSoap
-  name: soap
+  name: savon
   components:
   - type: Tag
     tags:
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseSoap
   id: Soap
-  description: A cheap bar of soap. Doesn't smell.
+  description: Un savon bon marché. Inodore.
   components:
   - type: Sprite
     layers:
@@ -91,7 +91,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapNT
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: Un savon de marque Nanotrasen. Sent le plasma.
   components:
   - type: Sprite
     layers:
@@ -114,7 +114,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapDeluxe
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: Un savon de luxe de marque Waffle Co. Sent la fraise.
   components:
   - type: Sprite
     layers:
@@ -130,7 +130,7 @@
 - type: entity
   parent: [BaseSoap, BaseSyndicateContraband]
   id: SoapSyndie
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: Un savon peu fiable. Sent la peur.
   components:
   - type: Sprite
     layers:
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseSoap
   id: SoapletSyndie
-  name: soaplet
-  description: A tiny piece of syndicate soap.
+  name: savonette
+  description: Un minuscule morceau de savon du syndicat.
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager
@@ -214,7 +214,7 @@
 - type: entity
   parent: BaseSoap
   id: SoapHomemade
-  description: A homemade bar of soap. Smells of... well....
+  description: Un savon fait maison. Sent le... eh bien....
   components:
   - type: Sprite
     layers:
@@ -238,8 +238,8 @@
 - type: entity
   parent: BaseSoap
   id: SoapOmega
-  name: omega soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  name: oméga savon
+  description: Le savon le plus avancé connu de l'humanité. Sent le bluespace.
   components:
   - type: Sprite
     layers:

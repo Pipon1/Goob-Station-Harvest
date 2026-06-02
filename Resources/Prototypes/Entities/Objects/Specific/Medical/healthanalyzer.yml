@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: HandheldHealthAnalyzer
-  name: health analyzer
-  description: A hand-held body scanner capable of distinguishing vital signs of the subject.
+  name: analyseur de santé
+  description: Un scanner corporel portatif capable de distinguer les signes vitaux du sujet.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/healthanalyzer.rsi

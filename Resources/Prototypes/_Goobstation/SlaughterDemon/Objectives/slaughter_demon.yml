@@ -80,7 +80,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: AnnihilateAllJanitorsObjectiveFluff
-  description: Wipe out all Janitors and their synthetic kin, no broom shall stand.
+  description: Éliminez tous les Techniciens de Surface et leur parenté synthétique. Aucun balai ne doit tenir debout.
   components:
   - type: Objective
     icon:
@@ -92,7 +92,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: SpareCrewObjectiveFluff
-  description: Let some survive… only to suffer longer.
+  description: Laissez-en quelques-uns survivre... seulement pour souffrir plus longtemps.
   components:
   - type: Objective
     icon:
@@ -104,7 +104,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: HuntTheBraveObjectiveFluff
-  description: Find and punish those foolish enough to face you.
+  description: Trouvez et punissez ceux qui ont été assez fous pour vous affronter.
   components:
   - type: Objective
     icon:
@@ -116,7 +116,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: HuntTheCowardsObjectiveFluff
-  description: Track down the ones who run, fear only prolongs their agony.
+  description: Débusquez ceux qui fuient — la peur ne fait que prolonger leur agonie.
   components:
   - type: Objective
     icon:
@@ -128,7 +128,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: ShowCrewPowerObjectiveFluff
-  description: Let them witness your awful might firsthand.
+  description: Laissez-les être témoins de votre terrible puissance en personne.
   components:
   - type: Objective
     icon:
@@ -141,7 +141,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: DriveInsaneObjectiveFluff
-  description: Whisper they break, madness is your gift.
+  description: Murmurez jusqu'à ce qu'ils craquent — la folie est votre cadeau.
   components:
   - type: Objective
     icon:
@@ -154,7 +154,7 @@
 - type: entity
   parent: SlaughterFluffBaseObjective
   id: SpreadBloodObjectiveFluff
-  description: Paint it in red, let no clean tile remain.
+  description: Peignez-le en rouge — qu'aucune tuile propre ne subsiste.
   components:
   - type: Objective
     icon:

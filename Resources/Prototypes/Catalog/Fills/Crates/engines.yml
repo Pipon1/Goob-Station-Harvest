@@ -4,8 +4,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringAMEShielding
-  name: packaged antimatter reactor crate
-  description: 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
+  name: caisse de réacteur antimatière emballé
+  description: 9 pièces pour le corps principal d'un réacteur antimatière, ou pour en agrandir un existant.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -16,8 +16,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringAMEJar
-  name: antimatter containment jar crate
-  description: 3 antimatter jars, for fuelling an antimatter reactor.
+  name: caisse de jarres de confinement antimatière
+  description: 3 jarres d'antimatière pour alimenter un réacteur antimatière.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -28,8 +28,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringAMEControl
-  name: antimatter control unit crate
-  description: The control unit of an antimatter reactor.
+  name: caisse d'unités de contrôle antimatière
+  description: L'unité de contrôle d'un réacteur antimatière.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringSingularityEmitter
-  name: emitter crate
-  description: An emitter, best used for singularity engines.
+  name: caisse d'émetteurs
+  description: Un émetteur, idéal pour les moteurs à singularité.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -52,8 +52,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringSingularityCollector
-  name: radiation collector crate
-  description: A radiation collector, best used for singularity engines. Plasma is included.
+  name: caisse de collecteurs de radiation
+  description: Un collecteur de radiation, idéal pour les moteurs à singularité. Le plasma est inclus.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -65,8 +65,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringSingularityContainment
-  name: containment field generator crate
-  description: A containment field generator, keeps the singulo in submission.
+  name: caisse de générateurs de champ de confinement
+  description: Un générateur de champ de confinement, qui maintient la singularité sous contrôle.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringSingularityGenerator
-  name: singularity generator crate
-  description: A singularity generator, the mother of the beast.
+  name: caisse de générateurs de singularité
+  description: Un générateur de singularité, la mère de la bête.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -89,8 +89,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringParticleAccelerator
-  name: PA board crate
-  description: Complex to setup, but rewarding as fuck. Contains boards for all particle accelerator components.
+  name: caisse de cartes d'accélérateur de particules
+  description: Complexe à configurer, mais très gratifiant. Contient les cartes pour tous les composants de l'accélérateur de particules.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -121,7 +121,7 @@
   parent: CrateEngineering
   id: CrateEngineeringGenerator
   name:  generator crate
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: EntityTableContainerFill
     containers:
@@ -131,8 +131,8 @@
 - type: entity
   parent: CrateEngineering
   id: CrateEngineeringSolar
-  name: solar assembly crate
-  description: A kit with solar flatpacks and glass to construct ten solar panels.
+  name: caisse d'assemblages solaires
+  description: Un kit avec des panneaux solaires en kit et du verre pour construire dix panneaux solaires.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -146,8 +146,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringShuttle
-  name: shuttle powering crate
-  description: A crate containing all needs for shuttle powering.
+  name: caisse d'alimentation de navette
+  description: Une caisse contenant tout le nécessaire pour alimenter une navette en énergie.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -161,8 +161,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringTeslaGenerator
-  name: tesla generator crate
-  description: A tesla generator. God save you.
+  name: caisse de générateur Tesla
+  description: Un générateur Tesla. Que Dieu vous vienne en aide.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -172,8 +172,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringTeslaCoil
-  name: tesla coil crate
-  description: Tesla coil. Attracts lightning and generates energy from it.
+  name: caisse de bobines Tesla
+  description: Bobine Tesla. Attire la foudre et en génère de l'énergie.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringTeslaGroundingRod
-  name: tesla grounding rod crate
-  description: Grounding rod, best for lightning protection.
+  name: caisse de tiges de mise à la terre Tesla
+  description: Tige de mise à la terre, idéale pour la protection contre la foudre.
   components:
   - type: EntityTableContainerFill
     containers:

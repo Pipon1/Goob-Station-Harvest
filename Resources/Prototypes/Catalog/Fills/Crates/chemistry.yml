@@ -3,8 +3,8 @@
 - type: entity
   parent: CrateChemistrySecure
   id: CrateChemistryP
-  name: chemicals crate (P)
-  description: Contains chemicals from the P-Block of elements. Requires Chemistry access to open.
+  name: caisse de produits chimiques (P)
+  description: Contient des produits chimiques du bloc P du tableau périodique. Nécessite l'accès à la chimie pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -24,8 +24,8 @@
 - type: entity
   parent: CrateChemistrySecure
   id: CrateChemistryS
-  name: chemicals crate (S)
-  description: Contains chemicals from the S-Block of elements. Requires Chemistry access to open.
+  name: caisse de produits chimiques (S)
+  description: Contient des produits chimiques du bloc S du tableau périodique. Nécessite l'accès à la chimie pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -40,8 +40,8 @@
 - type: entity
   parent: CrateChemistrySecure
   id: CrateChemistryD
-  name: chemicals crate (D)
-  description: Contains chemicals from the D-Block of elements. Requires Chemistry access to open.
+  name: caisse de produits chimiques (D)
+  description: Contient des produits chimiques du bloc D du tableau périodique. Nécessite l'accès à la chimie pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -56,8 +56,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePlantBGone
-  name: bulk Plant-B-Gone crate
-  description: From Monstano. "Unwanted Weeds, Meet Your Celestial Roundup!"
+  name: caisse de Plant-B-Gone en gros
+  description: De Monstano. « Mauvaises herbes indésirables, voici votre élimination céleste ! »
   components:
   - type: EntityTableContainerFill
     containers:

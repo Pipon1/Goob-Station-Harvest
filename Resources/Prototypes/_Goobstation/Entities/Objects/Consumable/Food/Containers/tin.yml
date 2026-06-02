@@ -5,7 +5,7 @@
   parent: FoodTinBase
   id: FoodBlackCaviar
   name: black caviar
-  description: A tin of black caviar with a convenient pull tab. Looks expensive.
+  description: Une boîte de caviar noir avec un onglet pratique. A l'air coûteux.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/black_caviar.rsi
@@ -36,7 +36,7 @@
   parent: FoodTinBase
   id: FoodRedCaviar
   name: red caviar
-  description: A tin of red caviar with a convenient pull tab.
+  description: "Une boîte de caviar rouge munie d'une languette d'ouverture pratique."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/red_caviar.rsi

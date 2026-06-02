@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseItem
   id: GlowstickBase
-  name: glowstick
-  description: Useful for raves and emergencies.
+  name: bâton lumineux vert
+  description: Utile pour les raves et les urgences.
   components:
   - type: SpaceGarbage
   - type: ExpendableLight
@@ -68,7 +68,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickRed
-  name: red glowstick
+  name: bâton lumineux rouge
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-red-glowstick-name
@@ -79,7 +79,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickPurple
-  name: purple glowstick
+  name: bâton lumineux violet
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-purple-glowstick-name
@@ -90,7 +90,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickYellow
-  name: yellow glowstick
+  name: bâton lumineux jaune
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-yellow-glowstick-name
@@ -101,7 +101,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickBlue
-  name: blue glowstick
+  name: bâton lumineux bleu
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-blue-glowstick-name

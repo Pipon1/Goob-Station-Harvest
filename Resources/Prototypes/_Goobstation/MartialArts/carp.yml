@@ -34,7 +34,7 @@
 
 - type: combo
   id: SleepingCarpGnashingTeeth
-  name: Gnashing Teeth
+  name: Dents Claquantes
   martialArtsForm: SleepingCarp
   attacks:
   - Harm
@@ -45,7 +45,7 @@
 
 - type: combo
   id: SleepingCarpKneeHaul
-  name: Knee Haul
+  name: Traction Genoux
   martialArtsForm: SleepingCarp
   attacks:
   - Harm
@@ -57,7 +57,7 @@
 
 - type: combo
   id: SleepingCarpCrashingWaves
-  name: Crashing Waves
+  name: Vagues Déferlantes
   martialArtsForm: SleepingCarp
   attacks:
   - Harm

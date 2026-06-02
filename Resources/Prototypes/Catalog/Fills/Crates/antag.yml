@@ -3,8 +3,8 @@
 - type: entity
   parent: CratePirate
   id: CratePirateChestCaptain
-  name: captains pirate chest
-  suffix: Filled
+  name: coffre de pirate du capitaine
+  suffix: Rempli
   components:
   - type: EntityTableContainerFill
     containers:
@@ -17,8 +17,8 @@
 - type: entity
   parent: CratePirate
   id: CratePirateChest
-  name: crews pirate chest
-  suffix: Filled
+  name: coffre de pirate de l'équipage
+  suffix: Rempli
   components:
   - type: EntityTableContainerFill
     containers:

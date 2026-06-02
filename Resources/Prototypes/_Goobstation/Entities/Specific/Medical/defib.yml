@@ -3,7 +3,7 @@
 - type: entity
   id: DefibrillatorCompactEmpty
   parent: DefibrillatorCompact
-  suffix: Empty
+  suffix: Vide
   components:
   - type: ItemSlots
     slots:

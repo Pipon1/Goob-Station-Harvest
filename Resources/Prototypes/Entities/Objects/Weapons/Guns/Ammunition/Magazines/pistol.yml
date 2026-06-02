@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistol
-  name: pistol magazine (.35 auto)
+  name: chargeur de pistolet (.35 auto)
   components:
   - type: Tag
     tags:
@@ -37,7 +37,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: chargeur de pistolet automatique (.35 auto)
   components:
   - type: Tag
     tags:
@@ -70,7 +70,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber
-  name: SMG magazine (.35 auto)
+  name: chargeur de pistolet-mitrailleur (.35 auto)
   components:
   - type: Tag
     tags:
@@ -102,8 +102,8 @@
 - type: entity
   parent: [ BaseItem, BaseSecurityContraband ]
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  name: chargeur de WT550 (.35 auto montage supérieur)
+  description: Chargeur d'alimentation par le dessus non conventionnel de 30 cartouches pour le PM WT550. Destiné aux munitions cinétiques polyvalentes.
   components:
   - type: Item
     storedRotation: 90
@@ -136,9 +136,9 @@
 - type: entity
   parent: MagazinePistolSubMachineGunTopMounted
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
-  suffix: empty
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  name: chargeur de WT550 (.35 auto montage supérieur universel)
+  suffix: vide
+  description: Chargeur d'alimentation par le dessus non conventionnel de 30 cartouches pour le PM WT550.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
-  description: 12-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition. #goobstation
+  name: chargeur de pistolet (.35 auto)
+  description: Chargeur simple rangée de 12 cartouches pour pistolets. Destiné aux munitions cinétiques polyvalentes. #goobstation
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -167,9 +167,9 @@
 - type: entity
   parent: MagazinePistol
   id: MagazinePistolEmpty
-  name: pistol magazine (.35 auto any)
+  name: chargeur de pistolet (.35 auto any)
   suffix: empty
-  description: 12-round single-stack magazine for pistols. #goobstation
+  description: Chargeur simple rangée de 12 cartouches pour pistolets. #goobstation
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -189,8 +189,8 @@
 - type: entity
   parent: MagazinePistol
   id: MagazinePistolIncendiary
-  name: pistol magazine (.35 auto incendiary)
-  description: 12-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition. #goobstation
+  name: chargeur de pistolet (.35 auto incendiaire)
+  description: Chargeur simple rangée de 12 cartouches pour pistolets. Destiné aux munitions incendiaires à auto-allumage. #goobstation
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -216,8 +216,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistolPractice
-  name: pistol magazine (.35 auto practice)
-  description: 12-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition. #goobstation
+  name: chargeur de pistolet (.35 auto entraînement)
+  description: Chargeur simple rangée de 12 cartouches pour pistolets. Destiné aux munitions à craie inoffensives. #goobstation
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -243,8 +243,8 @@
 - type: entity
   parent: BaseMagazinePistol
   id: MagazinePistolUranium
-  name: pistol magazine (.35 auto uranium)
-  description: 12-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition. #goobstation
+  name: chargeur de pistolet (.35 auto uranium)
+  description: "Chargeur simple rangée de 12 cartouches pour pistolets. Destiné aux munitions exotiques à noyau d'uranium." #goobstation
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -270,8 +270,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
+  name: chargeur de pistolets-mitrailleurs (.35 auto)
+  description: Chargeur double colonne de 30 cartouches pour pistolets-mitrailleurs. Destiné à contenir des munitions cinétiques polyvalentes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -293,9 +293,9 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunEmpty
-  name: SMG magazine (.35 auto any)
+  name: chargeur de pistolets-mitrailleurs (.35 auto universel)
   suffix: empty
-  description: 30-round double-stack magazine for submachine guns.
+  description: Chargeur double colonne de 30 cartouches pour pistolets-mitrailleurs.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -315,8 +315,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunPractice
-  name: SMG magazine (.35 auto practice)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold harmless practice ammunition.
+  name: chargeur de pistolets-mitrailleurs (.35 auto entraînement)
+  description: Chargeur double colonne de 30 cartouches pour pistolets-mitrailleurs. Destiné aux munitions à craie inoffensives.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -341,7 +341,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityRubber
-  name: machine pistol magazine (.35 auto rubber)
+  name: chargeur de pistolets-mitrailleurs (.35 auto caoutchouc)
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -356,8 +356,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunUranium
-  name: SMG magazine (.35 auto uranium)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
+  name: chargeur de pistolets-mitrailleurs (.35 auto uranium)
+  description: Chargeur double colonne de 30 cartouches pour pistolets-mitrailleurs. Destiné aux munitions exotiques à noyau d'uranium.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -383,8 +383,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunIncendiary
-  name: SMG magazine (.35 auto incendiary)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
+  name: chargeur de pistolet-mitrailleur (.35 auto incendiaire)
+  description: Chargeur double rangée de 30 cartouches pour pistolet-mitrailleur. Destiné aux munitions incendiaires à auto-allumage.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary

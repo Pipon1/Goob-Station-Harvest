@@ -3,8 +3,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialGlass
-  name: glass sheet crate
-  description: 90 sheets of glass, packed with care.
+  name: caisse de plaques de verre
+  description: 90 plaques de verre, emballées avec soin.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,8 +15,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSteel
-  name: steel sheet crate
-  description: 90 sheets of steel.
+  name: caisse de plaques d'acier
+  description: 90 plaques d'acier.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -27,8 +27,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialTextiles
-  name: textiles crate
-  description: 60 pieces of cloth and 30 pieces of durathread.
+  name: caisse de textiles
+  description: 60 pièces de tissu et 30 pièces de durafibre.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPlastic
-  name: plastic sheet crate
-  description: 90 sheets of plastic.
+  name: caisse de plaques plastique
+  description: 90 plaques de plastique.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialWood
-  name: wood crate
-  description: Bunch of wood planks.
+  name: caisse de bois
+  description: Un tas de planches en bois.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -64,8 +64,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialBrass
-  name: brass crate
-  description: 90 sheets of brass.
+  name: caisse de laiton
+  description: 90 plaques de laiton.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPlasteel
-  name: plasteel crate
-  description: 30 sheets of plasteel.
+  name: caisse de plastacier
+  description: 30 plaques de plastacier.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -87,8 +87,8 @@
 - type: entity
   parent: CratePlasma
   id: CrateMaterialPlasma
-  name: solid plasma crate
-  description: 30 sheets of plasma.
+  name: caisse de plasma solide
+  description: 30 plaques de plasma.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -98,8 +98,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialGold
-  name: gold crate
-  description: 30 bars of gold.
+  name: caisse d'or
+  description: 30 lingots d'or.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -109,8 +109,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSilver
-  name: silver crate
-  description: 30 bars of silver.
+  name: caisse d'argent
+  description: 30 lingots d'argent.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -120,8 +120,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialCardboard
-  name: cardboard crate
-  description: 90 pieces of cardboard.
+  name: caisse de carton
+  description: 90 pièces de carton.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -132,8 +132,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialPaper
-  name: paper crate
-  description: 90 sheets of paper.
+  name: caisse de papier
+  description: 90 feuilles de papier.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -175,8 +175,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialRandom
-  name: surplus materials
-  description: Surplus materials from somewhere.
+  name: matériaux excédentaires
+  description: Matériaux excédentaires d'origine inconnue.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -188,8 +188,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialSilo
-  name: material silo crate
-  description: A package including all the materials to create a material silo.
+  name: caisse pour silo à matériaux
+  description: Un colis contenant tous les matériaux nécessaires à la construction d'un silo à matériaux.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -206,8 +206,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMaterialBasicResource
-  name: basic sheet crate
-  description: 30 sheets of steel, glass, and plastic.
+  name: caisse de plaques de base
+  description: 30 plaques d'acier, de verre et de plastique.
   components:
   - type: EntityTableContainerFill
     containers:

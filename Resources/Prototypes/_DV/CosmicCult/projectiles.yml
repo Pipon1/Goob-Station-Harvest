@@ -2,8 +2,8 @@
 
 - type: entity
   id: ProjectileCosmicNova
-  name: Astral Nova
-  description: Uh oh.
+  name: Nova Astrale
+  description: Aïe aïe aïe.
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: ProjectileCosmic
-  name: Malign Bolt
+  name: Projectil malin
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   description: Ouch.
@@ -96,7 +96,7 @@
 
 - type: entity
   id: ProjectileCosmicRazor
-  name: Astral Bolt
+  name: Projectile astral
   parent: ProjectileCosmic
   categories: [ HideSpawnMenu ]
   description: Ouch.

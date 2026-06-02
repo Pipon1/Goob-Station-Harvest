@@ -3,8 +3,8 @@
 - type: entity
   parent: [ClothingBackpack, BaseChameleon]
   id: ClothingBackpackChameleon
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: sac à dos
+  description: On le porte dans le dos et on y range des objets.
   suffix: Chameleon
   components:
   - type: Tag
@@ -25,8 +25,8 @@
 - type: entity
   parent: [Clothing, ClothingSlotBase]
   id: ClothingBackpackWaterTank
-  name: backpack water tank
-  description: Holds a large amount of fluids. Supplies to spray nozzles in your hands, and has a slot on the side for said spray nozzles.
+  name: sac à dos réservoir d'eau
+  description: Contient une grande quantité de liquide. Alimente les buses de pulvérisation tenues en main, et dispose d'un emplacement latéral pour ces buses.
   components:
   - type: Tag
     tags:
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBagPet
-  name: pet bag
-  description: A small bag designed for use by pets and small animals.
+  name: sac pour animal
+  description: Un petit sac conçu pour les animaux de compagnie et les petits animaux.
   components:
   - type: Sprite
     sprite: Clothing/Back/Specific/petbag.rsi
@@ -116,7 +116,7 @@
   parent: Clothing
   id: ClothingBackpackHarmpack
   name: H.A.R.M.P.A.C.K.
-  description: Now you can reload, punch, and eat a snack - simultaneously.
+  description: Rechargez, frappez et grignotez un en-cas — simultanément.
   components:
   - type: Sprite
     sprite: Clothing/Back/Specific/harmpack.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingBackpack
   id: XenoborgMaterialBag
-  name: silicon storage square
-  description: A knockoff version of a bluespace bag, can vacumn up select materials, unfit for use by humanoids due to harmful emissions.
+  name: Carré de stockage en silicium
+  description: Une version contrefaite d'un sac bluespace, capable d'aspirer certains matériaux, mais impropre à l'utilisation par les humanoïdes en raison de ses émissions nocives.
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/silicon_storage_cube.rsi

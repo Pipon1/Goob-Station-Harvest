@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseCartridge, BaseSecurityCommandContraband ] # Goob edit - captain's N1984
   id: BaseCartridgeMagnum
-  name: cartridge (.45 magnum)
+  name: cartouche (.45 magnum)
   components:
   - type: Tag
     tags:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnum
-  name: cartridge (.45 magnum)
-  description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+  name: cartouche (.45 magnum)
+  description: Cartouche magnum lourde principalement utilisée par les revolvers. Les munitions cinétiques standard sont courantes et utiles dans la plupart des situations.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnum
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumPractice
-  name: cartridge (.45 magnum practice)
-  description: Heavy magnum cartridge mostly used by revolvers. Practice ammunition fires a chalk projectile that stings a little, but otherwise causes no lasting damage.
+  name: cartouche (.45 magnum entraînement)
+  description: Cartouche magnum lourde principalement utilisée par les revolvers. Les munitions à craie sont généralement inoffensives, utilisées pour l'entraînement.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumPractice
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumIncendiary
-  name: cartridge (.45 magnum incendiary)
-  description: Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets targets ablaze.
+  name: cartouche (.45 magnum incendiaire)
+  description: Cartouche magnum lourde principalement utilisée par les revolvers. Les munitions incendiaires contiennent un composé à auto-allumage qui embrase la cible.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumIncendiary
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumAP
-  name: cartridge (.45 magnum armor-piercing)
-  description: Heavy magnum cartridge mostly used by revolvers. Armor-piercing ammunition is renowned for its ability to cut straight through body armor.
+  name: cartouche (.45 magnum perforant)
+  description: Cartouche magnum lourde principalement utilisée par les revolvers. Les munitions perforantes sont réputées pour leur capacité à traverser les gilets pare-balles.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumAP
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumUranium
-  name: cartridge (.45 magnum uranium)
-  description: Heavy magnum cartridge mostly used by revolvers. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating targets from the inside.
+  name: cartouche (.45 magnum uranium)
+  description: Cartouche magnum lourde principalement utilisée par les revolvers. Les munitions à uranium remplacent le noyau de plomb de la balle par du matériau fissile, irradiant la cible de l'intérieur.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumUranium

@@ -3,8 +3,8 @@
 - type: entity
   id: CosmicCultLawBoard
   parent: BaseElectronics
-  name: malign law board
-  description: An eerie circuit board, suited for slotting into an AI law upload console. Its circuitry is interwoven with dendritic strands that twitch of their own accord.
+  name: carte de lois malignes
+  description: Un étrange circuit électronique, conçu pour être inséré dans une console de téléchargement de lois pour IA. Ses circuits sont entrelacés de filaments dendritiques fantomatiques qui frémissent d'eux-mêmes.
   components:
   - type: Sprite
     sprite: _DV/CosmicCult/Objects/lawboard.rsi

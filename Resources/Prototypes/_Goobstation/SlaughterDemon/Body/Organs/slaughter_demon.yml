@@ -3,7 +3,7 @@
 - type: entity
   parent: [OrganAnimalHeart, BaseMagicalContraband]
   id: OrganSlaughterHeart
-  name: demonic heart
+  name: cœur démoniaque
   components:
   - type: Sprite
     sprite: _Goobstation/SlaughterDemon/heart.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: OrganSlaughterHeart
   id: OrganMagicSlaughterHeart
-  suffix: Wizard
+  suffix: Sorcier
   components:
   - type: Organ
     onAdd:

@@ -39,9 +39,9 @@
 - type: entity
   parent: [ SprayBottleBase, DrinkVisualsFill ]
   id: SprayBottle
-  name: spray bottle
+  name: pulvérisateur
   suffix: Empty
-  description: A spray bottle with an unscrewable top.
+  description: Un flacon pulvérisateur avec un bouchon dévissable.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/spray_bottle.rsi
@@ -57,9 +57,9 @@
 - type: entity
   parent: SprayBottle
   id: MegaSprayBottle
-  name: mega spray bottle
+  name: méga pulvérisateur
   suffix: Empty
-  description: A huge spray bottle, capable of unrivaled janitorial power.
+  description: Un énorme flacon pulvérisateur à la puissance de nettoyage inégalée.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/spray_bottle.rsi
@@ -89,7 +89,7 @@
 - type: entity
   parent: SprayBottle
   id: SprayBottleWater
-  name: spray bottle
+  name: flacon de pulvérisateur
   suffix: Filled
   components:
   - type: Tag
@@ -106,8 +106,8 @@
 - type: entity
   parent: SprayBottle
   id: SprayBottleSpaceCleaner
-  suffix: Space Cleaner
-  description: BLAM!-brand non-foaming space cleaner!
+  suffix: nettoyant spatial
+  description: Nettoyant spatial non moussant de marque BLAM !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -126,8 +126,8 @@
 - type: entity
   parent: MegaSprayBottle
   id: MegaSprayBottleSpaceCleaner
-  suffix: Space Cleaner
-  description: BLAM!-brand non-foaming space cleaner, now in a bigger package for those huge blood puddles!
+  suffix: nettoyant spatial
+  description: Nettoyant spatial non moussant de marque BLAM !, maintenant dans dans plus grand format pour ces énormes flaques de sang !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -142,9 +142,9 @@
 - type: entity
   parent: SprayBottle
   id: BorgSprayBottle
-  name: internal spray jet
+  name: jet pulvérisateur interne
   suffix: Filled
-  description: A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
+  description: Un récipient sous pression pour pulvériser des réactifs, installé directement dans un cyborg de maintenance. Généralement rempli de nettoyant spatial pour traiter les déversements.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -157,7 +157,7 @@
 - type: entity
   parent: MegaSprayBottle
   id: BorgMegaSprayBottle
-  name: adv. internal spray jet
+  name: jet pulvérisateur interne avancé
   suffix: Filled
   description: An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
   components:

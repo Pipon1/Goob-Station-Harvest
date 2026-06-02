@@ -3,9 +3,9 @@
 - type: entity
   parent: SprayBottleBase
   id: PlantBGoneSpray
-  name: Plant-B-Gone
-  suffix: "Filled"
-  description: Kills those pesky weeds!
+  name: Plante-B-Gone
+  suffix: "Rempli"
+  description: Élimine ces mauvaises herbes indésirables !
   components:
   - type: Tag
     tags:
@@ -27,9 +27,9 @@
 - type: entity
   parent: SprayBottleBase
   id: WeedSpray
-  name: weed spray
-  suffix: "Filled"
-  description: It's a toxic mixture, in spray form, to kill small weeds.
+  name: spray anti-mauvaises herbes
+  suffix: "Rempli"
+  description: Un mélange toxique en spray pour éliminer les petites mauvaises herbes.
   components:
   - type: Sprite
     sprite: Objects/Tools/Hydroponics/sprays.rsi
@@ -52,9 +52,9 @@
 - type: entity
   parent: WeedSpray
   id: PestSpray
-  name: pest spray
-  suffix: "Filled"
-  description: It's some pest eliminator spray! Do not inhale!
+  name: spray anti-nuisibles
+  suffix: "Rempli"
+  description: Un spray éliminateur de nuisibles ! Ne pas inhaler !
   components:
   - type: Sprite
     state: pestspray
