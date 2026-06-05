@@ -312,3 +312,6 @@ Resources/MapImages
 
 config.json
 .github/workflows/update-prs.yaml
+
+#custom RT for French translation
+RobustToolbox
