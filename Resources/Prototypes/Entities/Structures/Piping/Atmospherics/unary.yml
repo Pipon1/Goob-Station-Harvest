@@ -425,8 +425,8 @@
 - type: entity
   parent: [ BaseMachinePowered, SmallConstructibleMachine, BaseAutomatedMachine ] # Goob: Automation
   id: BaseGasCondenser
-  name: condenser
-  description: Condenses gases into liquids. Now we just need some plumbing.
+  name: condenseur
+  description : Condense les gaz en liquides. Il ne nous manque plus qu'un peu de plumbing.
   placement:
     mode: SnapgridCenter
   components:
