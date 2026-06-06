@@ -25,8 +25,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentPump
-  name: air vent
-  description: Has a valve and a pump attached to it.
+  name: bouche d'aération
+  description: Elle est équipée d'une vanne et d'une pompe.
   placement:
     mode: SnapgridCenter
   components:
@@ -91,8 +91,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasPassiveVent
-  name: passive vent
-  description: It's an open vent.
+  name: ventilation passive
+  description: C'est une bouche d'aération ouverte.
   placement:
     mode: SnapgridCenter
   components:
@@ -132,8 +132,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentScrubber
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: purificateur d'air
+  description: Il est équipé d'une vanne et d'une pompe.
   placement:
     mode: SnapgridCenter
   components:
@@ -198,8 +198,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasOutletInjector
-  name: air injector
-  description: Has a valve and pump attached to it.
+  name: injecteur d'air
+  description: Il est équipé d'une vanne et d'une pompe.
   placement:
     mode: SnapgridCenter
   components:
@@ -305,8 +305,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineFreezer
-  name: freezer
-  description: Cools gas in connected pipes.
+  name: congélateur
+  description: Refroidit le gaz dans les tuyaux connectés.
   placement:
     mode: SnapgridCenter
   components:
@@ -350,8 +350,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineHeater
-  name: heater
-  description: Heats gas in connected pipes.
+  name: chauffage
+  description: Réchauffe le gaz dans les tuyaux connectés.
   placement:
     mode: SnapgridCenter
   components:
@@ -395,8 +395,8 @@
 - type: entity
   parent: GasThermoMachineFreezer
   id: GasThermoMachineHellfireFreezer
-  name: hellfire freezer
-  description: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
+  name: congélateur hellfire
+  description: Une machine sophistiquée qui refroidit le gaz circulant dans les tuyaux connectés. Elle a pour effet secondaire de refroidir la zone environnante. Un froid d'enfer !
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: GasThermoMachineHeater
   id: GasThermoMachineHellfireHeater
-  name: hellfire heater
-  description: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
+  name: chauffage hellfire
+  description: Une machine sophistiquée qui chauffe le gaz dans les conduites raccordées. Elle a pour effet secondaire de laisser échapper de la chaleur dans l'environnement. Ça chauffe comme l'enfer !
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
