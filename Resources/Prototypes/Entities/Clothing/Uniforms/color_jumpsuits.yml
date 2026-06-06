@@ -8,8 +8,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorWhite
-  name: white jumpsuit
-  description: A generic white jumpsuit with no rank markings.
+  name: uniforme blanc
+  description: Un uniforme générique blanc sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorGrey
-  name: grey jumpsuit
-  description: A tasteful grey jumpsuit that reminds you of the good old days.
+  name: uniforme gris
+  description: Un uniforme gris de goût qui vous rappelle le bon vieux temps.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorBlack
-  name: black jumpsuit
-  description: A generic black jumpsuit with no rank markings.
+  name: uniforme noir
+  description: Un uniforme générique noir sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorBlue
-  name: blue jumpsuit
-  description: A generic blue jumpsuit with no rank markings.
+  name: uniforme bleu
+  description: Un uniforme générique bleu sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorDarkBlue
-  name: dark blue jumpsuit
-  description: A generic dark blue jumpsuit with no rank markings.
+  name: uniforme bleu foncé
+  description: Un uniforme générique bleu foncé sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorTeal
-  name: teal jumpsuit
-  description: A generic teal jumpsuit with no rank markings.
+  name: uniforme bleu canard
+  description: Un uniforme générique bleu canard sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorGreen
-  name: green jumpsuit
-  description: A generic green jumpsuit with no rank markings.
+  name: uniforme vert
+  description: Un uniforme générique vert sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorDarkGreen
-  name: dark green jumpsuit
-  description: A generic dark green jumpsuit with no rank markings.
+  name: uniforme vert foncé
+  description: Un uniforme générique vert foncé sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorOrange
-  name: orange jumpsuit
-  description: Don't wear this near paranoid security officers.
+  name: uniforme orange
+  description: Ne portez pas ça en présence d'agents de sécurité paranos.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorPink
-  name: pink jumpsuit
-  description: Just looking at this makes you feel <i>fabulous</i>.
+  name: uniforme rose
+  description: Rien qu'en le regardant, vous vous sentez <i>fabulous</i>.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorRed
-  name: red jumpsuit
-  description: A generic red jumpsuit with no rank markings.
+  name: uniforme rouge
+  description: Un uniforme générique rouge sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -268,8 +268,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorYellow
-  name: yellow jumpsuit
-  description: A generic yellow jumpsuit with no rank markings.
+  name: uniforme jaune
+  description: Un uniforme générique jaune sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorPurple
-  name: purple jumpsuit
-  description: A generic light purple jumpsuit with no rank markings.
+  name: uniforme violet
+  description: Un uniforme générique violet sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorLightBrown
-  name: light brown jumpsuit
-  description: A generic light brown jumpsuit with no rank markings.
+  name: uniforme beige
+  description: Un uniforme générique beige sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -340,8 +340,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorBrown
-  name: brown jumpsuit
-  description: A generic brown jumpsuit with no rank markings.
+  name: uniforme marron
+  description: Un uniforme générique marron sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorMaroon
-  name: maroon jumpsuit
-  description: A generic maroon jumpsuit with no rank markings.
+  name: uniforme bordeaux
+  description: Un uniforme générique bordeaux sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
@@ -388,8 +388,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformColorRainbow
-  name: rainbow jumpsuit
-  description: A multi-colored jumpsuit!
+  name: uniforme arc-en-ciel
+  description: Un uniforme multicolore !
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/rainbow.rsi
