@@ -22,7 +22,7 @@
   parent: [ ClothingBeltDeathsquadWebbing, BaseCentcommContraband ]
   suffix: Rempli, NE PAS PLACER
   id: ClothingBeltDeathsquadWebbingFilled
-  name: gilet tactique d'opératif escadron de la mort
+  name: gilet tactique de l'escadron de la mort
   description: "Un gilet tactique robuste et durable, contenant tout ce dont vous avez besoin pour rester dans la bataille. Vous n'aurez probablement pas besoin de l'utiliser."
   components:
   - type: StorageFill

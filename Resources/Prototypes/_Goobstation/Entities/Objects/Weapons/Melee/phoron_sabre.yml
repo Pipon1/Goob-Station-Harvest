@@ -5,7 +5,7 @@
   parent: [BaseMeleeWeaponEnergy, BaseCentcommContraband]
   id: PhoronSabre
   suffix: NE PAS PLACER
-  description: L'arme signature des redoutables escouades de la mort. C'est surtout pour le spectacle.
+  description: L'arme signature des agents du redoutable escadron de la mort. C'est surtout pour le spectacle.
   components:
   - type: ItemToggle
     # Goobstation start
