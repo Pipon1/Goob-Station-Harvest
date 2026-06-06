@@ -97,7 +97,7 @@
 - type: entity
   id: DisposalUnit
   parent: DisposalUnitBase
-  name: disposal unit
+  name: unité d'évacuation
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
@@ -126,8 +126,8 @@
 - type: entity
   id: MailingUnit
   parent: DisposalUnitBase
-  name: mailing unit
-  description: A pneumatic mail delivery unit.
+  name: unité de poste
+  description: Une unité de distribution pneumatique du courrier.
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
