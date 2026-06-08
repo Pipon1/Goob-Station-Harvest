@@ -1295,24 +1295,24 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
-    - state: icon-uniforme
+    - state: icon-uniform
     - state: icon-shirt
       color: "#134fc1"
   - type: Item
     inhandVisuals:
       left:
-      - state: inhand-left-uniforme
+      - state: inhand-left-uniform
       - state: inhand-left-shirt
         color: "#134fc1"
       right:
-      - state: inhand-right-uniforme
+      - state: inhand-right-uniform
       - state: inhand-right-shirt
         color: "#134fc1"
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       uniforme:
-      - state: equipped-INNERCLOTHING-uniforme
+      - state: equipped-INNERCLOTHING-uniform
       - state: equipped-INNERCLOTHING-shirt
         color: "#134fc1"
 
@@ -1325,24 +1325,24 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
-    - state: icon-uniforme
+    - state: icon-uniform
     - state: icon-shirt
       color: "#9c0dff"
   - type: Item
     inhandVisuals:
       left:
-      - state: inhand-left-uniforme
+      - state: inhand-left-uniform
       - state: inhand-left-shirt
         color: "#9c0dff"
       right:
-      - state: inhand-right-uniforme
+      - state: inhand-right-uniform
       - state: inhand-right-shirt
         color: "#9c0dff"
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       uniforme:
-      - state: equipped-INNERCLOTHING-uniforme
+      - state: equipped-INNERCLOTHING-uniform
       - state: equipped-INNERCLOTHING-shirt
         color: "#9c0dff"
 
@@ -1355,24 +1355,24 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
-    - state: icon-uniforme
+    - state: icon-uniform
     - state: icon-shirt
       color: "#b30000"
   - type: Item
     inhandVisuals:
       left:
-      - state: inhand-left-uniforme
+      - state: inhand-left-uniform
       - state: inhand-left-shirt
         color: "#b30000"
       right:
-      - state: inhand-right-uniforme
+      - state: inhand-right-uniform
       - state: inhand-right-shirt
         color: "#b30000"
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       uniforme:
-      - state: equipped-INNERCLOTHING-uniforme
+      - state: equipped-INNERCLOTHING-uniform
       - state: equipped-INNERCLOTHING-shirt
         color: "#b30000"
 
@@ -1385,24 +1385,24 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
-    - state: icon-uniforme
+    - state: icon-uniform
     - state: icon-shirt
       color: "#00661D"
   - type: Item
     inhandVisuals:
       left:
-      - state: inhand-left-uniforme
+      - state: inhand-left-uniform
       - state: inhand-left-shirt
         color: "#00661D"
       right:
-      - state: inhand-right-uniforme
+      - state: inhand-right-uniform
       - state: inhand-right-shirt
         color: "#00661D"
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       uniforme:
-      - state: equipped-INNERCLOTHING-uniforme
+      - state: equipped-INNERCLOTHING-uniform
       - state: equipped-INNERCLOTHING-shirt
         color: "#00661D"
 
