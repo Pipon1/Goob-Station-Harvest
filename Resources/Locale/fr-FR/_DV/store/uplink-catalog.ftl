@@ -6,8 +6,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-uplink-bionic-syrinx-implanter-name = Bionic Syrinx Implanter
+uplink-bionic-syrinx-implanter-name = Implanteur de Syrinx bionique
 uplink-bionic-syrinx-implanter-desc = Un implant qui améliore le talent naturel d'une harpie pour la mimétisme pour vous permettre d'ajuster votre voix à qui vous voulez.
 
-uplink-beast-gourd-name = Beast's Blood Gourd
+uplink-beast-gourd-name = Gourde de Beast's Blood 
 uplink-beast-gourd-desc = Une gourde contenant un mélange puissant d'alcool fort et de stimulants, parfait pour le démon intérieur. Se recharge lentement avec le temps.
