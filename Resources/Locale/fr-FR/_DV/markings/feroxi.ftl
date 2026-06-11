@@ -1,253 +1,253 @@
 marking-FeroxiEars = Oreilles
-marking-FeroxiEars-feroxi-ears = Oreilles de Base
-marking-FeroxiEars-feroxi-ears-inner = Oreille Interne
+marking-FeroxiEars-feroxi-ears = Oreilles de base
+marking-FeroxiEars-feroxi-ears-inner = Oreille interne
 
-marking-FeroxiTailAndDorsal = Queue et Dorsale
-marking-FeroxiTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiTailAndDorsal-feroxi-dorsal = Dorsale de Base
+marking-FeroxiTailAndDorsal = Queue et dorsale
+marking-FeroxiTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiTailAndDorsal-feroxi-dorsal = Dorsale de base
 
 marking-FeroxiSnout = Museau
-marking-FeroxiSnout-feroxi-snout = Museau de Base
+marking-FeroxiSnout-feroxi-snout = Museau de base
 
-marking-FeroxiHeadStripesTiger = Rayures de Tigre
+marking-FeroxiHeadStripesTiger = Rayures de tigre
 marking-FeroxiHeadStripesTiger-feroxi-head-stripes-tiger = Rayures
 
-marking-FeroxiHeadStripesTigerAlt = Rayures de Tigre (alternative)
+marking-FeroxiHeadStripesTigerAlt = Rayures de tigre (alternatives)
 marking-FeroxiHeadStripesTigerAlt-feroxi-head-stripes-tiger-alt = Rayures
 
 marking-FeroxiEarsTips = Oreilles Pointues
-marking-FeroxiEarsTips-feroxi-ears = Oreilles de Base
-marking-FeroxiEarsTips-feroxi-ears-inner = Oreille Interne
-marking-FeroxiEarsTips-feroxi-ears-tips = Pointes d'Oreilles
+marking-FeroxiEarsTips-feroxi-ears = Oreilles de base
+marking-FeroxiEarsTips-feroxi-ears-inner = Oreille interne
+marking-FeroxiEarsTips-feroxi-ears-tips = Pointes d'oreilles
 
-marking-FeroxiEarsTiger = Oreilles Rayées
-marking-FeroxiEarsTiger-feroxi-ears = Oreilles de Base
-marking-FeroxiEarsTiger-feroxi-ears-inner = Oreille Interne
+marking-FeroxiEarsTiger = Oreilles rayées
+marking-FeroxiEarsTiger-feroxi-ears = Oreilles de base
+marking-FeroxiEarsTiger-feroxi-ears-inner = Oreille interne
 marking-FeroxiEarsTiger-feroxi-ears-tiger = Rayures
 
-marking-FeroxiEarsPierced = Oreilles Percées
-marking-FeroxiEarsPierced-feroxi-ears-pierced = Oreilles de Base
+marking-FeroxiEarsPierced = Oreilles percées
+marking-FeroxiEarsPierced-feroxi-ears-pierced = Oreilles de base
 
-marking-FeroxiEarsPiercedTiger = Oreilles Percées avec Rayures
-marking-FeroxiEarsPiercedTiger-feroxi-ears-pierced = Oreilles de Base
+marking-FeroxiEarsPiercedTiger = Oreilles percées avec rayures
+marking-FeroxiEarsPiercedTiger-feroxi-ears-pierced = Oreilles de base
 marking-FeroxiEarsPiercedTiger-feroxi-ears-tiger = Rayures
 
-marking-FeroxiEarsAlt = Ears (alternative)
-marking-FeroxiEarsAlt-feroxi-ears-alt = Oreilles de Base
-marking-FeroxiEarsAlt-feroxi-ears-alt-inner = Oreille Interne
+marking-FeroxiEarsAlt = Oreilles (alternatives)
+marking-FeroxiEarsAlt-feroxi-ears-alt = Oreilles de base (alternatives)
+marking-FeroxiEarsAlt-feroxi-ears-alt-inner = Oreille interne (alternatives)
 
-marking-FeroxiEarsAltTips = Tipped Ears (alternative)
-marking-FeroxiEarsAltTips-feroxi-ears-alt = Oreilles de Base
-marking-FeroxiEarsAltTips-feroxi-ears-alt-inner = Oreille Interne
-marking-FeroxiEarsAltTips-feroxi-ears-alt-tips = Pointes d'Oreilles
+marking-FeroxiEarsAltTips = Oreilles à pointes (alternative)
+marking-FeroxiEarsAltTips-feroxi-ears-alt = Oreilles de base
+marking-FeroxiEarsAltTips-feroxi-ears-alt-inner = Oreille interne
+marking-FeroxiEarsAltTips-feroxi-ears-alt-tips = Pointes d'oreilles
 
-marking-FeroxiEarsAltTiger = Striped Ears (alternative)
-marking-FeroxiEarsAltTiger-feroxi-ears-alt = Oreilles de Base
-marking-FeroxiEarsAltTiger-feroxi-ears-alt-inner = Oreille Interne
+marking-FeroxiEarsAltTiger = Oreilles rayées (alternative)
+marking-FeroxiEarsAltTiger-feroxi-ears-alt = Oreilles de base
+marking-FeroxiEarsAltTiger-feroxi-ears-alt-inner = Oreille interne
 marking-FeroxiEarsAltTiger-feroxi-ears-alt-tiger = Rayures
 
-marking-FeroxiSnoutStripe = Museau Rayé
-marking-FeroxiSnoutStripe-feroxi-snout = Museau de Base
+marking-FeroxiSnoutStripe = Museau rayé
+marking-FeroxiSnoutStripe-feroxi-snout = Museau de base
 marking-FeroxiSnoutStripe-feroxi-snout-stripe = Rayures
 
-marking-FeroxiSnoutCountershading = Museau Ombré
-marking-FeroxiSnoutCountershading-feroxi-snout = Museau de Base
-marking-FeroxiSnoutCountershading-feroxi-snout-Countershading = Countershading
+marking-FeroxiSnoutCountershading = Museau ombré
+marking-FeroxiSnoutCountershading-feroxi-snout = Museau de base
+marking-FeroxiSnoutCountershading-feroxi-snout-Countershading = Ombre inversée
 
-marking-FeroxiSnoutCountershadingStripe = Museau Rayé et Ombré avec
-marking-FeroxiSnoutCountershadingStripe-feroxi-snout = Museau de Base
-marking-FeroxiSnoutCountershadingStripe-feroxi-snout-countershading = Countershading
-marking-FeroxiSnoutCountershadingStripe-feroxi-snout-stripe = Stripe
+marking-FeroxiSnoutCountershadingStripe = Museau rayé et ombré avec
+marking-FeroxiSnoutCountershadingStripe-feroxi-snout = Museau de base
+marking-FeroxiSnoutCountershadingStripe-feroxi-snout-countershading = Ombre inversée
+marking-FeroxiSnoutCountershadingStripe-feroxi-snout-stripe = Rayure
 
-marking-FeroxiSnoutNurse = Nurse Snout
-marking-FeroxiSnoutNurse-feroxi-snout = Museau de Base
-marking-FeroxiSnoutNurse-feroxi-snout-nurse = Barbels
+marking-FeroxiSnoutNurse = Museau d'infirmière
+marking-FeroxiSnoutNurse-feroxi-snout = Museau de base
+marking-FeroxiSnoutNurse-feroxi-snout-nurse = Barbillons
 
-marking-FeroxiSnoutNurseCountershading = Countershaded Nurse Snout
-marking-FeroxiSnoutNurseCountershading-feroxi-snout = Museau de Base
-marking-FeroxiSnoutNurseCountershading-feroxi-snout-countershading = Countershading
-marking-FeroxiSnoutNurseCountershading-feroxi-snout-nurse = Barbels
+marking-FeroxiSnoutNurseCountershading = Museau de soigneuse à contre-ombrage
+marking-FeroxiSnoutNurseCountershading-feroxi-snout = Museau de base
+marking-FeroxiSnoutNurseCountershading-feroxi-snout-countershading = Ombre inversée
+marking-FeroxiSnoutNurseCountershading-feroxi-snout-nurse = Barbillons
 
-marking-FeroxiTailBlitz = Queue Rayée avec Pointes de Nageoire et Dorsale
-marking-FeroxiTailBlitz-feroxi-tail = Queue de Base
-marking-FeroxiTailBlitz-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiTailBlitz-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTailBlitz-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTailBlitz-feroxi-tail-under = Under Tail
-marking-FeroxiTailBlitz-feroxi-dorsal = Dorsale de Base
-marking-FeroxiTailBlitz-feroxi-dorsal-stripes = Dorsal Stripes
+marking-FeroxiTailBlitz = Queue rayée avec pointes de nageoire et dorsale
+marking-FeroxiTailBlitz-feroxi-tail = Queue de base
+marking-FeroxiTailBlitz-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiTailBlitz-feroxi-tail-top-tip = Extrémité supérieure de la nageoire caudale
+marking-FeroxiTailBlitz-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTailBlitz-feroxi-tail-under = Sous la queue
+marking-FeroxiTailBlitz-feroxi-dorsal = Dorsale de base
+marking-FeroxiTailBlitz-feroxi-dorsal-stripes = Rayures dorsales
 
-marking-FeroxiTailBlitzNoDorsal = Queue Rayée avec Pointes de Nageoire
-marking-FeroxiTailBlitzNoDorsal-feroxi-tail = Queue de Base
-marking-FeroxiTailBlitzNoDorsal-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiTailBlitzNoDorsal-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTailBlitzNoDorsal-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTailBlitzNoDorsal-feroxi-tail-under = Under Tail
+marking-FeroxiTailBlitzNoDorsal = Queue rayée avec pointes de nageoire
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail = Queue de base
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail-top-tip = Extrémité supérieure de la nageoire caudale
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail-under = Sous la queue
 
-marking-FeroxiStripedTail = Striped Tail
-marking-FeroxiStripedTail-feroxi-tail = Queue de Base
-marking-FeroxiStripedTail-feroxi-tail-stripes = Tail Stripes
+marking-FeroxiStripedTail = Queue rayée
+marking-FeroxiStripedTail-feroxi-tail = Queue de base
+marking-FeroxiStripedTail-feroxi-tail-stripes = Rayures de la queue
 
-marking-FeroxiStripedTailAndDorsal = Queue Rayée avec Dorsale
-marking-FeroxiStripedTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiStripedTailAndDorsal-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiStripedTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiStripedTailAndDorsal-feroxi-dorsal-stripes = Dorsal Stripes
+marking-FeroxiStripedTailAndDorsal = Queue rayée avec dorsale
+marking-FeroxiStripedTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiStripedTailAndDorsal-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiStripedTailAndDorsal-feroxi-dorsal = Dorsale de base
+marking-FeroxiStripedTailAndDorsal-feroxi-dorsal-stripes = Rayures dorsales
 
-marking-FeroxiTail = Tail
-marking-FeroxiTail-feroxi-tail = Queue de Base
+marking-FeroxiTail = Queue
+marking-FeroxiTail-feroxi-tail = Queue de base
 
-marking-FeroxiTipTail = Queue avec Pointes
-marking-FeroxiTipTail-feroxi-tail = Queue de Base
-marking-FeroxiTipTail-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTipTail-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTipTail-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiTipTail-feroxi-dorsal = Dorsale de Base
+marking-FeroxiTipTail = Queue avec pointes
+marking-FeroxiTipTail-feroxi-tail = Queue de base
+marking-FeroxiTipTail-feroxi-tail-top-tip = Pointe supérieure de la nageoire caudale
+marking-FeroxiTipTail-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTipTail-feroxi-tail-second-dorsal-tip = Extrémité de la nageoire dorsale secondaire
+marking-FeroxiTipTail-feroxi-dorsal = Nageoire dorsale de base
 
-marking-FeroxiTipTailAndDorsal = Queue avec Pointes et Dorsale
-marking-FeroxiTipTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiTipTailAndDorsal-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTipTailAndDorsal-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTipTailAndDorsal-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiTipTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiTipTailAndDorsal-feroxi-dorsal-tip = Dorsal Tip
+marking-FeroxiTipTailAndDorsal = Queue avec pointes et dorsale
+marking-FeroxiTipTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiTipTailAndDorsal-feroxi-tail-top-tip = Pointe supérieure de la nageoire caudale
+marking-FeroxiTipTailAndDorsal-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTipTailAndDorsal-feroxi-tail-second-dorsal-tip = Extrémité secondaire de la nageoire dorsale
+marking-FeroxiTipTailAndDorsal-feroxi-dorsal = Nageoire dorsale de base
+marking-FeroxiTipTailAndDorsal-feroxi-dorsal-tip = Pointe de la nageoire dorsale
 
-marking-FeroxiTwoToneTail = Two Tone Tail
-marking-FeroxiTwoToneTail-feroxi-tail = Queue de Base
-marking-FeroxiTwoToneTail-feroxi-tail-under = Under Tail
+marking-FeroxiTwoToneTail = Queue bicolore
+marking-FeroxiTwoToneTail-feroxi-tail = Queue de base
+marking-FeroxiTwoToneTail-feroxi-tail-under = Sous la queue
 
-marking-FeroxiTwoToneTailAndDorsal = Queue et Dorsale Bicolores
-marking-FeroxiTwoToneTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiTwoToneTailAndDorsal-feroxi-tail-under = Under Tail
-marking-FeroxiTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de Base
+marking-FeroxiTwoToneTailAndDorsal = Queue et dorsale bicolores
+marking-FeroxiTwoToneTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiTwoToneTailAndDorsal-feroxi-tail-under = Sous la queue
+marking-FeroxiTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de base
 
-marking-FeroxiStripeTwoToneTail = Two Tone Tail with Stripes
-marking-FeroxiStripeTwoToneTail-feroxi-tail = Queue de Base
-marking-FeroxiStripeTwoToneTail-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiStripeTwoToneTail-feroxi-tail-under = Under Tail
+marking-FeroxiStripeTwoToneTail = Queue bicolore à rayures
+marking-FeroxiStripeTwoToneTail-feroxi-tail = Queue de base
+marking-FeroxiStripeTwoToneTail-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiStripeTwoToneTail-feroxi-tail-under = Sous la queue
 
-marking-FeroxiStripeTwoToneTailAndDorsal = Two Tone Tail with Stripes and Dorsal
-marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail-under = Under Tail
-marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-dorsal-stripes = Dorsal Stripes
+marking-FeroxiStripeTwoToneTailAndDorsal = Queue bicolore avec rayures et dorsale
+marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-tail-under = Sous la queue
+marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de base
+marking-FeroxiStripeTwoToneTailAndDorsal-feroxi-dorsal-stripes = Rayures dorsales
 
-marking-FeroxiTipTwoToneTail = Two Tone Tail with Tips
-marking-FeroxiTipTwoToneTail-feroxi-tail = Queue de Base
-marking-FeroxiTipTwoToneTail-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTipTwoToneTail-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTipTwoToneTail-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiTipTwoToneTail-feroxi-tail-under = Under Tail
+marking-FeroxiTipTwoToneTail = Queue bicolore avec extrémités
+marking-FeroxiTipTwoToneTail-feroxi-tail = Queue de base
+marking-FeroxiTipTwoToneTail-feroxi-tail-top-tip = Extrémité supérieure de la nageoire caudale
+marking-FeroxiTipTwoToneTail-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTipTwoToneTail-feroxi-tail-second-dorsal-tip = Pointe de la nageoire dorsale secondaire
+marking-FeroxiTipTwoToneTail-feroxi-tail-under = Sous la queue
 
-marking-FeroxiTipTwoToneTailAndDorsal = Two Tone Tail with Tips and Dorsal
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-top-tip = Upper Tail Fin Tip
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-bottom-tip = Lower Tail Fin Tip
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-under = Under Tail
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiTipTwoToneTailAndDorsal-feroxi-dorsal-tip = Dorsal Tip
+marking-FeroxiTipTwoToneTailAndDorsal = Queue bicolore avec extrémités et dorsale
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-top-tip = Extrémité supérieure de la nageoire caudale
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-bottom-tip = Extrémité inférieure de la nageoire caudale
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-under = Sous la queue
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-second-dorsal-tip = Pointe de la deuxième nageoire dorsale
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-dorsal = Nageoire dorsale de base
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-dorsal-tip = Pointe de la nageoire dorsale
 
-marking-FeroxiFullTipTail = Tail with Full Fin Tip
-marking-FeroxiFullTipTail-feroxi-tail = Queue de Base
-marking-FeroxiFullTipTail-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiFullTipTail-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
+marking-FeroxiFullTipTail = Queue avec extrémité de nageoire complète
+marking-FeroxiFullTipTail-feroxi-tail = Queue de base
+marking-FeroxiFullTipTail-feroxi-tail-tip = Extrémité de la nageoire caudale complète
+marking-FeroxiFullTipTail-feroxi-tail-second-dorsal-tip = Extrémité de la deuxième nageoire dorsale
 
-marking-FeroxiFullTipTailAndDorsal = Tail with Full Fin Tip and Dorsal
-marking-FeroxiFullTipTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiFullTipTailAndDorsal-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiFullTipTailAndDorsal-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiFullTipTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiFullTipTailAndDorsal-feroxi-dorsal-tip = Dorsal Tip
+marking-FeroxiFullTipTailAndDorsal = Queue avec extrémité de nageoire complète et dorsale
+marking-FeroxiFullTipTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiFullTipTailAndDorsal-feroxi-tail-tip = Extrémité de la nageoire caudale complète
+marking-FeroxiFullTipTailAndDorsal-feroxi-tail-second-dorsal-tip = Extrémité de la deuxième nageoire dorsale
+marking-FeroxiFullTipTailAndDorsal-feroxi-dorsal = Dorsale de base
+marking-FeroxiFullTipTailAndDorsal-feroxi-dorsal-tip = Extrémité de la dorsale
 
-marking-FeroxiTailBlitzFullTip = Striped Tail with Full Fin Tip and Dorsal
-marking-FeroxiTailBlitzFullTip-feroxi-tail = Queue de Base
-marking-FeroxiTailBlitzFullTip-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiTailBlitzFullTip-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiTailBlitzFullTip-feroxi-tail-under = Under Tail
-marking-FeroxiTailBlitzFullTip-feroxi-dorsal = Dorsale de Base
-marking-FeroxiTailBlitzFullTip-feroxi-dorsal-stripes = Dorsal Stripes
+marking-FeroxiTailBlitzFullTip = Queue rayée avec extrémité de nageoire complète et dorsale
+marking-FeroxiTailBlitzFullTip-feroxi-tail = Queue de base
+marking-FeroxiTailBlitzFullTip-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiTailBlitzFullTip-feroxi-tail-tip = Extrémité de la nageoire caudale pleine
+marking-FeroxiTailBlitzFullTip-feroxi-tail-under = Sous la queue
+marking-FeroxiTailBlitzFullTip-feroxi-dorsal = Dorsale de base
+marking-FeroxiTailBlitzFullTip-feroxi-dorsal-stripes = Rayures dorsales
 
-marking-FeroxiTailBlitzNoDorsalFullTip = Striped Tail with Full Fin Tip
-marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail = Queue de Base
-marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-stripes = Tail Stripes
-marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-under = Under Tail
+marking-FeroxiTailBlitzNoDorsalFullTip = Queue rayée avec extrémité de nageoire complète
+marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail = Queue de base
+marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-stripes = Rayures de la queue
+marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-tip = Extrémité de la nageoire caudale pleine
+marking-FeroxiTailBlitzNoDorsalFullTip-feroxi-tail-under = Sous la queue
 
-marking-FeroxiFullTipTwoToneTail = Two Tone Tail with Tips
-marking-FeroxiFullTipTwoToneTail-feroxi-tail = Queue de Base
-marking-FeroxiFullTipTwoToneTail-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiFullTipTwoToneTail-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiFullTipTwoToneTail-feroxi-tail-under = Under Tail
+marking-FeroxiFullTipTwoToneTail = Queue bicolore avec extrémités
+marking-FeroxiFullTipTwoToneTail-feroxi-tail = Queue de base
+marking-FeroxiFullTipTwoToneTail-feroxi-tail-tip = Extrémité de la nageoire caudale
+marking-FeroxiFullTipTwoToneTail-feroxi-tail-second-dorsal-tip = Extrémité de la nageoire dorsale secondaire
+marking-FeroxiFullTipTwoToneTail-feroxi-tail-under = Sous la queue
 
-marking-FeroxiFullTipTwoToneTailAndDorsal = Two Tone Tail with Tips and Dorsal
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail = Queue de Base
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-tip = Full Tail Fin Tip
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-under = Under Tail
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-dorsal = Dorsale de Base
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-second-dorsal-tip = Secondary Dorsal Fin Tip
-marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-dorsal-tip = Dorsal Tip
+marking-FeroxiFullTipTwoToneTailAndDorsal = Queue bicolore avec extrémités et dorsale
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail = Queue de base
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-tip = Extrémité de la nageoire caudale
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-under = Partie inférieure de la nageoire caudale
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-dorsal = Nageoire dorsale de base
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-tail-second-dorsal-tip = Pointe de la deuxième nageoire dorsale
+marking-FeroxiFullTipTwoToneTailAndDorsal-feroxi-dorsal-tip = Pointe de la nageoire dorsale
 
-marking-FeroxiTorsoStripesBlitz = Small Under Arm Stripes
+marking-FeroxiTorsoStripesBlitz = Petites rayures sous les aisselles
 marking-FeroxiTorsoStripesBlitz-feroxi-torso-stripes-blitz = Rayures
 
-marking-FeroxiTorsoStripesTiger = Full Stripes
+marking-FeroxiTorsoStripesTiger = Rayures complètes
 marking-FeroxiTorsoStripesTiger-feroxi-torso-stripes-tiger = Rayures
 
-marking-FeroxiTorsoStripesTigerAlt = Full Stripes (alternative)
+marking-FeroxiTorsoStripesTigerAlt = Rayures complètes (alternative)
 marking-FeroxiTorsoStripesTigerAlt-feroxi-torso-stripes-tiger-alt = Rayures
 
-marking-FeroxiTorsoCountershadingF = Countershading (Feminine)
-marking-FeroxiTorsoCountershadingF-feroxi-torso-countershading-f = Countershading
+marking-FeroxiTorsoCountershadingF = Ombre inversée (Féminin)
+marking-FeroxiTorsoCountershadingF-feroxi-torso-countershading-f = Ombre inversée
 
-marking-FeroxiTorsoCountershadingM = Countershading (Masculine)
-marking-FeroxiTorsoCountershadingM-feroxi-torso-countershading-m = Countershading
+marking-FeroxiTorsoCountershadingM = Ombre inversée (Masculin)
+marking-FeroxiTorsoCountershadingM-feroxi-torso-countershading-m = Ombre inversée
 
-marking-FeroxiLLegStripesBlitz = Calf Stripes (Left)
+marking-FeroxiLLegStripesBlitz = Rayures sur le mollet (gauche)
 marking-FeroxiLLegStripesBlitz-feroxi-Lleg-stripes-blitz = Rayures
 
-marking-FeroxiRLegStripesBlitz = Calf Stripes (Right)
+marking-FeroxiRLegStripesBlitz = Rayures sur le mollet (droite)
 marking-FeroxiRLegStripesBlitz-feroxi-Rleg-stripes-blitz = Rayures
 
-marking-FeroxiLLegStripesTiger = Full Stripes (Left)
+marking-FeroxiLLegStripesTiger = Rayures complètes (gauche)
 marking-FeroxiLLegStripesTiger-feroxi-Lleg-stripes-tiger = Rayures
 
-marking-FeroxiRLegStripesTiger = Full Stripes (Right)
+marking-FeroxiRLegStripesTiger = Rayures complètes (droite)
 marking-FeroxiRLegStripesTiger-feroxi-Rleg-stripes-tiger = Rayures
 
-marking-FeroxiLArmStripesBlitz = Shoulder Stripes (Left)
+marking-FeroxiLArmStripesBlitz = Rayures d'épaule (gauche)
 marking-FeroxiLArmStripesBlitz-feroxi-Larm-stripes-blitz = Rayures
 
-marking-FeroxiRArmStripesBlitz = Shoulder Stripes (Right)
+marking-FeroxiRArmStripesBlitz = Rayures d'épaule (Droite)
 marking-FeroxiRArmStripesBlitz-feroxi-Rarm-stripes-blitz = Rayures
 
-marking-FeroxiLArmStripesTiger = Full Stripes (Left)
+marking-FeroxiLArmStripesTiger = Rayures complètes (Gauche)
 marking-FeroxiLArmStripesTiger-feroxi-Larm-stripes-tiger = Rayures
 
-marking-FeroxiRArmStripesTiger = Full Stripes (Right)
+marking-FeroxiRArmStripesTiger = Rayures complètes (droite)
 marking-FeroxiRArmStripesTiger-feroxi-Rarm-stripes-tiger = Rayures
 
-marking-FeroxiLHandTip = Countershading Hand
-marking-FeroxiLHandTip-feroxi-Lhand-tip = Countershading
+marking-FeroxiLHandTip = Ombre inversée de la main
+marking-FeroxiLHandTip-feroxi-Lhand-tip = Ombre inversée
 
-marking-FeroxiRHandTip = Countershading Hand
-marking-FeroxiRHandTip-feroxi-Rhand-tip = Countershading
+marking-FeroxiRHandTip = Ombre inversée de la main
+marking-FeroxiRHandTip-feroxi-Rhand-tip = Ombre inversée
 
-marking-FeroxiLHandStripesTiger = Hand with Stripes
+marking-FeroxiLHandStripesTiger = Main à rayures
 marking-FeroxiLHandStripesTiger-feroxi-Lhand-stripes-tiger = Rayures
 
-marking-FeroxiRHandStripesTiger = Hand with Stripes
+marking-FeroxiRHandStripesTiger = Main rayée
 marking-FeroxiRHandStripesTiger-feroxi-Rhand-stripes-tiger = Rayures
 
-marking-FeroxiLFootTip = Countershading Foot
-marking-FeroxiLFootTip-feroxi-Lfoot-tip = Countershading
+marking-FeroxiLFootTip = Ombre inversée du pied
+marking-FeroxiLFootTip-feroxi-Lfoot-tip = Ombre inversée
 
-marking-FeroxiRFootTip = Countershading Foot
-marking-FeroxiRFootTip-feroxi-Rfoot-tip = Countershading
+marking-FeroxiRFootTip = Ombre inversée du pied
+marking-FeroxiRFootTip-feroxi-Rfoot-tip = Ombre inversée
 
-marking-FeroxiLFootStripesTiger = Foot with Stripes
+marking-FeroxiLFootStripesTiger = Pied rayé
 marking-FeroxiLFootStripesTiger-feroxi-Lfoot-stripes-tiger = Rayures
 
-marking-FeroxiRFootStripesTiger = Foot with Stripes
+marking-FeroxiRFootStripesTiger = Pied rayé
 marking-FeroxiRFootStripesTiger-feroxi-Rfoot-stripes-tiger = Rayures

@@ -5,7 +5,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-marking-OniHornShaved = Shaved
-marking-OniHornShaved-shaved = Shaved
-marking-OniHornBull = Bull
-marking-OniHornBull-bull = Bull
+marking-OniHornShaved = Rasé
+marking-OniHornShaved-shaved = Rasé
+marking-OniHornBull = Taureau
+marking-OniHornBull-bull = Taureau
