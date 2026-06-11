@@ -146,7 +146,7 @@
   maxSeverity: 1
 
 - type: alert
-  id: SandevistanLoad  id: SandevistanLoad
+  id: SandevistanLoad
   icons:
   - sprite: /Textures/_Goobstation/Interface/Alerts/sandevistan.rsi
     state: sandevistan
