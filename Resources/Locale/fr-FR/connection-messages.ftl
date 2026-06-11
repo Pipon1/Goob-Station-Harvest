@@ -27,14 +27,14 @@ cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
 cmd-whitelistadd-existing = {$username} est déjà sur la liste blanche !
 cmd-whitelistadd-added = {$username} ajouté à la liste blanche
 cmd-whitelistadd-not-found = Impossible de trouver '{$username}'
-cmd-whitelistadd-arg-player = [player]
+cmd-whitelistadd-arg-player = [joueur]
 
 cmd-whitelistremove-desc = Retire le joueur avec le nom d'utilisateur donné de la liste blanche du serveur.
 cmd-whitelistremove-help = Usage: whitelistremove <username or User ID>
 cmd-whitelistremove-existing = {$username} n'est pas sur la liste blanche !
 cmd-whitelistremove-removed = {$username} retiré de la liste blanche
 cmd-whitelistremove-not-found = Impossible de trouver '{$username}'
-cmd-whitelistremove-arg-player = [player]
+cmd-whitelistremove-arg-player = [joueur]
 
 cmd-kicknonwhitelisted-desc = Expulse tous les joueurs non listés en liste blanche du serveur.
 cmd-kicknonwhitelisted-help = Usage: kicknonwhitelisted
@@ -66,14 +66,14 @@ cmd-blacklistadd-help = Usage: blacklistadd <username>
 cmd-blacklistadd-existing = {$username} est déjà sur la liste noire !
 cmd-blacklistadd-added = {$username} ajouté à la liste noire
 cmd-blacklistadd-not-found = Impossible de trouver '{$username}'
-cmd-blacklistadd-arg-player = [player]
+cmd-blacklistadd-arg-player = [joueur]
 
 cmd-blacklistremove-desc = Retire le joueur avec le nom d'utilisateur donné de la liste noire du serveur.
 cmd-blacklistremove-help = Usage: blacklistremove <username>
 cmd-blacklistremove-existing = {$username} n'est pas sur la liste noire !
 cmd-blacklistremove-removed = {$username} retiré de la liste noire
 cmd-blacklistremove-not-found = Impossible de trouver '{$username}'
-cmd-blacklistremove-arg-player = [player]
+cmd-blacklistremove-arg-player = [joueur]
 
 baby-jail-account-denied = Ce serveur est un serveur pour débutants, destiné aux nouveaux joueurs et à ceux qui veulent les aider. Les nouvelles connexions de comptes trop anciens ou non listés en liste blanche ne sont pas acceptées. Découvrez d'autres serveurs et tout ce que Space Station 14 a à offrir. Amusez-vous bien !
 baby-jail-account-denied-reason = Ce serveur est un serveur pour débutants, destiné aux nouveaux joueurs et à ceux qui veulent les aider. Les nouvelles connexions de comptes trop anciens ou non listés ne sont pas acceptées. Découvrez d'autres serveurs et tout ce que Space Station 14 a à offrir. Amusez-vous bien ! Raison : "{$reason}"
