@@ -22,21 +22,21 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
+cmd-whitelistadd-desc = Ajoute le joueur avec le nom d'utilisateur donné à la liste blanche du serveur.
 cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
-cmd-whitelistadd-existing = {$username} is already on the whitelist!
-cmd-whitelistadd-added = {$username} added to the whitelist
-cmd-whitelistadd-not-found = Unable to find '{$username}'
+cmd-whitelistadd-existing = {$username} est déjà sur la liste blanche !
+cmd-whitelistadd-added = {$username} ajouté à la liste blanche
+cmd-whitelistadd-not-found = Impossible de trouver '{$username}'
 cmd-whitelistadd-arg-player = [player]
 
-cmd-whitelistremove-desc = Removes the player with the given username from the server whitelist.
+cmd-whitelistremove-desc = Retire le joueur avec le nom d'utilisateur donné de la liste blanche du serveur.
 cmd-whitelistremove-help = Usage: whitelistremove <username or User ID>
-cmd-whitelistremove-existing = {$username} is not on the whitelist!
-cmd-whitelistremove-removed = {$username} removed from the whitelist
-cmd-whitelistremove-not-found = Unable to find '{$username}'
+cmd-whitelistremove-existing = {$username} n'est pas sur la liste blanche !
+cmd-whitelistremove-removed = {$username} retiré de la liste blanche
+cmd-whitelistremove-not-found = Impossible de trouver '{$username}'
 cmd-whitelistremove-arg-player = [player]
 
-cmd-kicknonwhitelisted-desc = Kicks all non-whitelisted players from the server.
+cmd-kicknonwhitelisted-desc = Expulse tous les joueurs non listés en liste blanche du serveur.
 cmd-kicknonwhitelisted-help = Usage: kicknonwhitelisted
 
 ban-banned-permanent = Ce bannissement ne sera levé que par appel.
@@ -61,18 +61,18 @@ whitelist-blacklisted = Vous êtes sur la liste noire de ce serveur.
 whitelist-always-deny = Vous n'êtes pas autorisé à rejoindre ce serveur.
 whitelist-fail-prefix = Non autorisé : {$msg}
 
-cmd-blacklistadd-desc = Adds the player with the given username to the server blacklist.
+cmd-blacklistadd-desc = Ajoute le joueur avec le nom d'utilisateur donné à la liste noire du serveur.
 cmd-blacklistadd-help = Usage: blacklistadd <username>
-cmd-blacklistadd-existing = {$username} is already on the blacklist!
-cmd-blacklistadd-added = {$username} added to the blacklist
-cmd-blacklistadd-not-found = Unable to find '{$username}'
+cmd-blacklistadd-existing = {$username} est déjà sur la liste noire !
+cmd-blacklistadd-added = {$username} ajouté à la liste noire
+cmd-blacklistadd-not-found = Impossible de trouver '{$username}'
 cmd-blacklistadd-arg-player = [player]
 
-cmd-blacklistremove-desc = Removes the player with the given username from the server blacklist.
+cmd-blacklistremove-desc = Retire le joueur avec le nom d'utilisateur donné de la liste noire du serveur.
 cmd-blacklistremove-help = Usage: blacklistremove <username>
-cmd-blacklistremove-existing = {$username} is not on the blacklist!
-cmd-blacklistremove-removed = {$username} removed from the blacklist
-cmd-blacklistremove-not-found = Unable to find '{$username}'
+cmd-blacklistremove-existing = {$username} n'est pas sur la liste noire !
+cmd-blacklistremove-removed = {$username} retiré de la liste noire
+cmd-blacklistremove-not-found = Impossible de trouver '{$username}'
 cmd-blacklistremove-arg-player = [player]
 
 baby-jail-account-denied = Ce serveur est un serveur pour débutants, destiné aux nouveaux joueurs et à ceux qui veulent les aider. Les nouvelles connexions de comptes trop anciens ou non listés en liste blanche ne sont pas acceptées. Découvrez d'autres serveurs et tout ce que Space Station 14 a à offrir. Amusez-vous bien !
