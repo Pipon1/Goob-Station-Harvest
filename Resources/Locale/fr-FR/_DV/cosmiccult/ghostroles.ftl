@@ -19,7 +19,7 @@ rogue-ascended-infection-alreadyinfected = {CAPITALIZE(THE($target))} est déjà
 rogue-ascended-infection-error = Vous ne pouvez pas faire ça maintenant.
 rogue-ascended-infection-notification = {CAPITALIZE(THE($user))} étend ses tentacules vers {CAPITALIZE(THE($target))} !
 
-rogue-ascended-infection-briefing =L'énergie maligne s'infiltre dans votre psyché. Vous avez été infecté par un Ascendant Astral !
+rogue-ascended-infection-briefing = L'énergie maligne s'infiltre dans votre psyché. Vous avez été infecté par un Ascendant Astral !
      Vous devez agir selon vos humeurs du mieux que vous pouvez, que vous soyez ou non un antagoniste.
 
 rogue-ascended-shatter-fail = Vous ne pouvez pas faire ça maintenant.
@@ -28,7 +28,7 @@ rogue-ascended-round-end-agent-name = ascendant astral
 
 rogue-ascended-objective-issuer = [bold][color=#cae8e8]L'Inconnu[/color][/bold]
 
-rogue-ascended-role-greeting =Vous êtes un Ascendant Astral — l'ombre d'une chose transcendante renvoyée sur la réalité.
+rogue-ascended-role-greeting = Vous êtes un Ascendant Astral — l'ombre d'une chose transcendante renvoyée sur la réalité.
     Tout prendra fin, comme toutes choses. Ce serait la plus douce bonté d'amener cette vérité la plus pure à autant de personnes que vous pouvez.
 
 objective-condition-maligninfection-title = Corrompre {$count} esprits.

@@ -1,8 +1,8 @@
 reagent-effect-guidebook-cleanse-cultist =
     { $chance ->
-        [1] cleanses
-        *[other] cleanse
-    } otherwordly influences
+        [1] purifie
+        *[other] purifie
+    } des influences surnaturelles
 
 entropy-effect-numb = Vous vous sentez étrangement engourdi.
 

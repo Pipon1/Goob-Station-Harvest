@@ -1,8 +1,8 @@
-tiles-cosmiccult-floor-glyph = malign glyphic surface
-tiles-cosmiccult-floor-smooth = malign smooth surface
-tiles-cosmiccult-floor-half = malign half-pattern surface
-tiles-cosmiccult-floor-notched = malign notch-pattern surface
-tiles-cosmiccult-floor-split = malign split-pattern surface
+tiles-cosmiccult-floor-glyph = surface glyphique maligne
+tiles-cosmiccult-floor-smooth = surface lisse maligne
+tiles-cosmiccult-floor-half = surface à demi-motif maligne
+tiles-cosmiccult-floor-notched = surface à motif cranté maligne
+tiles-cosmiccult-floor-split = surface à motif fendu maligne
 
-tiles-cosmiccult-floor-void = void floor surface
-tiles-cosmiccult-floor-malign = malign surface
+tiles-cosmiccult-floor-void = surface du sol du vide
+tiles-cosmiccult-floor-malign = surface maligne
