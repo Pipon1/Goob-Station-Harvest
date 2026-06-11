@@ -90,7 +90,7 @@
 - type: entity
   id: OrganShadowkinStomach
   parent: OrganHumanStomach
-  description: '"Miam !", dit l'estomac, bien que vous soyez incapable de l'entendre.'
+  description: "'Miam !', dit l'estomac, bien que vous soyez incapable de l'entendre."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
