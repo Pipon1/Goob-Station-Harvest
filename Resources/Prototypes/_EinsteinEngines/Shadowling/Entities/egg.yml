@@ -1,7 +1,7 @@
 - type: entity
   id: SlingEgg
-  name: Shadowling Egg
-  description: An irregular lump of organic matter, its cracked surface twitching now and then. # yes
+  name: "Œuf d'Ombrelin"
+  description: Un amas irrégulier de matière organique, dont la surface craquelée tressaute de temps en temps. # yes
   components:
   - type: Transform
     noRot: true
@@ -51,7 +51,7 @@
 - type: entity
   parent: SlingEgg
   id: SlingEggAscension
-  description: A dark, armored cocoon pulsing with eerie energy, heralding the shadowling’s ascension.
+  description: "Un cocon sombre et blindé pulsant d’une énergie sinistre, annonçant l’ascension de l’ombrelin."
   components:
   - type: Sprite
     noRot: true
@@ -99,8 +99,8 @@
 
 - type: entity
   id: AscensionEggShadowlingInside
-  name: The Shadowling
-  description: A terryfing creature that appears to have formed on top of the egg. Is it alive?
+  name: "L'Ombrelin"
+  description: "Une créature terrifiante qui semble s'être formée au-dessus de l'œuf. Est-elle vivante ?"
   components:
   - type: Transform
     noRot: true

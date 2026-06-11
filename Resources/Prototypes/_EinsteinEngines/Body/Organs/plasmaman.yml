@@ -30,8 +30,8 @@
 - type: entity
   id: OrganPlasmamanLungs
   parent: [ BasePlasmamanOrgan, OrganHumanLungs ]
-  name: plasmaman lungs
-  description: The lungs yearn for the plasma. Only plasma gas can satiate these lungs, and oxygen is lethally toxic.
+  name: poumons de plasmaman
+  description: "Les poumons aspirent au plasma. Seul le gaz plasma peut satisfaire ces poumons, et l'oxygène est létalement toxique."
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
 - type: entity
   id: OrganPlasmamanStomach
   parent: [ BasePlasmamanOrgan, OrganHumanStomach ]
-  name: plasmaman stomach
-  description: Why do plasmamen have stomachs if they don't need to eat?
+  name: estomac de plasmaman
+  description: "Pourquoi les plasmamens ont-ils des estomacs s'ils n'ont pas besoin de manger ?"
   components:
   - type: Metabolizer
     metabolizerTypes: [ Plasmaman ]
@@ -89,7 +89,7 @@
 - type: entity
   id: OrganPlasmamanEyes
   parent: [ BasePlasmamanOrgan, OrganHumanEyes ]
-  name: plasmaman eyes
+  name: yeux de plasmaman
   components:
   - type: Sprite
     layers:
@@ -98,7 +98,7 @@
 - type: entity
   id: OrganPlasmamanLiver
   parent: [ BasePlasmamanOrgan, OrganHumanLiver ]
-  name: plasmaman liver
+  name: foie de plasmaman
   components:
   - type: Metabolizer
     metabolizerTypes: [ Plasmaman ]
@@ -106,12 +106,12 @@
 - type: entity
   id: OrganPlasmamanTongue
   parent: [ BasePlasmamanOrgan, OrganHumanTongue ]
-  name: plasmaman tongue
+  name: langue de plasmaman
 
 - type: entity
   id: OrganPlasmamanKidneys
   parent: [ BasePlasmamanOrgan, OrganHumanKidneys ]
-  name: plasmaman kidneys
+  name: reins de plasmaman
   components:
   - type: Sprite
     layers:
@@ -122,8 +122,8 @@
 - type: entity
   id: OrganPlasmamanHeart
   parent: [ BasePlasmamanOrgan, OrganHumanHeart ]
-  name: plasmaman heart
-  description: It pulses with plasma even outside the body.
+  name: cœur de plasmaman
+  description: Il pulse avec du plasma même en dehors du corps.
   components:
   - type: Metabolizer
     metabolizerTypes: [ Plasmaman ]
@@ -131,7 +131,7 @@
 - type: entity
   id: OrganPlasmamanBrain
   parent: [ BasePlasmamanOrgan, OrganHumanBrain ]
-  name: plasmaman brain
+  name: cerveau de plasmaman
   components:
   - type: SolutionContainerManager
     solutions:

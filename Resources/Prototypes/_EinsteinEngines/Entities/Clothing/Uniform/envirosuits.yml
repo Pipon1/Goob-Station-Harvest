@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuit
-  name: plasma envirosuit
-  description: A special containment suit that allows plasma-based lifeforms to exist safely in an oxygenated environment.
+  name: envirocombinaison plasma
+  description: "Une combinaison de confinement spéciale permettant aux formes de vie à base de plasma d'exister en toute sécurité dans un environnement oxygéné."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/plain.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitAtmos
-  name: atmospherics envirosuit
-  description: An air-tight suit designed to be used by Plasmamen employed as atmos technicians.
+  name: envirocombinaison atmosphérique
+  description: Une combinaison hermétique conçue pour être utilisée par les Plasmamens employés comme techniciens atmosphériques.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/atmos.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCargo
-  name: cargo tech envirosuit
-  description: An envirosuit used by Plasmamen cargo technicians.
+  name: envirocombinaison de technicien de cargo
+  description: Une envirocombinaison utilisée par les techniciens de cargo Plasmamens.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/cargo.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCaptain
-  name: captain's envirosuit
-  description: It's a blue envirosuit with some gold markings denoting the rank of "Captain".
+  name: envirocombinaison du capitaine
+  description: "C'est une envirocombinaison bleue avec des marquages dorés indiquant le grade de « Capitaine »."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/captain.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitChiefEngineer
-  name: chief engineer's envirosuit
-  description: An air-tight suit designed to be used by Plasmamen insane enough to achieve the rank of "Chief Engineer".
+  name: "envirocombinaison de l'ingénieur en chef"
+  description: "Une combinaison hermétique conçue pour être utilisée par les Plasmamens assez fous pour atteindre le grade d'« Ingénieur en Chef »."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/ce.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitChaplain
-  name: chaplain's envirosuit
-  description: An envirosuit specially designed for only the most pious of Plasmamen.
+  name: "envirocombinaison de l'aumônier"
+  description: Une envirocombinaison spécialement conçue pour les Plasmamens les plus pieux.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/chaplain.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitChef
-  name: chef's envirosuit
-  description: A white Plasmaman envirosuit designed for cullinary practices. One might question why a member of a species that doesn't need to eat would become a chef.
+  name: envirocombinaison du chef cuisinier
+  description: "Une envirocombinaison Plasmaman blanche conçue pour les pratiques culinaires. On pourrait se demander pourquoi un membre d'une espèce qui n'a pas besoin de manger deviendrait chef."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/chef.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitChemist
-  name: chemistry envirosuit
-  description: A Plasmaman envirosuit designed for chemists.
+  name: envirocombinaison de chimie
+  description: Une envirocombinaison Plasmaman conçue pour les chimistes.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/chemist.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitClown
-  name: clown envirosuit
-  description: HONK!
+  name: envirocombinaison de clown
+  description: "HONK !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/clown.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCMO
-  name: chief medical officer's envirosuit
-  description: It's an envirosuit worn by those with the experience to be "Chief Medical Officer".
+  name: envirocombinaison du médecin en chef
+  description: "C'est une envirocombinaison portée par ceux qui ont l'expérience pour être « Médecin en Chef »."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/cmo.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitEngineering
-  name: engineering envirosuit
-  description: An air-tight suit designed to be used by Plasmamen employed as engineers, the usual purple stripes being replaced by engineering's orange.
+  name: "envirocombinaison d'ingénierie"
+  description: "Une combinaison hermétique conçue pour être utilisée par les Plasmamens employés comme ingénieurs, les rayures violettes habituelles étant remplacées par l'orange de l'ingénierie."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/engineering.rsi
@@ -122,14 +122,14 @@
 - type: entity
   parent: ClothingUniformEnvirosuitEnviroslacksColorOrange
   id: ClothingUniformEnvirosuitDetective
-  name: detective envirosuit
-  description: The pet project of a particularly posh Plasmaman, this custom suit was modified by Nanotrasen for its detectives.
+  name: envirocombinaison du détective
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette combinaison personnalisée a été modifiée par NanoTrasen pour ses détectives."
 
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitHoP
-  name: head of personnel's envirosuit
-  description: It's an envirosuit worn by someone who works in the position of "Head of Personnel".
+  name: envirocombinaison du chef du personnel
+  description: "C'est une envirocombinaison portée par quelqu'un qui travaille au poste de « Chef du Personnel »."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/hop.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitHoS
-  name: head of security's envirosuit
-  description: A Plasmaman containment suit decorated for those few with the dedication to achieve the position of Head of Security.
+  name: envirocombinaison du chef de la sécurité
+  description: "Une combinaison de confinement Plasmaman décorée pour les rares personnes ayant le dévouement d'atteindre le poste de Chef de la Sécurité."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/hos.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitHydroponics
-  name: hydroponics envirosuit
-  description: A green and blue envirosuit designed to protect Plasmamen from minor plant-related injuries.
+  name: "envirocombinaison d'hydroponique"
+  description: Une envirocombinaison verte et bleue conçue pour protéger les Plasmamens des blessures mineures liées aux plantes.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/hydroponics.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitJanitor
-  name: janitor envirosuit
-  description: A grey and purple envirosuit designated for Plasmamen janitors.
+  name: envirocombinaison de concierge
+  description: Une envirocombinaison grise et violette désignée pour les concierges Plasmamens.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/janitor.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitAncientVoid
-  name: NTSRA envirosuit
-  description: Made out of a modified NTSRA vacsuit, this non-spaceworthy suit was NanoTrasen's first designed envirosuit for Plasmamen.
+  name: envirocombinaison NTSRA
+  description: "Fabriquée à partir d'un vacombinaison NTSRA modifiée, cette combinaison non adaptée à l'espace était la première envirocombinaison conçue par NanoTrasen pour les Plasmamens."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/ancientvoid.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitMedicalDoctor
-  name: medical doctor's envirosuit
-  description: A suit designed for the station's more plasma-based doctors.
+  name: envirocombinaison du médecin
+  description: Une combinaison conçue pour les médecins de la station à base de plasma.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/medical.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitGenetics
-  name: genetics envirosuit
-  description: A Plasmaman envirosuit designed for geneticists.
+  name: envirocombinaison de génétique
+  description: Une envirocombinaison Plasmaman conçue pour les généticiens.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/genetics.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitMime
-  name: mime envirosuit
-  description: It's not very colourful.
+  name: envirocombinaison de mime
+  description: "Ce n'est pas très coloré."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/mime.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitParamedic
-  name: paramedic envirosuit
-  description: A suit designed for the station's Plasmaman paramedics.
+  name: envirocombinaison de paramédic
+  description: Une combinaison conçue pour les paramédics Plasmamens de la station.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/paramedic.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitPrisoner
-  name: prisoner envirosuit
-  description: An orange envirosuit identifying and protecting a criminal Plasmaman.
+  name: envirocombinaison de prisonnier
+  description: Une envirocombinaison orange identifiant et protégeant un Plasmaman criminel.
   components:
   - type: Sprite
     layers:
@@ -281,8 +281,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitResearchDirector
-  name: research director's envirosuit
-  description: It's an envirosuit worn by those with the know-how to achieve the position of Research Director.
+  name: envirocombinaison du directeur de recherche
+  description: "C'est une envirocombinaison portée par ceux qui ont le savoir-faire pour atteindre le poste de Directeur de Recherche."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/rd.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitRoboticist
-  name: roboticist envirosuit
-  description: A Plasmaman envirosuit designed for roboticists.
+  name: envirocombinaison de roboticiste
+  description: Une envirocombinaison Plasmaman conçue pour les roboticistes.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/roboticist.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitSalvage
-  name: salvage envirosuit
-  description: An air-tight khaki suit designed for salvage operations by Plasmamen.
+  name: envirocombinaison de récupération
+  description: Une combinaison hermétique kaki conçue pour les opérations de récupération par les Plasmamens.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/salvage.rsi
@@ -314,8 +314,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitScientist
-  name: science envirosuit
-  description: A Plasmaman envirosuit designed for scientists.
+  name: envirocombinaison de science
+  description: Une envirocombinaison Plasmaman conçue pour les scientifiques.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/scientist.rsi
@@ -325,8 +325,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitSec
-  name: security envirosuit
-  description: A Plasmaman containment suit designed for security officers.
+  name: envirocombinaison de sécurité
+  description: Une combinaison de confinement Plasmaman conçue pour les agents de sécurité.
   components:
   - type: Sprite
     layers:
@@ -395,8 +395,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitSecBlue
-  name: blue security envirosuit
-  description: A cool blue enviroshirt over charcoal trousers, for the calm and collected Plasmaman officer.
+  name: envirocombinaison de sécurité bleue
+  description: "Une chemise enviro bleue cool sur un pantalon anthracite, pour l'officier Plasmaman calme et posé."
   components:
   - type: Sprite
     layers:
@@ -475,8 +475,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitSecGrey
-  name: grey security envirosuit
-  description: Light grey enviroslacks with bright red highlights, for dedicated and responsive security officers.
+  name: envirocombinaison de sécurité grise
+  description: Enviroslacks gris clair avec des reflets rouge vif, pour les agents de sécurité dévoués et réactifs.
   components:
   - type: Sprite
     layers:
@@ -565,8 +565,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitVirology
-  name: virology envirosuit
-  description: The suit worn by the safest people on the station, those who are completely immune to the monstrosities they create.
+  name: envirocombinaison de virologie
+  description: "La combinaison portée par les personnes les plus en sécurité de la station, celles qui sont complètement immunisées contre les monstruosités qu'elles créent."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/virology.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitWarden
-  name: warden's envirosuit
-  description: A Plasmaman containment suit designed for the warden, white stripes being added to differentiate them from other members of security.
+  name: envirocombinaison du gardien
+  description: Une combinaison de confinement Plasmaman conçue pour le gardien, des rayures blanches étant ajoutées pour les différencier des autres membres de la sécurité.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/warden.rsi
@@ -587,8 +587,8 @@
 - type: entity
   parent: UnsensoredClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitOperative
-  name: operative envirosuit
-  description: A sinister looking envirosuit, for the most elite of bony operatives.
+  name: "envirocombinaison d'opérateur"
+  description: "Une envirocombinaison à l'aspect sinistre, pour les opérateurs osseux les plus élites."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/tacticool.rsi
@@ -600,8 +600,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitTacticool
-  name: tacticool envirosuit
-  description: A sinister looking envirosuit, for the boniest of operatives.
+  name: envirocombinaison tacticool
+  description: "Une envirocombinaison à l'aspect sinistre, pour les opérateurs les plus osseux."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/tacticool.rsi
@@ -615,8 +615,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCentcomAgent
-  name: CentCom agent's envirosuit
-  description: An envirosuit tailored for CentCom's legal team. Smells of burnt coffee.
+  name: "envirocombinaison de l'agent CentCom"
+  description: "Une envirocombinaison taillée pour l'équipe juridique de CentCom. Sent le café brûlé."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/centcom_agent.rsi
@@ -626,8 +626,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCentcomOfficial
-  name: CentCom official's envirosuit
-  description: It's an envirosuit worn by CentCom's officials.
+  name: "envirocombinaison de l'officiel CentCom"
+  description: "C'est une envirocombinaison portée par les officiels de CentCom."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/centcom_official.rsi
@@ -637,8 +637,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitCentcomOfficer
-  name: CentCom officer's envirosuit
-  description: It's an envirosuit worn by CentCom Officers.
+  name: "envirocombinaison de l'officier CentCom"
+  description: "C'est une envirocombinaison portée par les officiers CentCom."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/centcom_officer.rsi
@@ -648,8 +648,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitBlueshield
-  name: blueshield's envirosuit
-  description: An envirosuit designed for Plasmamen employed as the Blueshield.
+  name: envirocombinaison du bouclier bleu
+  description: Une envirocombinaison conçue pour les Plasmamens employés comme Bouclier Bleu.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/blueshield_officer.rsi
@@ -664,8 +664,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitCourier
-  name: courier's envirosuit
-  description: An envirosuit tailored for the courier.
+  name: envirocombinaison du coursier
+  description: Une envirocombinaison taillée pour le coursier.
   components:
   - type: Sprite
     layers:
@@ -716,8 +716,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMailCarrier
-  name: mail carrier's envirosuit
-  description: An envirosuit tailored for the mail carrier. The color pattern makes pitbulls go wild.
+  name: envirocombinaison du facteur
+  description: Une envirocombinaison taillée pour le facteur. Le motif de couleur rend les pitbulls fous.
   components:
   - type: Sprite
     layers:
@@ -794,8 +794,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMusician
-  name: musician's envirosuit
-  description: An envirosuit to play music with.
+  name: envirocombinaison du musicien
+  description: Une envirocombinaison pour jouer de la musique.
   components:
   - type: Sprite
     layers:
@@ -840,8 +840,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitReporter
-  name: reporter envirosuit
-  description: An envirosuit for the news-oriented Plasmamen.
+  name: envirocombinaison de reporter
+  description: "Une envirocombinaison pour les Plasmamens orientés vers l'actualité."
   components:
   - type: Sprite
     layers:
@@ -876,8 +876,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitGladiator
-  name: gladiator envirosuit
-  description: Made for bloodthirsty Plasmamen.
+  name: envirocombinaison de gladiateur
+  description: Faite pour les Plasmamens assoiffés de sang.
   components:
   - type: Sprite
     layers:
@@ -920,8 +920,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMantis
-  name: mantis' envirosuit
-  description: Hunting down psionics in the safety of this envirosuit.
+  name: envirocombinaison de la mante
+  description: Traquer les psioniques en toute sécurité dans cette envirocombinaison.
   components:
   - type: Sprite
     layers:
@@ -988,8 +988,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitSafari
-  name: safari envirosuit
-  description: Perfect for a jungle excursion.
+  name: envirocombinaison de safari
+  description: Parfait pour une excursion dans la jungle.
   components:
   - type: Sprite
     layers:
@@ -1024,8 +1024,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMartialGi
-  name: gi envirosuit
-  description: A flowy envirosuit tailor-made for martial arts that doesn't restrict your mobility.
+  name: envirocombinaison de gi
+  description: Une envirocombinaison fluide taillée sur mesure pour les arts martiaux qui ne restreint pas votre mobilité.
   components:
   - type: Sprite
     layers:
@@ -1060,8 +1060,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitQM
-  name: logistics officer's envirosuit
-  description: An air-tight suit designed to be used by Plasmamen insane enough to achieve the rank of "Logistics Officer".
+  name: "envirocombinaison de l'officier de logistique"
+  description: "Une combinaison hermétique conçue pour être utilisée par les Plasmamens assez fous pour atteindre le grade d'« Officier de Logistique »."
   components:
   - type: Sprite
     layers:
@@ -1158,8 +1158,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitBoxing
-  name: boxing envirosuit
-  description: Used by Plasmamen boxers.
+  name: envirocombinaison de boxe
+  description: Utilisée par les boxeurs Plasmamens.
   components:
   - type: Sprite
     layers:
@@ -1202,8 +1202,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitAdminAssistant
-  name: administrative assistant's envirosuit
-  description: An envirosuit worn by the Administrative Assistant. Smells of burnt coffee.
+  name: "envirocombinaison de l'assistant administratif"
+  description: "Une envirocombinaison portée par l'Assistant Administratif. Sent le café brûlé."
   components:
   - type: Sprite
     layers:
@@ -1270,8 +1270,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitBlackPink
-  name: black pink envirosuit
-  description: Black pink envirosuit in your area!
+  name: envirocombinaison noir rose
+  description: "Envirocombinaison noir rose dans votre secteur !"
   components:
   - type: Sprite
     layers:
@@ -1322,9 +1322,9 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitBlackPinkAlt
-  name: black pink envirosuit
+  name: envirocombinaison noir rose
   suffix: Alternative
-  description: Black pink envirosuit in your area!
+  description: "Envirocombinaison noir rose dans votre secteur !"
   components:
   - type: Sprite
     layers:
@@ -1375,8 +1375,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitTrans
-  name: trans envirosuit
-  description: The signature envirosuit of Transylvanian Plasmamen.
+  name: envirocombinaison trans
+  description: "L'envirocombinaison emblématique des Plasmamens transylvaniens."
   components:
   - type: Sprite
     layers:
@@ -1431,8 +1431,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitPrisonGuard
-  name: prison guard's envirosuit
-  description: A comfortable, durable, envirosuit made to keep Plasmamen prison staff comfortable and safe.
+  name: envirocombinaison du gardien de prison
+  description: "Une envirocombinaison confortable et durable conçue pour garder le personnel pénitentiaire Plasmaman à l'aise et en sécurité."
   components:
   - type: Sprite
     layers:
@@ -1501,8 +1501,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitBrigmedic
-  name: corpsman envirosuit
-  description: An envirosuit assigned to corpsmen Plasmamen.
+  name: envirocombinaison de médecin de combat
+  description: Une envirocombinaison assignée aux Plasmamens médecins de combat.
   components:
   - type: Sprite
     layers:
@@ -1589,8 +1589,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitNanotrasenRepresentative
-  name: nanotrasen representative envirosuit
-  description: A black envirosuit worn by officials.
+  name: envirocombinaison du représentant NanoTrasen
+  description: Une envirocombinaison noire portée par les officiels.
   components:
   - type: Sprite
     layers:
@@ -1661,8 +1661,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMagistrate
-  name: magistrate envirosuit
-  description: The envirosuit that doles out justice.
+  name: envirocombinaison du magistrat
+  description: "L'envirocombinaison qui distribue la justice."
   components:
   - type: Sprite
     layers:
@@ -1750,7 +1750,7 @@
   parent: ClothingUniformEnvirosuitBase
   id: ClothingUniformEnvirosuitEnviroslacks
   name: enviroslacks
-  description: The pet project of a particularly posh Plasmaman. Professional!
+  description: "Le projet favori d'un Plasmaman particulièrement chic. Professionnel !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Uniforms/Envirosuits/enviroslacks.rsi
@@ -1760,8 +1760,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksNegative
-  name: negative enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant has inverted colors. Dapper!
+  name: enviroslacks négatifs
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante a des couleurs inversées. Élégant !"
   components:
   - type: Sprite
     layers:
@@ -1828,8 +1828,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksColorRed
-  name: red enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant comes with red accents. Fancy!
+  name: enviroslacks rouges
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante vient avec des accents rouges. Élégant !"
   components:
   - type: Sprite
     layers:
@@ -1896,8 +1896,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksColorOrange
-  name: orange enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant comes with orange accents. Zesty!
+  name: enviroslacks oranges
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante vient avec des accents oranges. Pétillant !"
   components:
   - type: Sprite
     layers:
@@ -1964,8 +1964,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksColorGreen
-  name: green enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant comes with green accents. Leafy!
+  name: enviroslacks verts
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante vient avec des accents verts. Feuillu !"
   components:
   - type: Sprite
     layers:
@@ -2032,8 +2032,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksColorBlue
-  name: blue enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant comes with blue accents. Cool!
+  name: enviroslacks bleus
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante vient avec des accents bleus. Cool !"
   components:
   - type: Sprite
     layers:
@@ -2100,8 +2100,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksColorBrown
-  name: brown enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant has brown pants. Reminds you of dusty offices.
+  name: enviroslacks marrons
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante a des pantalons marrons. Vous rappelle les bureaux poussiéreux."
   components:
   - type: Sprite
     layers:
@@ -2176,8 +2176,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksMNK
-  name: MNK enviroslacks
-  description: The iconic enviroslacks, with MNK's signature monochrome aesthetic. Classic!
+  name: enviroslacks MNK
+  description: "Les enviroslacks emblématiques, avec l'esthétique monochrome signature de MNK. Classique !"
   components:
   - type: Sprite
     layers:
@@ -2244,8 +2244,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksMNKAlt
-  name: MNK enviroslacks
-  description: The iconic enviroslacks, with MNK's signature monochrome aesthetic. Noir!
+  name: enviroslacks MNK
+  description: "Les enviroslacks emblématiques, avec l'esthétique monochrome signature de MNK. Noir !"
   suffix: Alternative
   components:
   - type: Sprite
@@ -2313,8 +2313,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitEnviroslacksPsychologist
-  name: psychologist enviroslacks
-  description: The pet project of a particularly posh Plasmaman, this variant was made for the psychologist. Mind-boggling!
+  name: enviroslacks de psychologue
+  description: "Le projet favori d'un Plasmaman particulièrement chic, cette variante a été faite pour le psychologue. Époustouflant !"
   components:
   - type: Sprite
     layers:
@@ -2382,8 +2382,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorWhite
-  name: white envirosuit
-  description: A generic white jumpsuit with no rank markings.
+  name: envirocombinaison blanche
+  description: Une combinaison blanche générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2426,8 +2426,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorGrey
-  name: grey envirosuit
-  description: A tasteful grey envirosuit that reminds you of the good old days.
+  name: envirocombinaison grise
+  description: Une envirocombinaison grise de bon goût qui vous rappelle le bon vieux temps.
   components:
   - type: Sprite
     layers:
@@ -2470,8 +2470,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorBlack
-  name: black envirosuit
-  description: A generic black envirosuit with no rank markings.
+  name: envirocombinaison noire
+  description: Une envirocombinaison noire générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2514,8 +2514,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorRed
-  name: red envirosuit
-  description: A dark green envirosuit.
+  name: envirocombinaison rouge
+  description: Une envirocombinaison vert foncé.
   components:
   - type: Sprite
     layers:
@@ -2558,8 +2558,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorGreen
-  name: green envirosuit
-  description: A generic green envirosuit with no rank markings.
+  name: envirocombinaison verte
+  description: Une envirocombinaison verte générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2602,8 +2602,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorDarkGreen
-  name: dark green envirosuit
-  description: A generic dark green envirosuit with no rank markings.
+  name: envirocombinaison vert foncé
+  description: Une envirocombinaison vert foncé générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2646,8 +2646,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorBlue
-  name: blue envirosuit
-  description: A generic blue envirosuit with no rank markings.
+  name: envirocombinaison bleue
+  description: Une envirocombinaison bleue générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2690,8 +2690,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorDarkBlue
-  name: dark blue envirosuit
-  description: A generic dark blue envirosuit with no rank markings.
+  name: envirocombinaison bleu foncé
+  description: Une envirocombinaison bleu foncé générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2734,8 +2734,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorTeal
-  name: teal envirosuit
-  description: A generic teal envirosuit with no rank markings.
+  name: envirocombinaison turquoise
+  description: Une envirocombinaison turquoise générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2778,8 +2778,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorMaroon
-  name: maroon envirosuit
-  description: A generic maroon envirosuit with no rank markings.
+  name: envirocombinaison bordeaux
+  description: Une envirocombinaison bordeaux générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2822,7 +2822,7 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorPink
-  name: pink envirosuit
+  name: envirocombinaison rose
   description: >-
     "Plasmamen can't slay" and other jokes you can tell yourself.
   components:
@@ -2867,8 +2867,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorYellow
-  name: yellow envirosuit
-  description: A generic yellow envirosuit with no rank markings.
+  name: envirocombinaison jaune
+  description: Une envirocombinaison jaune générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2911,8 +2911,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorPurple
-  name: purple envirosuit
-  description: A generic purple envirosuit with no rank markings.
+  name: envirocombinaison violette
+  description: Une envirocombinaison violette générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -2955,8 +2955,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorOrange
-  name: orange envirosuit
-  description: Don't wear this near paranoid security officers.
+  name: envirocombinaison orange
+  description: "Ne portez pas ça près d'agents de sécurité paranoïaques."
   components:
   - type: Sprite
     layers:
@@ -2999,8 +2999,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorLightBrown
-  name: light brown envirosuit
-  description: A generic light brown envirosuit with no rank markings.
+  name: envirocombinaison brun clair
+  description: Une envirocombinaison brun clair générique sans insignes de grade.
   components:
   - type: Sprite
     layers:
@@ -3043,8 +3043,8 @@
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitColorBrown
-  name: brown envirosuit
-  description: A generic brown envirosuit with no rank markings.
+  name: envirocombinaison marron
+  description: Une envirocombinaison marron générique sans insignes de grade.
   components:
   - type: Sprite
     layers:

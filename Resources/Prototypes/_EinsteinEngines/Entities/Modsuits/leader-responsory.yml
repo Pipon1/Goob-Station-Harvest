@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitResponsoryLeader
-  name: Leader Responsory modsuit control unit
-  description: The main controller for a Leader Responsory modsuit.
+  name: unité de contrôle de combimod Responsory de Commandement
+  description: "Le contrôleur principal d'une combimod Responsory de Commandement."
   components:
     - type: ClothingSpeedModifier
       walkModifier: 1
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsResponsoryLeader
-  name: Leader Responsory modsuit gauntlets
-  description: A pair of gauntlets made for the Leader Responsory modsuit.
+  name: gantelets de combimod Responsory de Commandement
+  description: Une paire de gantelets conçus pour la combimod Responsory de Commandement.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetResponsoryLeader
-  name: Leader Responsory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Leader Responsory modsuit. It includes a built-in HUD.
+  name: casque de combimod Responsory de Commandement
+  description: Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Commandement. Il inclut un HUD intégré.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateResponsoryLeader
-  name: Leader Responsory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Leader Responsory modsuit. It incorporates powered servos to reduce the equipment load.
+  name: plastron de combimod Responsory de Commandement
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Commandement. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsResponsoryLeader
-  name: Leader Responsory modsuit boots
-  description: A state-of-the-art pair of magboots for the Leader Responsory modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: bottes de combimod Responsory de Commandement
+  description: Une paire de magbottes à la pointe de la technologie pour la combimod Responsory de Commandement. Tant que la combinaison est alimentée, celles-ci ne ralentiront pas le porteur.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -185,7 +185,7 @@
 - type: entity
   id: SuitStorageResponsoryLeader
   parent: SuitStorageBase
-  suffix: Leader Responsory Modsuit
+  suffix: Combimod Responsory de Commandement
   components:
     - type: StorageFill
       contents:

@@ -1,7 +1,7 @@
 - type: entity
   id: ShadowlingAbilitiesPostHatch
-  name: shadowling post-hatch abilities
-  description: Entity that contains all actions that are assigned after a shadowling hatched.
+  name: "capacités post-éclosion de l'ombrelin"
+  description: "Entité qui contient toutes les actions assignées après l'éclosion d'un ombrelin."
   categories: [ HideSpawnMenu ]
   components:
   - type: ShadowlingGlare
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ShadowlingAbilitiesObtainable
-  name: shadowling obtainable abilities
-  description: Entity that contains all actions that are obtainable for a shadowling through crew conversion.
+  name: "capacités obtenables de l'ombrelin"
+  description: "Entité qui contient toutes les actions obtenables pour un ombrelin par la conversion de l'équipage."
   categories: [ HideSpawnMenu ]
   components:
   - type: ShadowlingSonicScreech
@@ -40,8 +40,8 @@
 
 - type: entity
   id: ShadowlingAbilitiesAscension
-  name: shadowling ascension abilities
-  description: Entity that contains all actions that are obtainable for a shadowling through ascension.
+  name: "capacités d'ascension de l'ombrelin"
+  description: "Entité qui contient toutes les actions obtenables pour un ombrelin par l'ascension."
   categories: [ HideSpawnMenu ]
   components:
   - type: ShadowlingAnnihilate
@@ -59,8 +59,8 @@
 
 - type: entity
   id: NightmareAbilities
-  name: shadowling ascension abilities
-  description: Entity that contains all components for Nightmares.
+  name: "capacités d'ascension de l'ombrelin"
+  description: Entité qui contient tous les composants pour les Cauchemars.
   categories: [ HideSpawnMenu ]
   components:
   - type: Nightmare
@@ -73,8 +73,8 @@
 
 - type: entity
   id: LesserShadowlingAbilities
-  name: lesser shadowling abilities
-  description: Entity that contains all components for Lesser Shadowlings.
+  name: capacités du moindre ombrelin
+  description: Entité qui contient tous les composants pour les Moindres Ombrelins.
   categories: [ HideSpawnMenu ]
   components:
   - type: LesserShadowling
@@ -88,8 +88,8 @@
 
 - type: entity
   id: ThrallAbilities
-  name: thrall abilities
-  description: Entity that contains all components for Thralls after Hypnosis.
+  name: capacités du serviteur
+  description: Entité qui contient tous les composants pour les Serviteurs après Hypnose.
   categories: [ HideSpawnMenu ]
   components:
   - type: Thrall

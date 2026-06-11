@@ -18,7 +18,7 @@
 
 - type: entity
   id: ChestShadow
-  name: "Shadow chest"
+  name: "torse Ombre"
   parent: [BaseChest, PartShadow]
   components:
   - type: Extractable
@@ -31,7 +31,7 @@
 
 - type: entity
   id: GroinShadow
-  name: "Shadow groin"
+  name: "aine Ombre"
   parent: [BaseGroin, PartShadow]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: HeadShadow
-  name: "Shadow head"
+  name: "tête Ombre"
   parent: [BaseHead, PartShadow]
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 
 - type: entity
   id: LeftArmShadow
-  name: "left Shadow arm"
+  name: "bras gauche Ombre"
   parent: [BaseLeftArm, PartShadow]
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 
 - type: entity
   id: RightArmShadow
-  name: "right Shadow arm"
+  name: "bras droit Ombre"
   parent: [BaseRightArm, PartShadow]
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: LeftHandShadow
-  name: "left Shadow hand"
+  name: "main gauche Ombre"
   parent: [BaseLeftHand, PartShadow]
   components:
   - type: Sprite
@@ -78,7 +78,7 @@
 
 - type: entity
   id: RightHandShadow
-  name: "right Shadow hand"
+  name: "main droite Ombre"
   parent: [BaseRightHand, PartShadow]
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 
 - type: entity
   id: LeftLegShadow
-  name: "left Shadow leg"
+  name: "jambe gauche Ombre"
   parent: [BaseLeftLeg, PartShadow]
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightLegShadow
-  name: "right Shadow leg"
+  name: "jambe droite Ombre"
   parent: [BaseRightLeg, PartShadow]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LeftFootShadow
-  name: "left Shadow foot"
+  name: "pied gauche Ombre"
   parent: [BaseLeftFoot, PartShadow]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: RightFootShadow
-  name: "right Shadow foot"
+  name: "pied droit Ombre"
   parent: [BaseRightFoot, PartShadow]
   components:
   - type: Sprite

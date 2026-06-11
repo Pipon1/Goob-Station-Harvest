@@ -1,8 +1,8 @@
 - type: entity
   parent: EmergencyOxygenTank
   id: EmergencyPlasmaTank
-  name: emergency plasma tank
-  description: An easily portable tank for emergencies. Contains very little plasma, rated for survival use only.
+  name: "réservoir de plasma d'urgence"
+  description: Un réservoir facilement portable pour les urgences. Contient très peu de plasma, homologué pour un usage de survie uniquement.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Objects/Tanks/emergency.rsi
@@ -18,7 +18,7 @@
 - type: entity
   id: EmergencyPlasmaTankFilled
   parent: EmergencyPlasmaTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 5.325
@@ -35,8 +35,8 @@
 - type: entity
   parent: ExtendedEmergencyOxygenTank
   id: ExtendedEmergencyPlasmaTank
-  name: extended capacity emergency plasma tank
-  description: An emergency tank with extended capacity. Technically rated for prolonged use.
+  name: "réservoir de plasma d'urgence à capacité étendue"
+  description: "Un réservoir d'urgence à capacité étendue. Techniquement homologué pour une utilisation prolongée."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Objects/Tanks/regular.rsi
@@ -52,7 +52,7 @@
 - type: entity
   id: ExtendedEmergencyPlasmaTankFilled
   parent: ExtendedEmergencyPlasmaTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 5.325
@@ -69,8 +69,8 @@
 - type: entity
   parent: DoubleEmergencyOxygenTank
   id: DoubleEmergencyPlasmaTank
-  name: plasma internals tank
-  description: A tank of plasma designed to be internals for Plasmamen.
+  name: réservoir interne de plasma
+  description: Un réservoir de plasma conçu comme approvisionnement interne pour les Plasmamens.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Objects/Tanks/double-emergency.rsi
@@ -86,7 +86,7 @@
 - type: entity
   id: DoubleEmergencyPlasmaTankFilled
   parent: DoubleEmergencyPlasmaTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 5.325
@@ -103,8 +103,8 @@
 - type: entity
   id: PlasmaTankFilledInternals
   parent: PlasmaTankFilled
-  name: plasma tank
-  suffix: Filled, Plasmaman Internals
+  name: réservoir de plasma
+  suffix: Rempli, Approvisionnements Plasmaman
   components:
   - type: GasTank
     # 120 minutes with Plasmaman lungs

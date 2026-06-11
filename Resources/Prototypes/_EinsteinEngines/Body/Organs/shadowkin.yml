@@ -3,7 +3,7 @@
 - type: entity
   id: OrganShadowkinBrain
   parent: OrganHumanBrain
-  description: "Oops, I should put this back where I found it."
+  description: "Oups, je devrais remettre ça là où je l'ai trouvé."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -12,7 +12,7 @@
 - type: entity
   id: OrganShadowkinEyes
   parent: OrganHumanEyes
-  description: "I see beyond anything you ever will!"
+  description: "Je vois au-delà de tout ce que vous verrez jamais !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -29,7 +29,7 @@
 - type: entity
   id: OrganShadowkinEars
   parent: OrganHumanEars
-  description: "Hey, listen!"
+  description: "Hé, écoutez !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -38,7 +38,7 @@
 - type: entity
   id: OrganShadowkinCore
   parent: OrganHumanLungs
-  description: "What is this thing?"
+  description: "C'est quoi ce truc ?"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -49,7 +49,7 @@
 - type: entity
   id: OrganShadowkinTongue
   parent: OrganHumanTongue
-  description: "What does this do again?"
+  description: "Ça fait quoi encore ?"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -59,7 +59,7 @@
 - type: entity
   id: OrganShadowkinAppendix
   parent: OrganHumanAppendix
-  description: "I think it does nothing..."
+  description: "Je crois que ça ne fait rien..."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -70,7 +70,7 @@
 - type: entity
   id: OrganShadowkinHeart
   parent: OrganHumanHeart
-  description: "Oops, I think this belongs to someone!"
+  description: "Oups, je crois que ça appartient à quelqu'un !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -90,7 +90,7 @@
 - type: entity
   id: OrganShadowkinStomach
   parent: OrganHumanStomach
-  description: '"Yummy!", says the stomach, although you are unable to hear it.'
+  description: '"Miam !", dit l'estomac, bien que vous soyez incapable de l'entendre.'
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -122,7 +122,7 @@
 - type: entity
   id: OrganShadowkinLiver
   parent: OrganHumanLiver
-  description: "Live 'er? I hardly know 'er!"
+  description: "La vivre ? Je la connais à peine !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi
@@ -145,7 +145,7 @@
 - type: entity
   id: OrganShadowkinKidneys
   parent: OrganHumanKidneys
-  description: "Give the kid their knees back, please, this is the third time this week."
+  description: "Rendez ses genoux à l'enfant, s'il vous plaît, c'est la troisième fois cette semaine."
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Species/Shadowkin/organs.rsi

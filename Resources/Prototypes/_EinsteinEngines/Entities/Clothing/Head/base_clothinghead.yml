@@ -2,7 +2,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEnvirohelmBase
-  name: base envirosuit helmet
+  name: "casque d'envirocombinaison de base"
   components:
   - type: Sprite
     layers:
@@ -104,7 +104,7 @@
   abstract: true
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCustomBase
-  name: base custom envirosuit helmet
+  name: "casque d'envirocombinaison personnalisé de base"
   components:
   - type: ToggleableVisuals
     spriteLayer: light

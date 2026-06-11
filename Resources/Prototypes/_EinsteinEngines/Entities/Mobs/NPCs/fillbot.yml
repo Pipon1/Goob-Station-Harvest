@@ -4,7 +4,7 @@
   parent: MobSiliconBase
   id: MobFillBot
   name: fillbot
-  description: It picks up things and puts them somewhere else.
+  description: Il ramasse des choses et les met ailleurs.
   components:
   - type: Fillbot
   - type: Sprite

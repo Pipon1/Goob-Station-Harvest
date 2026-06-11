@@ -1,10 +1,10 @@
 - type: entity
   parent: [SimpleSpaceMobBase,FlyingMobBase]
   id: BaseMobShadowlingAscendant
-  name: shadowling ascendant
+  name: ombrelin ascendant
   suffix: ""
   categories: [HideSpawnMenu]
-  description: A shadowling ascendant. If you're seeing this, you're probably dead.
+  description: Un ombrelin ascendant. Si vous voyez ceci, vous êtes probablement mort.
   components:
   - type: Bloodstream
     bloodReferenceSolution:
@@ -99,9 +99,9 @@
 - type: entity
   parent: [BaseMobShadowlingAscendant]
   id: BaseMobShadowlingAscendantAdminSpawn
-  name: shadowling ascendant
+  name: ombrelin ascendant
   suffix: ""
-  description: A shadowling ascendant. If you're seeing this, you're probably dead.
+  description: Un ombrelin ascendant. Si vous voyez ceci, vous êtes probablement mort.
   components:
   - type: ShadowlingVeil
   - type: ShadowlingIcyVeins

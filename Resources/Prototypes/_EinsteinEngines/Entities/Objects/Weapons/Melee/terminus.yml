@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: DT-8 "Terminus"
+  name: DT-8 « Terminus »
   parent: [BaseItem, BaseSecurityContraband]
   id: Terminus
-  description: An advanced melee weapon crafted specifically for an oni. It is also capable of firing a spread of disabler shots from its tip.
+  description: Une arme de mêlée avancée fabriquée spécifiquement pour un oni. Elle est également capable de tirer une salve de tirs neutralisants depuis son extrémité.
   components:
   - type: RestrictedMelee # Omu port
     whitelist:
