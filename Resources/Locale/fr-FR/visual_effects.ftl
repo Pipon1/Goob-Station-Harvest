@@ -5,4 +5,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-stealth-visual-effect = [color=lightslategray]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BASIC($target, "miroite", "miroite")} avec une étrange transparence.[/color]
+stealth-visual-effect = [color=lightslategray]{CAPITALIZE(SUBJECT($target))} {CONJUGATE-BASIC($target, "chatoie", "chatoie")} avec une étrange transparence.[/color]
