@@ -10,8 +10,8 @@ entity-category-name-actions = Actions
 entity-category-name-game-rules = Règles de jeu
 entity-category-name-objectives = Objectifs
 entity-category-name-roles = Rôles d'esprit
-entity-category-name-mapping = Cartographie
-entity-category-name-donotmap = Ne pas cartographier
+entity-category-name-mapping = Mapping
+entity-category-name-donotmap = Ne pas mapper
 entity-category-name-status-effects = Effets de statut
 
-entity-category-suffix-donotmap = NE PAS CARTOGRAPHIER
+entity-category-suffix-donotmap = NE PAS MAPPER
