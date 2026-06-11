@@ -43,7 +43,7 @@
 
 - type: entity
   id: ActionInsanityAura
-  name: Aura d'Insanité
+  name: Aura de folie
   description: Rend tout le monde légèrement fou autour de vous...
   components:
   - type: Action
@@ -58,7 +58,7 @@
 
 - type: entity
   id: ActionMassWhisper
-  name: Chuchotement de Masse
+  name: Chuchotement de masse
   description: Pénétrez dans l'esprit de tous les êtres et chuchotez-les jusqu'à la folie...
   components:
   - type: Action
@@ -110,7 +110,7 @@
     range: 5
   - type: WorldTargetAction
     event: !type:WorldSpawnSpellEvent
-    prototypes:
-    - id: MobHasturClone
-      amount: 1
+      prototypes:
+      - id: MobHasturClone
+        amount: 1
       offset: 0, 1
