@@ -1,6 +1,6 @@
 chat-speech-verb-name-feroxi = Feroxi
-chat-speech-verb-feroxi-1 = blubs
-chat-speech-verb-feroxi-2 = swishes
-chat-speech-verb-feroxi-3 = gnashes
-chat-speech-verb-feroxi-4 = growls
-chat-emote-name-gnash = Gnash
+chat-speech-verb-feroxi-1 = barbotte
+chat-speech-verb-feroxi-2 = clapote
+chat-speech-verb-feroxi-3 = gargouille
+chat-speech-verb-feroxi-4 = grogne
+chat-emote-name-gnash = Serrer les dents
