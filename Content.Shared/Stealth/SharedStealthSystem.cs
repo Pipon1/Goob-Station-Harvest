@@ -255,5 +255,14 @@ public abstract class SharedStealthSystem : EntitySystem
 
         Dirty(ent);
     }
+
+    public void SetMaxVisibility(EntityUid uid, float value, StealthComponent? comp = null)
+    {
+        if (!Resolve(uid, ref comp))
+            return;
+
+        comp.MaxVisibility = value;
+        Dirty(uid, comp);
+    }
     // Goobstation end
 }

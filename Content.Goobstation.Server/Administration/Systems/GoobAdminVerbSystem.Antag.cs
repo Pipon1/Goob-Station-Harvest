@@ -13,6 +13,7 @@ using Content.Goobstation.Common.Blob;
 using Content.Goobstation.Server.Changeling.GameTicking.Rules;
 using Content.Goobstation.Server.Devil.GameTicking.Rules;
 using Content.Goobstation.Server.Shadowling.Rules;
+using Content.Goobstation.Server.Vampires;
 using Content.Server.Administration.Managers;
 using Content.Server.Antag;
 using Content.Shared._EinsteinEngines.Silicon.Components;
@@ -99,6 +100,25 @@ public sealed partial class GoobAdminVerbSystem
             Message = Loc.GetString("admin-verb-make-shadowling"),
         };
         args.Verbs.Add(shadowling);
+
+        // Vampire
+        Verb vampire = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-vampire"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(
+                new("/Textures/_Goobstation/Vampires/actions.rsi"),
+                "vampire_glare"),
+            Act = () =>
+            {
+                if (!HasComp<SiliconComponent>(args.Target))
+                    _antag.ForceMakeAntag<VampireRuleComponent>(targetPlayer, "VampireRule");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-vampire"),
+        };
+        if (!HasComp<SiliconComponent>(args.Target))
+            args.Verbs.Add(vampire);
     }
 
     public bool AntagVerbAllowed(GetVerbsEvent<Verb> args, [NotNullWhen(true)] out ICommonSession? target)

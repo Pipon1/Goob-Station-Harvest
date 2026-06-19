@@ -1,0 +1,7 @@
+# NOTE: The following entities were incorrectly added during port - they don't exist in the original Trauma PR
+# and reference RSIs that don't exist (bloodwall.rsi, bloodbeam.rsi, demonichand.rsi)
+# If needed, these should be re-implemented with actual texture assets
+
+# TODO: DemonicHandProjectile - needs demonichand.rsi texture
+# TODO: BloodWall - needs bloodwall.rsi texture
+# TODO: BloodBeam - needs bloodbeam.rsi texture

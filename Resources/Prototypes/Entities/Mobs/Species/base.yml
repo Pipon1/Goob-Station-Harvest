@@ -458,6 +458,8 @@
         requireInputValidation: false
       enum.RadarConsoleUiKey.Key: #goob - contractor
         type: RadarConsoleBoundUserInterface
+      enum.MobClassUiKey.Key:
+        type: Content.Goobstation.Client.MobClass.MobClassSelectorBui
   - type: Puller
   - type: Speech
     speechSounds: Alto
@@ -515,6 +517,7 @@
   components:
   - type: Absorbable # Goobstation - changelings
   - type: WraithAbsorbable # Goobstation - wraith
+  - type: VampireDrainable # Goobstation - vampires
   - type: Barotrauma
     damage:
       types:

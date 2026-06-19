@@ -1,0 +1,46 @@
+# Vampire Game Rule for admin antag selection
+- type: entity
+  parent: BaseGameRule
+  id: VampireRule
+  components:
+  - type: VampireRule
+  - type: GameRule
+    minPlayers: 15
+  - type: AntagObjectives
+    objectives:
+    - VampireBloodObjective
+    - VampireSurviveObjective
+  - type: AntagSelection
+    selectionTime: IntraPlayerSpawn
+    agentName: vampire-round-end-name
+    definitions:
+    - prefRoles: [ Vampire ]
+      max: 4
+      playerRatio: 12
+      chaosScore: 200
+      jobBlacklist: [ Chaplain ]
+      blacklist:
+        components:
+        - CommandStaff
+      lateJoinAdditional: true
+      mindRoles:
+      - MindRoleVampire
+      briefing:
+        text: vampire-role-briefing
+        color: "#650000"
+        sound: /Audio/_Goobstation/Vampires/vampalert.ogg
+
+# TODO: Trauma has mobState prototype, Goob doesn't - need alternative implementation
+# - type: mobState
+#   id: VampireCritical
+#   name: vampire-state-critical
+
+# TODO: Trauma has statusIcon prototype, Goob doesn't - StatusIcon is a component, not a prototype
+# - type: statusIcon
+#   id: VampireFactionIcon
+#   priority: 11
+#   icon:
+#     sprite: /Textures/_Goobstation/Vampires/vampire_faction.rsi
+#     state: vampire
+#   role: GhostRoleFactions
+

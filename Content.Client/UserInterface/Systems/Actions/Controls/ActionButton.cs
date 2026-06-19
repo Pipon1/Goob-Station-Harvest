@@ -22,6 +22,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System;
 using System.Numerics;
 using Content.Client.Actions;
 using Content.Client.Actions.UI;
@@ -233,7 +234,9 @@ public sealed class ActionButton : Control, IEntityControl
             if (_entities.TryGetComponent(Action, out AutoRechargeComponent? autoRecharge))
             {
                 var chargeTimeRemaining = _sharedChargesSys.GetNextRechargeTime((Action.Value, actionCharges, autoRecharge));
-                chargesText.AddText(Loc.GetString($"{Environment.NewLine}Time Til Recharge: {chargeTimeRemaining}"));
+                var secondsRemaining = (int)chargeTimeRemaining.TotalSeconds;
+                if (secondsRemaining > 0)
+                    chargesText.AddText(Loc.GetString($"{Environment.NewLine}Time Til Recharge: {secondsRemaining}s"));
             }
         }
 

@@ -1,3 +1,4 @@
+using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
 namespace Content.Shared.EntityEffects;
@@ -25,6 +26,7 @@ public sealed partial class SharedEntityEffectSystem : EntitySystem
     }
 
     [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
 
     private List<EntityEffectQueueEntry> _queue = new();
 
@@ -52,6 +54,9 @@ public sealed partial class SharedEntityEffectSystem : EntitySystem
 #pragma warning disable CS0618
     private void InvokeEffect(EntityEffect effect, EntityEffectBaseArgs args)
     {
+        if (!effect.ShouldApply(args, _random))
+            return;
+
         effect.Effect(args);
     }
 #pragma warning restore CS0618

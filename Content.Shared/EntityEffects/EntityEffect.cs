@@ -93,7 +93,10 @@ public static class EntityEffectExt
         {
             foreach (var cond in effect.Conditions)
             {
-                if (!cond.Condition(args))
+                var result = cond.Condition(args);
+                if (cond.Inverted)
+                    result = !result;
+                if (!result)
                     return false;
             }
         }

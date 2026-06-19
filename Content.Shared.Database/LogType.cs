@@ -622,4 +622,14 @@ public enum LogType
     /// Silicon law changes.
     /// </summary>
     SiliconLaws = 10005, // Goobstation
+
+    /// <summary>
+    /// Vampire related interactions.
+    /// </summary>
+    Vampire = 10006, // Goobstation
+
+    /// <summary>
+    /// Mob class selection related interactions.
+    /// </summary>
+    MobClass = 10007, // Goobstation
 }

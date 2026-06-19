@@ -15,6 +15,12 @@ public abstract partial class EntityEffectCondition
 {
     [JsonPropertyName("id")] private protected string _id => this.GetType().Name;
 
+    /// <summary>
+    /// If true, the condition result is inverted.
+    /// </summary>
+    [DataField]
+    public bool Inverted;
+
     public abstract bool Condition(EntityEffectBaseArgs args);
 
     /// <summary>

@@ -25,6 +25,7 @@ using Content.Shared.Body.Events;
 using Content.Shared.Body.Organ;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
+using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
@@ -154,6 +155,15 @@ namespace Content.Shared.Body.Systems
             }
 
             return true;
+        }
+
+        public void SetSpecialDigestible(EntityUid uid, EntityWhitelist? whitelist, StomachComponent? component = null)
+        {
+            if (!Resolve(uid, ref component))
+                return;
+
+            component.SpecialDigestible = whitelist;
+            Dirty(uid, component);
         }
     }
 }

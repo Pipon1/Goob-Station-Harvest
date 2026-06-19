@@ -327,6 +327,9 @@
   id: Bloodpack
 
 - type: Tag
+  id: BloodPool
+
+- type: Tag
   id: BlueprintAutolathe
 
 - type: Tag

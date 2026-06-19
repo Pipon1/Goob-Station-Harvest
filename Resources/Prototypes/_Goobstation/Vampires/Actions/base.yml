@@ -1,0 +1,130 @@
+﻿# All actions in here are the base actions of the vampire that hasn't specialized yet.
+#
+# Therefore, this file does not include class-specific actions.
+#
+# Abstract Actions
+- type: entity
+  parent: BaseAction
+  id: BaseVampireAction
+  components:
+  - type: Action
+    raiseOnAction: true
+    itemIconStyle: BigAction
+  # TODO: Add back conditions when HasNullificationCondition and InsideAreaCondition types are implemented
+  # - type: ActionConditions
+  #   failPopup: The holiness has consumed your powers!
+  #   conditions:
+  #   - !type:HasNullificationCondition
+  #     inverted: true
+  #     amount: 100
+  #   - !type:InsideAreaCondition
+  #     inverted: true
+  #     whitelist:
+  #       components:
+  #       - HolyArea
+
+- type: entity
+  parent: BaseVampireAction
+  id: BaseRejuvAction
+  components:
+  - type: Action
+    useDelay: 20
+    sound:
+      path: /Audio/_Goobstation/Vampires/Actions/vampire_rejuv.ogg
+    icon:
+      sprite: _Goobstation/Vampires/actions.rsi
+      state: vampire_rejuvinate
+    checkCanInteract: false
+  - type: InstantAction
+    event: !type:EffectInstantActionEvent
+
+    # Rejuv
+- type: entity
+  parent: BaseRejuvAction
+  id: ActionVampRejuvenateI
+  name: Rejuvenate I
+  description: Removes any and all stuns. Removes 100 stamina damage.
+  components:
+  - type: EffectAction
+    effects:
+    - !type:NestedEffect
+      proto: VampireRejuvI
+
+- type: entity
+  parent: BaseRejuvAction
+  id: ActionVampRejuvenateII
+  name: Rejuvenate II
+  description: Removes any and all stuns. Purges 10u of any harmful reagent. Heals 10 points each of brute, burn, toxin, and heals 50 points of oxyloss.
+  components:
+  - type: EffectAction
+    effects:
+    - !type:NestedEffect
+      proto: VampireRejuvII
+
+# Glare
+- type: entity
+  parent: BaseVampireAction
+  id: ActionVampireGlare
+  name: Glare
+  components:
+  - type: Action
+    useDelay: 2
+    sound:
+      path: /Audio/_Goobstation/Vampires/Actions/vampire_glare.ogg
+    icon:
+      sprite: _Goobstation/Vampires/actions.rsi
+      state: vampire_glare
+  - type: LimitedCharges
+    maxCharges: 2
+  - type: AutoRecharge
+    rechargeDuration: 30
+  - type: EffectAction
+    onPerformed: true
+    effects:
+    - !type:SpawnParticles
+      particleProto: VampireGlare
+  - type: InstantAction
+    event: !type:VampireGlareEvent
+  - type: ActionVampireGlare
+    frontEffects:
+    - !type:TakeStaminaDamage
+      amount: 70
+    - !type:ModifyKnockdown
+      time: 12
+    - !type:GenericStatusEffect
+      key: Muted
+      component: Muted
+      time: 8
+      type: Add
+    - !type:Flash
+      slowTo: 1
+      maxRange: 0.5
+      duration: 1
+    sideEffects:
+    - !type:TakeStaminaDamage
+      amount: 40
+    - !type:ModifyKnockdown
+      time: 5
+    - !type:ModifyStatusEffect
+      effectProto: StatusEffectScrambled
+      time: 8
+    behindEffects:
+    - !type:TakeStaminaDamage
+      amount: 40
+    - !type:ModifyStatusEffect
+      effectProto: StatusEffectScrambled
+      time: 8
+
+- type: entity
+  parent: BaseVampireAction
+  id: ActionChooseSpecialization
+  name: Choose Specialization
+  description: Choose Specialization
+  components:
+  - type: Action
+    icon:
+      sprite: _Goobstation/Vampires/actions.rsi
+      state: select_class
+  - type: InstantAction
+    event: !type:OpenClassSelectorUiEvent
+  - type: ActionMobClass

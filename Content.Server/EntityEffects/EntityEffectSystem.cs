@@ -8,6 +8,7 @@ using Content.Server.Botany.Components;
 using Content.Server.Botany.Systems;
 using Content.Server.Botany;
 using Content.Server.Chat.Systems;
+using Content.Server.Cloning;
 using Content.Server.Emp;
 using Content.Server.Explosion.EntitySystems;
 using Content.Server.Fluids.EntitySystems;
@@ -31,6 +32,7 @@ using Content.Shared.Chat;
 using Content.Shared.Coordinates.Helpers;
 using Content.Shared.EntityEffects.EffectConditions;
 using Content.Shared.EntityEffects.Effects.PlantMetabolism;
+using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.EntityEffects.Effects;
 using Content.Shared.EntityEffects;
 using Content.Shared.Flash;
@@ -46,6 +48,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Server.Stack; // Goobstation
+using Content.Goobstation.Shared.EntityEffects;
 
 using TemperatureCondition = Content.Shared.EntityEffects.EffectConditions.Temperature; // disambiguate the namespace
 using PolymorphEffect = Content.Shared.EntityEffects.Effects.Polymorph;
@@ -84,6 +87,8 @@ public sealed class EntityEffectSystem : EntitySystem
     [Dependency] private readonly TurfSystem _turf = default!; //todo Goobstation? The only thing im using this for is meant to be in RT? Fix if you havent
     [Dependency] private readonly ZombieSystem _zombie = default!; // Goob - zombie cure
     [Dependency] private readonly StackSystem _stack = default!; // Goobstation
+    [Dependency] private readonly SharedSolutionContainerSystem _solutionContainer = default!;
+    [Dependency] private readonly CloningSystem _cloning = default!;
 
     public override void Initialize()
     {
@@ -135,6 +140,10 @@ public sealed class EntityEffectSystem : EntitySystem
         SubscribeLocalEvent<ExecuteEntityEffectEvent<PlantSpeciesChange>>(OnExecutePlantSpeciesChange);
         SubscribeLocalEvent<ExecuteEntityEffectEvent<PolymorphEffect>>(OnExecutePolymorph);
         SubscribeLocalEvent<ExecuteEntityEffectEvent<ResetNarcolepsy>>(OnExecuteResetNarcolepsy);
+        SubscribeLocalEvent<ExecuteEntityEffectEvent<Vomit>>(OnExecuteVomit);
+        SubscribeLocalEvent<ExecuteEntityEffectEvent<AdjustReagentGroup>>(OnExecuteAdjustReagentGroup);
+        SubscribeLocalEvent<ExecuteEntityEffectEvent<SpawnClone>>(OnExecuteSpawnClone);
+        SubscribeLocalEvent<ExecuteEntityEffectEvent<SetMetabolizerType>>(OnExecuteSetMetabolizerType);
     }
 
     private void OnCheckTemperature(ref CheckEntityEffectConditionEvent<TemperatureCondition> args)
@@ -1035,5 +1044,52 @@ public sealed class EntityEffectSystem : EntitySystem
                 return;
 
         _narcolepsy.AdjustNarcolepsyTimer(args.Args.TargetEntity, args.Effect.TimerReset);
+    }
+
+    private void OnExecuteVomit(ref ExecuteEntityEffectEvent<Vomit> args)
+    {
+        _vomit.Vomit(args.Args.TargetEntity);
+    }
+
+    private void OnExecuteSpawnClone(ref ExecuteEntityEffectEvent<SpawnClone> args)
+    {
+        _cloning.TryCloning(args.Args.TargetEntity, null, args.Effect.Settings, out _);
+    }
+
+    private void OnExecuteSetMetabolizerType(ref ExecuteEntityEffectEvent<SetMetabolizerType> args)
+    {
+        if (!TryComp(args.Args.TargetEntity, out MetabolizerComponent? metabolizer))
+            return;
+
+        metabolizer.MetabolizerTypes = args.Effect.MetabolizerTypes;
+        Dirty(args.Args.TargetEntity, metabolizer);
+    }
+
+    private void OnExecuteAdjustReagentGroup(ref ExecuteEntityEffectEvent<AdjustReagentGroup> args)
+    {
+        if (!TryComp(args.Args.TargetEntity, out BloodstreamComponent? bloodstream))
+            return;
+
+        if (!_solutionContainer.ResolveSolution(args.Args.TargetEntity, bloodstream.ChemicalSolutionName, ref bloodstream.ChemicalSolution, out var solution))
+            return;
+
+        var targetGroup = args.Effect.Group;
+        var amount = args.Effect.Amount;
+
+        var reagentIds = _protoManager.EnumeratePrototypes<Content.Shared.Chemistry.Reagent.ReagentPrototype>()
+            .Where(r => r.Group == targetGroup)
+            .Select(r => r.ID)
+            .ToHashSet();
+
+        foreach (var reagent in solution.Contents.ToList())
+        {
+            if (!reagentIds.Contains(reagent.Reagent.Prototype))
+                continue;
+
+            if (amount < 0)
+                solution.RemoveReagent(reagent.Reagent, MathF.Abs(amount));
+            else
+                solution.AddReagent(reagent.Reagent, amount);
+        }
     }
 }

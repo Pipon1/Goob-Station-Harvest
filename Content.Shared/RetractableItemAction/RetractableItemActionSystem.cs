@@ -26,7 +26,7 @@ public sealed class RetractableItemActionSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<RetractableItemActionComponent, MapInitEvent>(OnActionInit);
-        SubscribeLocalEvent<RetractableItemActionComponent, OnRetractableItemActionEvent>(OnRetractableItemAction);
+        SubscribeLocalEvent<OnRetractableItemActionEvent>(OnRetractableItemAction);
 
         SubscribeLocalEvent<ActionRetractableItemComponent, ComponentShutdown>(OnActionSummonedShutdown);
         Subs.SubscribeWithRelay<ActionRetractableItemComponent, HeldRelayedEvent<TargetHandcuffedEvent>>(OnItemHandcuffed, inventory: false);
@@ -39,36 +39,41 @@ public sealed class RetractableItemActionSystem : EntitySystem
         PopulateActionItem(ent.Owner);
     }
 
-    private void OnRetractableItemAction(Entity<RetractableItemActionComponent> ent, ref OnRetractableItemActionEvent args)
+    private void OnRetractableItemAction(ref OnRetractableItemActionEvent args)
     {
+        var actionUid = args.Action.Owner;
+        if (!TryComp<RetractableItemActionComponent>(actionUid, out var comp))
+            return;
+
         if (_hands.GetActiveHand(args.Performer) is not { } activeHand)
             return;
 
-        if (_actions.GetAction(ent.Owner) is not { } action)
+        if (args.Action.Comp.AttachedEntity == null)
             return;
 
-        if (action.Comp.AttachedEntity == null)
-            return;
-
-        if (ent.Comp.ActionItemUid == null)
-            return;
+        if (comp.ActionItemUid == null)
+        {
+            PopulateActionItem((actionUid, comp));
+            if (comp.ActionItemUid == null)
+                return;
+        }
 
         // Don't allow to summon an item if holding an unremoveable item unless that item is summoned by the action.
-        if (_hands.GetActiveItem(ent.Owner) != null
-            && !_hands.IsHolding(args.Performer, ent.Comp.ActionItemUid)
+        if (_hands.GetActiveItem(args.Performer) != null
+            && !_hands.IsHolding(args.Performer, comp.ActionItemUid)
             && !_hands.CanDropHeld(args.Performer, activeHand, false))
         {
             _popups.PopupClient(Loc.GetString("retractable-item-hand-cannot-drop"), args.Performer, args.Performer);
             return;
         }
 
-        if (_hands.IsHolding(args.Performer, ent.Comp.ActionItemUid))
+        if (_hands.IsHolding(args.Performer, comp.ActionItemUid))
         {
-            RetractRetractableItem(args.Performer, ent.Comp.ActionItemUid.Value, ent.Owner);
+            RetractRetractableItem(args.Performer, comp.ActionItemUid.Value, actionUid);
         }
         else
         {
-            SummonRetractableItem(args.Performer, ent.Comp.ActionItemUid.Value, activeHand, ent.Owner);
+            SummonRetractableItem(args.Performer, comp.ActionItemUid.Value, activeHand, actionUid);
         }
 
         args.Handled = true;

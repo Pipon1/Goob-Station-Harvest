@@ -1,0 +1,17 @@
+# Status effects for vampire subclasses
+
+- type: entity
+  id: StaminaModifierStatusEffect
+  name: stamina modifier
+  description: Modifies stamina regeneration.
+  components:
+  - type: StatusEffect
+    statusEffect: StaminaModifier
+
+- type: entity
+  id: StatusEffectSpeed
+  name: speed modifier
+  description: Modifies movement speed.
+  components:
+  - type: StatusEffect
+    statusEffect: StatusEffectSpeed
