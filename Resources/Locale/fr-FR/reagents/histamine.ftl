@@ -2,5 +2,5 @@
 
 ### Messages that pop up when metabolizing histamine.
 
-histamine-effect-light-itchiness = Vous vous sentez un peu démangeaisons...
-histamine-effect-heavy-itchiness = Vous vous sentez VRAIMENT démangeaisons !
+histamine-effect-light-itchiness = Vous ressentez des démangeaisons...
+histamine-effect-heavy-itchiness = Vous ressentez BEAUCOUP de démangeaisons !
