@@ -41,10 +41,10 @@ reagent-desc-fresium = Un composé mystérieux qui ralentit la vibration des ato
 reagent-name-laughter = rire
 reagent-desc-laughter = Certains disent que c'est le meilleur remède, mais des études récentes ont prouvé le contraire.
 
-reagent-name-weh = jus qui vous fait faire Weh
+reagent-name-weh = jus qui vous fait Weh
 reagent-desc-weh = Pure essence de peluche lézard. Vous fait faire Weh !
 
-reagent-name-hew = jus qui vous fait faire Hew
+reagent-name-hew = jus qui vous fait Hew
 reagent-desc-hew = Pure essence de peluche lézard inversée. Vous fait faire Hew !
 
 reagent-name-corgiessence = corgium
