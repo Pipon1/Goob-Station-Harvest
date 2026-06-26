@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-sensor-monitoring-window-title = Sensor Monitoring Console
+sensor-monitoring-window-title = Console de surveillance des capteurs
 
 sensor-monitoring-value-display = {$unit ->
     [PressureKpa] { PRESSURE($value) }
