@@ -9,7 +9,9 @@
 
 docking-component-dock = Amarrer
 docking-component-undock = Désamarrer
-cmd-dock-desc = Tente d'amarrer 2 sas ensemble. Ne vérifie pas si l'opération est valide.
+
+cmd-dock-desc = Attempts to dock 2 airlocks together. Doesn't check whether it is valid.
 cmd-dock-help = dock <airlock entityuid1> <airlock entityuid2>
-cmd-dock-success = Amarrage réussi
-cmd-dock-fail = Impossible d'amarrer
+
+cmd-dock-success = Successfully docked
+cmd-dock-fail = Unable to dock
