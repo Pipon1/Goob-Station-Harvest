@@ -4,5 +4,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-comp-generator-failsafe = The {$target} shakes as the containment failsafe triggers!
-comp-generator-failsafe-disabled = Something fizzles out inside of {$target}...
+comp-generator-failsafe = Le {$target} tremble lorsque le système de sécurité du confinement se déclenche !
+comp-generator-failsafe-disabled = Quelque chose s'éteint à l'intérieur de {$target}...
