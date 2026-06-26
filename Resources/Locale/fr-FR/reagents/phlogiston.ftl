@@ -3,4 +3,4 @@
 #
 # SPDX-License-Identifier: MIT
 
-phlogiston-plasma-created = The mixture bubbles, and plasma rises from it!
+phlogiston-plasma-created = Le mélange bouillonne, et du plasma s'en dégage !
