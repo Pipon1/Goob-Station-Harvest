@@ -161,7 +161,7 @@ uplink-c4-desc = Utilisez-le pour percer des murs, des sas ou saboter des équip
 uplink-c4-bundle-name = Pack C-4
 uplink-c4-bundle-desc = Parce que parfois la quantité, c'est la qualité. Contient 8 explosifs plastiques C-4.
 
-uplink-grenadier-rig-name = gilet tactique de grenadier
+uplink-grenadier-rig-name = Gilet tactique de grenadier
 uplink-grenadier-rig-desc = Tout ce qu'il faut pour une fête bruyante : 4 grenades explosives, 2 grenades IEM et 2 minibombes dans un gilet tactique.
 
 uplink-emp-grenade-name = Grenade IEM
