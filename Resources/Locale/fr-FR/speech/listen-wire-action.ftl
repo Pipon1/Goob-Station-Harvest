@@ -3,6 +3,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-wire-listen-pulse-identifier = electricity
+wire-listen-pulse-identifier = électricité
 wire-listen-pulse-characters = eee EEo
-wire-listen-pulse-error-name = ERROR
+wire-listen-pulse-error-name = ERREUR
