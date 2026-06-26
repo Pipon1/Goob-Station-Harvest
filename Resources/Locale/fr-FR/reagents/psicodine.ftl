@@ -4,6 +4,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-psicodine-effect-fearless = You feel totally fearless!
-psicodine-effect-anxieties-wash-away = All of your anxieties wash away!
-psicodine-effect-at-peace = You feel completely at peace.
+psicodine-effect-fearless = Vous vous sentez totalement intrépide !
+psicodine-effect-anxieties-wash-away = Toutes vos angoisses s'envolent !
+psicodine-effect-at-peace = Vous vous sentez en paix.
