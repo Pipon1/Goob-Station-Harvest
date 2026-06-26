@@ -3,5 +3,5 @@
 #
 # SPDX-License-Identifier: MIT
 
-screens-text = text
-screens-color = color
+screens-text = texte
+screens-color = couleur
