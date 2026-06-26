@@ -12,15 +12,15 @@
 ### UI
 
 # Shown when examining the window. Each entry represents the window's health condition
-comp-window-damaged-1 = It looks fully intact.
-comp-window-damaged-2 = It has a few scratches.
-comp-window-damaged-3 = It has a few small cracks.
-comp-window-damaged-4 = [color=yellow]It has several big cracks running along its surface.[/color]
-comp-window-damaged-5 = [color=orange]It has deep cracks across multiple layers.[/color]
-comp-window-damaged-6 = [color=red]It's extremely cracked and on the verge of shattering.[/color]
+comp-window-damaged-1 = Ça a l'air intact.
+comp-window-damaged-2 = Ça a quelques rayures.
+comp-window-damaged-3 = Ça a des petites fissures.
+comp-window-damaged-4 = [color=yellow]Ça a plusieurs grandes fissures tout le long de sa surface.[/color]
+comp-window-damaged-5 = [color=orange]Ça a des fissures profondes à travers plusieurs couches de vitrages.[/color]
+comp-window-damaged-6 = [color=red]C'est extrêmement fissuré et sur le point de se briser.[/color]
 
 ### Interaction Messages
 
 # Shown when knocking on a window
-comp-window-knock = *knock knock*
+comp-window-knock = *toc toc*
 
