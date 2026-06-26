@@ -10,7 +10,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-analysis-console-menu-title = Console d'analyse Marque 3 large spectre
+analysis-console-menu-title = Console d'analyse large spectre Mk3
 analysis-console-server-list-button = Serveur
 analysis-console-extract-button = Extraire les points
 
