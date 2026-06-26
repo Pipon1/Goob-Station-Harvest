@@ -4,7 +4,7 @@
         [low] bas
         [medium] moyen
         [high] élevé
-       *[other] inconnu
+       *[other] autre
     }
 
 entity-heater-examined = Il est réglé sur { $setting ->
