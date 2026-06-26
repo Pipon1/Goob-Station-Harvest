@@ -13,18 +13,17 @@
 # SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
-
 # Commands
 ## Delay shuttle round end
-cmd-delayroundend-desc = Arrête le minuteur qui met fin à la partie lorsque la navette d'urgence sort de l'hyperespace.
+cmd-delayroundend-desc = Stops the timer that ends the round when the emergency shuttle exits hyperspace.
 cmd-delayroundend-help = Usage: delayroundend
-emergency-shuttle-command-round-yes = Partie retardée.
-emergency-shuttle-command-round-no = Impossible de retarder la fin de la partie.
+emergency-shuttle-command-round-yes = Round delayed.
+emergency-shuttle-command-round-no = Unable to delay round end.
 ## Dock emergency shuttle
-cmd-dockemergencyshuttle-desc = Appelle la navette d'urgence et l'amarre à la station... si possible.
+cmd-dockemergencyshuttle-desc = Calls the emergency shuttle and docks it to the station... if it can.
 cmd-dockemergencyshuttle-help = Usage: dockemergencyshuttle
 ## Launch emergency shuttle
-cmd-launchemergencyshuttle-desc = Lance la navette d'urgence en avance si possible.
+cmd-launchemergencyshuttle-desc = Early launches the emergency shuttle if possible.
 cmd-launchemergencyshuttle-help = Usage: launchemergencyshuttle
 # Emergency shuttle
 emergency-shuttle-left = La navette d'urgence a quitté la station. Estimation de {$transitTime} secondes avant l'arrivée de la navette au Commandement Central.
