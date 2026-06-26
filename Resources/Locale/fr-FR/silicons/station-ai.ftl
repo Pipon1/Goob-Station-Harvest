@@ -8,47 +8,47 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # General
-ai-wire-snipped = One of your systems' wires has been cut at {$source}.
-wire-name-ai-vision-light = AIV
-wire-name-ai-act-light = AIA
-station-ai-takeover = AI takeover
-station-ai-eye-name = AI eye - {$name}
+ai-wire-snipped = L'un des câbles de vos systèmes a été sectionné à {$source}.
+wire-name-ai-vision-light = IAV
+wire-name-ai-act-light = IAA
+station-ai-takeover = Prise de contrôle de l'IA
+station-ai-eye-name = Œil de l'IA - {$name}
 
 # Radial actions
-ai-open = Open actions
-ai-close = Close actions
+ai-open = Ouvrir les actions
+ai-close = Fermer les actions
 
-bolt-close = Close bolt
-bolt-open = Open bolt
+bolt-close = Fermer les verrous
+bolt-open = Ouvrir les verrous
 
-emergency-access-on = Enable emergency access
-emergency-access-off = Disable emergency access
+emergency-access-on = Activer l'accès d'urgence
+emergency-access-off = Désactiver l'accès d'urgence
 
-electrify-door-on = Enable overcharge
-electrify-door-off = Disable overcharge
+electrify-door-on = Activer l'overcharge
+electrify-door-off = Désactiver l'overcharge
 
-toggle-light = Toggle light
+toggle-light = Allumer/éteindre la lumière
 
-ai-device-not-responding = Device is not responding
+ai-device-not-responding = L'appareil ne répond pas
 
-ai-consciousness-download-warning = Your consciousness is being downloaded.
+ai-consciousness-download-warning = Votre conscience est en train d'être téléchargée.
 
 # UI
-station-ai-customization-menu = AI customization
-station-ai-customization-categories = Categories
-station-ai-customization-options = Options (choice of one)
-station-ai-customization-core = AI core displays
-station-ai-customization-hologram = Holographic avatars
+station-ai-customization-menu = Personnalisation de l'IA
+station-ai-customization-categories = Catégories
+station-ai-customization-options = Options (choisir une seule)
+station-ai-customization-core = Affichages du noyau de l'IA
+station-ai-customization-hologram = Avatars holographiques
 
 # Customizations
 station-ai-icon-ai = Ghost in the machine
-station-ai-icon-angel = Guardian angel
-station-ai-icon-bliss = Simpler times
+station-ai-icon-angel = Ange gardien
+station-ai-icon-bliss = Des temps plus simples
 station-ai-icon-clown = Clownin' around
 station-ai-icon-dorf = Adventure awaits
-station-ai-icon-heartline = Lifeline
-station-ai-icon-smiley = All smiles
+station-ai-icon-heartline = Ligne de vie
+station-ai-icon-smiley = Tout sourire
 
-station-ai-hologram-female = Female appearance
-station-ai-hologram-male = Male appearance
-station-ai-hologram-face = Disembodied head
+station-ai-hologram-female = Apparence de femme
+station-ai-hologram-male = Apparence d'homme
+station-ai-hologram-face = Tête flottante
