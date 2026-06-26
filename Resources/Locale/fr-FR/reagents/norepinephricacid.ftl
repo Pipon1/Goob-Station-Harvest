@@ -4,11 +4,11 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-norepinephricacid-effect-eyelids = Your eyelids are rapidly twitching.
-norepinephricacid-effect-eyes-itch = Your eyes feel itchy.
-norepinephricacid-effect-vision-fade = You feel your vision fading.
-norepinephricacid-effect-vision-fail = You can feel your vision failing you.
-norepinephricacid-effect-eye-pain = You feel a deep pain in your eyes!
-norepinephricacid-effect-blindness = Your eyes cease function!
-norepinephricacid-effect-darkness = You are plunged into a world of darkness!
-norepinephricacid-effect-eye-disconnect = Your eyes feel like they're disconnecting!
+norepinephricacid-effect-eyelids = Vos paupières ont des spasmes rapides.
+norepinephricacid-effect-eyes-itch = Vous ressentez des démangeaisons aux yeux.
+norepinephricacid-effect-vision-fade = Vous sentez que votre vision s'estompe.
+norepinephricacid-effect-vision-fail = Vous sentez que votre vision vous fait défaut.
+norepinephricacid-effect-eye-pain = Vous ressentez une douleur intense dans les yeux !
+norepinephricacid-effect-blindness = Vos yeux cessent de fonctionner !
+norepinephricacid-effect-darkness = Vous êtes plongé dans l'obscurité totale !
+norepinephricacid-effect-eye-disconnect = Vous avez l'impression que vos yeux se déconnectent !
