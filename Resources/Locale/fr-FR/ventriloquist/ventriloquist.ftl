@@ -5,11 +5,11 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ventriloquist-puppet-insert-hand = You insert your hand into the puppet.
-ventriloquist-puppet-remove-hand = You remove your hand from the puppet.
+ventriloquist-puppet-insert-hand = Vous insérez votre main dans la marionnette.
+ventriloquist-puppet-remove-hand = Vous enlevez votre main de la marionnette.
 
-ventriloquist-puppet-cant-speak = You cannot speak without a helping hand.
-ventriloquist-puppet-inserted-hand = You have a helping hand.
-ventriloquist-puppet-removed-hand = you have lost your helping hand.
-ventriloquist-puppet-role-name = A Dummy
-ventriloquist-puppet-role-description = Become a dummy, dummy!
+ventriloquist-puppet-cant-speak = Vous ne pouvez pas parler sans main qui vous anime.
+ventriloquist-puppet-inserted-hand = Vous avez une main qui vous anime.
+ventriloquist-puppet-removed-hand = Vous avez perdu la main qui vous anime.
+ventriloquist-puppet-role-name = Une marionnette
+ventriloquist-puppet-role-description = Devenez une marionnette de ventriloque.
