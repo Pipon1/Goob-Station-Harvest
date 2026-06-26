@@ -3,4 +3,4 @@
 #
 # SPDX-License-Identifier: MIT
 
-station-event-breaker-flip-announcement = Sur la base de { $data }, nous avons décidé de désactiver certains CPE afin d'éviter d'endommager les équipements. Veuillez contacter le département d'ingénierie pour les réactiver.
+station-event-breaker-flip-announcement = Sur la base de { $data }, nous avons décidé de désactiver certains APC afin d'éviter d'endommager les équipements. Veuillez contacter le département d'ingénierie pour les réactiver.
