@@ -4,16 +4,16 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-comp-containment-turned-on = The containment field generator boots up.
-comp-containment-turned-off = The containment field generator shuts down.
+comp-containment-turned-on = Le générateur de champ de confinement démarre.
+comp-containment-turned-off = Le générateur de champ de confinement s'arrête.
 
-comp-containment-on = It's switched [color=green]on[/color], ready to generate a connection.
-comp-containment-off = It's switched [color=red]off[/color].
+comp-containment-on = Il est [color=green]allumé[/color], prêt à établir une connexion.
+comp-containment-off = Il est [color=red]éteint[/color].
 
-comp-containment-connected = The containment field generator shoots out a light as it establishes a connection!
-comp-containment-disconnected = The containment field generator light fades away, severing the connection.
+comp-containment-connected = Le générateur de champ de confinement émet une lumière lorsqu’il établit une connexion !
+comp-containment-disconnected = La lumière du générateur de champ de confinement s’éteint progressivement, coupant la connexion.
 
-comp-containment-anchor-warning = You cannot unanchor the containment field generator while it's on or connected!
-comp-containment-toggle-warning = You cannot turn the generator off while it's connected.
+comp-containment-anchor-warning = Vous ne pouvez pas désancrer le générateur de champ de confinement tant qu’il est activé ou connecté !
+comp-containment-toggle-warning = Vous ne pouvez pas désactiver le générateur tant qu’il est connecté.
 
-comp-field-vaporized = The {$entity} hits the field and vaporizes into nothing!
+comp-field-vaporized = La {$entity} entre en contact avec le champ et se vaporise, disparaissant dans le néant !
