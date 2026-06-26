@@ -3,6 +3,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-server-updates-received = Update has been received, server will automatically restart for update at the end of this round.
-server-updates-shutdown = Server is shutting down for update and will automatically restart.
-server-updates-shutdown-uptime = Server is shutting down for periodic cleanup and will automatically restart.
+server-updates-received = Une mise à jour a été reçue ; le serveur redémarrera automatiquement à la fin de ce cycle pour effectuer la mise à jour.
+server-updates-shutdown = Le serveur s'arrête pour effectuer une mise à jour et redémarrera automatiquement.
+server-updates-shutdown-uptime = Le serveur s'arrête pour effectuer un nettoyage périodique et redémarrera automatiquement.
