@@ -11,51 +11,51 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-salvage-system-announcement-losing = The magnet is no longer able to hold the salvagable debris. Estimated time until loss: {$timeLeft} seconds.
-salvage-system-announcement-spawn-debris-disintegrated = Debris disintegrated during orbital transfer.
-salvage-system-announcement-spawn-no-debris-available = No debris could be recovered by the salvage magnet.
-salvage-system-announcement-arrived = A piece of salvagable debris has been pulled in. Estimated hold time: {$timeLeft} seconds.
-salvage-asteroid-name = Asteroid
+salvage-system-announcement-losing = L'aimant n'est plus en mesure de retenir les débris récupérables. Temps estimé avant la perte : {$timeLeft} secondes.
+salvage-system-announcement-spawn-debris-disintegrated = Les débris se sont désintégrés pendant le transfert orbital.
+salvage-system-announcement-spawn-no-debris-available = Aucun débris n'a pu être récupéré par l'aimant de récupération.
+salvage-system-announcement-arrived = Un débris récupérable a été attiré. Durée de rétention estimée : {$timeLeft} secondes.
+salvage-asteroid-name = Astéroïde
 
-salvage-magnet-window-title = Salvage magnet
+salvage-magnet-window-title = Aimant de récupération
 salvage-expedition-window-progression = Progression
 
 salvage-magnet-resources = {$resource ->
-    [OreIron] Iron
-    [OreCoal] Coal
+    [OreIron] Fer
+    [OreCoal] Charbon
     [OreQuartz] Quartz
-    [OreSalt] Salt
-    [OreGold] Gold
-    [OreDiamond] Diamond
-    [OreSilver] Silver
+    [OreSalt] Sel
+    [OreGold] Or
+    [OreDiamond] Diamant
+    [OreSilver] Argent
     [OrePlasma] Plasma
     [OreUranium] Uranium
-    [OreArtifactFragment] Artifact fragments
+    [OreArtifactFragment] Fragments d'artéfacts
     [OreBananium] Bananium
     *[other] {$resource}
 }
 
 salvage-magnet-resources-count = {$count ->
-    [1] (Poor)
-    [2] (Moderate)
-    [3] (Moderate)
-    [4] (Rich)
-    [5] (Rich)
-    *[other] (Extraordinary)
+    [1] (Pauvre)
+    [2] (Modéré)
+    [3] (Modéré)
+    [4] (Riche)
+    [5] (Riche)
+    *[other] (Extraordinaire)
 }
 
 # Debris
-salvage-magnet-debris-ChunkDebris = Space debris
+salvage-magnet-debris-ChunkDebris = Débris spatiaux
 
 # Asteroids
-dungeon-config-proto-BlobAsteroid = Asteroid clump
-dungeon-config-proto-ClusterAsteroid = Asteroid cluster
-dungeon-config-proto-SpindlyAsteroid = Asteroid spiral
-dungeon-config-proto-SwissCheeseAsteroid = Asteroid fragments
+dungeon-config-proto-BlobAsteroid = Astéroïdes en amas
+dungeon-config-proto-ClusterAsteroid = Astéroïdes en grappe
+dungeon-config-proto-SpindlyAsteroid = Astéroïdes en spirale
+dungeon-config-proto-SwissCheeseAsteroid = Aastéroïdes en fragments
 
 # Wrecks
-salvage-map-wreck = Salvage wreck
-salvage-map-wreck-desc-size = Size:
-salvage-map-wreck-size-small = [color=lime]Small[/color]
-salvage-map-wreck-size-medium = [color=cornflowerblue]Medium[/color]
-salvage-map-wreck-size-large = [color=orchid]Large[/color]
+salvage-map-wreck = Épave spatiale
+salvage-map-wreck-desc-size = Taille :
+salvage-map-wreck-size-small = [color=lime]Petite[/color]
+salvage-map-wreck-size-medium = [color=cornflowerblue]Moyenne[/color]
+salvage-map-wreck-size-large = [color=orchid]Grande[/color]
