@@ -3,4 +3,4 @@
 #
 # SPDX-License-Identifier: MIT
 
-weldable-component-examine-is-welded = Sa porte a été soudée.
+weldable-component-examine-is-welded = Le sas a été soudée.
