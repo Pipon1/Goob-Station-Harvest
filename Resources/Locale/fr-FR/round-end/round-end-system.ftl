@@ -19,9 +19,9 @@
 
 round-end-system-shuttle-called-announcement = Une navette de secours a été envoyée. ETA : {$time} {$units}.
 round-end-system-shuttle-already-called-announcement = Une navette de secours a déjà été envoyée.
-round-end-system-shuttle-auto-called-announcement = Une navette automatique de changement de quart a été envoyée. ETA : {$time} {$units}. Rappelez la navette pour prolonger le quart.
+round-end-system-shuttle-auto-called-announcement = Une navette automatique de changement de service a été envoyée. ETA : {$time} {$units}. Rappelez la navette pour prolonger le service.
 round-end-system-shuttle-recalled-announcement = La navette de secours a été rappelée.
 round-end-system-shuttle-sender-announcement = Station
-round-end-system-round-restart-eta-announcement = Redémarrage de la ronde dans {$time} {$units}...
+round-end-system-round-restart-eta-announcement = Redémarrage du round dans {$time} {$units}...
 eta-units-minutes = minutes
 eta-units-seconds = secondes
