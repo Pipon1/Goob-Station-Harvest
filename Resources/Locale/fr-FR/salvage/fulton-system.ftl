@@ -4,10 +4,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-fulton-folded = Beacon needs unfolding
-fulton-examine = {$time} seconds until extraction
-fulton-linked = Linked beacon
-fulton-not-found = No beacon found
-fulton-invalid = Can't fulton
-fulton-fultoned = Already fultoned
-fulton-remove = Remove fulton
+fulton-folded = La balise doit être dépliée
+fulton-examine = {$time} secondes avant l'extraction
+fulton-linked = Balise reliée
+fulton-not-found = Aucune balise trouvée
+fulton-invalid = Impossible de fultonner
+fulton-fultoned = Déjà fultonné
+fulton-remove = Enlever le fulton
