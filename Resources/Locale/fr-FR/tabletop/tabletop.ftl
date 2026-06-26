@@ -13,7 +13,7 @@ tabletop-verb-play-game = Jouer
 tabletop-verb-dump-pieces = Vider les pièces
 tabletop-default-board-name = Jeu de plateau
 tabletop-error-remove-non-hologram = Vous ne pouvez pas retirer une pièce intégrée !
-tabletop-added-piece = Le plateau scintille brillamment !
+tabletop-added-piece = Le plateau scintille !
 
 ## Chess
 tabletop-chess-board-name = Échecs
@@ -29,4 +29,4 @@ tabletop-backgammon-board-name = Backgammon
 tabletop-checkers-board-name = Dames
 
 ## Battlemap
-tabletop-battlemap-board-name = Carte de bataille
+tabletop-battlemap-board-name = Battlemap
