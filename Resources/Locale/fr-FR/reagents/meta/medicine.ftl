@@ -56,10 +56,10 @@ reagent-desc-doxarubixadone = Un produit chimique de cryogénie. Soigne les domm
 reagent-name-dermaline = dermaline
 reagent-desc-dermaline = Un produit chimique avancé plus efficace que la kélotane pour traiter les brûlures.
 
-reagent-name-dexalin = dexaline
+reagent-name-dexalin = déxaline
 reagent-desc-dexalin = Utilisée pour traiter les manques d'oxygène mineurs et les pertes de sang. Un réactif nécessaire à la dexaline plus.
 
-reagent-name-dexalin-plus = dexaline plus
+reagent-name-dexalin-plus = déxaline plus
 reagent-desc-dexalin-plus = Utilisée pour traiter les cas extrêmes de manque d'oxygène et de perte de sang. Élimine la toxine brise-cœur du flux sanguin.
 
 reagent-name-epinephrine = épinéphrine
