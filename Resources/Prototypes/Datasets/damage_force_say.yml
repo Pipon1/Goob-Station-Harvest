@@ -4,7 +4,7 @@
   id: ForceSayStringDataset
   values:
     prefix: damage-force-say-
-    count: 7
+    count: 10
 
 - type: localizedDataset
   id: ForceSaySleepDataset
@@ -16,4 +16,4 @@
   id: ForceSayNumbDataset
   values:
     prefix: damage-force-say-numb-
-    count: 5
+    count: 7
