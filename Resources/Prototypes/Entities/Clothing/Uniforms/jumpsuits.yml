@@ -233,7 +233,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
   - type: Construction
     graph: BananaClownJumpsuit
-    node: uniforme
+    node: jumpsuit
   - type: Armor
     coverage:
     - Chest
@@ -1262,7 +1262,7 @@
           Quantity: 30
   - type: Construction
     graph: WebObjects
-    node: uniforme
+    node: jumpsuit
 
 - type: entity
   parent: ClothingUniformBase
