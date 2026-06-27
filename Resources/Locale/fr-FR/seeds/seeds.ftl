@@ -163,5 +163,4 @@ seeds-cherry-display-name = cerisier
 seeds-anomaly-berry-name = baie d'anomalie
 seeds-anomaly-berry-display-name = baies d'anomalie
 seeds-bloonion-name = bloonion
-seeds-bloonion-name = bloonion
 seeds-bloonion-display-name = bloonion bulbs
