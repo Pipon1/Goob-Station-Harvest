@@ -63,6 +63,8 @@
         collection: GlassSmack
   - type: WallMount
     arc: 360 # interact despite grilles
+  - type: SoundBlocker
+    cost: 2
   - type: Tag
     tags:
       - ForceFixRotations

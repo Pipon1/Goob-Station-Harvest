@@ -236,6 +236,7 @@
   id: BaseWall
   components:
   - type: Occluder # Breaks on diagonal walls
+  - type: SoundBlocker
 
 - type: entity
   abstract: true

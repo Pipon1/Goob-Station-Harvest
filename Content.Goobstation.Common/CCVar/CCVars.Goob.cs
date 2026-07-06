@@ -692,4 +692,14 @@ public sealed partial class GoobCVars
         CVarDef.Create("particles.global_budget", 8000, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     #endregion
+
+    #region Audio Muffle
+
+    /// <summary>
+    /// Enables pathfinding-based audio muffling on grids.
+    /// </summary>
+    public static readonly CVarDef<bool> AudioMufflePathfinding =
+        CVarDef.Create("goob.audio_muffle_pathfinding", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    #endregion
 }

@@ -84,6 +84,8 @@
         acts: ["Destruction"]
   - type: Occluder
   - type: BlockWeather
+  - type: SoundBlocker
+    cost: 3
   - type: InteractionVerbs # EE: Interaction Verbs
     allowedVerbs:
     - KnockOn

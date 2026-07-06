@@ -293,6 +293,8 @@
     - KnockOn
   - type: WeldingSparksAnimation # Goobstation
     startingOffset: 0, 0.5
+  - type: SoundBlocker
+    cost: 3
   placement:
     mode: SnapgridCenter
 
