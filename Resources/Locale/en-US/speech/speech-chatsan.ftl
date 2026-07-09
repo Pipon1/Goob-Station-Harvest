@@ -247,7 +247,7 @@ chatsan-word-80 = mrc
 chatsan-replacement-80 = merci
 
 chatsan-word-81 = cc
-chatsan-replacement-81 = coucou
+chatsan-replacement-81 = CentComm
 
 chatsan-word-82 = nrv
 chatsan-replacement-82 = énervé
