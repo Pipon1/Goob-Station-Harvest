@@ -383,11 +383,11 @@ chatsan-replacement-130 = je vais
 chatsan-word-131 = clv
 chatsan-replacement-131 = c'est la vie
 
-chatsan-word-132 = lv
-chatsan-replacement-132 = la vie
+# chatsan-word-132 = lv
+# chatsan-replacement-132 = la vie
 
-chatsan-word-133 = mv
-chatsan-replacement-133 = ma vie
+# chatsan-word-133 = mv
+# chatsan-replacement-133 = ma vie
 
 chatsan-word-134 = cmt
 chatsan-replacement-134 = comment
