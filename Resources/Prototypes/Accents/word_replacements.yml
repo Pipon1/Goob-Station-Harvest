@@ -382,6 +382,58 @@
 - type: accent
   id: chatsanitize
   wordReplacements:
+    # Start for the sanitization of french sms slang
+    chatsan-french-slang-1: chatsan-french-slang-replacement-1
+    chatsan-french-slang-2: chatsan-french-slang-replacement-2
+    chatsan-french-slang-3: chatsan-french-slang-replacement-3
+    chatsan-french-slang-4: chatsan-french-slang-replacement-4
+    chatsan-french-slang-5: chatsan-french-slang-replacement-5
+    chatsan-french-slang-6: chatsan-french-slang-replacement-pourquoi
+    chatsan-french-slang-7: chatsan-french-slang-replacement-pourquoi
+    chatsan-french-slang-8: chatsan-french-slang-replacement-8
+    chatsan-french-slang-9: chatsan-french-slang-replacement-9
+    chatsan-french-slang-10: chatsan-french-slang-replacement-10
+    chatsan-french-slang-11: chatsan-french-slang-replacement-11
+    chatsan-french-slang-12: chatsan-french-slang-replacement-12
+    chatsan-french-slang-13: chatsan-french-slang-replacement-13
+    chatsan-french-slang-14: chatsan-french-slang-replacement-14
+    chatsan-french-slang-15: chatsan-french-slang-replacement-tinquietes
+    chatsan-french-slang-16: chatsan-french-slang-replacement-tinquietes
+    chatsan-french-slang-17: chatsan-french-slang-replacement-quelquun
+    chatsan-french-slang-18: chatsan-french-slang-replacement-quelquun
+    chatsan-french-slang-19: chatsan-french-slang-replacement-19
+    chatsan-french-slang-20: chatsan-french-slang-replacement-20
+    chatsan-french-slang-21: chatsan-french-slang-replacement-21
+    chatsan-french-slang-22: chatsan-french-slang-replacement-22
+    chatsan-french-slang-23: chatsan-french-slang-replacement-23
+    chatsan-french-slang-24: chatsan-french-slang-replacement-24
+    chatsan-french-slang-25: chatsan-french-slang-replacement-25
+    chatsan-french-slang-26: chatsan-french-slang-replacement-26
+    chatsan-french-slang-27: chatsan-french-slang-replacement-toujours
+    chatsan-french-slang-28: chatsan-french-slang-replacement-toujours
+    chatsan-french-slang-29: chatsan-french-slang-replacement-toujours
+    chatsan-french-slang-30: chatsan-french-slang-replacement-30
+    chatsan-french-slang-31: chatsan-french-slang-replacement-daccord
+    chatsan-french-slang-32: chatsan-french-slang-replacement-daccord
+    chatsan-french-slang-33: chatsan-french-slang-replacement-33
+    chatsan-french-slang-34: chatsan-french-slang-replacement-34
+    chatsan-french-slang-35: chatsan-french-slang-replacement-35
+    chatsan-french-slang-36: chatsan-french-slang-replacement-36
+    chatsan-french-slang-37: chatsan-french-slang-replacement-37
+    chatsan-french-slang-38: chatsan-french-slang-replacement-38
+    chatsan-french-slang-39: chatsan-french-slang-replacement-39
+    chatsan-french-slang-40: chatsan-french-slang-replacement-40
+    chatsan-french-slang-41: chatsan-french-slang-replacement-41
+    chatsan-french-slang-42: chatsan-french-slang-replacement-42
+    chatsan-french-slang-43: chatsan-french-slang-replacement-43
+    chatsan-french-slang-44: chatsan-french-slang-replacement-44
+    chatsan-french-slang-45: chatsan-french-slang-replacement-45
+    chatsan-french-slang-46: chatsan-french-slang-replacement-46
+    chatsan-french-slang-47: chatsan-french-slang-replacement-47
+    chatsan-french-slang-48: chatsan-french-slang-replacement-vasy
+    chatsan-french-slang-49: chatsan-french-slang-replacement-vasy
+    chatsan-french-slang-50: chatsan-french-slang-replacement-50
+    # french slang end
     chatsan-word-1: chatsan-replacement-1
     chatsan-word-2: chatsan-replacement-2
     chatsan-word-3: chatsan-replacement-3
@@ -457,61 +509,6 @@
     chatsan-word-72: chatsan-replacement-72
     chatsan-word-73: chatsan-replacement-73
     # goob end
-
-# For the sanitization of french sms slang
-- type: accent
-  id: chatsanitizeFR
-  wordReplacements:
-    chatsan-french-slang-1: chatsan-french-slang-replacement-1
-    chatsan-french-slang-2: chatsan-french-slang-replacement-2
-    chatsan-french-slang-3: chatsan-french-slang-replacement-3
-    chatsan-french-slang-4: chatsan-french-slang-replacement-4
-    chatsan-french-slang-5: chatsan-french-slang-replacement-5
-    chatsan-french-slang-6: chatsan-french-slang-replacement-pourquoi
-    chatsan-french-slang-7: chatsan-french-slang-replacement-pourquoi
-    chatsan-french-slang-8: chatsan-french-slang-replacement-8
-    chatsan-french-slang-9: chatsan-french-slang-replacement-9
-    chatsan-french-slang-10: chatsan-french-slang-replacement-10
-    chatsan-french-slang-11: chatsan-french-slang-replacement-11
-    chatsan-french-slang-12: chatsan-french-slang-replacement-12
-    chatsan-french-slang-13: chatsan-french-slang-replacement-13
-    chatsan-french-slang-14: chatsan-french-slang-replacement-14
-    chatsan-french-slang-15: chatsan-french-slang-replacement-tinquietes
-    chatsan-french-slang-16: chatsan-french-slang-replacement-tinquietes
-    chatsan-french-slang-17: chatsan-french-slang-replacement-quelquun
-    chatsan-french-slang-18: chatsan-french-slang-replacement-quelquun
-    chatsan-french-slang-19: chatsan-french-slang-replacement-19
-    chatsan-french-slang-20: chatsan-french-slang-replacement-20
-    chatsan-french-slang-21: chatsan-french-slang-replacement-21
-    chatsan-french-slang-22: chatsan-french-slang-replacement-22
-    chatsan-french-slang-23: chatsan-french-slang-replacement-23
-    chatsan-french-slang-24: chatsan-french-slang-replacement-24
-    chatsan-french-slang-25: chatsan-french-slang-replacement-25
-    chatsan-french-slang-26: chatsan-french-slang-replacement-26
-    chatsan-french-slang-27: chatsan-french-slang-replacement-toujours
-    chatsan-french-slang-28: chatsan-french-slang-replacement-toujours
-    chatsan-french-slang-29: chatsan-french-slang-replacement-toujours
-    chatsan-french-slang-30: chatsan-french-slang-replacement-30
-    chatsan-french-slang-31: chatsan-french-slang-replacement-daccord
-    chatsan-french-slang-32: chatsan-french-slang-replacement-daccord
-    chatsan-french-slang-33: chatsan-french-slang-replacement-33
-    chatsan-french-slang-34: chatsan-french-slang-replacement-34
-    chatsan-french-slang-35: chatsan-french-slang-replacement-35
-    chatsan-french-slang-36: chatsan-french-slang-replacement-36
-    chatsan-french-slang-37: chatsan-french-slang-replacement-37
-    chatsan-french-slang-38: chatsan-french-slang-replacement-38
-    chatsan-french-slang-39: chatsan-french-slang-replacement-39
-    chatsan-french-slang-40: chatsan-french-slang-replacement-40
-    chatsan-french-slang-41: chatsan-french-slang-replacement-41
-    chatsan-french-slang-42: chatsan-french-slang-replacement-42
-    chatsan-french-slang-43: chatsan-french-slang-replacement-43
-    chatsan-french-slang-44: chatsan-french-slang-replacement-44
-    chatsan-french-slang-45: chatsan-french-slang-replacement-45
-    chatsan-french-slang-46: chatsan-french-slang-replacement-46
-    chatsan-french-slang-47: chatsan-french-slang-replacement-47
-    chatsan-french-slang-48: chatsan-french-slang-replacement-vasy
-    chatsan-french-slang-49: chatsan-french-slang-replacement-vasy
-    chatsan-french-slang-50: chatsan-french-slang-replacement-50
 
 - type: accent
   id: liar
