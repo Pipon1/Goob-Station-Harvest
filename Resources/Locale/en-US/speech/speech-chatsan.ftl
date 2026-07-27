@@ -226,198 +226,158 @@ chatsan-word-73 = icl
 chatsan-replacement-73 = i can't lie
 # goob end
 
-# french translation start
-chatsan-word-72 = svp
-chatsan-replacement-72 = s'il vous plaît
+# french translation
 
-chatsan-word-73 = stp
-chatsan-replacement-73 = s'il te plaît
+chatsan-french-slang-1 = svp
+chatsan-french-slang-replacement-1 = s'il vous plaît
 
-chatsan-word-74 = slt
-chatsan-replacement-74 = salut
+chatsan-french-slang-2 = stp
+chatsan-french-slang-replacement-2 = s'il te plaît
 
-chatsan-word-75 = nn
-chatsan-replacement-75 = non
+chatsan-french-slang-3 = slt
+chatsan-french-slang-replacement-3 = salut
 
-chatsan-word-76 = mdp
-chatsan-replacement-76 = mot de passe
+chatsan-french-slang-4 = nn
+chatsan-french-slang-replacement-4 = non
 
-chatsan-word-77 = pq
-chatsan-word-78 = pk
-chatsan-replacement-pourquoi = pourquoi
+chatsan-french-slang-5 = mdp
+chatsan-french-slang-replacement-5 = mot de passe
 
-chatsan-word-79 = pcq
-chatsan-replacement-79 = parce que
+chatsan-french-slang-6 = pq
+chatsan-french-slang-7 = pk
+chatsan-french-slang-replacement-pourquoi = pourquoi
 
-chatsan-word-80 = mrc
-chatsan-replacement-80 = merci
+chatsan-french-slang-8 = pcq
+chatsan-french-slang-replacement-8 = parce que
 
-chatsan-word-81 = cc
-chatsan-replacement-81 = CentComm
+chatsan-french-slang-9 = mrc
+chatsan-french-slang-replacement-9 = merci
 
-chatsan-word-82 = nrv
-chatsan-replacement-82 = énervé
+chatsan-french-slang-10 = cc
+chatsan-french-slang-replacement-10 = CentComm
 
-chatsan-word-83 = pb
-chatsan-replacement-83 = problème
+chatsan-french-slang-11 = nrv
+chatsan-french-slang-replacement-11 = énervé
 
-chatsan-word-84 = bjr
-chatsan-replacement-84 = bonjour
+chatsan-french-slang-12 = pb
+chatsan-french-slang-replacement-12 = problème
 
-chatsan-word-85 = bsr
-chatsan-replacement-85 = bonsoir
+chatsan-french-slang-13 = bjr
+chatsan-french-slang-replacement-13 = bonjour
 
-chatsan-word-86 = tkt
-chatsan-word-87 = tqt
-chatsan-replacement-tinquietes = t'inquiètes
+chatsan-french-slang-14 = bsr
+chatsan-french-slang-replacement-14 = bonsoir
 
-chatsan-word-88 = qqn
-chatsan-word-89 = qq1
-chatsan-replacement-quelquun = quelqu'un
+chatsan-french-slang-15 = tkt
+chatsan-french-slang-16 = tqt
+chatsan-french-slang-replacement-tinquietes = t'inquiètes
 
-chatsan-word-90 = qqch
-chatsan-replacement-90 = quelque chose
+chatsan-french-slang-17 = qqn
+chatsan-french-slang-18 = qq1
+chatsan-french-slang-replacement-quelquun = quelqu'un
 
-# chatsan-word-91 = a+ // interprété comme juste "a", ce qui casse bcp de phrases
-# chatsan-replacement-91 = à plus
+chatsan-french-slang-19 = qqch
+chatsan-french-slang-replacement-19 = quelque chose
 
-chatsan-word-92 = att
-chatsan-replacement-92 = attends
+chatsan-french-slang-20 = att
+chatsan-french-slang-replacement-20 = attends
 
-chatsan-word-93 = tt
-chatsan-replacement-93 = tout
+chatsan-french-slang-21 = tt
+chatsan-french-slang-replacement-21 = tout
 
-chatsan-word-94 = tte
-chatsan-replacement-94 = toute
+chatsan-french-slang-22 = tte
+chatsan-french-slang-replacement-22 = toute
 
-chatsan-word-95 = ptn
-chatsan-replacement-95 = putain
+chatsan-french-slang-23 = ptn
+chatsan-french-slang-replacement-23 = putain
 
-chatsan-word-96 = cv
-chatsan-replacement-96 = ça va
+chatsan-french-slang-24 = g
+chatsan-french-slang-replacement-24 = j'ai
 
-# pas sûr des remplacement d'une seule lettre, à tester
-# après un test, le jeu considère les apostrophes comme un espace, donc mettre "C'est" ça le transforme en "C'est'est", je garde que le "g" du coup.
-#chatsan-word-97 = c
-#chatsan-replacement-97 = c'est
+chatsan-french-slang-25 = mnt
+chatsan-french-slang-replacement-25 = maintenant
 
-chatsan-word-98 = g
-chatsan-replacement-98 = j'ai
+chatsan-french-slang-26 = dsl
+chatsan-french-slang-replacement-26 = désolé
 
-chatsan-word-99 = mnt
-chatsan-replacement-99 = maintenant
+chatsan-french-slang-27 = tjrs
+chatsan-french-slang-28 = tjs
+chatsan-french-slang-29 = tjr
+chatsan-french-slang-replacement-toujours = toujours
 
-chatsan-word-100 = dsl
-chatsan-replacement-100 = désolé
+chatsan-french-slang-30 = rdv
+chatsan-french-slang-replacement-30 = rendez-vous
 
-chatsan-word-101 = tjrs
-chatsan-word-102 = tjs
-chatsan-word-103 = tjr
-chatsan-word-104 = tj
-chatsan-replacement-toujours = toujours
+chatsan-french-slang-31 = dac
+chatsan-french-slang-32 = dak
+chatsan-french-slang-replacement-daccord = d'accord
 
-chatsan-word-105 = rdv
-chatsan-replacement-105 = rendez-vous
+chatsan-french-slang-33 = bi1
+chatsan-french-slang-replacement-33 = bien
 
-chatsan-word-106 = bg
-chatsan-replacement-106 = beau gosse
+chatsan-french-slang-34 = gt
+chatsan-french-slang-replacement-34 = j'étais
 
-chatsan-word-107 = dac
-chatsan-word-129 = dak
-chatsan-replacement-daccord = d'accord
+chatsan-french-slang-35 = tfk
+chatsan-french-slang-replacement-35 = tu fais quoi
 
-chatsan-word-108 = bi1
-chatsan-replacement-108 = bien
+chatsan-french-slang-36 = tg
+chatsan-french-slang-replacement-36 = ta gueule
 
-chatsan-word-109 = gt
-chatsan-replacement-109 = j'étais
+chatsan-french-slang-37 = ftg
+chatsan-french-slang-replacement-37 = ferme ta gueule
 
-chatsan-word-110 = tfk
-chatsan-replacement-110 = tu fais quoi
+chatsan-french-slang-38 = ntm
+chatsan-french-slang-replacement-38 = nique ta mère
 
-chatsan-word-111 = tg
-chatsan-replacement-111 = ta gueule
+chatsan-french-slang-39 = nsm
+chatsan-french-slang-replacement-39 = nique sa mère
 
-chatsan-word-112 = ftg
-chatsan-replacement-112 = ferme ta gueule
+chatsan-french-slang-40 = keske
+chatsan-french-slang-replacement-40 = qu'est-ce que
 
-chatsan-word-113 = ntm
-chatsan-replacement-113 = nique ta mère
+chatsan-french-slang-41 = koi
+chatsan-french-slang-replacement-41 = quoi
 
-chatsan-word-114 = nsm
-chatsan-replacement-114 = nique sa mère
+chatsan-french-slang-42 = wsh
+chatsan-french-slang-replacement-42 = wesh
 
-chatsan-word-115 = keske
-chatsan-replacement-115 = qu'est-ce que
+chatsan-french-slang-43 = msk
+chatsan-french-slang-replacement-43 = miskine
 
-chatsan-word-116 = koi
-chatsan-replacement-116 = quoi
+chatsan-french-slang-44 = jtm
+chatsan-french-slang-replacement-44 = je t'aime
 
-chatsan-word-117 = wsh
-chatsan-replacement-117 = wesh
+chatsan-french-slang-45 = dtc
+chatsan-french-slang-replacement-45 = dans ton cul
 
-chatsan-word-118 = msk
-chatsan-replacement-118 = miskine
+chatsan-french-slang-46 = blc
+chatsan-french-slang-replacement-46 = bas les couilles
 
-chatsan-word-119 = jtm
-chatsan-replacement-119 = je t'aime
+chatsan-french-slang-47 = ama
+chatsan-french-slang-replacement-47 = à mon avis
 
-chatsan-word-120 = dtc
-chatsan-replacement-120 = dans ton cul
+chatsan-french-slang-48 = vzy
+chatsan-french-slang-49 = azy
+chatsan-french-slang-replacement-vasy = vas-y
 
-chatsan-word-121 = blc
-chatsan-replacement-121 = bas les couilles
+chatsan-french-slang-50 = bcp
+chatsan-french-slang-replacement-50 = beaucoup
 
-chatsan-word-122 = ama
-chatsan-replacement-122 = à mon avis
+chatsan-french-slang-51 = cmt
+chatsan-french-slang-replacement-51 = comment
 
-chatsan-word-123 = vz
-chatsan-word-124 = vzy
-chatsan-word-125 = az
-chatsan-word-126 = azy
-chatsan-replacement-vasy = vas-y
+chatsan-french-slang-52 = cmb
+chatsan-french-slang-replacement-52 = combien
 
-chatsan-word-127 = bcp
-chatsan-replacement-127 = beaucoup
+chatsan-french-slang-53 = ptet
+chatsan-french-slang-replacement-53 = peut-être
 
-chatsan-word-128 = ki
-chatsan-replacement-128 = qui
+chatsan-french-slang-54 = ajd
+chatsan-french-slang-replacement-54 = aujourd'hui
 
-chatsan-word-130 = jv
-chatsan-replacement-130 = je vais
+chatsan-french-slang-55 = tlm
+chatsan-french-slang-replacement-55 = tout le monde
 
-chatsan-word-131 = clv
-chatsan-replacement-131 = c'est la vie
-
-# chatsan-word-132 = lv
-# chatsan-replacement-132 = la vie
-
-# chatsan-word-133 = mv
-# chatsan-replacement-133 = ma vie
-
-chatsan-word-134 = cmt
-chatsan-replacement-134 = comment
-
-chatsan-word-135 = cmb
-chatsan-replacement-135 = combien
-
-chatsan-word-136 = qd
-chatsan-replacement-136 = quand
-
-chatsan-word-137 = ptet
-chatsan-replacement-137 = peut-être
-
-chatsan-word-138 = ajd
-chatsan-replacement-138 = aujourd'hui
-
-chatsan-word-139 = tlm
-chatsan-replacement-139 = tout le monde
-
-chatsan-word-140 = vrmt
-chatsan-replacement-140 = vraiment
-
-chatsan-word-141 = bn
-chatsan-replacement-141 = bonne nuit
-
-
-# french translation end
+chatsan-french-slang-56 = vrmt
+chatsan-french-slang-replacement-56 = vraiment
