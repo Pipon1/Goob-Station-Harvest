@@ -3,7 +3,7 @@
   parent: BaseStructure
   id: CosmicShuttleCore
   name: malign instrument malign
-  description: "Sa surface luit d'une myriade de glyphes impénétrables qui transmettent un seul mot à votre esprit : "Vol.""
+  description: "Sa surface luit d'une myriade de glyphes impénétrables qui transmettent un seul mot à votre esprit : 'Vol.'"
   components:
   - type: Sprite
     sprite: _DV/CosmicCult/Tileset/cosmiccomputer.rsi
