@@ -135,3 +135,21 @@ chatsan-french-slang-replacement-vasy = vas-y
 
 chatsan-french-slang-50 = bcp
 chatsan-french-slang-replacement-50 = beaucoup
+
+chatsan-french-slang-51 = cmt
+chatsan-french-slang-replacement-51 = comment
+
+chatsan-french-slang-52 = cmb
+chatsan-french-slang-replacement-52 = combien
+
+chatsan-french-slang-53 = ptet
+chatsan-french-slang-replacement-53 = peut-être
+
+chatsan-french-slang-54 = ajd
+chatsan-french-slang-replacement-54 = aujourd'hui
+
+chatsan-french-slang-55 = tlm
+chatsan-french-slang-replacement-55 = tout le monde
+
+chatsan-french-slang-56 = vrmt
+chatsan-french-slang-replacement-56 = vraiment
