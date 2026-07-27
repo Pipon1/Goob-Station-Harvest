@@ -387,7 +387,7 @@ ui-options-speech-bubble-background-opacity = Opacité du fond des bulles de dia
 # Goobstation - Highlight chat sounds!
 ui-options-highlight-sound = Jouer un son lors d'une mise en surbrillance
 
-ui-options-censor-nudity = Censor character nudity
+ui-options-censor-nudity = Censurer la nudité des personnages
 
 ## Admin menu
 
