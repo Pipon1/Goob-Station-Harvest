@@ -28,4 +28,6 @@ store-not-account-owner = Ce {$store} ne vous appartient pas !
 store-preset-name-uplink = Lien
 store-preset-name-uplink-ghost = Lien Contravend
 store-preset-name-spellbook = Grimoire
+store-preset-name-nukie-delivery = Livraison Bluespace des NukeOps
+store-preset-name-changeling = Magasin ADN
 store-preset-name-spellbook-ghost = Boutique de sorts fantomatique
