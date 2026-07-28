@@ -49,3 +49,9 @@ reagent-desc-hew = Pure essence de peluche lézard inversée. Vous fait faire He
 
 reagent-name-corgiessence = corgium
 reagent-desc-corgiessence = A le goût de nourriture pour chien. Clairement un goût qui s'acquiert.
+
+reagent-name-catessence = félinase
+reagent-desc-catessence = Un type d'enzyme cancérigène capable de décomposer les protéines présentes dans les cordes vocales de la plupart des animaux. Le mélange n'est PAS recommandé.
+
+reagent-name-canidessence = caninase
+reagent-desc-canidessence = Un type d'enzyme cancérigène capable de décomposer les protéines présentes dans les cordes vocales de la plupart des animaux. Le mélange n'est PAS recommandé.
