@@ -23,6 +23,8 @@
 shell-command-success = Commande réussie
 shell-invalid-command = Commande invalide.
 shell-invalid-command-specific = Commande {$commandName} invalide.
+shell-can-only-run-from-pre-round-lobby = Vous ne pouvez exécuter cette commande que pendant le hall d'attente pré-manche.
+shell-can-only-run-while-round-is-active = Vous ne pouvez exécuter cette commande que pendant une manche active.
 shell-cannot-run-command-from-server = Vous ne pouvez pas exécuter cette commande depuis le serveur.
 shell-only-players-can-run-this-command = Seuls les joueurs peuvent exécuter cette commande.
 shell-must-be-attached-to-entity = Vous devez être attaché à une entité pour exécuter cette commande.
