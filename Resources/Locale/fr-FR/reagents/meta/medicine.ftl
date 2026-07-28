@@ -60,6 +60,7 @@ reagent-name-dexalin = déxaline
 reagent-desc-dexalin = Utilisée pour traiter les manques d'oxygène mineurs et les pertes de sang. Un réactif nécessaire à la dexaline plus.
 
 reagent-name-dexalin-plus = déxaline plus
+reagent-name-dexalin-plus-saline = déxalin plus & saline
 reagent-desc-dexalin-plus = Utilisée pour traiter les cas extrêmes de manque d'oxygène et de perte de sang. Élimine la toxine brise-cœur du flux sanguin.
 
 reagent-name-epinephrine = épinéphrine
@@ -147,6 +148,7 @@ reagent-name-lacerinol = lacérinol
 reagent-desc-lacerinol = Un produit chimique peu réactif qui stimule la synthèse de collagène à des niveaux incroyables, soignant les traumatismes par lacération.
 
 reagent-name-puncturase = puncturase
+reagent-name-puncturase-tranexamic = puncturase & tranexamic
 reagent-desc-puncturase = Un produit chimique effervescent qui aide à reconstruire les traumatismes causés par les perforations, laissant un léger endommagement tissulaire.
 
 reagent-name-bruizine = bruizine
@@ -156,6 +158,7 @@ reagent-name-holywater = eau bénite
 reagent-desc-holywater = L'eau la plus propre et la plus pure, directement des mains de Dieu, connue pour soigner magiquement les blessures.
 
 reagent-name-pyrazine = pyrazine
+reagent-name-pyrazine-dermaline = pyrazine & dermaline
 reagent-desc-pyrazine = Soigne efficacement les brûlures des feux les plus intenses. Provoque des hémorragies internes massives en cas de surdosage.
 
 reagent-name-insuzine = insuzine
@@ -163,6 +166,9 @@ reagent-desc-insuzine = Répare rapidement les tissus morts causés par l'élect
 
 reagent-name-opporozidone = opporozidone
 reagent-desc-opporozidone = Un médicament cryogénique difficile à synthétiser utilisé pour régénérer les tissus en putréfaction et la matière cérébrale.
+
+reagent-name-arcryox = arcryox
+reagent-desc-arcryox = Un produit chimique cryogénique d'un bleu maladif capable de guérir les blessures extrêmes même sur les morts. Il a du mal à stabiliser les patients cependant.
 
 reagent-name-necrosol = nécrosol
 reagent-desc-necrosol = Une substance nécrotique capable de soigner les cadavres congelés. Peut traiter et rajeunir les plantes en petites doses.
@@ -181,3 +187,6 @@ reagent-desc-potassium-iodide = Réduit les effets nocifs des radiations de 90 %
 
 reagent-name-haloperidol = halopéridol
 reagent-desc-haloperidol = Élimine la plupart des drogues stimulantes et hallucinogènes. Réduit les effets stupéfiants et les tremblements. Provoque de la somnolence.
+
+reagent-name-warfarin = warfarine
+reagent-desc-warfarin = Couramment utilisée comme anticoagulant. Rend le sang difficilement capable de former des caillots. Peut causer des saignements internes en cas de surdosage.
