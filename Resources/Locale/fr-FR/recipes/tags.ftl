@@ -8,6 +8,7 @@ construction-graph-tag-clown-bike-horn = klaxon de vélo
 construction-graph-tag-clowne-horn = klaxon de vélo cassé
 construction-graph-tag-happy-honk-meal = Happy Honk Meal
 construction-graph-tag-woeful-cluwne-meal = Woeful Cluwne Meal
+construction-graph-tag-boxhug = une boîte de câlins
 
 # mime
 construction-graph-tag-suspenders = bretelles
@@ -72,6 +73,8 @@ construction-graph-tag-apron = un tablier
 construction-graph-tag-utility-belt = une ceinture utilitaire
 soil-construction-graph-any-mushroom = n'importe quel champignon
 construction-graph-tag-mop-basic = serpillère
+construction-graph-tag-paper = feuille de papier
+construction-graph-tag-core-pinpointer-piece = pièce de détecteur de cœur
 
 # toys
 construction-graph-tag-rubber-ducky = un canard en caoutchouc
@@ -103,6 +106,7 @@ construction-graph-tag-ripley-peripherals-control-module = module de commande de
 construction-graph-tag-door-electronics-circuit-board = circuit imprimé de sas
 construction-graph-tag-firelock-electronics-circuit-board = circuit imprimé de pare-feu
 construction-graph-tag-conveyor-belt-assembly = assemblage de tapis roulant
+construction-graph-tag-station-ai-core-electronics = électronique du cœur d'IA de la station
 
 # tools
 construction-graph-tag-multitool = un multioutil
@@ -125,6 +129,7 @@ construction-graph-tag-wallmount-substation-circuit-board = circuit imprimé de 
 construction-graph-tag-surveillance-camera-monitor-board = circuit imprimé de contrôle des caméras de surveillance
 construction-graph-tag-television-board = circuit imprimé de télévision
 construction-graph-tag-freezer-electronics = circuit imprimé de congélateur
+construction-graph-tag-turret-control-electronics = circuit imprimé de panneau de contrôle de tourelle
 
 # crystals
 construction-graph-tag-cyan-crystal-shard = éclat de cristal cyan
@@ -149,3 +154,6 @@ construction-graph-tag-spationaut-hardsuit = combinaison de spationaute
 
 # clothing
 construction-graph-tag-backpack = sac à dos
+
+# chemistry
+construction-graph-tag-centrifuge-compatible = conteneur centrifugable
