@@ -20,3 +20,9 @@ zombie-role-rules = Vous êtes un [color={role-type-team-antagonist-color}][bold
 zombie-permadeath = Cette fois, vous êtes bien mort pour de vrai.
 
 zombification-resistance-coefficient-value = - Chance d'[color=violet]infection[/color] réduite de [color=lightblue]{$value}%[/color].
+
+zombie-roleban-ghosted = Vous avez été retiré du jeu car vous êtes banni du rôle de Zombie.
+
+# Goob
+zombie-cure-success = L'infection zombie disparaît sans laisser de trace !
+zombie-cure-failed = Le traitement n'a pas fonctionné !
