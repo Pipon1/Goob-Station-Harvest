@@ -132,6 +132,9 @@ uplink-fire-axe-flaming-desc = Une arme de style classique infusée de technolog
 uplink-gloves-north-star-name = Gants de l'Étoile du Nord
 uplink-gloves-north-star-desc = Une paire de gants qui réduit drastiquement votre temps de recharge de coups de poing, vous permettant de rouer les gens de coups en une tempête de crochets.
 
+uplink-hushpup-name = Hushpup
+uplink-hushpup-desc = Un puissant fusil à pompe silencieux avec une faible capacité de chargeur. Livré avec une boîte de munitions de rechange. Utilise des munitions de calibre .50.
+
 # Explosives
 uplink-explosive-grenade-name = Grenade explosive
 uplink-explosive-grenade-desc = Une grenade simpliste avec une mèche de 3,5 secondes conçue pour blesser le personnel. Cause des dommages minimaux à la coque.
@@ -192,6 +195,9 @@ uplink-pistol-magazine-desc = Chargeur de pistolet avec 12 cartouches. Compatibl
 uplink-pistol-magazine-c20r-name = Chargeur de SMG (.35 auto)
 uplink-pistol-magazine-c20r-desc = Chargeur de fusil avec 30 cartouches. Compatible avec le C-20r.
 
+uplink-magazine-bulldog-pellet-name = Chargeur tambour (balle .50)
+uplink-magazine-bulldog-pellet-desc = Chargeur de fusil à pompe contenant 8 cartouches remplies de chevrotine. Compatible avec le Bulldog.
+
 uplink-pistol-magazine-caseless-name = Chargeur de pistolet (9,5mm HP)
 uplink-pistol-magazine-caseless-desc = Chargeur de pistolet avec 10 cartouches à pointe creuse sans douille. Compatible avec le Cobra.
 
@@ -228,6 +234,9 @@ uplink-access-breaker-desc = Un configurateur d'accès piraté et un bon ami de 
 uplink-agent-id-card-name = Carte d'identité d'agent
 uplink-agent-id-card-desc = Une carte d'identité modifiée capable de copier les accès d'autres cartes et de changer son nom et son titre de poste à volonté.
 
+uplink-syndicate-id-card-name = Carte d'identité Syndicat
+uplink-syndicate-id-card-desc = Une carte d'identité Syndicat avec accès Syndicat. Peu probable d'être utile seule, mais fonctionne bien avec les portes reconfigurées. N'inclut pas de fonctionnalité de copie d'accès.
+
 uplink-black-jetpack-name = Jetpack noir
 uplink-black-jetpack-desc = Un jetpack noir. Il vous permet de voler dans l'espace. Recharges non incluses, utilisez votre carburant avec sagesse.
 
@@ -257,9 +266,6 @@ uplink-binary-translator-key-desc = Vous permet d'accéder au canal binaire des 
 
 uplink-hypopen-name = Hypopen
 uplink-hypopen-desc = Un hypospray chimique déguisé en stylo, capable d'injecter instantanément jusqu'à 10u de réactifs. Commence vide.
-
-uplink-voice-mask-name = Masque vocal
-uplink-voice-mask-desc = Un masque à gaz vous permettant d'ajuster votre voix pour imiter n'importe qui. Utilise également une technologie caméléon de pointe.
 
 uplink-clothing-eyes-hud-syndicate-name = Visière syndicale
 uplink-clothing-eyes-hud-syndicate-desc = L'affichage tête haute professionnel du syndicat, conçu pour mieux détecter les humanoïdes et faciliter leur élimination.
@@ -312,6 +318,9 @@ uplink-micro-bomb-implanter-desc = Explosez à la mort ou par activation manuell
 
 uplink-radio-implanter-name = Implanteur radio
 uplink-radio-implanter-desc = Implante une radio syndicale, permettant une communication secrète sans casque.
+
+uplink-voice-mask-implanter-name = Implanteur de masque vocal
+uplink-voice-mask-implanter-desc = Modifie vos cordes vocales pour pouvoir sonner comme n'importe qui que vous pourriez imaginer.
 
 # Bundles
 uplink-observation-kit-name = Kit d'observation
@@ -581,3 +590,9 @@ uplink-smuggler-satchel-desc = Une sacoche pratique à l'air suspect. Juste asse
 
 uplink-acolyte-armor-name = Armure d'acolyte
 uplink-acolyte-armor-desc = L'indispensable de tout chef de culte qui se respecte. Une pièce d'armure à l'aspect maléfique, faite d'os, et étonnamment résistante aux dégâts.
+
+uplink-briefcase-gun-name = Pistolet en mallette
+uplink-briefcase-gun-desc = Une mallette quelconque avec un C-20K ultra-compact monté à l'intérieur. Attention à ne pas trop serrer la poignée !
+
+uplink-energycrossbow-name = Mini arbalète énergétique
+uplink-energycrossbow-desc = L'arme de poing préférée des agents qui aiment leurs victimes immobiles. Tire des flèches toxiques régénérantes qui immobilisent les victimes instantanément.
