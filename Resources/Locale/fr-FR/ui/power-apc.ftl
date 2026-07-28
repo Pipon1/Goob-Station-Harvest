@@ -18,6 +18,8 @@ apc-menu-charge-label = {$percent} Chargé
 apc-menu-power-state-good = Bon
 apc-menu-power-state-low = Faible
 apc-menu-power-state-none = Aucun
+apc-menu-power-state-label-text = { POWERWATTS($power) } / { POWERWATTS($maxLoad) }
+apc-menu-power-state-label-tripped = SURCHARGE
 
 # For the flavor text on the footer
 
