@@ -124,3 +124,5 @@ reagent-physical-desc-slimy = visqueux
 reagent-physical-desc-neural = neural
 reagent-physical-desc-unidentifiable = non identifiable
 reagent-physical-desc-non-newtonian = non newtonien
+reagent-physical-desc-thin = léger
+reagent-physical-desc-arcryox = bleu glacé
