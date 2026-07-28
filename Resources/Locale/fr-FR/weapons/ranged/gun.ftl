@@ -20,7 +20,8 @@ gun-fire-rate-examine = La cadence de tir est de [color={$color}]{$fireRate}[/co
 gun-selector-verb = Passer à {$mode}
 gun-selected-mode = {$mode} sélectionné
 gun-disabled = Vous ne pouvez pas utiliser d'armes à feu !
-gun-set-fire-mode = Réglé sur {$mode}
+gun-set-fire-mode-examine = Réglé sur [color=yellow]{$mode}[/color].
+gun-set-fire-mode-popup = Réglé sur {$mode}
 gun-magazine-whitelist-fail = Ça ne rentre pas dans l'arme !
 gun-magazine-fired-empty = Plus de munitions !
 
