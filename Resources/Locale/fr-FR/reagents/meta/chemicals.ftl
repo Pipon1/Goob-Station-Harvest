@@ -45,3 +45,6 @@ reagent-desc-cellulose = Un polymère de polydextrose cristallin, les plantes ju
 
 reagent-name-rororium = rororium
 reagent-desc-rororium = Une étrange substance qui remplit les noyaux des hivelords présents sur l'astéroïde minier. On pense qu'elle est la source de leurs pouvoirs régénérateurs.
+
+reagent-name-lye = lessive
+reagent-desc-lye = Une solution alcaline translucide et orange utilisée dans la production traditionnelle de savon.
