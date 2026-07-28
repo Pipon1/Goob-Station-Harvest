@@ -79,3 +79,7 @@ trait-newyork-name = Accent new-yorkais
 trait-newyork-desc = Vous parlez avec un fort accent new-yorkais. J'essaie d'marcher là, bordel !
 trait-british-name = Accent britannique
 trait-british-desc = Vous parlez correctement, contrairement à ces foutus amerloques.
+trait-hemophilia-name = Hémophilie
+trait-hemophilia-desc = Votre corps ne forme pas de caillots sanguins.
+trait-impaired-mobility-name = Mobilité réduite
+trait-impaired-mobility-desc = Vous avez des difficultés à vous déplacer sans aide à la mobilité.
