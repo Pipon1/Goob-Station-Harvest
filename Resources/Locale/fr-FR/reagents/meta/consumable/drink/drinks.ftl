@@ -110,3 +110,6 @@ reagent-desc-posca = La boisson des pauvres guerriers d'une ère oubliée.
 
 reagent-name-mopwata = mopwata
 reagent-desc-mopwata = De l'eau de serpillière sale et stagnante.
+
+reagent-name-orange-lime-soda = bikeshed agrume
+reagent-desc-orange-lime-soda = Le soda devrait être orange ! Non, il devrait être citron-citron vert !
