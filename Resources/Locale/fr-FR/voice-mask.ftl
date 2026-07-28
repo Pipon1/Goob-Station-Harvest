@@ -15,6 +15,11 @@ voice-mask-name-change-info = Saisissez le nom que vous souhaitez imiter.
 voice-mask-name-change-speech-style = Style d'élocution
 voice-mask-name-change-set = Définir le nom
 voice-mask-name-change-set-description = Changer le nom entendu par les autres.
+voice-mask-name-change-toggle = Basculer le masque vocal
+voice-mask-name-change-accent-toggle = Bloquer l'accent
+
+voice-mask-popup-toggle = Masque vocal basculé.
+voice-mask-popup-accent-toggle = Accent basculé.
 
 voice-mask-popup-success = Nom défini avec succès.
 voice-mask-popup-failure = Impossible de définir le nom.
