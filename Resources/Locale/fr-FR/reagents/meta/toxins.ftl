@@ -110,3 +110,6 @@ reagent-desc-mechanotoxin = Une neurotoxine utilisée comme venin par certaines 
 
 reagent-name-toxintrash = déchets
 reagent-desc-toxintrash = Un liquide à l'odeur nauséabonde. Mortel pour les non-vox.
+
+reagent-name-hemorrhinol = hémorrhinol
+reagent-desc-hemorrhinol = Une toxine qui cause des dommages graves aux vaisseaux sanguins, provoquant des saignements rapides.
