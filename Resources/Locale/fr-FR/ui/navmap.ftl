@@ -7,3 +7,5 @@
 navmap-zoom = Zoom : {$value}x
 navmap-recenter = Recentrer
 navmap-toggle-beacons = Afficher les départements
+navmap-location = Location: [x = {$x}, y = {$y}]
+navmap-unknown-entity = Unknown
