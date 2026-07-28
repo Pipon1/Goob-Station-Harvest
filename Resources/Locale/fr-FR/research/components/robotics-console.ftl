@@ -12,6 +12,7 @@ robotics-console-model = [color=gray]Modèle :[/color] {$name}
 # name is not formatted to prevent players trolling
 robotics-console-designation = [color=gray]Désignation :[/color]
 robotics-console-battery = [color=gray]Charge de la batterie :[/color] [color={$color}]{$charge}[/color]%
+robotics-console-hp = [color=gray]Intégrité :[/color] [color={$color}]{$hp}[/color]%
 robotics-console-modules = [color=gray]Modules installés :[/color] {$count}
 robotics-console-brain = [color=gray]Cerveau installé :[/color] [color={$brain ->
     [true] green]Oui
