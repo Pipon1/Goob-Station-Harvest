@@ -18,12 +18,15 @@ spellbook-blink-desc =
     Ce sort vous téléporte aléatoirement sur une courte distance.
     Nécessite la robe et le chapeau du mage pour être lancé.
 
+spellbook-voidapplause-name = Applaudissements du vide
+spellbook-voidapplause-desc = Échangez les positions avec la cible, ne vous donne-t-elle pas envie de danser le boogie ?
+
 spellbook-force-wall-name = Mur de force
 spellbook-force-wall-desc =
     Crée trois murs de force pure que vous pouvez traverser, mais pas les autres.
     Ne nécessite pas la robe et le chapeau du mage pour être lancé.
 
-spellbook-polymoprh-spider-name = Polymorphisme araignée
+spellbook-polymorph-spider-name = Polymorphisme araignée
 spellbook-polymorph-spider-desc = Vous transforme en araignée, l'ami !
 
 spellbook-polymorph-rod-name = Forme baguette
@@ -47,10 +50,18 @@ spellbook-mind-swap-description =
     Ne fonctionne pas sur les changelings, les hérétiques, les goules, les fantômes et les créatures temporaires.
     Ne nécessite pas la robe et le chapeau de Discord pour être lancé.
 
+spellbook-slip-name = Pente glissante
+spellbook-slip-desc = Apprenez les anciennes voies du Concierge et maudissez votre cible pour qu'elle soit glissante.
+
+spellbook-item-recall-name = Rappel d'objet
+spellbook-item-recall-description = Marquez un objet tenu et invoquez-le à tout moment d'un simple claquement de doigts !
+
+# Goobstation?
 spellbook-tile-toggle-name = Activation/désactivation des tuiles
 spellbook-tile-toggle-description = Les assistants ne vont pas apprécier ça.
 spellbook-curse-of-byond-name = Malédiction du Byond
 spellbook-curse-of-byond-description = Condamnez votre cible à une éternité de souffrance.
+# Goobstation End?
 
 # Equipment
 
