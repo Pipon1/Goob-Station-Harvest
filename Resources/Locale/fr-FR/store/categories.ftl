@@ -43,3 +43,5 @@ store-caregory-spellbook-utility = Sorts utilitaires
 store-caregory-spellbook-equipment = Équipement de mage
 store-caregory-spellbook-events = Sorts d'événement
 
+# Nukie Delivery
+store-category-nukie-delivery = Offres
