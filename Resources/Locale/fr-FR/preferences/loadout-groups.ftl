@@ -24,6 +24,7 @@ loadout-group-species-restriction = Cet objet n'est pas disponible pour votre es
 
 # Miscellaneous
 loadout-group-trinkets = Babioles
+loadout-group-jobtrinkets = Babioles de travail
 loadout-group-glasses = Lunettes
 loadout-group-backpack = Sac à dos
 loadout-group-instruments = Instruments
@@ -33,6 +34,7 @@ loadout-group-survival-clown = Boîte de survie du clown
 loadout-group-survival-medical = Boîte de survie médicale
 loadout-group-survival-security = Boîte de survie sécurité
 loadout-group-survival-syndicate = Github is forcing me to write text that is literally twice-impossible for the player to ever see, send help
+loadout-group-survival-military = All french translation work was done by Tarta, cheers!
 loadout-group-breath-tool = Outils respiratoires selon l'espèce
 loadout-group-tank-harness = Équipement de survie spécifique à l'espèce
 loadout-group-EVA-tank = Réservoir de gaz spécifique à l'espèce
@@ -64,6 +66,7 @@ loadout-group-passenger-neck = Accessoire de cou passager
 loadout-group-bartender-head = Chapeau barman
 loadout-group-bartender-jumpsuit = Combinaison barman
 loadout-group-bartender-outerclothing = Vêtement extérieur barman
+loadout-group-bartender-shaker = Shaker barman
 
 loadout-group-chef-head = Chapeau chef
 loadout-group-chef-mask = Masque chef
@@ -78,35 +81,36 @@ loadout-group-lawyer-neck = Accessoire de cou avocat
 loadout-group-chaplain-head = Chapeau chapelain
 loadout-group-chaplain-mask = Masque chapelain
 loadout-group-chaplain-jumpsuit = Combinaison chapelain
-loadout-group-chaplain-outerclothing = Chaplain outer clothing
-loadout-group-chaplain-neck = Chaplain neck
+loadout-group-chaplain-outerclothing = Vêtement extérieur chapelain
+loadout-group-chaplain-neck = Col chapelain
+loadout-group-chaplain-bible = Livre Saint
 
-loadout-group-janitor-head = Janitor head
-loadout-group-janitor-jumpsuit = Janitor jumpsuit
-loadout-group-janitor-gloves = Janitor gloves
-loadout-group-janitor-outerclothing = Janitor outer clothing
-loadout-group-janitor-plunger = Janitor plunger
+loadout-group-janitor-head = Chapeau concierge
+loadout-group-janitor-jumpsuit = Combinaison concierge
+loadout-group-janitor-gloves = Gants concierge
+loadout-group-janitor-outerclothing = Vêtement extérieur concierge
+loadout-group-janitor-plunger = Ventouse concierge
 
-loadout-group-botanist-head = Botanist head
-loadout-group-botanist-jumpsuit = Botanist jumpsuit
-loadout-group-botanist-backpack = Botanist backpack
-loadout-group-botanist-outerclothing = Botanist outer clothing
+loadout-group-botanist-head = Chapeau botaniste
+loadout-group-botanist-jumpsuit = Combinaison botaniste
+loadout-group-botanist-backpack = Sac à dos botaniste
+loadout-group-botanist-outerclothing = Vêtement extérieur botaniste
 
-loadout-group-clown-head = Clown head
-loadout-group-clown-jumpsuit = Clown jumpsuit
-loadout-group-clown-backpack = Clown backpack
-loadout-group-clown-outerclothing = Clown outer clothing
-loadout-group-clown-shoes = Clown shoes
+loadout-group-clown-head = Chapeau clown
+loadout-group-clown-jumpsuit = Combinaison clown
+loadout-group-clown-backpack = Sac à dos clown
+loadout-group-clown-outerclothing = Vêtement extérieur clown
+loadout-group-clown-shoes = Chaussures clown
 
-loadout-group-mime-head = Mime head
-loadout-group-mime-mask = Mime mask
-loadout-group-mime-jumpsuit = Mime jumpsuit
-loadout-group-mime-backpack = Mime backpack
-loadout-group-mime-outerclothing = Mime outer clothing
-loadout-group-mime-belt = Mime belt
+loadout-group-mime-head = Chapeau mime
+loadout-group-mime-mask = Masque mime
+loadout-group-mime-jumpsuit = Combinaison mime
+loadout-group-mime-backpack = Sac à dos mime
+loadout-group-mime-outerclothing = Vêtement extérieur mime
+loadout-group-mime-belt = Ceinture mime
 
-loadout-group-musician-jumpsuit = Musician jumpsuit
-loadout-group-musician-outerclothing = Musician outer clothing
+loadout-group-musician-jumpsuit = Combinaison musicien
+loadout-group-musician-outerclothing = Vêtement extérieur musicien
 
 # Cargo
 loadout-group-quartermaster-head = Chapeau quartier-maître
@@ -120,6 +124,7 @@ loadout-group-cargo-technician-jumpsuit = Combinaison technicien cargo
 loadout-group-cargo-technician-backpack = Sac à dos technicien cargo
 loadout-group-cargo-technician-outerclothing = Vêtement extérieur technicien cargo
 loadout-group-cargo-technician-shoes = Chaussures technicien cargo
+loadout-group-cargo-technician-id = ID technicien cargo
 
 loadout-group-salvage-specialist-backpack = Sac à dos spécialiste récupération
 loadout-group-salvage-specialist-outerclothing = Vêtement extérieur spécialiste récupération
@@ -225,6 +230,3 @@ loadout-group-medical-glasses = Lunettes médicales
 loadout-group-reporter-jumpsuit = Combinaison reporter
 
 loadout-group-psychologist-jumpsuit = Combinaison psychologue
-
-loadout-group-boxer-jumpsuit = Combinaison boxeur
-loadout-group-boxer-gloves = Gants boxeur
