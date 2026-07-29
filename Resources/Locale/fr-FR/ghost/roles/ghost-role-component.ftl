@@ -80,14 +80,17 @@ ghost-role-information-mouse-name = Souris
 # Goobstation
 ghost-role-information-mouse-description = Une souris affamée et espiègle. Utilisez +p pour parler aux autres souris.
 
-ghost-role-information-mothroach-name = Mithblatte
-ghost-role-information-mothroach-description = Une mithblatte mignonne mais espiègle.
+ghost-role-information-cancer-mouse-name = Souris cancéreuse
+ghost-role-information-cancer-mouse-description = Une souris irradiée, propagez votre affliction et cherchez de la nourriture.
+
+ghost-role-information-mothroach-name = Mothroach
+ghost-role-information-mothroach-description = Une mothroach mignonne mais espiègle.
 
 ghost-role-information-squackroach-name = Squackroach
 ghost-role-information-squackroach-description = Une squackroach diabolique mais quasi inoffensive.
 
-ghost-role-information-moproach-name = Serpente
-ghost-role-information-moproach-description = Une mignonne mithblatte avec de jolies petites chaussures de serpillière aux pattes.
+ghost-role-information-moproach-name = Moproach
+ghost-role-information-moproach-description = Une mignonne mothroach avec de jolies petites chaussures de serpillière aux pattes.
 
 ghost-role-information-snail-name = Escargot
 ghost-role-information-snail-description = Un petit escargot qui ne craint pas un peu d'espace. Restez sur la grille !
@@ -300,8 +303,23 @@ ghost-role-information-syndicate-cyborg-assault-name = Cyborg d'assaut du Syndic
 ghost-role-information-syndicate-cyborg-saboteur-name = Cyborg saboteur du Syndicat
 ghost-role-information-syndicate-cyborg-description = Le Syndicat a besoin de renforts. Vous, une froide machine à tuer en silicium, allez les aider.
 
+ghost-role-information-derelict-engineering-cyborg-name = Cyborg d'ingénierie épave
+ghost-role-information-derelict-engineering-cyborg-description = Vous êtes un cyborg d'ingénierie qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous trouvez près d'une station spatiale.
+
 ghost-role-information-derelict-cyborg-name = Cyborg abandonné
 ghost-role-information-derelict-cyborg-description = Vous êtes un cyborg ordinaire qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous retrouvez près d'une station spatiale.
+
+ghost-role-information-derelict-janitor-cyborg-name = Cyborg concierge épave
+ghost-role-information-derelict-janitor-cyborg-description = Vous êtes un cyborg concierge qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous trouvez près d'une station spatiale.
+
+ghost-role-information-derelict-medical-cyborg-name = Cyborg médical épave
+ghost-role-information-derelict-medical-cyborg-description = Vous êtes un cyborg médical qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous trouvez près d'une station spatiale.
+
+ghost-role-information-derelict-mining-cyborg-name = Cyborg de récupération épave
+ghost-role-information-derelict-mining-cyborg-description = Vous êtes un cyborg de récupération qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous trouvez près d'une station spatiale.
+
+ghost-role-information-derelict-syndicate-assault-cyborg-name = Cyborg d'assaut Syndicat épave
+ghost-role-information-derelict-syndicate-assault-cyborg-description = Vous êtes un modèle précoce de cyborg d'assaut du Syndicat qui s'est perdu dans l'espace. Après des années d'exposition aux tempêtes ioniques, vous vous trouvez près d'une station spatiale.
 
 ghost-role-information-security-name = Sécurité
 ghost-role-information-security-description = Vous faites partie d'une force d'intervention de sécurité, mais vous semblez vous retrouver dans une situation étrange...
@@ -378,6 +396,12 @@ ghost-role-information-tomatokiller-description = Cette petite tomate servira le
 ghost-role-information-gingerbread-name = Bonhomme en pain d'épices
 ghost-role-information-gingerbread-description = Un être de pur esprit des fêtes.
                                      Répandez la bonté mélassée et la bonne humeur à tous.
+
+ghost-role-information-mothership-core-name = Cœur du vaisseau-mère
+ghost-role-information-mothership-core-desc = Vous êtes le cœur du vaisseau-mère xénoborg, aidez-les à se multiplier en convertissant en cyborg tout cerveau qu'ils vous apportent.
+
+ghost-role-information-xenoborg-name = Xénoborg
+ghost-role-information-xenoborg-desc = Un cyborg étrange conçu pour se répliquer et prendre le contrôle de la station en transformant tout être sensible en xénoborgs.
 
 ghost-role-information-wizard-name = Sorcier
 ghost-role-information-wizard-desc = VOUS ÊTES UN SORCIER ! Montrez à la station de quoi est faite votre magie.
