@@ -33,3 +33,6 @@ role-subtype-survivor = Survivant
 role-subtype-subverted = Subverti
 role-subtype-paradox-clone = Paradoxe
 role-subtype-wizard = Sorcier
+role-subtype-xenoborg = Xénoborg
+role-subtype-xenoborg-core = Cœur xénoborg
+role-subtype-changeling = Changeling
