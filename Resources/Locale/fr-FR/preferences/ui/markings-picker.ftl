@@ -23,15 +23,24 @@ marking-slot-add = Ajouter
 marking-slot-remove = Enlever
 marking-slot = Eplacement {$number}
 
+humanoid-marking-modifier-force = Forcer
+humanoid-marking-modifier-ignore-species = Ignorer l'espèce
+humanoid-marking-modifier-base-layers = Couches de base
+humanoid-marking-modifier-enable = Activer
+humanoid-marking-modifier-prototype-id = ID du prototype :
+
 # Categories
 
 markings-category-Special = Spécial
 markings-category-Hair = Cheveux
-markings-category-FacialHair = Pilosité faciale
+markings-category-FacialHair = Barbe
 markings-category-Head = Tête
-markings-category-HeadTop = Tête (Dessus)
+markings-category-HeadTop = Tête (Haut)
 markings-category-HeadSide = Tête (Côté)
 markings-category-Snout = Museau
-markings-category-Chest = Torse
+markings-category-SnoutCover = Museau (Couverture)
+markings-category-UndergarmentTop = Sous-vêtement (Haut)
+markings-category-UndergarmentBottom = Sous-vêtement (Bas)
+markings-category-Chest = Poitrine
 markings-category-Tail = Queue
 markings-category-Overlay = Superposition
