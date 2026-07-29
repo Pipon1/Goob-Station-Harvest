@@ -34,7 +34,7 @@ comp-kitchen-spike-hook-other = { CAPITALIZE(THE($user)) } a jeté { CAPITALIZE(
 comp-kitchen-spike-begin-unhook-self = Vous commencez à vous traîner hors de { THE($hook) } !
 comp-kitchen-spike-begin-unhook-self-other = { CAPITALIZE(THE($victim)) } commence à se traîner hors de { THE($hook) } !
 
-comp-kitchen-spike-begin-unhook-other-self = Vous commencez à traîner { CAPITALIZE(THE($victim)) } hors de {{ THE($hook) } !
+comp-kitchen-spike-begin-unhook-other-self = Vous commencez à traîner { CAPITALIZE(THE($victim)) } hors de { THE($hook) } !
 comp-kitchen-spike-begin-unhook-other = { CAPITALIZE(THE($user)) } commence à traîner { CAPITALIZE(THE($victim)) } hors de { THE($hook) } !
 
 comp-kitchen-spike-unhook-self = Vous vous êtes libéré de { THE($hook) } !
