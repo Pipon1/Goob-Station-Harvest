@@ -10,89 +10,108 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-reagent-effect-condition-guidebook-total-damage =
+entity-condition-guidebook-total-damage =
     { $max ->
         [2147483648] il a au moins {NATURALFIXED($min, 2)} de dégâts totaux
         *[other] { $min ->
-                    [0] il a au plus {NATURALFIXED($max, 2)} de dégâts totaux
+                    [0] il a au maximum {NATURALFIXED($max, 2)} de dégâts totaux
                     *[other] il a entre {NATURALFIXED($min, 2)} et {NATURALFIXED($max, 2)} de dégâts totaux
                  }
     }
 
-reagent-effect-condition-guidebook-total-hunger =
+entity-condition-guidebook-type-damage =
+    { $max ->
+        [2147483648] il a au moins {NATURALFIXED($min, 2)} de dégâts {$type}
+        *[other] { $min ->
+                    [0] il a au maximum {NATURALFIXED($max, 2)} de dégâts {$type}
+                    *[other] il a entre {NATURALFIXED($min, 2)} et {NATURALFIXED($max, 2)} de dégâts {$type}
+                 }
+    }
+
+entity-condition-guidebook-group-damage =
+    { $max ->
+        [2147483648] il a au moins {NATURALFIXED($min, 2)} de dégâts {$type}.
+        *[other] { $min ->
+                    [0] il a au maximum {NATURALFIXED($max, 2)} de dégâts {$type}.
+                    *[other] il a entre {NATURALFIXED($min, 2)} et {NATURALFIXED($max, 2)} de dégâts {$type}
+                 }
+    }
+
+entity-condition-guidebook-total-hunger =
     { $max ->
         [2147483648] la cible a au moins {NATURALFIXED($min, 2)} de faim totale
         *[other] { $min ->
-                    [0] la cible a au plus {NATURALFIXED($max, 2)} de faim totale
+                    [0] la cible a au maximum {NATURALFIXED($max, 2)} de faim totale
                     *[other] la cible a entre {NATURALFIXED($min, 2)} et {NATURALFIXED($max, 2)} de faim totale
                  }
     }
 
-reagent-effect-condition-guidebook-reagent-threshold =
+entity-condition-guidebook-reagent-threshold =
     { $max ->
         [2147483648] il y a au moins {NATURALFIXED($min, 2)}u de {$reagent}
         *[other] { $min ->
-                    [0] il y a au plus {NATURALFIXED($max, 2)}u de {$reagent}
+                    [0] il y a au maximum {NATURALFIXED($max, 2)}u de {$reagent}
                     *[other] il y a entre {NATURALFIXED($min, 2)}u et {NATURALFIXED($max, 2)}u de {$reagent}
                  }
     }
 
-reagent-effect-condition-guidebook-mob-state-condition =
+entity-condition-guidebook-mob-state-condition =
     la créature est { $state }
 
-reagent-effect-condition-guidebook-job-condition =
-    le poste de la cible est { $job }
+entity-condition-guidebook-job-condition =
+    l'emploi de la cible est { $job }
 
-reagent-effect-condition-guidebook-solution-temperature =
+entity-condition-guidebook-solution-temperature =
     la température de la solution est { $max ->
-            [2147483648] d'au moins {NATURALFIXED($min, 2)}k
+            [2147483648] au moins {NATURALFIXED($min, 2)}k
             *[other] { $min ->
-                        [0] d'au plus {NATURALFIXED($max, 2)}k
+                        [0] au maximum {NATURALFIXED($max, 2)}k
                         *[other] entre {NATURALFIXED($min, 2)}k et {NATURALFIXED($max, 2)}k
                      }
     }
 
-reagent-effect-condition-guidebook-body-temperature =
-    la température corporelle est { $max ->
-            [2147483648] d'au moins {NATURALFIXED($min, 2)}k
+entity-condition-guidebook-body-temperature =
+    la température du corps est { $max ->
+            [2147483648] au moins {NATURALFIXED($min, 2)}k
             *[other] { $min ->
-                        [0] d'au plus {NATURALFIXED($max, 2)}k
+                        [0] au maximum {NATURALFIXED($max, 2)}k
                         *[other] entre {NATURALFIXED($min, 2)}k et {NATURALFIXED($max, 2)}k
                      }
     }
 
-reagent-effect-condition-guidebook-organ-type =
+entity-condition-guidebook-organ-type =
     l'organe métabolisant { $shouldhave ->
                                 [true] est
                                 *[false] n'est pas
-                           } un organe {$name}
+                           } {INDEFINITE($name)} {$name} organe
 
-reagent-effect-condition-guidebook-has-tag =
+entity-condition-guidebook-has-tag =
     la cible { $invert ->
-                 [true] ne possède pas
-                 *[false] possède
-                } le tag {$tag}
+                 [true] n'a pas
+                 *[false] a
+                } l'étiquette {$tag}
 
-reagent-effect-condition-guidebook-blood-reagent-threshold =
+entity-condition-guidebook-this-reagent = ce réactif
+
+# Goobstation?
+entity-condition-guidebook-blood-reagent-threshold =
     { $max ->
         [2147483648] il y a au moins {NATURALFIXED($min, 2)}u de {$reagent}
         *[other] { $min ->
-                    [0] il y a au plus {NATURALFIXED($max, 2)}u de {$reagent}
+                    [0] il y a au maximum {NATURALFIXED($max, 2)}u de {$reagent}
                     *[other] il y a entre {NATURALFIXED($min, 2)}u et {NATURALFIXED($max, 2)}u de {$reagent}
                  }
     }
+# Goobstation?
 
-reagent-effect-condition-guidebook-this-reagent = ce réactif
-
-reagent-effect-condition-guidebook-breathing =
+entity-condition-guidebook-breathing =
     le métaboliseur { $isBreathing ->
                 [true] respire normalement
-                *[false] est en train de suffoquer
+                *[false] s'étouffe
                }
 
-reagent-effect-condition-guidebook-internals =
+entity-condition-guidebook-internals =
     le métaboliseur { $usingInternals ->
-                [true] utilise des réserves internes
-                *[false] respire l'air ambiant
+                [true] utilise des internales
+                *[false] respire l'air atmosphérique
                }
-               
