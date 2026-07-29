@@ -12,22 +12,15 @@
 
 ## UI
 
-crew-monitoring-user-interface-title = Console de Surveillance de l'Équipage
+crew-monitoring-ui-title = Crew Monitoring Console
 
-crew-monitor-filter-line-placeholder = Filtrer
+crew-monitoring-ui-filter-line-placeholder = Filter
 
-crew-monitoring-user-interface-name = Nom
-crew-monitoring-user-interface-job = Poste :
-crew-monitoring-user-interface-status = Statut
-crew-monitoring-user-interface-location = Localisation
+crew-monitoring-ui-job-label = Job:
+crew-monitoring-ui-no-server-label = Server not found
 
-crew-monitoring-user-interface-alive = Vivant
-crew-monitoring-user-interface-dead = Mort
-crew-monitoring-user-interface-no-info = N/A
+crew-monitoring-ui-no-department-label = Unknown
+crew-monitoring-ui-no-station-label = Unknown station
 
-crew-monitoring-user-interface-no-server = Serveur introuvable
-
-crew-monitoring-user-interface-no-department = Inconnu
-
-crew-monitoring-user-interface-flavor-left = En cas d'urgence, contactez immédiatement le personnel médical de la station
-crew-monitoring-user-interface-flavor-right = v1.7
+crew-monitoring-ui-flavor-left-label = In case of an emergency, contact station medical staff immediately
+crew-monitoring-ui-flavor-right-label = v1.7
