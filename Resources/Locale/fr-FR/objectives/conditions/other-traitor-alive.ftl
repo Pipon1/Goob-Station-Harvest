@@ -7,4 +7,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-objective-condition-other-traitor-progress-title = Assurez-vous que votre collègue traître {$targetName}, {CAPITALIZE($job)}, complète ses objectifs.
+objective-condition-other-traitor-alive-title = Assurez-vous que votre collègue traître {$targetName}, {CAPITALIZE($job)}, complète ses objectifs.
