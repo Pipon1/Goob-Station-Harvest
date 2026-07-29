@@ -6,3 +6,6 @@
 # SPDX-License-Identifier: MIT
 
 lathe-popup-material-not-used = Ce matériau n'est pas utilisé dans cette machine.
+lathe-unlock-recipe-radio-broadcast = Ce tour est maintenant capable de produire les recettes suivantes : {$items}
+lathe-unlock-recipe-radio-broadcast-overflow = Ce tour est maintenant capable de produire {$count} nouvelles recettes, y compris : {$items}
+lathe-unlock-recipe-radio-broadcast-item = [bold]{$item}[/bold]
