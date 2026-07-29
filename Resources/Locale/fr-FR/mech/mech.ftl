@@ -30,3 +30,5 @@ mech-slot-display = Emplacements libres : {$amount}
 mech-no-enter = Vous ne pouvez pas piloter ceci.
 
 mech-eject-pilot-alert = {$user} est en train d'extraire le pilote du {$item} !
+
+mech-construction-guide-string = Toutes les pièces du mécha doivent être attachées au harnais.
