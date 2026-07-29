@@ -90,6 +90,7 @@ ban-panel-permanent = Permanent
 ban-panel-ip-hwid-tooltip = Laissez vide et cochez la case ci-dessous pour utiliser les détails de la dernière connexion
 ban-panel-severity = Sévérité :
 ban-panel-erase = Effacer les messages de chat et le joueur de la ronde
+ban-panel-expiry-error = err
 
 # Ban string
 server-ban-string = {$admin} created a {$severity} severity server ban that expires {$expires} for [{$name}, {$ip}, {$hwid}], with reason: {$reason}
