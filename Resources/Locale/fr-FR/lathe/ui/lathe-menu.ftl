@@ -39,8 +39,16 @@ lathe-menu-material-amount-missing = { $amount ->
     *[other] {NATURALFIXED($amount, 2)} {$unit} de {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {$unit} manquants[/color])
 }
 lathe-menu-no-materials-message = Aucun matériau chargé.
+lathe-menu-silo-linked-message = Silo lié
 lathe-menu-fabricating-message = Fabrication en cours...
 lathe-menu-materials-title = Matériaux
-lathe-menu-queue-title = File de fabrication
-lathe-menu-queue-reset-title = Réinitialiser la file
-lathe-menu-queue-reset-material-overflow = Vous remarquez que le tour automatique est plein.
+lathe-menu-queue-title = File d'attente de construction
+lathe-menu-delete-fabricating-tooltip = Annuler l'impression de l'objet actuel.
+lathe-menu-delete-item-tooltip = Annuler l'impression de ce lot.
+lathe-menu-move-up-tooltip = Déplacer ce lot en avant dans la file d'attente.
+lathe-menu-move-down-tooltip = Déplacer ce lot en arrière dans la file d'attente.
+lathe-menu-item-single = {$index}. {$name}
+lathe-menu-item-batch = {$index}. {$name} ({$printed}/{$total})
+# Goobstation?
+lathe-menu-queue-reset-title = Réinitialiser la file d'attente
+lathe-menu-queue-reset-material-overflow = Vous remarquez que l'autolathe est pleine.
