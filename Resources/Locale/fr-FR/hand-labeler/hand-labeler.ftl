@@ -7,20 +7,30 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-hand-labeler-ui-header = Labeleur à main
+hand-labeler-ui-header = Étiqueteuse portative
 
 # The content of the label in the UI above the text entry input.
-hand-labeler-current-text-label = Label :
+hand-labeler-current-text-label = Étiquette :
+
+# The text on the button in the UI to reset the text entry input to the content it had when the UI was opened
+hand-labeler-ui-reset-label-text = Réinitialiser
+
+# The text on the button in the UI to clear the text entry input
+hand-labeler-ui-clear-label-text = Effacer
 
 # When the hand labeler applies a label successfully
-hand-labeler-successfully-applied = Appliqué le label avec succès
+hand-labeler-successfully-applied = Étiquette appliquée avec succès
 
 # When the hand labeler removes a label successfully
-hand-labeler-successfully-removed = Enlevé le label avec succès
+hand-labeler-successfully-removed = Étiquette supprimée avec succès
 
 # Appended to the description of an object with a label on input
-hand-labeler-has-label = ThisCet objet a un label sur lui, qui lit '{$label}'
+hand-labeler-has-label = Cet objet a une étiquette, qui dit « {$label} »
 
 # Verb text
-hand-labeler-remove-label-text = Enlever un label
-hand-labeler-add-label-text = Appliquer un label
+hand-labeler-remove-label-text = Supprimer l'étiquette
+hand-labeler-add-label-text = Appliquer l'étiquette
+
+# Shown when the labeler is examined
+hand-labeler-examine-blank = Le texte de l'étiquette est vierge.
+hand-labeler-examine-label-text = Le texte de l'étiquette est « {$label-text} ».
