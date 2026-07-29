@@ -52,3 +52,7 @@ roles-antag-thief-name = Voleur
 roles-antag-thief-objective = Ajoutez quelques propriétés NT à votre collection personnelle sans recourir à la violence.
 roles-antag-dragon-name = Dragon Spatial
 roles-antag-dragon-objective = Créez une armée de carpes pour prendre le contrôle de ce quadrant.
+roles-antag-mothership-core-name = Cœur xénoborg
+roles-antag-mothership-core-objective = Utilisez vos xénoborgs pour créer encore plus de xénoborgs.
+roles-antag-xenoborg-name = Xénoborg
+roles-antag-xenoborg-objective = Aidez le vaisseau-mère à créer plus de xénoborgs.
