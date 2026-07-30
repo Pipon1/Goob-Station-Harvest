@@ -8,6 +8,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 ## UI
+door-remote-toggle-eletrify-text = Active/Désactive la surcharge
 door-remote-open-close-text = Ouvre et Ferme les Portes
 door-remote-toggle-bolt-text = Active/Désactive les Verrous
 door-remote-emergency-access-text = Active/Désactive l'Accès d'Urgence
