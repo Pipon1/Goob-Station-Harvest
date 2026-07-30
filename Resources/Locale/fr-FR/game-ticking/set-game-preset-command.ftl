@@ -6,6 +6,12 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+set-game-preset-command-description = Définit le préréglage de jeu pour le nombre spécifié de manches à venir. Peut également afficher le titre et la description d'un autre préréglage dans le hall pour tromper les joueurs.
+set-game-preset-command-help-text = setgamepreset <id> [nombre de manches, par défaut 1] [préréglage leurre]
+set-game-preset-command-hint-1 = <id>
+set-game-preset-command-hint-2 = [nombre de manches]
+set-game-preset-command-hint-3 = [préréglage leurre]
+
 set-game-preset-command-description = Sets the game preset for the specified number of upcoming rounds.
 set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1]
 set-game-preset-optional-argument-not-integer = If argument 2 is provided it must be a number.
