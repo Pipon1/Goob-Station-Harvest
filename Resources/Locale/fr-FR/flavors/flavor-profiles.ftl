@@ -230,6 +230,7 @@ flavor-complex-false-meat = de pas tout à fait de la viande
 flavor-complex-paper = de pâte à papier
 flavor-complex-compressed-meat = de viande compressée
 flavor-complex-dog-food = de nourriture pour chien
+flavor-complex-canned-tuna = de thon en conserve
 
 # Drink-specific flavors.
 
