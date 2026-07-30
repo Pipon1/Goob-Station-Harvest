@@ -59,6 +59,7 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
             _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(cultureEn, "LOC", FormatLoc);
+            _loc.AddFunction(cultureEn, "NATURALPERCENT", FormatNaturalPercent);
         }
 
         private ILocValue FormatMany(LocArgs args)
