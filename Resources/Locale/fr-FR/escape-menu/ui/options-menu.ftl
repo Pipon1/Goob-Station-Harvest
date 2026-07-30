@@ -110,6 +110,7 @@ ui-options-quality-label = Qualité
 ui-options-misc-label = Divers
 ui-options-interface-label = Interface
 
+
 ui-options-auto-fill-highlights = Remplir automatiquement les surbrillances avec les informations du personnage
 ui-options-highlights-color = Couleur des surbrillances :
 ui-options-highlights-color-example = Ceci est un texte mis en surbrillance !
@@ -224,6 +225,9 @@ ui-options-static-storage-ui = Verrouiller la fenêtre de stockage à la barre d
 
 ui-options-function-smart-equip-backpack = Équipement rapide dans le sac à dos
 ui-options-function-smart-equip-belt = Équipement rapide dans la ceinture
+ui-options-function-smart-equip-suit-storage = Équipement rapide vers le stockage de la combinaison
+ui-options-function-smart-equip-pocket1 = Équipement rapide vers la poche 1
+ui-options-function-smart-equip-pocket2 = Équipement rapide vers la poche 2
 ui-options-function-smart-equip-back = Équipement rapide dans l'emplacement dos
 ui-options-function-open-backpack = Ouvrir le sac à dos
 ui-options-function-open-belt = Ouvrir la ceinture
@@ -282,6 +286,11 @@ ui-options-function-editor-copy-object = Copier
 ui-options-function-show-debug-console = Ouvrir la console
 ui-options-function-show-debug-monitors = Afficher les moniteurs de débogage
 ui-options-function-inspect-entity = Inspecter l'entité
+ui-options-function-inspect-entity-tooltip = Ouvrir une fenêtre ViewVariables pour l'entité sur laquelle votre souris plane actuellement.
+ui-options-function-inspect-server-component = Inspecter le composant serveur
+ui-options-function-inspect-server-component-tooltip = Ouvrir une fenêtre ViewVariables avec le composant serveur défini par la commande « quickinspect » pour l'entité sur laquelle votre souris plane actuellement.
+ui-options-function-inspect-client-component = Inspecter le composant client
+ui-options-function-inspect-client-component-tooltip = Ouvrir une fenêtre ViewVariables avec le composant client défini par la commande « quickinspect » pour l'entité sur laquelle votre souris plane actuellement.
 ui-options-function-hide-ui = Masquer l'interface
 
 ui-options-function-hotbar1 = Emplacement barre d'actions 1
@@ -371,16 +380,22 @@ cmd-options-help = Usage : options [onglet]
 
 ## Accessibility menu
 
+ui-options-accessability-header-visuals = Affichage
+ui-options-accessability-header-content = Contenu
+
 ui-options-enable-color-name = Ajouter des couleurs aux noms des personnages
 ui-options-colorblind-friendly = Mode daltonien
 ui-options-reduced-motion = Réduire les animations des effets visuels
 ui-options-screen-shake-intensity = Intensité des tremblements d'écran
+
 ui-options-chat-window-opacity = Opacité de la fenêtre de chat
 ui-options-speech-bubble-text-opacity = Opacité du texte des bulles de dialogue
 ui-options-speech-bubble-speaker-opacity = Opacité du locuteur des bulles de dialogue
 ui-options-speech-bubble-background-opacity = Opacité du fond des bulles de dialogue
 # Goobstation - Highlight chat sounds!
 ui-options-highlight-sound = Jouer un son lors d'une mise en surbrillance
+
+ui-options-censor-nudity = Censurer la nudité des personnages
 
 ## Admin menu
 
