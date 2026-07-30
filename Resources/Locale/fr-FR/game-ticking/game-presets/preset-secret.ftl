@@ -7,3 +7,6 @@
 
 secret-title = Secret Classic
 secret-description = It's a secret to everyone. The threats you encounter are randomized. This is the classic version of secret that simply picks a gamemode and doesn't scale with station chaos
+
+dynamic-title = Dynamique
+dynamic-description = Personne ne sait ce qui va arriver. Vous pouvez rencontrer n'importe quel nombre de menaces.
