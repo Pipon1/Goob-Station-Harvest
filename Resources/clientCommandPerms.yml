@@ -76,11 +76,8 @@
     - dumpentities
     - showwallmounts
     - showaccessreaders
-<<<<<<< HEAD
-    - showaudiomuffle
-=======
     - quickinspect
->>>>>>> 35bb1439cc80f4971b072bf9b258574bab0424e2
+    - showaudiomuffle # HarvestStation: trauma port, credits to Kryyto
 
 - Flags: MAPPING
   Commands:
