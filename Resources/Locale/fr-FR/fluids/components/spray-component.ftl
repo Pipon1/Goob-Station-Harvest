@@ -6,3 +6,5 @@
 # SPDX-License-Identifier: MIT
 
 spray-component-is-empty-message = C'est vide !
+
+pin-spray-popup-empty = {CAPITALIZE(THE($entity))} se flétrit et a besoin d'être arrosé !
