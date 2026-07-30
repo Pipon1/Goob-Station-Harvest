@@ -113,6 +113,7 @@ adjectives-dataset-112 = en colère
 adjectives-dataset-113 = agacé
 adjectives-dataset-114 = anxieux
 adjectives-dataset-115 = arrogant
+<<<<<<< HEAD
 adjectives-dataset-116 = honteux
 adjectives-dataset-117 = horrible
 adjectives-dataset-118 = mauvais
@@ -126,6 +127,21 @@ adjectives-dataset-125 = condamné
 adjectives-dataset-126 = confus
 adjectives-dataset-127 = fou, déchaîné
 adjectives-dataset-128 = effrayant
+=======
+adjectives-dataset-116 = ashamed
+adjectives-dataset-117 = awful
+adjectives-dataset-118 = bad
+adjectives-dataset-119 = bewildered
+adjectives-dataset-120 = black
+adjectives-dataset-121 = blue
+adjectives-dataset-122 = bored
+adjectives-dataset-123 = clumsy
+adjectives-dataset-124 = combative
+adjectives-dataset-125 = condemned
+adjectives-dataset-126 = confused
+adjectives-dataset-127 = flipped-out
+adjectives-dataset-128 = creepy
+>>>>>>> 35bb1439cc80f4971b072bf9b258574bab0424e2
 adjectives-dataset-129 = cruel
 adjectives-dataset-130 = dangereux
 adjectives-dataset-131 = vaincu
