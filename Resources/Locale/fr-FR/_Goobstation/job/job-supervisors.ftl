@@ -12,3 +12,5 @@ job-supervisors-null = personne d'autre que vous-même.
 
 job-supervisor-syndicate = Le Syndicat Spinward
 job-supervisors-credits = Le Plus Offrant
+
+job-supervisors-syndicate = le Syndicat
