@@ -146,6 +146,14 @@ evolutionmenu-utility-chameleon-desc =
     Alter the pigment in your skin to match your surroundings, rendering you invisible when motionless.
     Costs 20 chemicals.
 
+evolutionmenu-utility-darkadapt-name = Adaptation à l'obscurité
+evolutionmenu-utility-darkadapt-desc = 
+    Vous permet d'adapter et d'ajuster votre corps au voile de l'obscurité.
+    Enveloppé par l'obscurité, devenez translucide et gagnez la vision nocturne.
+    L'adaptation passive peut être basculée.
+    Les effets cesseront en cas d'incendie.
+    Coûte 10 produits chimiques.
+
 evolutionmenu-utility-voidadapt-name = Void Adaption
 evolutionmenu-utility-voidadapt-desc =
     Allows you to adapt in reponse to any low extremes of temperature or pressure.

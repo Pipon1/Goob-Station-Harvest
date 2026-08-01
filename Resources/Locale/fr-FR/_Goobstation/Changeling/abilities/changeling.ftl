@@ -90,6 +90,9 @@ changeling-chameleon-start = Notre corps commence à devenir translucide.
 changeling-chameleon-end = Notre corps perd sa translucidité.
 changeling-chameleon-fire = Notre translucidité disparaît sous les flammes !
 
+changeling-darkadapt-active = Nous nous préparons à nous adapter à l'obscurité.
+changeling-darkadapt-inactive = Nous cessons de nous préparer à l'obscurité.
+
 changeling-voidadapt-lowpressure-start = Nous nous adaptons à la basse pression environnante.
 changeling-voidadapt-lowpressure-end = La pression environnante n'est plus basse. Nous abandonnons notre adaptation.
 changeling-voidadapt-lowtemperature-start = Nous nous adaptons à la température glaciale environnante.

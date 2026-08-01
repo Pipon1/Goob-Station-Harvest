@@ -25,6 +25,10 @@ alerts-changeling-panacea-name = Panacée anatomique
 alerts-changeling-panacea-desc =
     Les dégâts non physiques sont soignés ! Les maladies, les produits chimiques et l'influence des drogues sont éliminés. [color=red]Les effets cesseront en cas d'incendie ou de mort.[/color]
 
+alerts-changeling-darkadapt-name = Adaptation à l'obscurité
+alerts-changeling-darkadapt-desc =
+    Notre corps est adapté au voile de l'obscurité. [color=yellow]La régénération chimique est réduite de 15 %[/color]. [color=red]Les effets cesseront en cas d'incendie.[/color]
+
 alerts-changeling-voidadapt-name = Adaptation au vide
 alerts-changeling-voidadapt-desc =
     Adaptation aux extrêmes froids en cours. [color=yellow]La régénération chimique est suspendue[/color]. [color=red]Les effets cesseront en cas d'incendie.[/color]
