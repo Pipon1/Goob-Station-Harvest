@@ -19,6 +19,8 @@ heretic-ability-fail-rust-stage-low = Vous n'êtes pas assez puissant pour rouil
 heretic-ability-fail-target-ghoul = La cible est déjà un goule !
 heretic-ability-fail-target-no-mind = La cible n'a pas d'âme !
 
+heretic-ability-lose-focus-shadow-cloak = Alors que vous perdez votre concentration, vous êtes tiré de l'ombre !
+
 heretic-cosmic-rune-fail-star-mark = Bloqué par la marque stellaire !
 heretic-cosmic-rune-fail-unlinked = Aucune rune liée !
 heretic-cosmic-rune-fail-range = Pas assez proche !
