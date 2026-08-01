@@ -4,3 +4,4 @@
 # SPDX-License-Identifier: MIT
 
 bodyburn-text-others = {CAPITALIZE(THE($name))} brûle et tombe en cendres !
+bodyburn-vox-text-others = {CAPITALIZE(THE($name))} s'est transformé en vox grillé !
