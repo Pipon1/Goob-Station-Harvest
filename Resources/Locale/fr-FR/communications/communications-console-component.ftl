@@ -43,6 +43,7 @@ comms-console-announcement-unknown-sender = Inconnu
 
 # Comms console variant titles
 comms-console-announcement-title-station = Console de communications
-comms-console-announcement-title-centcom = Commandement central
-comms-console-announcement-title-nukie = Opérateur nucléaire du Syndicat
+comms-console-announcement-title-centcom = Commandement Central
+comms-console-announcement-title-nukie = Opératif nucléaire du Syndicat
 comms-console-announcement-title-station-ai = IA
+comms-console-announcement-title-wizard = Sorcier
