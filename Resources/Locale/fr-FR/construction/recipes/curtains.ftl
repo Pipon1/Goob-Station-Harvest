@@ -1,6 +1,7 @@
 construction-recipe-curtains-cloth = rideaux (tissu)
 construction-recipe-curtains-black = rideaux (noirs)
 construction-recipe-curtains-blue = rideaux (bleus)
+construction-recipe-curtains-sky-blue = curtains (bleu ciels)
 construction-recipe-curtains-cyan = rideaux (cyan)
 construction-recipe-curtains-green = rideaux (verts)
 construction-recipe-curtains-orange = rideaux (orange)
