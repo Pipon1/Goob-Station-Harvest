@@ -8,17 +8,58 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-contraband-examine-text-Minor = [color=yellow]Cet objet est considéré comme une contrebande mineure.[/color]
-contraband-examine-text-Restricted = [color=yellow]Cet objet est soumis à des restrictions départementales.[/color]
-contraband-examine-text-Restricted-department = [color=yellow]Cet objet est restreint à {$departments} et peut être considéré comme de la contrebande.[/color]
-contraband-examine-text-Major = [color=red]Cet objet est considéré comme de la contrebande majeure.[/color]
-contraband-examine-text-GrandTheft = [color=red]Cet objet est une cible de grande valeur pour les agents du Syndicat ![/color]
-contraband-examine-text-Syndicate = [color=crimson]Cet objet est de la contrebande du Syndicat hautement illégale ![/color]
-contraband-examine-text-Magical = [color=#b337b3]Cet objet est de la contrebande magique hautement illégale ![/color]
-contraband-examine-text-Clown = [color=yellow]Cet objet appartient au clown, rendez-le avant qu'il soit triste.[/color]
+# Goobstation? Clown?
+contraband-examine-text-Clown = [color=yellow]Cet objet appartient au clown, rendez-le avant qu'il ne soit triste.[/color]
+contraband-examine-text-Minor =
+    { $type ->
+        *[item] [color=yellow]Cet objet est considéré comme une contrebande mineure.[/color]
+        [reagent] [color=yellow]Ce réactif est considéré comme une contrebande mineure.[/color]
+    }
 
-contraband-examine-text-avoid-carrying-around = [color=red][italic]Vous voudrez probablement éviter de le porter visiblement sans bonne raison.[/italic][/color]
-contraband-examine-text-in-the-clear = [color=green][italic]Vous devriez pouvoir le porter visiblement sans problème.[/italic][/color]
+contraband-examine-text-Restricted =
+    { $type ->
+        *[item] [color=yellow]Cet objet est restreint à un département.[/color]
+        [reagent] [color=yellow]Ce réactif est restreint à un département.[/color]
+    }
+
+contraband-examine-text-Restricted-department =
+    { $type ->
+        *[item] [color=yellow]Cet objet est restreint à {$departments}, et peut être considéré comme de la contrebande.[/color]
+        [reagent] [color=yellow]Ce réactif est restreint à {$departments}, et peut être considéré comme de la contrebande.[/color]
+    }
+
+contraband-examine-text-Major =
+    { $type ->
+        *[item] [color=red]Cet objet est considéré comme une contrebande majeure.[/color]
+        [reagent] [color=red]Ce réactif est considéré comme une contrebande majeure.[/color]
+    }
+
+contraband-examine-text-GrandTheft =
+    { $type ->
+        *[item] [color=red]Cet objet est une cible très précieuse pour les agents du Syndicat ![/color]
+        [reagent] [color=red]Ce réactif est une cible très précieuse pour les agents du Syndicat ![/color]
+    }
+
+contraband-examine-text-Highly-Illegal =
+    { $type ->
+        *[item] [color=crimson]Cet objet est une contrebande hautement illégale ![/color]
+        [reagent] [color=crimson]Ce réactif est une contrebande hautement illégale ![/color]
+    }
+
+contraband-examine-text-Syndicate =
+    { $type ->
+        *[item] [color=crimson]Cet objet est une contrebande du Syndicat hautement illégale ![/color]
+        [reagent] [color=crimson]Ce réactif est une contrebande du Syndicat hautement illégale ![/color]
+    }
+
+contraband-examine-text-Magical =
+    { $type ->
+        *[item] [color=#b337b3]Cet objet est une contrebande magique hautement illégale ![/color]
+        [reagent] [color=#b337b3]Ce réactif est une contrebande magique hautement illégale ![/color]
+    }
+
+contraband-examine-text-avoid-carrying-around = [color=red][italic]Vous voulez probablement éviter de porter ceci visiblement sans une bonne raison.[/italic][/color]
+contraband-examine-text-in-the-clear = [color=green][italic]Vous devriez être en sécurité pour porter ceci visiblement.[/italic][/color]
 
 contraband-examinable-verb-text = Légalité
 contraband-examinable-verb-message = Vérifier la légalité de cet objet.
