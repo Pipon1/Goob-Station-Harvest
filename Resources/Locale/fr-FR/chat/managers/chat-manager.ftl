@@ -51,7 +51,7 @@ chat-manager-whisper-headset-on-message = Vous ne pouvez pas chuchoter à la rad
 
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement = Commandement central
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Announcement:[/font][font size=12]
+chat-manager-sender-announcement-wrap-message = [font size=14][bold] Annonce du {$sender} :[/font][font size=12]
                                                 {$message}[/bold][/font]
 # Einstein Engines - Language begin (changing colors for text based on language color in handler)
 # For the message in double quotes, the font/color/bold/italic elements are repeated twice, outside the double quotes and inside.
@@ -59,35 +59,36 @@ chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} An
 chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/font]
 chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$fontType}" size={$fontSize}][bold][color={$color}]{$message}[/color][/bold][/font][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/font][/color][/BubbleContent][font size=11]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/color][/font][/BubbleContent][font size=11]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] chuchote, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/font][/color][/BubbleContent][font size=11]"[/italic][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Quelqu'un[/BubbleHeader] chuchote, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/color][/font][/BubbleContent][font size=11]"[/italic][/font]# Einstein Engines - Language end
 # Einstein Engines - Language end
 
 # chat-manager-language-prefix = ({ $language }){" "} - Removed so it doesn't show up, not wanted, but part of the language system.
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
 chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
-    *[false] The {$entityName} {$message}[/italic]
+    *[false] Le {$entityName} {$message}[/italic]
      [true] {CAPITALIZE($entityName)} {$message}[/italic]
     }
 
-chat-manager-entity-looc-wrap-message = LOOC: [bold]{$entityName}:[/bold] {$message}
-chat-manager-send-ooc-wrap-message = OOC: [bold]{$playerName}:[/bold] {$message}
-chat-manager-send-ooc-patron-wrap-message = OOC: [icon src="{$tierIcon}"/] [bold][color={$patronColor}]{$playerName}[/color]:[/bold] {$message}
-chat-manager-send-ooc-patron-wrap-message-no-icon = OOC: [bold][color={$patronColor}]{$playerName}[/color]:[/bold] {$message}
+chat-manager-entity-looc-wrap-message = LOOC : [bold]{$entityName} :[/bold] {$message}
+chat-manager-send-ooc-wrap-message = OOC : [bold]{$playerName} :[/bold] {$message}
+chat-manager-send-ooc-patron-wrap-message = OOC : [icon src="{$tierIcon}"/] [bold][color={$patronColor}]{$playerName}[/color] :[/bold] {$message}
+chat-manager-send-ooc-patron-wrap-message-no-icon = OOC : [bold][color={$patronColor}]{$playerName}[/color] :[/bold] {$message}
 
-chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [bold][BubbleHeader]{$playerName}[/BubbleHeader][/bold] {$verb}: "[BubbleContent]{$message}[/BubbleContent]"
-chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [bold]([BubbleHeader]{$userName}[/BubbleHeader])[/bold] {$verb}: "[BubbleContent]{$message}[/BubbleContent]"
-chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [bold]{$playerName}:[/bold] {$message}
-chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
+chat-manager-send-dead-chat-wrap-message = {$deadChannelName} : [bold][BubbleHeader]{$playerName}[/BubbleHeader][/bold] {$verb}: "[BubbleContent]{$message}[/BubbleContent]"
+chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName} : [bold]([BubbleHeader]{$userName}[/BubbleHeader])[/bold] {$verb}: "[BubbleContent]{$message}[/BubbleContent]"
+chat-manager-send-admin-chat-wrap-message = {$adminChannelName} : [bold]{$playerName}:[/bold] {$message}
+chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName} : {$message}[/bold]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$message}
+chat-manager-send-hook-ooc-wrap-message = OOC : [bold](D){$senderName}:[/bold] {$message}
+chat-manager-send-hook-admin-wrap-message = ADMIN : [bold](D){$senderName}:[/bold] {$message}
 
-chat-manager-dead-channel-name = DEAD
+chat-manager-dead-channel-name = MORT
 chat-manager-admin-channel-name = ADMIN
 
 chat-manager-rate-limited = Vous envoyez des messages trop rapidement !
-chat-manager-rate-limit-admin-announcement = Rate limit warning: { $player }
+chat-manager-rate-limit-admin-announcement = Le joueur { $player } envoie des messages trop rapidement.
 
 ## Speech verbs for chat
 
@@ -195,6 +196,13 @@ chat-speech-verb-name-electricity = Électricité
 chat-speech-verb-electricity-1 = crépite
 chat-speech-verb-electricity-2 = bourdonne
 chat-speech-verb-electricity-3 = crie
+
+# Goob
+#chat-speech-verb-vulpkanin-1 = rawrs
+#chat-speech-verb-vulpkanin-2 = barks
+#chat-speech-verb-vulpkanin-3 = rurs
+#chat-speech-verb-vulpkanin-4 = yaps
+#chat-speech-verb-vulpkanin = Vulpkanin
 
 chat-speech-verb-name-wawa = Wawa
 chat-speech-verb-wawa-1 = entonne
