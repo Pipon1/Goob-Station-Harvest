@@ -42,3 +42,4 @@ lavaland-ruin-generator = Cimetière de générateurs
 lavaland-ruin-mug = Usine de tasses
 lavaland-ruin-temple = Temple de Nar'Sie
 lavaland-ruin-flock-large = Étranges ruines de verre
+lavaland-ruin-reclaimer = NT-Récupérateur
