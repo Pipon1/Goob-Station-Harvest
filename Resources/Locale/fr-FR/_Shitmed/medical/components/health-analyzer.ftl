@@ -10,6 +10,8 @@ condition-body-pain-decreased = • Les nerfs du {$woundable} sont engourdis.
 condition-body-pain-increased = • Les nerfs du {$woundable} sont anormalement sensibles.
 condition-body-unrevivable = • {$entity} a une constitution particulièrement fragile. Il/elle ne peut pas supporter le choc d'un défibrillateur.
 condition-body-bleeding = • {$entity} saigne.
+# Goobstation - low blood alert
+condition-body-low-blood = • {$entity} a un niveau de sang [color=red]dangereusement bas[/color].
 
 condition-organ-damage-Normal = • Le {$organ} est globalement en bon état.
 condition-organ-damage-Damaged = • Le {$organ} est endommagé.
