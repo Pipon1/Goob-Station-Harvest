@@ -7,15 +7,15 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 set-game-preset-command-description = Définit le préréglage de jeu pour le nombre spécifié de manches à venir. Peut également afficher le titre et la description d'un autre préréglage dans le hall pour tromper les joueurs.
-set-game-preset-command-help-text = setgamepreset <id> [nombre de manches, par défaut 1] [préréglage leurre]
+set-game-preset-command-help-text = setgamepreset <id> [nombre de manches, par défaut : 1] [préréglage leurre]
 set-game-preset-command-hint-1 = <id>
 set-game-preset-command-hint-2 = [nombre de manches]
 set-game-preset-command-hint-3 = [préréglage leurre]
 
-set-game-preset-command-description = Sets the game preset for the specified number of upcoming rounds.
-set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1]
-set-game-preset-optional-argument-not-integer = If argument 2 is provided it must be a number.
+set-game-preset-optional-argument-not-integer = Si le deuxième argument est fourni, il doit s'agir d'un nombre.
+set-game-preset-preset-error = Impossible de trouver le préréglage de jeu "{$preset}".
+set-game-preset-decoy-error = Si le troisième argument est fourni, il doit s'agir d'un préréglage valide. Impossible de trouver le préréglage de jeu "{$preset}".
 
-set-game-preset-preset-error = Unable to find game preset "{$preset}"
-#set-game-preset-preset-set = Set game preset to "{$preset}"
-set-game-preset-preset-set-finite = Set game preset to "{$preset}" for the next {$rounds} rounds.
+#set-game-preset-preset-set = Préréglage de jeu défini sur "{$preset}"
+set-game-preset-preset-set-finite = Préréglage de jeu défini sur "{$preset}" pour les {$rounds} prochaines manches.
+set-game-preset-preset-set-finite-with-decoy = Préréglage de jeu défini sur "{$preset}" pour les {$rounds} prochaines manches, tout en affichant "{$decoy}" dans le hall.

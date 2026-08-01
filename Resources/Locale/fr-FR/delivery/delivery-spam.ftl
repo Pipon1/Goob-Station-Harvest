@@ -275,4 +275,4 @@ delivery-spam-13 =  papier
                     REGARDE OÙ ÇA T'A MENÉ. TU AS TUÉ LES DEUX. FÉLICITATIONS.
                     IL N'Y AURA PLUS DE SUITE MAINTENANT.
                     COMMENT TU VEUX FAIRE DE L'ARGENT MAINTENANT ???? C'EST NULS ????
-                    [bold]BEN TU N'AURAIS PAS DÛ LES TUER !!!!!!!!!!!!!![/bold]
+                    {"[bold]BEN TU N'AURAIS PAS DÛ LES TUER !!!!!!!!!!!!!![/bold]"}
