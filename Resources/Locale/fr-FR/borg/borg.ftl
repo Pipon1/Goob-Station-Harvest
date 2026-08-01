@@ -19,6 +19,9 @@ borg-module-too-many = Il n'y a pas assez de place pour un autre module...
 borg-module-duplicate = Ce module est déjà installé dans ce cyborg.
 borg-module-whitelist-deny = Ce module ne convient pas à ce type de cyborg...
 
+borg-module-action-name = Activer {$moduleName}
+borg-module-action-description = Sélectionnez {$moduleName}, ce qui vous permet d'utiliser les outils qu'il fournit.
+
 borg-construction-guide-string = Les membres et le torse du cyborg doivent être fixés à l'endosquelette.
 
 borg-ui-menu-title = Interface du cyborg
@@ -69,5 +72,3 @@ borg-type-medical-transponder = cyborg médical
 borg-type-service-name = Service
 borg-type-service-desc = Aider à fournir un large éventail de services à l'équipage, allant du service de collations et de boissons à la botanique en passant par les divertissements.
 borg-type-service-transponder = cyborg de service
-
-
