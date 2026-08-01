@@ -22,3 +22,4 @@ mixing-verb-shake = agiter
 default-mixing-success = Vous mélangez {$mixed} avec {$mixer}
 bible-mixing-success = Vous bénissez {$mixed} avec {$mixer}
 spoon-mixing-success = Vous remuez {$mixed} avec {$mixer}
+handheld-centrifuge-success = Vous séparez les produits chimiques dans {$mixed}
