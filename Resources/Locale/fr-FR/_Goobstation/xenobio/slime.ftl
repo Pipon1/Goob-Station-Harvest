@@ -8,6 +8,12 @@ slime-latch-fail-already-latched = Vous ne pouvez pas vous accrocher à {$ent}, 
 
 slime-latch-fail-max-entities = Vous ne pouvez pas consommer {$ent}, vous êtes rassasié !
 
+slime-eat-corpse-success = {THE($eater)} essaie d'arracher quelque chose de {THE($target)} !
+
+slime-eat-corpse-fail-not-eatable = {THE($target)} n'a pas l'air comestible.
+
+slime-eat-corpse-fail-not-dead = {THE($target)} devrait être mort !
+
 slime-examined-stomach = [color=red]Vous pouvez voir quelque chose bouger à l'intérieur ![/color]
 
 slime-examined-tamer = [color=green]Il a l'air content de vous voir ![/color]
