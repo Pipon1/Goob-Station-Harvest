@@ -33,3 +33,4 @@ marking-VoxHairMadScientist = Vox Savant fou
 marking-VoxHairHedgehog = Vox Hérisson
 marking-VoxHairBushy = Vox Piquants touffus
 marking-VoxHairSlick = Vox Piquants lisses
+marking-VoxHairCatfish = Vox Poisson-chat
