@@ -7,3 +7,5 @@
 
 cluwne-transform = {CAPITALIZE(THE($target))} s'est transformé en cluwne !
 cluwne-name-prefix = {$baseName} cluwnifié
+cluwne-knock-emote = spasmes
+cluwne-giggle-emote = honks
