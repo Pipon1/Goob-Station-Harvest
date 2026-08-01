@@ -15,3 +15,5 @@ agent-id-card-current-name = Nom :
 agent-id-card-current-job = Poste :
 agent-id-card-job-icon-label = Icône de poste :
 agent-id-menu-title = Carte d'identité d'agent
+
+agent-id-open-ui-verb = Modifier les paramètres
