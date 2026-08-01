@@ -14,5 +14,7 @@ flatpacker-ui-title = Flatpacker 1001
 flatpacker-ui-materials-label = Matériaux
 flatpacker-ui-cost-label = Coût d'emballage
 flatpacker-ui-no-board-label = Pas de carte présente !
+flatpacker-ui-board-invalid-label = [color=red]Carte invalide !
+    Impossible d'imprimer ![/color]
 flatpacker-ui-insert-board = Insérez une carte pour commencer.
 flatpacker-ui-pack-button = Emballer
