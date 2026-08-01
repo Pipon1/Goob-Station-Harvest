@@ -57,6 +57,10 @@ alert-level-octarine-announcement = Un événement noosphérique cataclysmique m
 alert-level-octarine-instructions = Il est conseillé aux membres d'équipage d'écouter les chefs d'équipe pour plus d'informations.
 
 ## GoobStation
-alert-level-honk = Klaxon
+alert-level-honk = Honk
 alert-level-honk-announcement = Un clown retors est en liberté et causera des dégâts cataclysmiques s'il n'est pas exécuté ! Tous les membres d'équipage doivent collaborer pour exécuter le clown si possible, ou bien évacuer.
 alert-level-honk-instructions = Il est conseillé aux membres d'équipage d'exécuter le clown.
+
+alert-level-amber = Ambre
+alert-level-amber-announcement = Il y a une menace immédiate qui pourrait détruire la station. Tous les membres d'équipage doivent être armés par tous les moyens et le personnel non essentiel doit aider la sécurité et les chefs de personnel à défendre la station.
+alert-level-amber-instructions = Les membres d'équipage doivent être armés pour combattre une menace qui pourrait détruire la station.
