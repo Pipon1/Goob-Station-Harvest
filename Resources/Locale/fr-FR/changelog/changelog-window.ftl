@@ -25,6 +25,7 @@ changelog-button-new-entries = Journal des modifications (nouveau !)
 changelog-tab-title-Changelog = Wizden
 changelog-tab-title-Admin = Admin
 changelog-tab-title-Maps = Cartes
+changelog-tab-title-Rules = Règles
 
 cmd-changelog-desc = Ouvre le journal des modifications.
 cmd-changelog-help = Utilisation : changelog
