@@ -131,3 +131,9 @@ marking-LizardChestFin = Lizard Fin
 marking-LizardSnoutSplotch = Lizard Snout (Splotch)
 marking-LizardSnoutSplotch-snout_splotch_primary = Muzzle
 marking-LizardSnoutSplotch-snout_splotch_secondary = Snoot
+
+marking-LizardSnoutVisageSharp = Visage de lézard (Pointu)
+marking-LizardSnoutVisageSharp-visage_sharp = Visage de lézard (Pointu)
+
+marking-LizardSnoutVisageRound = Visage de lézard (Rond)
+marking-LizardSnoutVisageRound-visage_round = Visage de lézard (Rond)
