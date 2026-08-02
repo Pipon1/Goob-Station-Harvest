@@ -46,9 +46,8 @@ traitor-death-match-end-round-description-entry = Le PDA de {$originalName}, ave
 
 # TraitorRole
 traitor-role-greeting =
-    Vous êtes un agent envoyé par {$corporation} au nom du [color = darkred]Syndicat.[/color]
-    Vos objectifs et noms de code sont répertoriés dans le menu du personnage.
-    Utilisez votre uplink pour acheter les outils dont vous aurez besoin pour cette mission.
+    Vous êtes un agent envoyé par [color=darkred]Le Syndicat[/color] au nom de {$corporation}.
+    Vos objectifs et mots de passe sont listés dans le menu de personnage. Utilisez votre uplink pour acheter les outils dont vous aurez besoin pour cette mission.
     Mort à Nanotrasen !
 traitor-role-codewords =
     Les noms de code sont : [color = lightgray]
@@ -57,9 +56,6 @@ traitor-role-codewords =
 traitor-role-uplink-code =
     Le code de votre uplink est [color=white]{$code}[/color]. Définissez-la comme sonnerie de votre PDA pour accéder au marché noir.
     N'oublie pas de le fermer après, sinon l'équipage de la station pourra facilement l'ouvrir lui aussi !
-traitor-role-uplink-pen-code =
-    Faites tourner votre stylo selon la combinaison [color = lightgray]{$code}[/color] pour déverrouiller votre uplink.
-    Les degrés correspondent aux angles de rotation. L'uplink se verrouille automatiquement lorsqu'il est fermé.
 traitor-role-uplink-implant =
     Votre implant uplink a été activé, accédez-y depuis votre barre de raccourcis.
     L'uplink est sécurisé tant qu'il n'est pas retiré de votre corps.

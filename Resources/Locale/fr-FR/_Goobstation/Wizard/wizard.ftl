@@ -26,9 +26,6 @@ wizard-role-greeting =
 wizard-role-briefing = Vous êtes un mage spatial. Survivez et semez le chaos parmi les ignorants.
 apprentice-role-briefing = Vous êtes un apprenti mage spatial. Gardez en vie celui qui vous a invoqué.
 
-admin-verb-make-wizard = Transformer la cible en mage.
-admin-verb-text-make-wizard = Rendre mage
-
 wizard-title = Mage
 wizard-description = Un puissant mage spatial visite la station. Embrassez le chaos.
 

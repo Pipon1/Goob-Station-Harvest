@@ -34,7 +34,6 @@ job-description-atmostech = Optimisez les systèmes atmosphériques de la statio
 job-description-bartender = Gérez le bar, servez des boissons et écoutez les histoires de l'équipage.
 job-description-botanist = Cultivez de la nourriture pour le chef, des plantes médicinales et d'autres végétaux pour vous occuper.
 job-description-borg = Mi-humain, mi-machine. Suivez vos lois, servez l'équipage et harcelez l'équipe scientifique pour des améliorations.
-job-description-boxer = Battez-vous jusqu'au sommet ! Défiez le chef du personnel et finissez en cellule quand vous gagnez. Disponible sur Core et Convex.
 job-description-brigmedic = Combattez en arrière-garde pour la vie de vos camarades ! Vous êtes le premier et dernier espoir de votre escouade. Qu'Hippocrate vous bénisse.
 job-description-cadet = Apprenez les bases de l'arrestation des criminels et de la gestion de la cellule. Écoutez vos supérieurs et demandez-leur de l'aide librement.
 job-description-captain = Maintenez la station en marche, déléguez le travail aux autres chefs et exercez votre autorité.
@@ -77,7 +76,6 @@ job-description-serviceworker = Learn the basics of bartending, cooking, and gro
 job-description-station-ai = Follow your laws, serve the crew.
 job-description-visitor = Enjoy your visit to the station.
 job-description-warden = Patrol the security department, ensure that no one is stealing from the armory, and make sure that all prisoners are processed and let out when their time is up.
-job-description-zookeeper = Put on a joyful display of cute animals and space carps for all the crew to see. Currently available on Oasis.
 
 # event-restricted jobs, Goobstation
 job-description-command-maid = Clean the bridge, command rooms, and everything else that command tells you to.

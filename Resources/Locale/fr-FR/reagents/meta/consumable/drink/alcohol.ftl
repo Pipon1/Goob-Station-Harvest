@@ -212,9 +212,6 @@ reagent-desc-jungle-bird = Malgré son nom, il n'est pas particulièrement popul
 reagent-name-kalimotxo = kalimotxo
 reagent-desc-kalimotxo = Un Cuba Libre haut de gamme, pour l'alcoolique raffiné.
 
-reagent-name-kira-special = spécial Kira
-reagent-desc-kira-special = Longue vie à celui que tout le monde avait pris pour une fille. Baka !
-
 reagent-name-tortuga = Tortuga
 reagent-desc-tortuga = Parfait pour les pirates désignés conducteur. Yarr !
 
