@@ -16,6 +16,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 bwoink-user-title = Message admin
+bwoink-admin-title = Aide Admin
 
 bwoink-system-starmute-message-no-other-users = *Système : Personne n'est disponible pour recevoir votre message. Essayez de contacter les admins sur Discord.
 

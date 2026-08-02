@@ -6,7 +6,9 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-admin-alert-shared-connection = {$player} partage une connexion avec {$otherCount} joueur(s) connecté(s) : {$otherList}
-admin-alert-ipintel-blocked = {$player} a été rejeté à la connexion car son IP a une probabilité de {TOSTRING($percent, "P2")} d'être un VPN/Datacenter.
-admin-alert-ipintel-warning = L'IP de {$player} a une probabilité de {TOSTRING($percent, "P2")} d'être un VPN/Datacenter. Surveillez-le.
-admin-alert-antag-label = {$message} [ANTAG : {$name}, {$subtype}]
+admin-alert-shared-connection = {$player} is sharing a connection with {$otherCount} connected player(s): {$otherList}
+admin-alert-ipintel-blocked = {$player} was rejected from joining due to their IP having a {TOSTRING($percent, "P2")} confidence of being a VPN/Datacenter.
+admin-alert-ipintel-warning = {$player} IP has a {TOSTRING($percent, "P2")} confidence of being a VPN/Datacenter. Please watch them.
+admin-alert-antag-label = {$message} [ANTAG: {$name}, {$subtype}]
+admin-alert-tp-to-players-header = Players:{" "}
+admin-alert-tp-to-coords-header = Coords:{" "}

@@ -16,23 +16,31 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-verb-categories-antag = Ctrl antag
-admin-verb-make-traitor = Transformer la cible en traître.
-admin-verb-make-initial-infected = Transformer la cible en infecté initial.
-admin-verb-make-zombie = Zombifie la cible immédiatement.
-admin-verb-make-nuclear-operative = Transformer la cible en opérateur nucléaire solitaire.
-admin-verb-make-pirate = Transformer la cible en pirate. Notez que cela ne configure pas la règle de jeu.
-admin-verb-make-head-rev = Transformer la cible en chef révolutionnaire.
-admin-verb-make-thief = Transformer la cible en voleur.
-admin-verb-make-paradox-clone = Créer un rôle fantôme de clone paradoxe de la cible.
+verb-categories-antag = Antag ctrl
+admin-verb-make-traitor = Make the target into a traitor.
+admin-verb-make-initial-infected = Make the target into an Initial Infected.
+admin-verb-make-zombie = Zombifies the target immediately.
+admin-verb-make-nuclear-operative = Make target into a lone Nuclear Operative.
+admin-verb-make-pirate = Make the target into a pirate. Note this doesn't configure the game rule.
+admin-verb-make-head-rev = Make the target into a Head Revolutionary.
+admin-verb-make-thief = Make the target into a thief.
+admin-verb-make-paradox-clone = Create a Paradox Clone ghost role of the target.
+admin-verb-make-wizard = Make the target into a Wizard.
+admin-verb-make-space-ninja = Make the target into a Space Ninja.
+admin-verb-make-changeling = Make the target into a Changeling.
 
-admin-verb-text-make-traitor = Faire Traître
-admin-verb-text-make-initial-infected = Faire Infecté Initial
-admin-verb-text-make-zombie = Faire Zombie
-admin-verb-text-make-nuclear-operative = Faire Opérateur Nucléaire
-admin-verb-text-make-pirate = Faire Pirate
-admin-verb-text-make-head-rev = Faire Chef Rev
-admin-verb-text-make-thief = Faire Voleur
-admin-verb-text-make-paradox-clone = Créer Clone Paradoxe
+
+admin-verb-text-make-traitor = Make Traitor
+admin-verb-text-make-initial-infected = Make Initial Infected
+admin-verb-text-make-zombie = Make Zombie
+admin-verb-text-make-nuclear-operative = Make Nuclear Operative
+admin-verb-text-make-pirate = Make Pirate
+admin-verb-text-make-head-rev = Make Head Rev
+admin-verb-text-make-thief = Make Thief
+admin-verb-text-make-paradox-clone = Create Paradox Clone
+admin-verb-text-make-wizard = Make Wizard
+admin-verb-text-make-space-ninja = Make Ninja
+# Goob edit v
+admin-verb-text-make-changeling = Make Changeling
 
 admin-overlay-antag-classic = ANTAG
