@@ -175,11 +175,11 @@ objective-condition-victory-desc = Invoquez L'Inconnu et annoncez le dernier rap
 
 cosmiccult-radio-tier1-progress = Le Monument est invoqué sur la station...
 
-cosmiccult-announce-tier2-progress = Un engourdissement inquiétant picote vos sens.
-cosmiccult-announce-tier2-warning = Les scanners détectent une augmentation notable du Λ-CDM ! Des failles dans l'espace réel pourraient apparaître sous peu. Veuillez alerter le chapelain de votre station si vous en observez.
+cosmiccult-announce-tier3-progress = Un engourdissement inquiétant picote vos sens.
+cosmiccult-announce-tier3-warning = Les scanners détectent une augmentation notable du Λ-CDM ! Des failles dans l'espace réel pourraient apparaître sous peu. Veuillez alerter le chapelain de votre station si vous en observez.
 
-cosmiccult-announce-tier3-progress = Des arcs d'énergie noosphérique crépitent à travers la structure grinçante de la station. La fin approche.
-cosmiccult-announce-tier3-warning = Augmentation critique du Λ-CDM détectée. Le personnel infecté doit être maîtrisé ou neutralisé dès qu'il est repéré.
+cosmiccult-announce-pre-finale-progress = Des arcs d'énergie noosphérique crépitent à travers la structure grinçante de la station. La fin approche.
+cosmiccult-announce-pre-finale-warning = Augmentation critique du Λ-CDM détectée. Le personnel infecté doit être maîtrisé ou neutralisé dès qu'il est repéré.
 
 cosmiccult-announce-finale-warning = À tout l'équipage de la station. L'anomalie Λ-CDM atteint un niveau supercritique, les instruments tombent en panne ; horizon des événements de transition noosphère-monde réel IMMINENT. Si vous n'êtes pas déjà en mode contre-protocole, sortez immédiatement et intervenez. Nous répètons : intervenez immédiatement ou mourez.
 
