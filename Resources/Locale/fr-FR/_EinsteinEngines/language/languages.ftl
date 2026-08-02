@@ -10,6 +10,11 @@ language-Bubblish-description = La langue des Slimes. Étant un mélange de brui
 language-RootSpeak-name = Rootspeak
 language-RootSpeak-description = L'étrange langue sifflante parlée par les Diona.
 
+language-Hydraspeak-name = Hy'drav'tha
+language-Hydraspeak-description =
+    Un mélange de gazouillis, de trilles et de pépinements, avec de forts changements tonaux et des variations de tonalité composent ce langage inhabituel.
+    En raison de la nature aviaire des hydrakins, un mot peut signifier un million d'autres choses en même temps, ce qui rend ce langage pratiquement incompréhensible même pour les autres races ressemblant à des oiseaux.
+
 language-Nekomimetic-name = Nekomimetic
 language-Nekomimetic-description = Pour l'observateur occasionnel, cette langue est un fouillis incompréhensible de japonais cassé. Pour les Félinidés, c'est d'une façon ou d'une autre compréhensible.
 
