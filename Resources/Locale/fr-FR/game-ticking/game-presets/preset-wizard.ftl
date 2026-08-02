@@ -12,22 +12,22 @@ survivor-round-end-dead-count =
 
 {
     $deadCount ->
-        [un] [color=red]{$deadCount}[/color] survivant est mort.
-        *[plusieurs] [color=red]{$deadCount}[/color] survivants sont morts.
+        [one] [color=red]{$deadCount}[/color] survivant est mort.
+        *[other] [color=red]{$deadCount}[/color] survivants sont morts.
 }
 
 survivor-round-end-alive-count =
 {
     $aliveCount ->
-        [un] [color=yellow]{$aliveCount}[/color] survivant a été abandonné sur la station.
-        *[plusieurs] [color=yellow]{$aliveCount}[/color] survivants ont été abandonnés sur la station.
+        [one] [color=yellow]{$aliveCount}[/color] survivant a été abandonné sur la station.
+        *[other] [color=yellow]{$aliveCount}[/color] survivants ont été abandonnés sur la station.
 }
 
 survivor-round-end-alive-on-shuttle-count =
 {
     $aliveCount ->
-        [un] [color=green]{$aliveCount}[/color] survivant s'est échappé vivant.
-        *[plusieurs] [color=green]{$aliveCount}[/color] survivants se sont échappés vivants.
+        [one] [color=green]{$aliveCount}[/color] survivant s'est échappé vivant.
+        *[other] [color=green]{$aliveCount}[/color] survivants se sont échappés vivants.
 }
 
 ## Wizard
