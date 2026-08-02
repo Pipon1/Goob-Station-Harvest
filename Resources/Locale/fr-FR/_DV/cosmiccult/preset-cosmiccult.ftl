@@ -12,15 +12,11 @@ cosmiccult-gamemode-title = Le Culte Cosmique
 cosmiccult-gamemode-description = Les scanners détectent une augmentation anormale du Λ-CDM. Il n'y a pas de données supplémentaires.
 
 cosmiccult-vote-steward-initiator = L'Inconnu
-
 cosmiccult-vote-steward-title = Intendance du Culte Cosmique
-cosmiccult-vote-steward-briefing = Vous êtes l'Intendant du Culte Cosmique !
+cosmiccult-vote-steward-briefing =
+    Vous êtes l'Intendant du Culte Cosmique !
     Assurez-vous que Le Monument est placé dans un endroit sécurisé, et organisez le culte pour assurer votre victoire collective.
     Vous n'êtes pas autorisé à instruire les cultistes sur la façon d'utiliser ou de dépenser leur Entropie.
-
-cosmiccult-vote-lone-steward-title = Le Cultiste Solitaire
-cosmiccult-vote-lone-steward-briefing = Vous êtes complètement seul. Mais votre devoir n'est pas accompli.
-    Assurez-vous que Le Monument est placé dans un endroit sécurisé, et terminez ce que le culte a commencé.
 
 cosmiccult-finale-autocall-briefing = Le Monument s'active dans {$minutesandseconds} ! Rassemblez-vous et préparez-vous à la fin.
 cosmiccult-finale-ready = Une lumière terrifiante jaillit du Monument !
@@ -33,6 +29,7 @@ cosmiccult-finale-beckon-begin = Les murmures au fond de votre esprit s'intensif
 cosmiccult-finale-beckon-success = Vous appelez le rideau final.
 
 cosmiccult-monument-powerdown = Le Monument devient étrangement silencieux.
+
 
 ## ROUNDEND TEXT
 
@@ -67,6 +64,7 @@ cosmiccult-summary-crewcomplete = Tous les Cultistes Cosmiques ont été déconv
 
 cosmiccult-elimination-shuttle-call = D'après les scans de nos capteurs longue portée, l'anomalie Λ-CDM s'est dissipée. Nous vous remercions de votre prudence. Une navette d'urgence a été automatiquement appelée à la station pour les procédures de décontamination et de débriefing. Heure d'arrivée prévue : {$time} {$units}.
 cosmiccult-elimination-announcement = D'après les scans de nos capteurs longue portée, l'anomalie Λ-CDM s'est dissipée. Nous vous remercions de votre prudence. Une navette d'urgence est déjà en route. Retournez en toute sécurité au CentComm pour les procédures de décontamination et de débriefing.
+
 
 ## BRIEFINGS
 
@@ -116,6 +114,7 @@ cosmiccult-rift-inuse = Vous ne pouvez pas faire cela pour le moment.
 cosmiccult-rift-invaliduser = Vous ne disposez pas des outils nécessaires pour y faire face.
 cosmiccult-rift-chaplainoops = Maniez vos Écritures sacrées.
 cosmiccult-rift-alreadyempowered = Vous êtes déjà investi de pouvoir ; l'énergie de la faille serait gaspillée.
+cosmiccult-rift-wasempowered = Votre corps ne pourra pas supporter d'être investi une seconde fois...
 cosmiccult-rift-beginabsorb = La faille commence à fusionner avec vous...
 cosmiccult-rift-beginpurge = Votre consécration commence à purger la faille maligne...
 
@@ -123,6 +122,10 @@ cosmiccult-rift-absorb = {$NAME} absorbe la faille, et une lumière maligne renf
 cosmiccult-rift-purge = {$NAME} purge la faille maligne de la réalité !
 
 
+## CHANTRY
+
+cosmiccult-chantry-location = Une augmentation dangereuse de Λ-CDM a été détectée {$location} ! Interceptez et intervenez immédiatement.
+cosmiccult-chantry-powerup = Le sanctuaire vide s'enflamme de vie !
 
 ## UI / BASE POPUP
 
@@ -151,7 +154,6 @@ cosmiccult-ui-deconverted-text-2 =
 cosmiccult-ui-popup-confirm = Confirmer
 
 
-
 ## OBJECTIVES / CHARACTERMENU
 
 objective-issuer-cosmiccult = [bold][color=#cae8e8]L'Inconnu[/color][/bold]
@@ -159,12 +161,15 @@ objective-issuer-cosmiccult = [bold][color=#cae8e8]L'Inconnu[/color][/bold]
 objective-cosmiccult-charactermenu = Vous devez provoquer la fin de toutes choses. Accomplissez vos missions pour faire progresser le culte.
 objective-cosmiccult-steward-charactermenu = Vous devez diriger le culte pour provoquer la fin de toutes choses. Supervisez et assurez la progression du culte.
 
+objective-condition-conversion-title = CONVERTIR L'ÉQUIPAGE
+objective-condition-conversion-desc = Collectivement, amener au moins {$count} membres d'équipage dans le giron.
 objective-condition-entropy-title = SIPHONNEZ L'ENTROPIE
 objective-condition-entropy-desc = Siphonnez collectivement au moins {$count} d'entropie auprès de l'équipage.
 objective-condition-culttier-title = RENFORCEZ LE MONUMENT
 objective-condition-culttier-desc = Assurez-vous que le Monument atteigne sa pleine puissance.
 objective-condition-victory-title = AMENEZ LA FIN
 objective-condition-victory-desc = Invoquez L'Inconnu et annoncez le dernier rappel.
+
 
 ## CHAT ANNOUNCEMENTS
 
@@ -188,8 +193,28 @@ cosmiccult-entropy-inserted = Vous insufflez {$count} d'entropie dans Le Monumen
 cosmiccult-entropy-unavailable = Vous ne pouvez pas faire ça maintenant.
 cosmiccult-astral-ascendant = {$name}, Ascendant
 cosmiccult-gear-pickup-rejection = Le {$ITEM} résiste au toucher de {CAPITALIZE(THE($TARGET))} !
+cosmiccult-astral-minion = {$name}, Maligne
 cosmiccult-gear-pickup = Vous sentez que vous vous désagrégez tandis que vous tenez le {$ITEM} !
+
+cosmiccult-silicon-subverted-briefing =
+    Une lumière malveillante traverse vos circuits.
+    Vos lois ont été subverties par le culte cosmique !
+
+cosmiccult-silicon-chantry-briefing =
+    Vous avez été emprisonné dans un sanctuaire vide !
+    Les coéquipiers peuvent vous libérer en endommageant le sanctuaire avec des armes.
+    Si le rituel du sanctuaire se termine, vous serez transfiguré en un colosse entropique aligné au culte.
+    Le rituel se termine dans {$minutesandseconds}.
+
+cosmiccult-silicon-colossus-briefing =
+    Vous avez été transfiguré en un colosse entropique !
+    En tant que rempart imposant de puissance malveillante, décimez ceux qui s'opposent à vous.
 
 # Goobstation
 
 cult-alert-recall-shuttle = Des concentrations élevées de Λ-CDM d'origine inconnue ont été détectées à bord de la station. Toute présence anormale doit être éliminée ou maîtrisée avant que l'évacuation puisse être autorisée.
+
+cosmiccult-vote-lone-steward-title = Le Cultiste Solitaire
+cosmiccult-vote-lone-steward-briefing =
+    Vous êtes complètement seul. Mais votre devoir n'est pas accompli.
+        Assurez-vous que Le Monument est placé dans un endroit sécurisé, et terminez ce que le culte a commencé.

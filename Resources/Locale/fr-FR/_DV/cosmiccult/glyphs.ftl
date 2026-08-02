@@ -5,6 +5,7 @@ cult-glyph-conditions-not-met = Aucune cible adaptée dans la portée du glyphe 
 cult-glyph-too-many-targets = Trop de cibles présentes sur le glyphe !
 cult-glyph-target-mindshield = Le bouclier mental empêche l'influence du glyphe de prendre prise !
 cult-glyph-target-chaplain = Une étincelle de puissance divine empêche l'influence du glyphe de prendre prise !
+cult-glyph-target-mindless = Le glyphe ne s'active pas, car la cible est actuellement sans esprit.
 
 cult-glyph-name-knowledge = Pacte de Connaissance
 cult-glyph-description-knowledge = Connaissance. Instille l'étincelle d'une connaissance indélébile. Capable de convertir la plupart pour rejoindre nos rangs.
