@@ -288,7 +288,7 @@ entity-effect-guidebook-adjust-reagent-group =
         *[-1] de
     } la solution
 
-entity-effect-guidebook-adjust-temp =
+entity-effect-guidebook-adjust-temperature =
     { $chance ->
         [1] { $deltasign ->
                 [1] Ajoute
