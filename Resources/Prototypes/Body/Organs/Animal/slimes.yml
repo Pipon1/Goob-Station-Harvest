@@ -3,7 +3,7 @@
 - type: entity
   id: SentientSlimesCore
   parent: [BaseItem, OrganHumanBrain]
-  name: noyau de slimes sentients
+  name: noyau de slime sentient
   description: "La source d'une gluance incroyable et infinie."
   components:
     - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   id: OrganSlimesLungs
   parent: BaseHumanOrgan
-  name: sacs de gaz de slimes
+  name: sacs de gaz de slime
   description: "Collecte de l'azote, que les cellules de slime utilisent pour leur maintenance."
   components:
     - type: Sprite
