@@ -2,7 +2,7 @@
 
 - type: body
   id: Moth
-  name: "moth"
+  name: "mite"
   root: chest
   slots:
     head:
