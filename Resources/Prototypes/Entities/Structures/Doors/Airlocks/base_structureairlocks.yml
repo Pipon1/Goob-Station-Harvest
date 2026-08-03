@@ -210,8 +210,7 @@
     - KnockOn
   - type: WeldingSparksAnimation # Goobstation
     startingOffset: 0, 0.5
-  - type: SoundBlocker
-    cost: 3
+  - type: SoundBlocker # Harvest, from Trauma
   placement:
     mode: SnapgridCenter
 
