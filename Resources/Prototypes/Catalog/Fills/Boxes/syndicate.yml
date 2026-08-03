@@ -18,7 +18,7 @@
   parent: [BoxVial, BaseSyndicateContraband]
   id: ChemicalSynthesisKit
   name: kit de synthèse chimique
-  description: A starter kit for the aspiring chemist, notably includes a chemical payload and timer, a hyperzine syringe, and two vials of vestine for all your criminal needs! # Goobstation
+  description: Un kit de démarrage pour le chimiste en herbe, notamment une charge chimique avec minuteur, une seringue d'hyperzine et deux fioles de vestine pour tous vos besoins criminels !
   components:
   - type: Storage
     grid:
@@ -60,10 +60,10 @@
       - state: throwing_knives
 
 - type: entity
-  name: boîte d'implants de râle de mort
+  name: boîte d'implants posthume
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxDeathRattleImplants
-  description: Six implants de râle de mort pour toute l'escouade.
+  description: Six implants posthume pour toute l'escouade.
   components:
   - type: Sprite
     layers:

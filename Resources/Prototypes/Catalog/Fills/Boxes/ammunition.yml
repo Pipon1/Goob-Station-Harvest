@@ -13,10 +13,10 @@
       - state: magazine
 
 - type: entity
-  name: box of 9.5mm HP magazines # Goob edit
+  name: boîte de chargeurs 9.5mm (pointe creuse) # Goob edit
   parent: BoxMagazine
   id: BoxMagazinePistolCaselessRifle
-  description: A box full of 9.5mm caseless magnum hollow-point magazines. # Goob edit
+  description: Une boîte pleine de chargeurs de munitions 9,5 mm sans étui magnum à pointe creuse.  # Goob edit
   components:
   - type: EntityTableContainerFill
     containers:
@@ -25,10 +25,10 @@
         amount: 4
 
 - type: entity
-  name: box of 9.5mm (practice) magazines # Goob edit
+  name: boîte de chargeurs 9.5mm (entraînement) # Goob edit
   parent: BoxMagazine
   id: BoxMagazinePistolCaselessRiflePractice
-  description: A box full of 9.5mm caseless magnum practice magazines. # Goob edit
+  description: Une boîte pleine de chargeurs de munitions 9,5 mm sans étui magnum d'entraînement. # Goob edit
   components:
   - type: EntityTableContainerFill
     containers:
@@ -53,7 +53,7 @@
   name: boîte de chargeurs de fusil .30 (entraînement)
   parent: BoxMagazine
   id: BoxMagazineLightRiflePractice
-  description: Une boîte pleine de chargeurs de fusil .30 (entraînement).
+  description: Une boîte pleine de chargeurs de fusil .30 d'entraînement.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -77,7 +77,7 @@
   name: boîte de chargeurs SMG .45 magnum (entraînement)
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGunPractice
-  description: Une boîte pleine de chargeurs SMG .45 magnum (entraînement).
+  description: Une boîte pleine de chargeurs SMG .45 magnum d'entraînement.
   components:
   - type: StorageFill
     contents:
@@ -113,7 +113,7 @@
   name: boîte de chargeurs de pistolet .35 auto (entraînement)
   parent: BoxMagazine
   id: BoxMagazinePistolPractice
-  description: Une boîte pleine de chargeurs.
+  description: Une boîte pleine de chargeurs de pistolet .35 auto d'entraînement.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -122,10 +122,10 @@
         amount: 4
 
 - type: entity
-  name: boîte de chargeurs de pistolet-mitrailleur .35 auto
+  name: boîte de chargeurs de pistolet haute capacité .35 auto
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacity
-  description: Une boîte pleine de chargeurs de pistolet-mitrailleur .35 auto.
+  description: Une boîte pleine de chargeurs de pistolet haute capacité .35 auto.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -134,10 +134,10 @@
         amount: 4
 
 - type: entity
-  name: boîte de chargeurs de pistolet-mitrailleur .35 auto (entraînement)
+  name: boîte de chargeurs de pistolet haute capacité .35 auto (entraînement)
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacityPractice
-  description: Une boîte pleine de chargeurs de pistolet-mitrailleur .35 auto (entraînement).
+  description: Une boîte pleine de chargeurs de pistolet haute capacité .35 auto d'entraînement.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -161,7 +161,7 @@
   name: boîte de chargeurs SMG .35 auto (entraînement)
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunPractice
-  description: Une boîte pleine de chargeurs SMG .35 auto (entraînement).
+  description: Une boîte pleine de chargeurs SMG .35 auto d'entraînement.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -171,10 +171,10 @@
 
 # Shotgun
 - type: entity
-  name: boîte de tambours de munitions (.50 chevrotine)
+  name: boîte de tambours de munitions .50 (chevrotine)
   parent: BoxMagazine
   id: BoxMagazineShotgun
-  description: Une boîte pleine de tambours de munitions (.50 chevrotine).
+  description: Une boîte pleine de tambours de munitions .50 chevrotine.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -183,10 +183,10 @@
         amount: 4
 
 - type: entity
-  name: boîte de tambours de munitions (.50 sac de sable)
+  name: boîte de tambours de munitions .50 (sachet)
   parent: BoxMagazine
   id: BoxMagazineShotgunBeanbag
-  description: Une boîte pleine de tambours de munitions (.50 sac de sable).
+  description: Une boîte pleine de tambours de munitions .50 sachet.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -195,10 +195,10 @@
         amount: 4
 
 - type: entity
-  name: boîte de tambours de munitions (.50 slug)
+  name: boîte de tambours de munitions .50 (slug)
   parent: BoxMagazine
   id: BoxMagazineShotgunSlug
-  description: Une boîte pleine de tambours de munitions (.50 slug).
+  description: Une boîte pleine de tambours de munitions .50 slug.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -207,10 +207,10 @@
         amount: 4
 
 - type: entity
-  name: boîte de tambours de munitions (.50 incendiaire)
+  name: boîte de tambours de munitions .50 (incendiaire)
   parent: BoxMagazine
   id: BoxMagazineShotgunIncendiary
-  description: Une boîte pleine de tambours de munitions (.50 incendiaire).
+  description: Une boîte pleine de tambours de munitions .50 incendiaire.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -235,7 +235,7 @@
   name: boîte de chargeurs de fusil .20 (entraînement)
   parent: BoxMagazine
   id: BoxMagazineRiflePractice
-  description: Une boîte pleine de chargeurs de fusil .20 (entraînement).
+  description: Une boîte pleine de chargeurs de fusil .20 d'entraînement.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -36,7 +36,7 @@
   name: boîte de grenades aveuglantes
   parent: BoxCardboard
   id: BoxFlashbang
-  description: 'WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use.'
+  description: "AVERTISSEMENT : Ces appareils sont extrêmement dangereux et peuvent causer la cécité ou la surdité en cas d'utilisation répétée."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -81,10 +81,10 @@
     - state: flashbang
 
 - type: entity
-  name: boîte de visières de sécurité
+  name: boîte de visières SecHUD
   parent: BoxCardboard
   id: BoxSechud
-  description: Une boîte de visières de sécurité.
+  description: Une boîte de visières SecHUD
   components:
   - type: EntityTableContainerFill
     containers:

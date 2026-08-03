@@ -52,7 +52,7 @@
   name: boîte de masques stériles
   parent: BoxCardboard
   id: BoxSterileMask
-  description: Cette boîte contient des masques médicaux stériles.
+  description: Contient des masques médicaux stériles.
   components:
   - type: EntityTableContainerFill
     containers:

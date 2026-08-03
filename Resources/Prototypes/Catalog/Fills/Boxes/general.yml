@@ -40,8 +40,8 @@
 - type: entity
   parent: BoxBaseSmall
   id: BoxCardboardSmall
-  name: small cardboard box
-  description: A small cardboard box for storing things.
+  name: petite boîte en carton
+  description: Une petite boîte en carton pour stocker des choses.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -94,7 +94,7 @@
   name: boîte d'ampoules
   parent: BoxCardboard
   id: BoxLightbulb
-  description: Cette boîte est conçue intérieurement pour n'accueillir que des tubes et ampoules.
+  description: Cette boîte est conçue pour n'accueillir que des tubes et ampoules.
   components:
   - type: Sprite
     layers:
@@ -205,7 +205,7 @@
   name: boîte de casques audio
   parent: BoxCardboard
   id: BoxHeadset
-  description: Une boîte de casques audio passagers de rechange.
+  description: Une boîte de casques audio d'assistant de rechange.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -294,10 +294,10 @@
       - state: inflatable
 
 - type: entity
-  name: sac du jour Hatsune Miku
+  name: sac Hatsune Miku
   parent: ClothingBackpackDuffel
   id: BoxPerformer
-  description: Joyeux jour Hatsune Miku !
+  description: Bon jour spécial Hatsune Miku !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -351,7 +351,7 @@
       - state: trashbag
 
 - type: entity
-  name: boîte de clés de chiffrement passager
+  name: boîte de clés de chiffrement assistant
   parent: BoxCardboard
   id: BoxEncryptionKeyPassenger
   description: Une boîte de clés de chiffrement de rechange.
@@ -371,7 +371,7 @@
       - EncryptionKey
 
 - type: entity
-  name: boîte de clés de chiffrement fret
+  name: boîte de clés de chiffrement cargo
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyCargo
   components:
@@ -382,7 +382,7 @@
         amount: 4
 
 - type: entity
-  name: boîte de clés de chiffrement génie
+  name: boîte de clés de chiffrement ingénierie
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyEngineering
   components:
@@ -415,7 +415,7 @@
         amount: 4
 
 - type: entity
-  name: boîte de clés de chiffrement robotech
+  name: boîte de clés de chiffrement roboticien
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyRobo
   components:
@@ -488,7 +488,7 @@
   name: boîte de bougies
   parent: BoxCardboard
   id: BoxCandle
-  description: Cette boîte est spécifiquement moulée pour ne contenir que des bougies.
+  description: Cette boîte est conçue pour n'accueillir que des bougies.
   components:
   - type: Sprite
     layers:

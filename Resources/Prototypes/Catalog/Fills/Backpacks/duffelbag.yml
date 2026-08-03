@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateFilledMedicine
-  name: syndicate medicine duffel bag
-  description: A large duffel bag containing essential medicinal reagents.
+  name: sac de sport du Syndicat avec médicaments
+  description: Un grand sac de sport contenant des rmédicaments essentiels.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledShotgun
-  name: lot Bulldog
-  description: "Lean and mean: Contains the popular Bulldog Shotgun, a 12g slug drum, and four 12g buckshot drums." #, and a pair of Thermal Imaging Goggles.
+  name: kit Bulldog
+  description: "Efficace et mortel : Contient le populaire fusil à pompe Bulldog, un tambour de cartouches 12g, et quatre tambours de cartouches 12g à chevrotine."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSMG
-  name: lot C-20r
-  description: "Old faithful: The classic C-20r Submachine Gun, bundled with three magazines." #, and a Suppressor.
+  name: kit C-20r
+  description: "La vieille fidèle : Le classique pistolet-mitrailleur C-20r, fourni avec trois chargeurs." #, and a Suppressor.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledRifle
-  name: Estoc bundle # goob
-  description: "For medium-range sharpshooting, the Estoc. Bundled with three magazines." # goob
+  name: kit Estoc # goob
+  description: "Pour les tirs précis à moyenne portée, l'Estoc. Fourni avec trois chargeurs." # goob
   components:
   - type: EntityTableContainerFill
     containers:
@@ -109,7 +109,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledRevolver
-  name: lot Python
+  name: kit Python
   description: "Faites du bruit avec un Magnum Python entièrement chargé, livré avec deux chargeurs rapides."
   components:
   - type: EntityTableContainerFill
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledLMG
-  name: lot L6 Saw
-  description: "Plus de feu : La légendaire mitrailleuse légère L6, livrée avec 2 chargeurs boîte."
+  name: kit L6 Saw
+  description: "Plus de feu : La légendaire mitrailleuse légère L6 Saw, livrée avec 2 chargeurs boîte."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -136,7 +136,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
-  name: lot China-Lake
+  name: kit China-Lake
   description: "Un vieux lance-grenades China-Lake livré avec 13 grenades aux capacités de destruction variées."
   components:
   - type: EntityTableContainerFill
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCarbine
-  name: lot M-90gl
-  description: "Un fusil de bataille polyvalent avec lance-grenades intégré, livré avec 3 chargeurs et 6 grenades aux capacités variées."
+  name: kit M-90gl
+  description: "Un fusil de combat polyvalent avec lance-grenades intégré, livré avec 3 chargeurs et 6 grenades aux capacités variées."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
-  name: lot de munitions
-  description: "Rechargement ! Contient 4 chargeurs pour le C-20r, 5 tambours pour le Bulldog, 3 chargeurs pour l'Estoc DMR, 2 boîtes de munitions pour le L6 SAW et 3 chargeurs pour le Burner."
+  name: kit de munitions
+  description: "Reloading ! Contient 4 chargeurs pour le C-20r, 5 tambours pour le Bulldog, 3 chargeurs pour l'Estoc DMR, 2 boîtes de munitions pour le L6 SAW et 3 chargeurs pour le Burner."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -260,7 +260,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateC4tBundle
-  name: lot C-4 du Syndicat
+  name: kit C-4 du Syndicat
   description: "Contient beaucoup de charges C-4."
   components:
   - type: EntityTableContainerFill
@@ -297,7 +297,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEVABundle
-  name: lot EVA du Syndicat
+  name: kit EVA du Syndicat
   description: "Contient la combinaison EVA approuvée par le Syndicat."
   components:
   - type: EntityTableContainerFill
@@ -316,7 +316,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitBundle
-  name: lot de combinaison rigide du Syndicat
+  name: kit de combinaison rigide du Syndicat
   description: "Contient la combinaison rigide rouge sang emblématique du Syndicat."
   components:
   - type: EntityTableContainerFill
@@ -330,7 +330,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
-  name: lot de combinaison rigide d'élite du Syndicat
+  name: kit de combinaison rigide d'élite du Syndicat
   description: "Contient la combinaison rigide d'élite du Syndicat, avec quelques accessoires supplémentaires."
   components:
   - type: EntityTableContainerFill
@@ -344,8 +344,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitExtrasBundle
-  name: lot d'extras de combinaison void du Syndicat
-  description: "Contient des choses que vous voudrez absolument avoir lors de l'achat d'une combinaison void."
+  name: kit d'extras de combinaison rigide du Syndicat
+  description: "Contient des choses que vous voudrez absolument avoir lors de l'achat d'une combinaison rigide."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -366,7 +366,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelZombieBundle
-  name: lot zombie du Syndicat
+  name: kit zombie du Syndicat
   description: "Un kit tout-en-un pour déchaîner les morts-vivants sur une station."
   components:
   - type: EntityTableContainerFill
@@ -383,7 +383,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
-  name: lot médical
+  name: kit médical
   description: "Tout ce qu'il faut pour remettre vos camarades dans la mêlée."
   components:
   - type: EntityTableContainerFill
@@ -407,7 +407,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateDecoyKitFilled
-  name: lot de leurres
+  name: kit de leurres
   description: "Contient des distractions, auditives et visuelles. L'odeur bientôt disponible."
   components:
   - type: EntityTableContainerFill
@@ -448,7 +448,7 @@
 - type: entity
   parent: [ ClothingBackpackDuffelBundle, BaseMajorContraband ]
   id: ClothingBackpackDuffelAcolyteBundle
-  name: lot d'armure d'acolyte
+  name: kit d'armure d'acolyte
   description: "Contient l'Armure d'Acolyte, l'indispensable de tout leader de culte."
   components:
   - type: EntityTableContainerFill
@@ -463,8 +463,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledStarterKit
-  name: basic operative bundle
-  description: "Contains a weapon, medical supplies, breaching tools, spare ammo, and some simple utilities."
+  name: kit opératif basique
+  description: "Contient une arme, des fournitures médicales, des outils de brèche, des munitions de rechange et quelques utilitaires simples."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -485,8 +485,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledHushpup
-  name: Hushpup bundle
-  description: Contains the Hushpup, bundled with a box of buckshot. Quarter included.
+  name: kit Hushpup
+  description: "Contient le Hushpup, fourni avec une boîte de chevrotine. Quarter inclus."
   components:
   - type: EntityTableContainerFill
     containers:

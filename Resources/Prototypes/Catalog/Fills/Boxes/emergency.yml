@@ -324,8 +324,8 @@
 - type: entity
   parent: BoxCardboardSmall # Cannot fit 3x3 boxes into already-filled ERT backpacks.
   id: BoxSurvivalMilitaryDouble
-  suffix: Military O2
-  description: It's a box with basic internals inside. This one is labelled to contain an double extended-capacity tank.
+  suffix: Militaire O2
+  description: Une boîte contenant des équipements respiratoires de base. Celle-ci est étiquetée pour contenir un réservoir grande capacité.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -342,7 +342,7 @@
 - type: entity
   parent: BoxSurvivalMilitaryDouble
   id: BoxSurvivalMilitaryDoubleNitrogen
-  suffix: Military N2
+  suffix: Militaire N2
   components:
   - type: EntityTableContainerFill
     containers:
