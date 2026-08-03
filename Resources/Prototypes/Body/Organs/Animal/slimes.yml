@@ -3,8 +3,8 @@
 - type: entity
   id: SentientSlimesCore
   parent: [BaseItem, OrganHumanBrain]
-  name: sentient slimes core
-  description: "The source of incredible, unending gooeyness."
+  name: noyau de slimes sentients
+  description: "La source d'une gluance incroyable et infinie."
   components:
     - type: Sprite
       sprite: Mobs/Species/Slime/organs.rsi
@@ -43,8 +43,8 @@
 - type: entity # Goobstation add
   id: XenobioSentientSlimesCore
   parent: SentientSlimesCore
-  name: mutated slimes core
-  description: "Mutated slime core, looks bigger."
+  name: noyau de slimes mutés
+  description: "Noyau de slime muté, semble plus gros."
   components:
     - type: SolutionContainerManager
       solutions:
@@ -68,8 +68,8 @@
 - type: entity
   id: OrganSlimesLungs
   parent: BaseHumanOrgan
-  name: slimes gas sacs
-  description: "Collects nitrogen, which slime cells use for maintenance."
+  name: sacs de gaz de slimes
+  description: "Collecte de l'azote, que les cellules de slime utilisent pour leur maintenance."
   components:
     - type: Sprite
       sprite: Mobs/Species/Slime/organs.rsi

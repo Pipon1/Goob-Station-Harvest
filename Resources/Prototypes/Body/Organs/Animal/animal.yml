@@ -45,7 +45,7 @@
 - type: entity
   id: OrganAnimalLungs
   parent: BaseAnimalOrgan
-  name: animal lungs
+  name: poumons d'animal
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   id: OrganAnimalStomach
   parent: BaseAnimalOrgan
-  name: animal stomach
+  name: estomac d'animal
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
-  name: animal liver
+  name: foie d'animal
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -181,7 +181,7 @@
 - type: entity
   id: OrganAnimalHeart
   parent: BaseAnimalOrgan
-  name: animal heart
+  name: cœur d'animal
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -214,7 +214,7 @@
 - type: entity
   id: OrganAnimalKidneys
   parent: BaseAnimalOrgan
-  name: animal kidneys
+  name: reins d'animal
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
