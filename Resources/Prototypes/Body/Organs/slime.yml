@@ -3,8 +3,8 @@
 - type: entity
   id: SentientSlimeCore
   parent: [BaseItem, OrganHumanBrain]
-  name: sentient slime core
-  description: "The source of incredible, unending gooeyness."
+  name: noyau de slime sentient
+  description: "La source d'une gluance incroyable et infinie."
   components:
     - type: Sprite
       sprite: Mobs/Species/Slime/organs.rsi
@@ -55,8 +55,8 @@
 - type: entity
   id: OrganSlimeLungs
   parent: BaseHumanOrgan
-  name: slime gas sacs
-  description: "Collects nitrogen, which slime cells use for maintenance."
+  name: sacs de gaz de slime
+  description: "Collecte de l'azote, que les cellules de slime utilisent pour leur maintenance."
   components:
   - type: Sprite
     sprite: Mobs/Species/Slime/organs.rsi
