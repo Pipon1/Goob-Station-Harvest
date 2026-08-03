@@ -4,7 +4,7 @@
   abstract: true
   parent: BasePart # Shitmed Change
   id: PartVoxBase
-  name: "vox body part"
+  name: "partie du corps de vox"
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/parts.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: [ PartVoxBase, BaseChest ]
   id: ChestVox
-  name: "vox chest"
+  name: "torse de vox"
   components:
     - type: Sprite
       sprite: Mobs/Species/Vox/parts.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: [ PartVoxBase, BaseGroin ]
   id: GroinVox
-  name: "vox groin"
+  name: "aine de vox"
   components:
     - type: Sprite
       sprite: Mobs/Species/Vox/parts.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: [ PartVoxBase, BaseHead ]
   id: HeadVox
-  name: "vox head"
+  name: "tête de vox"
   components:
   - type: Sprite
     state: "head"
@@ -71,39 +71,39 @@
 - type: entity
   parent: [ PartVoxBase, BaseLeftArm ]
   id: LeftArmVox
-  name: "left vox arm"
+  name: "bras gauche de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseRightArm ]
   id: RightArmVox
-  name: "right vox arm"
+  name: "bras droit de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseLeftHand ]
   id: LeftHandVox
-  name: "left vox hand"
+  name: "main gauche de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseRightHand ]
   id: RightHandVox
-  name: "right vox hand"
+  name: "main droite de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseLeftLeg ]
   id: LeftLegVox
-  name: "left vox leg"
+  name: "jambe gauche de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseRightLeg ]
   id: RightLegVox
-  name: "right vox leg"
+  name: "jambe droite de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseLeftFoot ]
   id: LeftFootVox
-  name: "left vox foot"
+  name: "pied gauche de vox"
 
 - type: entity
   parent: [ PartVoxBase, BaseRightFoot ]
   id: RightFootVox
-  name: "right vox foot"
+  name: "pied droit de vox"

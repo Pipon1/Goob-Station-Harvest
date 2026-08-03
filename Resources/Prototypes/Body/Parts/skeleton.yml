@@ -4,7 +4,7 @@
   abstract: true
   parent: BasePartInorganic
   id: PartSkeletonBase
-  name: skeleton body part
+  name: partie du corps de squelette
   components:
   - type: Sprite
     sprite: Mobs/Species/Skeleton/parts.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: [ PartSkeletonBase, BaseChestInorganic ]
   id: ChestSkeleton
-  name: skeleton chest
+  name: torse de squelette
   components:
     - type: Sprite
       sprite: Mobs/Species/Skeleton/parts.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: [ PartSkeletonBase, BaseGroinInorganic ]
   id: GroinSkeleton
-  name: skeleton groin
+  name: aine de squelette
   components:
     - type: Sprite
       sprite: Mobs/Species/Skeleton/parts.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: [ PartSkeletonBase, BaseHead ]
   id: HeadSkeleton
-  name: skull
-  description: Alas poor Yorick...
+  name: crâne
+  description: Hélas, pauvre Yorick...
   components:
   - type: Sprite
     state: "skull_icon"
@@ -92,39 +92,39 @@
 - type: entity
   parent: [ PartSkeletonBase, BaseLeftArm ]
   id: LeftArmSkeleton
-  name: "left skeleton arm"
+  name: "bras gauche de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseRightArm ]
   id: RightArmSkeleton
-  name: "right skeleton arm"
+  name: "bras droit de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseLeftHand ]
   id: LeftHandSkeleton
-  name: "left skeleton hand"
+  name: "main gauche de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseRightHand ]
   id: RightHandSkeleton
-  name: "right skeleton hand"
+  name: "main droite de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseLeftLeg ]
   id: LeftLegSkeleton
-  name: "left skeleton leg"
+  name: "jambe gauche de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseRightLeg ]
   id: RightLegSkeleton
-  name: "right skeleton leg"
+  name: "jambe droite de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseLeftFoot ]
   id: LeftFootSkeleton
-  name: "left skeleton foot"
+  name: "pied gauche de squelette"
 
 - type: entity
   parent: [ PartSkeletonBase, BaseRightFoot ]
   id: RightFootSkeleton
-  name: "right skeleton foot"
+  name: "pied droit de squelette"

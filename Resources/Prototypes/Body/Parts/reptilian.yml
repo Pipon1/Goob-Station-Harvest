@@ -4,7 +4,7 @@
 - type: entity
   id: PartReptilian
   parent: [BaseItem, BasePart]
-  name: "reptilian body part"
+  name: "partie du corps de reptilien"
   abstract: true
   components:
   - type: Icon # Shitmed Change
@@ -23,7 +23,7 @@
 
 - type: entity
   id: ChestReptilian
-  name: "reptilian chest"
+  name: "torse de reptilien"
   parent: [PartReptilian, BaseChest]
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 
 - type: entity
   id: GroinReptilian
-  name: "reptilian groin"
+  name: "aine de reptilien"
   parent: [PartReptilian, BaseGroin]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: HeadReptilian
-  name: "reptilian head"
+  name: "tête de reptilien"
   parent: [PartReptilian, BaseHead]
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 
 - type: entity
   id: LeftArmReptilian
-  name: "left reptilian arm"
+  name: "bras gauche de reptilien"
   parent: [PartReptilian, BaseLeftArm]
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RightArmReptilian
-  name: "right reptilian arm"
+  name: "bras droit de reptilien"
   parent: [PartReptilian, BaseRightArm]
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: LeftHandReptilian
-  name: "left reptilian hand"
+  name: "main gauche de reptilien"
   parent: [PartReptilian, BaseLeftHand]
   components:
   - type: Sprite
@@ -98,7 +98,7 @@
 
 - type: entity
   id: RightHandReptilian
-  name: "right reptilian hand"
+  name: "main droite de reptilien"
   parent: [PartReptilian, BaseRightHand]
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: LeftLegReptilian
-  name: "left reptilian leg"
+  name: "jambe gauche de reptilien"
   parent: [PartReptilian, BaseLeftLeg]
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 
 - type: entity
   id: RightLegReptilian
-  name: "right reptilian leg"
+  name: "jambe droite de reptilien"
   parent: [PartReptilian, BaseRightLeg]
   components:
   - type: Sprite
@@ -125,7 +125,7 @@
 
 - type: entity
   id: LeftFootReptilian
-  name: "left reptilian foot"
+  name: "pied gauche de reptilien"
   parent: [PartReptilian, BaseLeftFoot]
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
 
 - type: entity
   id: RightFootReptilian
-  name: "right reptilian foot"
+  name: "pied droit de reptilien"
   parent: [PartReptilian, BaseRightFoot]
   components:
   - type: Sprite

@@ -8,7 +8,7 @@
   abstract: true
   parent: BaseItem
   id: BasePartInorganic
-  name: "body part"
+  name: "partie du corps"
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/parts.rsi
@@ -43,7 +43,7 @@
 - type: entity
   abstract: true
   id: BaseChestInorganic
-  name: "chest"
+  name: "torse"
   components:
   - type: Sprite
     state: "chest_m"
@@ -52,7 +52,7 @@
   - type: BodyPart
     partType: Chest
     # Shitmed Change Start
-    toolName: "a chest"
+    toolName: "un torse"
     containerName: "chest_slot"
     children:
       groin:
@@ -106,7 +106,7 @@
 - type: entity
   abstract: true
   id: BaseGroinInorganic
-  name: "groin"
+  name: "aine"
   components:
   - type: Sprite
     state: "groin_m"
@@ -115,7 +115,7 @@
   - type: BodyPart
     partType: Groin
     # Shitmed Change Start
-    toolName: "a groin"
+    toolName: "une aine"
     containerName: "groin_slot"
     children:
       right leg:
@@ -166,7 +166,7 @@
 - type: entity
   abstract: true
   id: BaseHead
-  name: "head"
+  name: "tête"
   components:
   - type: Damageable
     damageContainer: Biological
@@ -176,7 +176,7 @@
     state: "head_m"
   - type: BodyPart
     partType: Head
-    toolName: "a head" # Shitmed Change
+    toolName: "une tête" # Shitmed Change
     organs: # Shitmed Change
       brain:
         id: brain
@@ -228,7 +228,7 @@
 - type: entity
   abstract: true
   id: BaseLeftArm
-  name: "left arm"
+  name: "bras gauche"
   components:
   - type: Sprite
     state: "l_arm"
@@ -237,7 +237,7 @@
   - type: BodyPart
     partType: Arm
     symmetry: Left
-    toolName: "a left arm" # Shitmed Change
+    toolName: "un bras gauche" # Shitmed Change
     children: # Shitmed Change
       left hand:
         id: left hand
@@ -265,7 +265,7 @@
 - type: entity
   abstract: true
   id: BaseRightArm
-  name: "right arm"
+  name: "bras droit"
   components:
   - type: Sprite
     state: "r_arm"
@@ -274,7 +274,7 @@
   - type: BodyPart
     partType: Arm
     symmetry: Right
-    toolName: "a right arm" # Shitmed Change
+    toolName: "un bras droit" # Shitmed Change
     children: # Shitmed Change
       right hand:
         id: right hand
@@ -302,7 +302,7 @@
 - type: entity
   abstract: true
   id: BaseLeftHand
-  name: "left hand"
+  name: "main gauche"
   components:
   - type: Sprite
     state: "l_hand"
@@ -311,7 +311,7 @@
   - type: BodyPart
     partType: Hand
     symmetry: Left
-    toolName: "a left hand" # Shitmed Change
+    toolName: "une main gauche" # Shitmed Change
   - type: WoundableVisuals
     thresholds: [ 10, 20, 30, 50, 70, 100 ]
     occupiedLayer: LHand
@@ -335,7 +335,7 @@
 - type: entity
   abstract: true
   id: BaseRightHand
-  name: "right hand"
+  name: "main droite"
   components:
   - type: Sprite
     state: "r_hand"
@@ -344,7 +344,7 @@
   - type: BodyPart
     partType: Hand
     symmetry: Right
-    toolName: "a right hand" # Shitmed Change
+    toolName: "une main droite" # Shitmed Change
   - type: Woundable
     integrity: 60
     integrityCap: 60
@@ -368,7 +368,7 @@
 - type: entity
   abstract: true
   id: BaseLeftLeg
-  name: "left leg"
+  name: "jambe gauche"
   components:
   - type: Sprite
     state: "l_leg"
@@ -377,7 +377,7 @@
   - type: BodyPart
     partType: Leg
     symmetry: Left
-    toolName: "a left leg" # Shitmed Change
+    toolName: "une jambe gauche" # Shitmed Change
     children: # Shitmed Change
       left foot:
         id: left foot
@@ -406,7 +406,7 @@
 - type: entity
   abstract: true
   id: BaseRightLeg
-  name: "right leg"
+  name: "jambe droite"
   components:
   - type: Sprite
     state: "r_leg"
@@ -415,7 +415,7 @@
   - type: BodyPart
     partType: Leg
     symmetry: Right
-    toolName: "a right leg" # Shitmed Change
+    toolName: "une jambe droite" # Shitmed Change
     children: # Shitmed Change
       right foot:
         id: right foot
@@ -444,7 +444,7 @@
 - type: entity
   abstract: true
   id: BaseLeftFoot
-  name: "left foot"
+  name: "pied gauche"
   components:
   - type: Sprite
     state: "l_foot"
@@ -453,7 +453,7 @@
   - type: BodyPart
     partType: Foot
     symmetry: Left
-    toolName: "a left foot" # Shitmed Change
+    toolName: "un pied gauche" # Shitmed Change
   - type: WoundableVisuals
     thresholds: [ 10, 20, 30, 50, 70, 100 ]
     occupiedLayer: LFoot
@@ -477,7 +477,7 @@
 - type: entity
   abstract: true
   id: BaseRightFoot
-  name: "right foot"
+  name: "pied droit"
   components:
   - type: Sprite
     state: "r_foot"
@@ -486,7 +486,7 @@
   - type: BodyPart
     partType: Foot
     symmetry: Right
-    toolName: "a right foot" # Shitmed Change
+    toolName: "un pied droit" # Shitmed Change
   - type: WoundableVisuals
     thresholds: [ 10, 20, 30, 50, 70, 100 ]
     occupiedLayer: RFoot
