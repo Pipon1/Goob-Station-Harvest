@@ -33,8 +33,8 @@
 - type: entity
   parent: CrateScienceSecure
   id: CrateStationAiCore
-  name: station AI core crate
-  description: Contains the components for constructing a station AI core. Positronic brain not included. Requires Science access to open.
+  name: caisse de noyau d'IA de station
+  description: Contient les composants pour construire un noyau d'IA de station. Cerveau positronique pas inclus. Nécessite l'accès science pour l'ouvrir.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -89,8 +89,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringParticleAccelerator
-  name: caisse de cartes d'accélérateur de particules
-  description: Complexe à configurer, mais très gratifiant. Contient les cartes pour tous les composants de l'accélérateur de particules.
+  name: caisse de circuits imprimés d'accélérateur de particules
+  description: Complexe à configurer, mais très gratifiant. Contient les circuits imprimés pour tous les composants de l'accélérateur de particules.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -121,7 +121,7 @@
   parent: CrateEngineering
   id: CrateEngineeringGenerator
   name:  generator crate
-  suffix: DÉBOGAGE
+  suffix: DEBUG
   components:
   - type: EntityTableContainerFill
     containers:
@@ -162,7 +162,7 @@
   parent: CrateEngineeringSecure
   id: CrateEngineeringTeslaGenerator
   name: caisse de générateur Tesla
-  description: Un générateur Tesla. Que Dieu vous vienne en aide.
+  description: Un générateur Tesla. Que Dieu vous aide.
   components:
   - type: EntityTableContainerFill
     containers:

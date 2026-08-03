@@ -101,8 +101,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateCrusherDagger
-  name: caisse de dagues concasseuses
-  description: Contient 4 dagues concasseuses à l'usage de la récupération.
+  name: caisse de dagues Crusher
+  description: Contient 4 dagues Crusher à l'usage des récupérateurs.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -115,7 +115,7 @@
   parent: CrateGenericSteel
   id: CrateSeismicCharge
   name: caisse de charges sismiques
-  description: Contient 6 charges sismiques à l'usage de la récupération.
+  description: Contient 6 charges sismiques à l'usage des récupérateurs.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -127,7 +127,7 @@
   parent: CrateGenericSteel
   id: CrateDoubleEmergencyTank
   name: caisse de doubles réservoirs d'urgence
-  description: Contains 2 double emergency oxygen tanks, 2 double emergency nitrogen tanks and 2 double emergency water vapor tanks. #Goob station
+  description: Contient 2 réservoirs d'oxygène d'urgence doubles, 2 réservoirs d'azote d'urgence doubles et 2 réservoirs de vapeur d'eau d'urgence doubles.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -143,8 +143,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateCrusher
-  name: caisse de concasseurs
-  description: Contient 2 concasseurs à l'usage de la récupération.
+  name: caisse de Crushers
+  description: Contient 2 Crushers à l'usage des récupérateurs.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -194,8 +194,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateCrusherGlaive
-  name: caisse de glaives concasseurs
-  description: Contient un glaive concasseur à l'usage de la récupération.
+  name: caisse de glaives Crusher
+  description: Contient un glaive Crusher à l'usage des récupérateurs.
   components:
   - type: EntityTableContainerFill
     containers:

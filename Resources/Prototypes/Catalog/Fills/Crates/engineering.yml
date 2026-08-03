@@ -3,8 +3,8 @@
 - type: entity
   parent: CrateEngineering
   id: CrateEngineeringGear
-  name: caisse d'équipements de génie
-  description: Diverses pièces d'équipement de génie.
+  name: caisse d'équipements d'ingénierie
+  description: Diverses pièces d'équipement d'ingénierie.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -53,7 +53,7 @@
 - type: entity
   parent: CrateElectrical
   id: CrateEngineeringCableLV
-  name: caisse de câbles BT
+  name: caisse de câbles BT (LV)
   description: 3 bobines de câbles basse tension.
   components:
   - type: EntityTableContainerFill
@@ -65,7 +65,7 @@
 - type: entity
   parent: CrateElectrical
   id: CrateEngineeringCableMV
-  name: caisse de câbles MT
+  name: caisse de câbles MT (MV)
   description: 3 bobines de câbles moyenne tension.
   components:
   - type: EntityTableContainerFill
@@ -77,7 +77,7 @@
 - type: entity
   parent: CrateElectrical
   id: CrateEngineeringCableHV
-  name: caisse de câbles HT
+  name: caisse de câbles HT (HV)
   description: 3 bobines de câbles haute tension.
   components:
   - type: EntityTableContainerFill
@@ -101,7 +101,7 @@
 - type: entity
   parent: CrateElectrical
   id: CrateEngineeringCableBulk
-  name: caisse de câbles en gros
+  name: caisse de câbles électriques
   description: 2 bobines de chaque type de câble.
   components:
   - type: EntityTableContainerFill
@@ -211,7 +211,7 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateRCD
-  name: caisse de RCD
+  name: caisse de DCR (RCD)
   description: Une caisse contenant un seul dispositif de construction rapide.
   components:
   - type: EntityTableContainerFill
@@ -235,7 +235,7 @@
   parent: CrateEngineering
   id: CrateEngineeringSpaceHeater
   name: caisse de chauffage spatial
-  description: Contient un radiateur spatial pour le contrôle climatique.
+  description: Contient un radiateur spatial pour le contrôle de l'atmosphère.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -262,8 +262,8 @@
 - type: entity
   parent: ToteBase
   id: CrateTechBoardRandom
-  name: cartes excédentaires
-  description: Cartes excédentaires d'origine inconnue.
+  name: circuits imprimés excédentaires
+  description: Circuits imprimés excédentaires d'origine inconnue.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -276,7 +276,7 @@
 - type: entity
   id: CrateRPD
   parent: CrateEngineeringSecure
-  name: caisse de RPD
+  name: caisse de DTR (RPD)
   description: Une caisse contenant un seul dispositif de tuyauterie rapide.
   components:
   - type: StorageFill

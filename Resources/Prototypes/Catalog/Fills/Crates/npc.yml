@@ -278,8 +278,8 @@
 - type: entity
   parent: CrateLivestock
   id: CrateNPCMothroach
-  name: caisse de blattémites
-  description: Une caisse contenant quatre blattémites.
+  name: caisse de mothroach
+  description: Une caisse contenant quatre mothroach.
   components:
   - type: EntityTableContainerFill
     containers:

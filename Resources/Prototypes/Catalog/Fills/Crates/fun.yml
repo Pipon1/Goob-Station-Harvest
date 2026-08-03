@@ -57,7 +57,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFunLizardPlushieBulk
-  name: caisse de peluches lézard en gros
+  name: caisse de peluches lézard
   description: Un tas de douces peluches lézard. Lancez-les partout et demandez-vous ensuite comment vous allez expliquer cet achat à NT.
   components:
   - type: EntityTableContainerFill
@@ -70,8 +70,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFunSharkPlushieBulk
-  name: caisse de jouets requins en gros
-  description: Une caisse remplie d'une variété de l'ami aileron préféré de tous. Rawr !
+  name: caisse de jouets requins
+  description: Une caisse remplie d'une variété de l'ami à aileron préféré de tous. Rawr !
   components:
   - type: EntityTableContainerFill
     containers:

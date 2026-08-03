@@ -13,7 +13,7 @@
 - type: entity
   parent: CrateSyndicate
   id: CrateCybersunJuggernautBundle
-  name: paquet Mastodonte Cybersun
+  name: kit Mastodonte Cybersun
   suffix: Rempli
   description: Contient tout sauf une grande arme pour péter les plombs.
   components:

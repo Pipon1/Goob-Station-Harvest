@@ -4,7 +4,7 @@
   parent: CratePlastic
   id: CrateServiceJanitorialSupplies
   name: caisse de fournitures d'entretien
-  description: Luttez contre la saleté avec les Essentiels de Nettoyage(mc) de Nanotrasen ! Contient trois seaux, panneaux de mise en garde et grenades nettoyantes. Comprend aussi une serpillière, un balai, un nettoyant en spray, une brosse métallique, un chiffon et un sac poubelle.
+  description: Luttez contre la saleté avec les Essentiels de Nettoyage(c) de Nanotrasen ! Contient trois seaux, panneaux de mise en garde et grenades nettoyantes. Comprend aussi une serpillière, un balai, un nettoyant en spray, une brosse métallique, un chiffon et un sac poubelle.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -56,8 +56,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateServiceColorfulLights
-  name: colorful lights crate
-  description: It's not a party until it's hard to see, a little disorienting, and your ears hurt. Contains twelve light tubes and twelve light bulbs in a variety of colors.
+  name: caisse de lumières colorées
+  description: C'est pas une vraie fête tant que ça fait pas mal aux yeux et aux oreilles. Contient douze tubes fluorescents et douze ampoules dans une variété de couleurs.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -322,7 +322,7 @@
   parent: CratePlastic
   id: CrateServiceBox
   name: caisse de boîtes
-  description: Contient 6 boîtes polyvalentes vides.
+  description: Contient 6 boîtes en carton polyvalentes vides.
   components:
   - type: EntityTableContainerFill
     containers:

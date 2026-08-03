@@ -54,7 +54,7 @@
   parent: CrateGenericSteel
   id: CrateMaterialWood
   name: caisse de bois
-  description: Un tas de planches en bois.
+  description: 30 planches de bois.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -189,7 +189,7 @@
   parent: CrateGenericSteel
   id: CrateMaterialSilo
   name: caisse pour silo à matériaux
-  description: Un colis contenant tous les matériaux nécessaires à la construction d'un silo à matériaux.
+  description: Une caisse contenant tous les matériaux nécessaires à la construction d'un silo à matériaux.
   components:
   - type: EntityTableContainerFill
     containers:

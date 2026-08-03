@@ -56,7 +56,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePlantBGone
-  name: caisse de Plant-B-Gone en gros
+  name: caisse de Plant-B-Gone
   description: De Monstano. « Mauvaises herbes indésirables, voici votre élimination céleste ! »
   components:
   - type: EntityTableContainerFill
