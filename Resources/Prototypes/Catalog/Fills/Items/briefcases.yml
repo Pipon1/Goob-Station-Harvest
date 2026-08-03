@@ -3,7 +3,7 @@
 - type: entity
   id: BriefcaseBrownFilled
   parent: BriefcaseBrown
-  suffix: Filled, Paper
+  suffix: Rempli, Papier
   components:
   - type: EntityTableContainerFill
     containers:
@@ -14,7 +14,7 @@
 - type: entity
   id: BriefcaseSyndieSniperBundleFilled
   parent: BriefcaseSyndie
-  suffix: Syndicate, Sniper Bundle
+  suffix: Syndicat, Kit Sniper
   components:
   - type: Item
     size: Ginormous
@@ -37,7 +37,7 @@
 - type: entity
   id: BriefcaseSyndieLobbyingBundleFilled
   parent: BriefcaseSyndie
-  suffix: Syndicate, Spesos
+  suffix: Syndicat, Spesos
   components:
   - type: EntityTableContainerFill
     containers:
@@ -57,7 +57,7 @@
 - type: entity
   id: BriefcaseThiefBribingBundleFilled
   parent: BriefcaseSyndie
-  suffix: Thief, Spesos
+  suffix: Voleur, Spesos
   components:
   - type: EntityTableContainerFill
     containers:

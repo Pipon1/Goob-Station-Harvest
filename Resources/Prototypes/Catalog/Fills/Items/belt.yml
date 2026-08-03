@@ -19,7 +19,7 @@
 - type: entity
   id: ClothingBeltUtilityEngineering
   parent: ClothingBeltUtility
-  suffix: Génie
+  suffix: Ingénierie
   components:
   - type: EntityTableContainerFill
     containers:
@@ -158,7 +158,7 @@
 - type: entity
   id: ClothingBeltSheathFilled
   parent: ClothingBeltSheath
-  suffix: Filled, Captain # Goobstation
+  suffix: Rempli, Capitaine # Goobstation
   components:
   - type: ContainerFill
     containers:
@@ -221,7 +221,7 @@
 - type: entity
   id: ClothingBeltHolsterFilled
   parent: ClothingBeltHolster
-  suffix: Filled, Inspector # Goobstation
+  suffix: Rempli, Inspecteur # Goobstation
   components:
   - type: EntityTableContainerFill
     containers:
