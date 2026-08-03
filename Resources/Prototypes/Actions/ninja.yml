@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionToggleNinjaGloves
-  name: Basculer les gants ninja
-  description: Bascule toutes les actions des gants au clic gauche. Inclut le forçage de portes, le drainage d'énergie, l'étourdissement d'ennemis et le piratage de certains ordinateurs.
+  name: Activer/Désactiver les gants ninja
+  description: Passe toutes les actions des gants au clic gauche. Inclut le forçage de portes, le drainage d'énergie, l'étourdissement d'ennemis et le piratage de certains ordinateurs.
   components:
   - type: Action
     priority: -13

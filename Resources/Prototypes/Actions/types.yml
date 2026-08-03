@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionToggleLight
-  name: Basculer la lumière
+  name: Allumer/Éteindre la lumière
   description: Allumer et éteindre la lumière.
   components:
   - type: Action
@@ -90,7 +90,7 @@
 - type: entity
   parent: BaseAction
   id: ActionOpenStorageImplant
-  name: Basculer l'implant de stockage
+  name: Activer/Désactiver l'implant de stockage
   description: Ouvre ou ferme l'implant de stockage intégré sous votre peau
   components:
   - type: Action
@@ -133,7 +133,7 @@
   parent: BaseImplantAction
   id: ActionActivateFreedomImplant
   name: Se libérer
-  description: Activer votre implant de liberté vous libérera de toute entrave aux mains
+  description: Active votre implant de liberté qui vous libérera de toute entrave aux mains
   components:
   - type: Action
     useDelay: 10 # Goob - useful freedom
@@ -148,7 +148,7 @@
   parent: BaseAction
   id: ActionOpenUplinkImplant
   name: Ouvrir la liaison
-  description: Ouvre la liaison syndicale intégrée sous votre peau
+  description: Ouvre la liaison du Syndicat intégrée sous votre peau
   components:
   - type: Action
     itemIconStyle: BigAction
@@ -163,7 +163,7 @@
   parent: BaseImplantAction
   id: ActionActivateEmpImplant
   name: Activer l'IEM
-  description: Déclenche une petite impulsion IEM autour de vous
+  description: Déclenche une petite impulsion électromagnétique autour de vous
   components:
   - type: Action
     checkCanInteract: false
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleSuitPiece
-  name: Basculer la pièce de combinaison
+  name: Activer/Désactiver les pièces de combinaison
   description: N'oubliez pas d'équiper les pièces importantes de votre combinaison avant de passer à l'action.
   components:
   - type: Action
@@ -224,7 +224,7 @@
   parent: BaseMentalAction
   id: ActionCombatModeToggle
   name: '[color=red]Mode combat[/color]'
-  description: Entrer en mode combat
+  description: Entrer/Sortir du mode combat
   components:
   - type: Action
     icon: Interface/Actions/harmOff.png
@@ -255,8 +255,8 @@
 - type: entity
   parent: BaseAction
   id: ActionShootWater
-  name: Spray water!
-  description: Spray water towards your enemies.
+  name: Pulvériser de l'eau !
+  description: Pulvérisez de l'eau vers vos ennemis.
   components:
   - type: Action
     icon: { sprite: Clothing/Neck/Misc/pins.rsi, state: flower }
@@ -267,7 +267,7 @@
   parent: BaseAction
   id: ActionVendingThrow
   name: Distribuer un objet
-  description: Distribue aléatoirement un objet de votre stock.
+  description: Distribuez aléatoirement un objet de votre stock.
   components:
   - type: Action
     useDelay: 30
@@ -278,7 +278,7 @@
   parent: BaseToggleAction
   id: ActionToggleBlock
   name: Bloquer
-  description: Lever ou baisser votre bouclier.
+  description: Levez ou baissez votre bouclier.
   components:
   - type: Action
     icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: teleriot-icon }
@@ -313,7 +313,7 @@
   parent: BaseMentalAction
   id: ActionSleep
   name: Dormir
-  description: Aller dormir.
+  description: Allez dormir.
   components:
   - type: Action
     icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
@@ -324,7 +324,7 @@
   parent: BaseMentalAction
   id: ActionWake
   name: Se réveiller
-  description: Arrêter de dormir.
+  description: Arrêtez de dormir.
   components:
   - type: Action
     startDelay: true
@@ -373,7 +373,7 @@
   parent: BaseToggleAction
   id: ActionToggleWagging
   name: Remuer la queue
-  description: Commencer ou arrêter de remuer la queue.
+  description: Commencez ou arrêtez de remuer votre queue.
   components:
   - type: Action
     icon: { sprite: Mobs/Customization/reptilian_parts.rsi, state: tail_smooth_behind }
@@ -418,7 +418,7 @@
   parent: BaseAction
   id: ActionGravityJump
   name: Sauter
-  description: En activant le système de propulsion avancé, vous vous propulsez sur une courte distance dans la direction de votre regard.
+  description: En activant un système de propulsion avancé, vous vous propulsez sur une courte distance dans la direction de votre regard.
   components:
   - type: Action
     useDelay: 8
@@ -432,7 +432,7 @@
   parent: BaseToggleAction
   id: ActionToggleRootable
   name: S'enraciner
-  description: Commencer ou arrêter d'être enraciné au sol.
+  description: Commencez ou arrêtez d'être enraciné au sol.
   components:
   - type: Action
     icon: Interface/Actions/rooting.png
@@ -455,8 +455,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionIntrinsicStore
-  name: Store
-  description: Opens the store
+  name: Boutique
+  description: Ouvre la boutique.
   components:
   - type: Action
     icon: Interface/Actions/shop.png
