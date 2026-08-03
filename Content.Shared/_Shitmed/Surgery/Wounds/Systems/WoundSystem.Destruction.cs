@@ -3,6 +3,7 @@ using Content.Shared._Shitmed.Medical.Surgery.Traumas.Components;
 using Content.Shared._Shitmed.Medical.Surgery.Wounds.Components;
 using Content.Shared._Shitmed.Targeting;
 using Content.Shared._Shitmed.Targeting.Events;
+using Content.Shared.Administration.Components;
 using Content.Shared.Body.Part;
 using Content.Shared.Humanoid;
 using Content.Shared.Inventory;
@@ -35,6 +36,10 @@ public sealed partial class WoundSystem
         else
         {
             var body = bodyPart.Body.Value;
+
+            if (TryComp<AdminOverrideComponent>(body, out var adminOverride) && !adminOverride.Dismemberable)
+                return;
+
             var key = bodyPart.ToHumanoidLayers();
             if (key == null)
                 return;
@@ -118,6 +123,9 @@ public sealed partial class WoundSystem
             || !woundableComp.CanRemove)
             return;
 
+        if (TryComp<AdminOverrideComponent>(body, out var adminOverride) && !adminOverride.Dismemberable)
+            return;
+
         _audio.PlayPvs(woundableComp.WoundableDelimbedSound, bodyPart.Body.Value);
 
         var ampEv = new BeforeAmputationDamageEvent();
@@ -181,6 +189,10 @@ public sealed partial class WoundSystem
             return;
 
         var body = bodyPart.Body.Value;
+
+        if (TryComp<AdminOverrideComponent>(body, out var adminOverride) && !adminOverride.Dismemberable)
+            return;
+
         var bodyPartId = container.ID;
         woundableComp.WoundableSeverity = WoundableSeverity.Severed;
 
