@@ -119,8 +119,7 @@
     interactSuccessSound:
       collection: FenceRattle
   - type: BlockWeather
-  - type: SoundBlocker
-    cost: 3
+  - type: SoundBlocker # Harvest, from Trauma
   - type: InteractionVerbs # EE: Interaction Verbs
     allowedVerbs:
     - KnockOn

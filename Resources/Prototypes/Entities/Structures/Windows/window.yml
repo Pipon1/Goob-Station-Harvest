@@ -20,8 +20,7 @@
         collection: GlassSmack
   - type: WallMount
     arc: 360 # interact despite grilles
-  - type: SoundBlocker
-    cost: 2
+  - type: SoundBlocker # Harvest, from Trauma
   - type: Tag
     tags:
       - ForceFixRotations
