@@ -21,3 +21,5 @@ cosmicability-monument-spawn-error-grid = Emplacement invalide ! Le Monument doi
 cosmicability-monument-spawn-error-station = Emplacement invalide ! Le Monument doit être invoqué sur la station.
 cosmicability-monument-spawn-error-intersection = Trop encombré ! Le Monument nécessite une zone 3x1 vide pour être invoqué.
 cosmicability-monument-spawn-error-space = Trop proche de l'espace ! Le Monument doit être à au moins {$DISTANCE}m.
+
+cosmicability-hibernate-confirm = CETTE ACTION VOUS MAINTIENDRA SUR PLACE ! Utilisez-la à nouveau pour confirmer.
