@@ -165,7 +165,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseSyndicateContraband]
   id: ClothingBackpackDuffelSyndicate
-  name: sac de sport du syndicat
+  name: sac de sport du Syndicat
   description: Un grand sac de sport pour transporter diverses marchandises de traître.
   components:
   - type: Sprite

@@ -146,7 +146,7 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHydroponics
-  name: sacoche d'hydroponique
+  name: sacoche de botaniste
   description: Une sacoche en fibres entièrement naturelles.
   components:
   - type: Sprite
@@ -172,8 +172,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseHighlyIllegalContraband]
   id: ClothingBackpackSatchelNinja
-  name: spider clan satchel
-  description: A robust satchel for stashing your loot.
+  name: sacoche du clan de l'araignée
+  description: Une sacoche robuste pour planquer votre butin.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/ninja.rsi
