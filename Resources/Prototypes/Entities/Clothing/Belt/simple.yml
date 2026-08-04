@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltChampion
-  name: championship belt
-  description: Proves to the world that you are the strongest!
+  name: ceinture de champion
+  description: Prouve au monde entier que vous êtes le plus fort !
   components:
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltSuspendersRed
-  name: red suspenders
-  description: For holding your pants up.
+  name: bretelles rouges
+  description: Pour tenir votre pantalon.
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_red.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingBeltSuspendersRed
   id: ClothingBeltSuspendersBlack
-  name: black suspenders
+  name: bretelles noires
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_black.rsi

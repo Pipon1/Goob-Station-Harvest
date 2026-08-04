@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltQuiver
-  name: quiver
-  description: Can hold up to 15 arrows, and fits snug around your waist.
+  name: carquois
+  description: Peut contenir jusqu'à 15 flèches, et s'accroche bien autour de votre taille.
   components:
   - type: Sprite
     sprite: Clothing/Belt/quiver.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltHolster
-  name: shoulder holster
-  description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
+  name: étui d'épaule
+  description: "Un étui pour porter un pistolet et des munitions. AVERTISSEMENT : Réservé aux durs à cuire."
   components:
   - type: Sprite
     sprite: Clothing/Belt/holster.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: [ClothingBeltHolster, BaseSyndicateContraband] # Goob - inherit from regular holster
   id: ClothingBeltSyndieHolster
-  name: syndicate shoulder holster
-  description: A deep shoulder holster capable of holding many types of ballistics.
+  name: étui d'épaule du Syndicat
+  description: Un étui d'épaule profond capable de contenir de nombreux types de munitions.
   components:
   - type: Sprite
     sprite: Clothing/Belt/syndieholster.rsi
