@@ -2,9 +2,9 @@
 
 - type: entity
   id: LockerSyndicatePersonalFilled
-  suffix: Nukie, Filled
+  suffix: Nukie, Rempli
   parent: LockerSyndicatePersonal
-  description: It's a personal storage unit for operative gear.
+  description: C'est une unité de stockage personnel pour les opératifs du Syndicat.
   components:
   - type: AccessReader
     access: [["NuclearOperative"]]
@@ -22,9 +22,9 @@
 
 - type: entity
   id: LockerSyndicateWallFilled
-  suffix: Nukie, Filled
+  suffix: Nukie, Rempli
   parent: LockerWallSyndicate
-  description: It's a personal storage unit for operative gear.
+  description: C'est une unité de stockage personnel pour les opératifs du Syndicat.
   components:
   - type: AccessReader
     access: [["NuclearOperative"]]
