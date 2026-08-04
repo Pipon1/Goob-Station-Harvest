@@ -378,3 +378,9 @@
   background: /Textures/LobbyScreens/etzilshungry.webp
   name: Etzil's Hungry
   artist: IdiotVibes
+
+- type: lobbyBackground
+  id: ss13-warden
+  background: /Textures/LobbyScreens/ss13-warden.webp
+  name: SS13 Warden
+  artist: PoPPo
