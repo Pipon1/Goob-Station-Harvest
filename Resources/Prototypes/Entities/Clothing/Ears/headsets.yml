@@ -40,7 +40,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetGrey
-  name: oreillette de passager
+  name: oreillette d'assistant
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/base.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetMining
-  name: oreillette des mines
+  name: oreillette de mineur
   description: Une oreillette utilisée par les mineurs.
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   parent: [ClothingHeadsetCargo, BaseCommandContraband]
   id: ClothingHeadsetQM
-  name: oreillette du QM
+  name: oreillette du quartier-maître
   description: Une oreillette utilisée par le quartier-maître.
   components:
   - type: ContainerFill
@@ -164,7 +164,7 @@
 - type: entity
   parent: [ClothingHeadsetMedical, BaseCommandContraband]
   id: ClothingHeadsetCMO
-  name: oreillette du CMO
+  name: oreillette du médecin-chef
   description: Une oreillette utilisée par le médecin-chef.
   components:
   - type: ContainerFill
@@ -225,7 +225,7 @@
 - type: entity
   parent: [ClothingHeadsetScience, BaseCommandContraband]
   id: ClothingHeadsetRD
-  name: oreillette du DR
+  name: oreillette du directeur de recherche
   description: Lamarr adorait mâchouiller ça...
   components:
   - type: ContainerFill
@@ -287,8 +287,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetFreelance
-  name: oreillette de freelance
-  description: Utilisée par un groupe de freelances itinérants.
+  name: oreillette de freelanceur
+  description: Utilisée par un groupe de freelanceurs itinérants.
   components:
     - type: ContainerFill
       containers:
@@ -317,8 +317,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseMajorContraband]
   id: ClothingHeadsetNinja
-  name: green headset
-  description: Who could refuse to wear this stylish black and green headset?
+  name: oreillette verte
+  description: Qui pourrait refuser de porter ce casque audio élégant noir et vert ?
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/ninja.rsi

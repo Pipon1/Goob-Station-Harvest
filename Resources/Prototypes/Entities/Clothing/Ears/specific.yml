@@ -3,7 +3,7 @@
 - type: entity
   parent: [ClothingHeadsetGrey, BaseChameleon]
   id: ClothingHeadsetChameleon
-  name: oreillette de passager
+  name: oreillette d'assistant
   description: Un interphone modulaire mis à jour qui s'adapte autour de la tête. Accepte des clés de chiffrement.
   suffix: Chameleon
   components:
