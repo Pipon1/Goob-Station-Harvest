@@ -38,7 +38,7 @@
 - type: entity
   id: PaperWrittenCombatBakeryKit
   name: "instructions du kit de boulangerie de combat"
-  description: "Manger la note après lecture."
+  description: "Mangez la note après lecture."
   parent: Paper
   components:
   - type: Paper
