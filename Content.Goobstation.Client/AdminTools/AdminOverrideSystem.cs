@@ -1,4 +1,3 @@
-using System.Numerics;
 using Content.Shared.Administration.Components;
 using Robust.Client.GameObjects;
 using Robust.Shared.Utility;
@@ -35,11 +34,6 @@ public sealed class AdminOverrideSystem : EntitySystem
         if (!string.IsNullOrEmpty(component.RSIPath))
         {
             _sprite.LayerSetRsi((uid, sprite), 0, new ResPath(component.RSIPath), component.RSIState);
-        }
-
-        if (component.SpriteScale != Vector2.Zero)
-        {
-            _sprite.SetScale((uid, sprite), component.SpriteScale);
         }
     }
 }

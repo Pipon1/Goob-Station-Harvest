@@ -26,12 +26,6 @@ public sealed partial class AdminOverrideComponent : Component
     public string RSIState = string.Empty;
 
     /// <summary>
-    /// Sprite scale override. Vector2.Zero = no override.
-    /// </summary>
-    [DataField, AutoNetworkedField, ViewVariables(VVAccess.ReadWrite)]
-    public Vector2 SpriteScale = Vector2.Zero;
-
-    /// <summary>
     /// Entity scale override applied via ScaleVisuals. Vector2.Zero = no override.
     /// </summary>
     [DataField, AutoNetworkedField, ViewVariables(VVAccess.ReadWrite)]

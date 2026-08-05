@@ -21,10 +21,4 @@ public sealed partial class SpriteOverrideComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public string? RSIState;
-
-    /// <summary>
-    /// Optional scale override applied alongside the sprite change.
-    /// </summary>
-    [DataField, AutoNetworkedField]
-    public Vector2? Scale;
 }

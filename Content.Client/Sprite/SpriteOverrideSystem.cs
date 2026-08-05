@@ -35,10 +35,5 @@ public sealed class SpriteOverrideSystem : EntitySystem
         {
             _sprite.LayerSetRsi((uid, sprite), 0, new ResPath(component.RSIPath), component.RSIState);
         }
-
-        if (component.Scale != null)
-        {
-            _sprite.SetScale((uid, sprite), component.Scale.Value);
-        }
     }
 }
