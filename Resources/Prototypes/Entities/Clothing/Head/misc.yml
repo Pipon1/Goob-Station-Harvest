@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBunny
-  name: bunny ears
-  description: Cute bunny ears.
+  name: oreilles de lapin
+  description: De mignonnes oreilles de lapin.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCake
-  name: cake hat
-  description: You put the cake on your head. Brilliant.
+  name: chapeau gâteau
+  description: Vous avez mis le gâteau sur votre tête. Génial.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChickenhead
-  name: chicken head
-  description: "It's a chicken head. Bok bok bok!"
+  name: tête de poule
+  description: "C'est une tête de poule. Bok bok bok !"
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/chickenhead.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlowerWreath
-  name: flower wreath
-  description: A wreath of colourful flowers. Can be worn both on head and neck.
+  name: couronne de fleurs
+  description: Une couronne de fleurs colorées. Peut être portée à la fois sur la tête et le cou.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/flower-wreath.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingHeadLightBase
   id: ClothingHeadHatPumpkin
-  name: pumpkin hat
-  description: A jack o' lantern! Believed to ward off evil spirits.
+  name: chapeau citrouille
+  description: Une citrouille évidée ! On dit qu'elle éloigne les esprits malveillants.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pumpkin.rsi
@@ -92,7 +92,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
   name: pwig
-  description: To be honest, those look ridiculous.
+  description: Pour être honnête, ça a l'air ridicule.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadMirror
-  name: head mirror
-  description: I doubt even the CMO knows how to use this thing.
+  name: miroir frontal
+  description: Je doute que même le directeur médical sache comment utiliser ce truc.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/head_mirror.rsi
@@ -117,7 +117,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatRichard
   name: richard
-  description: 'Do you like hurting people?'
+  description: "\"Do you like hurting other people ?\""
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/richard.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSkub
-  name: skub hat
-  description: 'Best paired with the Skub Suit.'
+  name: chapeau skub
+  description: 'Mieux assorti avec la combinaison Skub.'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/skubhead.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatShrineMaidenWig
-  name: shrine maiden's wig
-  description: The tag reads "All proceeds go to the Hakurei Shrine."
+  name: perruque de jeune fille du sanctuaire
+  description: L'étiquette indique « Tous les bénéfices vont au Sanctuaire Hakurei. »
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCone
-  name: warning cone
-  description: This cone is trying to warn you of something!
+  name: cône d'avertissement
+  description: Ce cône essaie de vous avertir de quelque chose !
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cone.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFancyCrown
-  name: fancy crown
-  description: It smells like dead rat. Lets you speak like one!
+  name: couronne élégante
+  description: Ça sent comme un vieux rat mort. Vous permet de parler comme l'un !
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/fancycrown.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadHatCatEars
-  name: cat ears
-  description: "NYAH!"
+  name: oreilles de chat
+  description: "NYAH !"
   categories: [ DoNotMap ]
   components:
   - type: Tag
@@ -250,14 +250,14 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionBecomeValid
-  name: Become Valid
-  description: "*notices your killsign* owo whats this"
+  name: Devenir Valid
+  description: "*remarque ton killsign* owo whats this"
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatDogEars
-  name: doggy ears
-  description: Only for good boys.
+  name: oreilles de chien
+  description: Seulement pour les bons toutous.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -271,7 +271,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatSquid
   name: squiddy
-  description: "Scare your friends with this eldritch mask."
+  description: "Effrayez vos amis avec ce masque eldritch."
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/squiddy.rsi
@@ -289,8 +289,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRedRacoon
-  name: red racoon hat
-  description: Fluffy hat of red racoon!
+  name: chapeau de raton laveur rouge
+  description: Chapeau moelleux de raton laveur rouge !
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/red_racoon.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: Clothing
   id: WaterDropletHat
-  name: water droplet
-  description: Makes 8-eyed friends 8 times more adorable!
+  name: goutte d'eau
+  description: Rend les amis à 8 yeux 8 fois plus adorables !
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/waterdroplet.rsi
@@ -366,8 +366,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHairflower
-  name: hairflower
-  description: A beautiful hairflower that can be inserted between locks of hair.
+  name: fleur de cheveux
+  description: Une belle fleur de cheveux qui peut être insérée entre les mèches de cheveux.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/hairflower.rsi
@@ -377,8 +377,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPerformerWig
-  name: performer's wig
-  description: On a closer inspection, it appears that it is made from optic fiber.
+  name: perruque de performeur
+  description: En y regardant de plus près, il semble qu'elle soit faite de fibres optiques.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/performer-wig.rsi

@@ -2,10 +2,10 @@
 # Listed from first step of crafting to the final helmet
 
 - type: entity
-  name: wired bucket
+  name: seau câblé
   parent: BaseItem
   id: WiredBucketBase
-  description: A bucket with attached wiring to better serve as a chinstrap.
+  description: Un seau avec câblage attaché pour mieux servir de jugulaire.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/scrap_helmet.rsi
@@ -35,10 +35,10 @@
         Blunt: 0.95
 
 - type: entity
-  name: sliced bucket
+  name: seau coupé
   parent: BaseItem
   id: SlicedBucketBase
-  description: A bucket with a vision slit cut into the side.
+  description: Un seau avec une fente de vision découpée sur le côté.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/scrap_helmet.rsi
@@ -69,10 +69,10 @@
 
 
 - type: entity
-  name: steel bucket
+  name: seau en acier
   parent: BaseItem
   id: SteelBucketBase
-  description: A bucket that's had steel welded onto it's exterior. It requires better shaping before it can be worn comfortably.
+  description: Un seau auquel de l'acier a été soudé à l'extérieur. Il nécessite une meilleure forme avant de pouvoir être porté confortablement.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/scrap_helmet.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMajorContraband]
   id: ClothingHeadHelmetScrap #When we get the tech for it this bad boy needs to be given a vision reduction when equipped. 1-2 tiles less than normal should be good.
-  name: scrap helmet
-  description: A cobbled-together helmet made from cabling, steel, and a bucket.
+  name: casque de ferraille
+  description: Un casque assemblé à partir de câbles, d'acier et d'un seau.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/scrap_helmet.rsi

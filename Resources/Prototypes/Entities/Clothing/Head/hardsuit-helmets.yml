@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitAtmos
-  name: atmospherics hardsuit helmet # Goob edit
-  description: A special hardsuit helmet designed for working in low-pressure and high-temperature environments. # Goob edit
+  name: casque de combinaison spatiale d'atmosphérique # Goob edit
+  description: Un casque de combinaison spatiale spécial conçu pour travailler dans des environnements à basse pression et haute température. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/atmospherics.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineering
-  name: engineering hardsuit helmet # Goob edit
-  description: An engineering hardsuit helmet designed for working in low-pressure, highly radioactive environments. # Goob edit
+  name: casque de combinaison spatiale d'ingénierie # Goob edit
+  description: Un casque de combinaison spatiale d'ingénierie conçu pour travailler dans des environnements à basse pression et hautement radioactifs. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase # Goobstation?
   id: ClothingHeadHelmetHardsuitSpatio
-  name: spationaut hardsuit helmet # Goob edit
-  description: A sturdy helmet designed for complex industrial operations in space. # Goob edit
+  name: casque de combinaison spatiale de spationaute # Goob edit
+  description: Un casque robuste conçu pour les opérations industrielles complexes dans l'espace. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase # Goobstation?
   id: ClothingHeadHelmetHardsuitSalvage
-  name: salvage hardsuit helmet # Goob edit
-  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights. # Goob edit
+  name: casque de combinaison spatiale de récupération # Goob edit
+  description: Un casque spécial conçu pour travailler dans un environnement à basse pression et dangereux. Dispose d'un blindage renforcé pour les rencontres avec la faune et de doubles projecteurs d'inondation. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/salvage.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase # Goobstation?
   id: ClothingHeadHelmetHardsuitGoliath
-  name: goliath hardsuit helmet # Goob edit
-  description: A sturdy hardsuit helmet, infused with a goliath's hide and an eerie, unblinking eye cut from its mass. # Goob edit
+  name: casque de combinaison spatiale goliath # Goob edit
+  description: Un casque de combinaison spatiale robuste, imprégné de la peau d'un goliath et d'un œil étrange et fixe découpé dans sa masse. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/goliathhelm.rsi
@@ -274,8 +274,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   categories: [ HideSpawnMenu ]
-  name: salvager maxim helmet
-  description: A predication of decay washes over your mind.
+  name: casque maxime de récupérateur
+  description: Un pressentiment de décomposition envahit votre esprit. # Trad FR: pas sûr de la trad, mais j'ai pas d'inspi. c'était : A predication of decay washes over your mind.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/maxim.rsi
@@ -304,8 +304,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurity
-  name: security hardsuit helmet
-  description: Armored hardsuit helmet for security needs.
+  name: casque de combinaison spatiale de sécurité
+  description: Casque de combinaison spatiale blindé pour les besoins de la sécurité.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security.rsi
@@ -343,8 +343,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBrigmedic
-  name: brigmedic hardsuit helmet # Goob edit
-  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  name: casque de combinaison spatiale de médecin du brig # Goob edit
+  description: Le casque léger de la combinaison spatiale de médecin du brig. Protège contre les virus et les clowns.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/brigmedic.rsi
@@ -373,8 +373,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
-  name: warden's hardsuit helmet # Goob edit
-  description: A modified riot helmet. Oddly comfortable.
+  name: casque de combinaison spatiale du gardien # Goob edit
+  description: Un casque anti-émeute modifié. Étrangement confortable.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-warden.rsi
@@ -408,8 +408,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCap
-  name: captain's spacesuit helmet # Goob edit
-  description: Special spacesuit helmet, made for the captain of the station. # Goob edit
+  name: casque de combinaison spatiale du capitaine # Goob edit
+  description: Casque de combinaison spatiale spécial, conçu pour le capitaine de la station. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/capspace.rsi
@@ -446,8 +446,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  name: chief engineer's hardsuit helmet # Goob edit
-  description: Special hardsuit helmet, made for the chief engineer of the station. # Goob edit
+  name: casque de combinaison spatiale du chef ingénieur # Goob edit
+  description: Casque de combinaison spatiale spécial, conçu pour le chef ingénieur de la station. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
@@ -481,8 +481,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  name: chief medical officer's hardsuit helmet # Goob edit
-  description: Lightweight medical hardsuit helmet that doesn't restrict your head movements. # Goob edit
+  name: casque de combinaison spatiale du directeur médical # Goob edit
+  description: Casque de combinaison spatiale médicale léger qui ne restreint pas vos mouvements de tête. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/medical.rsi
@@ -506,8 +506,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitRd
-  name: experimental research hardsuit helmet # Goob edit
-  description: Lightweight hardsuit helmet that doesn't restrict your head movements. # Goob edit
+  name: casque de combinaison spatiale de recherche expérimentale # Goob edit
+  description: Casque de combinaison spatiale léger qui ne restreint pas vos mouvements de tête. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/rd.rsi
@@ -540,8 +540,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: head of security's hardsuit helmet # Goob edit
-  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS. # Goob edit
+  name: casque de combinaison spatiale du chef de la sécurité # Goob edit
+  description: Casque de combinaison spatiale de sécurité avec le dernier logiciel HUD secret de NT. Appartient au chef de la sécurité. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-red.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit helmet # Goob edit
-  description: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra. # Goob edit
+  name: casque de combinaison spatiale minière de luxe # Goob edit
+  description: Un casque de combinaison spatiale minière remis à neuf, équipé de rembourrage en satin et d'une antenne supplémentaire (non fonctionnelle), parce que vous êtes comme ça. # Goob edit
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -604,8 +604,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndie
-  name: blood-red hardsuit helmet # Goob edit
-  description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+  name: casque de combinaison spatiale rouge sang # Goob edit
+  description: Un casque lourdement blindé conçu pour les opérations spéciales. Propriété des Maraudeurs Gorlex.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
@@ -644,8 +644,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie # Goob
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  name: blood-red medic hardsuit helmet # Goob edit
-  description: An advanced red hardsuit helmet specifically designed for field medic operations. # Goob edit
+  name: casque de combinaison spatiale médicale rouge sang # Goob edit
+  description: Un casque de combinaison spatiale rouge avancé spécifiquement conçu pour les opérations de médicin de terrain. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
@@ -656,8 +656,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: syndicate elite hardsuit helmet # Goob edit
-  description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders. # Goob edit
+  name: casque de combinaison spatiale élite Syndicat # Goob edit
+  description: Une version élite du casque de la combinaison spatiale rouge sang, avec une armure améliorée et une ignifugation. Propriété des Maraudeurs Gorlex. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
@@ -701,8 +701,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: syndicate hardsuit helmet # Goob edit
-  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights. # Goob edit
+  name: casque de combinaison spatiale du Syndicat # Goob edit
+  description: Une version renforcée du casque de la combinaison spatiale rouge sang, conçue spécialement pour le commandant d'une équipe d'opérateurs du Syndicat. Dispose d'une armure considérablement améliorée pour les combats meurtriers en première ligne. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
@@ -741,8 +741,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  name: cybersun juggernaut helmet
-  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  name: casque juggernaut Cybersun
+  description: Fabriqué à partir de matière rouge comprimée, ce casque a été conçu dans l'installation de la chromosphère de Tau.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cybersun.rsi
@@ -779,8 +779,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitWithLightBase, ClothingHeadHatWizardBaseArmor] # Goob edit
   id: ClothingHeadHelmetHardsuitWizard
-  name: wizard hardsuit helmet # Goob edit
-  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  name: casque de combinaison spatiale de sorcier # Goob edit
+  description: Un casque bizarre incrusté de pierres précieuses qui rayonne des énergies magiques.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/wizard.rsi
@@ -822,8 +822,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitLing
-  name: organic space helmet
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: casque spatial organique
+  description: Une biomasse spatialisée de tissu résistant à la pression et à la température.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
@@ -841,9 +841,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateEVA
-  name: deep space EVA helmet
+  name: casque EVA espace profond
   suffix: Pirate
-  description: A deep space EVA helmet, very heavy but provides good protection.
+  description: Un casque EVA d'espace profond, très lourd mais offre une bonne protection.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/pirateeva.rsi
@@ -865,9 +865,9 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitPirateCap
-  name: pirate captain's hardsuit helmet # Goob edit
+  name: casque de combinaison spatiale du capitaine pirate # Goob edit
   suffix: Pirate
-  description: A special hardsuit helmet, made for the captain of a pirate ship. # Goob edit
+  description: Un casque de combinaison spatiale spécial, conçu pour le capitaine d'un navire pirate. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
@@ -921,8 +921,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieCommander ]
   id: ClothingHeadHelmetHardsuitERTLeader
-  name: ERT leader hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale du chef d'équipe ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
@@ -935,8 +935,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTChaplain
-  name: ERT chaplain hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale du chapelain ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
@@ -949,8 +949,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTEngineer
-  name: ERT engineer hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale de l'ingénieur ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
@@ -964,8 +964,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieElite ]
   id: ClothingHeadHelmetHardsuitERTMedical
-  name: ERT medic hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale du médecin ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
@@ -978,8 +978,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTSecurity
-  name: ERT security hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale de sécurité ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
@@ -992,8 +992,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTJanitor
-  name: ERT janitor hardsuit helmet # Goob edit
-  description: A special hardsuit helmet worn by members of an emergency response team. # Goob edit
+  name: casque de combinaison spatiale du concierge ERT # Goob edit
+  description: Un casque de combinaison spatiale spécial porté par les membres d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
@@ -1006,8 +1006,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetCBURN
-  name: CBURN exosuit helmet
-  description: A pressure resistant and fireproof hood worn by special cleanup units.
+  name: casque de combinaison CBURN
+  description: Une capuche résistante à la pression et ignifuge portée par les unités de nettoyage spéciales.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cburn.rsi
@@ -1061,8 +1061,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet # Goob edit
-  description: A robust helmet for special operations.
+  name: casque de combinaison spatiale de l'Escadron de la mort # Goob edit
+  description: Un casque robuste pour les opérations spéciales.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1116,8 +1116,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitClown
-  name: clown hardsuit helmet # Goob edit
-  description: A clown hardsuit helmet. # Goob edit
+  name: casque de combinaison spatiale de clown # Goob edit
+  description: Un casque de combinaison spatiale de clown. # Goob edit
   components:
   - type: BreathMask
   - type: Sprite
@@ -1144,8 +1144,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitMime
-  name: mime hardsuit helmet # Goob edit
-  description: A mime hardsuit helmet. # Goob edit
+  name: casque de combinaison spatiale de mime # Goob edit
+  description: Un casque de combinaison spatiale de mime. # Goob edit
   components:
   - type: BreathMask
   - type: Sprite
@@ -1170,8 +1170,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSanta
-  name: Santa's hardsuit helmet # Goob edit
-  description: A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments. # Goob edit
+  name: casque de combinaison spatiale du Père Noël # Goob edit
+  description: Un casque de combinaison spatiale à l'aspect festif qui protège le joyeux donateur de cadeaux des environnements à basse pression. # Goob edit
   components:
   - type: BreathMask
   - type: Sprite
