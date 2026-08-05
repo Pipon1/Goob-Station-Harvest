@@ -102,8 +102,8 @@
 - type: entity
   abstract: true
   id: SilverRingBase
-  name: silver ring
-  description: Looks slightly less valuable than a gold one.
+  name: bague en argent
+  description: Semble légèrement moins précieux qu'un en or.
   components:
     - type: PhysicalComposition
       materialComposition:
