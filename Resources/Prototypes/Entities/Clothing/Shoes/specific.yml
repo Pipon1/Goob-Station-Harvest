@@ -150,7 +150,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSwat
-  name: chaussures de CRS
+  name: chaussures du GIGN
   description: Quand vous voulez monter d'un cran.
   components:
   - type: Sprite

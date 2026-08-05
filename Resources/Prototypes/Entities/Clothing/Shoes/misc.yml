@@ -110,7 +110,7 @@
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesDameDane
   name: Chaussures de yakuza
-  description: At last...
+  description: "\"At last...\""
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
