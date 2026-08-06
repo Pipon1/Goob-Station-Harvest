@@ -41,13 +41,13 @@ marking-ProstheticShoulderR-prostheticshoulderright = Prothèse (épaule droite)
 marking-TattooAnchor = Tatouage (ancre)
 marking-TattooAnchor-anchor = Tatouage
 
-marking-TattooCode1 = Tatouage (QR petit dos)
+marking-TattooCode1 = Tatouage (petit QR dos)
 marking-TattooCode1-code1 = Tatouage
 
 marking-TattooCode2 = Tatouage (code-barres dos)
 marking-TattooCode2-code2 = Tatouage
 
-marking-TattooCode3 = Tatouage (QR grand dos)
+marking-TattooCode3 = Tatouage (grand QR dos)
 marking-TattooCode3-code3 = Tatouage
 
 marking-TattooDragon = Tatouage (dragon)

@@ -17,6 +17,8 @@ job-description-outercommander = Un observateur externe qui audite le Commandeme
 # Generic Nanotrasen
 
 job-description-nct = Apprenez aux nouveaux à accomplir correctement leurs tâches assignées par l'entreprise, et restez hors des ennuis.
+job-description-ntr = Représenter NT, envoyer des rapports sur la situation de la station, informer les chefs de tout ce que CentComm leur ordonne de faire.
+job-description-bs = Agir comme garde du corps et conseiller pour le Commandement et les VIPs de CentComm.
 
 # Syndicate
 

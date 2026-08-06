@@ -9,8 +9,8 @@
 
 job-name-futureagent = Agent futur
 job-name-salvagediver = Plongeur de récupération
-job-name-ntr = Représentant Nanotrasen
-job-name-bs = Bouclier bleu
+job-name-ntr = Représentant NanoTrasen
+job-name-bs = Agent Blueshield
 job-name-overall = Général
 job-name-tider = Fauteur de trouble
 
@@ -23,7 +23,7 @@ job-name-navy-officer-undercover = Officier de marine en couverture
 job-name-navy-captain = Capitaine de marine
 job-name-diplomat = Diplomate
 job-name-inspector = Auditeur du Commandement Central
-job-name-nct = Formateur de carrière Nanotrasen
+job-name-nct = Formateur de carrière NanoTrasen
 job-name-outercommander = Commandant extérieur
 
 # Syndicate

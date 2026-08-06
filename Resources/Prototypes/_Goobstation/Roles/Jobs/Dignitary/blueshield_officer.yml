@@ -2,8 +2,8 @@
 
 - type: job
   id: BlueshieldOfficer
-  name: Officier Bouclier Bleu
-  description: "Agir comme garde du corps et conseiller pour le Commandement et les VIPs de CentComm."
+  name: job-name-bs
+  description: job-description-bs
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:DepartmentTimeRequirement
