@@ -27,9 +27,9 @@
 - type: entity
   parent: BaseFoodCondiment
   id: BaseFoodCondimentPacket
-  name: condiment packet
+  name: paquet de condiments
   abstract: true
-  description: A small plastic pack with condiments to put on your food.
+  description: Un petit paquet en plastique contenant des condiments à mettre sur votre nourriture.
   components:
   - type: Item
     size: Tiny
@@ -90,7 +90,7 @@
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketAstrotame
   name: Astrotame
-  description: The sweetness of a thousand sugars but none of the calories.
+  description: La douceur de mille sucres mais aucune des calories.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketBbq
-  name: BBQ sauce
-  description: Hand wipes not included.
+  name: sauce barbecue
+  description: Les lingettes ne sont pas incluses.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -137,8 +137,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketCornoil
-  name: corn oil
-  description: Corn oil. A delicious oil used in cooking. Made from corn.
+  name: huile de maïs
+  description: Huile de maïs. Une huile délicieuse utilisée en cuisine. Faite à partir de maïs.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketColdsauce
-  name: coldsauce
-  description: Coldsauce. Leaves the tongue numb in its passage.
+  name: sauce froide
+  description: Coldsauce. Laisse la langue engourdie lors de son passage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketHorseradish
-  name: horseradish sauce
-  description: A packet of smelly horseradish sauce.
+  name: sauce au raifort
+  description: Un paquet de sauce au raifort malodorante.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -197,8 +197,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketHotsauce
-  name: hotsauce
-  description: You can almost TASTE the stomach ulcers now!
+  name: sauce piquante
+  description: Vous pouvez presque GOÛTER les ulcères d'estomac maintenant !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -218,7 +218,7 @@
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketKetchup
   name: ketchup
-  description: You feel more American already.
+  description: Vous vous sentez déjà plus américain.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -237,8 +237,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketMustard
-  name: mustard
-  description: A condiment made from the ground-up seeds of the Mustard plant.
+  name: moutarde
+  description: Un condiment fabriqué à partir des moulues de la plante de moutarde.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -256,8 +256,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketPepper
-  name: black pepper
-  description: Often used to flavor food or make people sneeze.
+  name: poivre noir
+  description: Souvent utilisé pour aromatiser la nourriture ou faire éternuer les gens.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -275,8 +275,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSalt
-  name: salt
-  description: Salt. From space oceans, presumably.
+  name: sel
+  description: Sel. provenant des océans de l'espace, probablement.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -313,8 +313,8 @@
 - type: entity
   parent: BaseFoodCondimentPacketDrink
   id: FoodCondimentPacketSoy
-  name: soy sauce
-  description: A salty soy-based flavoring.
+  name: sauce soja
+  description: Un arôme salé à base de soja.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -332,8 +332,8 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketSugar
-  name: sugar
-  description: Tasty spacey sugar!
+  name: sucre
+  description: Du sucre spatial délicieux !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -354,8 +354,8 @@
   parent: BaseFoodCondiment
   id: BaseFoodCondimentBottle
   abstract: true
-  name: condiment bottle
-  description: A thin glass bottle used to store condiments.
+  name: bouteille de condiments
+  description: Une fine bouteille en verre utilisée pour stocker des condiments.
   components:
   - type: Edible
     edible: Drink
@@ -397,8 +397,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleColdsauce
-  name: coldsauce bottle
-  description: Leaves the tongue numb in its passage.
+  name: bouteille de sauce froide
+  description: Laisse la langue engourdie lors de son passage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -418,13 +418,13 @@
     state: bottle-coldsauce
   - type: Tag
     tags:
-      - Coldsauce
+    - Coldsauce
 
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleEnzyme
-  name: universal enzyme
-  description: Used in cooking various dishes.
+  name: enzyme universelle
+  description: Utilisée dans la cuisine de divers plats.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -444,13 +444,13 @@
     state: bottle-enzyme
   - type: Tag
     tags:
-      - Enzyme
+    - Enzyme
 
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleVinegar
-  name: vinegar bottle
-  description: Used in cooking to enhance flavor.
+  name: bouteille de vinaigre
+  description: Utilisée en cuisine pour améliorer le goût.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -472,8 +472,8 @@
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleHotsauce
-  name: hotsauce bottle
-  description: You can almost TASTE the stomach ulcers now!
+  name: bouteille de sauce piquante
+  description: Vous pouvez presque GOÛTER les ulcères d'estomac maintenant !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -493,13 +493,13 @@
     state: bottle-hotsauce
   - type: Tag
     tags:
-      - Hotsauce
+    - Hotsauce
 
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleKetchup
-  name: ketchup bottle
-  description: You feel more American already.
+  name: bouteille de ketchup
+  description: Vous vous sentez déjà plus américain.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -519,13 +519,13 @@
     state: bottle-ketchup
   - type: Tag
     tags:
-      - Ketchup
+    - Ketchup
 
 - type: entity
   parent: BaseFoodCondimentBottle
   id: FoodCondimentBottleBBQ
-  name: BBQ sauce bottle
-  description: Hand wipes not included.
+  name: bouteille de sauce barbecue
+  description: Les lingettes ne sont pas incluses.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -546,7 +546,7 @@
     state: bottle-ketchup
   - type: Tag
     tags:
-      - BBQsauce
+    - BBQsauce
 
 # Shakers
 
@@ -554,8 +554,8 @@
   parent: BaseFoodCondiment # TODO: This should not inherit TrashOnSolutionEmpty, SpaceGarbage and the price of 0
   id: BaseFoodShaker
   abstract: true
-  name: empty shaker
-  description: A shaker used to store and dispense spices.
+  name: shaker vide
+  description: Un shaker utilisé pour stocker et distribuer des épices.
   components:
   - type: Item
     size: Tiny
@@ -598,8 +598,8 @@
 - type: entity
   parent: FoodShakerSaltEmpty #Goobstation - shaker making
   id: FoodShakerSalt
-  name: salt shaker
-  description: Salt. From space oceans, presumably.
+  name: salière
+  description: Sel. provenant des océans de l'espace, probablement.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -611,8 +611,8 @@
 - type: entity
   parent: FoodShakerPepperEmpty #Goobstation - shaker making
   id: FoodShakerPepper
-  name: pepper shaker
-  description: Often used to flavor food or make people sneeze.
+  name: poivrière
+  description: Souvent utilisé pour aromatiser la nourriture ou faire éternuer les gens.
   components:
   - type: SolutionContainerManager
     solutions:

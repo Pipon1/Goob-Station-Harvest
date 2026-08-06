@@ -7,8 +7,8 @@
   abstract: true
   parent: [FoodBase, FoodOpenableBase]
   id: FoodTinBase
-  name: tin
-  description: A tin of something, sealed tight.
+  name: boîte de conserve
+  description: Une boîte de quelque chose, scellée hermétiquement.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -61,8 +61,8 @@
   abstract: true
   parent: BaseItem
   id: FoodTinBaseTrash
-  name: empty tin
-  description: An empty tin. Could get a bit of metal from this.
+  name: boîte de conserve vide
+  description: Une boîte de conserve vide. On pourrait en récupérer un peu de métal.
   components:
   - type: Sprite
     state: trash
@@ -84,8 +84,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinPeaches
-  name: tinned peaches
-  description: Just a nice can of ripe peaches swimming in their own juices.
+  name: pêches en boîte
+  description: Juste une bonne boîte de pêches mûres nageant dans leur propre jus.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -105,7 +105,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesTrash
-  name: tinned peaches
+  name: pêches en boîte
   components:
   - type: Item
     storedOffset: 0,-3
@@ -116,7 +116,7 @@
 - type: entity
   parent: FoodTinPeaches
   id: FoodTinPeachesMaint
-  name: maintenance peaches
+  name: pêches de maintenance
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinPeachesMaintTrash
-  name: maintenance peaches
+  name: pêches de maintenance
   components:
   - type: Item
     storedOffset: 0,-3
@@ -150,8 +150,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinBeans
-  name: tin of beans
-  description: Musical fruit in a slightly less musical container.
+  name: boîte de haricots
+  description: Fruit musical dans un contenant légèrement moins musical.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -169,7 +169,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinBeansTrash
-  name: tin of beans
+  name: boîte de haricots
   components:
   - type: Item
     storedOffset: 0,-3
@@ -181,8 +181,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodTinMRE
-  name: tinned meat
-  description: A standard issue tin of meat with a convenient pull tab.
+  name: viande en boîte
+  description: Une boîte standard de viande avec une languette pratique à tirer.
   components:
   - type: Item
     size: Tiny
@@ -209,7 +209,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinMRETrash
-  name: tinned meat
+  name: viande en boîte
   components:
   - type: Item
     size: Tiny
