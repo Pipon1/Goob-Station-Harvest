@@ -32,7 +32,7 @@
   name: donk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocket
-  description: The food of choice for the seasoned traitor.
+  description: Le choix alimentaire du traître aguerri.
   components:
   - type: FlavorProfile
     flavors:
@@ -43,10 +43,10 @@
     state: plain
 
 - type: entity
-  name: warm donk-pocket
+  name: donk-pocket chaud
   parent: FoodDonkpocket
   id: FoodDonkpocketWarm
-  description: The heated food of choice for the seasoned traitor.
+  description: Le choix alimentaire chauffé du traître aguerri.
   components:
   - type: FlavorProfile
     flavors:
@@ -67,7 +67,7 @@
   name: dank-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDank
-  description: The food of choice for the seasoned botanist.
+  description: Le choix alimentaire du botaniste aguerri.
   components:
   - type: FlavorProfile
     flavors:
@@ -83,10 +83,10 @@
     state: dank
 
 - type: entity
-  name: warm dank-pocket
+  name: dank-pocket chaud
   parent: FoodDonkpocketDank
   id: FoodDonkpocketDankWarm
-  description: The heated food of choice for the seasoned botanist.
+  description: Le choix alimentaire chauffé du botaniste aguerri.
   components:
   - type: FlavorProfile
     flavors:
@@ -105,7 +105,7 @@
   name: spicy-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketSpicy
-  description: The classic snack food, now with a heat-activated spicy flair.
+  description: La collation classique, maintenant avec une touche épicée activée par la chaleur.
   components:
   - type: FlavorProfile
     flavors:
@@ -116,10 +116,10 @@
     state: plain
 
 - type: entity
-  name: warm spicy-pocket
+  name: spicy-pocket chaud
   parent: FoodDonkpocketSpicy
   id: FoodDonkpocketSpicyWarm
-  description: The classic snack food, now maybe a bit too spicy.
+  description: La collation classique, maintenant peut-être un peu trop épicée.
   components:
   - type: FlavorProfile
     flavors:
@@ -141,7 +141,7 @@
   name: teriyaki-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: An East Asian take on the classic stationside snack.
+  description: Une version Est-asiatique du snack classique de la station.
   components:
   - type: FlavorProfile
     flavors:
@@ -152,10 +152,10 @@
     state: teriyaki
 
 - type: entity
-  name: warm teriyaki-pocket
+  name: teriyaki-pocket chaud
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: An East Asian take on the classic stationside snack, now steamy and warm.
+  description: Une version Est-asiatique du snack classique de la station, maintenant à la vapeur et chaud.
   components:
   - type: FlavorProfile
     flavors:
@@ -175,7 +175,7 @@
   name: pizza-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketPizza
-  description: Delicious, cheesy and surprisingly filling.
+  description: Délicieux, fromagé et étonnamment nourrissant.
   components:
   - type: FlavorProfile
     flavors:
@@ -193,10 +193,10 @@
     state: pizza
 
 - type: entity
-  name: warm pizza-pocket
+  name: pizza-pocket chaud
   parent: FoodDonkpocketPizza
   id: FoodDonkpocketPizzaWarm
-  description: Cheese filling really hits the spot when warm.
+  description: Le fromage fondu fait vraiment mouche quand il est chaud.
   components:
   - type: FlavorProfile
     flavors:
@@ -217,7 +217,7 @@
   name: honk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketHonk
-  description: The award-winning donk-pocket that won the hearts of clowns and humans alike.
+  description: Le donk-pocket primé qui a conquis le cœur des clowns et des humains.
   components:
   - type: FlavorProfile
     flavors:
@@ -235,10 +235,10 @@
     state: banana
 
 - type: entity
-  name: warm honk-pocket
+  name: honk-pocket chaud
   parent: FoodDonkpocketHonk
   id: FoodDonkpocketHonkWarm
-  description: The award-winning donk-pocket, now warm and toasty.
+  description: Le donk-pocket primé, maintenant chaud et grillé.
   components:
   - type: FlavorProfile
     flavors:
@@ -256,10 +256,10 @@
           Quantity: 2
 
 - type: entity
-  name: berry-pocket
+  name: baie-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketBerry
-  description: A relentlessly sweet donk-pocket. Made with 100% artificial flavoring.
+  description: Un donk-pocket terriblement sucré. Fabriqué avec 100% d'arôme artificiel.
   components:
   - type: FlavorProfile
     flavors:
@@ -275,10 +275,10 @@
     state: berry
 
 - type: entity
-  name: warm berry-pocket
+  name: baie-pocket chaud
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: A relentlessly sweet donk-pocket, now warm and delicious.
+  description: Un donk-pocket terriblement sucré, maintenant chaud et délicieux.
   components:
   - type: FlavorProfile
     flavors:
@@ -299,7 +299,7 @@
   name: stonk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: Tasty, but a sad reminder of the great crash of '24.
+  description: Savoureux, mais un triste rappel du grand krach de '24.
   components:
   - type: FlavorProfile
     flavors:
@@ -315,7 +315,7 @@
     state: stonk
 
 - type: entity
-  name: warm stonk-pocket
+  name: stonk-pocket chaud
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -336,7 +336,7 @@
   name: carp-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
+  description: Une édition perdue de donk pocket, faite spécifiquement pour les récupérateurs travaillant dur.
   components:
   - type: FlavorProfile
     flavors:
@@ -352,7 +352,7 @@
     state: carp
 
 - type: entity
-  name: warm carp-pocket
+  name: carp-pocket chaud
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -373,7 +373,7 @@
   name: dink-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
+  description: Une marque pirate de donk-pocket lézard, remplie de carotte marinée et enveloppée avec de l'algue. Meilleur consommé froid, ou encore mieux, pas consommé du tout.
   components:
   - type: FlavorProfile
     flavors:
@@ -391,10 +391,10 @@
     state: dink
 
 - type: entity
-  name: moth-pocket
+  name: mite-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketMoth
-  description: Buzzy edition of donk-pocket that was created during mass protests ab-... Actually who cares? Just donk-pockets for moths.
+  description: Édition bourdonnante de donk-pocket créée lors des manifestations de masse ab-... En fait, qui s'en soucie ? Juste des donk-pockets pour les mites.
   components:
   - type: FlavorProfile
     flavors:
@@ -418,7 +418,7 @@
     - DonkPocket
 
 - type: entity
-  name: warm moth-pocket
+  name: mite-pocket chaud
   parent: FoodDonkpocketMoth
   id: FoodDonkpocketMothWarm
   components:

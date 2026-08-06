@@ -66,10 +66,10 @@
 # Pizza
 
 - type: entity
-  name: margherita pizza
+  name: pizza margherita
   parent: FoodPizzaBase
   id: FoodPizzaMargherita
-  description: The flavor of Italy.
+  description: Le goût de l'Italie.
   components:
   - type: FlavorProfile
     flavors:
@@ -83,10 +83,10 @@
     slice: FoodPizzaMargheritaSlice
 
 - type: entity
-  name: slice of margherita pizza
+  name: tranche de pizza margherita
   parent: FoodPizzaSliceBase
   id: FoodPizzaMargheritaSlice
-  description: A slice of Italy.
+  description: Une tranche d'Italie.
   components:
   - type: FlavorProfile
     flavors:
@@ -100,10 +100,10 @@
     heldPrefix: margherita-slice
 
 - type: entity
-  name: meat pizza
+  name: pizza à la viande
   parent: FoodPizzaBase
   id: FoodPizzaMeat
-  description: Greasy pizza with delicious meat.
+  description: Pizza grasse avec de délicieuses viandes.
   components:
   - type: FlavorProfile
     flavors:
@@ -122,10 +122,10 @@
     - Pizza
 
 - type: entity
-  name: slice of meat pizza
+  name: tranche de pizza à la viande
   parent: FoodPizzaSliceBase
   id: FoodPizzaMeatSlice
-  description: A nutritious slice of meatpizza.
+  description: Une tranche nutritive de pizza à la viande.
   components:
   - type: FlavorProfile
     flavors:
@@ -146,10 +146,10 @@
 # Tastes like crust, tomato, cheese, meat.
 
 - type: entity
-  name: mushroom pizza
+  name: pizza aux champignons
   parent: FoodPizzaBase
   id: FoodPizzaMushroom
-  description: Very special pizza.
+  description: Une pizza très spéciale.
   components:
   - type: FlavorProfile
     flavors:
@@ -163,10 +163,10 @@
     slice: FoodPizzaMushroomSlice
 
 - type: entity
-  name: slice of mushroom pizza
+  name: tranche de pizza aux champignons
   parent: FoodPizzaSliceBase
   id: FoodPizzaMushroomSlice
-  description: Maybe it is the last slice of pizza in your life.
+  description: Peut-être que c'est la dernière tranche de pizza de votre vie.
   components:
   - type: FlavorProfile
     flavors:
@@ -181,10 +181,10 @@
 # Tastes like crust, tomato, cheese, mushroom.
 
 - type: entity
-  name: vegetable pizza
+  name: pizza végétarienne
   parent: FoodPizzaBase
   id: FoodPizzaVegetable
-  description: The station's vegetarians will thank you for making this.
+  description: Les végétariens de la station vous remercieront de préparer cette pizza.
   components:
   - type: FlavorProfile
     flavors:
@@ -212,10 +212,10 @@
           Quantity: 5
 
 - type: entity
-  name: slice of vegetable pizza
+  name: tranche de pizza végétarienne
   parent: FoodPizzaSliceBase
   id: FoodPizzaVegetableSlice
-  description: A slice of this is enough to satisfy even the pickiest station personnel.
+  description: Une tranche de cette pizza suffit à satisfaire même le personnel le plus difficile de la station.
   components:
   - type: FlavorProfile
     flavors:
@@ -246,10 +246,10 @@
 # Tastes like crust, tomato, cheese, carrot.
 
 - type: entity
-  name: donk-pocket pizza
+  name: pizza au donk-pocket
   parent: FoodPizzaBase
   id: FoodPizzaDonkpocket
-  description: Who thought this would be a good idea?
+  description: Qui a pensé que ce serait une bonne idée ?
   components:
   - type: FlavorProfile
     flavors:
@@ -277,10 +277,10 @@
 
 
 - type: entity
-  name: slice of donk-pocket pizza
+  name: tranche de pizza au donk-pocket
   parent: FoodPizzaSliceBase
   id: FoodPizzaDonkpocketSlice
-  description: Smells like donk-pocket.
+  description: Ça sent le donk-pocket.
   components:
   - type: FlavorProfile
     flavors:
@@ -312,7 +312,7 @@
   name: dank pizza
   parent: FoodPizzaBase
   id: FoodPizzaDank
-  description: The hippie's pizza of choice.
+  description: La pizza préférée des hippies.
   components:
   - type: FlavorProfile
     flavors:
@@ -336,10 +336,10 @@
           Quantity: 30
 
 - type: entity
-  name: slice of dank pizza
+  name: tranche de dank pizza
   parent: FoodPizzaSliceBase
   id: FoodPizzaDankSlice
-  description: So good, man...
+  description: Trop bon, man...
   components:
   - type: FlavorProfile
     flavors:
@@ -364,10 +364,10 @@
 # Tastes like crust, tomato, cheese, meat, satisfaction.
 
 - type: entity
-  name: sassysage pizza
+  name: pizza au sassysage
   parent: FoodPizzaBase
   id: FoodPizzaSassysage
-  description: You can really smell the sassiness.
+  description: On peut vraiment sentir la sassitude.
   components:
   - type: FlavorProfile
     flavors:
@@ -386,10 +386,10 @@
     - Pizza
 
 - type: entity
-  name: slice of sassysage pizza
+  name: tranche de pizza au sassysage
   parent: FoodPizzaSliceBase
   id: FoodPizzaSassysageSlice
-  description: Deliciously sassy.
+  description: Délicieusement sassy.
   components:
   - type: FlavorProfile
     flavors:
@@ -410,10 +410,10 @@
 # Tastes like crust, tomato, cheese, sausage, sass.
 
 - type: entity
-  name: Hawaiian pizza
+  name: pizza hawaïenne
   parent: FoodPizzaBase
   id: FoodPizzaPineapple
-  description: Makes people burst into tears. Tears of joy or sadness depends on the person's fondness for pineapple.
+  description: Elle fait pleurer les gens. Des larmes de joie ou de tristesse dépend de l'affection de la personne pour l'ananas.
   components:
   - type: FlavorProfile
     flavors:
@@ -433,10 +433,10 @@
     - Pizza
 
 - type: entity
-  name: slice of Hawaiian pizza
+  name: tranche de pizza hawaïenne
   parent: FoodPizzaSliceBase
   id: FoodPizzaPineappleSlice
-  description: A slice of joy/sin.
+  description: Une tranche de joie/péché.
   components:
   - type: FlavorProfile
     flavors:
@@ -459,10 +459,10 @@
 
 #TODO: This is a meme pizza from /tg/. It has specially coded mechanics.
 - type: entity
-  name: Arnold's pizza
+  name: pizza Arnold
   parent: FoodPizzaBase
   id: FoodPizzaArnold
-  description: Hello, you've reached Arnold's pizza shop. I'm not here now, I'm out killing pepperoni.
+  description: Allô, vous avez atteint la pizzeria d'Arnold. Je ne suis pas là maintenant, je suis en train de tuer du pepperoni.
   components:
   - type: FlavorProfile
     flavors:
@@ -495,10 +495,10 @@
     - Pizza
 
 - type: entity
-  name: slice of Arnold's pizza
+  name: tranche de pizza Arnold
   parent: FoodPizzaSliceBase
   id: FoodPizzaArnoldSlice
-  description: I come over, maybe I give you a pizza, maybe I break off your arm.
+  description: J'arrive, peut-être que je te donne une pizza, peut-être que je te casse le bras.
   components:
   - type: FlavorProfile
     flavors:
@@ -534,10 +534,10 @@
 
 #TODO: Make this do poison damage and make cut pizza slices eventually rot into this.
 - type: entity
-  name: slice of moldy pizza
+  name: tranche de pizza moisie
   parent: FoodPizzaSliceBase
   id: FoodPizzaMoldySlice
-  description: Once a perfectly good slice of pizza pie, but now it lies here, rancid and bursting with spores.
+  description: Autrefois une parfaitement bonne tranche de pizza, mais maintenant elle repose ici, rance et débordant de spores.
   components:
   - type: FlavorProfile
     flavors:
@@ -567,10 +567,10 @@
 # Tastes like stale crust, rancid cheese, mushroom.
 
 - type: entity
-  name: spicy rock pizza
+  name: pizza à la roche épicée
   parent: FoodPizzaBase
   id: FoodPizzaUranium
-  description: Spicy pizza covered in peppers and uranium.
+  description: Pizza épicée recouverte de piments et d'uranium.
   components:
   - type: FlavorProfile
     flavors:
@@ -603,10 +603,10 @@
           Quantity: 16
 
 - type: entity
-  name: slice of spicy rock pizza
+  name: tranche de pizza à la roche épicée
   parent: FoodPizzaSliceBase
   id: FoodPizzaUraniumSlice
-  description: A glowing slice of spicy rock pizza.
+  description: Une tranche brillante de pizza à la roche épicée.
   components:
   - type: FlavorProfile
     flavors:
@@ -642,10 +642,10 @@
 # Tastes like crust, tomato, cheese, radiation.
 
 - type: entity
-  name: cotton pizza
+  name: pizza au coton
   parent: FoodPizzaBase
   id: FoodPizzaCotton
-  description: Flat fabric cotton dough with cotton topping. Incredible.
+  description: Pâte à pizza en coton avec garniture de coton. Incroyable.
   components:
   - type: FlavorProfile
     flavors:
@@ -675,10 +675,10 @@
           Quantity: 10
 
 - type: entity
-  name: slice of cotton pizza
+  name: tranche de pizza au coton
   parent: FoodPizzaSliceBase
   id: FoodPizzaCottonSlice
-  description: A slice of cotton pizza. Cotton included.
+  description: Une tranche de pizza au coton. Du coton inclus.
   components:
   - type: FlavorProfile
     flavors:
@@ -710,7 +710,7 @@
   name: world peazza
   parent: FoodPizzaBase
   id: FoodPizzaWorldpeas
-  description: Modern diplomacy in the shape of a disc.
+  description: La diplomatie moderne sous la forme d'un disque.
   components:
   - type: FlavorProfile
     flavors:
@@ -734,10 +734,10 @@
           Quantity: 8
 
 - type: entity
-  name: slice of world peazza
+  name: tranche de world peazza
   parent: FoodPizzaSliceBase
   id: FoodPizzaWorldpeasSlice
-  description: Dividing the world up is a small price to pay for harmony.
+  description: Diviser le monde est un petit prix à payer pour l'harmonie.
   components:
   - type: FlavorProfile
     flavors:
