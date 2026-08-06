@@ -12,12 +12,12 @@
 - type: entity
   id: PuddleSmear
   parent: PuddleTemporary
-  suffix: Smear
+  suffix: Traînée
 
 - type: entity
   id: PuddleVomit
   parent: PuddleTemporary
-  suffix: Vomit
+  suffix: Vomi
   components:
   - type: SolutionContainerManager
     solutions:
@@ -30,7 +30,7 @@
 - type: entity
   id: PuddleEgg
   parent: PuddleTemporary
-  suffix: Egg
+  suffix: Œuf
   components:
   - type: SolutionContainerManager
     solutions:
@@ -43,7 +43,7 @@
 - type: entity
   id: PuddleTomato
   parent: PuddleTemporary
-  suffix: Tomato
+  suffix: Tomate
   components:
   - type: SolutionContainerManager
     solutions:
@@ -56,7 +56,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleBloodSmall
-  suffix: Blood (5u)
+  suffix: Sang (5u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -69,7 +69,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleBlood
-  suffix: Blood (30u)
+  suffix: Sang (30u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -82,7 +82,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleFluorosulfuricAcidSmall
-  suffix: FluorosulfuricAcid (5u)
+  suffix: AcideFluorosulfurique (5u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -95,7 +95,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleFluorosulfuricAcid
-  suffix: FluorosulfuricAcid (15u)
+  suffix: AcideFluorosulfurique (15u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -108,7 +108,7 @@
 - type: entity
   id: PuddleWatermelon
   parent: PuddleTemporary
-  suffix: Watermelon
+  suffix: Pastèque
   components:
   - type: SolutionContainerManager
     solutions:
@@ -121,7 +121,7 @@
 - type: entity
   id: PuddleFlour
   parent: PuddleTemporary
-  suffix: Flour
+  suffix: Farine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -133,7 +133,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: sparkle
+  name: scintillement
   placement:
     mode: SnapgridCenter
   components:
@@ -152,9 +152,9 @@
       color: "#FFFFFF80"
 
 - type: entity
-  name: puddle
+  name: flaque
   id: Puddle
-  description: A puddle of liquid.
+  description: Une flaque de liquide.
   placement:
     mode: SnapgridCenter
   components:
