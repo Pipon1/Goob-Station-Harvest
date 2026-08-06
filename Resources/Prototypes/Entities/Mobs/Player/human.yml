@@ -10,7 +10,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: syndicate agent
+  name: agent du Syndicat
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance
@@ -28,7 +28,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: syndicate agent
+  name: agent du Syndicat
   suffix: Human, Traitor
   components:
   # make the player a traitor once its taken
@@ -38,7 +38,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentMedic
-  name: syndicate medic
+  name: médecin du Syndicat
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementMedic]
@@ -47,7 +47,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentSpy
-  name: syndicate spy
+  name: espion du Syndicat
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementSpy]
@@ -56,7 +56,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentThief
-  name: syndicate thief
+  name: voleur du Syndicat
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementThief]
@@ -78,7 +78,7 @@
 # Nuclear Operative
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: Nuclear Operative
+  name: Opératif Nucléaire
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -89,7 +89,7 @@
   categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: Lone Operative
+  name: Opératif Solitaire
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
