@@ -149,7 +149,7 @@
   id: CigPackGreen
   parent: CigPackBase
   name: paquet de Spessman's Smokes
-  description: A label on the packaging reads, Wouldn't a slow death make a change?
+  description: Une étiquette sur l'emballage dit, "Une mort lente ne serait-elle pas un changement ?"
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
@@ -160,7 +160,7 @@
   id: CigPackRed
   parent: CigPackBase
   name: paquet de DromadaireCo
-  description: The most popular brand of Space Cigarettes, sponsors of the Space Olympics.
+  description: La marque la plus populaire de cigarettes spatiales, sponsors des Jeux olympiques de l'espace.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
@@ -171,7 +171,7 @@
   id: CigPackBlue
   parent: CigPackBase
   name: paquet de Grolandaises
-  description: For those who somehow want to obtain the record for the most amount of cancerous tumors.
+  description: Pour ceux qui veulent d'une façon ou d'une autre obtenir le record du plus grand nombre de tumeurs cancéreuses.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
@@ -182,7 +182,7 @@
   id: CigPackBlack
   parent: CigPackBase
   name: paquet de Nomades
-  description: Nomads's extra strong, for when your life is more extra hard.
+  description: Nomades extra fortes, pour quand votre vie est extra difficile.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
@@ -192,8 +192,8 @@
 - type: entity
   id: CigPackSyndicate
   parent: [CigPackBase, BaseSyndicateContraband]
-  name: paquet d'Interdyne herbals
-  description: Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
+  name: paquet d'herbales d'Interdyne 
+  description: Cigarettes d'élite pour les agents d'élite du Syndicat. Infusées de médicaments pour quand vous avez besoin de faire plus que calmer vos nerfs.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
@@ -210,7 +210,7 @@
   parent: CigPackMixedBase
   name: paquet de cigarettes trempées de Dan
   suffix: Mixed
-  description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
+  description: Dan a travaillé avec la chimie NT pour éliminer les produits chimiques excédentaires, PROFITEZ.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
