@@ -12,8 +12,8 @@ role-type-SAN-antagonist-name = Déserteur
 # Shadowling
 roles-antag-shadowling-name = Ombrelin
 roles-antag-shadowling-description = Asservissez l'équipage, ascensionnez et devenez semblable à un Dieu.
-roles-antag-shadowling-objective = Ascensionner.
+roles-antag-shadowling-objective = Atteindre l'Ascension.
 
-roles-antag-thrall-name = Thrall
+roles-antag-thrall-name = Esclave
 roles-antag-thrall-description = Travaillez avec votre Ombrelin pour assurer son ascension.
 roles-antag-thrall-objective = Aidez votre ombrelin à s'élever.

@@ -14,8 +14,8 @@
 
 ## Rev Head
 
-roles-antag-rev-head-name = Head Revolutionary
-roles-antag-rev-head-objective = Your objective is to take over the station by converting people to your cause and killing all Command staff on station.
+roles-antag-rev-head-name = Chef révolutionnaire
+roles-antag-rev-head-objective = Votre objectif est de prendre le contrôle de la station en ralliant les gens à votre cause et en éliminant tous les membres du commandement présents sur place.
 
 head-rev-role-greeting =
     You are a Head Revolutionary.

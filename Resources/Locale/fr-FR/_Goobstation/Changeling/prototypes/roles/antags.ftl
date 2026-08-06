@@ -7,5 +7,5 @@
 roles-antag-changeling-name = Changeling
 roles-antag-changeling-description = Utilisez vos capacités de métamorphose pour accomplir vos objectifs.
 
-roles-antag-corporate-agent-name = Agent corporatif
-roles-antag-corporate-agent-description = Utilisez vos ressources corporatives pour accomplir vos objectifs.
+roles-antag-corporate-agent-name = Agent corporate
+roles-antag-corporate-agent-description = Utilisez vos ressources corporate pour accomplir vos objectifs.
