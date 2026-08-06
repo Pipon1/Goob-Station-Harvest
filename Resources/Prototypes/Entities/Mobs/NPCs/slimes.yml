@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: basic slime
+  name: slime basique
   id: BaseMobAdultSlime # Goob
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: Ça ressemble tellement à de la gelée. Je me demande quel goût ça a ?
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Sprite
@@ -117,11 +117,11 @@
     proto: slime
 
 - type: entity
-  name: basic slime
+  name: slime basique
   id: MobAdultSlimes
   parent: BaseMobAdultSlime # Goob
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: Ça ressemble tellement à de la gelée. Je me demande quel goût ça a ?
   components:
   - type: LanguageKnowledge # Einstein Engines - Language
     speaks:
@@ -156,7 +156,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: blue slime
+  name: slime bleu
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -168,7 +168,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: blue slime
+  name: slime bleu
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
   suffix: Angry
@@ -185,7 +185,7 @@
         settings: short
 
 - type: entity
-  name: green slime
+  name: slime vert
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -208,7 +208,7 @@
           Poison: 4
 
 - type: entity
-  name: green slime
+  name: slime vert
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
   suffix: Angry
@@ -225,7 +225,7 @@
         settings: short
 
 - type: entity
-  name: yellow slime
+  name: slime jaune
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -247,7 +247,7 @@
           Caustic: 4
 
 - type: entity
-  name: yellow slime
+  name: slime jaune
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
   suffix: Angry

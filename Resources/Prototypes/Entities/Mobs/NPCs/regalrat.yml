@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: rat king
+  name: roi des rats
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: C'est da rat. Y fait da roolz.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: CombatMode
@@ -194,10 +194,10 @@
 
 
 - type: entity
-  name: rat servant
+  name: servant rat
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: C'est da mini rat. Y fait pas da roolz.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
@@ -376,8 +376,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: Lever une armée
+  description: Dépensez de la faim pour invoquer un rat allié pour vous aider à vous défendre.
   components:
   - type: Action
     useDelay: 4
@@ -390,8 +390,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of ammonia into the air.
+  name: Domaine du Roi des rats
+  description: Dépensez de la faim pour libérer un nuage d'ammoniaque dans l'air.
   components:
   - type: Action
     useDelay: 6
@@ -404,8 +404,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: Rester
+  description: Ordonnez à votre armée de rester sur place.
   components:
   - type: Action
     useDelay: 1
@@ -423,8 +423,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: Suivre
+  description: Ordonnez à votre armée de vous suivre partout.
   components:
   - type: Action
     useDelay: 1
@@ -443,7 +443,7 @@
   parent: BaseAction
   id: ActionRatKingOrderCheeseEm
   name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  description: Ordonnez à votre armée d'attaquer celui que vous pointez du doigt.
   components:
   - type: Action
     useDelay: 1
@@ -461,8 +461,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: Lâcher prise
+  description: Ordonnez à votre armée d'agir à sa propre discrétion.
   components:
   - type: Action
     useDelay: 1

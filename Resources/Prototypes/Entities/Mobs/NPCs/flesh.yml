@@ -3,8 +3,8 @@
 - type: entity
   parent: [ SimpleMobBase, MobCombat ]
   id: BaseMobFlesh
-  name: aberrant flesh
-  description: A shambling mass of flesh, animated through anomalous energy.
+  name: chair aberrante
+  description: Une masse de chair informe, animée par une énergie anomale.
   abstract: true
   components:
   - type: HTN
@@ -172,7 +172,7 @@
   parent: BaseMobFlesh
   id: MobAbomination
   name: abomination
-  description: A rejected clone, in constant pain and seeking revenge.
+  description: Un clone rejeté, en douleur constante et cherchant la vengeance.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -209,9 +209,9 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, MobCombat ]
   id: BaseMobFleshSalvage #This one is immune to space!
-  name: aberrant flesh
+  name: chair aberrante
   suffix: "Salvage Ruleset"
-  description: A shambling mass of flesh, animated through anomalous energy.
+  description: Une masse de chair informe, animée par une énergie anomale.
   abstract: true
   components:
   - type: HTN

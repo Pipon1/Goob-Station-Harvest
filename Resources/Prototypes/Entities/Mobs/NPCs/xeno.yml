@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: burrower
+  name: fouisseur
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: Ils viennent surtout la nuit. Surtout.
   components:
   - type: Insulated
   - type: CombatMode
@@ -124,7 +124,7 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: praetorian
+  name: prétorien
   parent: MobXeno
   id: MobXenoPraetorian
   components:
@@ -194,7 +194,7 @@
         - MobLayer
 
 - type: entity
-  name: queen
+  name: reine
   parent: MobXeno
   id: MobXenoQueen
   components:
@@ -233,7 +233,7 @@
     - CannotSuicide
 
 - type: entity
-  name: ravager
+  name: ravageur
   parent: MobXeno
   id: MobXenoRavager
   components:
@@ -270,7 +270,7 @@
         - MobLayer
 
 - type: entity
-  name: runner
+  name: coureur
   parent: MobXeno
   id: MobXenoRunner
   components:
@@ -315,7 +315,7 @@
       amount: 3
 
 - type: entity
-  name: spitter
+  name: cracheur
   parent: MobXeno
   id: MobXenoSpitter
   components:
@@ -362,10 +362,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: vipère de l'espace
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: Un serpent pourpre menaçant de Kepler-283c.
   components:
   - type: Body # Shitmed Change
     prototype: SpaceAdder
@@ -439,11 +439,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: vipère de l'espace
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: Une version plus petite du serpent pourpre menaçant de Kepler-283c.
   components:
   - type: Body # Shitmed Change
     prototype: SpaceAdder
@@ -477,7 +477,7 @@
 
 - type: entity
   name: '"Dale"'
-  description: A praetorian left over from the station's initial security sweep. Has a pair of bloodied dog tags engraved with the name "Pvt. Dale" stuck in its maw.
+  description: Un praetorien laissé par le balayage initial de sécurité de la station. A une paire de plaques d'identité de chien sanglantes gravées du nom « Pvt. Dale » coincées dans sa gueule.
   parent: SimpleSpaceMobBase
   id: MobXenoLonePraetorianNoGhost
   components:

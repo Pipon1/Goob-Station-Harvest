@@ -47,7 +47,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: ore crab
+  name: crabe de minerai
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: An ore crab made from Quartz.
+  description: Un crabe de minerai fait de quartz.
   suffix: Quartz
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: An ore crab made from iron.
+  description: Un crabe de minerai fait de fer.
   suffix: Iron
   components:
   - type: Sprite
@@ -132,7 +132,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobCoalCrab
-  description: An ore crab made from coal.
+  description: Un crabe de minerai fait de charbon.
   suffix: Coal
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: An ore crab made from uranium.
+  description: Un crabe de minerai fait d'uranium.
   suffix: Uranium
   components:
   - type: FactionException
@@ -199,7 +199,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobBananiumCrab
-  description: An ore crab made from bananium.
+  description: Un crabe de minerai fait de bananium.
   suffix: Bananium
   components:
   - type: Sprite
@@ -255,7 +255,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  description: An ore crab made from silver.
+  description: Un crabe de minerai fait d'argent.
   suffix: Silver
   components:
   - type: Sprite
@@ -284,7 +284,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobGoldCrab
-  description: An ore crab made from gold.
+  description: Un crabe de minerai fait d'or.
   suffix: Gold
   components:
   - type: Sprite
@@ -311,11 +311,11 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: reagent slime
+  name: slime de réactifs
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: It consists of a liquid, and it wants to dissolve you in itself.
+  description: Il est constitué d'un liquide, et il veut vous dissoudre en lui-même.
   components:
   - type: GhostRole
     prob: 0

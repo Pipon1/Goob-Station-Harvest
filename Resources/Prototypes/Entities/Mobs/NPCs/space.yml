@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: basic
+  name: basique
   id: MobSpaceBasic
   parent: SimpleSpaceMobBase
   abstract: true
-  description: It looks friendly. Why don't you give it a hug?
+  description: Ça a l'air amical. Pourquoi ne pas lui faire un câlin ?
   components:
   - type: HTN
     rootTask:
@@ -74,10 +74,10 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: space bear
+  name: ours de l'espace
   id: MobBearSpace
   parent: MobSpaceBasic
-  description: It looks friendly. Why don't you give it a hug?
+  description: Ça a l'air amical. Pourquoi ne pas lui faire un câlin ?
   components:
   - type: Body # Shitmed Change
     prototype: SpaceBear
@@ -132,10 +132,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space kangaroo
+  name: kangourou de l'espace
   id: MobKangarooSpace
   parent: [MobSpaceBasic, StripableInventoryBase]
-  description: It looks friendly. Why don't you give it a hug?
+  description: Ça a l'air amical. Pourquoi ne pas lui faire un câlin ?
   components:
   - type: Body # Shitmed Change
     prototype: SpaceKangaroo
@@ -211,10 +211,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space spider
+  name: araignée de l'espace
   id: MobSpiderSpace
   parent: MobSpaceBasic
-  description: It's so glowing, it looks dangerous.
+  description: C'est tout luminescent, ça a l'air dangereux.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Body # Shitmed Change
@@ -326,10 +326,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space cobra
+  name: cobra de l'espace
   id: MobCobraSpace
   parent: MobSpaceBasic
-  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
+  description: De longs crocs et un capuchon brillant, et son look impressionnant invite à s'approcher.
   components:
   - type: Body # Shitmed Change
     prototype: SpaceCobra
@@ -436,8 +436,8 @@
 - type: entity
   parent: SimpleSpaceMobBase
   id: MobSnail
-  name: snail
-  description: Revolting unless you're french.
+  name: escargot
+  description: Délicieux à moins que tu ne sois pas français.
   components:
   - type: Body
     prototype: Mouse
@@ -631,7 +631,7 @@
 - type: entity
   parent: MobSnail
   id: MobSnailMoth
-  name: Snoth
+  name: Escarmite
   components:
   - type: Body
     prototype: Mothroach

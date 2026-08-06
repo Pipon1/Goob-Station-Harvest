@@ -3,8 +3,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobWeldbot
-  name: weldbot
-  description: No substitute for an engineer, but better than nothing.
+  name: robosoudeur
+  description: Pas un substitut à un ingénieur, mais mieux que rien.
   components:
   - type: Weldbot
   - type: Sprite
