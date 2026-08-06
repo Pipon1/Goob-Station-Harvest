@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApron
-  name: apron
-  description: A fancy apron for a stylish person.
+  name: tablier
+  description: Un tablier élégant pour une personne stylée.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apron.rsi
@@ -19,8 +19,8 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBar
   suffix: Bartender
-  name: apron
-  description: A darker apron designed for bartenders.
+  name: tablier
+  description: Un tablier plus foncé conçu pour les barmen.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbar.rsi
@@ -34,9 +34,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBotanist
-  name: apron
+  name: tablier
   suffix: Botanical
-  description: A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
+  description: Un tablier bleu épais, parfait pour isoler votre chair molle des déversements, de la terre et des épines.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbotanist.rsi
@@ -50,9 +50,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronChef
-  name: apron
+  name: tablier
   suffix: Chef
-  description: An apron-jacket used by a high class chef.
+  description: Un tablier-veste utilisé par un chef de haut niveau.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronchef.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterJacketChef
-  name: chef jacket
-  description: An apron-jacket used by a high class chef.
+  name: veste de chef
+  description: Un tablier-veste utilisé par un chef de haut niveau.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chef.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieBlack
-  name: black hoodie
-  description: Oh my God, it's a black hoodie!
+  name: sweat à capuche noir
+  description: Oh mon Dieu, c'est un sweat à capuche noir !
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/black_hoodie.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieGrey
-  name: grey hoodie
-  description: A grey hoodie.
+  name: sweat à capuche gris
+  description: Un sweat à capuche gris.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/grey_hoodie.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCardborg
-  name: cardborg costume
-  description: An ordinary cardboard box with holes cut in the sides.
+  name: costume cartborg
+  description: Une boîte en carton ordinaire avec des trous découpés sur les côtés.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cardborg.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterHoodieChaplain
-  name: chaplain's hoodie
-  description: Black and strict chaplain hoodie.
+  name: sweat à capuche du chapelain
+  description: Sweat à capuche noir et strict du chapelain.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chaplain_hoodie.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPonchoClassic
-  name: classic poncho
-  description: A warm and comfy classic poncho.
+  name: poncho classique
+  description: Un poncho classique chaud et confortable.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/classicponcho.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesCult
-  name: cult robes
-  description: There's no cult without classic red/crimson cult robes.
+  name: robe de cultiste
+  description: Il n'y a pas de culte sans les robes de cultiste rouges traditionelles.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesJudge
-  name: judge robes
-  description: This robe commands authority.
+  name: robe de juge
+  description: Cette robe ordonne l'autorité.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/judge.rsi
@@ -174,7 +174,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterPoncho
   name: poncho
-  description: A warm and comfy poncho.
+  description: Un poncho chaud et confortable.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/poncho.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSanta
-  name: santa suit
-  description: Ho ho ho!
+  name: costume du Père Noël
+  description: Ho ho ho !
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/santa.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: ClothingOuterBase # Goob edit
   id: ClothingOuterWizardViolet
-  name: violet wizard robes
-  description: A bizarre gem-encrusted violet robe that radiates magical energies.
+  name: robe de magicien violette
+  description: Une robe violette bizarre incrustée de pierres précieuses qui rayonne des énergies magiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/violetwizard.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: ClothingOuterBase # Goob edit
   id: ClothingOuterWizard
-  name: wizard robes
-  description: A bizarre gem-encrusted blue robe that radiates magical energies.
+  name: robe de magicien
+  description: Une robe bleue bizarre incrustée de pierres précieuses qui rayonne des énergies magiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: ClothingOuterBase # Goob edit
   id: ClothingOuterWizardRed
-  name: red wizard robes
-  description: A bizarre gem-encrusted red robe that radiates magical energies. # Goob edit
+  name: robe de magicien rouge
+  description: Une robe rouge bizarre incrustée de pierres précieuses qui rayonne des énergies magiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/redwizard.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSkub
-  name: skub suit
-  description: 'Skub is crudely written on the outside of this cylindrical suit.'
+  name: combinaison skub
+  description: 'Skub est écrit grossièrement sur l'extérieur de cette combinaison cylindrique.'
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/skubbody.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPlagueSuit
-  name: plague doctor suit
-  description: A bad omen.
+  name: costume de médecin de la peste
+  description: Un mauvais présage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/plaguedoctorsuit.rsi
@@ -288,8 +288,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterNunRobe
-  name: nun robe
-  description: Maximum piety in this star system.
+  name: robe de nonne
+  description: Piété maximale dans ce système stellaire.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/nunrobe.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterGhostSheet
-  name: ghost sheet
-  description: Spooky!!!
+  name: drap de fantôme
+  description: Spooky !!!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
@@ -314,8 +314,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHospitalGown
-  name: hospital gown
-  description: Made from the wool of slaughtered baby lambs.  The cruelty makes it softer.
+  name: chemise d'hôpital
+  description: Fabriquée à partir de la laine de bébés agneaux tués. La cruauté la rend plus douce.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/hospitalgown.rsi
@@ -325,8 +325,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelRed
-  name: red flannel jacket
-  description: An old fashioned red flannel jacket for space autumn.
+  name: veste de flanelle rouge
+  description: Une vieille veste de flanelle rouge à la mode pour l'automne spatial.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelBlue
-  name: blue flannel jacket
-  description: An old fashioned blue flannel jacket for space autumn.
+  name: veste de flanelle bleue
+  description: Une vieille veste de flanelle bleue à la mode pour l'automne spatial.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -397,8 +397,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelGreen
-  name: green flannel jacket
-  description: An old fashioned green flannel jacket for space autumn.
+  name: veste de flanelle verte
+  description: Une vieille veste de flanelle verte à la mode pour l'automne spatial.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRedRacoon
-  name: red racoon suit
-  description: Fluffy suit of red racoon!
+  name: combinaison de raton laveur rouge
+  description: Combinaison moelleuse de raton laveur rouge !
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
