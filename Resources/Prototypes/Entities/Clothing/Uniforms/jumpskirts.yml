@@ -929,7 +929,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPsychologist
   name: costume-jupe de psychologue
-  description: "I don't lose things. I place things in locations which later elude me." # Réf à Psych (la série), même commentaire qu'en dessous
+  description: "\"I don't lose things. I place things in locations which later elude me.\"" # Réf à Psych (la série), même commentaire qu'en dessous
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/psychologist.rsi

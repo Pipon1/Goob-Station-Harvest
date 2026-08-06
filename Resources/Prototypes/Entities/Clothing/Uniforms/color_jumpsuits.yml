@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitColorTeal
-  name: uniforme bleu canard
-  description: Un uniforme générique bleu canard sans enseigne de rang.
+  name: uniforme turquoise
+  description: Un uniforme générique turquoise sans enseigne de rang.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi

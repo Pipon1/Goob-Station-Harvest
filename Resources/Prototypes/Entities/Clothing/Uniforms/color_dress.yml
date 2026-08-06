@@ -4,7 +4,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlackElegantDress
   name: robe élégante noire
-  description: Elegant dress with a beautiful bow.
+  description: Robe élégante avec un beau nœud.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/elegantdress.rsi
@@ -33,7 +33,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedElegantDress
   name: robe élégante rouge
-  description: Elegant dress with a beautiful bow.
+  description: Robe élégante avec un beau nœud.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/elegantdress.rsi
@@ -62,7 +62,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenElegantDress
   name: robe élégante verte
-  description: Elegant dress with a beautiful bow.
+  description: Robe élégante avec un beau nœud.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/elegantdress.rsi
@@ -91,7 +91,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueElegantDress
   name: robe élégante bleue
-  description: Elegant dress with a beautiful bow.
+  description: Robe élégante avec un beau nœud.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/elegantdress.rsi
@@ -120,7 +120,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPurpleElegantDress
   name: robe élégante violette
-  description: Elegant dress with a beautiful bow.
+  description: Robe élégante avec un beau nœud.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/elegantdress.rsi
@@ -149,7 +149,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCyanStripedDress
   name: robe rayée cyan
-  description: Cute striped dress.
+  description: Robe rayée mignonne.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/stripeddress.rsi
@@ -178,7 +178,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedStripedDress
   name: robe rayée rouge
-  description: Cute striped dress.
+  description: Robe rayée mignonne.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/stripeddress.rsi
@@ -207,7 +207,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenStripedDress
   name: robe rayée verte
-  description: Cute striped dress.
+  description: Robe rayée mignonne.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/stripeddress.rsi
@@ -237,7 +237,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPinkStripedDress
   name: robe rayée rose
-  description: Cute striped dress.
+  description: Robe rayée mignonne.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/stripeddress.rsi
@@ -266,7 +266,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOrangeStripedDress
   name: robe rayée orange
-  description: Cute striped dress.
+  description: Robe rayée mignonne.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/stripeddress.rsi
@@ -295,7 +295,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPurpleTurtleneckDress
   name: robe à col roulé violette
-  description: Turtleneck dress with a unique design.
+  description: Robe à col roulé avec un design unique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/turtledress.rsi
@@ -324,7 +324,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtRedTurtleneckDress
   name: robe à col roulé rouge
-  description: Turtleneck dress with a unique design.
+  description: Robe à col roulé avec un design unique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/turtledress.rsi
@@ -353,7 +353,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGreenTurtleneckDress
   name: robe à col roulé verte
-  description: Turtleneck dress with a unique design.
+  description: Robe à col roulé avec un design unique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/turtledress.rsi
@@ -382,7 +382,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueTurtleneckDress
   name: robe à col roulé bleue
-  description: Turtleneck dress with a unique design.
+  description: Robe à col roulé avec un design unique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/turtledress.rsi
@@ -411,7 +411,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtYellowTurtleneckDress
   name: robe à col roulé jaune
-  description: Turtleneck dress with a unique design.
+  description: Robe à col roulé avec un design unique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/turtledress.rsi
@@ -440,7 +440,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtYellowOldDress
   name: vieille robe jaune
-  description: Classic western dress.
+  description: Robe de western classique.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/dresswestern.rsi

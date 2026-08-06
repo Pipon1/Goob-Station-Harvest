@@ -529,7 +529,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband] # Goob
   id: ClothingUniformJumpsuitQM
   name: uniforme de quartier-maître
-  description: "'Y'a pas écrit la poste.'" # Remplacé pub connue d'USPS par slogan connu de La Poste
+  description: "\"Y'a pas écrit la poste.\"" # Remplacé pub connue d'USPS par slogan connu de La Poste
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/qm.rsi # Goob
@@ -947,7 +947,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitReporter
   name: costume de reporter
-  description: "A good reporter remains a skeptic all their life." # Citation de Jack Smith, pas sûr de comment le traduire, voire de le traduire tout court.
+  description: "Un bon reporter reste un sceptique toute sa vie." # Citation de Jack Smith
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
@@ -969,7 +969,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJournalist
   name: costume de journaliste
-  description: "If journalism is good, it is controversial, by nature." # Citation de Julian Assange, même commentaire qu'au dessus.
+  description: "Si le journalisme est bon, il est controversé, par nature." # Citation de Julian Assange
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
