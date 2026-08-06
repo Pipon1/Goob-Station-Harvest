@@ -4,7 +4,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterWinterCoat
   name: manteau d'hiver
-  description: Une lourde veste fabriquée à partir de fourrures animales « synthétiques ».
+  description: "Une lourde veste fabriquée à partir de fourrures animales « synthétiques »."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -573,7 +573,7 @@
   parent: [ClothingOuterWinterCoatToggleable, BaseSyndicateContraband]
   id: ClothingOuterWinterSyndie
   name: manteau d'hiver du Syndicat
-  description: "Manteau d'hiver isolé, ressemble à un truc qu'on trouverait à « Syndieland ».""
+  description: "Manteau d'hiver isolé, ressemble à un truc qu'on trouverait à « Syndieland »."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi

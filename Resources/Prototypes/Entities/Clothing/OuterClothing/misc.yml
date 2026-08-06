@@ -259,7 +259,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterSkub
   name: combinaison skub
-  description: 'Skub est écrit grossièrement sur l'extérieur de cette combinaison cylindrique.'
+  description: "Skub est écrit grossièrement sur l'extérieur de cette combinaison cylindrique."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/skubbody.rsi
