@@ -46,7 +46,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 flavor-profile = Ça a un goût {$flavor}.
-flavor-profile-multiple = Ça a un goût {$flavors} et {$lastFlavor}.
+flavor-profile-multiple = Ça a goût {$flavors} et {$lastFlavor}.
 flavor-profile-unknown = Ça a un goût indescriptible.
 
 # Base flavors. Use these when you can't think of anything.
