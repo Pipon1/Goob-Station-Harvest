@@ -5,8 +5,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodBreadBun
-  name: bun
-  description: A hamburger bun. Round and convenient to hold.
+  name: petit pain
+  description: Un petit pain pour hamburger. Rond et pratique à tenir.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/burger.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodBreadBunBottom
-  name: bottom bun
-  description: It's time to start building the burger tower.
+  name: bun du bas
+  description: Il est temps de commencer à construire la tour de burger.
   components:
   - type: Item
     size: Normal #patch until there is an adequate resizing system in place
@@ -65,8 +65,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodBreadBunTop
-  name: top bun
-  description: The perfect finish for your burger tower.
+  name: bun du haut
+  description: La finition parfaite pour votre tour de burger.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/burger_sequence.rsi
@@ -113,10 +113,10 @@
 # Custom Burger Example
 
 - type: entity
-  name: jelly burger
+  name: burger à la gelée
   parent: FoodBurgerBase
   id: FoodBurgerJelly
-  description: Culinary delight..?
+  description: Délice culinaire..?
   components:
   - type: FlavorProfile
     flavors:
@@ -146,10 +146,10 @@
 # Burger
 
 - type: entity
-  name: appendix burger
+  name: burger à l'appendice
   parent: FoodBurgerBase
   id: FoodBurgerAppendix
-  description: Tastes like appendicitis.
+  description: A goût d'appendicite.
   components:
   - type: FlavorProfile
     flavors:
@@ -188,10 +188,10 @@
 # Tastes like bun, grass.
 
 - type: entity
-  name: bacon burger
+  name: burger au bacon
   parent: FoodBurgerBase
   id: FoodBurgerBacon
-  description: The perfect combination of all things American.
+  description: La combinaison parfaite de toutes choses américaines.
   components:
   - type: FlavorProfile
     flavors:
@@ -228,10 +228,10 @@
 # Tastes like bun, bacon.
 
 - type: entity
-  name: baseball burger
+  name: burger baseball
   parent: FoodBurgerBase
   id: FoodBurgerBaseball
-  description: It's still warm. The steam coming off of it smells kinda sweaty.
+  description: Il est encore chaud. La vapeur qui en émane sent un peu la transpiration.
   components:
   - type: FlavorProfile
     flavors:
@@ -267,8 +267,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerBear
-  name: bearger
-  description: Best served rawr.
+  name: ourser
+  description: Meilleur servi cruuuar.
   components:
   - type: Item
     storedOffset: 0,1
@@ -302,7 +302,7 @@
   parent: FoodBurgerBase
   id: FoodBurgerBig
   name: big bite burger
-  description: Forget the Big Mac. THIS is the future!
+  description: Oubliez le Big Mac. ÇA c'est l'avenir!
   components:
   - type: Item
     size: Normal
@@ -338,8 +338,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerBrain
-  name: brain burger
-  description: A strange looking burger. It looks almost sentient.
+  name: burger cerveau
+  description: Un burger au apparence étrange. Il semble presque conscient.
   components:
   - type: Item
     storedOffset: 0,1
@@ -373,8 +373,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerCat
-  name: cat burger
-  description: Finally those cats and catpeople are worth something!
+  name: burger chat
+  description: Enfin, ces chats et personnes-chats valent quelque chose!
   components:
   - type: Item
     storedOffset: -1,1
@@ -411,7 +411,7 @@
   name: cheese burger
   parent: FoodBurgerBase
   id: FoodBurgerCheese
-  description: This noble burger stands proudly clad in golden cheese.
+  description: Ce burger noble se tient fier, vêtu de fromage doré.
   components:
   - type: FlavorProfile
     flavors:
@@ -451,10 +451,10 @@
 # Tastes like bun, beef patty, cheese.
 
 - type: entity
-  name: chicken sandwich # Burger for you euro-cucks
+  name: sandwich au poulet # Burger for you euro-cucks
   parent: FoodBurgerBase
   id: FoodBurgerChicken
-  description: A delicious chicken sandwich, it is said the proceeds from this treat helps criminalize disarming people on the space frontier.
+  description: Un délicieux sandwich au poulet, on dit que les revenus de cette friandise aident à criminialiser le fait de désarmer les gens à la frontière de l'espace.
   components:
   - type: FlavorProfile
     flavors:
@@ -497,8 +497,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerClown
-  name: clown burger
-  description: This tastes funny...
+  name: burger clown
+  description: Ça a un drôle de goût...
   components:
   - type: Item
     storedOffset: 0,1
@@ -532,7 +532,7 @@
   name: corger #not curger
   parent: FoodBurgerBase
   id: FoodBurgerCorgi
-  description: The Head of Personnel's favorite!
+  description: Le favori du Chef du Personnel!
   components:
   - type: FlavorProfile
     flavors:
@@ -560,10 +560,10 @@
       - state: dog-inhand-right
 
 - type: entity
-  name: crab burger
+  name: burger crabe
   parent: FoodBurgerBase
   id: FoodBurgerCrab
-  description: A delicious patty of the crabby kind, slapped in between a bun.
+  description: Un délicieux steak de crabe, placé entre deux pains.
   components:
   - type: FlavorProfile
     flavors:
@@ -603,8 +603,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerCrazy
-  name: crazy hamburger # Burger for you euro-cucks
-  description: This looks like the sort of food that a demented clown in a trenchcoat would make.
+  name: hamburger fou # Burger for you euro-cucks
+  description: Cela ressemble au genre de nourriture qu'un clown taré dans un imper ferait.
   components:
   - type: Item
     size: Normal
@@ -646,8 +646,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerDuck
-  name: duck sandwich # Burger for you sick bastards
-  description: A duck sandwich, only the criminally insane would dare to eat the meat of such an adorable creature.
+  name: sandwich canard # Burger for you sick bastards
+  description: Un sandwich au canard, seuls les criminellement fou oseraient manger la viande d'une si adorable créature.
   components:
   - type: Item
     storedOffset: 0,1
@@ -689,8 +689,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerEmpowered
-  name: empowered burger
-  description: It's shockingly good, if you live off of electricity that is.
+  name: burger surpuissant
+  description: C'est électrisant bon, si vous vivez d'électricité.
   components:
   - type: Item
     storedOffset: -2,1
@@ -719,8 +719,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerCarp
-  name: fillet-o-carp burger
-  description: Almost like a carp is yelling somewhere...
+  name: burger filet-o-carpe
+  description: Presque comme si une carpe criait quelque part...
   components:
   - type: Item
     storedOffset: 0,1
@@ -751,8 +751,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerFive
-  name: five alarm burger
-  description: HOT! HOT! HOT!
+  name: burger cinq alarmes
+  description: CHAUD ! CHAUD ! CHAUD !
   components:
   - type: Item
     size: Normal
@@ -792,8 +792,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerGhost
-  name: ghost burger
-  description: Too spooky!
+  name: burger fantôme
+  description: Trop effrayant !
   components:
   - type: Item
     size: Normal
@@ -837,10 +837,10 @@
 # Tastes like bun, ectoplasm.
 
 - type: entity
-  name: human burger
+  name: burger humain
   parent: FoodBurgerBase
   id: FoodBurgerHuman
-  description: You cant tell who this is made of...
+  description: On ne peut pas dire de quoi c'est fait...
   components:
   - type: FlavorProfile
     flavors:
@@ -872,8 +872,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerMcguffin
-  name: McGuffin
-  description: A cheap and greasy imitation of an eggs Benedict.
+  name: MacGuffin
+  description: Une imitation bon marché et grasse des œufs Bénédicte.
   components:
   - type: Item
     storedOffset: 0,1
@@ -914,8 +914,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerMcrib
-  name: BBQ Rib Sandwich
-  description: An elusive rib shaped burger with limited availability across the galaxy. Not as good as you remember it.
+  name: Sandwich Côtes BBQ
+  description: Un sandwich en forme de côtes avec une disponibilité limitée à travers la galaxie. Pas aussi bon que vous vous en souvenez.
   components:
   - type: Edible
     trash:
@@ -959,10 +959,10 @@
 # Tastes like bun, pork patty.
 
 - type: entity
-  name: mime burger
+  name: burger mime
   parent: FoodBurgerBase
   id: FoodBurgerMime
-  description: Its taste defies language.
+  description: Son goût défie la langue.
   components:
   - type: FlavorProfile
     flavors:
@@ -992,10 +992,10 @@
 # Tastes like  .
 
 - type: entity
-  name: plain burger
+  name: burger nature
   parent: FoodBurgerBase
   id: FoodBurgerPlain
-  description: A boring, dry burger.
+  description: Un burger ennuyeux et sec.
   components:
   - type: FlavorProfile
     flavors:
@@ -1025,10 +1025,10 @@
       - state: plain-inhand-right
 
 - type: entity
-  name: rat burger
+  name: burger rat
   parent: FoodBurgerBase
   id: FoodBurgerRat
-  description: Pretty much what you'd expect...
+  description: À peu près ce à quoi vous vous attendiez...
   components:
   - type: FlavorProfile
     flavors:
@@ -1065,7 +1065,7 @@
   name: roburger
   parent: FoodBurgerBase
   id: FoodBurgerRobot
-  description: The lettuce is the only organic component. Beep.
+  description: La laitue est le seul composant organique. Bip.
   components:
   - type: FlavorProfile
     flavors:
@@ -1107,8 +1107,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerSoy
-  name: soylent burger
-  description: After eating this you have the overwhelming urge to purchase overpriced figurines of superheroes.
+  name: burger au soylent
+  description: Après avoir mangé ceci, vous avez envie irrésistible d'acheter des figurines de super-héros hors de prix.
   components:
   - type: Item
     storedOffset: 0,1
@@ -1147,8 +1147,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerSpell
-  name: spell burger
-  description: This is absolutely Ei Nath.
+  name: burger sort
+  description: Ceci est absolument Ei Nath.
   components:
   - type: Item
     size: Normal
@@ -1183,7 +1183,7 @@
   parent: FoodBurgerBase
   id: FoodBurgerSuper
   name: super bite burger
-  description: This is a mountain of a burger. FOOD!
+  description: C'est une montagne de burger. NOURRITURE !
   components:
   - type: Item
     size: Normal
@@ -1221,10 +1221,10 @@
 # Tastes like bun, diabetes.
 
 - type: entity
-  name: tofu burger
+  name: burger tofu
   parent: FoodBurgerBase
   id: FoodBurgerTofu
-  description: What... is that meat?
+  description: Qu'est-ce... que c'est que cette viande?
   components:
   - type: FlavorProfile
     flavors:
@@ -1260,10 +1260,10 @@
 # Tastes like bun, tofu.
 
 - type: entity
-  name: xenoburger
+  name: xénoburger
   parent: FoodBurgerBase
   id: FoodBurgerXeno
-  description: Smells caustic. Tastes like heresy.
+  description: Sent l'acide. Sent comme de l'hérésie.
   components:
   - type: FlavorProfile
     flavors:
@@ -1308,8 +1308,8 @@
 - type: entity
   parent: FoodBurgerBase
   id: FoodBurgerMothRoach
-  name: mothroachburger
-  description: The last lamp it saw was the one inside the microwave.
+  name: burger mitard
+  description: La dernière lampe qu'elle ait vue était celle à l'intérieur du micro-ondes.
   components:
   - type: Item
     shape:
@@ -1343,10 +1343,10 @@
 
 ## Goobstation
 - type: entity
-  name: nothing burger
+  name: burger rien
   parent: FoodBurgerBase
   id: FoodBurgerChud
-  description: A burger for when nothing happens.
+  description: Un burger pour quand rien ne se passe.
   components:
   - type: FlavorProfile
     flavors:
@@ -1372,8 +1372,8 @@
 
 - type: entity
   parent: FoodBurgerBase
-  name: mothroachburger
-  description: The last lamp it saw was the one inside the microwave.
+  name: burger mitard
+  description: La dernière lampe qu'elle ait vue était celle à l'intérieur du micro-ondes.
   id: FoodBurgerMustard
   components:
   - type: FlavorProfile

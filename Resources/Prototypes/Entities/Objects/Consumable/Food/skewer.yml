@@ -5,8 +5,8 @@
 - type: entity
   parent: BaseItem
   id: FoodKebabSkewer
-  name: skewer
-  description: A thin rod of metal used to skewer just about anything and cook it.
+  name: brochette
+  description: Une fine tige de métal utilisée pour embrocher pratiquement n'importe quoi et le faire cuire.
   components:
   - type: Item
     shape:
