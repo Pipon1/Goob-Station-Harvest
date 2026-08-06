@@ -7,7 +7,7 @@ namespace Content.Shared.Sprite;
 /// Used to set the <see cref="Robust.Client.GameObjects.SpriteComponent.Scale"/> datafield to a certain value from the server.
 /// </summary>
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-[Access(typeof(SharedScaleVisualsSystem))]
+[Access(typeof(SharedScaleVisualsSystem), Other = AccessPermissions.ReadWriteExecute)]
 public sealed partial class ScaleVisualsComponent : Component
 {
     /// <summary>
@@ -16,6 +16,34 @@ public sealed partial class ScaleVisualsComponent : Component
     [DataField, AutoNetworkedField]
     [ViewVariables]
     public Vector2 Scale = Vector2.One;
+
+    /// <summary>
+    /// VV proxy for editing the X component of Scale.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    public float ScaleX
+    {
+        get => Scale.X;
+        set
+        {
+            var sys = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<SharedScaleVisualsSystem>();
+            sys.SetSpriteScale(Owner, new Vector2(value, Scale.Y));
+        }
+    }
+
+    /// <summary>
+    /// VV proxy for editing the Y component of Scale.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    public float ScaleY
+    {
+        get => Scale.Y;
+        set
+        {
+            var sys = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<SharedScaleVisualsSystem>();
+            sys.SetSpriteScale(Owner, new Vector2(Scale.X, value));
+        }
+    }
 
     /// <summary>
     /// The original sprite scale, which we revert to if this component is removed.

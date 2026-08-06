@@ -10,11 +10,54 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Mobs.Components;
 
 [RegisterComponent, NetworkedComponent]
-[Access(typeof(MobThresholdSystem))]
+[Access(typeof(MobThresholdSystem), Other = AccessPermissions.ReadWriteExecute)]
 public sealed partial class MobThresholdsComponent : Component
 {
     [DataField("thresholds", required: true)]
     public SortedDictionary<FixedPoint2, MobState> Thresholds = new();
+
+    /// <summary>
+    /// VV proxy for the Critical threshold.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    public FixedPoint2 CritThreshold
+    {
+        get => GetThreshold(MobState.Critical);
+        set => SetThreshold(MobState.Critical, value);
+    }
+
+    /// <summary>
+    /// VV proxy for the Dead (max health) threshold.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    public FixedPoint2 DeadThreshold
+    {
+        get => GetThreshold(MobState.Dead);
+        set => SetThreshold(MobState.Dead, value);
+    }
+
+    private FixedPoint2 GetThreshold(MobState state)
+    {
+        foreach (var (threshold, mobState) in Thresholds)
+        {
+            if (mobState == state)
+                return threshold;
+        }
+        return FixedPoint2.Zero;
+    }
+
+    private void SetThreshold(MobState state, FixedPoint2 value)
+    {
+        var toRemove = new List<FixedPoint2>();
+        foreach (var (threshold, mobState) in Thresholds)
+        {
+            if (mobState == state)
+                toRemove.Add(threshold);
+        }
+        foreach (var key in toRemove)
+            Thresholds.Remove(key);
+        Thresholds[value] = state;
+    }
 
     [DataField("triggersAlerts")]
     public bool TriggersAlerts = true;
