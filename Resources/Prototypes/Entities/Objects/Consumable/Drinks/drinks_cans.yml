@@ -42,8 +42,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkColaCan
-  name: Space Cola can
-  description: A sweet, carbonated soft drink.
+  name: canette de Space Cola
+  description: Une boisson gazeuse sucrée et douce.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -82,8 +82,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkIcedTeaCan
-  name: iced tea can
-  description: A refreshing can of iced tea.
+  name: canette de thé glacé
+  description: Une canette rafraîchissante de thé glacé.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkLemonLimeCan
-  name: Smite can
-  description: You wanted ORANGE. It gave you Lemon-Lime.
+  name: canette de Smite
+  description: Vous vouliez ORANGE. Ça vous a donné Citron-Citron vert.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -120,8 +120,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkLemonLimeCranberryCan
-  name: Smite Cranberry can
-  description: Y'all want a Smite Cranberry? Beloved by administrators everywhere. Drink in moderation. A limited run for the holidays!
+  name: canette de Smite Cranberry
+  description: Vous voulez une Smite Cranberry ? Adorée des administrateurs partout. À boire avec modération. Une série limitée pour les vacances !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -172,8 +172,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkGrapeCan
-  name: grape soda can
-  description: Sweetened drink with a grape flavor and a deep purple color.
+  name: canette de soda raisin
+  description: Boisson sucrée avec une saveur de raisin et une couleur violette foncée.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -191,8 +191,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkRootBeerCan
-  name: root beer can
-  description: Some of that tasty root beer goodness, now in a portable can!
+  name: canette de bière de racine
+  description: Un peu de cette bonne bière de racine savoureuse, maintenant dans une canette portable !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -214,8 +214,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSodaWaterCan
-  name: soda water can
-  description: Soda water. Why not make a scotch and soda?
+  name: canette d'eau gazeuse
+  description: Eau gazeuse. Pourquoi ne pas faire un scotch et un soda ?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -233,8 +233,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceMountainWindCan
-  name: Space Solar Wind can
-  description: Blows right through you like a solar wind.
+  name: canette de Space Solar Wind
+  description: Souffle à travers vous comme un vent solaire.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -252,8 +252,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceUpCan
-  name: Space-Up can
-  description: Tastes like a hull breach in your mouth.
+  name: canette de Space-Up
+  description: Goûte comme une brèche de coque dans votre bouche.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -271,8 +271,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSolDryCan
-  name: Sol Dry can
-  description: Sweet ginger soda from outer space!
+  name: canette de Sol Dry
+  description: Soda au gingembre sucré de l'espace !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -290,8 +290,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkStarkistCan
-  name: Starkist can
-  description: The taste of a star in liquid form. And, a bit of tuna...?
+  name: canette de Starkist
+  description: Le goût d'une étoile sous forme liquide. Et un peu de thon... ?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -309,8 +309,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkTonicWaterCan
-  name: tonic water can
-  description: Quinine tastes funny, but at least it'll keep that Space Malaria away.
+  name: canette d'eau tonique
+  description: La quinine a un goût drôle, mais au moins elle éloignera ce paludisme spatial.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -328,8 +328,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkFourteenLokoCan
-  name: Fourteen Loko can
-  description: The MBO has advised crew members that consumption of Fourteen Loko may result in seizures, blindness, drunkeness, or even death. Please Drink Responsibly.
+  name: canette de Fourteen Loko
+  description: Le MBO a conseillé aux membres de l'équipage que la consommation de Fourteen Loko peut entraîner des convulsions, la cécité, l'ivresse, ou même la mort. Veuillez boire responsablement.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -347,8 +347,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkChangelingStingCan
-  name: Changeling Sting can
-  description: You take a tiny sip and feel a burning sensation...
+  name: canette de Changeling Sting
+  description: Vous prenez une petite gorgée et sentez une sensation de brûlure...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -366,8 +366,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkDrGibbCan
-  name: Dr. Gibb can
-  description: A delicious blend of 42 different flavours.
+  name: canette de Dr. Gibb
+  description: Un mélange délicieux de 42 saveurs différentes.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -385,8 +385,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkNukieCan
-  name: Blood-red Brew can
-  description: A home-brewed drink made from the crazed minds at the Syndicate. Not recommended by doctors.
+  name: canette de Blood-red Brew
+  description: Une boisson maison fabriquée par les esprits fous du Syndicat. Non recommandée par les médecins.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -408,8 +408,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkEnergyDrinkCan
-  name: Red Bool can
-  description: A can of Red Bool, with enough caffeine to kill a horse.
+  name: canette de Red Bool
+  description: Une canette de Red Bool, avec assez de caféine pour tuer un cheval.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -427,8 +427,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkShamblersJuiceCan
-  name: Shambler's Juice can
-  description: ~Shake me up some of that Shambler's Juice!~
+  name: canette de Shambler's Juice
+  description: ~Secouez-moi un peu de ce Shambler's Juice !~
   components:
   - type: SolutionContainerManager
     solutions:
@@ -446,8 +446,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkPwrGameCan
-  name: PWR Game can
-  description: The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to.
+  name: canette de PWR Game
+  description: La seule boisson avec le PWR que les vrais gameurs recherchent. Quand un gameur parle de gamerfuel, c'est littéralement à quoi ils font référence.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -465,8 +465,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkBeerCan
-  name: beer can
-  description: Small joy, big taste, no worries!
+  name: canette de bière
+  description: Petite joie, grand goût, pas de soucis !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -488,8 +488,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkWineCan
-  name: wine can
-  description: Your way to forgetting all worries and having fun!
+  name: canette de vin
+  description: Votre façon d'oublier tous les soucis et de s'amuser !
   components:
   - type: SolutionContainerManager
     solutions:

@@ -7,8 +7,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBaseCup, DrinkVisualsFillOverlay]
   id: DrinkGlass
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: verre métamorphe
+  description: Un verre métamorphe qui se transforme automatiquement en un verre approprié pour la boisson à l'intérieur. Il y a un numéro de brevet poncé sur le fond.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glass_clear.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJar
-  name: jar
-  description: The hipster's cup.
+  name: pot
+  description: La tasse du hipster.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar.rsi
@@ -2240,8 +2240,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated.
+  name: bidon d'eau
+  description: Restez hydraté.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -36,7 +36,7 @@
   parent: [ DrinkBaseMaterialPorcelain, DrinkBaseCup, DrinkVisualsFill ]
   id: DrinkBaseMug
   name: mug
-  description: A mug.
+  description: Un mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGold, DrinkBaseCup]
   id: DrinkGoldenCup
-  name: golden cup
-  description: A golden cup.
+  name: coupe dorée
+  description: Une coupe dorée.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: DrinkBaseMug # a teacup is basically a mug
   id: DrinkTeacupEmpty
-  name: teacup
-  description: A plain white porcelain teacup.
+  name: tasse de thé
+  description: Une simple tasse de thé en porcelaine blanche.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/teacup.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: [ DrinkBaseMaterialGlass, DrinkBaseCup, DrinkVisualsFillOverlay ]
   id: DrinkGlassCoupeShaped
-  name: coupe glass
-  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
+  name: verre coupe
+  description: Un verre coupe au col fin classique, l'icône des étiquettes fragiles sur les caisses à travers la galaxie.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glass_coupe_shape.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: [DrinkBaseMaterialCardboard, DrinkBaseCup, DrinkBaseEmptyTrash, DrinkVisualsFill]
   id: DrinkWaterCup
-  name: water cup
-  description: A paper water cup.
+  name: gobelet d'eau
+  description: Un gobelet d'eau en papier.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -119,8 +119,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMug
-  name: mug
-  description: A plain white mug.
+  name: tasse
+  description: Une tasse blanche ordinaire.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugBlack
-  name: black mug
-  description: A sleek black mug.
+  name: tasse noire
+  description: Une tasse noire élégante.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_black.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugBlue
-  name: blue mug
-  description: A blue and black mug.
+  name: tasse bleue
+  description: Une tasse bleu et noir.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_blue.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugGreen
-  name: green mug
-  description: A pale green and pink mug.
+  name: tasse verte
+  description: Une tasse vert pâle et rose.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_green.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugDog
-  name: funny dog mug
-  description: It looks like a cartoon beagle.
+  name: tasse chien rigolo
+  description: Ça ressemble à un beagle de dessin animé.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_dog.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugHeart
-  name: heart mug
-  description: A white mug, it prominently features a red heart.
+  name: tasse coeur
+  description: Une tasse blanche, elle présente bien en évidence un coeur rouge.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_heart.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBaseMug]
   id: DrinkMugMetal
-  name: metal mug
-  description: A metal mug. You're not sure which metal.
+  name: tasse métallique
+  description: Une tasse métallique. Vous n'êtes pas sûr quel métal.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_metal.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugMoebius
-  name: moebius mug
-  description: A mug with a Moebius Laboratories logo on it. Not even your morning coffee is safe from corporate advertising.
+  name: tasse Moebius
+  description: Une tasse avec un logo Moebius Laboratories dessus. Même votre café du matin n'est pas à l'abri de la publicité corporatiste.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_moebius.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugOne
-  name: "#1 mug"
-  description: "A white mug, it prominently features a #1."
+  name: tasse "#1"
+  description: "Une tasse blanche, elle présente bien en évidence un #1."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_one.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugRainbow
-  name: rainbow mug
-  description: A rainbow mug. The colors are almost as blinding as a welder.
+  name: tasse arc-en-ciel
+  description: Une tasse arc-en-ciel. Les couleurs sont presque aussi aveuglantes qu'un soudeur.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugRed
-  name: red mug
-  description: A red and black mug.
+  name: tasse rouge
+  description: Une tasse rouge et noir.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_red.rsi
@@ -223,9 +223,9 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkHotCoco
-  name: hot chocolate
+  name: chocolat chaud
   suffix: Full
-  description: A heated drink consisting melted chocolate and heated milk.
+  description: Une boisson chauffée composée de chocolat fondu et de lait chauffé.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -247,9 +247,9 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkHotCoffee
-  name: coffee
+  name: café
   suffix: Full
-  description: Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant.
+  description: Le café est une boisson infusée préparée à partir de graines rôties, communément appelées grains de café, de la plante de café.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -271,9 +271,9 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkCafeLatte
-  name: cafe latte
+  name: café latte
   suffix: Full
-  description: A nice, strong and tasty beverage while you are reading.
+  description: Une agréable boisson forte et savoureuse pendant que vous lisez.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -299,7 +299,7 @@
 - type: entity
   parent: DrinkTeacupEmpty
   id: DrinkTeacup
-  name: tea
+  name: thé
   components:
   - type: SolutionContainerManager
     solutions:
@@ -316,7 +316,7 @@
 - type: entity
   parent: DrinkTeacupEmpty
   id: DrinkGreenTea
-  name: green tea
+  name: thé vert
   components:
   - type: SolutionContainerManager
     solutions:
@@ -334,8 +334,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkBaseCup]
   id: DrinkLean
-  name: grape juice
-  description: Damn, no fun allowed.
+  name: jus de raisin
+  description: Merde, no fun autorisé.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -3,8 +3,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase, DrinkVisualsFillOverlay]
   id: DrinkShotGlass
-  name: shot glass
-  description: Perfect for slamming down onto the table angrily.
+  name: verre à shot
+  description: Parfait pour claquer sur la table avec colère.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -23,8 +23,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkIceBucket
-  name: ice bucket
-  description: A special bucket of refreshy ice. Prohibited use for challenge with the same name!
+  name: seau à glace
+  description: Un seau spécial de glaçons rafraîchissants. Utilisation interdite pour le défi !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -42,8 +42,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: théière  # short and stout
+  description: Une théière élégante. Ça suinte la classe.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -113,7 +113,7 @@
   parent: [DrinkBaseMaterialStrongMetal, DrinkBase]
   id: DrinkShaker
   name: shaker
-  description: The trusty mixing buddy of the bartender.
+  description: Le fidèle compagnon de mélange du barman.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -140,8 +140,8 @@
 - type: entity
   parent: DrinkShaker
   id: DrinkShakerGold
-  name: golden shaker
-  description: A gold-plated shaker given as a token of appreciation for years of service. It doesn't make the drinks taste any different.
+  name: shaker doré
+  description: Un shaker plaqué or offert en témoignage d'appreciation pour des années de service. Cela ne change pas le goût des boissons.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shaker_gold.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkJigger
-  name: jigger
-  description: Like a shaker, but smaller. Used to control the amount of ingredients.
+  name: doseur
+  description: Comme un shaker, mais plus petit. Utilisé pour contrôler la quantité d'ingrédients.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -181,8 +181,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, DrinkBase, DrinkVisualsFill]
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: pichet métallique
+  description: Un pichet isolé en acier inoxydable. Le meilleur ami de tout le monde le matin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -212,7 +212,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeBlue
-  name: blue milkshake
+  name: milkshake bleu
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-blue.rsi
@@ -244,16 +244,16 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeWhite
-  name: white shake
+  name: milkshake blanc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-white.rsi
 
 - type: entity
-  name: bluespace shaker
+  name: shaker bluespace
   parent: DrinkShaker
   id: DrinkShakerBluespace
-  description: Mass-Mixing made easy!
+  description: Mélange en masse facile !
   components:
   - type: SolutionContainerManager
     solutions:

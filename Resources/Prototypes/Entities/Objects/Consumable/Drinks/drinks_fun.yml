@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceGlue
-  name: space glue tube
-  description: High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
+  name: tube de colle spatiale
+  description: Colle haute performance destinée à l'entretien d'équipements mécaniques extrêmement complexes. NE PAS BOIRE !
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glue-tube.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceLube
-  name: space lube tube
-  description: High performance lubricant intended for maintenance of extremely complex mechanical equipment.
+  name: tube de lubrifiant spatial
+  description: Lubrifiant haute performance destiné à l'entretien d'équipements mécaniques extrêmement complexes.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lube-tube.rsi
@@ -63,9 +63,9 @@
 - type: entity
   parent: BluespaceBeaker
   id: BottomlessLube
-  name: bottomless lube beaker
+  name: bécher de lubrifiant sans fond
   suffix: DEBUG
-  description: This anomalous beaker infinitely produces space lube and as such is to be closely guarded such that it doesn't fall in the wrong hands.
+  description: Ce bécher anormal produit infiniment du lubrifiant spatial et doit donc être étroitement gardé pour qu'il ne tombe pas entre les mauvaises mains.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -84,8 +84,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase]
   id: DrinkJarWhat
-  name: jar of something
-  description: You can't really tell what this is.
+  name: pot de quelque chose
+  description: Vous ne pouvez vraiment pas dire ce que c'est.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar_what.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkMopwataBottleRandom
-  name: delicious mopwata
-  description: A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
+  name: délicieuse mopwata
+  description: Une bouteille marron embrumée avec une étiquette décolorée dépeignant une serpillière. Elle est remplie d'une eau... trouble.
   components:
   - type: SolutionContainerManager
     solutions:

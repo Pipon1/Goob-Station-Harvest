@@ -48,8 +48,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: CustomDrinkJug
-  name: beverage jug
-  description: A jug for storing custom made drinks.
+  name: bidon de boisson
+  description: Un bidon pour stocker des boissons faites sur mesure.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -61,8 +61,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticSmallBaseFull]
   id: DrinkWaterBottleFull
-  name: water bottle
-  description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
+  name: bouteille d'eau
+  description: Simple eau propre d'origine inconnue. Vous vous dites que peut-être vous ne voulez pas la connaître.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -84,8 +84,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkColaBottleFull
-  name: Space Cola bottle
-  description: Cola. In spaaace!
+  name: bouteille de Space Cola
+  description: Cola. Dans l'espace !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceMountainWindBottleFull
-  name: Space Solar Wind bottle
-  description: Blows right through you like a solar wind.
+  name: bouteille de Space Solar Wind
+  description: Souffle à travers vous comme un vent solaire.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -118,8 +118,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceUpBottleFull
-  name: Space-Up bottle
-  description: Tastes like a hull breach in your mouth.
+  name: bouteille de Space-Up
+  description: Goût comme une brèche de coque dans votre bouche.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -135,8 +135,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkSodaWaterBottleFull
-  name: soda water bottle
-  description: Like water, but angry!
+  name: bouteille d'eau gazeuse
+  description: Comme de l'eau, mais en colère !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -153,8 +153,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
   id: DrinkTonicWaterBottleFull
-  name: tonic water bottle
-  description: Like soda water, but angrier maybe? Often sweeter.
+  name: bouteille d'eau tonique
+  description: Comme de l'eau gazeuse, mais peut-être plus en colère ? Souvent plus sucré.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkEnergyDrinkJug
-  name: Red Bool jug
-  description: A jug of Red Bool, with enough caffeine to kill a whole station.
+  name: bidon de Red Bool
+  description: Un bidon de Red Bool, avec assez de caféine pour tuer toute une station.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -191,9 +191,9 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkSugarJug
-  name: sugar jug
+  name: bidon de sucre
   suffix: For Drinks, Full
-  description: Some people put this in their coffee...
+  description: Certaines personnes mettent ceci dans leur café...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -209,8 +209,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkLemonLimeJug
-  name: Smite jug
-  description: A dual citrus sensation.
+  name: bidon de Smite
+  description: Une sensation d'agrumes double.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -226,8 +226,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkMeadJug
-  name: mead jug
-  description: Storing mead in a plastic jug should be a crime.
+  name: bidon d'hydromel
+  description: Stocker l'hydromel dans un bidon en plastique devrait être un crime.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -243,8 +243,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkIceJug
-  name: ice jug
-  description: Stubborn water. Pretty cool.
+  name: bidon de glaçons
+  description: Eau têtue. Plutôt cool.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -260,8 +260,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCoconutWaterJug
-  name: coconut water jug
-  description: It's on the inside of the coconut that counts.
+  name: bidon d'eau de noix de coco
+  description: C'est l'intérieur de la noix de coco qui compte.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -277,8 +277,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCoffeeJug
-  name: coffee jug
-  description: Wake up juice, of the heated kind.
+  name: bidon de café
+  description: Jus de réveil, du genre chauffé.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -294,8 +294,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkTeaJug
-  name: tea jug
-  description: The drink of choice for the Bri'ish and hipsters.
+  name: bidon de thé
+  description: La boisson de choix pour les Anglais et les hipsters.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -311,8 +311,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkGreenTeaJug
-  name: green tea jug
-  description: It's like tea... but green! great for settling the stomach.
+  name: bidon de thé vert
+  description: C'est comme du thé... mais vert ! Excellent pour calmer l'estomac.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -328,8 +328,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkIcedTeaJug
-  name: iced tea jug
-  description: For when the regular tea is too hot for you. Boohoo.
+  name: bidon de thé glacé
+  description: Pour quand le thé ordinaire est trop chaud pour vous. Bouhou.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -345,8 +345,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkDrGibbJug
-  name: Dr. Gibb jug
-  description: 42 different flavours... in a jug!
+  name: bidon de Dr. Gibb
+  description: 42 saveurs différentes... dans un bidon !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -362,8 +362,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkRootBeerJug
-  name: root beer jug
-  description: This drink makes Australians giggle.
+  name: bidon de bière de racine
+  description: Cette boisson fait rire les Australiens.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -379,8 +379,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkWaterMelonJuiceJug
-  name: watermelon juice jug
-  description: May include leftover seeds.
+  name: bidon de jus de pastèque
+  description: Peut inclure des graines résiduelles.
   components:
   - type: SolutionContainerManager
     solutions:
