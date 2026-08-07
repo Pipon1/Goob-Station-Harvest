@@ -116,6 +116,13 @@ public sealed partial class GoobCVars
     public static readonly CVarDef<bool> CloneBiomassEasyMode =
         CVarDef.Create("goob.clone_biomass_easy_mode", false, CVar.SERVER | CVar.SERVER);
 
+    /// <summary>
+    ///     DEBUG Cvar - Should pathfinding be disabled globally. For SpawnAndDirty cause we need the mem.
+    /// </summary>
+    public static readonly CVarDef<bool> DisablePathfinding =
+        CVarDef.Create("goob.disable_pathfinding", false, CVar.SERVER | CVar.SERVERONLY);
+
+
     #region Player Listener
 
     /// <summary>
@@ -690,6 +697,16 @@ public sealed partial class GoobCVars
     /// </summary>
     public static readonly CVarDef<int> ParticleGlobalBudget =
         CVarDef.Create("particles.global_budget", 8000, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    #endregion
+
+    #region Audio Muffle
+
+    /// <summary>
+    /// Enables pathfinding-based audio muffling on grids.
+    /// </summary>
+    public static readonly CVarDef<bool> AudioMufflePathfinding =
+        CVarDef.Create("goob.audio_muffle_pathfinding", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     #endregion
 }

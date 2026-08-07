@@ -63,10 +63,9 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 2, 3 ]
-            Boxer: [ 2, 3 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 3, 5 ]
             #Representatives
-            #BlueShield: [ 1, 1 ]
-            #NanoTrasenRepresentative: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ]
+            NanotrasenRepresentative: [ 1, 1 ]
