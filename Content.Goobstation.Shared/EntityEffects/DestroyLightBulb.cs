@@ -15,34 +15,33 @@ namespace Content.Goobstation.Shared.EntityEffects;
 public readonly record struct BreakLightBulbEvent(EntityUid Target);
 
 [UsedImplicitly]
-public sealed partial class DestroyLightBulb : EntityEffect
+public sealed partial class DestroyLightBulb : EntityEffectBase<DestroyLightBulb>
 {
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class DestroyLightBulbSystem : EntityEffectSystem<MetaDataComponent, DestroyLightBulb>
+{
+    [Dependency] private readonly SharedPointLightSystem _pointLight = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<DestroyLightBulb> args)
     {
-        var entMan = args.EntityManager;
-        var target = args.TargetEntity;
+        var target = entity.Owner;
 
-        // Skip entities immune to extinguishing (e.g. Eternal Darkness light)
-        if (entMan.HasComponent<ExtinguishImmuneComponent>(target))
+        if (HasComp<ExtinguishImmuneComponent>(target))
             return;
 
-        // If the entity is a light bulb itself, break it
-        if (entMan.TryGetComponent<LightBulbComponent>(target, out var bulb))
+        if (TryComp<LightBulbComponent>(target, out var bulb))
         {
             bulb.State = LightBulbState.Broken;
-            entMan.Dirty(target, bulb);
+            Dirty(target, bulb);
             return;
         }
 
-        // If it's a powered light fixture, raise an event so the server can break the bulb
         var ev = new BreakLightBulbEvent(target);
-        entMan.EventBus.RaiseLocalEvent(target, ref ev);
+        RaiseLocalEvent(target, ref ev);
 
-        // Otherwise just disable the point light if present
-        var pointLightSystem = entMan.System<SharedPointLightSystem>();
-        pointLightSystem.SetEnabled(target, false);
+        _pointLight.SetEnabled(target, false);
     }
 }

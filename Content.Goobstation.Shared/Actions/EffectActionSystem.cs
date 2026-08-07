@@ -9,7 +9,7 @@ namespace Content.Goobstation.Shared.Actions;
 
 public sealed partial class EffectActionSystem : EntitySystem
 {
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
 
     public override void Initialize()
     {
@@ -27,7 +27,7 @@ public sealed partial class EffectActionSystem : EntitySystem
         if (ent.Comp.OnPerformed)
         {
             foreach (var effect in ent.Comp.Effects)
-                _effects.Effect(effect, new EntityEffectBaseArgs(args.Performer, EntityManager));
+                _effects.ApplyEffect(args.Performer, effect);
         }
     }
 
@@ -37,7 +37,7 @@ public sealed partial class EffectActionSystem : EntitySystem
             return;
 
         foreach (var effect in comp.Effects)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.Performer, EntityManager));
+            _effects.ApplyEffect(args.Performer, effect);
         args.Handled = true;
     }
 
@@ -47,7 +47,7 @@ public sealed partial class EffectActionSystem : EntitySystem
             return;
 
         foreach (var effect in comp.Effects)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.Target, EntityManager));
+            _effects.ApplyEffect(args.Target, effect);
         args.Handled = true;
     }
 
@@ -83,7 +83,7 @@ public sealed partial class EffectActionSystem : EntitySystem
                 return;
 
             foreach (var effect in onEffects)
-                _effects.Effect(effect, new EntityEffectBaseArgs(args.Performer, EntityManager));
+                _effects.ApplyEffect(args.Performer, effect);
             return;
         }
 
@@ -91,6 +91,6 @@ public sealed partial class EffectActionSystem : EntitySystem
             return;
 
         foreach (var effect in offToggleEffects)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.Performer, EntityManager));
+            _effects.ApplyEffect(args.Performer, effect);
     }
 }

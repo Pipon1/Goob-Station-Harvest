@@ -16,7 +16,7 @@ public sealed partial class DesecratedDuelSystem : EntitySystem
     [Dependency] private INetManager _net = default!;
     [Dependency] private ArenaCreationSystem _arena = default!;
     [Dependency] private MobStateSystem _mob = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
 
     public override void Initialize()
     {
@@ -90,7 +90,7 @@ public sealed partial class DesecratedDuelSystem : EntitySystem
         if (action.Comp.EndEffects is { } endEffects)
         {
             foreach (var effect in endEffects)
-                _effects.Effect(effect, new EntityEffectBaseArgs(action.Comp.Duelist, EntityManager));
+                _effects.ApplyEffect(action.Comp.Duelist, effect);
         }
 
         // mispredicts happening here sadly

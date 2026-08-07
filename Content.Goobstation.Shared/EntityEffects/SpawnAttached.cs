@@ -7,18 +7,20 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SpawnAttached : EntityEffect
+public sealed partial class SpawnAttached : EntityEffectBase<SpawnAttached>
 {
     [DataField("entity", required: true)]
     public EntProtoId Entity = default!;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SpawnAttachedSystem : EntityEffectSystem<TransformComponent, SpawnAttached>
+{
+    protected override void Effect(Entity<TransformComponent> entity, ref EntityEffectEvent<SpawnAttached> args)
     {
-        var transform = args.EntityManager.GetComponent<TransformComponent>(args.TargetEntity);
-        var spawned = args.EntityManager.SpawnAttachedTo(Entity, transform.Coordinates);
-        args.EntityManager.GetComponent<TransformComponent>(spawned).AttachParent(args.TargetEntity);
+        var spawned = EntityManager.SpawnAttachedTo(args.Effect.Entity, entity.Comp.Coordinates);
+        EntityManager.GetComponent<TransformComponent>(spawned).AttachParent(entity.Owner);
     }
 }

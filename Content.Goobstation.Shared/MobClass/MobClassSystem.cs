@@ -18,7 +18,7 @@ public sealed partial class MobClassSystem : EntitySystem
     [Dependency] private IPrototypeManager _proto = default!;
     [Dependency] private ISharedAdminLogManager _admin = default!;
     [Dependency] private SharedUserInterfaceSystem _ui = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private SharedActionsSystem _actions = default!;
     [Dependency] private INetManager _net = default!;
     // NOTE: EntityQuery dependency removed - using EntityManager.TryComp directly to avoid registration issues
@@ -92,7 +92,7 @@ public sealed partial class MobClassSystem : EntitySystem
         if (mobClass.Effects is { } effects)
         {
             foreach (var effect in effects)
-                _effects.Effect(effect, new EntityEffectBaseArgs(ent.Owner, EntityManager));
+                _effects.ApplyEffect(ent.Owner, effect);
         }
 
         var ev = new MobClassSelectedEvent();

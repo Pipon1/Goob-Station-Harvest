@@ -13,7 +13,7 @@ public partial class ActionShadowBoxingSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private ExamineSystemShared _examine = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private MobStateSystem _mob = default!;
 
     public override void Initialize()
@@ -54,7 +54,7 @@ public partial class ActionShadowBoxingSystem : EntitySystem
             if (_mob.IsAlive(target))
             {
                 foreach (var effect in comp.TargetEffects)
-                    _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                    _effects.ApplyEffect(target, effect);
             }
         }
     }

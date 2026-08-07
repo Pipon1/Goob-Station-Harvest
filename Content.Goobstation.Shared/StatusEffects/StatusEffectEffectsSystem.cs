@@ -16,7 +16,7 @@ namespace Content.Goobstation.Shared.StatusEffects;
 public sealed partial class StatusEffectEffectsSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private INetManager _net = default!;
 
     public override void Update(float frameTime)
@@ -40,7 +40,7 @@ public sealed partial class StatusEffectEffectsSystem : EntitySystem
                 continue;
 
             foreach (var effect in effectsComp.Effects)
-                _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                _effects.TryApplyEffect(target, effect);
         }
     }
 

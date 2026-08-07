@@ -21,7 +21,7 @@ namespace Content.Goobstation.Shared.Vampires;
 public sealed partial class VampireGlareSystem : EntitySystem
 {
     [Dependency] private EntityLookupSystem _lookup = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     // NOTE: EntityQuery dependencies removed - using EntityManager.HasComp/TryComp directly to avoid registration issues
@@ -82,7 +82,7 @@ public sealed partial class VampireGlareSystem : EntitySystem
                 if (sideEffects is { })
                 {
                     foreach (var effect in sideEffects)
-                        _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                        _effects.ApplyEffect(target, effect);
                 }
                 continue;
             }
@@ -95,7 +95,7 @@ public sealed partial class VampireGlareSystem : EntitySystem
                     if (behindEffects is { })
                     {
                         foreach (var effect in behindEffects)
-                            _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                            _effects.ApplyEffect(target, effect);
                     }
                     break;
                 }
@@ -104,7 +104,7 @@ public sealed partial class VampireGlareSystem : EntitySystem
                     if (sideEffects is { })
                     {
                         foreach (var effect in sideEffects)
-                            _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                            _effects.ApplyEffect(target, effect);
                     }
                     break;
                 }
@@ -113,7 +113,7 @@ public sealed partial class VampireGlareSystem : EntitySystem
                     if (frontEffects is { })
                     {
                         foreach (var effect in frontEffects)
-                            _effects.Effect(effect, new EntityEffectBaseArgs(target, EntityManager));
+                            _effects.ApplyEffect(target, effect);
                     }
                     break;
                 }

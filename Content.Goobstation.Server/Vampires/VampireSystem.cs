@@ -6,6 +6,7 @@ using Content.Server.Antag;
 using Content.Server.GameTicking.Rules;
 using Content.Server.Mind;
 using Content.Server.Zombies;
+using Content.Shared.Zombies;
 using Content.Shared.Actions;
 using Content.Shared.Alert;
 using Content.Shared.NPC.Systems;

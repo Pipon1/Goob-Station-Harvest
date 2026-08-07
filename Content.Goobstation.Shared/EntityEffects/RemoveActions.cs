@@ -10,33 +10,37 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class RemoveActions : EntityEffect
+public sealed partial class RemoveActions : EntityEffectBase<RemoveActions>
 {
     [DataField(required: true)]
     public List<EntProtoId> Actions = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RemoveActionsSystem : EntityEffectSystem<ActionsComponent, RemoveActions>
+{
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
+
+    protected override void Effect(Entity<ActionsComponent> entity, ref EntityEffectEvent<RemoveActions> args)
     {
-        if (!args.EntityManager.TryGetComponent<ActionsComponent>(args.TargetEntity, out var actionsComp))
-            return;
-
-        var actionsSystem = args.EntityManager.System<SharedActionsSystem>();
-
-        foreach (var actionEnt in actionsComp.Actions.ToList())
+        foreach (var actionEnt in entity.Comp.Actions.ToList())
         {
-            if (!args.EntityManager.TryGetComponent<ActionComponent>(actionEnt, out var actionComponent))
+            if (!TryComp<ActionComponent>(actionEnt, out var actionComponent))
                 continue;
 
-            var meta = args.EntityManager.GetComponent<MetaDataComponent>(actionEnt);
+            var meta = EntityManager.GetComponent<MetaDataComponent>(actionEnt);
             if (meta.EntityPrototype == null)
                 continue;
 
-            if (Actions.Contains(meta.EntityPrototype.ID))
+            foreach (var actionProto in args.Effect.Actions)
             {
-                actionsSystem.RemoveAction((actionEnt, actionComponent));
+                if (actionProto != meta.EntityPrototype.ID)
+                    continue;
+
+                _actions.RemoveAction((actionEnt, actionComponent));
+                break;
             }
         }
     }

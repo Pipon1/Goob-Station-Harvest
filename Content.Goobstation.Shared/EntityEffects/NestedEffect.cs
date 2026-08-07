@@ -7,23 +7,25 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class NestedEffect : EntityEffect
+public sealed partial class NestedEffect : EntityEffectBase<NestedEffect>
 {
     [DataField("proto", required: true)]
     public ProtoId<EntityEffectPrototype> Proto = default!;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class NestedEffectSystem : EntityEffectSystem<MetaDataComponent, NestedEffect>
+{
+    [Dependency] private readonly IPrototypeManager _proto = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<NestedEffect> args)
     {
-        var protoManager = IoCManager.Resolve<IPrototypeManager>();
-        if (!protoManager.TryIndex(Proto, out var effectProto))
+        if (!_proto.TryIndex(args.Effect.Proto, out var effectProto))
             return;
 
-        foreach (var effect in effectProto.Effects)
-        {
-            effect.Effect(args);
-        }
+        _entityEffects.ApplyEffects(entity.Owner, effectProto.Effects, args.Scale, args.User);
     }
 }

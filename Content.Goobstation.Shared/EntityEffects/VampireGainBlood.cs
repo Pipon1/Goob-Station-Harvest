@@ -12,7 +12,7 @@ namespace Content.Goobstation.Shared.EntityEffects;
 /// Used as a metabolism effect when vampires ingest blood reagents.
 /// </summary>
 [UsedImplicitly]
-public sealed partial class VampireGainBlood : EntityEffect
+public sealed partial class VampireGainBlood : EntityEffectBase<VampireGainBlood>
 {
     /// <summary>
     /// How much vampire blood is gained per metabolism tick.
@@ -20,15 +20,16 @@ public sealed partial class VampireGainBlood : EntityEffect
     [DataField]
     public int Amount = 5;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class VampireGainBloodSystem : EntityEffectSystem<VampireComponent, VampireGainBlood>
+{
+    [Dependency] private readonly SharedVampireSystem _vampire = default!;
+
+    protected override void Effect(Entity<VampireComponent> entity, ref EntityEffectEvent<VampireGainBlood> args)
     {
-        if (!args.EntityManager.HasComponent<VampireComponent>(args.TargetEntity))
-            return;
-
-        var vampireSystem = args.EntityManager.System<SharedVampireSystem>();
-        vampireSystem.AdjustBlood(args.TargetEntity, Amount);
+        _vampire.AdjustBlood(entity.Owner, args.Effect.Amount);
     }
 }

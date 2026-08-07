@@ -11,7 +11,7 @@ namespace Content.Goobstation.Shared.EntityEffects;
 /// For an entity with an inventory, applies an effect to all items in the inventory within specific <see cref="SlotFlags"/>.
 /// </summary>
 [UsedImplicitly]
-public sealed partial class RelayInventory : EntityEffect
+public sealed partial class RelayInventory : EntityEffectBase<RelayInventory>
 {
     /// <summary>
     /// Effect to apply to the items.
@@ -25,19 +25,20 @@ public sealed partial class RelayInventory : EntityEffect
     [DataField]
     public SlotFlags SlotFlags = SlotFlags.NONE;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RelayInventorySystem : EntityEffectSystem<InventoryComponent, RelayInventory>
+{
+    [Dependency] private readonly InventorySystem _inventory = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<InventoryComponent> entity, ref EntityEffectEvent<RelayInventory> args)
     {
-        if (!args.EntityManager.TryGetComponent<InventoryComponent>(args.TargetEntity, out var inventory))
-            return;
-
-        var inventorySystem = args.EntityManager.System<InventorySystem>();
-
-        inventorySystem.TryGetContainerSlotEnumerator((args.TargetEntity, inventory), out var enumerator, SlotFlags);
+        _inventory.TryGetContainerSlotEnumerator((entity.Owner, entity.Comp), out var enumerator, args.Effect.SlotFlags);
         while (enumerator.NextItem(out var item))
         {
-            TargetEffect.Effect(new EntityEffectBaseArgs(item, args.EntityManager));
+            _entityEffects.ApplyEffect(item, args.Effect.TargetEffect, args.Scale, args.User);
         }
     }
 }

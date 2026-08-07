@@ -14,7 +14,7 @@ public enum KnockdownEffectType
 }
 
 [UsedImplicitly]
-public sealed partial class ModifyKnockdown : EntityEffect
+public sealed partial class ModifyKnockdown : EntityEffectBase<ModifyKnockdown>
 {
     [DataField]
     public float? Time;
@@ -22,20 +22,23 @@ public sealed partial class ModifyKnockdown : EntityEffect
     [DataField]
     public KnockdownEffectType Type = KnockdownEffectType.Add;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class ModifyKnockdownSystem : EntityEffectSystem<MetaDataComponent, ModifyKnockdown>
+{
+    [Dependency] private readonly SharedStunSystem _stun = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<ModifyKnockdown> args)
     {
-        var stunSystem = args.EntityManager.System<SharedStunSystem>();
-
-        if (Type == KnockdownEffectType.Remove)
+        if (args.Effect.Type == KnockdownEffectType.Remove)
         {
-            args.EntityManager.RemoveComponent<KnockedDownComponent>(args.TargetEntity);
+            RemComp<KnockedDownComponent>(entity.Owner);
             return;
         }
 
-        if (Time.HasValue)
-            stunSystem.TryKnockdown(args.TargetEntity, TimeSpan.FromSeconds(Time.Value), force: true);
+        if (args.Effect.Time.HasValue)
+            _stun.TryKnockdown(entity.Owner, TimeSpan.FromSeconds(args.Effect.Time.Value), force: true);
     }
 }

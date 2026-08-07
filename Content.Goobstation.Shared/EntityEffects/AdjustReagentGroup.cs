@@ -7,7 +7,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class AdjustReagentGroup : EventEntityEffect<AdjustReagentGroup>
+public sealed partial class AdjustReagentGroup : EntityEffectBase<AdjustReagentGroup>
 {
     [DataField("amount", required: true)]
     public float Amount = 0f;
@@ -15,6 +15,6 @@ public sealed partial class AdjustReagentGroup : EventEntityEffect<AdjustReagent
     [DataField("group", required: true)]
     public string Group = string.Empty;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
 }

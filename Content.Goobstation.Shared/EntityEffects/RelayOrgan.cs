@@ -11,7 +11,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class RelayOrgan : EntityEffect
+public sealed partial class RelayOrgan : EntityEffectBase<RelayOrgan>
 {
     [DataField]
     public string Category = string.Empty;
@@ -19,31 +19,31 @@ public sealed partial class RelayOrgan : EntityEffect
     [DataField("effects", required: true)]
     public List<EntityEffect> Effects = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RelayOrganSystem : EntityEffectSystem<BodyComponent, RelayOrgan>
+{
+    [Dependency] private readonly SharedBodySystem _body = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<BodyComponent> entity, ref EntityEffectEvent<RelayOrgan> args)
     {
-        if (!args.EntityManager.TryGetComponent<BodyComponent>(args.TargetEntity, out var body))
-            return;
-
-        var bodySystem = args.EntityManager.System<SharedBodySystem>();
-
-        foreach (var organ in bodySystem.GetBodyOrgans(args.TargetEntity, body))
+        foreach (var organ in _body.GetBodyOrgans(entity.Owner, entity.Comp))
         {
-            // Check if the organ has the specified category
-            if (!string.IsNullOrEmpty(Category))
+            if (!string.IsNullOrEmpty(args.Effect.Category))
             {
-                if (!args.EntityManager.TryGetComponent<OrganComponent>(organ.Id, out var organComp))
+                if (!TryComp<OrganComponent>(organ.Id, out var organComp))
                     continue;
 
-                if (!organComp.SlotId.Contains(Category, System.StringComparison.InvariantCultureIgnoreCase))
+                if (!organComp.SlotId.Contains(args.Effect.Category, System.StringComparison.InvariantCultureIgnoreCase))
                     continue;
             }
 
-            foreach (var effect in Effects)
+            foreach (var effect in args.Effect.Effects)
             {
-                effect.Effect(new EntityEffectBaseArgs(organ.Id, args.EntityManager));
+                _entityEffects.ApplyEffect(organ.Id, effect, args.Scale, args.User);
             }
         }
     }

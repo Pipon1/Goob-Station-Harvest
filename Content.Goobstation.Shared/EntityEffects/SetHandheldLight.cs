@@ -9,20 +9,21 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SetHandheldLight : EntityEffect
+public sealed partial class SetHandheldLight : EntityEffectBase<SetHandheldLight>
 {
     [DataField]
     public bool Activated = false;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SetHandheldLightSystem : EntityEffectSystem<HandheldLightComponent, SetHandheldLight>
+{
+    [Dependency] private readonly SharedHandheldLightSystem _handheld = default!;
+
+    protected override void Effect(Entity<HandheldLightComponent> entity, ref EntityEffectEvent<SetHandheldLight> args)
     {
-        if (!args.EntityManager.TryGetComponent<HandheldLightComponent>(args.TargetEntity, out var handheld))
-            return;
-
-        var handheldSystem = args.EntityManager.System<SharedHandheldLightSystem>();
-        handheldSystem.SetActivated(args.TargetEntity, Activated, handheld);
+        _handheld.SetActivated(entity.Owner, args.Effect.Activated, entity.Comp);
     }
 }

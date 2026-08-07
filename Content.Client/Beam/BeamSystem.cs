@@ -3,12 +3,14 @@
 using Content.Shared.Beam;
 using Content.Shared.Beam.Components;
 using Robust.Client.GameObjects;
+using Robust.Shared.GameObjects;
 
 namespace Content.Client.Beam;
 
 public sealed class BeamSystem : SharedBeamSystem
 {
     [Dependency] private readonly SpriteSystem _sprite = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
 
     public override void Initialize()
     {
@@ -24,7 +26,9 @@ public sealed class BeamSystem : SharedBeamSystem
 
         if (TryComp<SpriteComponent>(beam, out var sprites))
         {
-            _sprite.SetRotation((beam, sprites), args.UserAngle);
+            // Goobstation: account for beams whose rotation is already part of the transform state.
+            var worldRot = _transform.GetWorldRotation(beam);
+            _sprite.SetRotation((beam, sprites), args.UserAngle - worldRot);
 
             if (args.BodyState != null)
             {

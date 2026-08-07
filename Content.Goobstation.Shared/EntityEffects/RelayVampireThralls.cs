@@ -9,7 +9,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class RelayVampireThralls : EntityEffect
+public sealed partial class RelayVampireThralls : EntityEffectBase<RelayVampireThralls>
 {
     [DataField]
     public float Range = 8f;
@@ -17,23 +17,26 @@ public sealed partial class RelayVampireThralls : EntityEffect
     [DataField("effect", required: true)]
     public EntityEffect RelayEffect = default!;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RelayVampireThrallsSystem : EntityEffectSystem<TransformComponent, RelayVampireThralls>
+{
+    [Dependency] private readonly EntityLookupSystem _lookup = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<TransformComponent> entity, ref EntityEffectEvent<RelayVampireThralls> args)
     {
-        var entityLookup = args.EntityManager.System<EntityLookupSystem>();
-        var transform = args.EntityManager.GetComponent<TransformComponent>(args.TargetEntity);
-
-        foreach (var ent in entityLookup.GetEntitiesInRange(transform.Coordinates, Range))
+        foreach (var ent in _lookup.GetEntitiesInRange(entity.Comp.Coordinates, args.Effect.Range))
         {
-            if (ent == args.TargetEntity)
+            if (ent == entity.Owner)
                 continue;
 
-            if (!args.EntityManager.HasComponent<VampireThrallComponent>(ent))
+            if (!HasComp<VampireThrallComponent>(ent))
                 continue;
 
-            RelayEffect.Effect(new EntityEffectBaseArgs(ent, args.EntityManager));
+            _entityEffects.ApplyEffect(ent, args.Effect.RelayEffect, args.Scale, args.User);
         }
     }
 }

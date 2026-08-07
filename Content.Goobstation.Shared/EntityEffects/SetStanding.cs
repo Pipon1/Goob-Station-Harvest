@@ -8,17 +8,21 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SetStanding : EntityEffect
+public sealed partial class SetStanding : EntityEffectBase<SetStanding>
 {
     [DataField]
     public bool Force = false;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SetStandingSystem : EntityEffectSystem<StandingStateComponent, SetStanding>
+{
+    [Dependency] private readonly StandingStateSystem _standing = default!;
+
+    protected override void Effect(Entity<StandingStateComponent> entity, ref EntityEffectEvent<SetStanding> args)
     {
-        var standingState = args.EntityManager.System<StandingStateSystem>();
-        standingState.Stand(args.TargetEntity);
+        _standing.Stand(entity.Owner);
     }
 }

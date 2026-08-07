@@ -8,19 +8,22 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class ThrowAtFacingDirection : EntityEffect
+public sealed partial class ThrowAtFacingDirection : EntityEffectBase<ThrowAtFacingDirection>
 {
     [DataField]
     public float Speed = 10f;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class ThrowAtFacingDirectionSystem : EntityEffectSystem<TransformComponent, ThrowAtFacingDirection>
+{
+    [Dependency] private readonly ThrowingSystem _throwing = default!;
+
+    protected override void Effect(Entity<TransformComponent> entity, ref EntityEffectEvent<ThrowAtFacingDirection> args)
     {
-        var throwingSystem = args.EntityManager.System<ThrowingSystem>();
-        var transform = args.EntityManager.GetComponent<TransformComponent>(args.TargetEntity);
-        var direction = transform.WorldRotation.ToWorldVec();
-        throwingSystem.TryThrow(args.TargetEntity, direction, Speed);
+        var direction = entity.Comp.WorldRotation.ToWorldVec();
+        _throwing.TryThrow(entity.Owner, direction, args.Effect.Speed);
     }
 }

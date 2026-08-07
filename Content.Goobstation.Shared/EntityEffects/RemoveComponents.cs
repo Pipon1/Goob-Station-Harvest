@@ -7,16 +7,19 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class RemoveComponents : EntityEffect
+public sealed partial class RemoveComponents : EntityEffectBase<RemoveComponents>
 {
     [DataField(required: true)]
     public ComponentRegistry Components = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RemoveComponentsSystem : EntityEffectSystem<MetaDataComponent, RemoveComponents>
+{
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<RemoveComponents> args)
     {
-        args.EntityManager.RemoveComponents(args.TargetEntity, Components);
+        EntityManager.RemoveComponents(entity.Owner, args.Effect.Components);
     }
 }

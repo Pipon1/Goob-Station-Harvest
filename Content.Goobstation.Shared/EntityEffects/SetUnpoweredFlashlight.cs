@@ -8,20 +8,20 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SetUnpoweredFlashlight : EntityEffect
+public sealed partial class SetUnpoweredFlashlight : EntityEffectBase<SetUnpoweredFlashlight>
 {
     [DataField]
     public bool LightOn = false;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SetUnpoweredFlashlightSystem : EntityEffectSystem<UnpoweredFlashlightComponent, SetUnpoweredFlashlight>
+{
+    protected override void Effect(Entity<UnpoweredFlashlightComponent> entity, ref EntityEffectEvent<SetUnpoweredFlashlight> args)
     {
-        if (!args.EntityManager.TryGetComponent<UnpoweredFlashlightComponent>(args.TargetEntity, out var light))
-            return;
-
-        light.LightOn = LightOn;
-        args.EntityManager.Dirty(args.TargetEntity, light);
+        entity.Comp.LightOn = args.Effect.LightOn;
+        Dirty(entity);
     }
 }

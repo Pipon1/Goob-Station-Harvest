@@ -12,7 +12,7 @@ namespace Content.Goobstation.Shared.EntityEffects;
 /// For hands, applies an effect to the entities that the user is holding.
 /// </summary>
 [UsedImplicitly]
-public sealed partial class RelayHands : EntityEffect
+public sealed partial class RelayHands : EntityEffectBase<RelayHands>
 {
     /// <summary>
     /// The effect to apply
@@ -20,18 +20,19 @@ public sealed partial class RelayHands : EntityEffect
     [DataField("effect", required: true)]
     public EntityEffect TargetEffect = default!;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RelayHandsSystem : EntityEffectSystem<HandsComponent, RelayHands>
+{
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<HandsComponent> entity, ref EntityEffectEvent<RelayHands> args)
     {
-        if (!args.EntityManager.TryGetComponent<HandsComponent>(args.TargetEntity, out var hands))
-            return;
-
-        var handsSystem = args.EntityManager.System<SharedHandsSystem>();
-
-        foreach (var item in handsSystem.EnumerateHeld((args.TargetEntity, hands)))
+        foreach (var item in _hands.EnumerateHeld(entity.AsNullable()))
         {
-            TargetEffect.Effect(new EntityEffectBaseArgs(item, args.EntityManager));
+            _entityEffects.ApplyEffect(item, args.Effect.TargetEffect, args.Scale, args.User);
         }
     }
 }

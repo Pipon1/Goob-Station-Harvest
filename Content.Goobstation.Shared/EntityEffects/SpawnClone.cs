@@ -8,11 +8,11 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SpawnClone : EventEntityEffect<SpawnClone>
+public sealed partial class SpawnClone : EntityEffectBase<SpawnClone>
 {
     [DataField]
     public ProtoId<CloningSettingsPrototype> Settings = default!;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
 }

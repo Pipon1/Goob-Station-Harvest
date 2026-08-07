@@ -11,7 +11,7 @@ namespace Content.Goobstation.Shared.Vampires.Umbrae;
 public abstract partial class SharedActionShadowAnchorSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private SharedActionsSystem _action = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
 
@@ -42,7 +42,7 @@ public abstract partial class SharedActionShadowAnchorSystem : EntitySystem
                 if (_action.GetAction(uid) is { } action && action.Comp.AttachedEntity is { } attachedEnt)
                 {
                     foreach (var effect in anchor.EffectsOnFakeRecall)
-                        _effects.Effect(effect, new EntityEffectBaseArgs(attachedEnt, EntityManager));
+                        _effects.ApplyEffect(attachedEnt, effect);
                     SpawnShadowClone(attachedEnt, _transform.GetMapCoordinates(anchorEntity));
                 }
             }

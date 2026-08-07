@@ -8,7 +8,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SpawnEntity : EntityEffect
+public sealed partial class SpawnEntity : EntityEffectBase<SpawnEntity>
 {
     [DataField("entity", required: true)]
     public EntProtoId Entity = default!;
@@ -16,12 +16,14 @@ public sealed partial class SpawnEntity : EntityEffect
     [DataField]
     public bool Predicted = true;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SpawnEntitySystem : EntityEffectSystem<TransformComponent, SpawnEntity>
+{
+    protected override void Effect(Entity<TransformComponent> entity, ref EntityEffectEvent<SpawnEntity> args)
     {
-        var transform = args.EntityManager.GetComponent<TransformComponent>(args.TargetEntity);
-        args.EntityManager.SpawnAttachedTo(Entity, transform.Coordinates);
+        EntityManager.SpawnAttachedTo(args.Effect.Entity, entity.Comp.Coordinates);
     }
 }

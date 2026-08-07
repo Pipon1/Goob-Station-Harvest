@@ -11,7 +11,7 @@ namespace Content.Goobstation.Shared.EntityEffects;
 /// Effect that adjusts vampire blood.
 /// </summary>
 [UsedImplicitly]
-public sealed partial class AdjustVampireBlood : EntityEffect
+public sealed partial class AdjustVampireBlood : EntityEffectBase<AdjustVampireBlood>
 {
     /// <summary>
     /// The amount of blood to add (positive) or remove (negative).
@@ -19,15 +19,15 @@ public sealed partial class AdjustVampireBlood : EntityEffect
     [DataField(required: true)]
     public int Amount;
 
-    /// <inheritdoc/>
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class AdjustVampireBloodSystem : EntityEffectSystem<VampireComponent, AdjustVampireBlood>
+{
+    [Dependency] private readonly SharedVampireSystem _vampire = default!;
+
+    protected override void Effect(Entity<VampireComponent> entity, ref EntityEffectEvent<AdjustVampireBlood> args)
     {
-        if (!args.EntityManager.TryGetComponent<VampireComponent>(args.TargetEntity, out var vampire))
-            return;
-
-        var vampireSystem = args.EntityManager.System<SharedVampireSystem>();
-        vampireSystem.AdjustBlood((args.TargetEntity, vampire), Amount);
+        _vampire.AdjustBlood(entity.AsNullable(), args.Effect.Amount);
     }
 }

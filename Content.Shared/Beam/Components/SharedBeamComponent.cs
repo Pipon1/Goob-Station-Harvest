@@ -53,6 +53,15 @@ public abstract partial class SharedBeamComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadOnly)]
     public uint BeamIndex;
+
+    /// <summary>
+    /// Goobstation
+    /// If true, the beam entity itself will be rotated to the fire angle and the visual sprite rotation
+    /// is applied relative to the entity's world rotation. This makes the beam rotation authoritative in the
+    /// transform state, so the sprite is correctly oriented as soon as the client spawns it.
+    /// </summary>
+    [DataField]
+    public bool UseWorldRotation;
 }
 
 /// <summary>

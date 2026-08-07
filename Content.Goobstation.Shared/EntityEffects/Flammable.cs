@@ -9,25 +9,27 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class Flammable : EntityEffect
+public sealed partial class Flammable : EntityEffectBase<Flammable>
 {
     [DataField]
     public float Multiplier = 1f;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class FlammableSystem : EntityEffectSystem<FlammableComponent, Flammable>
+{
+    protected override void Effect(Entity<FlammableComponent> entity, ref EntityEffectEvent<Flammable> args)
     {
-        if (!args.EntityManager.TryGetComponent<FlammableComponent>(args.TargetEntity, out var flammable))
-            return;
+        var flammable = entity.Comp;
 
-        flammable.FireStacks += Multiplier;
+        flammable.FireStacks += args.Effect.Multiplier;
         flammable.FireStacks = Math.Clamp(flammable.FireStacks, flammable.MinimumFireStacks, flammable.MaximumFireStacks);
 
         if (flammable.FireStacks > 0)
             flammable.OnFire = true;
 
-        args.EntityManager.Dirty(args.TargetEntity, flammable);
+        Dirty(entity);
     }
 }

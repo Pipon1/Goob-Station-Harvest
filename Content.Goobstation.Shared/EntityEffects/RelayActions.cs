@@ -13,7 +13,7 @@ namespace Content.Goobstation.Shared.EntityEffects;
 /// For actions, applies an effect to the action entities that the user has.
 /// </summary>
 [UsedImplicitly]
-public sealed partial class RelayActions : EntityEffect
+public sealed partial class RelayActions : EntityEffectBase<RelayActions>
 {
     /// <summary>
     ///  The effect to apply
@@ -33,22 +33,23 @@ public sealed partial class RelayActions : EntityEffect
     [DataField]
     public EntityWhitelist? Blacklist;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class RelayActionsSystem : EntityEffectSystem<ActionsComponent, RelayActions>
+{
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
+    [Dependency] private readonly EntityWhitelistSystem _whitelist = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _entityEffects = default!;
+
+    protected override void Effect(Entity<ActionsComponent> entity, ref EntityEffectEvent<RelayActions> args)
     {
-        if (!args.EntityManager.TryGetComponent<ActionsComponent>(args.TargetEntity, out var actions))
-            return;
-
-        var actionsSystem = args.EntityManager.System<SharedActionsSystem>();
-        var whitelistSystem = args.EntityManager.System<EntityWhitelistSystem>();
-
-        foreach (var action in actionsSystem.GetActions(args.TargetEntity, actions))
+        foreach (var action in _actions.GetActions(entity.Owner, entity.Comp))
         {
-            if (!whitelistSystem.CheckBoth(action, Whitelist, Blacklist))
+            if (!_whitelist.CheckBoth(action, args.Effect.Whitelist, args.Effect.Blacklist))
                 continue;
 
-            TargetEffect.Effect(new EntityEffectBaseArgs(action, args.EntityManager));
+            _entityEffects.ApplyEffect(action, args.Effect.TargetEffect, args.Scale, args.User);
         }
     }
 }

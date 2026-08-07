@@ -12,7 +12,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class HealthChangeBasedOnDamage : EntityEffect
+public sealed partial class HealthChangeBasedOnDamage : EntityEffectBase<HealthChangeBasedOnDamage>
 {
     [DataField]
     public float MaximumDamage = -50f;
@@ -20,24 +20,26 @@ public sealed partial class HealthChangeBasedOnDamage : EntityEffect
     [DataField]
     public Dictionary<string, float> Damage = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class HealthChangeBasedOnDamageSystem : EntityEffectSystem<DamageableComponent, HealthChangeBasedOnDamage>
+{
+    [Dependency] private readonly DamageableSystem _damageable = default!;
+
+    protected override void Effect(Entity<DamageableComponent> entity, ref EntityEffectEvent<HealthChangeBasedOnDamage> args)
     {
-        if (!args.EntityManager.TryGetComponent<DamageableComponent>(args.TargetEntity, out var damageable))
-            return;
-
         var totalHeal = 0f;
         var dspec = new DamageSpecifier();
-        var maxHeal = MathF.Abs(MaximumDamage);
+        var maxHeal = MathF.Abs(args.Effect.MaximumDamage);
 
-        foreach (var (type, amount) in Damage)
+        foreach (var (type, amount) in args.Effect.Damage)
         {
             if (totalHeal >= maxHeal)
                 break;
 
-            var existing = damageable.Damage.DamageDict.GetValueOrDefault(type).Float();
+            var existing = entity.Comp.Damage.DamageDict.GetValueOrDefault(type).Float();
             if (existing > 0)
             {
                 var desiredHeal = MathF.Abs(amount);
@@ -54,8 +56,8 @@ public sealed partial class HealthChangeBasedOnDamage : EntityEffect
 
         if (dspec.DamageDict.Count > 0)
         {
-            args.EntityManager.System<DamageableSystem>().TryChangeDamage(
-                args.TargetEntity,
+            _damageable.TryChangeDamage(
+                entity.Owner,
                 dspec,
                 ignoreResistances: true,
                 interruptsDoAfters: false);

@@ -7,10 +7,10 @@
   fontColorOverride: "#8B0000"
   fontSize: 15
   classes:
-  - Gargantua
+  # - Gargantua  # Désactivé pour l'instant
   - Haemomancer
   - Umbrae
-  - Dantalion
+  # - Dantalion  # Désactivé pour l'instant
 
 - type: mobClass
   id: Gargantua

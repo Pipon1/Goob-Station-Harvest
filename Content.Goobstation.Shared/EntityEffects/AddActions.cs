@@ -8,21 +8,24 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class AddActions : EntityEffect
+public sealed partial class AddActions : EntityEffectBase<AddActions>
 {
     [DataField(required: true)]
     public List<EntProtoId> Actions = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class AddActionsSystem : EntityEffectSystem<MetaDataComponent, AddActions>
+{
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<AddActions> args)
     {
-        var actionsSystem = args.EntityManager.System<SharedActionsSystem>();
-
-        foreach (var actionProto in Actions)
+        foreach (var actionProto in args.Effect.Actions)
         {
-            actionsSystem.AddAction(args.TargetEntity, actionProto);
+            _actions.AddAction(entity.Owner, actionProto);
         }
     }
 }

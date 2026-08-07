@@ -3,6 +3,7 @@
 
 using Content.Goobstation.Shared.Actions;
 using Content.Shared.Actions;
+using Content.Shared.Actions.Components;
 using Content.Shared.EntityEffects;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
@@ -10,23 +11,27 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SetToggleAction : EntityEffect
+public sealed partial class SetToggleAction : EntityEffectBase<SetToggleAction>
 {
     [DataField]
     public bool Toggled = false;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class SetToggleActionSystem : EntityEffectSystem<ActionsComponent, SetToggleAction>
+{
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
+
+    protected override void Effect(Entity<ActionsComponent> entity, ref EntityEffectEvent<SetToggleAction> args)
     {
-        var actionsSystem = args.EntityManager.System<SharedActionsSystem>();
-        actionsSystem.SetToggled(args.TargetEntity, Toggled);
+        _actions.SetToggled(entity.Owner, args.Effect.Toggled);
 
-        if (args.EntityManager.TryGetComponent<ToggleEffectActionComponent>(args.TargetEntity, out var toggleComp))
+        if (TryComp<ToggleEffectActionComponent>(entity.Owner, out var toggleComp))
         {
-            toggleComp.Toggled = Toggled;
-            args.EntityManager.Dirty(args.TargetEntity, toggleComp);
+            toggleComp.Toggled = args.Effect.Toggled;
+            Dirty(entity.Owner, toggleComp);
         }
     }
 }

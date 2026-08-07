@@ -17,7 +17,7 @@ public abstract partial class SharedActiveBloodLeecherSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private INetManager _net = default!;
     [Dependency] private ISharedAdminLogManager _admin = default!;
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private EntityLookupSystem _lookup = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private SharedAudioSystem _audio = default!;
@@ -74,7 +74,7 @@ public abstract partial class SharedActiveBloodLeecherSystem : EntitySystem
                     continue;
 
                 foreach (var effect in targetEffects)
-                    _effects.Effect(effect, new EntityEffectBaseArgs(drain, EntityManager));
+                    _effects.ApplyEffect(drain, effect);
                 CreateBeam(uid, drain.Owner, BeamProto);
 
                 counter++;
@@ -88,7 +88,7 @@ public abstract partial class SharedActiveBloodLeecherSystem : EntitySystem
                     continue;
 
                 foreach (var effect in userEffects)
-                    _effects.Effect(effect, new EntityEffectBaseArgs(uid, EntityManager));
+                    _effects.ApplyEffect(uid, effect);
             }
 
             comp.NextUpdate = _timing.CurTime + comp.UpdateRate;

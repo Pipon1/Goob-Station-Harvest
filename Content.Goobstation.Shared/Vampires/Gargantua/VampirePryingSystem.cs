@@ -25,7 +25,7 @@ public sealed partial class VampirePryingSystem : EntitySystem
     private void OnGetPryTimeModifier(Entity<VampirePryingComponent> ent, ref GetPryTimeModifierEvent args)
     {
         // Vampire overwhelming force pries instantly
-        args.BaseTime = 0f;
+        args.BaseTime = TimeSpan.Zero;
         args.PryTimeModifier = 0.01f;
     }
 

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Shared.EntityConditions;
 using Content.Shared.EntityEffects;
 using Content.Shared.Weapons.Melee.Events;
 using JetBrains.Annotations;
@@ -9,7 +10,8 @@ namespace Content.Goobstation.Shared.Weapons.Melee;
 [UsedImplicitly]
 public sealed class EffectsOnMeleeHitSystem : EntitySystem
 {
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
+    [Dependency] private SharedEntityConditionsSystem _conditions = default!;
 
     public override void Initialize()
     {
@@ -30,33 +32,14 @@ public sealed class EffectsOnMeleeHitSystem : EntitySystem
             if (Deleted(target))
                 continue;
 
-            // Check target conditions
-            var targetArgs = new EntityEffectBaseArgs(target, EntityManager);
-            var conditionsMet = true;
-            foreach (var condition in weapon.Comp.TargetConditions)
-            {
-                if (!condition.Condition(targetArgs))
-                {
-                    conditionsMet = false;
-                    break;
-                }
-            }
-
-            if (!conditionsMet)
+            if (!_conditions.TryConditions(target, weapon.Comp.TargetConditions.ToArray()))
                 continue;
 
-            // Apply user effects
-            var userArgs = new EntityEffectBaseArgs(args.User, EntityManager);
             foreach (var effect in weapon.Comp.UserEffects)
-            {
-                _effects.Effect(effect, userArgs);
-            }
+                _effects.ApplyEffect(args.User, effect);
 
-            // Apply target effects
             foreach (var effect in weapon.Comp.TargetEffects)
-            {
-                _effects.Effect(effect, targetArgs);
-            }
+                _effects.ApplyEffect(target, effect);
         }
     }
 }

@@ -30,7 +30,11 @@ public sealed partial class VampireCostActionSystem : EntitySystem
 
     private void OnMapInit(Entity<VampireCostActionComponent> ent, ref MapInitEvent args)
     {
-        _meta.SetEntityDescription(ent, $"{Description(ent)} [color=red]{ent.Comp.BloodCost} Blood[/color]");
+        var desc = Description(ent);
+        var costLine = $"[color=red]{ent.Comp.BloodCost} Blood[/color]";
+        _meta.SetEntityDescription(ent, string.IsNullOrWhiteSpace(desc)
+            ? costLine
+            : $"{costLine} | {desc}");
     }
 
     private void OnPerform(Entity<VampireCostActionComponent> ent, ref ActionPerformedEvent args)

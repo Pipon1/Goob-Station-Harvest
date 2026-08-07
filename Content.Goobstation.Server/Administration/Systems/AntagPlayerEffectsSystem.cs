@@ -12,7 +12,7 @@ namespace Content.Goobstation.Server.Administration.Systems;
 /// </summary>
 public sealed class AntagPlayerEffectsSystem : EntitySystem
 {
-    [Dependency] private readonly SharedEntityEffectSystem _effects = default!;
+    [Dependency] private readonly SharedEntityEffectsSystem _effects = default!;
 
     public override void Initialize()
     {
@@ -24,7 +24,7 @@ public sealed class AntagPlayerEffectsSystem : EntitySystem
     {
         foreach (var effect in ent.Comp.Effects)
         {
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.EntityUid, EntityManager));
+            _effects.ApplyEffect(args.EntityUid, effect);
         }
     }
 }

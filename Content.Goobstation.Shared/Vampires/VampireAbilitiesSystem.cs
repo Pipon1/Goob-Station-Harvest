@@ -11,7 +11,7 @@ namespace Content.Goobstation.Shared.Vampires;
 public abstract class SharedVampireAbilitiesSystem : EntitySystem
 {
     [Dependency] protected ISharedAdminLogManager _admin = default!;
-    [Dependency] protected SharedEntityEffectSystem _effects = default!;
+    [Dependency] protected SharedEntityEffectsSystem _effects = default!;
     [Dependency] protected MobClassSystem _mobClass = default!;
     [Dependency] protected IPrototypeManager _proto = default!;
 
@@ -93,7 +93,7 @@ public abstract class SharedVampireAbilitiesSystem : EntitySystem
             if (abilityProto.OnUnlock is { } onUnlockEffects)
             {
                 foreach (var effect in onUnlockEffects)
-                    _effects.Effect(effect, new EntityEffectBaseArgs(user, EntityManager));
+                    _effects.ApplyEffect(user, effect);
             }
 
             ent.Comp.UnlockedAbilities.Add(ability);

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Shared.EntityConditions;
 using Content.Shared.EntityEffects;
 using Robust.Shared.GameStates;
 
@@ -15,7 +16,7 @@ public sealed partial class EffectsOnMeleeHitComponent : Component
     /// Conditions that must be met on the target for effects to apply.
     /// </summary>
     [DataField]
-    public List<EntityEffectCondition> TargetConditions = new();
+    public List<EntityCondition> TargetConditions = new();
 
     /// <summary>
     /// Effects to apply to the user on melee hit.

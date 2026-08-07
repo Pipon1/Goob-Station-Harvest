@@ -8,7 +8,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class PopupPredicted : EntityEffect
+public sealed partial class PopupPredicted : EntityEffectBase<PopupPredicted>
 {
     [DataField(required: true)]
     public string Message = string.Empty;
@@ -16,12 +16,16 @@ public sealed partial class PopupPredicted : EntityEffect
     [DataField]
     public PopupType VisualType = PopupType.Small;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class PopupPredictedSystem : EntityEffectSystem<MetaDataComponent, PopupPredicted>
+{
+    [Dependency] private readonly SharedPopupSystem _popup = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<PopupPredicted> args)
     {
-        var popupSys = args.EntityManager.System<SharedPopupSystem>();
-        popupSys.PopupPredicted(Message, args.TargetEntity, args.TargetEntity, VisualType);
+        _popup.PopupPredicted(args.Effect.Message, entity.Owner, entity.Owner, args.Effect.VisualType);
     }
 }

@@ -103,10 +103,22 @@ public sealed class BeamSystem : SharedBeamSystem
     {
         var beamSpawnPos = beamStartPos;
         var ent = Spawn(prototype, beamSpawnPos);
-        var shape = new EdgeShape(distanceCorrection, new Vector2(0,0));
 
         if (!TryComp<PhysicsComponent>(ent, out var physics) || !TryComp<BeamComponent>(ent, out var beam))
             return;
+
+        // Goobstation: if the prototype asks for it, rotate the whole beam entity so the
+        // client gets the orientation authoritatively in the transform state.
+        EdgeShape shape;
+        if (beam.UseWorldRotation)
+        {
+            _transform.SetWorldRotation(ent, userAngle);
+            shape = new EdgeShape(new Vector2(0, -distanceCorrection.Length()), new Vector2(0, 0));
+        }
+        else
+        {
+            shape = new EdgeShape(distanceCorrection, new Vector2(0, 0));
+        }
 
         beamAction?.Invoke(ent); // Goobstation
         beam.BeamIndex = NextIndex; // Goobstation
@@ -152,7 +164,12 @@ public sealed class BeamSystem : SharedBeamSystem
             var newEnt = Spawn(prototype, beamSpawnPos);
 
             beamAction?.Invoke(newEnt); // Goobstation
-            Comp<BeamComponent>(newEnt).BeamIndex = NextIndex; // Goobstation
+            var newBeam = Comp<BeamComponent>(newEnt); // Goobstation
+            newBeam.BeamIndex = NextIndex;
+
+            // Goobstation: rotate the follow-up beam segments as well if the prototype asks for it.
+            if (newBeam.UseWorldRotation)
+                _transform.SetWorldRotation(newEnt, userAngle);
 
             var ev = new BeamVisualizerEvent(GetNetEntity(newEnt), distanceLength, userAngle, bodyState, shader);
             RaiseNetworkEvent(ev);

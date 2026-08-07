@@ -133,6 +133,7 @@
     - !type:RelayNearby
       compName: Puddle
       range: 5
+      skipSameTile: true
       effect: !type:NestedEffect
         proto: BloodEruption
   - type: VampireCostAction

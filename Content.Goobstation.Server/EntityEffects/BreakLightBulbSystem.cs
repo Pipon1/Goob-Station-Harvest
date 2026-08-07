@@ -1,7 +1,7 @@
 // SPDX-FileCopyright-Identifier: AGPL-3.0-or-later
 
 using Content.Goobstation.Shared.EntityEffects;
-using Content.Server.Light.Components;
+using Content.Shared.Light.Components;
 using Content.Server.Light.EntitySystems;
 
 namespace Content.Goobstation.Server.EntityEffects;

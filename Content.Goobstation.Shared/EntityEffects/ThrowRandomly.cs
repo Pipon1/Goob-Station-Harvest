@@ -11,20 +11,24 @@ using Robust.Shared.Random;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class ThrowRandomly : EntityEffect
+public sealed partial class ThrowRandomly : EntityEffectBase<ThrowRandomly>
 {
     [DataField]
     public float Speed = 10f;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class ThrowRandomlySystem : EntityEffectSystem<TransformComponent, ThrowRandomly>
+{
+    [Dependency] private readonly ThrowingSystem _throwing = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
+
+    protected override void Effect(Entity<TransformComponent> entity, ref EntityEffectEvent<ThrowRandomly> args)
     {
-        var throwingSystem = args.EntityManager.System<ThrowingSystem>();
-        var random = IoCManager.Resolve<IRobustRandom>();
-        var angle = random.NextFloat() * MathF.PI * 2;
+        var angle = _random.NextFloat() * MathF.PI * 2;
         var direction = new Vector2(MathF.Cos(angle), MathF.Sin(angle));
-        throwingSystem.TryThrow(args.TargetEntity, direction, Speed);
+        _throwing.TryThrow(entity.Owner, direction, args.Effect.Speed);
     }
 }

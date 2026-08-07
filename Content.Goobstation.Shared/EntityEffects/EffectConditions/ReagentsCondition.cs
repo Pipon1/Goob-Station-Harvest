@@ -3,34 +3,35 @@
 using Content.Goobstation.Maths.FixedPoint;
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.EntitySystems;
-using Content.Shared.EntityEffects;
+using Content.Shared.EntityConditions;
 using Robust.Shared.Prototypes;
 
 namespace Content.Goobstation.Shared.EntityEffects.EffectConditions;
 
-public sealed partial class ReagentsCondition : EntityEffectCondition
+public sealed partial class ReagentsCondition : EntityConditionBase<ReagentsCondition>
 {
     [DataField]
     public float Min = 0f;
 
-    public override bool Condition(EntityEffectBaseArgs args)
+    public override string EntityConditionGuidebookText(IPrototypeManager prototype)
     {
-        if (!args.EntityManager.TryGetComponent(args.TargetEntity, out SolutionContainerManagerComponent? solutions))
-            return false;
+        return Loc.GetString("reagent-effect-condition-guidebook-reagents", ("min", Min));
+    }
+}
 
-        var solutionSystem = args.EntityManager.System<SharedSolutionContainerSystem>();
+public sealed partial class ReagentsConditionSystem : EntityConditionSystem<SolutionContainerManagerComponent, ReagentsCondition>
+{
+    [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
+
+    protected override void Condition(Entity<SolutionContainerManagerComponent> entity, ref EntityConditionEvent<ReagentsCondition> args)
+    {
         var totalVolume = FixedPoint2.Zero;
 
-        foreach (var (_, solution) in solutionSystem.EnumerateSolutions((args.TargetEntity, solutions)))
+        foreach (var (_, solution) in _solution.EnumerateSolutions(entity.AsNullable()))
         {
             totalVolume += solution.Comp.Solution.Volume;
         }
 
-        return totalVolume >= Min;
-    }
-
-    public override string GuidebookExplanation(IPrototypeManager prototype)
-    {
-        return Loc.GetString("reagent-effect-condition-guidebook-reagents", ("min", Min));
+        args.Result = totalVolume >= args.Condition.Min;
     }
 }

@@ -1,14 +1,14 @@
 // SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using Content.Shared.EntityEffects;
+using Content.Shared.EntityConditions;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 
 namespace Content.Goobstation.Shared.EntityEffects.EffectConditions;
 
-public sealed partial class AnyNearbyCondition : EntityEffectCondition
+public sealed partial class AnyNearbyCondition : EntityConditionBase<AnyNearbyCondition>
 {
     [DataField]
     public string CompName = string.Empty;
@@ -16,34 +16,57 @@ public sealed partial class AnyNearbyCondition : EntityEffectCondition
     [DataField]
     public float Range = 1f;
 
-    public override bool Condition(EntityEffectBaseArgs args)
+    public override string EntityConditionGuidebookText(IPrototypeManager prototype)
     {
-        if (string.IsNullOrEmpty(CompName))
-            return false;
+        return "TODO";
+    }
+}
 
-        var compFactory = args.EntityManager.ComponentFactory;
-        if (!compFactory.TryGetRegistration(CompName, out var reg))
-            return false;
+public sealed partial class AnyNearbyConditionSystem : EntityConditionSystem<MetaDataComponent, AnyNearbyCondition>
+{
+    [Dependency] private readonly IComponentFactory _componentFactory = default!;
+    [Dependency] private readonly EntityLookupSystem _lookup = default!;
 
-        var lookup = args.EntityManager.System<EntityLookupSystem>();
-        var xform = args.EntityManager.GetComponent<TransformComponent>(args.TargetEntity);
+    protected override void Condition(Entity<MetaDataComponent> entity, ref EntityConditionEvent<AnyNearbyCondition> args)
+    {
+        var condition = args.Condition;
+
+        if (string.IsNullOrEmpty(condition.CompName))
+        {
+            args.Result = false;
+            return;
+        }
+
+        if (!_componentFactory.TryGetRegistration(condition.CompName, out var reg))
+        {
+            args.Result = false;
+            return;
+        }
+
+        if (!TryComp<TransformComponent>(entity.Owner, out var xform))
+        {
+            args.Result = false;
+            return;
+        }
+
         var mapPos = xform.MapPosition;
 
         if (mapPos.MapId == MapId.Nullspace)
-            return false;
-
-        var nearby = lookup.GetEntitiesInRange(mapPos, Range);
-        foreach (var ent in nearby)
         {
-            if (args.EntityManager.HasComponent(ent, reg.Type))
-                return true;
+            args.Result = false;
+            return;
         }
 
-        return false;
-    }
+        var nearby = _lookup.GetEntitiesInRange(mapPos, condition.Range);
+        foreach (var ent in nearby)
+        {
+            if (HasComp(ent, reg.Type))
+            {
+                args.Result = true;
+                return;
+            }
+        }
 
-    public override string GuidebookExplanation(IPrototypeManager prototype)
-    {
-        return "TODO";
+        args.Result = false;
     }
 }

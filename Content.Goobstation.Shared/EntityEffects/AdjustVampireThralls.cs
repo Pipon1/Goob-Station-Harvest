@@ -8,20 +8,20 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class AdjustVampireThralls : EntityEffect
+public sealed partial class AdjustVampireThralls : EntityEffectBase<AdjustVampireThralls>
 {
     [DataField]
     public int Amount = 1;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class AdjustVampireThrallsSystem : EntityEffectSystem<VampireThrallsComponent, AdjustVampireThralls>
+{
+    protected override void Effect(Entity<VampireThrallsComponent> entity, ref EntityEffectEvent<AdjustVampireThralls> args)
     {
-        if (!args.EntityManager.TryGetComponent<VampireThrallsComponent>(args.TargetEntity, out var thralls))
-            return;
-
-        thralls.ThrallCap += Amount;
-        args.EntityManager.Dirty(args.TargetEntity, thralls);
+        entity.Comp.ThrallCap += args.Effect.Amount;
+        Dirty(entity);
     }
 }

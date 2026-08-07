@@ -9,20 +9,21 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class Uncuff : EntityEffect
+public sealed partial class Uncuff : EntityEffectBase<Uncuff>
 {
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class UncuffSystem : EntityEffectSystem<CuffableComponent, Uncuff>
+{
+    [Dependency] private readonly SharedCuffableSystem _cuffable = default!;
+
+    protected override void Effect(Entity<CuffableComponent> entity, ref EntityEffectEvent<Uncuff> args)
     {
-        if (!args.EntityManager.TryGetComponent<CuffableComponent>(args.TargetEntity, out var cuffable))
+        if (entity.Comp.Container.ContainedEntities.Count == 0)
             return;
 
-        if (cuffable.Container.ContainedEntities.Count == 0)
-            return;
-
-        var cuffableSystem = args.EntityManager.System<SharedCuffableSystem>();
-        cuffableSystem.Uncuff(args.TargetEntity, args.TargetEntity, cuffable.LastAddedCuffs, cuffable);
+        _cuffable.TryUncuff(entity.AsNullable(), entity.Owner);
     }
 }

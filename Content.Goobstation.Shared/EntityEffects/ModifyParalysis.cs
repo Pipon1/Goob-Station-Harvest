@@ -15,7 +15,7 @@ public enum ParalysisEffectType
 }
 
 [UsedImplicitly]
-public sealed partial class ModifyParalysis : EntityEffect
+public sealed partial class ModifyParalysis : EntityEffectBase<ModifyParalysis>
 {
     [DataField]
     public float? Time;
@@ -23,22 +23,25 @@ public sealed partial class ModifyParalysis : EntityEffect
     [DataField]
     public ParalysisEffectType Type = ParalysisEffectType.Add;
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
+}
 
-    public override void Effect(EntityEffectBaseArgs args)
+public sealed partial class ModifyParalysisSystem : EntityEffectSystem<MetaDataComponent, ModifyParalysis>
+{
+    [Dependency] private readonly SharedStunSystem _stun = default!;
+    [Dependency] private readonly StatusEffectsSystem _status = default!;
+
+    protected override void Effect(Entity<MetaDataComponent> entity, ref EntityEffectEvent<ModifyParalysis> args)
     {
-        var stunSystem = args.EntityManager.System<SharedStunSystem>();
-        var statusSystem = args.EntityManager.System<StatusEffectsSystem>();
-
-        if (Type == ParalysisEffectType.Remove)
+        if (args.Effect.Type == ParalysisEffectType.Remove)
         {
-            statusSystem.TryRemoveStatusEffect(args.TargetEntity, SharedStunSystem.StunId);
-            args.EntityManager.RemoveComponent<StunnedComponent>(args.TargetEntity);
+            _status.TryRemoveStatusEffect(entity.Owner, SharedStunSystem.StunId);
+            RemComp<StunnedComponent>(entity.Owner);
             return;
         }
 
-        if (Time.HasValue)
-            stunSystem.TryUpdateParalyzeDuration(args.TargetEntity, TimeSpan.FromSeconds(Time.Value));
+        if (args.Effect.Time.HasValue)
+            _stun.TryUpdateParalyzeDuration(entity.Owner, TimeSpan.FromSeconds(args.Effect.Time.Value));
     }
 }

@@ -69,7 +69,7 @@
 - type: entityEffect
   id: VampireHolyWater
   effects:
-  - !type:Vomit
+  - !type:VampireVomit
     probability: 0.2
   - !type:TakeStaminaDamage
     amount: 10

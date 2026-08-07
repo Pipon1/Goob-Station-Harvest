@@ -13,7 +13,7 @@ namespace Content.Goobstation.Shared.StatusEffects;
 /// </summary>
 public sealed partial class StatusEffectEffectsApplySystem : EntitySystem
 {
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private IGameTiming _timing = default!;
 
     public override void Initialize()
@@ -30,7 +30,7 @@ public sealed partial class StatusEffectEffectsApplySystem : EntitySystem
             return;
 
         foreach (var effect in ent.Comp.EffectsOnApply)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.Target, EntityManager));
+            _effects.TryApplyEffect(args.Target, effect);
     }
 
     private void OnRemoved(Entity<StatusEffectEffectsApplyComponent> ent, ref StatusEffectRemovedEvent args)
@@ -39,6 +39,6 @@ public sealed partial class StatusEffectEffectsApplySystem : EntitySystem
             return;
 
         foreach (var effect in ent.Comp.EffectsOnRemoval)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.Target, EntityManager));
+            _effects.TryApplyEffect(args.Target, effect);
     }
 }

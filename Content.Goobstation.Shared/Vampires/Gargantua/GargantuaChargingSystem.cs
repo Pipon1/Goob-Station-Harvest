@@ -11,7 +11,7 @@ namespace Content.Goobstation.Shared.Vampires.Gargantua;
 
 public sealed partial class GargantuaChargingSystem : EntitySystem
 {
-    [Dependency] private SharedEntityEffectSystem _effects = default!;
+    [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private IPrototypeManager _proto = default!;
     [Dependency] private INetManager _net = default!;
 
@@ -34,7 +34,7 @@ public sealed partial class GargantuaChargingSystem : EntitySystem
             return;
 
         foreach (var effect in effectProto!.Effects)
-            _effects.Effect(effect, new EntityEffectBaseArgs(args.OtherEntity, EntityManager));
+            _effects.ApplyEffect(args.OtherEntity, effect);
     }
 
     private void OnLand(Entity<GargantuaChargingComponent> ent, ref LandEvent args)

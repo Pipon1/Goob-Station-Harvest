@@ -5,6 +5,7 @@ using Content.Shared.Database;
 using Content.Shared.Mind;
 using Content.Shared.Popups;
 using Content.Shared.Roles;
+using Content.Shared.Roles.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Network;

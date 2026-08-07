@@ -96,7 +96,7 @@
       component: Muted
       time: 8
       type: Add
-    - !type:Flash
+    - !type:Glare
       slowTo: 1
       maxRange: 0.5
       duration: 1

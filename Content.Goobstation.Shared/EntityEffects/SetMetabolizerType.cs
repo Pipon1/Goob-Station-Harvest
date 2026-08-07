@@ -9,11 +9,11 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 [UsedImplicitly]
-public sealed partial class SetMetabolizerType : EventEntityEffect<SetMetabolizerType>
+public sealed partial class SetMetabolizerType : EntityEffectBase<SetMetabolizerType>
 {
     [DataField]
     public HashSet<ProtoId<MetabolizerTypePrototype>> MetabolizerTypes = new();
 
-    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+    public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => null;
 }

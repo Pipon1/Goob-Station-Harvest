@@ -16,6 +16,7 @@
     autoRot: true
     castShadows: false
   - type: Beam
+    useWorldRotation: true
     sound:
       path: /Audio/_Goobstation/Vampires/vampire_tentacle_hit.ogg
       params:
