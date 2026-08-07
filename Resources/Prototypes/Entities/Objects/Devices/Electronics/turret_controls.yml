@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseElectronics
   id: WeaponEnergyTurretStationControlPanelElectronicsBase 
-  name: sentry turret control panel electronics
-  description: An electronics board used in a sentry turret control panel.
+  name: circuit de panneau de contrôle de tourelle de sentinelle
+  description: Un circuit imprimé utilisé dans un panneau de contrôle de tourelle de sentinelle.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

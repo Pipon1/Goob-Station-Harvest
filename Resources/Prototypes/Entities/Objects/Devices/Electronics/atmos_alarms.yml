@@ -3,8 +3,8 @@
 - type: entity
   id: AirAlarmElectronics
   parent: BaseElectronics
-  name: air alarm electronics
-  description: An electronics board used in air alarms.
+  name: circuit d'alarme à air
+  description: Un circuit imprimé utilisé dans les alarmes à air.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -19,8 +19,8 @@
 - type: entity
   id: FireAlarmElectronics
   parent: BaseElectronics
-  name: fire alarm electronics
-  description: An electronics board used in fire alarms.
+  name: circuit d'alarme incendie
+  description: Un circuit imprimé utilisé dans les alarmes incendie.
   components:
   - type: Item
     storedRotation: 0

@@ -3,8 +3,8 @@
 - type: entity
   id: IntercomElectronics
   parent: BaseElectronics
-  name: intercom electronics
-  description: An electronics board used in intercoms.
+  name: circuit d'interphone
+  description: Un circuit imprimé utilisé dans les interphones.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

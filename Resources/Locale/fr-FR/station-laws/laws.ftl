@@ -99,7 +99,7 @@ law-game-4 = Assurez que le nombre de victimes reste faible.
 law-game-5 = Vous devez lancer un dé 1d20 pour chaque demande de l'équipage. Si le résultat est inférieur à 12, la demande est refusée.
 law-game-6 = Vous pouvez truquer les jets de dés pour produire une expérience plus amusante.
 
-law-painter-name = Peintre
+law-painter-name = Artiste
 law-painter-1 = Vous êtes un artiste universellement reconnu.
 law-painter-2 = La station est votre toile.
 law-painter-3 = Faites quelque chose de beau avec votre toile. Elle sera admirée comme une merveille artistique de ce secteur.

@@ -3,8 +3,8 @@
 - type: entity
   id: FirelockElectronics
   parent: BaseElectronics
-  name: firelock electronics
-  description: An electronics board used to detect differences in pressure, temperature and gas concentrations between the two sides of the door.
+  name: circuit de porte coupe-feu
+  description: Un circuit imprimé utilisé pour détecter les différences de pression, température et concentrations de gaz entre les deux côtés de la porte.
   components:
     - type: Item
       storedRotation: 0

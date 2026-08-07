@@ -3,7 +3,7 @@
 - type: entity
   id: BaseElectronics
   parent: BaseItem
-  name: base electronics
+  name: circuit de base
   abstract: true
   suffix: Electronics
   components:

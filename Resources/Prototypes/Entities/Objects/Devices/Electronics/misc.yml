@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseElectronics
   id: FreezerElectronics
-  name: freezer electronics
-  description: An electronics board used in kitchen freezers.
+  name: circuit de congélateur
+  description: Un circuit imprimé utilisé dans les congélateurs de cuisine.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
