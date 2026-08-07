@@ -32,7 +32,7 @@
 
 ## Spam letters
 
-delivery-spam-1 =   Offre spéciale - Boîtes à outils robustes !
+delivery-spam-robust-toolboxes =   Offre spéciale ! Boîtes à outils robustes !
     .desc =         Une publicité pour les boîtes à outils robustes.
     .content =      [color=blue][head=1]
                         ░░▄▀░░
@@ -51,7 +51,7 @@ delivery-spam-1 =   Offre spéciale - Boîtes à outils robustes !
                         -BON MARCHÉ ! UN SEUL ORGANE ! C'EST MOINS QUE DEUX ORGANES !
                         -N'A PAS BESOIN D'ÊTRE VOTRE ORGANE ! ON NE JUGE PAS !
 
-delivery-spam-2 =   Raisons de choisir Nanotrasen !
+delivery-spam-reasons-to-chose-nanotrasen =   Raisons de choisir Nanotrasen !
     .desc =         Une publicité pour Nanotrasen.
     .content =      {-delivery-header-nanotrasen}
 
@@ -66,7 +66,7 @@ delivery-spam-2 =   Raisons de choisir Nanotrasen !
                         {"[bold]NUMÉRO TROIS[/bold]"}
                         LEUR LOGO EST HORRIBLE ! ILS PENSENT QU'ILS SONT COOL AVEC LEUR LOGO ! OOH, REGARDEZ-MOI, JE SUIS TELLEMENT COOL ! OOH, UN SERPENT QUI EST AUSSI UN S ! COMME C'EST CRÉATIF ! MON FILS DE TROIS ANS POURRAIT DESSINER UN MEILLEUR LOGO !
 
-delivery-spam-3 =   Raisons de choisir le Syndicat !
+delivery-spam-reasons-to-choose-syndicate =   Raisons de choisir le Syndicat !
     .desc =         Une publicité pour le Syndicat.
     .content =      {-delivery-header-syndicate}
 
@@ -81,8 +81,8 @@ delivery-spam-3 =   Raisons de choisir le Syndicat !
                         {"[bold]NUMÉRO TROIS[/bold]"}
                         LEURS MÉTHODES DE MEURTRE SONT SANS INSPIRATION ! C'EST JUSTE DES PISTOLETS ! IL N'Y A PAS DE JET DE GENS DANS L'ESPACE PROFOND, PAS DE NOURRITURE POUR LES RECYCLEURS AVEC LE MODE SÉCURITÉ DÉSACTIVÉ, PAS DE BOMBE GLISSÉE DANS LES POCHES ! TELLEMENT ENNUYEUX !
 
-delivery-spam-4 =   Fatigué que la science explose ?
-    .desc =         Suivez ces étapes simples pour que cela ne se reproduise jamais !
+delivery-spam-tired-of-science =   Fatigué que la science explose tout le temps ?
+    .desc =         Suivez ces étapes simples pour vous assurer que ça n'arrive plus jamais !
     .content =      [head=3]La science vous ADORERA pour ça !!
 
                         ÊTES-[bold]VOUS[/bold] FATIGUÉ que le département scientifique de votre station explose sans faire de véritable science ?
@@ -99,13 +99,13 @@ delivery-spam-4 =   Fatigué que la science explose ?
 
                         {"[color=lightgray]Remarque : Le clan des araignées n'est pas responsable des punitions émises par vos supérieurs.[/color]"}
 
-delivery-spam-5 =   ALL AXCÈS GRATUIT !!
-    .desc =         Avez-vous jamais voulu un all access gratuit ?!
-    .content =      [head=3]Avez-vous jamais voulu avoir un [italic][color=green][bold]all acces gratuit !?!?[/bold][/color][/italic][/head]
-                        {"[head=2]Eh bien, MAINTENANT VOUS POUVEZ !![/head]!"}
+delivery-spam-free-all-access =   ALL AXCÈS GRATUIT !!
+    .desc =         Tu as déjà voulu avoir un all acces gratuit ?!
+    .content =      [head=3]Tu as déjà voulu avoir un [italic][color=green][bold]all acces gratuit !?!?[/bold][/color][/italic][/head]
+                        {"[head=2]Eh bien, MAINTENANT TU PEUX !![/head]!"}
 
-                        Tout ce que vous avez à faire est d'appeler [color=blue]555-GOUR-LECKSSS[/color] et déclarez votre numéro d'identification de station !!! 
-                        Une fois que vous l'avez fait, nous pouvons simplement interroger à distance le portefeuille du département cargo de votre station, en extractant nos frais requis de trois paiements [italic] FACILES[/italic], ce qui vous permet de réclamer votre
+                        Tout ce que tu as à faire est d'appeler [color=blue]555-GOUR-LECKSSS[/color] et déclare ton numéro d'identification de station !!! 
+                        Une fois que tu l'as fait, nous pouvons simplement interroger à distance le portefeuille du département cargo de votre station, en extractant nos frais requis de trois paiements [italic] FACILES[/italic], ce qui te permet de réclamer ton
                         {"[head=2][color=green] [bolditalic] AA GRATUIT !!!!!!!!!![/bolditalic][/color][/head]"}
 
 
@@ -115,7 +115,7 @@ delivery-spam-5 =   ALL AXCÈS GRATUIT !!
                     {"[bullet/]Remarque : Nous chez Gour-Lecksss LMT. ne sommes pas responsables si le HoP de votre station vous force à remplir un formulaire AA RÉEL s'il apprend l'existence de cette lettre"}
                     {"[/color]"}
 
-delivery-spam-6 =   AVIS DE NANOTRASN !!
+delivery-spam-centcomm-retribution =   AVIS DE NANOTRASN !!
 .desc =         Un avis officiel du PDG de Nanotrasn ?!
 .content =      [color=red] CECI EST UN AVIS OFICEL DU CHEF DE [color=blue]NANOTRASN[/color][/color]
 
@@ -127,7 +127,7 @@ delivery-spam-6 =   AVIS DE NANOTRASN !!
 
                     {"[head=2][color=red]IGNORET CET ORDRE AU RISQUE D'UNE RÉTRIBUTION DE [color=green]CENTCO[/color] !!!!![/head][/color]"}
 
-delivery-spam-7 =   Envoyez des renforts !
+delivery-spam-alternate-timeline =   Envoyez des renforts !
 .desc =         Un avis officiel d'... une timeline alternative ?
 .content =      {-delivery-header-nanotrasen-alternate-timeline}
                     {"[head=2]Ceci est un avis officiel du [color=red]Officier de sécurité en chef[/color] à la station spatiale 15 de Nanotrasen.[/head]"}
@@ -140,8 +140,8 @@ delivery-spam-7 =   Envoyez des renforts !
 
                     Gloire à Nanotrasen.
 
-delivery-spam-8 =   Les enfants de Nar'Sie
-.desc =         Un culte local cherche des recrues.
+delivery-spam-narsie-cult =   Les enfants de Nar'Sie
+.desc =         Un culte local recrute des membres.
 .content =      [color=#134975][head=2]Les enfants de Nar'Sie[/head][/color]
                                                     Le début d'une nouvelle ère
                     {"[bold]══──══──══──══──══──══──══──══──══──══──══[/bold]"}
@@ -159,7 +159,7 @@ delivery-spam-8 =   Les enfants de Nar'Sie
 
                     Tout ce que vous avez à faire est de dire [color=#FF0000][italic]« Sas'so c'arta forbici ! »[/italic][/color]
 
-delivery-spam-9 =   Voulez-vous vous battre ?!
+delivery-spam-rage-cage =   Tu veux te battre ?!
 .desc =         Publicité pour un club de combat local.
 .content =      [color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
                                                 {"[bold][head=1]LA RAGE CAGE[/head][/bold]"}
@@ -180,7 +180,7 @@ delivery-spam-9 =   Voulez-vous vous battre ?!
                     ──────────────────────────────────────────
                     Pas d'armes, pas d'armure, juste du pur [bold]COMBAT[/bold]. Ne manquez pas l'occasion en étant une [bold]MAUVIETTE[/bold]. Remportez la gloire d'être le combattant le plus robuste de votre station dans la [color=#FF0000][bold]RAGE CAGE[/bold][/color] aujourd'hui !
 
-delivery-spam-10 =  N'OUVREZ PAS CE COURRIER
+delivery-spam-evil-lizard =  N'OUVREZ PAS CE COURRIER
 .desc =         Vous avez été maudit !
 .content =      [color=#FF0000][bold][head=2]ARRÊTEZ[/head][/bold][/color]
 
@@ -221,8 +221,8 @@ delivery-spam-10 =  N'OUVREZ PAS CE COURRIER
                     ░░░░░░[color=#6EC543]████[/color]░░░░░░░░[color=#6EC543]████████[/color]░░░░░░░░
                     ░░░░░░░░░░░░░░░░░░░░[color=#6EC543]████[/color]░░░░░░░░░░
 
-delivery-spam-11 =  Aidez maman et papa !
-.desc =         Parents qui ont besoin d'une aide financière.
+delivery-spam-parents-need-money =  Aide maman et papa !
+.desc =         Des parents ont besoin d'aide financière.
 .content =      [bold]Bonjour mon enfant,[/bold]
                     C'est tes parents qui écrivent : nous avons besoin d'argent ! Nos impôts ont été inspectés et nous devons 100 000 spesos au gouvernement ! S'il te plaît aide-nous ! Ils veulent juste des cartes-cadeaux, tu devras donc nous envoyer 100 cartes-cadeaux Bisa de 1 000 spesos.
 
@@ -237,7 +237,7 @@ delivery-spam-11 =  Aidez maman et papa !
                     {"[bold]Merci et nous t'aimons,[/bold]"}
                     {"[italic]parents[/italic]"}
 
-delivery-spam-12 =  Rejoignez-nous pour le voyage inaugural !
+delivery-spam-voyage-advertisement =  Rejoignez-nous pour le voyage inaugural !
 .desc =         Publicité pour un voyage relaxant.
 .content =      [head=2]Rejoignez-nous pour le voyage inaugural du...[/head]
 
@@ -265,11 +265,11 @@ delivery-spam-12 =  Rejoignez-nous pour le voyage inaugural !
                     {"[italic]**L'œil du cosmos ne doit pas être regardé plus de cinq secondes à la fois. Vous n'entendez pas l'appel de l'œil.[/italic]"}
                     {"[italic]***Doit signer une décharge de responsabilité avant d'atterrir, Relaxination Destinations ne garantit pas la sécurité des ruines agathéiennes. Les disparitions de groupes de touristes ont diminué pour arriver à une marge acceptable de 0,23% de tous les groupes de touristes qui visitent les ruines.[/italic]"}
 
-delivery-spam-13 =  papier
-.desc =         Une lettre à l'éditeur.
+delivery-spam-angry-reader =  VOUS LES AVEZ TUÉS !!!!
+.desc =         Une lettre à un éditeur.
 .content =      À qui de droit,
 
-                    La célèbre série de livres « Les aventures d'Ian et Renault » est celle qui est appréciée des jeunes enfants et d'au moins un lézard sévèrement dyslexique (ne vous inquiétez pas, je vais mieux). Cependant, il y avait une erreur dans la publication, car Ian et Renault ne feraient jamais d'erreur en écrivant. Il semble que dans « Les aventures d'Ian et Renault : Un voyage arctique de courage et d'amitié », deux lignes de « Les aventures d'Ian et Renault : L'exploration de la ville » ont été utilisées.
+                    La célèbre série de livres « Les aventures d'Ian et Renault » est celle qui est appréciée des jeunes enfants et d'au moins un lézard sévèrement dyslexique (ne vous inquiétez pas, je vais mieux). Cependant, il y avait une erreur dans la publication, mais Ian et Renault ne feraient jamais d'erreur en écrivant. Il semble que dans « Les aventures d'Ian et Renault : Un voyage arctique de courage et d'amitié », deux lignes de « Les aventures d'Ian et Renault : L'exploration de la ville » ont été utilisées.
                     Cela n'avait aucun sens. Comment Ian et Renault ont-ils trouvé un petit chaton dans l'arctique ? Que faisait le petit chaton là-bas ? Pourquoi Ian et Renault faisaient-ils plus que que d'habitude aujourd'hui ? Et la pire erreur est la deuxième ligne mal placée, qui est « Au fur et à mesure que le jour s'est transformé en nuit, ils étaient épuisés mais heureux de leur aventure en ville » (Ian et Renault, 1). OH, DÉSOLÉ !!! JE N'ÉTAIS PAS AU COURANT QU'IL Y AIT UNE VILLE DANS L'ARCTIQUE !!! QU'ILS SE SONT ARRÊTÉS. TU SAIS. POUR UN CAFÉ. OH ATTENDS !! LE CAFÉ TUE LES CHIENS ET LES RENARDS !!!!!!!!!! QUI PUBLIERAIT ÇA !!!!! TU VIENS DE TUER IAN ET RENAULT !!!!!!!!!!!!!!!!! COMMENT PEUX-TU !!!!!!!!!!!!!!!!!!! MONSTRE !!!!!!!!!!!!!!!!!
                     Et qu'as-tu reçu pour tuer Ian et Renault ? Hein ? Un livre un peu plus long ? Tu as besoin de ce livre plus long, n'est-ce pas ? Les livres plus longs se vendent plus cher, non ? Tu voulais faire plus d'argent ?
                     REGARDE OÙ ÇA T'A MENÉ. TU AS TUÉ LES DEUX. FÉLICITATIONS.
