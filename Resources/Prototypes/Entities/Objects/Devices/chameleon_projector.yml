@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: ChameleonProjectorNoBattery
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: projecteur caméléon
+  description: Technologie holoparasite utilisée pour créer une réplique en lumière dure de n'importe quel objet autour de vous. Le déguisement est détruit lorsqu'il est ramassé ou désactivé.
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/chameleon_projector.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ChameleonProjectorNoBattery
   id: ChameleonProjector
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: projecteur caméléon
+  description: Technologie holoparasite utilisée pour créer une réplique en lumière dure de n'importe quel objet autour de vous. Le déguisement est détruit lorsqu'il est ramassé ou désactivé.
   suffix: Battery
   components:
   - type: Appearance
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseNoRot
-  name: Toggle Rotation
-  description: Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
+  name: Activer/Désactiver la rotation
+  description: Utilisez ceci pour empêcher votre déguisement de tourner, ce qui facilite la dissimulation dans certains scénarios.
   components:
   - type: Action
     icon: Interface/VerbIcons/refresh.svg.192dpi.png
@@ -107,8 +107,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseAnchor
-  name: Toggle Anchored
-  description: For many objects you will want to be anchored to not be completely obvious.
+  name: Activer/Désactiver l'ancrage
+  description: Pour de nombreux objets, vous voudrez être ancré pour ne pas être trop évident.
   components:
   - type: Action
     icon:

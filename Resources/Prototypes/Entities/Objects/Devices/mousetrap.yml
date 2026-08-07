@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: mousetrap
+  name: piège à souris
   parent: BaseItem
   id: Mousetrap
-  description: Useful for catching rodents sneaking into your kitchen.
+  description: Utile pour attraper les rongeurs qui s'infiltrent dans votre cuisine.
   components:
     - type: Sprite
       sprite: Objects/Devices/mousetrap.rsi
@@ -74,11 +74,11 @@
         - DroneUsable # Goobstation
 
 - type: entity
-  name: mousetrap
+  name: piège à souris
   suffix: Armed
   parent: Mousetrap
   id: MousetrapArmed
-  description: Useful for catching rodents sneaking into your kitchen.
+  description: Utile pour attraper les rongeurs qui s'infiltrent dans votre cuisine.
   components:
   - type: Sprite
     layers:

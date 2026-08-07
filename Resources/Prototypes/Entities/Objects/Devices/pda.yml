@@ -5,7 +5,7 @@
   parent: [ BaseItem, StorePresetUplink ] #PDA's have uplinks so they have to inherit the data.
   id: BasePDA
   name: PDA
-  description: Personal Data Assistant.
+  description: Assistant personnel de données.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -190,8 +190,8 @@
 - type: entity
   parent: BasePDA
   id: PassengerPDA
-  name: passenger PDA
-  description: Why isn't it gray?
+  name: PDA de passager
+  description: Pourquoi n'est-il pas gris ?
   components:
   - type: Pda
     id: PassengerIDCard
@@ -201,8 +201,8 @@
 - type: entity
   parent: BasePDA
   id: TechnicalAssistantPDA
-  name: technical assistant PDA
-  description: Why isn't it yellow?
+  name: PDA d'assistant technique
+  description: Pourquoi n'est-il pas jaune ?
   components:
   - type: Pda
     id: TechnicalAssistantIDCard
@@ -220,8 +220,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalInternPDA
-  name: medical intern PDA
-  description: Why isn't it white?
+  name: PDA d'interne en médecine
+  description: Pourquoi n'est-il pas blanc ?
   components:
   - type: Pda
     id: MedicalInternIDCard
@@ -242,8 +242,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityCadetPDA
-  name: security cadet PDA
-  description: Why isn't it red?
+  name: PDA de cadet de sécurité
+  description: Pourquoi n'est-il pas rouge ?
   components:
   - type: Pda
     id: SecurityCadetIDCard
@@ -261,8 +261,8 @@
 - type: entity
   parent: BasePDA
   id: ResearchAssistantPDA
-  name: research assistant PDA
-  description: Why isn't it purple?
+  name: PDA d'assistant de recherche
+  description: Pourquoi n'est-il pas violet ?
   components:
   - type: Pda
     id: ResearchAssistantIDCard
@@ -280,8 +280,8 @@
 - type: entity
   parent: BasePDA
   id: ServiceWorkerPDA
-  name: service worker PDA
-  description: Why isn't it gray?
+  name: PDA de travailleur de service
+  description: Pourquoi n'est-il pas gris ?
   components:
   - type: Pda
     id: ServiceWorkerIDCard
@@ -299,8 +299,8 @@
 - type: entity
   parent: BasePDA
   id: ChefPDA
-  name: chef PDA
-  description: Covered in grease and flour.
+  name: PDA de chef
+  description: Recouvert de graisse et de farine.
   components:
   - type: Pda
     id: ChefIDCard
@@ -319,8 +319,8 @@
 - type: entity
   parent: BasePDA
   id: BotanistPDA
-  name: botanist PDA
-  description: Has an earthy scent.
+  name: PDA de botaniste
+  description: A une odeur terreuse.
   components:
   - type: Pda
     id: BotanistIDCard
@@ -338,8 +338,8 @@
 - type: entity
   parent: BasePDA
   id: ClownPDA
-  name: clown PDA
-  description: Looks can be deceiving.
+  name: PDA de clown
+  description: Les apparences peuvent être trompeuses.
   components:
   - type: Pda
     id: ClownIDCard
@@ -401,8 +401,8 @@
 - type: entity
   parent: BasePDA
   id: MimePDA
-  name: mime PDA
-  description: Suprisingly not on mute.
+  name: PDA de mime
+  description: Étonnamment pas en sourdine.
   components:
   - type: Pda
     id: MimeIDCard
@@ -448,10 +448,10 @@
   - type: Muted # for random sentience event
 
 - type: entity
-  name: chaplain PDA
+  name: PDA de chapelain
   parent: BasePDA
   id: ChaplainPDA
-  description: God's chosen PDA.
+  description: Le PDA choisi par Dieu.
   components:
   - type: Pda
     id: ChaplainIDCard
@@ -477,10 +477,10 @@
     - DoorBumpOpener
 
 - type: entity
-  name: quartermaster PDA
+  name: PDA de quartier-maître
   parent: BasePDA
   id: QuartermasterPDA
-  description: PDA for the guy that orders the guns.
+  description: PDA pour le gars qui commande les armes.
   components:
   - type: Pda
     id: QuartermasterIDCard
@@ -506,8 +506,8 @@
 - type: entity
   parent: BasePDA
   id: CargoPDA
-  name: cargo PDA
-  description: PDA for the guys that order the pizzas.
+  name: PDA de cargo
+  description: PDA pour les gars qui commandent les pizzas.
   components:
   - type: Pda
     id: CargoIDCard
@@ -524,8 +524,8 @@
 - type: entity
   parent: BasePDA
   id: SalvagePDA
-  name: salvage PDA
-  description: Smells like ash.
+  name: PDA de récupérateur
+  description: Sent la cendre.
   components:
   - type: Pda
     id: SalvageIDCard
@@ -552,8 +552,8 @@
 - type: entity
   parent: BasePDA
   id: BartenderPDA
-  name: bartender PDA
-  description: Smells like beer.
+  name: PDA de barman
+  description: Sent la bière.
   components:
   - type: Pda
     id: BartenderIDCard
@@ -570,8 +570,8 @@
 - type: entity
   parent: BaseWidePDA
   id: LibrarianPDA
-  name: librarian PDA
-  description: Smells like books.
+  name: PDA de bibliothécaire
+  description: Sent les livres.
   components:
   - type: Pda
     id: LibrarianIDCard
@@ -605,8 +605,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: LawyerPDA
-  name: lawyer PDA
-  description: For lawyers to poach dubious clients.
+  name: PDA d'avocat
+  description: Pour que les avocats recrutent des clients douteux.
   components:
   - type: Pda
     id: LawyerIDCard
@@ -640,8 +640,8 @@
 - type: entity
   parent: BasePDA
   id: JanitorPDA
-  name: janitor PDA
-  description: Smells like bleach.
+  name: PDA de concierge
+  description: Sent la javel.
   components:
   - type: Pda
     id: JanitorIDCard
@@ -658,8 +658,8 @@
 - type: entity
   parent: BasePDA
   id: CaptainPDA
-  name: captain PDA
-  description: Surprisingly no different from your PDA.
+  name: PDA de capitaine
+  description: Étonnamment pas différent de votre PDA.
   components:
   - type: Pda
     id: CaptainIDCard
@@ -682,8 +682,8 @@
 - type: entity
   parent: BasePDA
   id: HoPPDA
-  name: head of personnel PDA
-  description: Looks like it's been chewed on.
+  name: PDA du chef du personnel
+  description: Pourquoi n'est-il pas gris ?
   components:
   - type: Pda
     id: HoPIDCard
@@ -707,8 +707,8 @@
 - type: entity
   parent: BasePDA
   id: CEPDA
-  name: chief engineer PDA
-  description: Looks like it's barely been used.
+  name: PDA d'ingénieur en chef
+  description: Paraît à peine utilisé.
   components:
   - type: Pda
     id: CEIDCard
@@ -726,8 +726,8 @@
 - type: entity
   parent: BasePDA
   id: EngineerPDA
-  name: engineer PDA
-  description: Rugged and well-worn.
+  name: PDA d'ingénieur
+  description: Rugueux et bien usé.
   components:
   - type: Pda
     id: EngineeringIDCard
@@ -745,8 +745,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: CMOPDA
-  name: chief medical officer PDA
-  description: Extraordinarily shiny and sterile.
+  name: PDA du médecin-chef
+  description: Extraordinairement brillant et stérile.
   components:
   - type: Pda
     id: CMOIDCard
@@ -765,8 +765,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalPDA
-  name: medical PDA
-  description: Shiny and sterile.
+  name: PDA médical
+  description: Brillant et stérile.
   components:
   - type: Pda
     id: MedicalIDCard
@@ -798,8 +798,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ParamedicPDA
-  name: paramedic PDA
-  description: Shiny and sterile.
+  name: PDA d'urgentiste
+  description: Brillant et stérile.
   components:
   - type: Pda
     id: ParamedicIDCard
@@ -817,8 +817,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ChemistryPDA
-  name: chemistry PDA
-  description: It has a few discolored blotches here and there.
+  name: PDA de chimiste
+  description: Il présente quelques taches décolorées ici et là.
   components:
   - type: Pda
     id: ChemistIDCard
@@ -836,8 +836,8 @@
 - type: entity
   parent: BasePDA
   id: RnDPDA
-  name: research director PDA
-  description: It appears surprisingly ordinary.
+  name: PDA du directeur de recherche
+  description: Il apparaît étonnamment ordinaire.
   components:
   - type: Pda
     id: RDIDCard
@@ -856,8 +856,8 @@
 - type: entity
   parent: BasePDA
   id: SciencePDA
-  name: science PDA
-  description: It's covered with an unknown gooey substance.
+  name: PDA de scientifique
+  description: Il est recouvert d'une substance visqueuse inconnue.
   components:
   - type: Pda
     id: ResearchIDCard
@@ -875,8 +875,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: HoSPDA
-  name: head of security PDA
-  description: Whosoever bears this PDA is the law.
+  name: PDA du chef de la sécurité
+  description: Quiconque porte cet PDA est la loi.
   components:
   - type: Pda
     id: HoSIDCard
@@ -903,8 +903,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: WardenPDA
-  name: warden PDA
-  description: The OS appears to have been jailbroken.
+  name: PDA de gardien
+  description: Le système d'exploitation semble avoir été jailbreaké.
   components:
   - type: Pda
     id: WardenIDCard
@@ -922,8 +922,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityPDA
-  name: security PDA
-  description: Red to hide the stains of passenger blood.
+  name: PDA d'agent de sécurité
+  description: Rouge pour cacher les taches de sang de passager.
   components:
   - type: Pda
     id: SecurityIDCard
@@ -940,8 +940,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: CentcomPDA
-  name: CentComm PDA
-  description: Light green sign of walking bureaucracy.
+  name: PDA du commandement central
+  description: Panneau vert clair d'une bureaucratie qui marche.
   components:
   - type: Pda
     id: CentcomIDCard
@@ -976,9 +976,9 @@
 - type: entity
   parent: CentcomPDA
   id: AdminPDA
-  name: Admin PDA
+  name: PDA d'administrateur
   suffix: Admin
-  description: If you are not an admin please return this PDA to the nearest admin.
+  description: Si vous n'êtes pas un administrateur, veuillez rendre cet PDA à l'administrateur le plus proche.
   components:
   - type: Pda
     id: UniversalIDCard
@@ -1021,8 +1021,8 @@
 - type: entity
   parent: BasePDA
   id: MusicianPDA
-  name: musician PDA
-  description: It fills you with inspiration.
+  name: PDA de musicien
+  description: Cela vous remplit d'inspiration.
   components:
   - type: Pda
     id: MusicianIDCard
@@ -1055,8 +1055,8 @@
 - type: entity
   parent: BasePDA
   id: AtmosPDA
-  name: atmos PDA
-  description: Still smells like plasma.
+  name: PDA de technicien atmosphérique
+  description: Sent toujours le plasma.
   components:
   - type: Pda
     id: AtmosIDCard
@@ -1074,8 +1074,8 @@
 - type: entity
   parent: BasePDA
   id: ClearPDA
-  name: clear PDA
-  description: 99 and 44/100ths percent pure plastic.
+  name: PDA clair
+  description: 99 et 44/100ièmes pour cent de pur plastique.
   components:
   - type: Pda
     id: PassengerIDCard
@@ -1102,8 +1102,8 @@
 - type: entity
   parent: [ BasePDA, BaseSyndicateContraband ]
   id: SyndiPDA
-  name: syndicate PDA
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  name: PDA du syndicat
+  description: Ok, temps d'être un membre productif- oh cool je suis un méchant temps de tuer des gens !
   components:
   - type: Pda
     id: SyndicateIDCard
@@ -1126,8 +1126,8 @@
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
   id: SyndiOperativePDA
-  name: syndicate operative PDA
-  description: Death to NT!
+  name: PDA d'agent du syndicat
+  description: Mort à NT !
   components:
   - type: Pda
     id: SyndiOperativeIDCard
@@ -1142,8 +1142,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCorpsmanPDA
-  name: syndicate corpsman PDA
-  description: Commander... I need to cook!
+  name: PDA de médecin du syndicat
+  description: Commandant... I need to cook !
   components:
   - type: Pda
     id: SyndiCorpsmanIDCard
@@ -1164,8 +1164,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCommanderPDA
-  name: syndicate commander PDA
-  description: So what are we, some kind of Nukie squad?
+  name: PDA du commandant du syndicat
+  description: Alors on est quoi, une sorte d'équipe Nukie ?
   components:
   - type: Pda
     id: SyndiCommanderIDCard
@@ -1180,9 +1180,9 @@
 - type: entity
   parent: BaseSecurityPDA
   id: ERTLeaderPDA
-  name: ERT Leader PDA
+  name: PDA du chef d'équipe ERT
   suffix: Leader
-  description: Red for firepower.
+  description: Rouge pour la puissance de feu.
   components:
   - type: Pda
     id: ERTLeaderIDCard
@@ -1213,9 +1213,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTChaplainPDA
-  name: ERT Chaplain PDA
+  name: PDA d'aumônier ERT
   suffix: Chaplain
-  description: Red for firepower, it's blessed.
+  description: Rouge pour la puissance de feu, il est béni.
   components:
   - type: Pda
     id: ERTChaplainIDCard
@@ -1223,9 +1223,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTEngineerPDA
-  name: ERT Engineer PDA
+  name: PDA d'ingénieur ERT
   suffix: Engineer
-  description: Red for firepower, it's well-worn.
+  description: Rouge pour la puissance de feu, il est bien usé.
   components:
   - type: Pda
     id: ERTEngineerIDCard
@@ -1233,9 +1233,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTJanitorPDA
-  name: ERT Janitor PDA
+  name: PDA de concierge ERT
   suffix: Janitor
-  description: Red for firepower, it's squeaky clean.
+  description: Rouge pour la puissance de feu, il est tout propre.
   components:
   - type: Pda
     id: ERTJanitorIDCard
@@ -1243,9 +1243,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTMedicPDA
-  name: ERT Medic PDA
+  name: PDA de médecin ERT
   suffix: Medic
-  description: Red for firepower, it's shiny and sterile.
+  description: Rouge pour la puissance de feu, il est brillant et stérile.
   components:
   - type: Pda
     id: ERTMedicIDCard
@@ -1253,9 +1253,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTSecurityPDA
-  name: ERT Security PDA
+  name: PDA de sécurité ERT
   suffix: Security
-  description: Red for firepower, it has tally marks etched on the side.
+  description: Rouge pour la puissance de feu, il a des marques gravées sur le côté.
   components:
   - type: Pda
     id: ERTSecurityIDCard
@@ -1263,8 +1263,8 @@
 - type: entity
   parent: ERTLeaderPDA
   id: CBURNPDA
-  name: CBURN PDA
-  description: Smells like rotten flesh.
+  name: PDA CBURN
+  description: Sent la chair pourrie.
   components:
   - type: Pda
     id: CBURNIDcard
@@ -1276,8 +1276,8 @@
 - type: entity
   parent: BasePDA
   id: PsychologistPDA
-  name: psychologist PDA
-  description: Looks immaculately cleaned.
+  name: PDA de psychologue
+  description: Semble immaculément nettoyé.
   components:
   - type: Pda
     id: PsychologistIDCard
@@ -1295,8 +1295,8 @@
 - type: entity
   parent: BasePDA
   id: ReporterPDA
-  name: reporter PDA
-  description: Smells like freshly printed press.
+  name: PDA de journaliste
+  description: Sent l'odeur d'une presse fraîchement imprimée.
   components:
   - type: Pda
     id: ReporterIDCard
@@ -1319,8 +1319,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: DetectivePDA
-  name: detective PDA
-  description: Smells like rain... pouring down the rooftops...
+  name: PDA de détective
+  description: Sent l'odeur de la pluie... se déversant du haut des toits...
   components:
   - type: Pda
     id: DetectiveIDCard
@@ -1346,8 +1346,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: BrigmedicPDA
-  name: brigmedic PDA
-  description: I wonder whose pulse is on the screen? I hope it doesn't stop...
+  name: PDA de médico-légal
+  description: Je me demande quel pouls est à l'écran ? J'espère qu'il ne s'arrête pas...
   components:
   - type: Pda
     id: BrigmedicIDCard
@@ -1375,9 +1375,9 @@
 - type: entity
   parent: ClownPDA
   id: CluwnePDA
-  name: cluwne PDA
+  name: PDA de cluwne
   suffix: Unremoveable
-  description: Cursed cluwne PDA.
+  description: PDA de cluwne maudit.
   components:
   - type: Pda
     id: CluwneIDCard
@@ -1402,8 +1402,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorEngineerPDA
-  name: senior engineer PDA
-  description: Seems to have been taken apart and put back together several times.
+  name: PDA d'ingénieur senior
+  description: Semble avoir été démonté et remonté plusieurs fois.
   components:
   - type: Pda
     id: SeniorEngineerIDCard
@@ -1421,8 +1421,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorResearcherPDA
-  name: senior researcher PDA
-  description: Looks like it's been through years of chemical burns and explosions.
+  name: PDA de chercheur senior
+  description: On dirait qu'il a connu des années de brûlures chimiques et d'explosions.
   components:
   - type: Pda
     id: SeniorResearcherIDCard
@@ -1441,8 +1441,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SeniorPhysicianPDA
-  name: senior physician PDA
-  description: Smells faintly like iron and chemicals.
+  name: PDA de médecin senior
+  description: Sent un peu le fer et les produits chimiques.
   components:
   - type: Pda
     id: SeniorPhysicianIDCard
@@ -1461,8 +1461,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SeniorOfficerPDA
-  name: senior officer PDA
-  description: Beaten, battered and broken, but just barely useable.
+  name: PDA d'officier senior
+  description: Battu, endommagé et cassé, mais à peine utilisable.
   components:
   - type: Pda
     id: SeniorOfficerIDCard
@@ -1480,8 +1480,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorCourierPDA
-  name: senior courier PDA
-  description: Smells like postage stamps and shuttle fuel.
+  name: PDA de courrier senior
+  description: Sent les timbres-poste et le carburant de navette.
   components:
   - type: Pda
     id: CargoIDCard
@@ -1499,8 +1499,8 @@
 - type: entity
   parent: [ BaseMajorContraband, SyndiPDA ]
   id: PiratePDA
-  name: pirate PDA
-  description: Yargh!
+  name: PDA de pirate
+  description: Yargh !
   components:
   - type: Pda
     id: PirateIDCard
@@ -1515,8 +1515,8 @@
 - type: entity # Goobstation?
   parent: [ BaseMedicalPDA, BaseSyndicateContraband ]
   id: SyndiAgentPDA
-  name: syndicate corpsman PDA
-  description: For those days when healing normal syndicates aren't enough, try healing nuclear operatives instead!
+  name: PDA de médecin du syndicat
+  description: Pour ces jours où guérir les syndicats normaux ne suffisent pas, essayez plutôt de guérir les opérateurs nucléaires !
   components:
   - type: Pda
     id: NukieAgentIDCard # Goobstation
@@ -1540,8 +1540,8 @@
 - type: entity
   parent: [BasePDA, SelectableLock]
   id: ChameleonPDA
-  name: passenger PDA
-  description: Why isn't it gray?
+  name: PDA du passager
+  description: Pourquoi n'est-il pas gris ?
   suffix: Chameleon
   components:
   - type: PdaBorderColor
@@ -1571,8 +1571,8 @@
 - type: entity
   parent: BaseWidePDA
   id: WizardPDA
-  name: wizard PDA
-  description: You hear faint whispers coming from it.
+  name: PDA de sorcier
+  description: Vous entendez des chuchotements faibles venant de lui.
   components:
   - type: Pda
     id: WizardIDCard
@@ -1595,7 +1595,7 @@
 - type: entity
   parent: ClearPDA
   id: ScurretPDA
-  description: A temporary PDA granted to scurret temps. Doesn't do much. Wawa!
+  description: Un PDA temporaire accordé aux scurret. Ne fait pas grand-chose. Wawa !
   components:
   - type: Pda
     id: VisitorIDCard
