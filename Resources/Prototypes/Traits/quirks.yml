@@ -14,7 +14,8 @@
   id: LightweightDrunk
   name: trait-lightweight-name
   description: trait-lightweight-desc
-  category: Quirks
+  category: DrinkingSkill
+  cost: 1
   components:
   - type: LightweightDrunk
     boozeStrengthMultiplier: 2

@@ -14,8 +14,8 @@ trait-pacifist-desc = You cannot attack or hurt any living beings.
 
 permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
 
-trait-lightweight-name = Lightweight drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you.
+trait-lightweight-name = Petite nature
+trait-lightweight-desc = Vous tenez mal l'alcool.
 
 trait-monochromacy-name = Monochromacy
 trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
