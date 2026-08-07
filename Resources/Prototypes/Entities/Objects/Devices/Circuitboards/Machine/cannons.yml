@@ -4,8 +4,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-400c "Svalinn machine gun" machine board
-  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun".
+  name: circuit imprimé LSE-400c "Mitrailleuse Svalinn"
+  description: Un circuit imprimé pour un LSE-400c "Mitrailleuse Svalinn".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -21,8 +21,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-1200c "Perforator" machine board
-  description: A machine printed circuit board for an LSE-1200c "Perforator".
+  name: circuit imprimé LSE-1200c "Perforateur"
+  description: Un circuit imprimé pour un LSE-1200c "Perforateur".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -38,8 +38,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-320g "Friendship" machine board
-  description: A machine printed circuit board for an EXP-320g "Friendship".
+  name: circuit imprimé EXP-320g "Amitié"
+  description: Un circuit imprimé pour un EXP-320g "Amitié".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -55,8 +55,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-2100g "Duster" machine board
-  description: A machine printed circuit board for an EXP-2100g "Duster".
+  name: circuit imprimé EXP-2100g "Duster"
+  description: Un circuit imprimé pour un EXP-2100g "Duster".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -73,8 +73,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: PTK-800 "Matter Dematerializer" machine board
-  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer".
+  name: circuit imprimé PTK-800 "Dématerialiseur de matière"
+  description: Un circuit imprimé pour un PTK-800 Dématerialiseur de matière".
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
