@@ -3,8 +3,8 @@
 - type: entity
   id: MysteryFigureBoxTrash
   parent: BaseItem
-  name: unfolded cardboard box
-  description: A small, unfolded cardboard toy box.
+  name: boîte en carton dépliée
+  description: Une petite boîte en carton dépliée pour jouets.
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseItem
   id: MysteryFigureBox
-  name: mystery spacemen minifigure box
-  description: A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
+  name: boîte mystère de minifigurines d'astronautes
+  description: Une boîte contenant une minifigurine mystère. Le côté de la boîte représente quelques figurines 'rares' noircies, dont une avec une grande silhouette non humanoïde.
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
@@ -45,9 +45,9 @@
 - type: entity
   parent: BaseItem
   id: MysteryLighterBox
-  name: Novelty lighter mystery box
+  name: boîte mystère de briquets fantaisie
   suffix: Filled
-  description: A box of discontinued promotional lighters, many of which have since been declared "contraband".
+  description: Une boîte de briquets promotionnels abandonnés, dont beaucoup ont depuis été déclarés "contrebande".
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
