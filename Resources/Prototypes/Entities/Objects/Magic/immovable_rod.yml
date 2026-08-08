@@ -2,8 +2,8 @@
 
 - type: entity
   id: ImmovableRod
-  name: immovable rod
-  description: You can sense that it's hungry. That's usually a bad sign.
+  name: tige immobile
+  description: Vous pouvez sentir qu'il a faim. C'est généralement un mauvais signe.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -129,8 +129,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodMop
-  name: immovable mop
-  description: Hurled like a javelin, with the power of a thousand furious janitors.
+  name: serpillière immobile
+  description: Lancé comme un javelot, avec la puissance de mille agents d'entretien furieux.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodShark
-  name: immovable shark
-  description: SHARK TORNADO!
+  name: requin immobile
+  description: TORNADE DE REQUIN !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/shark.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodClown
-  name: immovable clown
-  description: Ejected from the neighbouring station one solar system over. HONK!
+  name: clown immobile
+  description: Éjecté de la station voisine située à un système solaire de distance. HONK !
   components:
   - type: Sprite
     sprite: Markers/jobs.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodBanana
-  name: immovable banana
-  description: At least you won't slip on it.
+  name: banane immobile
+  description: Du moins, vous ne glisserez pas dessus.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -176,7 +176,7 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodHammer
-  name: immovable hammer
+  name: marteau immobile
   description: Bwoink.
   components:
   - type: Sprite
@@ -188,8 +188,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodThrongler
-  name: immovable throngler
-  description: If you catch it, you can keep it.
+  name: throngler immobile
+  description: Si vous l'attrapez, vous pouvez le garder.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/Throngler2.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodGibstick
-  name: immovable gibstick
-  description: What did you expect?
+  name: gibstick immobile
+  description: À quoi vous vous attendiez ?
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/debug.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: ImmovableRodKeepTiles # Goob edit
   id: ImmovableRodWeh
-  name: immovable weh
-  description: WEH!
+  name: weh immobile
+  description: WEH !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lizard.rsi

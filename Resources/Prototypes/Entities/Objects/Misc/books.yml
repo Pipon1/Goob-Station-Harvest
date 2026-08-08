@@ -391,8 +391,8 @@
 - type: entity
   id: BookAILawCompendium
   parent: BaseGuidebook
-  name: My, Robot
-  description: A dictionary of all the ways silicons can go wrong. By Isaac Crewsimov.
+  name: Le Robot
+  description: Un dictionnaire de toutes les façons dont les siliciums peuvent mal tourner. Par Isaac Crewsimov.
   components:
   - type: Sprite
     layers:
@@ -520,7 +520,7 @@
   parent: BookBase
   id: BookAtmosWaste
   name: "Le guide de Newton sur l'Atmos : Les Déchets"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: Il y a d'innombrables notes illisibles griffonnées dans les marges. La plupart du texte est recouverte de points d'interrogation écrits à la main.
   components:
   - type: Sprite
     layers:
@@ -539,7 +539,7 @@
   parent: BookBase
   id: BookAtmosAirAlarms
   name: "Le guide de Newton sur l'Atmos : Les Alarmes d'Air"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: Il y a d'innombrables notes illisibles griffonnées dans les marges. La plupart du texte est recouverte de points d'interrogation écrits à la main.
   components:
   - type: Sprite
     layers:
@@ -558,7 +558,7 @@
   parent: BookBase
   id: BookAtmosVentsMore
   name: "Le guide de Newton sur l'Atmos : Les Ventilations et Plus"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  description: Il y a d'innombrables notes illisibles griffonnées dans les marges. La plupart du texte est recouverte de points d'interrogation écrits à la main.
   components:
   - type: Sprite
     layers:

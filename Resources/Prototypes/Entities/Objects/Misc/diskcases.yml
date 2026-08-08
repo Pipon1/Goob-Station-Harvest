@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: MIT
 
 - type: entity
-  name: diskcase
+  name: étui pour disque
   parent: BaseStorageItem
   id: DiskCase
-  description: Case for storing a coordinates disk.
+  description: Boîtier pour stocker un disque de coordonnées.
   components:
   - type: Sprite
     sprite: Objects/Misc/diskcases.rsi

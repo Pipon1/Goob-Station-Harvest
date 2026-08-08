@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: lantern
+  name: lanterne
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -57,10 +57,10 @@
     stealGroup: LAMP
 
 - type: entity
-  name: lamp
+  name: lampe
   id: Lamp
   parent: BaseLamp
-  description: A light emitting device.
+  description: Une lampe émettant de la lumière.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -86,10 +86,10 @@
           festive: { state: christmaslamp-on }
 
 - type: entity
-  name: banana lamp
+  name: lampe banane
   id: LampBanana
   parent: BaseLamp
-  description: A light emitting device, shaped like a banana.
+  description: Une lampe émettant de la lumière, en forme de banane.
   components:
   - type: Sprite
     layers:
@@ -100,10 +100,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: desk lamp
+  name: lampe de bureau
   id: LampGold
   parent: BaseLamp
-  description: A light emitting device that would look great on a desk.
+  description: Une lampe émettant de la lumière qui serait parfaite sur un bureau.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -133,10 +133,10 @@
             state: christmaslamp-on
 
 - type: entity
-  name: interrogator lamp
+  name: lampe d'interrogatoire
   id: LampInterrogator
   parent: [ BaseLamp, BaseSecurityContraband ]
-  description: Ultra-bright lamp for the bad cop.
+  description: Lampe ultra-lumineuse pour le mauvais flic.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -190,10 +190,10 @@
           False: {visible: false}
 
 - type: entity
-  name: floodlight
+  name: projecteur
   id: Floodlight
   parent: BaseLamp
-  description: A pole with powerful mounted lights on it.
+  description: Un poteau avec des lumières puissantes montées dessus.
   components:
   - type: Item
     size: Normal
@@ -251,10 +251,10 @@
       Glass: 500
       Steel: 200
 - type: entity
-  name: broken floodlight
+  name: projecteur cassé
   id: FloodlightBroken
   parent: BaseItem
-  description: A pole with powerful mounted lights on it. It's broken.
+  description: Un poteau avec des lumières puissantes montées dessus. Il est cassé.
   components:
   - type: Item
     size: Normal

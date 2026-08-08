@@ -40,8 +40,8 @@
 - type: entity
   parent: BoxBase
   id: ToteBase
-  name: circuit tote
-  description: A large tote for carrying circuit boards.
+  name: boîte de circuits
+  description: Un grande boîte pour transporter des circuits imprimés.
   components:
   - type: Sprite
     layers:
