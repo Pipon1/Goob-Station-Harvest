@@ -8,7 +8,7 @@ gladiator-effect-name = Gladiateur
 gladiator-effect-description = Vous vous soignez constamment dans l'arène.
 
 cloak-darkness-effect-name = Cape des Ténèbres
-cloak-darkness-effect-description = Vous gagnez une vitesse de déplacement supplémentaire et l'invisibilité dans l'obscurité. Cependant, vous êtes vulnérable au feu.
+cloak-darkness-effect-description = Vous gagnez une vitesse de déplacement supplémentaire et l'invisibilité dans l'obscurité. Cependant, vous devenez plus vulnérable au feu.
 
 blood-bond-effect-name = Lien de Sang
 blood-bond-effect-description = Vous êtes lié par un lien de sang. Vous partagez les dégâts avec quiconque est lié.
