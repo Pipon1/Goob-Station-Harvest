@@ -497,8 +497,8 @@
 - type: entity
   id: BorgModuleArtistry
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: artistry cyborg module
-  description: A module for arts & crafts whilst the station burns!
+  name: module cyborg art
+  description: Un module pour l'art plastique pendant que la station brûle !
   components:
   - type: Sprite
     layers:
@@ -1312,8 +1312,8 @@
 - type: entity
   id: BorgModuleDoubleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: double energy sword cyborg module
-  description: A weapons module that comes with a double energy sword.
+  name: module cyborg double épée d'énergie
+  description: Un module d'armes livré avec une double épée d'énergie.
   components:
   - type: Sprite
     layers:
@@ -1346,8 +1346,8 @@
 - type: entity
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule, BaseSyndicateContraband ]
   id: BorgModuleC20r
-  name: C-20r ROW cyborg module
-  description: A weapons module that comes with a burst-fire C-20r.
+  name: module cyborg C-20r ROW
+  description: Un module d'armes livré avec un C-20r à tir en rafale.
   components:
   - type: Sprite
     layers:
@@ -1522,8 +1522,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleEngi, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleDoorControl
-  name: door control xenoborg module
-  description: Module that allows Xenoborgs to control airlocks.
+  name: module xénoborg contrôle de porte
+  description: Module permettant aux Xénoborgs de contrôler les sas.
   components:
   - type: Sprite
     layers:
