@@ -10,8 +10,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobAtmospherictechnician
-  name: atmospheric technician lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as an atmospheric technician. Smells faintly of frezon.
+  name: peluche lézard technicien en atmosphérique
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que technicien en atmosphérique. Il sent légèrement le frezon.
   components:
   - type: Sprite
     state: atmospherictechnician
@@ -19,8 +19,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBartender
-  name: bartender lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a bartender. Its tongue has alcohol stains on it.
+  name: peluche lézard barman
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que barman. Sa langue a des taches d'alcool.
   components:
   - type: Sprite
     state: bartender
@@ -28,8 +28,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBotanist
-  name: botanist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a botanist. There's prickly bits on its feet and it smells faintly of plant fertilizer.
+  name: peluche lézard botaniste
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que botaniste. Il y a des épines sur ses pieds et il sent légèrement l'engrais pour plantes.
   components:
   - type: Sprite
     state: botanist
@@ -37,8 +37,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBoxer
-  name: boxer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a boxer. The threads on its gloves are starting to come loose.
+  name: peluche lézard boxeur
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que boxeur. Les fils de ses gants commencent à se détacher.
   components:
   - type: Sprite
     state: boxer
@@ -46,8 +46,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCaptain
-  name: captain lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the captain. There's bits of pie on its face.
+  name: peluche lézard capitaine
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que capitaine. Il y a des morceaux de tarte sur son visage.
   components:
   - type: Sprite
     state: captain
@@ -55,8 +55,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCargotechnician
-  name: cargo technician lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a cargo technician. Crumbs of packing peanuts are stuck to its scales.
+  name: peluche lézard technicien cargo
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que technicien cargo. Des miettes de chips de calage sont collées à ses écailles.
   components:
   - type: Sprite
     state: cargotechnician
@@ -64,8 +64,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChaplain
-  name: chaplain lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chaplain. It smells faintly of incense.
+  name: peluche lézard chapelain
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chapelain. Il sent légèrement l'encens.
   components:
   - type: Sprite
     state: chaplain
@@ -73,8 +73,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChef
-  name: chef lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chef. It smells faintly of spices, with spots of oil on its apron.
+  name: peluche lézard chef
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chef. Il sent légèrement les épices, avec des taches d'huile sur son tablier.
   components:
   - type: Sprite
     state: chef
@@ -82,8 +82,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChemist
-  name: chemist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a chemist. Parts of the plushie are stained with chemicals.
+  name: peluche lézard chimiste
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chimiste. Des parties de la peluche sont tachées de produits chimiques.
   components:
   - type: Sprite
     state: chemist
@@ -91,8 +91,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChiefengineer
-  name: chief engineer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the chief engineer. It's covered in metal shavings and welding splatter.
+  name: peluche lézard chef ingénieur
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chef ingénieur. Il est couvert de copeaux de métal et de projections de soudure.
   components:
   - type: Sprite
     state: chiefengineer
@@ -100,8 +100,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobChiefmedicalofficer
-  name: chief medical officer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the chief medical officer. The plushie's tail has been sewn off and on again, probably from practicing surgery.
+  name: peluche lézard médecin-chef
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chef médical. La queue de la peluche a été cousue et décousue à nouveau, probablement à cause de l'entraînement à la chirurgie.
   components:
   - type: Sprite
     state: chiefmedicalofficer
@@ -109,8 +109,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobClown
-  name: clown lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a clown. Its nose squeaks when you press it.
+  name: peluche lézard clown
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que clown. Son nez fait un bruit de couinement quand tu l'appuies.
   components:
   - type: Sprite
     state: clown
@@ -127,8 +127,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobDetective
-  name: detective lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a detective. Seems ready for a mystery.
+  name: peluche lézard détective
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que détective. Il semble prêt pour un mystère.
   components:
   - type: Sprite
     state: detective
@@ -136,8 +136,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobHeadofpersonnel
-  name: head of personnel lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the head of personnel. While it seems thrilled on the outside, it's probably just as bored as you are.
+  name: peluche lézard chef du personnel
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chef du personnel. Bien qu'il semble ravi extérieurement, il est probablement aussi ennuyé que toi.
   components:
   - type: Sprite
     state: headofpersonnel
@@ -145,8 +145,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobHeadofsecurity
-  name: head of security lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the head of security. It seems to have been ripped and re-stitched a few times.
+  name: peluche lézard chef de la sécurité
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que chef de la sécurité. Il semble avoir été déchiré et recousu plusieurs fois.
   components:
   - type: Sprite
     state: headofsecurity
@@ -154,8 +154,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobJanitor
-  name: janitor lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a janitor. It smells faintly of cleaning supplies.
+  name: peluche lézard concierge
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que concierge. Il sent légèrement les produits de nettoyage.
   components:
   - type: Sprite
     state: janitor
@@ -163,8 +163,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobLawyer
-  name: lawyer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a lawyer. Its lawyer pin is barely hanging on from hours of fidgeting.
+  name: peluche lézard avocat
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'avocat. Son insigne d'avocat tient à peine après des heures de manipulation nerveuse.
   components:
   - type: Sprite
     state: lawyer
@@ -172,8 +172,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobLibrarian
-  name: librarian lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a librarian. The color of the plushie has faded from years of desk-watching.
+  name: peluche lézard bibliothécaire
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que bibliothécaire. La couleur de la peluche a pâli après des années de surveillance de bureau.
   components:
   - type: Sprite
     state: librarian
@@ -181,8 +181,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMedicaldoctor
-  name: medical doctor lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a medical doctor. Seems to be well-washed.
+  name: peluche lézard médecin
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que médecin. Il semble bien lavé.
   components:
   - type: Sprite
     state: medicaldoctor
@@ -190,8 +190,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMedicalintern
-  name: medical intern lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a medical intern. It smells faintly of antiseptic.
+  name: peluche lézard interne en médecine
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'interne en médecine. Il sent légèrement l'antiseptique.
   components:
   - type: Sprite
     state: medicalintern
@@ -199,8 +199,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMime
-  name: mime lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a mime. It stares at you silently, its motives unknown.
+  name: peluche lézard mime
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que mime. Il te fixe silencieusement, ses motives sont inconnus.
   components:
   - type: Sprite
     state: mime
@@ -223,8 +223,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMusician
-  name: musician lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a musician. It smells faintly of sweat and has a few strings coming loose.
+  name: peluche lézard musicien
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que musicien. Il sent légèrement la transpiration et a quelques cordes qui se détachent.
   components:
   - type: Sprite
     state: musician
@@ -232,8 +232,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobParamedic
-  name: paramedic lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a paramedic. The plushie has a few little bandages sewn on it.
+  name: peluche lézard urgentiste
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'urgentiste. La peluche a quelques petits pansements cousus dessus.
   components:
   - type: Sprite
     state: paramedic
@@ -241,8 +241,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobPassenger
-  name: passenger lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a passenger. Its eyes look at you, a little bit more beady than the rest.
+  name: peluche lézard passager
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que passager. Ses yeux te regardent, un peu plus brillants que d'habitude.
   components:
   - type: Sprite
     state: passenger
@@ -250,8 +250,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobPsychologist
-  name: psychologist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a psychologist. It seems to like to quietly listen to you.
+  name: peluche lézard psychologue
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que psychologue. Il semble aimer t'écouter silencieusement.
   components:
   - type: Sprite
     state: psychologist
@@ -259,8 +259,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobQuartermaster
-  name: quartermaster lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the quartermaster. Its covered in sticky residue left behind from thousands of shipment invoices.
+  name: peluche lézard quartier-maître
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que quartier-maître. Il est couvert de résidu collant laissé par des milliers de factures d'expédition.
   components:
   - type: Sprite
     state: quartermaster
@@ -268,8 +268,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobReporter
-  name: reporter lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a reporter. It smells faintly of ink.
+  name: peluche lézard journaliste
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que journaliste. Il sent légèrement l'encre.
   components:
   - type: Sprite
     state: reporter
@@ -277,8 +277,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobResearchassistant
-  name: research assistant lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a research assistant. It smells faintly of burnt paper.
+  name: peluche lézard assistant de recherche
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'assistant de recherche. Il sent légèrement le papier brûlé.
   components:
   - type: Sprite
     state: researchassistant
@@ -286,8 +286,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobResearchdirector
-  name: research director lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as the research director. There's a few burn marks on the plushie.
+  name: peluche lézard directeur de recherche
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que directeur de recherche. Il y a quelques marques de brûlure sur la peluche.
   components:
   - type: Sprite
     state: researchdirector
@@ -295,8 +295,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobSalvagespecialist
-  name: salvage specialist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a salvage specialist. Seems like it's seen the coldness of space for a while.
+  name: peluche lézard spécialiste de la récupération
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que spécialiste de la récupération. Il semble avoir connu le froid de l'espace pendant un certain temps.
   components:
   - type: Sprite
     state: salvager
@@ -304,8 +304,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobScientist
-  name: scientist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a scientist. There's a few bite marks on the plushie, probably from a curious monkey.
+  name: peluche lézard scientifique
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que scientifique. Il y a quelques marques de morsure sur la peluche, probablement provenant d'un singe curieux.
   components:
   - type: Sprite
     state: scientist
@@ -313,8 +313,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobSecuritycadet
-  name: security cadet lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a security cadet. Seems to have shock marks across the plushie.
+  name: peluche lézard cadet de sécurité
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que cadet de sécurité. Il semble avoir des marques de choc partout sur la peluche.
   components:
   - type: Sprite
     state: securitycadet
@@ -322,8 +322,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobSecurityofficer
-  name: security officer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a security officer. The stuffing has been padded down from a lot of punching.
+  name: peluche lézard officier de sécurité
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'officier de sécurité. Le rembourrage a été tassé à cause de nombreux coups de poing.
   components:
   - type: Sprite
     state: securityofficer
@@ -331,8 +331,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobServiceworker
-  name: service worker lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a service worker. Smells like a mix of cleaning supplies and food.
+  name: peluche lézard travailleur de service
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que travailleur de service. Il sent comme un mélange de produits de nettoyage et de nourriture.
   components:
   - type: Sprite
     state: serviceworker
@@ -340,8 +340,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobStationengineer
-  name: station engineer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a station engineer. It has oil stains on its hands.
+  name: peluche lézard ingénieur
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'ingénieur. Il a des taches d'huile sur ses mains.
   components:
   - type: Sprite
     state: stationengineer
@@ -349,8 +349,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobTechnicalassistant
-  name: technical assistant lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a technical assistant. It smells faintly of burnt wires.
+  name: peluche lézard assistant technique
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant qu'assistant technique. Il sent légèrement les fils brûlés.
   components:
   - type: Sprite
     state: technicalassistant
@@ -358,8 +358,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobWarden
-  name: warden lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a warden. Smells like black powder and gun oil.
+  name: peluche lézard gardien
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que gardien. Il sent comme de la poudre noire et de l'huile de pistolet.
   components:
   - type: Sprite
     state: warden
@@ -367,8 +367,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobZookeeper
-  name: zookeeper lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a zookeeper. It has some gorilla fur stuck to it.
+  name: peluche lézard gardien de zoo
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard en tant que gardien de zoo. Il a quelques poils de gorille collés dessus.
   components:
   - type: Sprite
     state: zookeeper
@@ -376,8 +376,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobMultiweh
-  name: multiweh lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as every job! It's a plushie of many talents. You can hear a HoP crying in the distance.
+  name: peluche lézard multiweh
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard pour tous les postes ! C'est une peluche aux nombreux talents. Tu peux entendre un HoP pleurer au loin.
   components:
   - type: Sprite
     state: multiweh
