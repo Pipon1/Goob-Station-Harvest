@@ -12,7 +12,6 @@ namespace Content.Goobstation.Shared.Vampires.Dantalion;
 
 public sealed partial class BloodBondSystem : EntitySystem
 {
-    // Note: This system is too hardcoded design-wise but i cbf to think of how to make it more generic like the others
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private AlertsSystem _alert = default!;
     [Dependency] private EntityLookupSystem _lookup = default!;

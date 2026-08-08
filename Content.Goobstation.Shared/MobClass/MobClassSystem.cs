@@ -10,8 +10,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.MobClass;
 
 /// <summary>
-/// Public Api for mob classes. Also, handles BUI events.
-/// TODO: if this gets more complex than a simple specialization, support changing classes
+/// Public API for mob classes and handles class selection BUI events.
 /// </summary>
 public sealed partial class MobClassSystem : EntitySystem
 {
@@ -21,7 +20,6 @@ public sealed partial class MobClassSystem : EntitySystem
     [Dependency] private SharedEntityEffectsSystem _effects = default!;
     [Dependency] private SharedActionsSystem _actions = default!;
     [Dependency] private INetManager _net = default!;
-    // NOTE: EntityQuery dependency removed - using EntityManager.TryComp directly to avoid registration issues
 
     public override void Initialize()
     {

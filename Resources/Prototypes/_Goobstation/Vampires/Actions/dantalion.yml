@@ -55,7 +55,7 @@
     event: !type:EffectTargetActionEvent
   - type: EffectAction
     effects:
-    - !type:GenericStatusEffect # TODO: use new status effects when its ported from upstream
+    - !type:GenericStatusEffect
       key: Pacified
       component: Pacified
       time: 40

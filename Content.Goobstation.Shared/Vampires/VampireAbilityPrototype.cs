@@ -27,13 +27,6 @@ public sealed partial class VampireAbilityPrototype : IPrototype, IInheritingPro
     public bool Abstract { get; private set; }
 
     /// <summary>
-    /// Extra conditions the vampire must meet to unlock this ability.
-    /// TODO: Trauma has EntityConditions system, Goob doesn't - need alternative implementation
-    /// </summary>
-    // [DataField]
-    // public EntityCondition[]? Conditions;
-
-    /// <summary>
     /// The class this ability belongs to. If null, all vampires can get it.
     /// </summary>
     [DataField]

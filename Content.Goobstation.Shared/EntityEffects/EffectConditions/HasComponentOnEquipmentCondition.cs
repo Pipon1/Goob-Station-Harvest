@@ -44,9 +44,5 @@ public sealed partial class HasComponentOnEquipmentCondition : EntityConditionBa
     [DataField]
     public bool Invert = false;
 
-    public override string EntityConditionGuidebookText(IPrototypeManager prototype)
-    {
-        // Same reasoning as before
-        return "TODO";
-    }
+    public override string EntityConditionGuidebookText(IPrototypeManager prototype) => String.Empty;
 }

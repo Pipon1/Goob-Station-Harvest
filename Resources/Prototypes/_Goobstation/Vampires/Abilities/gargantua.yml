@@ -80,7 +80,7 @@
 - type: vampireAbility
   parent: BaseGargantuaAbility
   id: GargantuaFullPower
-  cost: 1000 # TODO: Requires 8 bodies condition
+  cost: 1000
   conditions:
   - !type:HasSuckedVictimsCondition
     amount: 8

@@ -30,17 +30,4 @@
         color: "#650000"
         sound: /Audio/_Goobstation/Vampires/vampalert.ogg
 
-# TODO: Trauma has mobState prototype, Goob doesn't - need alternative implementation
-# - type: mobState
-#   id: VampireCritical
-#   name: vampire-state-critical
-
-# TODO: Trauma has statusIcon prototype, Goob doesn't - StatusIcon is a component, not a prototype
-# - type: statusIcon
-#   id: VampireFactionIcon
-#   priority: 11
-#   icon:
-#     sprite: /Textures/_Goobstation/Vampires/vampire_faction.rsi
-#     state: vampire
-#   role: GhostRoleFactions
 

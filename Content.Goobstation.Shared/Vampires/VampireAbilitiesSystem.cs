@@ -60,7 +60,7 @@ public abstract class SharedVampireAbilitiesSystem : EntitySystem
         UnlockAbilities(ent, args.Blood);
 
     /// <summary>
-    /// Unlocks abilities based on various factors (mob class, total blood, conditions).
+    /// Unlocks abilities based on the vampire's class and total blood.
     /// </summary>
     protected void UnlockAbilities(Entity<VampireAbilitiesComponent> ent, int blood)
     {
@@ -72,7 +72,7 @@ public abstract class SharedVampireAbilitiesSystem : EntitySystem
             if (!_proto.Resolve(ability, out var abilityProto))
                 continue;
 
-            // We tried to unlcok an ability, but we don't have enough total blood
+            // We tried to unlock an ability, but we don't have enough total blood
             if (abilityProto.Cost > blood)
                 continue;
 
@@ -81,14 +81,9 @@ public abstract class SharedVampireAbilitiesSystem : EntitySystem
                 continue;
 
             // We tried to unlock an ability that doesn't belong to us, or we're blacklisted from it.
-            if (( abilityProto.Class is { } requiredClass && mobClass != requiredClass )
+            if ((abilityProto.Class is { } requiredClass && mobClass != requiredClass)
                 || abilityProto.BlacklistClass is { } blacklistClass && mobClass == blacklistClass)
                 continue;
-
-            // We tried to unlock an ability, but we didn't pass the extra conditions
-            // TODO: Trauma has EntityConditions system, Goob doesn't - need alternative implementation
-            // if (abilityProto.Conditions is { } conditions && !_conditions.TryConditions(user, conditions))
-            //     continue;
 
             if (abilityProto.OnUnlock is { } onUnlockEffects)
             {

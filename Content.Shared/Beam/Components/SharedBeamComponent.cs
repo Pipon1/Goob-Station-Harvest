@@ -48,17 +48,14 @@ public abstract partial class SharedBeamComponent : Component
     public SoundSpecifier? Sound;
 
     /// <summary>
-    /// Goobstation
-    /// Beams of the same family have unique index. Used to make sure lightning hits an entity no more than once.
+    /// Beams of the same family share a unique index, used to prevent lightning from hitting an entity more than once.
     /// </summary>
     [ViewVariables(VVAccess.ReadOnly)]
     public uint BeamIndex;
 
     /// <summary>
-    /// Goobstation
-    /// If true, the beam entity itself will be rotated to the fire angle and the visual sprite rotation
-    /// is applied relative to the entity's world rotation. This makes the beam rotation authoritative in the
-    /// transform state, so the sprite is correctly oriented as soon as the client spawns it.
+    /// If true, the beam entity's transform is rotated to the fire angle and the sprite rotation is applied
+    /// relative to that world rotation. This lets the client orient the sprite correctly as soon as it spawns.
     /// </summary>
     [DataField]
     public bool UseWorldRotation;

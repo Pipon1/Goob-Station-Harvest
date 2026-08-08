@@ -21,13 +21,6 @@ public sealed partial class ToggleEffectActionComponent : Component
     public EntityEffect[]? OnToggle;
 
     /// <summary>
-    /// Conditions to run before toggling the <see cref="OnToggle"/> effects.
-    /// TODO: Trauma has EntityConditions system, Goob doesn't - need alternative implementation
-    /// </summary>
-    // [DataField]
-    // public EntityCondition[]? OnToggleConditions;
-
-    /// <summary>
     /// Effects to run when this action gets un-toggled
     /// </summary>
     [DataField(required: true)]

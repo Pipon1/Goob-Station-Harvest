@@ -44,5 +44,5 @@ public sealed partial class ModifySlimeComponent : EntityEffectBase<ModifySlimeC
     public float? ChanceModifier;
 
     public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
-        => null; // todo add something here
+        => null;
 }

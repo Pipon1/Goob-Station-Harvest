@@ -7,10 +7,10 @@
   fontColorOverride: "#8B0000"
   fontSize: 15
   classes:
-  # - Gargantua  # Désactivé pour l'instant
+  # - Gargantua  # Disabled for low-pop
   - Haemomancer
   - Umbrae
-  # - Dantalion  # Désactivé pour l'instant
+  # - Dantalion  # Disabled for low-pop
 
 - type: mobClass
   id: Gargantua
@@ -19,13 +19,6 @@
     sprite: _Goobstation/Vampires/actions.rsi
     state: duel
   description: A bloodsucker fueled by the thrill of the duel.
-  # TODO: SendBriefing effect doesn't exist in Goob - needs alternative implementation
-  # effects:
-  # - !type:SendBriefing
-  #   text: vampire-gargantua-briefing
-  #   color: Orange
-  #   briefingSound:
-  #     path: /Audio/_Goobstation/Vampires/Classes/class_gargantua.ogg
 
 - type: mobClass
   id: Haemomancer
@@ -34,13 +27,6 @@
   icon:
     sprite: _Goobstation/Vampires/actions.rsi
     state: blood_bringers_rite
-  # TODO: SendBriefing effect doesn't exist in Goob - needs alternative implementation
-  # effects:
-  # - !type:SendBriefing
-  #   text: vampire-haemomancer-briefing
-  #   color: DarkRed
-  #   briefingSound:
-  #     path: /Audio/_Goobstation/Vampires/Classes/class_haemomancer.ogg
 
 - type: mobClass
   id: Umbrae
@@ -49,13 +35,6 @@
   icon:
     sprite: _Goobstation/Vampires/actions.rsi
     state: eternal_darkness
-  # TODO: SendBriefing effect doesn't exist in Goob - needs alternative implementation
-  # effects:
-  # - !type:SendBriefing
-  #   text: vampire-umbrae-briefing
-  #   color: Purple
-  #   briefingSound:
-  #     path: /Audio/_Goobstation/Vampires/Classes/class_umbrae.ogg
 
 - type: mobClass
   id: Dantalion
@@ -64,10 +43,3 @@
   icon:
     sprite: _Goobstation/Vampires/actions.rsi
     state: hysteria
-  # TODO: SendBriefing effect doesn't exist in Goob - needs alternative implementation
-  # effects:
-  # - !type:SendBriefing
-  #   text: vampire-dantalion-briefing
-  #   color: Green
-  #   briefingSound:
-  #     path: /Audio/_Goobstation/Vampires/Classes/class_dantalion.ogg

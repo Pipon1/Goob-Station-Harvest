@@ -16,10 +16,7 @@ public sealed partial class AnyNearbyCondition : EntityConditionBase<AnyNearbyCo
     [DataField]
     public float Range = 1f;
 
-    public override string EntityConditionGuidebookText(IPrototypeManager prototype)
-    {
-        return "TODO";
-    }
+    public override string EntityConditionGuidebookText(IPrototypeManager prototype) => String.Empty;
 }
 
 public sealed partial class AnyNearbyConditionSystem : EntityConditionSystem<MetaDataComponent, AnyNearbyCondition>

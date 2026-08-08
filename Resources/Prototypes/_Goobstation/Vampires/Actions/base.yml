@@ -10,18 +10,6 @@
   - type: Action
     raiseOnAction: true
     itemIconStyle: BigAction
-  # TODO: Add back conditions when HasNullificationCondition and InsideAreaCondition types are implemented
-  # - type: ActionConditions
-  #   failPopup: The holiness has consumed your powers!
-  #   conditions:
-  #   - !type:HasNullificationCondition
-  #     inverted: true
-  #     amount: 100
-  #   - !type:InsideAreaCondition
-  #     inverted: true
-  #     whitelist:
-  #       components:
-  #       - HolyArea
 
 - type: entity
   parent: BaseVampireAction

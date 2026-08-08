@@ -57,14 +57,6 @@ public sealed partial class EffectActionSystem : EntitySystem
             return;
 
         bool targetState = !comp.Toggled;
-        // TODO: Trauma has EntityConditions system, Goob doesn't - need alternative implementation
-        // if (targetState && comp.OnToggleConditions is { } conditions)
-        // {
-        //     if (!_conditions.TryConditions(args.Performer, conditions))
-        //     {
-        //         return;
-        //     }
-        // }
 
         args.Handled = true;
 

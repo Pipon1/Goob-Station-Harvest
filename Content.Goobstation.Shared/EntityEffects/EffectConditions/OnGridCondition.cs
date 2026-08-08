@@ -8,10 +8,7 @@ namespace Content.Goobstation.Shared.EntityEffects.EffectConditions;
 
 public sealed partial class OnGridCondition : EntityConditionBase<OnGridCondition>
 {
-    public override string EntityConditionGuidebookText(IPrototypeManager prototype)
-    {
-        return "TODO";
-    }
+    public override string EntityConditionGuidebookText(IPrototypeManager prototype) => String.Empty;
 }
 
 public sealed partial class OnGridConditionSystem : EntityConditionSystem<TransformComponent, OnGridCondition>
