@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseBrassInstrument
   id: TrumpetInstrument
-  name: trumpet
-  description: The favorite instrument of jazz musicians and egotistical middle schoolers.
+  name: trompette
+  description: L'instrument préféré des musiciens de jazz et des collégiens égocentriques.
   components:
   - type: Instrument
     program: 56
@@ -28,7 +28,7 @@
   parent: BaseBrassInstrument
   id: TromboneInstrument
   name: trombone
-  description: Everyone's favorite sliding brass instrument.
+  description: L'instrument de cuivre à coulisse préféré de tous.
   components:
   - type: Instrument
     program: 57
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseBrassInstrument
   id: FrenchHornInstrument
-  name: french horn
-  description: The fact that holding it involves using your hand to muffle it may suggest something about its sound.
+  name: cor d'harmonie
+  description: Le fait que le tenir implique d'utiliser ta main pour l'étouffer peut suggérer quelque chose sur son son.
   components:
   - type: Instrument
     program: 60
@@ -50,7 +50,7 @@
   parent: BaseBrassInstrument
   id: EuphoniumInstrument
   name: euphonium
-  description: A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.
+  description: Un bébé tuba ? Un baryton ? Quoi qu'il en soit, c'est un joli fouillis de tuyaux.
   components:
   - type: Instrument
     program: 3

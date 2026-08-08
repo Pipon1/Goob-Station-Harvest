@@ -22,8 +22,8 @@
 - type: entity
   parent: BasePercussionInstrument
   id: MusicBoxInstrument
-  name: music box
-  description: Playing this makes you feel safe from scary animatronics.
+  name: boîte à musique
+  description: Jouer avec ça te fait sentir en sécurité loin des animatroniques effrayants.
   components:
   - type: Instrument
     program: 10
@@ -36,7 +36,7 @@
   parent: BasePercussionInstrument
   id: XylophoneInstrument
   name: xylophone
-  description: Rainbow colored glockenspiel.
+  description: Glockenspiel aux couleurs de l'arc-en-ciel.
   components:
   - type: Instrument
     program: 13
@@ -48,7 +48,7 @@
   parent: BaseHandheldInstrument
   id: MicrophoneInstrument
   name: microphone
-  description: Perfect for singing your heart out.
+  description: Parfait pour chanter à pleins poumons.
   components:
   - type: Instrument
     program: 52
@@ -69,7 +69,7 @@
   parent: BasePercussionInstrument
   id: WoodblockInstrument
   name: woodblock
-  description: If you listen to this enough it'll start driving itself into your mind.
+  description: Si tu écoutes ça assez souvent, ça va finir par te trotter dans la tête.
   components:
   - type: Instrument
     program: 115
@@ -79,8 +79,8 @@
 - type: entity
   parent: BasePercussionInstrument
   id: ReverseCymbalsInstrument
-  name: reverse cymbals
-  description: I think you have it the wrong way around?
+  name: cymbales inversées
+  description: Je pense que tu l'as placé à l'envers ?
   components:
   - type: Instrument
     program: 119
