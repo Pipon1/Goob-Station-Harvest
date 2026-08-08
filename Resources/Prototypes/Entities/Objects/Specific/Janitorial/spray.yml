@@ -159,7 +159,7 @@
   id: BorgMegaSprayBottle
   name: jet pulvérisateur interne avancé
   suffix: Filled
-  description: An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. This one is capable of creating space cleaner from moisture in the air.
+  description: Une version améliorée du pulvérisateur intégré, installée directement dans un cyborg de maintenance. Celui-ci est capable de créer du nettoyant spatial à partir de l'humidité de l'air.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -181,7 +181,7 @@
 - type: entity
   id: Vapor
   categories: [ HideSpawnMenu ]
-  name: "vapor"
+  name: "vapeur"
   components:
   - type: SolutionContainerManager
     solutions:

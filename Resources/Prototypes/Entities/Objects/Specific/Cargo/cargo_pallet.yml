@@ -3,8 +3,8 @@
 - type: entity
   id: BaseCargoPallet
   parent: BaseStructure
-  name: palette de fret
-  description: Accessoire courant de la logistique et du fret. Rappel subtil de d'où vont les caisses lors du transport pour éviter les tibias écorchés.
+  name: palette de cargo
+  description: Accessoire courant de la logistique et du cargo. Rappel subtil de d'où vont les caisses lors du transport pour éviter les tibias écorchés.
   abstract: true
   components:
   - type: InteractionOutline
@@ -63,7 +63,7 @@
 
 - type: entity
   id: CargoPalletSell
-  name: palette de vente du fret
+  name: palette de vente du cargo
   description: Désigne l'emplacement où les articles valides disparaîtront lors de la vente. Fabriquée en plastitanium pour décourager les vandales importuns.
   parent: BaseCargoPallet
   components:
@@ -80,7 +80,7 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: palette d'achat du fret
+  name: palette d'achat du cargo
   description: Désigne l'emplacement où les commandes apparaîtront lors de l'achat. Fabriquée en plastitanium pour décourager les vandales importuns.
   parent: BaseCargoPallet
   components:

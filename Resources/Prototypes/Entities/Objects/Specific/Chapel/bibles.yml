@@ -62,8 +62,8 @@
 
 - type: selectableSet
   id: BibleVedaSet
-  name: Slavic-Aryan Vedas
-  description: Slavic neopaganisms.
+  name: Védas slaves-aryens
+  description: Néo-paganisme slave.
   sprite:
     sprite: _Goobstation/Objects/Specific/Chapel/veda.rsi
     state: icon
@@ -72,8 +72,8 @@
 
 - type: selectableSet
   id: VelesBookSet
-  name: Book of veles
-  description: Basis and proof of neopagan religiosity.
+  name: Livre de Vélès
+  description: Base et preuve de la religiosité néopaïenne.
   sprite:
     sprite: _Goobstation/Objects/Specific/Chapel/veles_book.rsi
     state: icon
@@ -191,7 +191,7 @@
 - type: entity
   parent: Bible
   name: tanakh
-  description: "For God's chosen crewmembers"
+  description: "Pour les membres d'équipage choisis par Dieu"
   id: BibleTanakh
   components:
   - type: Sprite
@@ -207,8 +207,8 @@
 
 - type: entity
   parent: Bible
-  name: quran
-  description: "Prayer carpet not included"
+  name: coran
+  description: "Tapis de prière non inclus"
   id: BibleQuran
   components:
   - type: Sprite
@@ -218,9 +218,9 @@
 
 - type: entity
   id: BibleDruid
-  name: druidic tablet
+  name: tablette druidique
   parent: Bible
-  description: "It's the mystery of the druids!"
+  description: "C'est le mystère des druides !"
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
@@ -229,9 +229,9 @@
 
 - type: entity
   id: BibleCommunistManifesto
-  name: communist manifesto
+  name: manifeste communiste
   parent: Bible
-  description: "Remove the mask of humanity from Capital."
+  description: "Retirez le masque d'humanité du Capital."
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/communistmanifesto.rsi
@@ -240,8 +240,8 @@
 
 - type: entity
   parent: Bible
-  name: satanic bible
-  description: "What could possibly go wrong?"
+  name: bible satanique
+  description: "Qu'est-ce qui pourrait bien se passer ?"
   id: BibleSatanic
   components:
   - type: Sprite
@@ -251,9 +251,9 @@
 
 - type: entity
   id: BibleNarsie
-  name: tome of nar'sie
+  name: tome de Nar'sie
   parent: Bible
-  description: "What could possibly go wrong with a book covered in blood?"
+  description: "Qu'est-ce qui pourrait bien se passer avec un livre couvert de sang ?"
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/tomeofnarsie.rsi
@@ -264,7 +264,7 @@
   id: BibleNanoTrasen
   name: codex nanotrasimus
   parent: Bible
-  description: "A familiar book containing the Sacred Operating Procedures."
+  description: "Un livre familier contenant les Procédures Opérationnelles Sacrées."
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/codexnanotrasimus.rsi
@@ -273,9 +273,9 @@
 
 - type: entity
   id: BibleHonk
-  name: mirth of the honkmother
+  name: liesse de la honkmother
   parent: Bible
-  description: "Oh great and glorious Mother, Mistress of Mirth, Matron of Mask and Merriments, Blessed is she amongst us jesters."
+  description: "Ô grande et glorieuse Mère, Maîtresse de la Liesse, Marraine du Masque et des Joyeusetés, Bénie soit-elle parmi nous, bouffons."
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/honk.rsi
@@ -284,9 +284,9 @@
 
 - type: entity
   id: BibleRatvar
-  name: tablet of ratvar
+  name: tablette de Ratvar
   parent: Bible
-  description: "A holy relic of the Clockwork Cult, blessed by the Clockwork Justice, Ratvar."
+  description: "Une relique sacrée du Culte de l'Horloge, bénite par la Justice d'Horlogerie, Ratvar."
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/ratvartablet.rsi
