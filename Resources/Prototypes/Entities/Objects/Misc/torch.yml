@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: torch
+  name: torche
   parent: BaseItem
   id: Torch
-  description: A torch fashioned from some wood.
+  description: Une torche fabriquée à partir de bois.
   components:
     - type: ExpendableLight
       refuelMaterialID: WoodPlank

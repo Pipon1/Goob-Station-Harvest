@@ -52,7 +52,7 @@
 - type: entity
   parent: IDCardStandard
   id: PassengerIDCard
-  nom: carte d'identification de passager
+  name: carte d'identification de passager
   components:
   - type: Sprite
     layers:
@@ -64,7 +64,7 @@
 - type: entity
   parent: PassengerIDCard
   id: TechnicalAssistantIDCard
-  nom: carte d'identification d'assistant technique
+  name: carte d'identification d'assistant technique
   components:
   - type: PresetIdCard
     job: TechnicalAssistant
@@ -76,7 +76,7 @@
 - type: entity
   parent: PassengerIDCard
   id: MedicalInternIDCard
-  nom: carte d'identification d'interne en médecine
+  name: carte d'identification d'interne en médecine
   components:
   - type: PresetIdCard
     job: MedicalIntern
@@ -88,7 +88,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ResearchAssistantIDCard
-  nom: carte d'identification d'assistant de recherche
+  name: carte d'identification d'assistant de recherche
   components:
   - type: PresetIdCard
     job: ResearchAssistant
@@ -100,7 +100,7 @@
 - type: entity
   parent: PassengerIDCard
   id: SecurityCadetIDCard
-  nom: carte d'identification de cadet de sécurité
+  name: carte d'identification de cadet de sécurité
   components:
   - type: PresetIdCard
     job: SecurityCadet
@@ -112,7 +112,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ServiceWorkerIDCard
-  nom: carte d'identification de travailleur de service
+  name: carte d'identification de travailleur de service
   components:
   - type: PresetIdCard
     job: ServiceWorker
@@ -124,7 +124,7 @@
 - type: entity
   parent: [IDCardStandard, BaseGrandTheftContraband]
   id: CaptainIDCard
-  nom: carte d'identification de capitaine
+  name: carte d'identification de capitaine
   components:
   - type: Sprite
     layers:
@@ -146,7 +146,7 @@
 - type: entity
   parent: IDCardStandard
   id: SecurityIDCard
-  nom: carte d'identification d'agent de sécurité
+  name: carte d'identification d'agent de sécurité
   components:
   - type: Sprite
     layers:

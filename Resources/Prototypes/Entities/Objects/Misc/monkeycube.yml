@@ -2,9 +2,9 @@
 
 - type: entity
   parent: BoxCardboard
-  name: monkey cube box
+  name: boîte de cubes de singe
   id: MonkeyCubeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Cubes de singe marque Drymate. Ajoutez juste de l'eau !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -31,9 +31,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: monkey cube
+  name: cube de singe
   id: MonkeyCubeWrapped
-  description: Unwrap this to get a monkey cube.
+  description: Déballez ceci pour obtenir un cube de singe.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -46,9 +46,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: kobold cube box
+  name: boîte de cubes de kobold
   id: KoboldCubeBox
-  description: Condensed kobolds in a cube. Just add water!
+  description: Des kobolds condensés dans un cube. Ajoutez juste de l'eau !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -61,9 +61,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: variant cube box
+  name: boîte de cubes variantes
   id: VariantCubeBox
-  description: Both kobold cubes and monkey cubes. Just add water!
+  description: Des cubes de kobold et de singe. Ajoutez juste de l'eau !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -79,9 +79,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: kobold cube
+  name: cube de kobold
   id: KoboldCubeWrapped
-  description: Unwrap this to get a kobold cube.
+  description: Déballez ceci pour obtenir un cube de kobold.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -91,10 +91,10 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: monkey cube box
-  suffix: Syndicate
+  name: boîte de cubes de singe
+  suffix: Syndicat
   id: SyndicateSpongeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Cubes de singe marque Drymate. Ajoutez juste de l'eau !
   components:
   - type: EntityTableContainerFill
     containers:
@@ -107,7 +107,7 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: monkey cube
+  name: cube de singe
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
   components:

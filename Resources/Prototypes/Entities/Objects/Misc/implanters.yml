@@ -2,7 +2,7 @@
 # Implanters
 
 - type: entity
-  nom: implanteur
+  name: implanteur
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -297,7 +297,7 @@
 
 - type: entity
   id: DeathRattleImplanter
-  name: implanteur de death rattle
+  name: implanteur de râle de mort
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -341,7 +341,7 @@
 
 - type: entity
   id: DeathRattleImplanterCentcomm
-  name: implanteur de death rattle du commandement central
+  name: implanteur de râle de mort du commandement central
   parent: BaseImplantOnlyImplanterCentcomm # Goobstation
   components:
   - type: Implanter

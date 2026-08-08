@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureDatadiskEncrypted
-  name: encrypted datadisk
-  description: An old data disk. Someone savvier than you could unencrypt it and learn something juicy. All you can do is sell it.
+  name: disque de données chiffré
+  description: Un vieux disque de données. Quelqu'un de plus débrouillard que vous pourrait le déchiffrer et apprendre quelque chose d'intéressant. Tout ce que vous pouvez faire, c'est le vendre.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureHardDiskDrive
-  name: hard disk drive
-  description: A disk drive designed for old Earth technology, circa 1980. There's probably some kind of collector who might want to get their paws on this.
+  name: lecteur de disque dur
+  description: Un lecteur de disque dur conçu pour une technologie terrestre ancienne, circa 1980. Il y a probablement quelque collectionneur qui voudrait mettre la main dessus.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureFlopDiskDrive
-  name: floppy disk drive
-  description: A drive for reading off info off of floppy disks. Shame that the only things stored on them nowadays are nuclear bomb operations.
+  name: lecteur de disquette
+  description: Un lecteur permettant de lire des informations sur des disquettes. Dommage que les seules choses stockées dessus de nos jours soient des opérations de bombe nucléaire.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCDDrive
-  name: CD drive
-  description: A piece of tech for reading data off of CDs. Nowadays that's not the most useful thing, unless you plan on flying somewhere.
+  name: lecteur de CD
+  description: Un lecteur permettant de lire des données sur des CD. De nos jours, ce n'est pas la chose la plus utile, sauf si vous prévoyez de voler quelque part.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCPUSupercharged
-  name: supercharged CPU
-  description: Some kind of super alien space tech. Shame all the computers already come with CPUs nowadays.
+  name: CPU surpuissant
+  description: Une sorte de technologie extraterrestre super avancée. Dommage que tous les ordinateurs soient déjà équipés de CPU de nos jours.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureSampleTube
-  name: sample tube
-  description: A glass tube with some sort of goop in it. Looks prone to breaking.
+  name: tube à échantillon
+  description: Un tube en verre contenant une sorte de substance visqueuse. Il semble fragile.
   components:
   - type: Sprite
     sprite: Objects/Misc/sample_tubes.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCoinIron
-  name: coin
-  description: A flat bit of metal. If it was still in circulation, inflation would've made it worthless. Since it isn't, it's worth enough to keep in a book.
+  name: pièce
+  description: Un morceau de métal plat. S'il était encore en circulation, l'inflation l'aurait rendu sans valeur. Comme ce n'est plus le cas, il vaut assez pour être gardé dans un livre.
   components:
   - type: Sprite
     sprite: Objects/Misc/coins.rsi
