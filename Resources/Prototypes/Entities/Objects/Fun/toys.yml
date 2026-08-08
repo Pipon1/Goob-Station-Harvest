@@ -5,7 +5,7 @@
   parent: BaseItem
   id: SnapPop
   name: snap pop
-  description: Throw it at the floor and listen to it POP!
+  description: Jetez-le au sol et écoutez-le faire POP !
   components:
   - type: Sprite
     sprite: Objects/Fun/snap_pops.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseStorageItem
   id: SnapPopBox
-  name: snap pop box
-  description: Contains snap pops for a few minutes of popping fun!
+  name: boîte de snap pop
+  description: Contient des snap pop pour quelques minutes de plaisir poppant !
   components:
   - type: Item
     size: Normal
@@ -66,9 +66,9 @@
 - type: entity
   parent: FoodProduceBase
   id: PlasticBanana
-  name: banana
+  name: banane
   suffix: Plastic
-  description: A plastic banana.
+  description: Une banane en plastique.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyGlue
-  name: crazy glue
-  description:  A bottle of crazy glue manufactured by Honk! Co.
+  name: colle dingo
+  description: Une bouteille de colle dingo fabriquée par Honk! Co.
   components:
   - type: Sprite
     sprite: Objects/Fun/glue.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyLube
-  name: crazy lube
-  description: A bottle of super slipery crazy lube manufactured by Honk! Co.
+  name: lubrifiant dingo
+  description: Une bouteille de lubrifiant dingo super glissant fabriquée par Honk! Co.
   components:
   - type: Openable
     sound:
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseItem
   id: Error
-  name: error
-  description: Hmmmm. Something went wrong.
+  name: erreur
+  description: Hmmmm. Quelque chose s'est mal passé.
   components:
   - type: Sprite
     sprite: error.rsi
@@ -242,9 +242,9 @@
 - type: entity
   parent: BaseItem
   id: SpectralLocatorUnpowered
-  name: spectral locator
+  name: localisateur spectral
   suffix: Always Powered
-  description: Appears to be a modified anomaly locator. Seems very old.
+  description: Paraît être un localisateur d'anomalie modifié. Il semble très ancien.
   components:
   - type: Sprite
     sprite: Objects/Fun/spectrallocator.rsi

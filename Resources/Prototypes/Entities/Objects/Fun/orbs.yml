@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseItem
   id: SingularityToy
-  name: singuloth-brand toy
-  description: Mass-produced by a sadistic corporate conglomerate!
+  name: jouet Singuloth
+  description: Produit en masse par un conglomérat d'entreprise sadique !
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_singularity.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseItem
   id: TeslaToy
-  name: Teddy Tesla
-  description: The favorite toy of the great engineer Nikola Tesla.
+  name: ours en peluche Tesla
+  description: Le jouet préféré du grand ingénieur Nikola Tesla.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi

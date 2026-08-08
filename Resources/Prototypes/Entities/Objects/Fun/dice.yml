@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseDice
   id: PercentileDie
-  name: percentile die
-  description: A die with ten sides. Works better for d100 rolls than a golf ball.
+  name: dé pourcentage
+  description: Un dé à dix faces. Fonctionne mieux pour les jets de d100 qu'une balle de golf.
   components:
   - type: Dice
     sides: 10
@@ -34,7 +34,7 @@
   parent: BaseDice
   id: d20Dice
   name: d20
-  description: A die with twenty sides. The preferred die to throw at the GM.
+  description: Un dé à vingt faces. Le dé préféré à lancer sur le MJ.
   components:
   - type: Dice
     sides: 20
@@ -46,7 +46,7 @@
   parent: BaseDice
   id: d12Dice
   name: d12
-  description: A die with twelve sides. There's an air of neglect about it.
+  description: Un dé à douze faces. Il dégage une certaine négligence.
   components:
   - type: Dice
     sides: 12
@@ -58,7 +58,7 @@
   parent: BaseDice
   id: d10Dice
   name: d10
-  description: A die with ten sides. Useful for percentages.
+  description: Un dé à dix faces. Utile pour les pourcentages.
   components:
   - type: Dice
     sides: 10
@@ -71,7 +71,7 @@
   parent: BaseDice
   id: d8Dice
   name: d8
-  description: A die with eight sides. It feels... lucky.
+  description: Un dé à huit faces. Il semble... chanceux.
   components:
   - type: Dice
     sides: 8
@@ -83,7 +83,7 @@
   parent: BaseDice
   id: d6Dice
   name: d6
-  description: A die with six sides. Basic and serviceable.
+  description: Un dé à six faces. Basique et fonctionnel.
   components:
   - type: Dice
     sides: 6
@@ -95,7 +95,7 @@
   parent: BaseDice
   id: d4Dice
   name: d4
-  description: A die with four sides. The nerd's caltrop.
+  description: Un dé à quatre faces. La chausse-trape du geek.
   components:
   - type: Dice
     sides: 4
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseStorageItem
   id: DiceBag
-  name: bag of dice
-  description: Contains all the luck you'll ever need.
+  name: sac de dés
+  description: Contient toute la chance dont vous aurez jamais besoin.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -173,7 +173,7 @@
 - type: entity
   parent: DiceBag
   id: MagicDiceBag
-  name: bag of dice
+  name: sac de dés
   components:
   - type: Sprite
     sprite: Objects/Fun/dice.rsi
