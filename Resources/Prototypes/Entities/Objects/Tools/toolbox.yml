@@ -169,7 +169,7 @@
   name: foolbox
   parent: ToolboxBase
   id: Foolbox
-  description: A toolbox for fools, stocked with clowning equipment.
+  description: Une boîte à outils pour les fous, garnie d'équipement de clown.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/foolbox.rsi

@@ -156,8 +156,8 @@
 - type: entity
   parent: AccessConfigurator
   id: AccessConfiguratorXenoborg
-  name: xenoborg access configurator
-  description: A modified access configurator used by the xenoborgs.
+  name: configurateur d'accès xénoborg
+  description: Un configurateur d'accès modifié utilisé par les Xénoborgs.
   components:
   - type: Sprite
     sprite: Objects/Tools/access_configurator.rsi

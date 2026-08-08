@@ -112,7 +112,7 @@
 - type: entity
   parent: GlowstickBase
   id: GlowstickGreen
-  name: green glowstick
+  name: bâton lumineux vert
   components:
   - type: ExpendableLight
     spentName: expendable-light-spent-green-glowstick-name
