@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: CheckerBoard
-  name: checkerboard
-  description: A checkerboard. Pieces included!
+  name: plateau de dames
+  description: Un plateau de dames. Les pièces sont incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -23,7 +23,7 @@
 # Checkerboard tabletop item (item only visible in tabletop game)
 - type: entity
   id: *checkerboard
-  name: checkerboard
+  name: plateau de dames
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:
@@ -34,7 +34,7 @@
 # The pieces
 - type: entity
   id: *pieceWhite
-  name: white checker piece
+  name: pièce de dames blanche
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 
 - type: entity
   id: *crownWhite
-  name: white checker crown
+  name: couronne de dame blanche
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: *pieceBlack
-  name: black checker piece
+  name: pièce de dames noire
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: *crownBlack
-  name: black checker crown
+  name: couronne de dame noire
   parent: BaseTabletopPiece
   components:
   - type: Sprite
