@@ -30,7 +30,7 @@
 - type: entity
   parent: BasePDACartridge
   id: NanoTaskCartridge
-  name: cartouche NanoTask
+  name: cartouche NanoTâche
   description: Un programme qui vous permet de garder une liste de tâches à faire.
   components:
   - type: Sprite

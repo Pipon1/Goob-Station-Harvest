@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseHandheldStationMap
-  name: station map
-  description: Displays a readout of the current station.
+  name: plan de station
+  description: Affiche une carte de la station actuelle.
   abstract: true
   components:
     - type: StationMap
@@ -70,9 +70,9 @@
 - type: entity
   parent: HandheldStationMap
   id: HandheldStationMapNukeops
-  name: target station map
+  name: plan de la station ciblée
   suffix: Handheld, NukeOps
-  description: Displays a readout of the target station.
+  description: Affiche une carte de la station ciblée.
   components:
   - type: Sprite
     sprite: Objects/Devices/tablets.rsi

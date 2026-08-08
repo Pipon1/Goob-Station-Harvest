@@ -22,7 +22,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: shrapnel payload # Goobstation - shrapnel payload
+  name: charge shrapnel # Goobstation - shrapnel payload
   parent: [ BasePayload, BaseSecurityContraband ]
   id: ShrapnelPayload
   components:
@@ -65,10 +65,10 @@
     capacity: 20
 
 - type: entity
-  name: chemical payload
+  name: charge chimique
   parent: [ BasePayload, BaseMedicalScienceContraband ]
   id: ChemicalPayload
-  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+  description: Une charge chimique. Dispose d'un espace pour stocker deux béchers. En combinaison avec un déclencheur et un boîtier, cela peut être utilisé pour initier des réactions chimiques.
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -105,10 +105,10 @@
       Plastic: 75
 
 - type: entity
-  name: flash payload
+  name: charge flash
   parent: [ BasePayload, BaseSecurityScienceCommandContraband ]
   id: FlashPayload
-  description: A single-use flash payload.
+  description: Une charge flash à usage unique.
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi

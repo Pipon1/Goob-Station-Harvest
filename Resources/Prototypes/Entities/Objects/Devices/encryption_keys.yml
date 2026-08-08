@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseItem
   id: EncryptionKey
-  name: encryption key
-  description: A small cypher chip for headsets.
+  name: clé de cryptage
+  description: Une petite puce de chiffrage pour casques.
   components:
   - type: EncryptionKey
   - type: Item
@@ -16,8 +16,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: common encryption key
-  description: An encryption key used by anyone.
+  name: clé de cryptage commune
+  description: Une clé de cryptage utilisée par n'importe qui.
   components:
   - type: EncryptionKey
     channels:
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyCargo
-  name: cargo encryption key
-  description: An encryption key used by supply employees.
+  name: clé de cryptage cargo
+  description: Une clé de cryptage utilisée par les employés de l'approvisionnement.
   components:
   - type: EncryptionKey
     channels:
@@ -52,8 +52,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyCentCom
-  name: central command encryption key
-  description: An encryption key used by captain's bosses.
+  name: clé de cryptage commandement central
+  description: Une clé de cryptage utilisée par les supérieurs du capitaine.
   components:
   - type: EncryptionKey
     channels:
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommCommandContraband ]
   id: EncryptionKeyStationMaster
-  name: station master encryption key
-  description: An encryption key used by station's bosses.
+  name: clé de cryptage maître de station
+  description: Une clé de cryptage utilisée par les chefs de la station.
   components:
   - type: EncryptionKey
     channels:
@@ -89,8 +89,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCommandContraband ]
   id: EncryptionKeyCommand
-  name: command encryption key
-  description: An encryption key used by crew's bosses.
+  name: clé de cryptage commandement
+  description: Une clé de cryptage utilisée par les supérieurs de l'équipage.
   components:
   - type: EncryptionKey
     channels:
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseEngineeringContraband ]
   id: EncryptionKeyEngineering
-  name: engineering encryption key
-  description: An encryption key used by the engineers.
+  name: clé de cryptage ingénierie
+  description: Une clé de cryptage utilisée par les ingénieurs.
   components:
   - type: EncryptionKey
     channels:
@@ -125,8 +125,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalContraband ]
   id: EncryptionKeyMedical
-  name: medical encryption key
-  description: An encryption key used by those who save lives.
+  name: clé de cryptage médical
+  description: Une clé de cryptage utilisée par ceux qui sauvent des vies.
   components:
   - type: EncryptionKey
     channels:
@@ -143,8 +143,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalScienceContraband ]
   id: EncryptionKeyMedicalScience
-  name: med-sci encryption key
-  description: An encryption key used by someone who hasn't decided which side to take.
+  name: clé de cryptage méd-sci
+  description: Une clé de cryptage utilisée par quelqu'un qui n'a pas choisi son camp.
   components:
   - type: EncryptionKey
     channels:
@@ -159,8 +159,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyScience
-  name: science encryption key
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  name: clé de cryptage scientifique
+  description: Une clé de cryptage utilisée par les scientifiques. Peut-être est-elle à l'épreuve du plasma ?
   components:
   - type: EncryptionKey
     channels:
@@ -177,8 +177,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyRobo
-  name: robotech encryption key
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  name: clé de cryptage robotech
+  description: Une clé de cryptage utilisée par les ingénieurs roboticiens. Peut-être a-t-elle un LAH-6000 dessus ?
   components:
   - type: EncryptionKey
     channels:
@@ -192,8 +192,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSecurityLawyerContraband ]
   id: EncryptionKeySecurity
-  name: security encryption key
-  description: An encryption key used by security.
+  name: clé de cryptage sécurité
+  description: Une clé de cryptage utilisée par la sécurité.
   components:
   - type: EncryptionKey
     channels:
@@ -210,8 +210,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCivilianContraband ]
   id: EncryptionKeyService
-  name: service encryption key
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  name: clé de cryptage service
+  description: Une clé de cryptage utilisée par le personnel de service, chargé de garder la station pleine, contente et propre.
   components:
   - type: EncryptionKey
     channels:
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeySyndie
-  name: blood-red encryption key
-  description: An encryption key used by... wait... Who is the owner of this chip?
+  name: clé de cryptage rouge sang
+  description: Une clé de cryptage utilisée par... attendez... Qui est le propriétaire de cette puce ?
   components:
   - type: EncryptionKey
     channels:
@@ -245,8 +245,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSiliconScienceContraband ]
   id: EncryptionKeyBinary
-  name: binary translator key
-  description: An encryption key that translates binary signals used by silicons.
+  name: clé traducteur binaire
+  description: Une clé de cryptage qui traduit les signaux binaires utilisés par les siliciums.
   components:
   # Goobstation - replaced with collective mind
   #- type: EncryptionKey
@@ -261,8 +261,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyBinarySyndicate
-  name: binary translator key
-  description: A syndicate encryption key that translates binary signals used by silicons.
+  name: clé traducteur binaire
+  description: Une clé de cryptage du Syndicat qui traduit les signaux binaires utilisés par les siliciums.
   components:
   # Goobstation - replaced with collective mind
   #- type: EncryptionKey
@@ -279,8 +279,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyFreelance
-  name: freelancer encryption key
-  description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like it's worn out.
+  name: clé de cryptage freelance
+  description: Une clé de cryptage utilisée par les freelances, qui peuvent ou non avoir une affiliation. Elle a l'air usée.
   components:
     - type: EncryptionKey
       channels:
