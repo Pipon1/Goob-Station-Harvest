@@ -1,53 +1,53 @@
-﻿<Document>
+<Document>
   # Vampires
   <Box>
     <GuideEntityEmbed Entity="ActionVampireGlare" Caption=""/>
   </Box>
 
-  Vampires are creatures who possess the ability to drain and manipulate life essence from the blood of sapient beings on-station.
-  They are antagonists that will actively seek out and hunt crew members for the simple goal of sustaining themselves off a crew member's blood and completing a few select objectives.
-  Vampires possess special powers that enable them to, among other abilities, teleport using the shadows, hypnotize and capture crew, and perform unique actions based on their vampiric class.
-  Vampires' powers are not without consequence: vampires possess a vital weakness to areas, objects, and individuals of significant spiritual strength.
-  Elements of strong belief–sanctified sites, holy water, fire, and starlight–all spell doom for a vampire.
+  Les vampires sont des créatures capables de drainer et manipuler l'essence vitale du sang des êtres sensibles à bord de la station.
+  Ce sont des antagonistes qui chercheront activement à traquer les membres d'équipage dans le but simple de se sustenter de leur sang et d'accomplir quelques objectifs précis.
+  Les vampires possèdent des pouvoirs spéciaux leur permettant, entre autres capacités, de se téléporter via les ombres, d'hypnotiser et capturer l'équipage, et d'accomplir des actions uniques selon leur classe vampirique.
+  Les pouvoirs des vampires ne sont pas sans conséquence : les vampires souffrent d'une faiblesse vitale face aux zones, objets et individus d'une grande force spirituelle.
+  Les éléments d'une foi forte — sites sanctifiés, eau bénite, feu et lumière stellaire — sonnent tous le glas d'un vampire.
 
-  ## Beginning Your Reign of Terror
+  ## Débuter Votre Règne de Terreur
 
-  There are two pools that blood will go into when a vampire drains a humanoid, that is their hunger needs and usable blood pool.
-  Vampires are unable to sustain themselves off of anything other than blood and if the amount of blood staving off hunger needs runs out, a vampire will starve to death.
+  Il y a deux réserves dans lesquelles le sang ira lorsqu'un vampire draine un humanoïde : ses besoins de faim et sa réserve de sang utilisable.
+  Les vampires ne peuvent se sustenter que de sang et si la quantité de sang comblant leurs besoins de faim s'épuise, le vampire mourra de faim.
 
-  The usable blood pool is what is consumed when vampires use special powers and as the total usable blood gathered during the round rises, it unlocks more abilities for the vampire.
-  Vampires can feed themselves off any humanoid such as monkeys or farwas, however, usable blood is only gatherable from sentient humanoids.
+  La réserve de sang utilisable est ce qui est consommé lorsque les vampires utilisent leurs pouvoirs spéciaux et à mesure que le total de sang utilisable accumulé pendant la manche augmente, cela débloque davantage de capacités pour le vampire.
+  Les vampires peuvent se nourrir sur n'importe quel humanoïde comme les singes ou les farwas, cependant, le sang utilisable ne peut être récolté que sur des humanoïdes sensibles.
 
-  When starting out as a Vampire one will have zero usable blood and in order to gain usable blood, a vampire will have to drain a player.
-  Once a crew member is captured then one will have to target the humanoid's head on harm intent with an empty hand.
-  Once 200u of blood has been gathered from a sentient humanoid it will stop going into the usable blood pool and no more will be gatherable from that specific player for the extent of the round.
+  En débutant en tant que Vampire, on a zéro sang utilisable et pour en gagner, un vampire doit drainer un joueur.
+  Une fois un membre d'équipage capturé, il faut viser la tête de l'humanoïde avec l'intention de nuire et une main vide.
+  Une fois 200u de sang récoltés sur un humanoïde sensible, le sang cessera d'aller dans la réserve utilisable et plus aucun ne sera récoltable sur ce joueur précis pour le reste de la manche.
 
-  Draining a player will likely result in their death.
+  Drainer un joueur entraînera probablement sa mort.
 
-  ## Starting Powers
+  ## Pouvoirs Initiaux
 
-  Vampires will start with two powers: Glare and Rejuvenate. Using Glare can stun and silence, with the effect varying depending on if you are facing the target, and Rejuvenate will clear all stuns.
+  Les vampires débutent avec deux pouvoirs : Regard Glacial et Régénération. Utiliser Regard Glacial peut étourdir et réduire au silence, l'effet variant selon que vous faites face à la cible, et Régénération éliminera tous les étourdissements.
 
   ## Classes
 
-  Vampires have two different types of powers: base powers and class powers. Base powers are abilities that every Vampire has or will be able to unlock regardless of class.
-  After drinking a total of 150 blood, vampires gain access to 4 unique and mutually exclusive skill trees, with increasingly powerful abilities tailored to various play styles.
-  Upon gathering 1,000u of blood from at least 8 different people vampires will and rise to their full power, gaining improved night vision, immunity to holy water, the chapel, nullification, and the chaplain's holiness, becoming a blood-fueled emissary of death and destruction!
+  Les vampires ont deux types de pouvoirs différents : les pouvoirs de base et les pouvoirs de classe. Les pouvoirs de base sont des capacités que tout Vampire possède ou pourra débloquer indépendamment de sa classe.
+  Après avoir bu un total de 150 unités de sang, les vampires accèdent à 4 arbres de compétences uniques et mutuellement exclusifs, avec des capacités de plus en plus puissantes adaptées à divers styles de jeu.
+  En accumulant 1 000u de sang provenant d'au moins 8 personnes différentes, les vampires s'élèveront à leur pleine puissance, gagnant une vision nocturne améliorée, l'immunité à l'eau bénite, à la chapelle, à la nullification, et à la sainteté de l'Aumônier, devenant un émissaire de mort et de destruction alimenté par le sang !
 
-  ## Fighting Vampires
+  ## Combattre les Vampires
 
-  - Keeping your distance from a vampire will prevent them from glaring you, which is normally a death sentence. stay back and shoot.
-  - Vampiric abilities can be "nullified", which increases the blood cost of powers; Nullification scales all the way to 100, at which point Vampires cannot use any abilities. A Chaplain's Null Rod or holy water applies nullification.
-  - Vampires will burst into flames if they remain in the chapel for extended periods of time.
-  - Starlight is extraordinarily deadly to even full strength vampires, dealing serious genetic damage while the vampire is in space.
-  - If a vampire attains full power: They gain full immunity to nullification, holy water, and can freely enter holy sites.
+  - Garder vos distances avec un vampire les empêchera de vous utiliser Regard Glacial, ce qui est normalement une sentence de mort. Restez à distance et tirez.
+  - Les capacités vampiriques peuvent être "nullifiées", ce qui augmente le coût en sang des pouvoirs ; La nullification s'échelonne jusqu'à 100, au-delà duquel les vampires ne peuvent utiliser aucune capacité. La Baguette de Nullification de l'Aumônier ou l'eau bénite appliquent la nullification.
+  - Les vampires s'enflammeront s'ils restent dans la chapelle pendant de longues périodes.
+  - La lumière stellaire est extraordinairement mortelle même pour les vampires à pleine puissance, infligeant de graves dégâts génétiques tant que le vampire est dans l'espace.
+  - Si un vampire atteint sa pleine puissance : Il gagne une immunité totale à la nullification, à l'eau bénite, et peut entrer librement dans les sites saints.
 
-  ## Tips
+  ## Astuces
 
-  - Know your victims' species before attempting to bite them! IPCs and Plasmamen have no blood and cannot be drank from!
-  - Keeping track of what powers a vampire has and when they can use them is critical.
-  - Make sure a vampire has already used their rejuvenate before you cuff them, or they may quickly turn the tables.
-  - Glare has no effect if the vampire is blindfolded.
-  - Vampires can still glare you when they are stunned! It will last shorter, but it will prevent you from cuffing them.
-  - Sleeping in coffins reduces nullification of vampires.
+  - Connaissez l'espèce de vos victimes avant de tenter de les mordre ! Les IPC et les Plasmamen n'ont pas de sang et ne peuvent pas être drainés !
+  - Savoir quels pouvoirs un vampire a et quand il peut les utiliser est crucial.
+  - Assurez-vous qu'un vampire a déjà utilisé sa Régénération avant de le menotter, sans quoi il pourrait rapidement retourner la situation.
+  - Regard Glacial n'a aucun effet si le vampire est bandé des yeux.
+  - Les vampires peuvent encore vous utiliser Regard Glacial quand ils sont étourdis ! Cela durera moins longtemps, mais cela vous empêchera de les menotter.
+  - Dormir dans des cercueils réduit la nullification des vampires.
 </Document>
