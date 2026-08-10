@@ -2,8 +2,8 @@
 
 - type: entity
   id: ChurchBell
-  name: church bell
-  description: You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...
+  name: cloche d'église
+  description: Vous sentez votre âme se rapprocher des royaumes au-delà à chaque coup de cette cloche...
   placement:
     mode: SnapgridCenter
   components:
