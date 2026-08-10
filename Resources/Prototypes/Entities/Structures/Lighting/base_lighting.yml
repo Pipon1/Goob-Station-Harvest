@@ -442,8 +442,8 @@
 #Emergency Lights
 - type: entity
   id: EmergencyLight
-  name: emergency light
-  description: A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
+  name: lumière d'urgence
+  description: Une petite lumière avec une batterie interne qui s'allume dès qu'elle ne reçoit plus d'électricité. La technologie Nanotrasen lui permet d'adapter sa couleur pour alerter l'équipage sur les conditions de la station.
   parent: AlwaysPoweredWallLight
   suffix: ""
   components:
