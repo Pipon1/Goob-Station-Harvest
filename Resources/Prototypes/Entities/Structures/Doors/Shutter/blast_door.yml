@@ -3,8 +3,8 @@
 - type: entity
   id: BlastDoor
   parent: BaseShutter
-  name: blast door
-  description: This one says 'BLAST DONGER'.
+  name: porte blindée
+  description: C'est marqué « PORTE BLINDÉE ».
   components:
   - type: AccessReader
     containerAccessProvider: board
@@ -75,8 +75,8 @@
 - type: entity
   id: BlastDoorFrame
   parent: BaseStructureDynamic
-  name: blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: cadre de porte blindée
+  description: C'est marqué « PORTE BLINDÉE ».
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi
