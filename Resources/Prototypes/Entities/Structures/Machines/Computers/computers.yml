@@ -1771,8 +1771,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerNukieDelivery
-  name: syndicate delivery computer
-  description: "A computer that can bluespace in certain equipment for Nuclear Operations. \nThe circuitboard is integrated into the frame and can't be recovered if deconstructed."
+  name: ordinateur de livraison du syndicat
+  description: "Un ordinateur qui peut faire téléporter certains équipements pour les Opérations Nucléaires. \nLe circuit imprimé est intégré au châssis et ne peut pas être récupéré si déconstruit."
   components:
   - type: Sprite
     layers:
@@ -1808,8 +1808,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSupermatter
-  name: supermatter monitoring console
-  description: Used to monitor the status of supermatter crystals.
+  name: console de surveillance supermatière
+  description: Utilisée pour surveiller l'état des cristaux de supermatière.
   components:
   - type: Computer
     board: SupermatterComputerCircuitboard

@@ -84,7 +84,7 @@
 - type: entity
   id: BaseResearchAndDevelopmentPointSource
   parent: BaseMachinePowered
-  name: "base R&D point source"
+  name: source de points R&D de base
   # We should make this abstract once there are actual point sources.
   components:
   - type: Sprite
