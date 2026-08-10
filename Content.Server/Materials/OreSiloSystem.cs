@@ -1,4 +1,5 @@
 using Content.Server.Pinpointer;
+using Content.Shared._NF.Storage.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Materials.OreSilo;
 using Robust.Server.GameStates;
@@ -69,9 +70,12 @@ public sealed class OreSiloSystem : SharedOreSiloSystem
             _clientInformation.Add((netEnt, txt, beacon));
         }
 
+        var magnetEnabled = TryComp<MaterialStorageMagnetPickupComponent>(ent.Owner, out var magnet)
+        && magnet.MagnetEnabled;
+
         _userInterface.SetUiState(ent.Owner,
             OreSiloUiKey.Key,
-            new OreSiloBuiState(_clientInformation, ent.Comp.MagnetEnabled));
+            new OreSiloBuiState(_clientInformation, magnetEnabled));
     }
 
     public override void Update(float frameTime)

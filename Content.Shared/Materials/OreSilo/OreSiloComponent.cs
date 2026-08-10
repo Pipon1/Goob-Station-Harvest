@@ -17,12 +17,6 @@ public sealed partial class OreSiloComponent : Component
     public HashSet<EntityUid> Clients = new();
 
     /// <summary>
-    /// Whether the material magnet is currently enabled.
-    /// </summary>
-    [DataField, AutoNetworkedField]
-    public bool MagnetEnabled;
-
-    /// <summary>
     /// The maximum distance you can be to the silo and still receive transmission.
     /// </summary>
     /// <remarks>

@@ -10,7 +10,6 @@ using Content.Server.Stack;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Construction;
 using Content.Shared.Database;
-using Content.Shared.Storage.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
@@ -133,12 +132,10 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
                     ("item", toInsert)),
                 receiver);
 
-        // Magnet pickups use the storage itself as the inserting user. Keep the
-        // entity alive for one tick only in that case so clients can receive the
-        // pickup animation. Manual insertions do not need this delay.
-        if (user == receiver && HasComp<MagnetPickupComponent>(receiver))
+        if (user == receiver &&
+            HasComp<MaterialStorageMagnetPickupComponent>(receiver))
         {
-            // Let clients receive the pickup animation before deleting its entity.
+            // Keep the entity alive until the pickup animation has been sent.
             Timer.Spawn(0, () =>
             {
                 if (!TerminatingOrDeleted(toInsert))

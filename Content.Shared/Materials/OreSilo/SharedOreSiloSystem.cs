@@ -1,4 +1,5 @@
 using Content.Shared.Power.EntitySystems;
+using Content.Shared._NF.Storage.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Utility;
 
@@ -34,8 +35,10 @@ public abstract class SharedOreSiloSystem : EntitySystem
 
     private void OnToggleOreSiloMagnet(Entity<OreSiloComponent> ent, ref ToggleOreSiloMagnetMessage args)
     {
-        ent.Comp.MagnetEnabled = !ent.Comp.MagnetEnabled;
-        Dirty(ent);
+        if (!TryComp<MaterialStorageMagnetPickupComponent>(ent.Owner, out var magnet))
+            return;
+
+        magnet.MagnetEnabled = !magnet.MagnetEnabled;
         UpdateOreSiloUi(ent);
     }
 

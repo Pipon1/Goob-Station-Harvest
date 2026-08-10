@@ -63,5 +63,5 @@
   - type: WiresPanel
   - type: StaticPrice
     price: 1500
-  - type: MagnetPickup
-    range: 2
+  - type: MaterialStorageMagnetPickup
+    range: 1
