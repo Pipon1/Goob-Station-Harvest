@@ -24,6 +24,8 @@
       tags:
       - Sheet
       - Ingot
+      - RawMaterial
+      - Ore
   - type: ActivatableUI
     key: enum.OreSiloUiKey.Key
   - type: ActivatableUIRequiresPower
