@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: SignalTimer
-  name: signal timer
-  description: It's a timer for sending timed signals to things.
+  name: minuteur signal
+  description: C'est un minuteur pour envoyer des signaux programmés aux appareils.
   components:
   - type: StationAiWhitelist
   - type: WallMount
@@ -60,8 +60,8 @@
 - type: entity
   id: ScreenTimer
   parent: SignalTimer
-  name: screen timer
-  description: It's a timer for sending timed signals to things, with a built-in screen.
+  name: minuteur avec écran
+  description: C'est un minuteur pour envoyer des signaux programmés aux appareils, avec un écran intégré.
   components:
   - type: SignalTimer
     canEditLabel: true
@@ -88,8 +88,8 @@
 - type: entity
   id: BrigTimer
   parent: ScreenTimer
-  name: brig timer
-  description: It's a timer for brig cells.
+  name: minuteur de cellule
+  description: C'est un minuteur pour les cellules de prison.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -106,8 +106,8 @@
 
 - type: entity
   id: TimerFrame
-  name: timer frame
-  description: A construction frame for a timer.
+  name: cadre de minuteur
+  description: Un cadre de construction pour un minuteur.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

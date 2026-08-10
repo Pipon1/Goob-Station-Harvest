@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: SurveillanceCameraBase
-  name: camera
-  description: A surveillance camera. It's watching you. Kinda.
+  name: caméra
+  description: Une caméra de surveillance. Elle vous surveille. En quelque sorte.
   components:
   - type: Physics
     bodyType: Static
@@ -114,7 +114,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
-  name: camera
+  name: caméra
   suffix: Constructed
   components:
     - type: DeviceNetwork
@@ -134,7 +134,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
-  name: camera
+  name: caméra
   suffix: Engineering
   components:
   - type: DeviceNetwork
@@ -147,7 +147,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
-  name: camera
+  name: caméra
   suffix: Security
   components:
   - type: DeviceNetwork
@@ -160,7 +160,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
-  name: camera
+  name: caméra
   suffix: Science
   components:
   - type: DeviceNetwork
@@ -173,7 +173,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
-  name: camera
+  name: caméra
   suffix: Supply
   components:
   - type: DeviceNetwork
@@ -186,7 +186,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
-  name: camera
+  name: caméra
   suffix: Command
   components:
   - type: DeviceNetwork
@@ -199,7 +199,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
-  name: camera
+  name: caméra
   suffix: Service
   components:
   - type: DeviceNetwork
@@ -212,7 +212,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
-  name: camera
+  name: caméra
   suffix: Medical
   components:
   - type: DeviceNetwork
@@ -225,7 +225,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
-  name: camera
+  name: caméra
   suffix: General
   components:
   - type: DeviceNetwork
@@ -237,8 +237,8 @@
 
 - type: entity
   id: SurveillanceCameraAssembly
-  name: camera
-  description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+  name: caméra
+  description: Une caméra de surveillance. Elle ne semble surveiller personne pour l'instant. Probablement.
   components:
     - type: Clickable
     - type: InteractionOutline
