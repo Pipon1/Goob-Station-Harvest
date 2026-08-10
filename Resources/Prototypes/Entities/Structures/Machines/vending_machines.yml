@@ -4,8 +4,8 @@
 - type: entity
   id: VendingMachine
   parent: BaseMachinePowered
-  name: vending machine
-  description: Just add capitalism!
+  name: distributeur automatique
+  description: Ajoutez juste du capitalisme !
   abstract: true
   components:
   - type: ActionGrant
@@ -132,7 +132,7 @@
 - type: entity
   id: VendingMachineWallmount
   parent: BaseWallmountMachine
-  name: vending machine
+  name: distributeur automatique mural
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -198,8 +198,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCondiments
-  name: condiment station
-  description: Slather these thick gooey substances on your food for a full flavor effect.
+  name: station de condiments
+  description: Tartinez ces substances épaisses et gluantes sur votre nourriture pour un effet de saveur complet.
   components:
   - type: VendingMachine
     pack: CondimentInventory
@@ -231,8 +231,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAmmo
-  name: liberation station
-  description: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
+  name: station de libération
+  description: Une quantité écrasante de patriotisme ancien vous submerge rien qu'en regardant la machine.
   components:
   - type: VendingMachine
     pack: AmmoVendInventory
@@ -258,7 +258,7 @@
   parent: VendingMachine
   id: VendingMachineBooze
   name: Booze-O-Mat
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  description: Une merveille technologique, censée pouvoir mélanger exactement le breuvage que vous souhaitez boire au moment où vous le demandez.
   components:
   - type: VendingMachine
     pack: BoozeOMatInventory
@@ -292,7 +292,7 @@
   parent: VendingMachineBooze
   id: VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost
   name: Bruise-O-Mat
-  description: A refurbished Booze-O-Mat for boosting operative morale. An imprint of a blood-red hardsuit is visible on one side, and the paint seems ashed off on the other side.
+  description: Un Booze-O-Mat rénové pour remonter le moral des opérateurs. L'empreinte d'une combinaison rigide rouge sang est visible d'un côté, et la peinture semble brûlée de l'autre côté.
   components:
   - type: VendingMachine
     pack: BoozeOMatInventory
@@ -326,7 +326,7 @@
   parent: VendingMachine
   id: VendingMachineCart
   name: PTech
-  description: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
+  description: Distributeur PTech ! Proposant une sélection ROBUSTE de PDAs, cartouches, et tout ce dont un pisse-papier affalé a besoin !
   components:
   - type: VendingMachine
     pack: PTechInventory
@@ -364,7 +364,7 @@
   parent: VendingMachine
   id: VendingMachineChefvend
   name: ChefVend
-  description: An ingredient vendor for all your cheffin needs.
+  description: Un distributeur d'ingrédients pour tous vos besoins de chef.
   components:
   - type: VendingMachine
     pack: ChefvendInventory
@@ -399,7 +399,7 @@
   parent: VendingMachine
   id: VendingMachineCigs
   name: ShadyCigs Deluxe
-  description: If you want to get cancer, might as well do it in style.
+  description: Si vous voulez attraper un cancer, autant le faire avec style.
   components:
   - type: VendingMachine
     pack: CigaretteMachineInventory
@@ -435,7 +435,7 @@
   parent: VendingMachine
   id: VendingMachineClothing
   name: ClothesMate
-  description: A vending machine for clothing.
+  description: Un distributeur de vêtements.
   components:
   - type: VendingMachine
     pack: ClothesMateInventory
@@ -471,7 +471,7 @@
   parent: VendingMachine
   id: VendingMachineWinter
   name: WinterDrobe
-  description: The best place to enjoy the cold!
+  description: Le meilleur endroit pour profiter du froid !
   components:
   - type: VendingMachine
     pack: WinterDrobeInventory
@@ -507,7 +507,7 @@
   parent: VendingMachine
   id: VendingMachineCoffee
   name: Solar's Best Hot Drinks
-  description: Served boiling so it stays hot all shift!
+  description: Servi bouillant pour qu'il reste chaud tout le quart !
   components:
   - type: VendingMachine
     pack: HotDrinksMachineInventory
@@ -556,7 +556,7 @@
   parent: VendingMachine
   id: VendingMachineCola
   name: Robust Softdrinks
-  description: A softdrink vendor provided by Robust Industries, LLC.
+  description: Un distributeur de boissons gazeuses fourni par Robust Industries, LLC.
   components:
   - type: VendingMachine
     pack: RobustSoftdrinksInventory
@@ -622,7 +622,7 @@
   parent: VendingMachineCola
   id: VendingMachineColaRed
   name: Space Cola Vendor
-  description: It vends cola, in space.
+  description: Il distribue du cola, dans l'espace.
   components:
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/cola.rsi
@@ -645,7 +645,7 @@
   parent: VendingMachine
   id: VendingMachineSpaceUp
   name: Space-Up! Vendor
-  description: Indulge in an explosion of flavor.
+  description: Laissez-vous tenter par une explosion de saveurs.
   components:
   - type: VendingMachine
     pack: SpaceUpInventory
@@ -705,8 +705,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineStarkist
-  name: Star-kist Vendor
-  description: The taste of a star in liquid form.
+  name: distributeur Star-kist
+  description: Le goût d'une étoile sous forme liquide.
   components:
   - type: VendingMachine
     pack: StarkistInventory
@@ -734,8 +734,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineShamblersJuice
-  name: Shambler's Juice Vendor
-  description: ~Shake me up some of that Shambler's Juice!~
+  name: distributeur Jus de Shambler
+  description: ~Secouez-moi un peu de ce Jus de Shambler !~
   components:
   - type: VendingMachine
     pack: ShamblersJuiceInventory
@@ -770,8 +770,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachinePwrGame
-  name: Pwr Game Vendor
-  description: You want it, we got it. Brought to you in partnership with Vlad's Salads.
+  name: distributeur Pwr Game
+  description: Vous le voulez, nous l'avons. En partenariat avec les Salades de Vlad.
   components:
   - type: VendingMachine
     pack: PwrGameInventory
@@ -808,8 +808,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDrGibb
-  name: Dr. Gibb Vendor
-  description: Canned explosion of different flavors in this very vendor!
+  name: distributeur Dr. Gibb
+  description: Explosion en conserve de différentes saveurs dans ce distributeur !
   components:
   - type: VendingMachine
     pack: DrGibbInventory
@@ -846,8 +846,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSmite
-  name: Smite Vendor
-  description: Popular with the administration.
+  name: distributeur Smite
+  description: Populaire auprès de l'administration.
   components:
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/smite.rsi
@@ -882,8 +882,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDinnerware
-  name: Plasteel Chef's Dinnerware Vendor
-  description: A kitchen and restaurant equipment vendor.
+  name: distributeur Vaisselle Plasteel Chef
+  description: Un distributeur d'équipements de cuisine et de restauration.
   components:
   - type: VendingMachine
     pack: DinnerwareInventory
@@ -925,7 +925,7 @@
   parent: VendingMachine
   id: VendingMachineMagivend
   name: MagiVend
-  description: A magic vending machine.
+  description: Un distributeur automatique magique.
   components:
   - type: VendingMachine
     pack: MagiVendInventory
@@ -964,8 +964,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDiscount
-  name: Discount Dan's
-  description: A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
+  name: Discount Dan
+  description: Un distributeur automatique contenant des snacks à prix réduit de l'infâme franchise « Discount Dan ».
   components:
   - type: VendingMachine
     pack: DiscountDansInventory
@@ -1000,7 +1000,7 @@
   parent: VendingMachine
   id: VendingMachineEngivend
   name: Engi-Vend
-  description: Spare tool vending. What? Did you expect some witty description?
+  description: Distributeur d'outils de rechange. Quoi ? Vous vous attendiez à une description spirituelle ?
   components:
   - type: VendingMachine
     pack: EngiVendInventory
@@ -1040,8 +1040,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMedicalBase
-  name: NanoMed Civilian
-  description: It's a medical drug dispenser. Natural chemicals only!
+  name: NanoMed Civil
+  description: C'est un distributeur de médicaments. Produits chimiques naturels uniquement !
   components:
   - type: VendingMachine
     pack: NanoMedCivilianInventory
@@ -1085,7 +1085,7 @@
   parent: VendingMachineMedicalBase
   id: VendingMachineMedical
   name: NanoMed Plus
-  description: It's a medical drug dispenser. Natural chemicals only!
+  description: C'est un distributeur de médicaments. Produits chimiques naturels uniquement !
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory
@@ -1107,7 +1107,7 @@
   parent: VendingMachine
   id: VendingMachineNutri
   name: NutriMax
-  description: A vending machine containing nutritional substances for plants and botanical tools.
+  description: Un distributeur automatique contenant des substances nutritives pour plantes et des outils de botanique.
   components:
   - type: VendingMachine
     pack: NutriMaxInventory
@@ -1143,7 +1143,7 @@
   parent: VendingMachine
   id: VendingMachineSec
   name: SecTech
-  description: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
+  description: Un distributeur automatique contenant de l'équipement de sécurité. Une étiquette indique PERSONNEL DE SÉCURITÉ UNIQUEMENT.
   components:
   - type: VendingMachine
     pack: SecTechInventory
@@ -1189,8 +1189,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSeedsUnlocked
-  name: MegaSeed Servitor
-  description: For when you need seeds fast. Hands down the best seed selection on the station!
+  name: Serviteur MegaSeed
+  description: Pour quand vous avez besoin de graines rapidement. La meilleure sélection de graines de la station, sans conteste !
   suffix: Unlocked
   components:
   - type: VendingMachine
@@ -1233,7 +1233,7 @@
   parent: VendingMachine
   id: VendingMachineSnack
   name: Getmore Chocolate Corp
-  description: A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
+  description: Un distributeur de snacks fourni par la Getmore Chocolate Corporation, basée sur Mars.
   components:
   - type: VendingMachine
     pack: GetmoreChocolateCorpInventory
@@ -1275,8 +1275,8 @@
 - type: entity
   parent: VendingMachineSnack
   id: VendingMachineSustenance
-  name: Sustenance Vendor
-  description: A vending machine which vends food, as required by section 47-C of the NT's Prisoner Ethical Treatment Agreement.
+  name: distributeur de subsistance
+  description: Un distributeur automatique qui vend de la nourriture, comme l'exige la section 47-C de l'Accord sur le Traitement Éthique des Prisonniers de NT.
   components:
   - type: VendingMachine
     pack: SustenanceInventory
@@ -1396,7 +1396,7 @@
   parent: VendingMachine
   id: VendingMachineSovietSoda
   name: ВОДА
-  description: An old vending machine containing sweet water.
+  description: Un vieux distributeur automatique contenant de l'eau sucrée.
   suffix: VODA
   components:
   - type: VendingMachine
@@ -1441,7 +1441,7 @@
   parent: VendingMachine
   id: VendingMachineTheater
   name: AutoDrobe
-  description: A vending machine containing costumes.
+  description: Un distributeur automatique contenant des costumes.
   components:
   - type: VendingMachine
     pack: AutoDrobeInventory
@@ -1488,7 +1488,7 @@
   parent: VendingMachine
   id: VendingMachineVendomat
   name: Vendomat
-  description: Only the finest robust equipment in space!
+  description: Seulement du matériel robuste de la plus haute qualité dans l'espace !
   components:
   - type: VendingMachine
     pack: VendomatInventory
@@ -1528,7 +1528,7 @@
   parent: VendingMachine
   id: VendingMachineRobotics
   name: Robotech Deluxe
-  description: All the tools you need to create your own robot army.
+  description: Tous les outils dont vous avez besoin pour créer votre propre armée de robots.
   components:
   - type: VendingMachine
     pack: RoboticsInventory
@@ -1573,7 +1573,7 @@
   parent: VendingMachine
   id: VendingMachineYouTool
   name: YouTool
-  description: "A vending machine containing standard tools. A label reads: Tools for tools."
+  description: "Un distributeur automatique contenant des outils standard. Une étiquette indique : Outils pour outils."
   components:
   - type: VendingMachine
     pack: YouToolInventory
@@ -1612,7 +1612,7 @@
   parent: VendingMachine
   id: VendingMachineGames
   name: Good Clean Fun
-  description: Vends things that the Captain and Head of Personnel are probably not going to appreciate you fiddling with instead of your job...
+  description: Distribue des trucs que le Capitaine et le Chef du Personnel n'apprécieront probablement pas que vous bidouilliez au lieu de bosser...
   components:
   - type: VendingMachine
     pack: GoodCleanFunInventory
@@ -1651,8 +1651,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChang
-  name: Mr. Chang
-  description: A self-serving Chinese food machine, for all your Chinese food needs.
+  name: M. Chang
+  description: Une machine chinoise en libre-service, pour tous vos besoins en nourriture chinoise.
   components:
   - type: VendingMachine
     pack: ChangInventory
@@ -1693,8 +1693,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSalvage
-  name: Salvage Vendor
-  description: A dwarf's best friend!
+  name: distributeur de récupération
+  description: Le meilleur ami du nain !
   components:
   #- type: VendingMachine # DeltaV: Use mining points instead of limited stock
   #  pack: SalvageEquipmentInventory
@@ -1752,7 +1752,7 @@
   parent: VendingMachine
   id: VendingMachineDonut
   name: Monkin' Donuts
-  description: A donut vendor provided by Robust Industries, LLC.
+  description: Un distributeur de beignets fourni par Robust Industries, LLC.
   components:
   - type: VendingMachine
     pack: DonutInventory
@@ -1789,7 +1789,7 @@
   parent: VendingMachine
   id: VendingMachineHydrobe
   name: HyDrobe
-  description: A machine with a catchy name. It dispenses botany related clothing and gear.
+  description: Une machine au nom accrocheur. Elle distribue des vêtements et équipements liés à la botanique.
   components:
   - type: VendingMachine
     pack: HyDrobeInventory
@@ -1821,7 +1821,7 @@
   parent: VendingMachine
   id: VendingMachineLawDrobe
   name: LawDrobe
-  description: Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
+  description: Objection ! Cette armoire distribue l'état de droit... et des vêtements d'avocat.
   components:
   - type: VendingMachine
     pack: LawDrobeInventory
@@ -1849,7 +1849,7 @@
   parent: VendingMachine
   id: VendingMachineSecDrobe
   name: SecDrobe
-  description: A vending machine for security and security-related clothing!
+  description: Un distributeur automatique pour les vêtements de sécurité et liés à la sécurité !
   components:
   - type: VendingMachine
     pack: SecDrobeInventory
@@ -1881,7 +1881,7 @@
   parent: VendingMachine
   id: VendingBarDrobe
   name: BarDrobe
-  description: A stylish vendor to dispense the most stylish bar clothing!
+  description: Un distributeur élégant pour distribuer les vêtements de bar les plus stylés !
   components:
   - type: VendingMachine
     pack: BarDrobeInventory
@@ -1939,7 +1939,7 @@
   parent: VendingMachine
   id: VendingMachineCargoDrobe
   name: CargoDrobe
-  description: A highly advanced vending machine for buying cargo related clothing for free.
+  description: Un distributeur automatique très avancé pour acheter des vêtements liés au cargo gratuitement.
   components:
   - type: VendingMachine
     pack: CargoDrobeInventory
@@ -1971,7 +1971,7 @@
   parent: VendingMachine
   id: VendingMachineMediDrobe
   name: MediDrobe
-  description: A vending machine rumoured to be capable of dispensing clothing for medical personnel.
+  description: Un distributeur automatique réputé capable de distribuer des vêtements pour le personnel médical.
   components:
   - type: VendingMachine
     pack: MediDrobeInventory
@@ -1999,7 +1999,7 @@
   parent: VendingMachine
   id: VendingMachineChemDrobe
   name: ChemDrobe
-  description: A vending machine for dispensing chemistry related clothing.
+  description: Un distributeur automatique pour distribuer des vêtements liés à la chimie.
   components:
   - type: VendingMachine
     pack: ChemDrobeInventory
@@ -2027,7 +2027,7 @@
   parent: VendingMachine
   id: VendingMachineCuraDrobe
   name: CuraDrobe
-  description: A lowstock vendor only capable of vending clothing for curators and librarians.
+  description: Un distributeur à stock limité capable uniquement de distribuer des vêtements pour les conservateurs et bibliothécaires.
   components:
   - type: VendingMachine
     pack: CuraDrobeInventory
@@ -2055,7 +2055,7 @@
   parent: VendingMachine
   id: VendingMachineAtmosDrobe
   name: AtmosDrobe
-  description: This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
+  description: Ce distributeur relativement inconnu livre des vêtements pour les techniciens en atmosphérique, un travail tout aussi inconnu.
   components:
   - type: VendingMachine
     pack: AtmosDrobeInventory
@@ -2087,7 +2087,7 @@
   parent: VendingMachine
   id: VendingMachineEngiDrobe
   name: EngiDrobe
-  description: A vending machine renowned for vending industrial grade clothing.
+  description: Un distributeur automatique réputé pour distribuer des vêtements de qualité industrielle.
   components:
   - type: VendingMachine
     pack: EngiDrobeInventory
@@ -2119,7 +2119,7 @@
   parent: VendingMachine
   id: VendingMachineChefDrobe
   name: ChefDrobe
-  description: This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
+  description: Ce distributeur ne distribue peut-être pas de viande, mais il distribue certainement des vêtements de chef.
   components:
   - type: VendingMachine
     pack: ChefDrobeInventory
@@ -2147,7 +2147,7 @@
   parent: VendingMachine
   id: VendingMachineDetDrobe
   name: DetDrobe
-  description: A machine for all your detective needs, as long as you need clothes.
+  description: Une machine pour tous vos besoins de détective, tant qu'il s'agit de vêtements.
   components:
   - type: VendingMachine
     pack: DetDrobeInventory
@@ -2175,7 +2175,7 @@
   parent: VendingMachine
   id: VendingMachineJaniDrobe
   name: JaniDrobe
-  description: A self cleaning vending machine capable of dispensing clothing for janitors.
+  description: Un distributeur automatique autonettoyant capable de distribuer des vêtements pour les concierges.
   components:
   - type: VendingMachine
     pack: JaniDrobeInventory
@@ -2209,7 +2209,7 @@
   parent: VendingMachine
   id: VendingMachineSciDrobe
   name: SciDrobe
-  description: A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
+  description: Un distributeur automatique simple adapté pour distribuer des vêtements scientifiques bien taillés. Approuvé par les Cubains de l'espace.
   components:
   - type: VendingMachine
     pack: SciDrobeInventory
@@ -2237,7 +2237,7 @@
   parent: VendingMachine
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
-  description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
+  description: Machine d'armoire encodée par le syndicat, contient des tenues d'élite pour diverses opérations.
   components:
   - type: VendingMachine
     pack: SyndieDrobeInventory
@@ -2269,7 +2269,7 @@
   parent: VendingMachine
   id: VendingMachineRoboDrobe
   name: RoboDrobe
-  description: A vending machine designed to dispense clothing known only to roboticists.
+  description: Un distributeur automatique conçu pour distribuer des vêtements connus uniquement des roboticistes.
   components:
   - type: VendingMachine
     pack: RoboDrobeInventory
@@ -2297,7 +2297,7 @@
   parent: VendingMachine
   id: VendingMachineGeneDrobe
   name: GeneDrobe
-  description: A machine for dispensing clothing related to genetics.
+  description: Une machine pour distribuer des vêtements liés à la génétique.
   components:
   - type: VendingMachine
     pack: GeneDrobeInventory
@@ -2325,7 +2325,7 @@
   parent: VendingMachine
   id: VendingMachineViroDrobe
   name: ViroDrobe
-  description: An unsterilized machine for dispending virology related clothing.
+  description: Une machine non stérile pour distribuer des vêtements liés à la virologie.
   components:
   - type: VendingMachine
     pack: ViroDrobeInventory
@@ -2353,7 +2353,7 @@
   parent: VendingMachine
   id: VendingMachineCentDrobe
   name: CentDrobe
-  description: A one-of-a-kind vending machine for all your centcomm aesthetic needs!
+  description: Un distributeur unique en son genre pour tous vos besoins esthétiques Centcomm !
   components:
   - type: VendingMachine
     pack: CentDrobeInventory
@@ -2382,8 +2382,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineHappyHonk
-  name: Happy Honk Dispenser
-  description: A happy honk meal box dispenser made by honk! co.
+  name: distributeur Happy Honk
+  description: Un distributeur de boîtes Happy Honk Meal fabriqué par honk! co.
   components:
   - type: VendingMachine
     pack: HappyHonkDispenserInventory
@@ -2425,7 +2425,7 @@
   parent: VendingMachine
   id: VendingMachinePride
   name: Pride-O-Mat
-  description: A vending machine containing pride.
+  description: Un distributeur automatique contenant de la fierté.
   components:
   - type: VendingMachine
     pack: PrideDrobeInventory
@@ -2458,8 +2458,8 @@
   parent: VendingMachine
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
-  name: gas tank dispenser
-  description: A vendor for dispensing gas tanks.
+  name: distributeur de bonbonnes gaz
+  description: Un distributeur pour distribuer des bonbonnes de gaz.
   components:
   - type: VendingMachine
     pack: TankDispenserEVAInventory
@@ -2471,8 +2471,8 @@
   parent: VendingMachine
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
-  name: gas tank dispenser
-  description: A vendor for dispensing gas tanks. This one has an engineering livery.
+  name: distributeur de bonbonnes gaz
+  description: Un distributeur pour distribuer des bonbonnes de gaz. Celui-ci a une livrée ingénieur.
   components:
   - type: VendingMachine
     pack: TankDispenserEngineeringInventory
@@ -2486,7 +2486,7 @@
   parent: VendingMachine
   id: VendingMachineChemicals
   name: ChemVend
-  description: Probably not the coffee machine.
+  description: Probablement pas la machine à café.
   components:
   - type: VendingMachine
     pack: ChemVendInventory
@@ -2515,7 +2515,7 @@
   parent: VendingMachineChemicals
   id: VendingMachineChemicalsSyndicate
   name: SyndieJuice
-  description: Not made with freshly squeezed syndies I hope.
+  description: Pas fait avec des syndics fraîchement pressés, j'espère.
   components:
   - type: VendingMachine
     pack: ChemVendInventorySyndicate
@@ -2531,8 +2531,8 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedicalCivilian
-  name: NanoMed band-aid
-  description: "It's a wall-mounted medical equipment dispenser. Natural chemicals only!"
+  name: NanoMed pansement
+  description: "C'est un distributeur mural d'équipement médical. Produits naturels uniquement !"
   components:
   - type: VendingMachine
     pack: NanoMedCivilianWallInventory
@@ -2562,7 +2562,7 @@
   parent: VendingMachineWallMedicalCivilian
   id: VendingMachineWallMedical
   name: NanoMed
-  description: "It's a wall-mounted medical equipment dispenser. Natural chemicals only!"
+  description: "C'est un distributeur mural d'équipement médical. Produits naturels uniquement !"
   components:
   - type: VendingMachine
     pack: NanoMedInventory
