@@ -2,8 +2,8 @@
 
 - type: entity
   id: CableTerminal
-  name: cable terminal
-  description: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
+  name: terminal de câble
+  description: Vous voyez un petit avertissement sur les câbles rouges en encre noire sale. « CONNECTEZ LE ROUGE À LA BATTERIE POUR CHARGER. »
   placement:
     mode: SnapgridCenter
   components:

@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: cell recharger
-  description: An older model recharger that can recharge power cells.
+  name: rechargeur de cellules
+  description: Un modèle de rechargeur plus ancien qui peut recharger les cellules d'énergie.
   components:
   - type: Sprite
     sprite: Structures/Power/cell_recharger.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
-  name: cage recharger
-  description: A specialized machine made for recharging the heavy cage batteries used by ship-mounted weapons.
+  name: rechargeur de cages
+  description: Une machine spécialisée conçue pour recharger les lourdes batteries de cage utilisées par les armes montées sur vaisseau.
   components:
   - type: Fixtures
     fixtures:
@@ -160,8 +160,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
-  name: recharger
-  description: A modern recharging station that can fit both power cells and small electronic devices.
+  name: rechargeur
+  description: Une station de recharge moderne qui peut accueillir à la fois des cellules d'énergie et de petits appareils électroniques.
   components:
   - type: Sprite
     sprite: Structures/Power/recharger.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: TurboItemRecharger
-  name: turbo recharger
-  description: An overclocked recharger. Not recommended for use around asthmatics.
+  name: rechargeur turbo
+  description: Un rechargeur overclocké. Déconseillé près des asthmatiques.
   components:
   - type: Sprite
     sprite: Structures/Power/turbo_recharger.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: [ BaseItemRecharger, BaseWallmount ]
   id: WallWeaponCapacitorRecharger
-  name: wall recharger
-  description: A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
+  name: rechargeur mural
+  description: Un rechargeur mural compact. Il ne peut recharger que les appareils électroniques et n'a pas de place pour les cellules d'énergie.
   components:
   - type: Sprite
     sprite: Structures/Power/wall_recharger.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseRecharger
   id: BorgCharger
-  name: cyborg recharging station
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: station de recharge cyborg
+  description: Un chargeur stationnaire pour diverses entités robotiques et cyborgs. Étonnamment spacieux.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: BorgCharger
   id: BorgChargerXenoborg
-  name: xenoborg recharging station
-  description: A stationary charger for xenoborgs. Feels claustrophobic.
+  name: station de recharge xénoborg
+  description: Un chargeur stationnaire pour xénoborgs. Donne une impression d'étroitesse.
   components:
   - type: Sprite
     sprite: Structures/Power/xenoborg_charger.rsi
