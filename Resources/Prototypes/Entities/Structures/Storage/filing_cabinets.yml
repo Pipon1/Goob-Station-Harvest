@@ -110,7 +110,7 @@
     graph: FilingCabinet
 
 - type: entity
-  name: filing cabinet
+  name: classeur
   parent: BaseFilingCabinet
   id: filingCabinet
   components:
@@ -124,7 +124,7 @@
     node: filingCabinet
 
 - type: entity
-  name: tall cabinet
+  name: classeur haut
   parent: BaseFilingCabinet
   id: filingCabinetTall
   components:
@@ -138,10 +138,10 @@
     node: tallCabinet
 
 - type: entity
-  name: chest drawer
+  name: tiroir à dossiers
   parent: BaseFilingCabinet
   id: filingCabinetDrawer
-  description: A small drawer for all your filing needs, Now with wheels!
+  description: Un petit tiroir pour tous vos besoins de classement, maintenant avec des roues !
   components:
   - type: Sprite
     state: chestdrawer

@@ -4,7 +4,7 @@
   id: WardrobeBase
   parent: ClosetSteelBase
   abstract: true
-  description: It's a storage unit for standard-issue Nanotrasen attire.
+  description: C'est une unité de stockage pour tenues standard Nanotrasen.
 
 # Colored
 
@@ -12,8 +12,8 @@
 - type: entity
   id: WardrobeBlue
   parent: WardrobeBase
-  name: blue wardrobe
-  description: "A wardrobe packed with stylish blue clothing."
+  name: armoire bleue
+  description: "Une armoire remplie de vêtements bleus élégants."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -25,8 +25,8 @@
 - type: entity
   id: WardrobePink
   parent: WardrobeBase
-  name: pink wardrobe
-  description: "A wardrobe packed with fabulous pink clothing."
+  name: armoire rose
+  description: "Une armoire remplie de vêtements roses fabuleux."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -38,8 +38,8 @@
 - type: entity
   id: WardrobeBlack
   parent: WardrobeBase
-  name: black wardrobe
-  description: "A wardrobe packed with stylish black clothing."
+  name: armoire noire
+  description: "Une armoire remplie de vêtements noirs élégants."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -51,8 +51,8 @@
 - type: entity
   id: WardrobeGreen
   parent: WardrobeBase
-  name: green wardrobe
-  description: "A wardrobe packed with stylish green clothing."
+  name: armoire verte
+  description: "Une armoire remplie de vêtements verts élégants."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -64,7 +64,7 @@
 - type: entity
   id: WardrobePrison
   parent: WardrobeBase
-  name: prison wardrobe
+  name: armoire prison
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -76,8 +76,8 @@
 - type: entity
   id: WardrobeYellow
   parent: WardrobeBase
-  name: yellow wardrobe
-  description: "A wardrobe packed with stylish yellow clothing."
+  name: armoire jaune
+  description: "Une armoire remplie de vêtements jaunes élégants."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -89,8 +89,8 @@
 - type: entity
   id: WardrobeWhite
   parent: WardrobeBase
-  name: white wardrobe
-  description: "A wardrobe packed with stylish white clothing."
+  name: armoire blanche
+  description: "Une armoire remplie de vêtements blancs élégants."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -102,8 +102,8 @@
 - type: entity
   id: WardrobeGrey
   parent: WardrobeBase
-  name: grey wardrobe
-  description: "A wardrobe packed with a tide of grey clothing."
+  name: armoire grise
+  description: "Une armoire remplie d'une marée de vêtements gris."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -115,8 +115,8 @@
 - type: entity
   id: WardrobeMixed
   parent: WardrobeBase
-  name: mixed wardrobe
-  description: "A wardrobe packed with a mix of colorful clothing."
+  name: armoire mixte
+  description: "Une armoire remplie d'un mélange de vêtements colorés."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -129,7 +129,7 @@
 - type: entity
   id: WardrobeSecurity
   parent: WardrobeBase
-  name: security wardrobe
+  name: armoire sécurité
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -140,7 +140,7 @@
 - type: entity
   id: WardrobeAtmospherics
   parent: WardrobeBase
-  name: atmospherics wardrobe
+  name: armoire atmosphérique
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -151,80 +151,80 @@
 - type: entity
   id: ClosetJanitor
   parent: WardrobeMixed
-  name: custodial closet
-  description: It's a storage unit for janitorial clothes and gear.
+  name: placard concierge
+  description: C'est une unité de stockage pour vêtements et équipement de concierge.
 
 - type: entity
   id: WardrobeFormal
   parent: WardrobeBlack
-  name: formal closet
-  description: It's a storage unit for formal clothing.
+  name: placard formel
+  description: C'est une unité de stockage pour vêtements formels.
 
 - type: entity
   id: ClosetChef
   parent: WardrobeBlack
-  name: chef's closet
-  description: It's a storage unit for foodservice garments and mouse traps.
+  name: placard chef
+  description: C'est une unité de stockage pour uniformes de restauration et tapettes à souris.
 
 - type: entity
   id: WardrobeChapel
   parent: WardrobeBlack
-  name: chaplain's wardrobe
-  description: It's a storage unit for Nanotrasen-approved religious attire.
+  name: armoire aumônier
+  description: C'est une unité de stockage pour tenues religieuses approuvées Nanotrasen.
 
 - type: entity
   id: ClosetLegal
   parent: WardrobeBlue
-  name: legal closet
-  description: It's a storage unit for courtroom apparel and items.
+  name: placard juridique
+  description: C'est une unité de stockage pour vêtements d'audience et objets.
 
 - type: entity
   id: WardrobeCargo
   parent: WardrobePrison
-  name: cargo wardrobe
+  name: armoire cargaison
 
 - type: entity
   id: WardrobeSalvage
   parent: WardrobeMixed
-  name: salvage wardrobe
-  description: Notably not salvaged.
+  name: armoire récupération
+  description: Notablement pas récupérée.
 
 - type: entity
   id: WardrobeEngineering
   parent: WardrobeYellow
-  name: engineering wardrobe
+  name: armoire ingénierie
 
 - type: entity
   id: WardrobeMedicalDoctor
   parent: WardrobeWhite
-  name: medical doctor's wardrobe
+  name: armoire médecin
 
 - type: entity
   id: WardrobeRobotics
   parent: WardrobeBlack
-  name: robotics wardrobe
+  name: armoire robotique
 
 - type: entity
   id: WardrobeChemistry
   parent: WardrobeWhite
-  name: chemistry wardrobe
+  name: armoire chimie
 
 - type: entity
   id: WardrobeGenetics
   parent: WardrobeWhite
-  name: genetics wardrobe
+  name: armoire génétique
 
 - type: entity
   id: WardrobeVirology
   parent: WardrobeWhite
-  name: virology wardrobe
+  name: armoire virologie
 
 - type: entity
   id: WardrobeScience
   parent: WardrobeWhite
-  name: science wardrobe
+  name: armoire science
 
 - type: entity
   id: WardrobeBotanist
   parent: WardrobeGreen
-  name: botanist wardrobe
+  name: armoire botaniste
