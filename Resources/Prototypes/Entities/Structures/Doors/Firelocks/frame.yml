@@ -3,8 +3,8 @@
 - type: entity
   id: FirelockFrame
   parent: BaseStructureDynamic
-  name: firelock frame
-  description: That is a firelock frame.
+  name: cadre de coupe-feu
+  description: C'est un cadre de coupe-feu.
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi

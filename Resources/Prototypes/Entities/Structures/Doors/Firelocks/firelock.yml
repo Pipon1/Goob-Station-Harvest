@@ -4,8 +4,8 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: firelock
-  description: Apply crowbar.
+  name: coupe-feu
+  description: Essayez un pied-de-biche.
   components:
     - type: Anchorable
       flags:
@@ -177,7 +177,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: glass firelock
+  name: coupe-feu en verre
   components:
     - type: StationAiWhitelist
     - type: Sprite
@@ -203,7 +203,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: firelock
+  name: coupe-feu
   components:
     - type: StationAiWhitelist
     - type: Sprite

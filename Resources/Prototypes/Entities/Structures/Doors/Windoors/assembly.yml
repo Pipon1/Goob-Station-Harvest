@@ -2,8 +2,8 @@
 
 - type: entity
   id: WindoorAssembly
-  name: windoor assembly
-  description: It opens, it closes, and you can see through it!
+  name: assemblage de porte-fenêtre
+  description: Ça s'ouvre, ça se ferme, et on voit à travers !
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -53,8 +53,8 @@
 
 - type: entity
   id: WindoorAssemblySecure
-  name: secure windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: assemblage de porte-fenêtre sécurisée
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air costaud.
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -81,8 +81,8 @@
 
 - type: entity
   id: WindoorAssemblyClockwork
-  name: clockwork windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: assemblage de porte-fenêtre clockwork
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air costaud.
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 #plasma windoor assemblies
 - type: entity
   id: WindoorAssemblyPlasma
-  name: plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+  name: assemblage de porte-fenêtre plasma
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air viole-, non, rose. Attendez...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -139,8 +139,8 @@
 
 - type: entity
   id: WindoorAssemblySecurePlasma
-  name: secure plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and pin-, no, purple. Hold on...
+  name: assemblage de porte-fenêtre plasma sécurisée
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air costaud et violet, non, rose. Attendez...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -171,8 +171,8 @@
 #uranium windoor assemblies
 - type: entity
   id: WindoorAssemblyUranium
-  name: uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks sickly green...
+  name: assemblage de porte-fenêtre uranium
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air vert malade...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -201,8 +201,8 @@
 
 - type: entity
   id: WindoorAssemblySecureUranium
-  name: secure uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and radioactive-lime-green!
+  name: assemblage de porte-fenêtre uranium sécurisée
+  description: Ça s'ouvre, ça se ferme, et on voit à travers ! Celui-ci a l'air costaud et vert-radioactif !
   parent: WindoorAssembly
   components:
   - type: Sprite

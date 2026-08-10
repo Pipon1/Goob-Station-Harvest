@@ -2,8 +2,8 @@
 #Base
 - type: entity
   id: AirlockAssembly
-  name: airlock assembly
-  description: It opens, it closes, and maybe crushes you.
+  name: assemblage de sas
+  description: Ça s'ouvre, ça se ferme, et ça vous écrase peut-être.
   components:
   - type: Clickable
   - type: InteractionOutline

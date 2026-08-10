@@ -335,7 +335,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: CardDoor
-  name: cardboard door
+  name: porte en carton
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/card_door.rsi
