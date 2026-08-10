@@ -69,7 +69,9 @@ public sealed class OreSiloSystem : SharedOreSiloSystem
             _clientInformation.Add((netEnt, txt, beacon));
         }
 
-        _userInterface.SetUiState(ent.Owner, OreSiloUiKey.Key, new OreSiloBuiState(_clientInformation));
+        _userInterface.SetUiState(ent.Owner,
+            OreSiloUiKey.Key,
+            new OreSiloBuiState(_clientInformation, ent.Comp.MagnetEnabled));
     }
 
     public override void Update(float frameTime)

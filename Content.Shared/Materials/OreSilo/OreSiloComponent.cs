@@ -17,6 +17,12 @@ public sealed partial class OreSiloComponent : Component
     public HashSet<EntityUid> Clients = new();
 
     /// <summary>
+    /// Whether the material magnet is currently enabled.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public bool MagnetEnabled;
+
+    /// <summary>
     /// The maximum distance you can be to the silo and still receive transmission.
     /// </summary>
     /// <remarks>
@@ -30,10 +36,12 @@ public sealed partial class OreSiloComponent : Component
 public sealed class OreSiloBuiState : BoundUserInterfaceState
 {
     public readonly HashSet<(NetEntity, string, string)> Clients;
+    public readonly bool MagnetEnabled;
 
-    public OreSiloBuiState(HashSet<(NetEntity, string, string)> clients)
+    public OreSiloBuiState(HashSet<(NetEntity, string, string)> clients, bool magnetEnabled)
     {
         Clients = clients;
+        MagnetEnabled = magnetEnabled;
     }
 }
 
@@ -46,6 +54,14 @@ public sealed class ToggleOreSiloClientMessage : BoundUserInterfaceMessage
     {
         Client = client;
     }
+}
+
+/// <summary>
+/// Sent by the silo UI when the magnet button is pressed.
+/// </summary>
+[Serializable, NetSerializable]
+public sealed class ToggleOreSiloMagnetMessage : BoundUserInterfaceMessage
+{
 }
 
 [Serializable, NetSerializable]

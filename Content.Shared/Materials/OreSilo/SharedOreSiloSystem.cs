@@ -16,6 +16,7 @@ public abstract class SharedOreSiloSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<OreSiloComponent, ToggleOreSiloClientMessage>(OnToggleOreSiloClient);
+        SubscribeLocalEvent<OreSiloComponent, ToggleOreSiloMagnetMessage>(OnToggleOreSiloMagnet);
         SubscribeLocalEvent<OreSiloComponent, ComponentShutdown>(OnSiloShutdown);
         Subs.BuiEvents<OreSiloComponent>(OreSiloUiKey.Key,
             subs =>
@@ -29,6 +30,13 @@ public abstract class SharedOreSiloSystem : EntitySystem
         SubscribeLocalEvent<OreSiloClientComponent, ComponentShutdown>(OnClientShutdown);
 
         _clientQuery = GetEntityQuery<OreSiloClientComponent>();
+    }
+
+    private void OnToggleOreSiloMagnet(Entity<OreSiloComponent> ent, ref ToggleOreSiloMagnetMessage args)
+    {
+        ent.Comp.MagnetEnabled = !ent.Comp.MagnetEnabled;
+        Dirty(ent);
+        UpdateOreSiloUi(ent);
     }
 
     private void OnToggleOreSiloClient(Entity<OreSiloComponent> ent, ref ToggleOreSiloClientMessage args)

@@ -18,6 +18,8 @@
           False: { state: silo }
   - type: OreSilo
   - type: MaterialStorage
+    insertingSound: !type:SoundCollectionSpecifier
+      collection: storageRustle
     whitelist:
       tags:
       - Sheet
@@ -59,3 +61,5 @@
   - type: WiresPanel
   - type: StaticPrice
     price: 1500
+  - type: MagnetPickup
+    range: 2

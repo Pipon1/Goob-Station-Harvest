@@ -10,10 +10,12 @@ using Content.Server.Stack;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Construction;
 using Content.Shared.Database;
+using Content.Shared.Storage.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 using Content.Shared.Tag; // Goobstation Change
 using Content.Shared._NF.Storage.Components; // Frontier
 
@@ -130,7 +132,19 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
                     ("machine", receiver),
                     ("item", toInsert)),
                 receiver);
-        QueueDel(toInsert);
+        if (HasComp<MagnetPickupComponent>(receiver))
+        {
+            // Let clients receive the pickup animation before deleting its entity.
+            Timer.Spawn(0, () =>
+            {
+                if (!TerminatingOrDeleted(toInsert))
+                    QueueDel(toInsert);
+            });
+        }
+        else
+        {
+            QueueDel(toInsert);
+        }
 
         // Logging
         TryComp<StackComponent>(toInsert, out var stack);
