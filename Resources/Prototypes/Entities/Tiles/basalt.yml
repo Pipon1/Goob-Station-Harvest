@@ -2,7 +2,7 @@
 
 - type: entity
   id: BasaltOne
-  name: basalt
+  name: basalte
   description: Roche.
   placement:
     mode: SnapgridCenter

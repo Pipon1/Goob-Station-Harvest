@@ -3,7 +3,7 @@
 - type: entity
   id: BaseAsteroidDebris
   parent: BaseDebris
-  name: asteroid debris
+  name: débris d'astéroïde
   abstract: true
   components:
     - type: MapGrid
@@ -62,7 +62,7 @@
 - type: entity
   id: AsteroidDebrisSmall
   parent: BaseAsteroidDebris
-  name: asteroid debris small
+  name: petit débris d'astéroïde
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -72,7 +72,7 @@
 - type: entity
   id: AsteroidDebrisMedium
   parent: BaseAsteroidDebris
-  name: asteroid debris medium
+  name: moyen débris d'astéroïde
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -82,7 +82,7 @@
 - type: entity
   id: AsteroidDebrisLarge
   parent: BaseAsteroidDebris
-  name: asteroid debris large
+  name: grand débris d'astéroïde
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -92,7 +92,7 @@
 - type: entity
   id: AsteroidDebrisLarger
   parent: BaseAsteroidDebris
-  name: asteroid debris larger
+  name: plus grand débris d'astéroïde
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -103,7 +103,7 @@
 - type: entity
   id: AsteroidSalvageSmall
   parent: BaseAsteroidDebris
-  name: salvage asteroid small
+  name: petit astéroïde de récupération
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -115,7 +115,7 @@
 - type: entity
   id: AsteroidSalvageMedium
   parent: BaseAsteroidDebris
-  name: salvage asteroid medium
+  name: moyen astéroïde de récupération
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -127,7 +127,7 @@
 - type: entity
   id: AsteroidSalvageLarge
   parent: BaseAsteroidDebris
-  name: salvage asteroid large
+  name: grand astéroïde de récupération
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -139,7 +139,7 @@
 - type: entity
   id: AsteroidSalvageHuge
   parent: BaseAsteroidDebris
-  name: salvage asteroid huge
+  name: énorme astéroïde de récupération
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

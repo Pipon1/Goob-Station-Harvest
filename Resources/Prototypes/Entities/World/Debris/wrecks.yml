@@ -3,7 +3,7 @@
 - type: entity
   id: BaseScrapDebris
   parent: BaseDebris
-  name: scrap debris
+  name: débris de ferraille
   abstract: true
   components:
     - type: MapGrid
@@ -54,7 +54,7 @@
 - type: entity
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
-  name: scrap debris small
+  name: petit débris de ferraille
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -64,7 +64,7 @@
 - type: entity
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
-  name: scrap debris medium
+  name: moyen débris de ferraille
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -74,7 +74,7 @@
 - type: entity
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
-  name: scrap debris large
+  name: grand débris de ferraille
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
