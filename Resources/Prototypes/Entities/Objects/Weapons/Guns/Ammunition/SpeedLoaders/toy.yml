@@ -4,7 +4,7 @@
   abstract: true
   parent: BaseItem
   id: BaseSpeedLoaderCap
-  name: "cap gun loader"
+  name: "chargeur pistolet à amorces"
   components:
   - type: Tag
     tags:
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseSpeedLoaderCap
   id: SpeedLoaderCap
-  name: "cap gun loader"
-  description: Designed to quickly load up to six cartridges into an empty cap gun.
+  name: "chargeur pistolet à amorces"
+  description: Conçu pour charger rapidement jusqu'à six cartouches dans un pistolet à amorces vide.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCap

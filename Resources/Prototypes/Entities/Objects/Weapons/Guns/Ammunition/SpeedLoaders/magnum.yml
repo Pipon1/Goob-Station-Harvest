@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
   id: BaseSpeedLoaderMagnum
-  name: "speed loader (.45 magnum)"
+  name: "chargeur rapide (.45 magnum)"
   components:
   - type: Tag
     tags:
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseSpeedLoaderMagnum
   id: SpeedLoaderMagnum
-  name: "speed loader (.45 magnum)"
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold general-purpose kinetic ammunition.
+  name: "chargeur rapide (.45 magnum)"
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide. Destiné aux munitions cinétiques polyvalentes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -53,9 +53,9 @@
 - type: entity
   parent: SpeedLoaderMagnum
   id: SpeedLoaderMagnumEmpty
-  name: "speed loader (.45 magnum any)"
+  name: "chargeur rapide (.45 magnum universel)"
   suffix: empty
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver.
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -79,8 +79,8 @@
 - type: entity
   parent: SpeedLoaderMagnum
   id: SpeedLoaderMagnumIncendiary
-  name: "speed loader (.45 magnum incendiary)"
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold self-igniting incendiary ammunition.
+  name: "chargeur rapide (.45 magnum incendiaire)"
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide. Destiné aux munitions incendiaires à auto-allumage.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseSpeedLoaderMagnum
   id: SpeedLoaderMagnumPractice
-  name: "speed loader (.45 magnum practice)"
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold harmless practice ammunition.
+  name: "chargeur rapide (.45 magnum entraînement)"
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide. Destiné aux munitions à craie inoffensives.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseSpeedLoaderMagnum
   id: SpeedLoaderMagnumAP
-  name: "speed loader (.45 magnum armor-piercing)"
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold specialized armor-piercing ammunition.
+  name: "chargeur rapide (.45 magnum perforant)"
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide. Destiné aux munitions perforantes spécialisées.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -154,8 +154,8 @@
 - type: entity
   parent: BaseSpeedLoaderMagnum
   id: SpeedLoaderMagnumUranium
-  name: "speed loader (.45 magnum uranium)"
-  description: Designed to quickly load up to six rounds of .45 magnum into an empty revolver. Intended to hold exotic uranium-core ammunition.
+  name: "chargeur rapide (.45 magnum uranium)"
+  description: Conçu pour charger rapidement jusqu'à six cartouches de .45 magnum dans un revolver vide. Destiné aux munitions exotiques à noyau d'uranium.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium

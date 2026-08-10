@@ -410,9 +410,9 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacityEmpty
-  name: machine pistol magazine (.35 auto any)
-  suffix: empty
-  description: Custom 15-round double-stack magazine for the Viper pistol.
+  name: chargeur de pistolet auto (.35 auto universel)
+  suffix: vide
+  description: Chargeur double rangée de 15 cartouches pour pistolet Viper.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -432,8 +432,8 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold general-purpose kinetic ammunition.
+  name: chargeur de pistolet auto (.35 auto)
+  description: Chargeur double rangée de 15 cartouches pour pistolet Viper. Destiné aux munitions cinétiques polyvalentes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -453,8 +453,8 @@
 - type: entity
   parent: BaseMagazinePistolHighCapacity
   id: MagazinePistolHighCapacityPractice
-  name: machine pistol magazine (.35 auto practice)
-  description: Custom 15-round double-stack magazine for the Viper pistol. Intended to hold harmless practice ammunition.
+  name: chargeur de pistolet auto (.35 auto entraînement)
+  description: Chargeur double rangée de 15 cartouches pour pistolet Viper. Destiné aux munitions à craie inoffensives.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
