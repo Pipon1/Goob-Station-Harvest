@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: OffsetCane
-  name: standard offset cane
-  description: A standard offset cane, essential for getting around when your legs aren't up to the task. May or may not grant you the wisdom of the elderly.
+  name: canne de marche standard
+  description: Une canne de marche standard, essentielle pour se déplacer quand vos jambes ne suivent pas. Peut ou non vous accorder la sagesse des anciens.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/standard.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneClown
-  name: rainbow offset cane
-  description: A rainbow offset cane, perfect for clowns and those who enjoy a splash of color in their lives.
+  name: canne de marche arc-en-ciel
+  description: Une canne de marche arc-en-ciel, parfaite pour les clowns et ceux qui apprécient une touche de couleur dans leur vie.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/clown.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneMime
-  name: striped offset cane
-  description: A black and white striped cane, perfect for silent performances.
+  name: canne de marche rayée
+  description: Une canne noire et blanche rayée, parfaite pour les performances silencieuses.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/mime.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneNT
-  name: nanotrasen offset cane
-  description: A nanotrasen standard issue offset cane with the NT logo, favored by those who prefer a more corporate look.
+  name: canne de marche nanotrasen
+  description: Une canne décalée standard Nanotrasen avec le logo NT, préférée par ceux qui préfèrent un look plus corporate.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/nanotrasen.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: OffsetCane
   id: OffsetCaneWood
-  name: wooden offset cane
-  description: A wooden offset cane, a classic choice for those who appreciate natural materials and a sturdy grip.
+  name: canne de marche en bois
+  description: Une canne décalée en bois, un choix classique pour ceux qui apprécient les matériaux naturels et une prise solide.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/offset_canes/wood.rsi
