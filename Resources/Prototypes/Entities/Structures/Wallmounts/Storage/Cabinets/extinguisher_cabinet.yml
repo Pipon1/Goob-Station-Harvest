@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseWallmountCabinet
   id: ExtinguisherCabinet
-  name: extinguisher cabinet
-  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  name: armoire extincteur
+  description: Une petite armoire murale conçue pour contenir un extincteur.
   components:
     - type: Sprite
       sprite: Structures/Wallmounts/extinguisher_cabinet.rsi
