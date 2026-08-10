@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseDeltaPressureGlass
   id: InflatableWall
-  name: inflatable barricade
-  description: An inflated membrane. Activate to deflate. Do not puncture.
+  name: barricade gonflable
+  description: Une membrane gonflée. Activez pour dégonfler. Ne pas percer.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -45,9 +45,9 @@
 
 - type: entity
   id: InflatableDoor
-  name: inflatable door
+  name: porte gonflable
   parent: [BaseMaterialDoor, BaseDeltaPressureGlass]
-  description: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
+  description: Une membrane gonflée. Activez pour dégonfler. Maintenant avec une porte. Ne pas percer.
   components:
   - type: Clickable
   - type: InteractionOutline

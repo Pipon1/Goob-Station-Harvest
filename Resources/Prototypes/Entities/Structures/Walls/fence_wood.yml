@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructure
   id: BaseFenceWood
-  name: wooden fence
-  description: Wooden piece of fencing. I hope there is babushka's garden behind it.
+  name: clôture en bois
+  description: Morceau de clôture en bois. J'espère qu'il y a le jardin de la babouchka derrière.
   abstract: true
   components:
   - type: MeleeSound
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseFenceWood
   id: BaseFenceWoodSmall
-  name: small wooden fence
-  description: Wooden piece of small fence. The best protection for the fencing of a private territory!
+  name: petite clôture en bois
+  description: Morceau de petite clôture en bois. La meilleure protection pour l'enceinte d'un territoire privé !
   abstract: true
   components:
   - type: Destructible
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseFenceWood
   id: FenceWoodHighGate
-  name: wooden fence gate
-  description: Do you have any idea what awaits you behind these gates? It can be either a toilet or a luxurious mansion. But you continue to love your emo boys.
+  name: portail de clôture en bois
+  description: Avez-vous une idée de ce qui vous attend derrière ce portail ? Cela peut être soit des toilettes, soit un manoir luxueux. Mais vous continuez à aimer vos emo boys.
   components:
   - type: Sprite
     layers:
@@ -411,8 +411,8 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallGate
-  name: wooden fence gate
-  description: Looking at this gate, a familiar image pops up in your head. Where's my piggy?
+  name: portail de petite clôture en bois
+  description: En regardant ce portail, une image familière vous vient à l'esprit. Où est mon p'tit cochon ?
   components:
   - type: Sprite
     layers:
