@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseBonfire
   id: Bonfire
-  name: bonfire
-  description: What can be better than a late evening under the sky with guitar and friends?
+  name: feu de camp
+  description: Qu'y a-t-il de mieux qu'une soirée tardive sous le ciel avec une guitare et des amis ?
   components:
   - type: Sprite
     layers:
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseBonfire
   id: BonfireStake
-  name: bonfire with stake
-  description: A sinister bonfire with a stake for... ceremonial purposes. Best not to ask.
+  name: feu de camp avec pieu
+  description: Un feu de camp sinistre avec un pieu pour... des raisons cérémonielles. Mieux vaut ne pas demander.
   components:
   - type: Sprite
     sprite: Structures/Decoration/bonfire_stake.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseBonfire
   id: LegionnaireBonfire
-  name: legionnaire bonfire
-  description: There, in the land of lava and ash, place to to cook marshmallow and potato.
+  name: feu de camp légionnaire
+  description: Là-bas, au pays de la lave et des cendres, l'endroit pour faire cuire guimauves et patates.
   components:
   - type: Sprite
     layers:
