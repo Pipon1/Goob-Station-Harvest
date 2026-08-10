@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseLogicItem
   id: RandomGate
-  name: random gate
-  description: A logic gate that outputs a random signal when input changes.
+  name: porte aléatoire
+  description: Une porte logique qui émet un signal aléatoire lorsque l'entrée change.
   components:
   - type: Sprite
     layers:
