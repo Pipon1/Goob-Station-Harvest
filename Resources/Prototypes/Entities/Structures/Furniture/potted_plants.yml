@@ -3,8 +3,8 @@
 - type: entity
   id: PottedPlantBase
   parent: BaseStructureDynamic
-  name: potted plant
-  description: A little bit of nature contained in a pot.
+  name: plante en pot
+  description: Un petit bout de nature contenu dans un pot.
   abstract: true
   components:
   - type: SpriteFade
@@ -117,8 +117,8 @@
 - type: entity
   id: PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts
   parent: PottedPlantBase
-  name: "bioluminescent potted plant"
-  description: "It produces light!"
+  name: plante en pot bioluminescente
+  description: "Elle produit de la lumière !"
   components:
   - type: Sprite
     state: plant-09
@@ -129,7 +129,7 @@
 - type: entity
   id: PottedPlant10
   parent: PottedPlantBase
-  description: A pretty piece of nature contained in a pot.
+  description: Un joli morceau de nature contenu dans un pot.
   components:
   - type: Sprite
     state: plant-10
@@ -235,8 +235,8 @@
 - type: entity
   id: PottedPlantRD #PottedPlant25
   parent: PottedPlantBase
-  name: "RD's potted plant"
-  description: "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
+  name: "plante en pot du RD"
+  description: "Un cadeau du personnel botanique, offert après la réaffectation du RD. Il y a une étiquette dessus qui dit \"Revenez-nous, vous entendez ?\"\nElle n'a pas l'air très en forme..."
   components:
   - type: Sprite
     state: plant-25
@@ -246,7 +246,7 @@
 - type: entity
   id: PottedPlant26
   parent: PottedPlantBase
-  description: Is it just me, or is it blinking?
+  description: Est-ce moi, ou elle clignote ?
   components:
   - type: Sprite
     state: plant-26
@@ -256,8 +256,8 @@
 - type: entity
   id: PottedPlant27
   parent: PottedPlantBase
-  name: plastic potted plant
-  description: A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
+  name: plante en pot en plastique
+  description: Un faux arbre en plastique bon marché. Parfait pour les gens qui tuent toutes les plantes qu'ils touchent.
   components:
   - type: Sprite
     state: plant-27

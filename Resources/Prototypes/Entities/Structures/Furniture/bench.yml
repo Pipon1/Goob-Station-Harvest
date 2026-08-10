@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: comfortable bench
+  name: banc confortable
   id: BenchComfy
   parent: SeatBase
-  description: A bench with an extremely comfortable backrest.
+  description: Un banc avec un dossier extrêmement confortable.
   components:
   - type: Transform
     anchored: true
@@ -24,7 +24,7 @@
   id: BenchColorfulComfy
   suffix: Solo. Colorful
   parent: BenchComfy
-  description: A bench with an extremely comfortable backrest.
+  description: Un banc avec un dossier extrêmement confortable.
   components:
   - type: Sprite
     layers:

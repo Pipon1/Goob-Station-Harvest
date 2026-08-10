@@ -3,8 +3,8 @@
 - type: entity
   id: RollerBed
   parent: [BaseItem, BaseDeployFoldable]
-  name: rollerbed
-  description: Used to carry patients around without damaging them.
+  name: brancard
+  description: Utilisé pour transporter les patients sans les abîmer.
   components:
     - type: Transform
       noRot: true
@@ -99,9 +99,9 @@
 
 - type: entity
   id: CheapRollerBed
-  name: rollerbed
+  name: brancard
   parent: RollerBed
-  description: A run-down rollerbed. Used to carry patients around.
+  description: Un brancard usé. Utilisé pour transporter les patients.
   components:
   - type: Item
     heldPrefix: cheap_rollerbed
@@ -128,9 +128,9 @@
 
 - type: entity
   id: EmergencyRollerBed
-  name: rollerbed
+  name: brancard
   parent: RollerBed
-  description: A robust looking rollerbed used for emergencies.
+  description: Un brancard robuste utilisé pour les urgences.
   components:
   - type: Item
     heldPrefix: emergency_rollerbed
