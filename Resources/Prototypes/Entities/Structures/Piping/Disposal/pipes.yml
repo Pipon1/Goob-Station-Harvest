@@ -67,7 +67,7 @@
 - type: entity
   id: DisposalHolder
   categories: [ HideSpawnMenu ]
-  name: disposal holder # je sais pas vraiment comment traduire, je le laisse je vois même pas où ça apparaît en jeu.
+  name: réceptacle d'évacuation
   components:
   - type: DisposalHolder
   - type: ContainerContainer
