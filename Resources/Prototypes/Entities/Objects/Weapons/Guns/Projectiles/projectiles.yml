@@ -1012,7 +1012,7 @@
 
 - type: entity
   id: BulletGrenadeEMP
-  name: EMP rocket
+  name: roquette EMP
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1034,7 +1034,7 @@
 
 - type: entity
   id: BulletCap
-  name: cap bullet
+  name: balle d'amorce
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -1051,7 +1051,7 @@
 
 - type: entity
   id: BulletAcid
-  name: acid spit
+  name: crachat acide
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

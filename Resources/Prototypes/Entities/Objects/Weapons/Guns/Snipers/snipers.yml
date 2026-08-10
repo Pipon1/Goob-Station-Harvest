@@ -127,7 +127,7 @@
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 Rifle.
+  description: Une véritable relique, le Kardashev-Mosin a servi dans presque tous les conflits armés depuis sa création il y a 670 ans. Le design à verrou du fusil reste quasiment identique à l'original, que ce soit pour la chasse, le sniping ou la guerre de tranchées interminable. Charge 10 coups .30 Rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -184,7 +184,7 @@
   name: Hristov
   parent: [BaseWeaponSniperMagazine, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle for when you need to make someone regret their life choices from a safe distance. Comes with an integrated long-range scope. Feeds from .60 Anti-Materiel magazines.
+  description: Un fusil anti-matériel portable pour quand vous devez faire regretter ses choix de vie à quelqu'un. Livré avec une lunette de visée longue portée intégrée. Utilise des chargeurs .60 Anti-Matériel.
   components:
   - type: Item
     size: Huge
@@ -220,10 +220,10 @@
     price: 3500
 
 - type: entity
-  name: musket
+  name: mousquet
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband ]
   id: Musket
-  description: This should've been in a museum long before you were born. Loads one round of .60 Anti-Materiel.
+  description: Ça aurait dû être dans un musée bien avant votre naissance. Charge un coup .60 Anti-Matériel.
   components:
   - type: Sharp
   - type: Item
@@ -259,10 +259,10 @@
   - type: GunRequiresWield
 
 - type: entity
-  name: flintlock pistol
+  name: pistolet à silex
   parent: [BaseWeaponSniper, BaseMajorContraband]
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Loads one round of .45 Magnum.
+  description: Le compagnon d'un pirate. Yarrr ! Charge un coup .45 Magnum.
   components:
   - type: Gun
     minAngle: 0

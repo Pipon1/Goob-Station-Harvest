@@ -43,7 +43,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineLightRifleBox
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -52,7 +52,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -90,7 +90,7 @@
   name: L6 SAW
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
-  description: Developed by the Waffle Corporation, the L6 Squad Automatic Weapon is a deadly light machine gun often used by Gorlex boarding parties. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 Rifle box magazines. # Goobstation
+  description: Développé par la Waffle Corporation, le L6 Squad Automatic Weapon est une mitrailleuse légère meurtrière souvent utilisée par les groupes d'assaut Gorlex. Bien qu'encombrant et lourd, son canon lourd et sa grande capacité de munitions le rendent parfait pour supprimer les combattants sous une grêle de balles. Utilise des chargeurs-caisses .30 Rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -118,7 +118,7 @@
   name: L6C ROW
   id: WeaponLightMachineGunL6C
   parent: BaseItem
-  description: A cyborg-mounted weapon system based on the L6 SAW platform. Creates ammunition on the fly from an internal fabricator, which slowly self-charges. # Goobstation
+  description: Un système d'arme monté sur cyborg basé sur la plateforme L6 SAW. Crée les munitions à la volée grâce à un fabricateur interne, qui se recharge lentement.
   components:
     - type: Gun
       minAngle: 4

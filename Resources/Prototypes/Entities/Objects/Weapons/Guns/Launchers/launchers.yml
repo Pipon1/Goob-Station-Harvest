@@ -29,7 +29,7 @@
   name: China Lake
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: PLOUP.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -70,7 +70,7 @@
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband ]
   id: WeaponLauncherHydra
   name: hydra
-  description: PLOOP... FSSSSSS...
+  description: PLOUP... FSSSSSS...
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -121,7 +121,7 @@
   name: RPG-7
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: Un lance-roquettes propulsé à l'ancienne, modifié.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -151,10 +151,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: lance-roquettes multiple
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: Un lance-roquettes propulsé à l'ancienne, modifié.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -186,10 +186,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: canon pirate
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: Kaboum !
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -218,12 +218,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: pistolet à lien
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Manipule la gravité autour des objets pour les projeter à haute vélocité.
   components:
     - type: Item
       size: Normal
@@ -267,12 +267,12 @@
         Silver: 25
 
 - type: entity
-  name: force gun
+  name: pistolet de force
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Manipule la gravité autour des objets pour les projeter à haute vélocité.
   components:
     - type: Item
       storedRotation: -90 #Goob
@@ -322,7 +322,7 @@
         Silver: 50
 
 - type: entity
-  name: grappling gun
+  name: pistolet grappin
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -363,8 +363,8 @@
 - type: entity
   parent: [BaseWeaponLauncher, BaseSecurityEngineeringContraband, BaseGunWieldable]
   id: WeaponLauncherSingularityBuster
-  name: singularity buster rocket launcher
-  description: An experimental rocket launcher designed to fire rockets capable of decomposing a singularity or tesla.
+  name: lance-roquettes destructeur de singularité
+  description: Un lance-roquettes expérimental conçu pour tirer des roquettes capables de décomposer une singularité ou une bobine de Tesla.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/buster_rocket.rsi
@@ -407,11 +407,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: pistolet à lien
   parent: BaseItem
   id: WeaponTetherGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Manipule la gravité autour des objets pour les projeter à haute vélocité.
   components:
     #- type: Item # Goob
     #  size: Normal
@@ -448,11 +448,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: pistolet de force
   parent: BaseItem
   id: WeaponForceGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: Manipule la gravité autour des objets pour les projeter à haute vélocité.
   components:
     #- type: Item # Goob
     #  size: Normal
@@ -492,21 +492,21 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: lanceur de météores
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors.
+  description: Tire de gros météores.
   components:
   - type: BallisticAmmoProvider
     proto: MeteorMedium
 
 - type: entity
-  name: immovable rod launcher
+  name: lanceur de bâton immuable
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: Tire de lents bâtons immuables.
   components:
   - type: BallisticAmmoProvider
     proto: ImmovableRodSlow

@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -43,7 +43,7 @@
             - MagazineLightRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -91,7 +91,7 @@
   name: AKM
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
-  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 Rifle magazines.
+  description: Un fusil de combat quelque peu usé, au design originaire de la vieille Terre. Prisé par les criminels, milices et terroristes pour sa fiabilité légendaire et son design facile à fabriquer. Utilise des chargeurs .30 Rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -110,7 +110,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -120,7 +120,7 @@
             - MagazineLightRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -139,7 +139,7 @@
   name: M-90GL # Goobstation
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
-  description: A bullpup Waffle Corporation assault rifle with an integrated grenade launcher. Feeds from .20 Rifle magazines. # Goobstation
+  description: Un fusil d'assaut bullpup de la Waffle Corporation avec lance-grenades intégré. Utilise des chargeurs .20 Rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -153,7 +153,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -163,7 +163,7 @@
             - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -184,7 +184,7 @@
   name: Lecter
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
-  description: A military-grade assault rifle that's seen more wars than you can remember. The full-size package and steady recoil of the Lecter help it excel at one thing—pinpoint accuracy. Feeds from .20 Rifle magazines. # Goobstation
+  description: "Un fusil d'assaut militaire ayant connu plus de guerres qu'on ne peut s'en souvenir. La taille complète et le recul stable du Lecter le rendent excellent dans une chose : la précision chirurgicale. Utilise des chargeurs .20 Rifle."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
@@ -202,7 +202,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -212,7 +212,7 @@
             - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -232,9 +232,9 @@
   id: WeaponRifleLecterXL8
   name: XL8
   description: |-
-    The Experimental Lecter 8
-    An unreasonably expensive military grade assault rifle with integrated optic.
-    Uses .20 rifle ammo.
+    Le Lecter 8 expérimental
+    Un fusil d'assaut militaire déraisonnablement cher avec optique intégrée.
+    Utilise des munitions .20 rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/XL8.rsi
@@ -258,7 +258,7 @@
   name: Estoc # Goob
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleEstoc
-  description: A now defunct military burst-fire DMR, the Estoc quickly found its way into paramilitary and boarding party hands. Boasts an expensive tritium sight for faster target acquisition. Feeds from .30 Rifle magazines. # Goobstation
+  description: Un DMR tirant en rafales, désormais déclassé, l'Estoc a rapidement trouvé son chemin dans les mains des paramilitaires et des groupes d'assaut. Dispose d'une lunette tritium coûteuse pour une acquisition de cible plus rapide. Utilise des chargeurs .30 Rifle.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/estoc.rsi
@@ -288,7 +288,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineLightRifle # Goob
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -298,7 +298,7 @@
           - MagazineLightRifle # Goob
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
