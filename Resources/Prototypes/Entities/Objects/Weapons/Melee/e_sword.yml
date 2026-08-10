@@ -108,10 +108,10 @@
         type: EsColorPickerBUI
 
 - type: entity
-  name: energy sword
+  name: épée laser
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: Une épée très bruyante et dangereuse avec un faisceau de plasma pur et concentré. Traverse les cibles non blindées comme du beurre.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -141,10 +141,10 @@
     price: 2500
 
 - type: entity
-  name: energy dagger
+  name: dague laser
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergyDaggerLoud
-  description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
+  description: Une dague moins bruyante et dangereuse avec un faisceau de plasma pur et concentré. Celle-ci est complètement démasquée.
   components:
   - type: ItemToggle
     soundActivate:
@@ -211,11 +211,11 @@
     reflectProb: .25
 
 - type: entity
-  name: pen
+  name: stylo
   parent: [BaseMeleeWeaponEnergy, SelectableLock]
   id: EnergyDagger
   suffix: E-Dagger
-  description: 'A dark ink pen.'
+  description: Un stylo à encre noire.
   components:
   - type: ItemToggle
     soundActivate:
@@ -300,9 +300,9 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: boîte d'e-dague
   suffix: E-Dagger
-  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
+  description: Une petite boîte contenant une e-dague. L'emballage se désintègre à l'ouverture, ne laissant aucune trace.
   components:
   - type: Item
     size: Tiny
@@ -316,10 +316,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: sabre laser
   parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
   id: EnergyCutlass
-  description: An exotic energy weapon.
+  description: Une arme énergétique exotique.
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
@@ -346,11 +346,11 @@
         volume: -2
 
 - type: entity
-  name: double-bladed energy sword
+  name: épée laser à double lame
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySwordDoubleBase # Goob edit
   abstract: true # Goob edit
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  description: Les stagiaires du commandement du Syndicat ont estimé qu'une seule lame sur l'épée énergétique ne suffisait pas. Peut être rangé dans les poches.
   components:
   - type: ItemToggle
     predictable: false # Goobstation - wielded weapons sound prediction is broken
@@ -491,13 +491,13 @@
   parent: EnergySword
   id: CyborgEnergySword
   suffix: For Borgs
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Specially designed for syndicate cyborgs.
+  description: Une épée très bruyante et dangereuse avec un faisceau de plasma pur et concentré. Spécialement conçue pour les cyborgs du Syndicat.
 
 - type: entity
   parent: EnergySwordDouble
   id: CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble
   suffix: One-Handed, For Borgs
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. Specially designed for syndicate cyborgs.
+  description: Les stagiaires du commandement du Syndicat ont estimé qu'une seule lame sur l'épée énergétique ne suffisait pas. Spécialement conçue pour les cyborgs du Syndicat.
   components: # could add energy-draining like the L6C
   - type: Wieldable
     freeHandsRequired: 0 # because borg has no off-hand to wield with.  Without this, it will be unable to activate the esword
