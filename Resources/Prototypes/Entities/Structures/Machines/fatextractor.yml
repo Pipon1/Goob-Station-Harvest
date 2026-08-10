@@ -3,8 +3,8 @@
 - type: entity
   id: FatExtractor
   parent: BaseMachinePowered
-  name: lipid extractor
-  description: Safely and efficiently extracts excess fat from a subject.
+  name: extracteur de lipides
+  description: Extrait l'excès de graisse d'un sujet de manière sûre et efficace.
   components:
   - type: FatExtractor
     processSound:
