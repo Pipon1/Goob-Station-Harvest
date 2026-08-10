@@ -1,0 +1,53 @@
+<Document>
+  # Vampires
+  <Box>
+    <GuideEntityEmbed Entity="ActionVampireGlare" Caption=""/>
+  </Box>
+
+  Les vampires sont des créatures capables de drainer et manipuler l'essence vitale du sang des êtres sensibles à bord de la station.
+  Ce sont des antagonistes qui chercheront activement à traquer les membres d'équipage dans le but simple de se sustenter de leur sang et d'accomplir quelques objectifs précis.
+  Les vampires possèdent des pouvoirs spéciaux leur permettant, entre autres capacités, de se téléporter via les ombres, d'hypnotiser et capturer l'équipage, et d'accomplir des actions uniques selon leur classe vampirique.
+  Les pouvoirs des vampires ne sont pas sans conséquence : les vampires souffrent d'une faiblesse vitale face aux zones, objets et individus d'une grande force spirituelle.
+  Les éléments d'une foi forte — sites sanctifiés, eau bénite, feu et lumière stellaire — sonnent tous le glas d'un vampire.
+
+  ## Débuter Votre Règne de Terreur
+
+  Il y a deux réserves dans lesquelles le sang ira lorsqu'un vampire draine un humanoïde : ses besoins de faim et sa réserve de sang utilisable.
+  Les vampires ne peuvent se sustenter que de sang et si la quantité de sang comblant leurs besoins de faim s'épuise, le vampire mourra de faim.
+
+  La réserve de sang utilisable est ce qui est consommé lorsque les vampires utilisent leurs pouvoirs spéciaux et à mesure que le total de sang utilisable accumulé pendant la manche augmente, cela débloque davantage de capacités pour le vampire.
+  Les vampires peuvent se nourrir sur n'importe quel humanoïde comme les singes ou les farwas, cependant, le sang utilisable ne peut être récolté que sur des humanoïdes sensibles.
+
+  En débutant en tant que Vampire, on a zéro sang utilisable et pour en gagner, un vampire doit drainer un joueur.
+  Une fois un membre d'équipage capturé, il faut viser la tête de l'humanoïde avec l'intention de nuire et une main vide.
+  Une fois 200u de sang récoltés sur un humanoïde sensible, le sang cessera d'aller dans la réserve utilisable et plus aucun ne sera récoltable sur ce joueur précis pour le reste de la manche.
+
+  Drainer un joueur entraînera probablement sa mort.
+
+  ## Pouvoirs Initiaux
+
+  Les vampires débutent avec deux pouvoirs : Regard Glacial et Régénération. Utiliser Regard Glacial peut étourdir et réduire au silence, l'effet variant selon que vous faites face à la cible, et Régénération éliminera tous les étourdissements.
+
+  ## Classes
+
+  Les vampires ont deux types de pouvoirs différents : les pouvoirs de base et les pouvoirs de classe. Les pouvoirs de base sont des capacités que tout Vampire possède ou pourra débloquer indépendamment de sa classe.
+  Après avoir bu un total de 150 unités de sang, les vampires accèdent à 4 arbres de compétences uniques et mutuellement exclusifs, avec des capacités de plus en plus puissantes adaptées à divers styles de jeu.
+  En accumulant 1 000u de sang provenant d'au moins 8 personnes différentes, les vampires s'élèveront à leur pleine puissance, gagnant une vision nocturne améliorée, l'immunité à l'eau bénite, à la chapelle, à la nullification, et à la sainteté de l'Aumônier, devenant un émissaire de mort et de destruction alimenté par le sang !
+
+  ## Combattre les Vampires
+
+  - Garder vos distances avec un vampire les empêchera de vous utiliser Regard Glacial, ce qui est normalement une sentence de mort. Restez à distance et tirez.
+  - Les capacités vampiriques peuvent être "nullifiées", ce qui augmente le coût en sang des pouvoirs ; La nullification s'échelonne jusqu'à 100, au-delà duquel les vampires ne peuvent utiliser aucune capacité. La Baguette de Nullification de l'Aumônier ou l'eau bénite appliquent la nullification.
+  - Les vampires s'enflammeront s'ils restent dans la chapelle pendant de longues périodes.
+  - La lumière stellaire est extraordinairement mortelle même pour les vampires à pleine puissance, infligeant de graves dégâts génétiques tant que le vampire est dans l'espace.
+  - Si un vampire atteint sa pleine puissance : Il gagne une immunité totale à la nullification, à l'eau bénite, et peut entrer librement dans les sites saints.
+
+  ## Astuces
+
+  - Connaissez l'espèce de vos victimes avant de tenter de les mordre ! Les IPC et les Plasmamen n'ont pas de sang et ne peuvent pas être drainés !
+  - Savoir quels pouvoirs un vampire a et quand il peut les utiliser est crucial.
+  - Assurez-vous qu'un vampire a déjà utilisé sa Régénération avant de le menotter, sans quoi il pourrait rapidement retourner la situation.
+  - Regard Glacial n'a aucun effet si le vampire est bandé des yeux.
+  - Les vampires peuvent encore vous utiliser Regard Glacial quand ils sont étourdis ! Cela durera moins longtemps, mais cela vous empêchera de les menotter.
+  - Dormir dans des cercueils réduit la nullification des vampires.
+</Document>

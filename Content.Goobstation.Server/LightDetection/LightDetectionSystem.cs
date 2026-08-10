@@ -1,4 +1,5 @@
 using Content.Goobstation.Common.CCVar;
+using Content.Goobstation.Shared.LightDetection;
 using Content.Goobstation.Shared.LightDetection.Components;
 using Content.Goobstation.Shared.LightDetection.Systems;
 using Content.Server.Disposal.Unit;
@@ -66,6 +67,12 @@ public sealed class LightDetectionSystem : SharedLightDetectionSystem
         }
 
         _parallel.ProcessNow(_job, _job.UpdateEnts.Count);
+
+        foreach (var ent in _job.UpdateEnts)
+        {
+            var ev = new LightLevelUpdated(ent.Comp1.CurrentLightLevel);
+            RaiseLocalEvent(ent.Owner, ref ev);
+        }
     }
 
     private record struct HandleLightJob() : IParallelRobustJob

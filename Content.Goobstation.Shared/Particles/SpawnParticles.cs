@@ -34,6 +34,12 @@ public sealed partial class SpawnParticles : EntityEffectBase<SpawnParticles>
     [DataField]
     public Color? Color;
 
+    /// <summary>
+    /// If set, particles will spawn at random positions within this radius (in meters) around the target entity.
+    /// </summary>
+    [DataField]
+    public float? Radius;
+
     public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys) => null;
 }
 
@@ -45,15 +51,16 @@ public abstract class SharedSpawnParticlesEffectSystem : EntityEffectSystem<Meta
         var quantity = args.Effect.Number * (int)Math.Floor(args.Scale);
         var color = args.Effect.Color;
         var attach = args.Effect.Attached;
+        var radius = args.Effect.Radius;
 
         for (var i = 0; i < quantity; i++)
         {
-            SpawnParticles(effect, entity, color, attach);
+            SpawnParticles(effect, entity, color, attach, radius);
         }
     }
 
     /// <summary>
     /// Virtual function to spawn particles via the client
     /// </summary>
-    protected virtual void SpawnParticles(ProtoId<ParticleEffectPrototype> particleProto, EntityUid target, Color? color, bool attached) { }
+    protected virtual void SpawnParticles(ProtoId<ParticleEffectPrototype> particleProto, EntityUid target, Color? color, bool attached, float? radius) { }
 }

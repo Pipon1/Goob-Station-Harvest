@@ -6,9 +6,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 /// <summary>
-/// carboncopy of nitriiummovespeedwhatever bullshit
-/// todo refactor this shit into a generic if yall are gonna keep adding fucking random speedups vida gases
-/// todo marty
+/// Temporarily applies a movement speed modifier to the target.
 /// </summary>
 public sealed partial class NitrousMovespeedModifier : EntityEffectBase<NitrousMovespeedModifier>
 {

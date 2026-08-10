@@ -82,6 +82,9 @@
   id: Bloodpack # Storage whitelist: ClothingBeltMedical
 
 - type: Tag
+  id: BloodPool
+
+- type: Tag
   id: BlueprintAutolathe # Whitelist on BlueprintReceiverComponent on the autolate for linking tagged entity's BlueprintComponent.
 
 - type: Tag

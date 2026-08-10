@@ -1,0 +1,45 @@
+- type: mobClassGroup
+  id: Vampire
+  backgroundImagePath: "/Textures/_Goobstation/Interface/brown_ice_by_darkwood67.jpg"
+  specializeButtonImagePath: "/Textures/_Goobstation/Interface/Vampires/specialize.png"
+  backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+  fontPath: "/Fonts/_Goobstation/CinzelDecorative.ttf"
+  fontColorOverride: "#8B0000"
+  fontSize: 15
+  classes:
+  # - Gargantua  # Disabled for low-pop
+  - Haemomancer
+  - Umbrae
+  # - Dantalion  # Disabled for low-pop
+
+- type: mobClass
+  id: Gargantua
+  name: Gargantua
+  icon:
+    sprite: _Goobstation/Vampires/actions.rsi
+    state: duel
+  description: A bloodsucker fueled by the thrill of the duel.
+
+- type: mobClass
+  id: Haemomancer
+  name: Haemomancer
+  description: The station is your canvas, and blood is your brush.
+  icon:
+    sprite: _Goobstation/Vampires/actions.rsi
+    state: blood_bringers_rite
+
+- type: mobClass
+  id: Umbrae
+  name: Umbrae
+  description: Soon, you will be consumed. By them... by the Dark
+  icon:
+    sprite: _Goobstation/Vampires/actions.rsi
+    state: eternal_darkness
+
+- type: mobClass
+  id: Dantalion
+  name: Dantalion
+  description: You reanimate people into a loyal horde of thralls.
+  icon:
+    sprite: _Goobstation/Vampires/actions.rsi
+    state: hysteria

@@ -25,6 +25,8 @@
           - !type:MetabolizerTypeCondition
             type: [ Human ]
             inverted: true
+      - !type:VampireGainBlood
+        amount: 5
     Food:
       effects:
         - !type:AdjustReagent
@@ -40,6 +42,10 @@
           groups:
             Brute: -3
             Burn: -1.25
+    Vampire:
+      effects:
+      - !type:VampireGainBlood
+        amount: 5
   plantMetabolism:
     - !type:PlantAdjustWater
       amount: 0.5

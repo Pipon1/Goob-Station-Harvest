@@ -1,0 +1,5 @@
+﻿- type: cloningSettings
+  id: ShadowCloneSettings
+  copyStatusEffects: false
+  components:
+  - WeakToHoly

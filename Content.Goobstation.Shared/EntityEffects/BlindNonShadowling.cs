@@ -11,9 +11,8 @@ using Robust.Shared.Prototypes;
 namespace Content.Goobstation.Shared.EntityEffects;
 
 /// <summary>
-/// Inflicts blindness on non-shadowlings and non-thralls
+/// Inflicts temporary blindness on non-shadowlings and non-thralls.
 /// </summary>
-// todo migrate. or just kill slings i  stg.
 public sealed partial class BlindNonShadowlingSystem : EntityEffectSystem<HumanoidAppearanceComponent, BlindNonShadowling>
 {
     [Dependency] private readonly StatusEffectsSystem _status = default!;

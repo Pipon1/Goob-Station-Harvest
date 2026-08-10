@@ -32,7 +32,7 @@ public class XenobiologyMiscSystems : EntitySystem
     {
 
         var lookupSys = EntityManager.System<EntityLookupSystem>();
-        var flamSys = EntityManager.System<FlammableSystem>();
+        var flamSys = EntityManager.System<Content.Server.Atmos.EntitySystems.FlammableSystem>();
 
         foreach (var entity in lookupSys.GetEntitiesInRange(uid, args.Range))
         {
@@ -56,7 +56,7 @@ public class XenobiologyMiscSystems : EntitySystem
     public void OnIgniteNearby(EntityUid uid, ReactiveComponent component, ref IgniteNearbyEffect args)
     {
         var lookupSys = EntityManager.System<EntityLookupSystem>();
-        var flamSys = EntityManager.System<FlammableSystem>();
+        var flamSys = EntityManager.System<Content.Server.Atmos.EntitySystems.FlammableSystem>();
 
         foreach (var entity in lookupSys.GetEntitiesInRange(uid, args.Radius))
         {

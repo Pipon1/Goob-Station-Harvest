@@ -94,6 +94,19 @@
     roleType: SoloAntagonist
     subtype: role-subtype-contractor
 
+# Vampire
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleVampire
+  name: Vampire Role
+  components:
+  - type: MindRole
+    antagPrototype: Vampire
+    exclusiveAntag: true
+    roleType: SoloAntagonist
+    subtype: role-subtype-vampire
+  - type: VampireRole
+
 # Gemini
 
 - type: entity
@@ -200,4 +213,3 @@
     antagPrototype: ClownGhostAntagonistGoob
     roleType: SoloAntagonist
     sortWeight: 50
-
