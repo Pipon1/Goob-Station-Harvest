@@ -23,7 +23,7 @@
   parent: MobStatusEffectBase
   id: StatusEffectSpeed
   abstract: true
-  name: speed
+  name: vitesse
   components:
   - type: StatusEffect
     whitelist:
@@ -36,7 +36,7 @@
 - type: entity
   parent: StatusEffectSpeed
   id: ReagentSpeedStatusEffect
-  name: reagent speed
+  name: vitesse de réactif
 
 - type: entity
   parent: StatusEffectSlowdown
