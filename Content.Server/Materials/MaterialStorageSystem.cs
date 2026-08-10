@@ -132,7 +132,11 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
                     ("machine", receiver),
                     ("item", toInsert)),
                 receiver);
-        if (HasComp<MagnetPickupComponent>(receiver))
+
+        // Magnet pickups use the storage itself as the inserting user. Keep the
+        // entity alive for one tick only in that case so clients can receive the
+        // pickup animation. Manual insertions do not need this delay.
+        if (user == receiver && HasComp<MagnetPickupComponent>(receiver))
         {
             // Let clients receive the pickup animation before deleting its entity.
             Timer.Spawn(0, () =>
