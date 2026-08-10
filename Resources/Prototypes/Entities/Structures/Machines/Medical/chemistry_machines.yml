@@ -42,8 +42,8 @@
 - type: entity
   id: MachineElectrolysisUnit
   parent: BaseTabletopChemicalMachine
-  name: electrolysis unit
-  description: The latest in medicinal electrocution technology.
+  name: unité d'électrolyse
+  description: La dernière technologie en matière d'électrocution médicale.
   components:
   - type: SolutionContainerMixer
     mixDuration: 5
@@ -82,8 +82,8 @@
 - type: entity
   id: MachineCentrifuge
   parent: BaseTabletopChemicalMachine
-  name: tabletop centrifuge
-  description: Around and around it goes...
+  name: centrifuge de bureau
+  description: Ça tourne, ça tourne...
   components:
   - type: SolutionContainerMixer
     mixDuration: 10
