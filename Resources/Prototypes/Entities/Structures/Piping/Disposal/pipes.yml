@@ -359,7 +359,7 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: A three-way junction. The arrow indicates where items exit.
+  description: Une jonction à trois voies. La flèche indique où les objets sortent.
   parent: DisposalJunction
   suffix: flipped
   components:
