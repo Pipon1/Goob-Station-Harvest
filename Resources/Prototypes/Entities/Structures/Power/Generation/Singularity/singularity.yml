@@ -2,8 +2,8 @@
 
 - type: entity
   id: Singularity
-  name: gravitational singularity
-  description: A mesmerizing swirl of darkness that sucks in everything. If it's moving towards you, run.
+  name: singularité gravitationnelle
+  description: Un tourbillon hypnotique de ténèbres qui aspire tout. S'il se dirige vers vous, fuyez.
   components:
   - type: Clickable
   - type: AmbientSound
