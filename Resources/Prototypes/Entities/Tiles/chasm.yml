@@ -2,7 +2,7 @@
 
 - type: entity
   id: FloorChasmEntity
-  name: abîme
+  name: gouffre
   description: Vous ne pouvez même pas voir le fond.
   placement:
     mode: SnapgridCenter
