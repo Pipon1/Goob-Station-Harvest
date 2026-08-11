@@ -3,8 +3,8 @@
 - type: entity
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, SmallConstructibleMachine, BaseAutomatedMachine ] # Goob: Automation
-  name: microwave
-  description: It's magic.
+  name: micro-ondes
+  description: C'est de la magie.
   components:
   - type: Microwave
     capacity: 10
@@ -160,8 +160,8 @@
 - type: entity
   id: SyndicateMicrowave
   parent: [ KitchenMicrowave, BaseSyndicateContraband ]
-  name: donk co. microwave
-  description: So advanced, it can cook donk-pockets in a mere 2.5 seconds!
+  name: micro-ondes Donk Co.
+  description: Tellement avancé qu'il peut cuire des donk-pockets en à peine 2,5 secondes !
   components:
   - type: Microwave
     cookTimeMultiplier: 0.5

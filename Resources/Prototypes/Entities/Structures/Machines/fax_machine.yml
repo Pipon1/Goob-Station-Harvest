@@ -87,7 +87,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCentcom
-  name: CentComm long range fax machine
+  name: fax longue portée de CentComm
   suffix: CentCom
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: "Central Command"
+    name: "Commandement Central"
     notifyAdmins: true
 
 - type: entity
@@ -124,7 +124,7 @@
   suffix: NukeCodes
   components:
     - type: FaxMachine
-      name: "Captain's Office"
+      name: "Bureau du Capitaine"
       receiveNukeCodes: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain

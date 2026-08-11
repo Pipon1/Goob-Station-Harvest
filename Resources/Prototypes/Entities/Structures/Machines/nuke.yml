@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseStructure, StructureWheeled, BaseMajorContraband]
   id: NuclearBomb
-  name: nuclear fission explosive
-  description: You probably shouldn't stick around to see if this is armed.
+  name: explosif à fission nucléaire
+  description: Vous ne devriez probablement pas rester pour voir si c'est armé.
   components:
   - type: Transform
     anchored: true
@@ -135,9 +135,9 @@
 - type: entity
   parent: StorageTank
   id: NuclearBombKeg
-  name: nuclear fission explosive
+  name: explosif à fission nucléaire
   suffix: keg
-  description: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+  description: Vous ne devriez probablement pas rester pour voir si c'est armé. Il a un robinet sur le côté.
   components:
   - type: Transform
     anchored: false
