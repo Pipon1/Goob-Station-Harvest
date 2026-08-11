@@ -2,9 +2,9 @@
 # Tool closet
 - type: entity
   id: ClosetTool
-  name: tool closet
+  name: placard à outils
   parent: ClosetSteelBase
-  description: It's a storage unit for tools.
+  description: C'est une unité de stockage pour outils.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -15,9 +15,9 @@
 # Radiation suit closet
 - type: entity
   id: ClosetRadiationSuit
-  name: radiation suit closet
+  name: placard de combinaison anti-radiations
   parent: ClosetSteelBase
-  description: "More comfortable than radiation poisioning."
+  description: Plus confortable qu'un empoisonnement radiatif.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -28,9 +28,9 @@
 # Emergency closet
 - type: entity
   id: ClosetEmergency
-  name: emergency closet
+  name: placard d'urgence
   parent: ClosetSteelBase
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: C'est une unité de stockage pour masques à oxygène d'urgence et bouteilles d'O2.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -41,9 +41,9 @@
 # Emergency N2 closet
 - type: entity
   id: ClosetEmergencyN2
-  name: emergency nitrogen closet
+  name: placard d'urgence azote
   parent: ClosetSteelBase
-  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+  description: Il est rempli d'équipements de survie. En supposant, bien sûr, que vous respiriez de l'azote.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -54,9 +54,9 @@
 # Fire safety closet
 - type: entity
   id: ClosetFire
-  name: fire-safety closet
+  name: placard sécurité incendie
   parent: ClosetSteelBase
-  description: It's a storage unit for fire-fighting supplies.
+  description: C'est une unité de stockage pour équipements de lutte contre l'incendie.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -67,9 +67,9 @@
 # EOD closet
 - type: entity
   id: ClosetBomb
-  name: EOD closet
+  name: placard de combinaison anti-bombe
   parent: ClosetSteelBase
-  description: It's a storage unit for explosion-protective suits.
+  description: C'est une unité de stockage pour combinaisons anti-explosion.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -80,9 +80,9 @@
 # Janitorial bomb suit closet
 - type: entity
   id: ClosetJanitorBomb
-  name: janitorial bomb suit closet
+  name: placard de combinaison anti-bombe de concierge
   parent: ClosetSteelBase
-  description: It's a storage unit for janitorial explosion-protective suits.
+  description: C'est une unité de stockage pour combinaisons anti-explosion de concierge.
   categories: [ DoNotMap ]
   components:
   - type: Appearance
@@ -97,8 +97,8 @@
 - type: entity
   id: ClosetL3
   parent: ClosetSteelBase
-  name: level 3 biohazard gear closet
-  description: It's a storage unit for level 3 biohazard gear.
+  name: placard d'équipement de risque biologique niveau 3
+  description: C'est une unité de stockage pour équipement de risque biologique niveau 3.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -153,9 +153,9 @@
 # Maintenance closet
 - type: entity
   id: ClosetMaintenance
-  name: maintenance closet
+  name: placard de maintenance
   parent: ClosetSteelBase
-  description: It's a storage unit.
+  description: C'est une unité de stockage.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -165,9 +165,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicate
-  name: blood-red closet
+  name: placard rouge sang
   parent: ClosetSteelBase
-  description: It's a storage unit with a blood-red design.
+  description: C'est une unité de stockage avec un design rouge sang.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -178,10 +178,10 @@
 # Bluespace closet
 - type: entity
   id: ClosetBluespace
-  name: suspicious closet
+  name: placard suspect
   suffix: Bluespace
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: C'est une unité de stockage... non ?
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker
@@ -197,10 +197,10 @@
 # Unstable bluespace closet
 - type: entity
   id: ClosetBluespaceUnstable
-  name: suspicious closet
-  suffix: Bluespace unstable
+  name: placard suspect
+  suffix: Bluespace instable
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: C'est une unité de stockage... non ?
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker

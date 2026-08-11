@@ -3,8 +3,8 @@
 - type: entity
   id: ClosetBase
   parent: [ BaseStructureDynamic, BasePaperLabelableVisualized ]
-  name: closet
-  description: A standard-issue Nanotrasen storage unit.
+  name: placard
+  description: Une unité de stockage standard de NanoTrasen.
   abstract: true
   components:
   - type: Animateable
@@ -129,8 +129,8 @@
   parent: BaseWallmountMetallic
   id: BaseWallCloset
   abstract: true
-  name: wall closet
-  description: A standard-issue Nanotrasen storage unit, now on walls.
+  name: placard mural
+  description: Une unité de stockage standard de NanoTrasen, maintenant sur les murs.
   components:
   - type: ResistLocker
   - type: Weldable
@@ -227,8 +227,8 @@
 - type: entity
   id: SuitStorageBase
   parent: BaseStructure
-  name: suit storage unit
-  description: A fancy hi-tech storage unit made for storing space suits.
+  name: unité de stockage de combinaisons
+  description: Une unité de stockage high-tech sophistiquée conçue pour ranger les combinaisons spatiales.
   components:
   - type: AccessReader
   - type: Lock

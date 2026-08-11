@@ -3,8 +3,8 @@
 - type: entity
   id: ResearchAndDevelopmentServer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: R&D server
-  description: Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+  name: serveur R&D
+  description: Contient le savoir collectif des scientifiques de la station. Le détruire les ramènerait à l'âge de pierre. Vous ne voulez pas ça, n'est-ce pas ?
   components:
   - type: Sprite
     sprite: Structures/Machines/server.rsi

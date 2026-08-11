@@ -3,9 +3,9 @@
 - type: entity
   id: ClosetCursed
   parent: ClosetSteelBase
-  name: closet
+  name: placard
   suffix: cursed
-  description: A standard-issue Nanotrasen storage unit.
+  description: Une unité de stockage standard de NanoTrasen.
   components:
   - type: CursedEntityStorage
   - type: EntityStorage

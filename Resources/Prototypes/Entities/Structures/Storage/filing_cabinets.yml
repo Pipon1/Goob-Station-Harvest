@@ -43,7 +43,7 @@
 - type: entity
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: BaseFilingCabinet
-  description: A cabinet for all your filing needs.
+  description: Un classeur pour tous vos besoins de classement.
   suffix: Empty
   abstract: true
   components:
