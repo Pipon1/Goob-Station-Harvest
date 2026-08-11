@@ -423,7 +423,7 @@
   - type: SubdermalImplant
   - type: RadioImplant
     radioChannels:
-    - CentComm
+    - CentCom
 
 - type: entity
   parent: DeathRattleImplant
@@ -433,4 +433,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
-    radioChannel: CentComm
+    radioChannel: CentCom

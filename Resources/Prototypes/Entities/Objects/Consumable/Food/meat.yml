@@ -348,7 +348,7 @@
 - type: entity
   name: viande de corgi de première qualité
   # can't rot since that would be very bad for syndies
-  parent: [FoodMeatBase, BaseGrandTheftContrabant]
+  parent: [FoodMeatBase, BaseGrandTheftContraband]
   id: FoodMeatCorgi
   description: Le cadeau empoisonné d'un crime horrible. La viande peut être délicieuse, mais à quel prix ?
   components:

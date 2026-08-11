@@ -4,7 +4,7 @@
   parent: [AirSensorBase, GasBinaryBase]
   id: GasPipeSensor
   name: capteur de tuyau de gaz
-  description : Indique l'état du gaz dans le réseau de tuyaux raccordé.
+  description: Indique l'état du gaz dans le réseau de tuyaux raccordé.
   placement:
     mode: AlignAtmosPipeLayers
   components:
