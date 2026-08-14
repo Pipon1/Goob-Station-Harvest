@@ -1,29 +1,23 @@
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 username <113782077+whateverusername0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-armor-examine-stamina = - [color=cyan]Stamina[/color] damage reduced by [color=lightblue]{$num}%[/color].
+armor-examine-stamina = - [color=cyan]Endurance[/color] : dégâts réduits de [color=lightblue]{$num}%[/color].
 
-armor-examine-cancel-delayed-knockdown = - [color=green]Completely cancels[/color] stun baton delayed knockdown.
+armor-examine-cancel-delayed-knockdown = - [color=green]Annule complètement[/color] l'étourdissement différé de la matraque.
 
 armor-examine-modify-delayed-knockdown-delay =
     - { $deltasign ->
-          [1] [color=green]Increases[/color]
-          *[-1] [color=red]Decreases[/color]
-      } stun baton delayed knockdown delay by [color=lightblue]{NATURALFIXED($amount, 2)} { $amount ->
-          [1] second
-          *[other] seconds
+          [1] [color=green]Augmente[/color]
+          *[-1] [color=red]Diminue[/color]
+      } le délai d'étourdissement différé de la matraque de [color=lightblue]{NATURALFIXED($amount, 2)} { $amount ->
+          [1] seconde
+          *[other] secondes
       }[/color].
 
 armor-examine-modify-delayed-knockdown-time =
     - { $deltasign ->
-          [1] [color=red]Increases[/color]
-          *[-1] [color=green]Decreases[/color]
-      } stun baton delayed knockdown time by [color=lightblue]{NATURALFIXED($amount, 2)} { $amount ->
-          [1] second
-          *[other] seconds
+          [1] [color=red]Augmente[/color]
+          *[-1] [color=green]Diminue[/color]
+      } la durée d'étourdissement différé de la matraque de [color=lightblue]{NATURALFIXED($amount, 2)} { $amount ->
+          [1] seconde
+          *[other] secondes
       }[/color].

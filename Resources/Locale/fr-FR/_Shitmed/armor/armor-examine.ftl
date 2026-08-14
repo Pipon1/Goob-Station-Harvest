@@ -7,4 +7,4 @@ armor-coverage-type-chest = torse
 armor-coverage-type-groin = aine
 armor-coverage-type-head = tête
 armor-coverage-type-tail = queue
-armor-coverage-type-other = autres parties
+armor-coverage-type-other = autre partie du corps
