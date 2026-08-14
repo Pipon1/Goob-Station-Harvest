@@ -35,7 +35,7 @@ admin-verb-make-shadowling = Transformer la cible en ombrelin.
 admin-verb-text-make-shadowling = Créer Ombrelin
 
 species-name-shadowling = Ombrelin
-species-name-shadow = Shadow
+species-name-shadow = Ombre
 
 # Examine Texts
 shadowling-examine-self = [color=#D22B2B]Vous subissez {$damage} dégâts de brûlure de la lumière[/color]
