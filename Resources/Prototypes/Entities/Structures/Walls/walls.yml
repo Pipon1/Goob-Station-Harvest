@@ -5,7 +5,7 @@
   parent: BaseStructure
   id: BaseStructureWall
   name: mur de base
-  description: Garde l'air à l'intérieur et les greytides à l'extérieur.
+  description: Garde l'air à l'intérieur et la greytide à l'extérieur.
   placement:
     mode: SnapgridCenter
     snap:
@@ -1392,7 +1392,7 @@
   parent: BaseWall
   id: WallWood
   name: mur en bois
-  description: La défense traditionnelle contre les greytides.
+  description: La défense traditionnelle contre la greytide.
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -1433,7 +1433,7 @@
   parent: BaseWall
   id: WallWeb
   name: mur de toile
-  description: Garde les araignées à l'intérieur et les greytides à l'extérieur.
+  description: Garde les araignées à l'intérieur et la greytide à l'extérieur.
   components:
   - type: MeleeSound
     soundGroups:
