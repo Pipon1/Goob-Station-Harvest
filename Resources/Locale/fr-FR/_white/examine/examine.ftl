@@ -127,4 +127,4 @@ shoes-examine-selfaware = • Votre { $id ->
 comp-hands-examine-empty-selfaware = Vous ne tenez rien dans les mains.
 comp-hands-examine-selfaware = Vous tenez { $items }.
 
-humanoid-appearance-component-examine-selfaware = Vous êtes { SUBJECT($age) } { $age } { $species }.
+humanoid-appearance-component-examine-selfaware = Vous êtes { INDEFINITE($age) } { $age } { $species }.
