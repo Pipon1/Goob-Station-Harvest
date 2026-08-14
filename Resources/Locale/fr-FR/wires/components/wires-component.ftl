@@ -27,4 +27,4 @@ wires-menu-help-popup =
     Cliquez sur les câbles avec des pinces coupantes en main pour les couper/réparer.
 
     Les lumières en haut indiquent l'état de la machine, jouer avec les câbles aura probablement des effets.
-    Les dispositions de câblage changent chaque ronde, mais sont cohérentes entre les machines du même type.
+    Les dispositions de câblage changent chaque round, mais sont cohérentes entre les machines du même type.

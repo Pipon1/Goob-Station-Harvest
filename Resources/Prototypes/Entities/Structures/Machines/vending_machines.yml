@@ -507,7 +507,7 @@
   parent: VendingMachine
   id: VendingMachineCoffee
   name: Solar's Best Hot Drinks
-  description: Servi bouillant pour qu'il reste chaud tout le quart !
+  description: Servi bouillant pour qu'il reste chaud tout le shift !
   components:
   - type: VendingMachine
     pack: HotDrinksMachineInventory

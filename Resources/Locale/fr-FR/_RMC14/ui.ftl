@@ -17,9 +17,9 @@ rmc-ui-lobby-message-description = Affiché aux joueurs avant le début de la pa
   Un est choisi aléatoirement parmi tous les Patrons de ce niveau.
   Assurez-vous que le message choisi ne viole pas les règles.
   En cas de doute, posez la question dans l'AHelp ! (F1)
-rmc-ui-shoutout = Mention de fin de ronde
-rmc-ui-shoutout-nt-title = Nom à utiliser pour la mention Nanotrasen de fin de ronde.
-rmc-ui-shoutout-nt-description = Affiché en fin de ronde sous la forme « Nanotrasen financé par : » suivi de votre nom.
+rmc-ui-shoutout = Mention de fin de round
+rmc-ui-shoutout-nt-title = Nom à utiliser pour la mention Nanotrasen de fin de round.
+rmc-ui-shoutout-nt-description = Affiché en fin de round sous la forme « Nanotrasen financé par : » suivi de votre nom.
 rmc-ui-shoutout-example = Exemple :
 rmc-ui-shoutout-info = Chaque nom est choisi aléatoirement parmi tous les Patrons de ce niveau.
   Assurez-vous que les noms choisis sont dans le personnage et ne violent pas les règles.

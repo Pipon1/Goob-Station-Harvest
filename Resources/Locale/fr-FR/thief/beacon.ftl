@@ -11,4 +11,4 @@ thief-fulton-examined-set = Coordonnées saisies. La téléportation par l'hyper
 thief-fulton-examined-unset = Les coordonnées de la balise ne sont pas définies.
 
 thief-fulton-verb-text = Définir les coordonnées
-thief-fulton-verb-message = Définissez les coordonnées de la planque du voleur, où tous les objets proches seront envoyés en fin de ronde.
+thief-fulton-verb-message = Définissez les coordonnées de la planque du voleur, où tous les objets proches seront envoyés en fin de round.

@@ -373,7 +373,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPassengerQuarterzip
   name: grey quarterzip
-  description: Un quart-zip pour l'assistant sophistiqué.
+  description: Un quarterzip pour l'assistant sophistiqué.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/passenger_quarterzip.rsi
