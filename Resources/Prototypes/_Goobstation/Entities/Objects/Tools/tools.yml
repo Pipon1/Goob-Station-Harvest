@@ -74,7 +74,7 @@
 
 
 - type: entity
-  name: RCD futuriste
+  name: DCR futuriste
   parent: RCD
   id: RCDChrono
   description: Un outil qui peut construire une station à partir de zéro en quelques minutes.
@@ -93,7 +93,7 @@
   - type: RCD
 
 - type: entity
-  name: télécopieur portable
+  name: fax portable
   parent: BaseItem
   id: HandheldFax
   description: Un outil qui peut envoyer des tonnes de papier par télécopieur CentComm.
@@ -150,7 +150,7 @@
       Paper: !type:ContainerSlot
 
 - type: entity
-  name: télécopieur portable du représentant Nanotrasen
+  name: fax portable du représentant Nanotrasen
   parent: HandheldFax
   id: HandheldFaxNanorep
   suffix: Représentant Nanotrasen
@@ -175,7 +175,7 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: télécopieur portable officiel CentComm
+  name: fax portable officiel CentComm
   parent: HandheldFax
   id: HandheldFaxOfficial
   suffix: Officiel CentComm
@@ -215,7 +215,7 @@
 - type: entity
   id: RPDRecharging
   parent: RPD
-  name: RPD expérimental
+  name: DTR expérimental
   description: Un dispositif de tuyauterie rapide amélioré par bluespace qui génère passivement sa propre matière comprimée.
   suffix: Recharge auto
   components:
@@ -227,7 +227,7 @@
 - type: entity
   parent: RCD
   id: RCDRechargingCE
-  name: RCD expérimental
+  name: DCR expérimental
   description: Dispositif de Construction Rapide qui crée de la matière comprimée à la volée à l'aide d'un fabricateur interne.
   suffix: Recharge auto
   components:
