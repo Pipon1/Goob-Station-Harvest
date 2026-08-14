@@ -18,7 +18,11 @@ pick-up-verb-get-data-text = Ramasser
 
 pick-up-verb-get-data-text-inventory = Prendre en main
 
-item-component-on-examine-size = C'est un objet [bold]{$size}[/bold].
+item-component-on-examine-size = C'est { $size ->
+    [petit] un [bold]petit[/bold] objet
+    [grand] un [bold]grand[/bold] objet
+   *[other] un objet [bold]{$size}[/bold]
+}.
 
 item-component-size-Tiny = minuscule
 item-component-size-Small = petit
