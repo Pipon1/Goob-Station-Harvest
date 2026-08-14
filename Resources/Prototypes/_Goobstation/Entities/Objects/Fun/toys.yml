@@ -277,10 +277,10 @@
       collection: Explosion
 
 - type: entity
-  name: étang taïwanais # on joue
+  name: Taiwan Pond
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherTaiwanPond
-  description: PLOOP.
+  description: PLOUP.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/taiwan_pond.rsi
