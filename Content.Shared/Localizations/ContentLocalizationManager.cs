@@ -35,6 +35,7 @@ namespace Content.Shared.Localizations
             _loc.LoadCulture(fallbackCulture); // French-Localization
             _loc.SetFallbackCluture(fallbackCulture); // French-Localization
             _loc.AddFunction(culture, "MANY", FormatMany); // French-Localization: To prevent problems in auto-generated locale files
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural); // French-Localization: To prevent problems in auto-generated locale files
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
