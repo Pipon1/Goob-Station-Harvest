@@ -8,41 +8,41 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-## Speech verbs for chat
+## Verbes de parole pour le chat
 
 chat-speech-verb-name-gondola = Gondola
-chat-speech-verb-gondola-1 = stares
-chat-speech-verb-gondola-2 = breathes
+chat-speech-verb-gondola-1 = fixe
+chat-speech-verb-gondola-2 = respire
 
-chat-speech-verb-name-dead = Dead
-chat-speech-verb-dead-1 = salts
-chat-speech-verb-dead-2 = malds
-chat-speech-verb-dead-3 = copes
-chat-speech-verb-dead-4 = seethes
-chat-speech-verb-dead-5 = laments
-chat-speech-verb-dead-6 = whines
-chat-speech-verb-dead-7 = moans
-chat-speech-verb-dead-8 = cries
-chat-speech-verb-dead-9 = wails
+chat-speech-verb-name-dead = Mort
+chat-speech-verb-dead-1 = rage
+chat-speech-verb-dead-2 = ravalent
+chat-speech-verb-dead-3 = encaissent
+chat-speech-verb-dead-4 = bouillonnent
+chat-speech-verb-dead-5 = se lamentent
+chat-speech-verb-dead-6 = geignent
+chat-speech-verb-dead-7 = gémissent
+chat-speech-verb-dead-8 = pleurent
+chat-speech-verb-dead-9 = hurlent
 
-chat-speech-verb-VoiceModulator-name = Voice Modulator
-chat-speech-verb-VoiceModulator-1 = modulates
-chat-speech-verb-VoiceModulator-2 = buzzes
-chat-speech-verb-VoiceModulator-3 = drones
-chat-speech-verb-VoiceModulator-4 = hums
-chat-speech-verb-VoiceModulator-5 = crackles
+chat-speech-verb-VoiceModulator-name = Modulateur vocal
+chat-speech-verb-VoiceModulator-1 = module
+chat-speech-verb-VoiceModulator-2 = bourdonne
+chat-speech-verb-VoiceModulator-3 = vrombit
+chat-speech-verb-VoiceModulator-4 = fredonne
+chat-speech-verb-VoiceModulator-5 = grésille
 
-chat-speech-verb-name-holier-than-thou = Holier Than Thou
-chat-speech-verb-holier-than-thou-1 = commands
-chat-speech-verb-holier-than-thou-2 = lectures
-chat-speech-verb-holier-than-thou-3 = articulates
-chat-speech-verb-holier-than-thou-4 = proclaims
-chat-speech-verb-holier-than-thou-5 = announces
-chat-speech-verb-holier-than-thou-6 = recites
-chat-speech-verb-holier-than-thou-7 = declares
-chat-speech-verb-holier-than-thou-8 = pronounces
+chat-speech-verb-name-holier-than-thou = Plus saint que toi
+chat-speech-verb-holier-than-thou-1 = commande
+chat-speech-verb-holier-than-thou-2 = sermonne
+chat-speech-verb-holier-than-thou-3 = articule
+chat-speech-verb-holier-than-thou-4 = proclame
+chat-speech-verb-holier-than-thou-5 = annonce
+chat-speech-verb-holier-than-thou-6 = récite
+chat-speech-verb-holier-than-thou-7 = déclare
+chat-speech-verb-holier-than-thou-8 = prononce
 
-chat-speech-verb-name-station-radio = Station Radio
-chat-speech-verb-station-radio-1 = broadcasts
+chat-speech-verb-name-station-radio = Radio de la station
+chat-speech-verb-station-radio-1 = diffuse
 
 chat-manager-entity-say-bolded-language-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$boldFontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/font]

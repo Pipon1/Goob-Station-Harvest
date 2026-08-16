@@ -5,28 +5,28 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 
-verb-trigger-timer-set = {$time} seconds
-verb-trigger-timer-set-current = {$time} seconds
-popup-trigger-timer-set = Trap timer set to {$time} seconds.
+verb-trigger-timer-set = {$time} secondes
+verb-trigger-timer-set-current = {$time} secondes
+popup-trigger-timer-set = Le minuteur du piège est réglé sur {$time} secondes.
 
-reverse-bear-trap-component-target-self = You start putting the trap onto your head.
-reverse-bear-trap-component-start-cuffing-observer = {$user} is putting a trap on {$target}!
-reverse-bear-trap-component-start-cuffing-target = You start putting the trap on {$targetName}.
-reverse-bear-trap-component-start-cuffing-by-other = {$otherName} is forcing a trap onto your head!
-reverse-bear-trap-component-unlocked-trap-self = You manage to unlock the trap!
-reverse-bear-trap-component-unlocked-trap-observer = {$user} has managed to unlock the trap!
-reverse-bear-trap-component-failed-unlocked-trap-self = You fail to unlock the trap!
-reverse-bear-trap-component-failed-unlocked-trap-observer = {$user} has failed to unlock the trap!
-reverse-bear-trap-component-trap-fall-observer = The trap falls off {$user} head.
-reverse-bear-trap-component-trap-fall-self = The trap falls off your head.
-reverse-bear-trap-component-trap-click-observer = The trap clicks shut on {$user} head!
-reverse-bear-trap-component-trap-click-self = The trap clicks shut!
-reverse-bear-trap-component-trap-snap-observer = SNAP! The trap rips {$user} head apart!
-reverse-bear-trap-component-trap-snap-self = SNAP! The trap rips your head apart!
-reverse-bear-trap-component-start-welding-observer = {$user} is cutting the trap off of {$target}!
-reverse-bear-trap-component-start-welding-target = You start cutting the trap on {$targetName}.
-reverse-bear-trap-component-start-welding-by-other = {$otherName} is cutting off the trap on your head!
-reverse-bear-trap-component-start-unlocking-target-self = You start unlocking the trap.
-reverse-bear-trap-component-start-unlocking-observer = {$user} is unlocking the trap on {$target} head!
-reverse-bear-trap-component-start-unlocking-target = You start unlocking the trap on {$targetName}.
-reverse-bear-trap-component-start-unlocking-by-other = {$otherName} is unlocking the trap on your head!
+reverse-bear-trap-component-target-self = Vous commencez à mettre le piège sur votre tête.
+reverse-bear-trap-component-start-cuffing-observer = {$user} met un piège sur {$target} !
+reverse-bear-trap-component-start-cuffing-target = Vous commencez à mettre le piège sur {$targetName}.
+reverse-bear-trap-component-start-cuffing-by-other = {$otherName} vous force un piège sur la tête !
+reverse-bear-trap-component-unlocked-trap-self = Vous parvenez à déverrouiller le piège !
+reverse-bear-trap-component-unlocked-trap-observer = {$user} a réussi à déverrouiller le piège !
+reverse-bear-trap-component-failed-unlocked-trap-self = Vous échouez à déverrouiller le piège !
+reverse-bear-trap-component-failed-unlocked-trap-observer = {$user} a échoué à déverrouiller le piège !
+reverse-bear-trap-component-trap-fall-observer = Le piège tombe de la tête de {$user}.
+reverse-bear-trap-component-trap-fall-self = Le piège tombe de votre tête.
+reverse-bear-trap-component-trap-click-observer = Le piège se referme sur la tête de {$user} !
+reverse-bear-trap-component-trap-click-self = Le piège se referme !
+reverse-bear-trap-component-trap-snap-observer = CLAC ! Le piège déchire la tête de {$user} !
+reverse-bear-trap-component-trap-snap-self = CLAC ! Le piège vous déchire la tête !
+reverse-bear-trap-component-start-welding-observer = {$user} coupe le piège sur {$target} !
+reverse-bear-trap-component-start-welding-target = Vous commencez à couper le piège sur {$targetName}.
+reverse-bear-trap-component-start-welding-by-other = {$otherName} coupe le piège sur votre tête !
+reverse-bear-trap-component-start-unlocking-target-self = Vous commencez à déverrouiller le piège.
+reverse-bear-trap-component-start-unlocking-observer = {$user} déverrouille le piège sur la tête de {$target} !
+reverse-bear-trap-component-start-unlocking-target = Vous commencez à déverrouiller le piège sur {$targetName}.
+reverse-bear-trap-component-start-unlocking-by-other = {$otherName} déverrouille le piège sur votre tête !

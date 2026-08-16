@@ -3,84 +3,84 @@
 influence-base-message = [textshader="{$text}" font="DefaultBold" size={$size} shader="Eldritch"]
 
 influence-gain-message-1 =
-    A SHIMMER...
-    POTENTIAL...
-    POWER.
+    UNE LUEUR...
+    POTENTIEL...
+    POUVOIR.
 influence-gain-message-2 =
-    A WHISPER.
+    UN MURMURE.
 influence-gain-message-3 =
-    COVERED AND FORGOTTEN.
+    RECROUVERTE ET OUBLIÉE.
 influence-gain-message-4 =
-    CURSED LAND,
-    CURSED MAN,
-    CURSED MIND.
+    TERRE MAUDITE,
+    HOMME MAUDIT,
+    ESPRIT MAUDIT.
 influence-gain-message-5 =
-    GREATER HEIGHTS.
+    PLUS HAUT ENCORE.
 influence-gain-message-6 =
-    I AM BEING WATCHED...
-    FROM WHERE? FROM WHAT?
+    JE SUIS OBSERVÉ...
+    D'OÙ ? DE QUOI ?
 influence-gain-message-7 =
-    I AM LATE FOR MY DESTINY.
+    JE SUIS EN RETARD POUR MON DESTIN.
 influence-gain-message-8 =
-    LIFE IS FLEETING,
-    BUT WHAT YET STAYS?
+    LA VIE EST FUGACE,
+    MAIS QUE RESTE-T-IL ENCORE ?
 influence-gain-message-9 =
-    RAIN OF BLOOD.
-    REIGN OF BLOOD.
+    PLUIE DE SANG.
+    RÈGNE DE SANG.
 influence-gain-message-10 =
-    STRENGTH...
-    UNPARALLELED. UNNATURAL.
+    FORCE...
+    SANS PAREILLE. SOURNATURELLE.
 influence-gain-message-11 =
-    THE GATES OF THE MANSUS
-    IS HERE, IS OPEN.
+    LES PORTES DU MANSUS
+    SONT ICI, SONT OUVERTES.
 influence-gain-message-12 =
-    THE HIGHER I RISE,
-    THE MORE I SEE.
+    PLUS JE MONTE,
+    PLUS JE VOIS.
 influence-gain-message-13 =
-    THE VEIL IS SHATTERED.
+    LE VOILE EST BRISÉ.
 influence-gain-message-14 =
-    THEIR HAND IS AT MY SIDE.
+    LEUR MAIN EST À MES CÔTÉS.
 influence-gain-message-15 =
-    THEY WALK THE WORLD.
-    UNNOTICED.
+    ILS ARPENTENT LE MONDE.
+    INREMARQUÉS.
 influence-gain-message-16 =
-    TO WALK BETWEEN PLANES
+    MARCHER ENTRE LES PLANS
 
 fracture-examine-message-1 =
-    Is our reality so fragile?
+    Notre réalité est-elle si fragile ?
 fracture-examine-message-2 =
-    What did I see
-    on the other side?
+    Qu'ai-je vu
+    de l'autre côté ?
 fracture-examine-message-3 =
-    Is this right?
+    Est-ce juste ?
 fracture-examine-message-4 =
-    This is wrong.
+    C'est faux.
 fracture-examine-message-5 =
-    I feel a hand at my throat.
+    Je sens une main à ma gorge.
 fracture-examine-message-6 =
-    I weep, yet no tears fall.
+    Je pleure, mais aucune larme ne tombe.
 fracture-examine-message-7 =
-    We are not alone.
+    Nous ne sommes pas seuls.
 fracture-examine-message-8 =
-    Am I alone?
+    Suis-je seul ?
 fracture-examine-message-9 =
-    Is this the end?
-    Or the beginning?
+    Est-ce la fin ?
+    Ou le commencement ?
 fracture-examine-message-10 =
-    What's out there?
-    What's through there?
+    Qu'y a-t-il dehors ?
+    Qu'y a-t-il au-delà ?
 fracture-examine-message-11 =
-    What power is this?
+    Quel est ce pouvoir ?
 fracture-examine-message-12 =
-    Is this what we are?
-    Is this what we can be?
+    Est-ce ce que nous sommes ?
+    Est-ce ce que nous pouvons devenir ?
 fracture-examine-message-13 =
-    Is this what we wanted?
+    Est-ce ce que nous voulions ?
 fracture-examine-message-14 =
-    We don't deserve this...
-    do we?
+    Nous ne méritons pas cela...
+    n'est-ce pas ?
 fracture-examine-message-15 =
-    Are we prepared for this?
+    Sommes-nous prêts pour cela ?
 fracture-examine-message-16 =
-    We thought we were predators,
-    but we are prey
+    Nous pensions être des prédateurs,
+    mais nous sommes des proies

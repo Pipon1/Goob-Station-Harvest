@@ -2,5 +2,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-marking-dogEars = Dog Ears
-marking-dogEarsWag = Dog Ears(Wagging)
+marking-dogEars = Oreilles de chien
+marking-dogEarsWag = Oreilles de chien (remuantes)

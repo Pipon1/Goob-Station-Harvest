@@ -1,5 +1,5 @@
-loudspeaker-examine-toggleable = The loudspeaker functionality can be toggled. The loudspeaker is [color=yellow]{$state}[/color].
-loudspeaker-examine-generic = This has loudspeaker functionality.
+loudspeaker-examine-toggleable = La fonctionnalité du haut-parleur peut être activée/désactivée. Le haut-parleur est [color=yellow]{$state}[/color].
+loudspeaker-examine-generic = Ceci possède une fonctionnalité de haut-parleur.
 
-loudspeaker-toggle = Toggle loudspeaker
-loudspeaker-toggle-popup = Loudspeaker toggled {$state}.
+loudspeaker-toggle = Basculer le haut-parleur
+loudspeaker-toggle-popup = Haut-parleur basculé sur {$state}.

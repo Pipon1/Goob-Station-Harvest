@@ -5,8 +5,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-markings-category-Wings = Wings
+markings-category-Wings = Ailes
 
-marking-WingsRobotic = Robotic Wings
-marking-WingsRoboticMerciful = Merciful Robotic Wings
-marking-WingsMinimalistic = Minimalistic Wings
+marking-WingsRobotic = Ailes Robotiques
+marking-WingsRoboticMerciful = Ailes Robotiques Miséricordieuses
+marking-WingsMinimalistic = Ailes Minimalistes

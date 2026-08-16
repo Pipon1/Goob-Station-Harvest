@@ -1,11 +1,11 @@
-ptl-examine-enabled = The laser is [color=red]{$enabled}[/color].
-ptl-interact-enabled = The laser is now {$enabled}.
+ptl-examine-enabled = Le laser est [color=red]{$enabled}[/color].
+ptl-interact-enabled = Le laser est maintenant {$enabled}.
 
-ptl-examine-screwdriver = You can use a [color=green]screwdriver[/color] to change it's [color=green]firing frequency[/color].
-ptl-interact-screwdriver = Set firing frequency to {$delay} seconds.
+ptl-examine-screwdriver = Vous pouvez utiliser un [color=green]tournevis[/color] pour changer sa [color=green]fréquence de tir[/color].
+ptl-interact-screwdriver = Régler la fréquence de tir à {$delay} secondes.
 
-ptl-examine-spesos = It holds [color=yellow]{$spesos} spesos[/color]. Use [color=green]multitool[/color] to collect.
-ptl-interact-spesos = Printing accumulated credits.
+ptl-examine-spesos = Il contient [color=yellow]{$spesos} spesos[/color]. Utilisez un [color=green]multitool[/color] pour collecter.
+ptl-interact-spesos = Impression des crédits accumulés.
 
-ptl-enabled = enabled
-ptl-disabled = disabled
+ptl-enabled = activé
+ptl-disabled = désactivé

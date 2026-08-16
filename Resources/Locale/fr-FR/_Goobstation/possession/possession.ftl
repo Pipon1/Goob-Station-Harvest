@@ -1,18 +1,18 @@
-possession-fail-changeling = There's no soul to tamper with!
-possession-fail-heretic = The power of the mansus prevents you from possessing them!
-possession-fail-ghoul = There's no mind for you to possess!
-possession-fail-devil = You cannot possess another devil!
-possession-fail-ghost = There's no mind for you to possess!
-possession-fail-temporary = There's no mind for you to possess!
-possession-fail-target-dead = There's no mind for you to possess!
-possession-fail-target-shielded = A pesky shield prevents you from prying at their mind!
-possession-fail-target-already-possessed = Someone else has already taken over this mind...
-possession-fail-target-chaplain = A holy force prevents you from possessing this target!
-possession-fail-target-immune = An unusual barrier blocks your possession attempt!
-possession-fail-target-polymorphed = This form is too unstable to possess!
+possession-fail-changeling = Il n'y a pas d'âme à manipuler !
+possession-fail-heretic = Le pouvoir du Mansus vous empêche de les posséder !
+possession-fail-ghoul = Il n'y a pas d'esprit pour vous à posséder !
+possession-fail-devil = Vous ne pouvez pas posséder un autre diable !
+possession-fail-ghost = Il n'y a pas d'esprit pour vous à posséder !
+possession-fail-temporary = Il n'y a pas d'esprit pour vous à posséder !
+possession-fail-target-dead = Il n'y a pas d'esprit pour vous à posséder !
+possession-fail-target-shielded = Un bouclier gênant vous empêche de sonder leur esprit !
+possession-fail-target-already-possessed = Quelqu'un d'autre a déjà pris le contrôle de cet esprit...
+possession-fail-target-chaplain = Une force sacrée vous empêche de posséder cette cible !
+possession-fail-target-immune = Une barrière inhabituelle bloque votre tentative de possession !
+possession-fail-target-polymorphed = Cette forme est trop instable pour être possédée !
 
-possession-popup-others = {$target}'s limbs contort in a strange way, {POSS-ADJ($target)} eyes rolling back in {POSS-ADJ($target)} head.
-possession-popup-self = Your soul is forced out of your body!
-possession-end-popup = {$target} seizes up and falls limp to the ground.
+possession-popup-others = Les membres de {$target} se contorsionnent bizarrement, les yeux de {POSS-ADJ($target)} révulsés dans {POSS-ADJ($target)} tête.
+possession-popup-self = Votre âme est arrachée de votre corps !
+possession-end-popup = {$target} se raidit et s'effondre au sol.
 
-possessed-component-examined = You have {$timeremaining} seconds left in this body.
+possessed-component-examined = Il vous reste {$timeremaining} secondes dans ce corps.

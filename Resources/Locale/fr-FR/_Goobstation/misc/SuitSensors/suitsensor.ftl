@@ -1,2 +1,2 @@
-# tried to make it not as generic as possible to not conflict with upstream shit if its ever goids yk
-suit-sensor-got-shocked = The sensors on the {$suit} change rapidly!
+# essayé de faire en sorte que ce ne soit pas aussi générique que possible pour ne pas entrer en conflit avec le bordel upstream si jamais ça arrive yk
+suit-sensor-got-shocked = Les capteurs de la {$suit} changent rapidement !

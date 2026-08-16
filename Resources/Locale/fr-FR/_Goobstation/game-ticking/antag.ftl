@@ -1,1 +1,1 @@
-antag-gain-remove-clumsy = Your training has allowed you to overcome your clownish nature, allowing you to wield weapons without harming yourself!
+antag-gain-remove-clumsy = Votre entraînement vous a permis de surmonter votre nature de clown, vous permettant de manier des armes sans vous blesser !

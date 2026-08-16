@@ -4,20 +4,20 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-spellblade-examine-enchantment = It is imbued with {$name} enchantment.
-spellblade-already-enchanted-message = Already enchanted!
+spellblade-examine-enchantment = Elle est dotée d'un enchantement {$name}.
+spellblade-already-enchanted-message = Déjà enchanté !
 
-spellblade-enchantment-lightning-name = [color=lightblue]lightning[/color]
-spellblade-enchantment-lightning-desc = Lightning. This blade conducts arcane energy to arc between its victims. It also makes the user immune to shocks.
+spellblade-enchantment-lightning-name = [color=lightblue]foudre[/color]
+spellblade-enchantment-lightning-desc = Foudre. Cette lame conduit l'énergie arcanique pour faire des arcs entre ses victimes. Elle rend aussi l'utilisateur immunisé aux chocs.
 
-spellblade-enchantment-fire-name = [color=orange]fire[/color]
-spellblade-enchantment-fire-desc = Fire. This blade ignites on striking a foe, releasing a ball of fire. It also makes the wielder immune to fire.
+spellblade-enchantment-fire-name = [color=orange]feu[/color]
+spellblade-enchantment-fire-desc = Feu. Cette lame s'enflamme en frappant un ennemi, libérant une boule de feu. Elle rend aussi le porteur immunisé au feu.
 
 spellblade-enchantment-bluespace-name = [color=blue]bluespace[/color]
-spellblade-enchantment-bluespace-desc = Bluespace. This blade will cut through the fabric of space, transporting its wielder over long distances to strike foes.
+spellblade-enchantment-bluespace-desc = Bluespace. Cette lame tranche le tissu de l'espace, transportant son porteur sur de longues distances pour frapper les ennemis.
 
-spellblade-enchantment-spacetime-name = [color=pink]spacetime[/color]
-spellblade-enchantment-spacetime-desc = Spacetime. This blade will slice faster but weaker, and will curse the target, slashing them a few seconds after they have not been swung at for each hit.
+spellblade-enchantment-spacetime-name = [color=pink]espace-temps[/color]
+spellblade-enchantment-spacetime-desc = Espace-temps. Cette lame tranche plus vite mais plus faiblement, et maudit la cible, la tranchant quelques secondes après qu'elle n'ait pas été attaquée pour chaque coup.
 
-spellblade-enchantment-forceshield-name = [color=cyan]forceshield[/color]
-spellblade-enchantment-forceshield-desc = Forceshield. This blade will partially shield you against attacks and stuns for a short duration after striking a foe.
+spellblade-enchantment-forceshield-name = [color=cyan]bouclier de force[/color]
+spellblade-enchantment-forceshield-desc = Bouclier de force. Cette lame vous protège partiellement contre les attaques et étourdissements pendant une courte durée après avoir frappé un ennemi.

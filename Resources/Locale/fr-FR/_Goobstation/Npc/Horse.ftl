@@ -1,3 +1,2 @@
-
-petting-success-horse = The creature is content.
-petting-failure-horse = You narrowly avoid getting your hand bit off!
+petting-success-horse = La créature est satisfaite.
+petting-failure-horse = Vous évitez de justesse de vous faire arracher la main !

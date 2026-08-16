@@ -7,67 +7,67 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-dynamic-roundend-totalthreat = Total threat points: {$points}.
-dynamic-roundend-points-roundstart = Roundstart budget: {$points}.
-dynamic-roundend-points-midround = Midround budget: {$points}.
+dynamic-roundend-totalthreat = Points de menace totaux : {$points}.
+dynamic-roundend-points-roundstart = Budget de début de manche : {$points}.
+dynamic-roundend-points-midround = Budget de milieu de manche : {$points}.
 
-dynamic-roundend-gamerules-title = Executed Gamerules:
+dynamic-roundend-gamerules-title = Gamerules exécutées :
 
-dynamic-gamerule-unknown-title = Unknown Gamerule
-dynamic-gamerule-traitor-title = [color=crimson]Traitors[/color]
+dynamic-gamerule-unknown-title = Gamerule inconnue
+dynamic-gamerule-traitor-title = [color=crimson]Traitres[/color]
 dynamic-gamerule-changeling-title = [color=yellow]Changelings[/color]
-dynamic-gamerule-heretic-title = [color=purple]Heretics[/color]
-dynamic-gamerule-thief-title = [color=gray]Thieves[/color]
-dynamic-gamerule-revolutionary-title = [color=cyan]Revolutionaries[/color]
-dynamic-gamerule-zombies-title = [color=pink]Initial Infected[/color]
-dynamic-gamerule-nukeops-title = [color=red]Nuclear Emergency[/color]
+dynamic-gamerule-heretic-title = [color=purple]Hérétiques[/color]
+dynamic-gamerule-thief-title = [color=gray]Voleurs[/color]
+dynamic-gamerule-revolutionary-title = [color=cyan]Révolutionnaires[/color]
+dynamic-gamerule-zombies-title = [color=pink]Infectés initiaux[/color]
+dynamic-gamerule-nukeops-title = [color=red]Urgence nucléaire[/color]
 
-dynamic-gamerule-threat-perrule = {$num} threat.
+dynamic-gamerule-threat-perrule = {$num} menace.
 
-dynamic-gamerule-skeleton-title = Closet Skeleton Spawn
-dynamic-gamerule-ninja-title = Space Ninja Spawn
-dynamic-gamerule-loneop-title = Lone Operative Spawn
-dynamic-gamerule-dragon-title = Space Dragon Spawn
-dynamic-gamerule-spiders-title = Spider Infestation
-dynamic-gamerule-xenos-title = Xenobiology Outbreak
-dynamic-gamerule-revenant-title = Revenant Spawn
-dynamic-gamerule-ratking-title = Rat Migration
+dynamic-gamerule-skeleton-title = Apparition Squelette de Placard
+dynamic-gamerule-ninja-title = Apparition Ninja Spatial
+dynamic-gamerule-loneop-title = Apparition Opérateur Solo
+dynamic-gamerule-dragon-title = Apparition Dragon Spatial
+dynamic-gamerule-spiders-title = Infestation d'Araignées
+dynamic-gamerule-xenos-title = Épidémie Xénobiologique
+dynamic-gamerule-revenant-title = Apparition Revenant
+dynamic-gamerule-ratking-title = Migration de Rats
 
-dynamic-gamerule-midround-traitor-title = Sleeper Agents (Traitors)
-dynamic-gamerule-midround-changeling-title = Genome Awakening (Changelings)
-dynamic-gamerule-midround-heretic-title = Sudden Englightment (Heretics)
-dynamic-gamerule-midround-revolutionary-title = Provocateurs (Revolutionaries)
-dynamic-gamerule-midround-zombies-title = Romerol Outbreak (Zombies)
-dynamic-gamerule-midround-blob-title = Blob Spawn (Blob)
+dynamic-gamerule-midround-traitor-title = Agents Dormeurs (Traitres)
+dynamic-gamerule-midround-changeling-title = Éveil du Génome (Changelings)
+dynamic-gamerule-midround-heretic-title = Illumination Soudaine (Hérétiques)
+dynamic-gamerule-midround-revolutionary-title = Provoqueurs (Révolutionnaires)
+dynamic-gamerule-midround-zombies-title = Épidémie Romerol (Zombies)
+dynamic-gamerule-midround-blob-title = Apparition Blob (Blob)
 
 dynamic-fax-threat-none =
-    Your station orbits within reliably mundane, secure space.
-    Although Nanotrasen has a firm grip on security in your region, the valuable resources and strategic position aboard your station make it a potential target for infiltrations.
-    Monitor crew for non-loyal behavior, but expect a relatively tame shift free of large-scale destruction.
-    We expect great things from your station.
+    Votre station orbite dans un espace fiablement banal et sécurisé.
+    Bien que Nanotrasen maintienne une sécurité ferme dans votre région, les ressources précieuses et la position stratégique à bord de votre station en font une cible potentielle pour des infiltrations.
+    Surveillez l'équipage pour tout comportement non-loyal, mais attendez-vous à une manche relativement calme sans destruction à grande échelle.
+    Nous attendons de grandes choses de votre station.
 
 dynamic-fax-threat-low =
-    Although your station lies within what is generally considered Nanotrasen-controlled space,
-    the course of its orbit has caused it to cross unusually close to exogeological features with anomalous readings.
-    Although these features offer opportunities for our research department,
-    it is known that these little understood readings are often correlated with increased activity from competing interstellar organizations and individuals,
-    among them the Wizard Federation and Cult of the Geometer of Blood - all known competitors for Anomaly Type B sites.
-    Exercise elevated caution.
+    Bien que votre station se trouve dans ce qui est généralement considéré comme l'espace contrôlé par Nanotrasen,
+    le cours de son orbite l'a rapprochée de manière inhabituelle d'exo-géologiques avec des lectures anormales.
+    Bien que ces caractéristiques offrent des opportunités pour notre département de recherche,
+    on sait que ces lectures peu comprises sont souvent corrélées à une activité accrue d'organisations et d'individus interstellaires concurrents,
+    parmi eux la Fédération des Sorciers et le Culte du Géomètre du Sang - tous deux concurrents connus pour les sites d'Anomalie de Type B.
+    Faites preuve de prudence accrue.
 
 dynamic-fax-threat-mid =
-    Congratulations and thank you for participating in the NT 'Frontier' space program!
-    Your station is actively orbiting a high value system far from the nearest support stations.
-    Little is known about your region of space, and the opportunity to encounter the unknown invites greater glory.
-    You are encouraged to elevate security as necessary to protect Nanotrasen assets.
+    Félicitations et merci de participer au programme spatial NT 'Frontière' !
+    Votre station orbite activement autour d'un système de grande valeur loin des stations de soutien les plus proches.
+    On sait peu de choses sur votre région de l'espace, et l'opportunité de rencontrer l'inconnu invite à une plus grande gloire.
+    Vous êtes encouragé à renforcer la sécurité si nécessaire pour protéger les actifs de Nanotrasen.
 
 dynamic-fax-threat-high =
-    As part of a mandatory security protocol, we are required to inform you that as a result of your orbital pattern directly behind an astrological body (oriented from our nearest observatory), your station will be under decreased monitoring and support.
-    It is anticipated that your extreme location and decreased surveillance could pose security risks.
-    Avoid unnecessary risks and attempt to keep your station in one piece.
+    Dans le cadre d'un protocole de sécurité obligatoire, nous devons vous informer qu'en raison de votre orbite directement derrière un corps astrologique (orienté depuis notre observatoire le plus proche), votre station sera sous surveillance et soutien réduits.
+    On s'attend à ce que votre emplacement extrême et la surveillance réduite posent des risques de sécurité.
+    Évitez les risques inutiles et tentez de garder votre station en un morceau.
 
 dynamic-fax-threat-max =
-    Your station is somehow in the middle of hostile territory, in clear view of any enemy of the corporation.
-    Your likelihood to survive is low, and station destruction is expected and almost inevitable.
-    Secure any sensitive material and neutralize any enemy you will come across.
-    It is important that you at least try to maintain the station
-    Good Luck.
+    Votre station se trouve d'une manière ou d'une autre au milieu d'un territoire hostile, à la vue de tout ennemi de la corporation.
+    Votre probabilité de survie est faible, et la destruction de la station est attendue et presque inévitable.
+    Sécurisez tout matériel sensible et neutralisez tout ennemi que vous rencontrerez.
+    Il est important que vous essayiez au moins de maintenir la station en état.
+    Bonne chance.

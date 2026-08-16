@@ -22,75 +22,75 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-rust-s1-name = Blacksmith's Tale
+knowledge-path-rust-s1-name = Histoire du Forgeron
 knowledge-path-rust-s1-desc =
-    "Let me tell you a story", said the Blacksmith, as he gazed deep into his rusty blade.
+    « Laissez-moi vous raconter une histoire », dit le Forgeron, en scrutant profondément sa lame rouillée.
 
-    Opens up the Path of Rust to you.
-    Allows you to transmute a knife with any trash item into a Rusty Blade.
-    You can only create two at a time.
+    Vous ouvre la Voie de la Rouille.
+    Vous permet de transmutuer un couteau avec n'importe quel déchet en Lame Rouillée.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-rust-s2-name = Grasp of Rust
+knowledge-path-rust-s2-name = Emprise de la Rouille
 knowledge-path-rust-s2-desc =
-    On the ceiling of the Mansus, rust grows as moss does on a stone.
+    Au plafond du Mansus, la rouille pousse comme la mousse sur une pierre.
 
-    Your Mansus Grasp will deal massive damage to non-living matter and rust any surface it touches.
-    Already rusted surfaces are destroyed.
-    Standing on Rusted tiles heals, purges chems off your body and grants you resistance to batons.
-    Allows you to rust basic iron walls and floors.
-    Gives you immunity to disgust.
+    Votre Emprise du Mansus infligera d'énormes dégâts à la matière non-vivante et rouillera toute surface qu'elle touche.
+    Les surfaces déjà rouillées sont détruites.
+    Se tenir sur des cases Rouillées soigne, purge les produits chimiques de votre corps et vous accorde une résistance aux matraques.
+    Vous permet de rouiller les murs et sols en fer de base.
+    Vous donne l'immunité au dégoût.
 
-knowledge-path-rust-s3-name = Aggressive Spread
+knowledge-path-rust-s3-name = Propagation Agressive
 knowledge-path-rust-s3-desc =
-    All wise men know well not to visit the Rusted Hills... Yet the Blacksmith's tale was inspiring.
+    Tous les sages savent qu'il ne faut pas visiter les Collines Rouillées... Pourtant l'histoire du Forgeron était inspirante.
 
-    Grants you Aggressive Spread, a spell that spreads rust to nearby surfaces.
+    Vous accorde Propagation Agressive, un sort qui répand la rouille sur les surfaces proches.
 
-# knowledge-path-rust-s3-name = Leeching Walk
+# knowledge-path-rust-s3-name = Marche Parasite
 # knowledge-path-rust-s3-desc =
-#     The speed was unparalleled, the strength unnatural. The Blacksmith was smiling.
+#     La vitesse était sans pareille, la force surnaturelle. Le Forgeron souriait.
 #
-#     Grants you passive healing and resistance to batons while standing over rust.
+#     Vous accorde une guérison passive et une résistance aux matraques en stationnant sur de la rouille.
 
-knowledge-path-rust-s4-name = Mark of Rust
+knowledge-path-rust-s4-name = Marque de la Rouille
 knowledge-path-rust-s4-desc =
-    The Blacksmith looks away. To a place lost long ago. "Rusted Hills help those in dire need... at a cost."
+    Le Forgeron détourne le regard. Vers un lieu perdu depuis longtemps. « Les Collines Rouillées aident ceux dans le besoin... à un prix. »
 
-    Your Mansus Grasp now applies the Mark of Rust. The mark is triggered from an attack with your Rusty Blade.
-    When triggered, your victim will suffer heavy disgust.
-    Allows you to rust special material walls.
+    Votre Emprise du Mansus applique désormais la Marque de la Rouille. La marque se déclenche lors d'une attaque avec votre Lame Rouillée.
+    Lorsqu'elle se déclenche, votre victime subira un dégoût intense.
+    Vous permet de rouiller les murs en matériaux spéciaux.
 
-knowledge-path-rust-s5-name = Rust Construction
+knowledge-path-rust-s5-name = Construction Rouillée
 knowledge-path-rust-s5-desc =
-    Images of foreign and ominous structures began to dance in my mind. Covered head to toe in thick rust, they no longer looked man made. Or perhaps they never were in the first place.
+    Des images de structures étrangères et menaçantes se mirent à danser dans mon esprit. Couvertes de la tête aux pieds d'une épaisse rouille, elles ne semblaient plus faites par l'homme. Ou peut-être ne l'ont-elles jamais été.
 
-    Grants you Rust Construction, a spell that allows you to raise a wall out of a rusted floor.
-    Anyone overtop the wall will be thrown aside and sustain damage.
+    Vous accorde Construction Rouillée, un sort qui permet d'élever un mur depuis un sol rouillé.
+    Quiconque se trouve sur le mur sera projeté de côté et subira des dégâts.
 
-knowledge-path-rust-s6-name = Entropic Plume
+knowledge-path-rust-s6-name = Panache Entropique
 knowledge-path-rust-s6-desc =
-    The corrosion was unstoppable. The rust was unpleasable. The Blacksmith was gone, and you hold their blade. Champions of hope, the Rustbringer is nigh!
+    La corrosion était inarrêtable. La rouille, insatiable. Le Forgeron avait disparu, et vous tenez sa lame. Champions de l'espoir, le Porte-Rouille approche !
 
-    Grants you Entropic Plume, a spell that releases a vexing wave of Rust. Blinds, poisons, and inflicts Amok on any heathen it hits, causing them to strike at friend or foe wildly. Also rusts and destroys and surfaces it hits.
+    Vous accorde Panache Entropique, un sort qui libère une vague vexante de Rouille. Aveugle, empoisonne, et inflige Frénésie à tout infidèle touché, le poussant à frapper ami ou ennemi sauvagement. Rouille et détruit aussi les surfaces qu'il touche.
 
-knowledge-path-rust-s7-name = Toxic Blade
+knowledge-path-rust-s7-name = Lame Toxique
 knowledge-path-rust-s7-desc =
-    The Blacksmith hands you their blade. "The Blade will guide you through the flesh, should you let it." The heavy rust weights it down. You stare deeply into it. The Rusted Hills call for you, now.
+    Le Forgeron vous tend sa lame. « La lame vous guidera à travers la chair, si vous le permettez. » La rouille lourde l'alourdit. Vous la scrutez profondément. Les Collines Rouillées vous appellent, maintenant.
 
-    Your Rusty Blade now causes toxic damage and disgust to those you attack and also increases rot level of corpses.
-    Standing on Rusted tiles closes up your wounds and heals your pain, healing effect increased.
-    Allows you to rust reinforced and mining walls.
+    Votre Lame Rouillée cause désormais des dégâts toxiques et du dégoût à ceux que vous attaquez et augmente aussi le niveau de pourriture des cadavres.
+    Se tenir sur des cases Rouillées referme vos blessures et guérit votre douleur, effet de guérison augmenté.
+    Vous permet de rouiller les murs renforcés et de minage.
 
-knowledge-path-rust-s8-rust-charge-name = Rust Charge
+knowledge-path-rust-s8-rust-charge-name = Charge de Rouille
 knowledge-path-rust-s8-rust-charge-desc =
-    The hills sparkled now, as I neared them my mind began to wander. I quickly regained my resolve and pushed forward, this last leg would be the most treacherous.
+    Les collines étincelaient maintenant, alors que je m'en approchais mon esprit commençait à divaguer. Je repris vite mes esprits et continuai, cette dernière étape serait la plus périlleuse.
 
-    Grants you Rust Charge, a targeted action that can only be cast on a rusted tile. It charges you forward, destroying any rusted objects you come into contact with, it will also deal high damage to others and rust around you during the charge.
+    Vous accorde Charge de Rouille, une action ciblée qui ne peut être lancée que sur une case rouillée. Elle vous propulse en avant, détruisant tout objet rouillé au contact, infligeant de lourds dégâts aux autres et rouillant autour de vous durant la charge.
 
-knowledge-path-rust-s9-name = Rustbringer's Oath
+knowledge-path-rust-s9-name = Serment du Porte-Rouille
 knowledge-path-rust-s9-desc =
-    The ascension ritual of the Path of Rust.
-    Bring 3 rotting or silicon corpses to a transmutation rune to complete the ritual.
-    When completed, the ritual site will endlessly spread rust onto any surface, stopping for nothing.
-    Additionally, you will become extremely resilient on rust, healing at much higher rate, regenerating lost limbs and becoming immune to many effects and dangers.
-    You will be able to rust almost anything upon ascending.
+    Le rituel d'ascension de la Voie de la Rouille.
+    Apportez 3 cadavres en putréfaction ou en silicium à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, le site du rituel répandra sans fin la rouille sur toute surface, ne s'arrêtant pour rien.
+    De plus, vous deviendrez extrêmement résistant sur la rouille, guérissant à un taux bien plus élevé, régénérant les membres perdus et devenant immunisé à de nombreux effets et dangers.
+    Vous pourrez rouiller presque n'importe quoi après l'ascension.

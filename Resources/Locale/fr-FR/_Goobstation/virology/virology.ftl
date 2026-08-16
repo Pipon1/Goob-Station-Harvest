@@ -1,17 +1,17 @@
-disease-swab-unclean = This swab looks unclean.
-disease-swab-cant-swab = You can't swab {$target}.
-disease-swab-swabbed = You take a sample from {$target}.
-disease-swab-swabbed-by = {$user} swabs you.
-disease-swab-yourself = yourself
+disease-swab-unclean = Cet écouvillon a l'air sale.
+disease-swab-cant-swab = Vous ne pouvez pas écouvillonner {$target}.
+disease-swab-swabbed = Vous prélevez un échantillon sur {$target}.
+disease-swab-swabbed-by = {$user} vous écouvillonne.
+disease-swab-yourself = vous-même
 
-disease-analyzer-report-title = Disease Analysis Report
-disease-analyzer-report-genotype = Genotype: {$genotype}
-disease-analyzer-report-type = Type: {$type}
-disease-analyzer-report-infection-rate = Infection Rate: {NATURALFIXED($rate, 4)}
-disease-analyzer-report-immunity-gain = Immunity Gain Rate: {NATURALFIXED($rate, 2)}
-disease-analyzer-report-mutation-rate = Mutation Rate: {NATURALFIXED($rate, 3)}
-disease-analyzer-report-complexity = Complexity: {NATURALFIXED($complexity, 1)}
-disease-analyzer-report-effects-header = Detected Effects:
-disease-analyzer-report-effect-line = - {$effect} (Severity {NATURALFIXED($severity, 2)}): {$description}
+disease-analyzer-report-title = Rapport d'Analyse de Maladie
+disease-analyzer-report-genotype = Génotype : {$genotype}
+disease-analyzer-report-type = Type : {$type}
+disease-analyzer-report-infection-rate = Taux d'Infection : {NATURALFIXED($rate, 4)}
+disease-analyzer-report-immunity-gain = Taux de Gain d'Immunité : {NATURALFIXED($rate, 2)}
+disease-analyzer-report-mutation-rate = Taux de Mutation : {NATURALFIXED($rate, 3)}
+disease-analyzer-report-complexity = Complexité : {NATURALFIXED($complexity, 1)}
+disease-analyzer-report-effects-header = Effets Détectés :
+disease-analyzer-report-effect-line = - {$effect} (Gravité {NATURALFIXED($severity, 2)}) : {$description}
 
-disease-analyzer-unknown-effect = Unknown
+disease-analyzer-unknown-effect = Inconnu

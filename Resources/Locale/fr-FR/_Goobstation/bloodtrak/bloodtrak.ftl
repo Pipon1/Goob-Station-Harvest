@@ -1,10 +1,10 @@
-bloodtrak-dna-saved = DNA: "{$dna}" logged, Cycle ready.
-bloodtrak-scan-failed = Scan target invalid.
-bloodtrak-no-dna = Solution does not contain a valid DNA sequence.
+bloodtrak-dna-saved = ADN : "{$dna}" enregistré, cycle prêt.
+bloodtrak-scan-failed = Cible de scan invalide.
+bloodtrak-no-dna = La solution ne contient pas de séquence ADN valide.
 
-bloodtrak-cooldown-active = Device recharging. Please wait {$num} seconds.
-bloodtrak-no-target = Tracking Target invalid.
-bloodtrak-target-lost = Tracking Target invalid.
-bloodtrak-tracking-expired = Tracking cycle completed.
-bloodtrak-no-match = DNA sequence not on records!
-bloodtrak-sample-expired = Blood sample is too dry.
+bloodtrak-cooldown-active = Appareil en recharge. Veuillez attendre {$num} secondes.
+bloodtrak-no-target = Cible de traçage invalide.
+bloodtrak-target-lost = Cible de traçage invalide.
+bloodtrak-tracking-expired = Cycle de traçage terminé.
+bloodtrak-no-match = Séquence ADN introuvable dans les registres !
+bloodtrak-sample-expired = Échantillon de sang trop sec.

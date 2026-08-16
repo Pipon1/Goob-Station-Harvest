@@ -23,72 +23,72 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-ash-s1-name = Nightwatcher's Secret
+knowledge-path-ash-s1-name = Secret du Veilleur Nocturne
 knowledge-path-ash-s1-desc =
-    The City Guard know their watch. If you ask them at night, they may tell you about the ashy lantern.
+    La Garde de la ville connaît sa veille. Si vous les interrogez la nuit, ils pourront vous parler de la lanterne cendreuse.
 
-    Opens up the Path of Ash to you.
-    Allows you to transmute a match and a knife into an Ashen Blade.
-    You can only create two at a time.
+    Vous ouvre la Voie des Cendres.
+    Vous permet de transmutuer une allumette et un couteau en Lame Cendreuse.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-ash-s2-name = Grasp of Ash
+knowledge-path-ash-s2-name = Emprise des Cendres
 knowledge-path-ash-s2-desc =
-    The Nightwatcher was the first of them, his treason started it all. Their lantern, expired to ash - their watch, absent.
+    Le Veilleur Nocturne fut le premier d'entre eux, sa trahison déclencha tout. Leur lanterne, consumée en cendres - leur veille, absente.
 
-    Your Mansus Grasp will burn the eyes of the victim, damaging them and blurring their vision.
+    Votre Emprise du Mansus brûle les yeux de la victime, l'endommageant et floutant sa vision.
 
-knowledge-path-ash-s3-name = Ashen Shift
+knowledge-path-ash-s3-name = Transfert Cendreux
 knowledge-path-ash-s3-desc =
-    He knew how to walk between the planes.
+    Il savait marcher entre les plans.
 
-    Grants you Ashen Passage, a spell that lets you phase out of reality and traverse a very short distance, passing though any walls.
+    Vous accorde Passage Cendreux, un sort qui vous permet de vous déphaser de la réalité et de traverser une très courte distance, en passant à travers les murs.
 
-knowledge-path-ash-s4-name = Mark of Ash
+knowledge-path-ash-s4-name = Marque de Cendre
 knowledge-path-ash-s4-desc =
-    He was a very particular man, always watching in the dead of night.
-    But in spite of his duty, he regularly tranced through the Manse with his blazing lantern held high.
-    He shone brightly in the darkness, until the blaze begin to die.
+    C'était un homme bien particulier, veillant toujours au cœur de la nuit.
+    Mais malgré son devoir, il traversait régulièrement le Manse avec sa lanterne flamboyante brandie haut.
+    Il brillait dans les ténèbres, jusqu'à ce que la flamme commence à s'éteindre.
 
-    Your Mansus Grasp now applies the Mark of Ash. The mark is triggered from an attack with your Ashen Blade.
-    When triggered, the victim takes additional stamina and burn damage, and the mark is transferred to a nearby heathen.
-    Damage dealt is decreased with each transfer.
+    Votre Emprise du Mansus applique désormais la Marque de Cendre. La marque se déclenche lors d'une attaque avec votre Lame Cendreuse.
+    Lorsqu'elle se déclenche, la victime subit des dégâts d'endurance et de brûlure supplémentaires, et la marque se transmet à un infidèle proche.
+    Les dégâts infligés diminuent à chaque transmission.
 
-knowledge-path-ash-s5-name = Volcano Blast
+knowledge-path-ash-s5-name = Explosion Volcanique
 knowledge-path-ash-s5-desc =
-    No fire was hot enough to rekindle them. No fire was bright enough to save them. No fire is eternal.
+    Aucun feu n'était assez chaud pour les raviver. Aucun feu n'était assez brillant pour les sauver. Aucun feu n'est éternel.
 
-    Grants you Volcano Blast, a spell that - after a short charge - fires off a beam of energy at a nearby enemy,
-    setting them on fire and burning them.
-    If they do not extinguish themselves, the beam will continue to another target.
+    Vous accorde Explosion Volcanique, un sort qui - après une brève charge - tire un faisceau d'énergie sur un ennemi proche,
+    l'enflammant et le brûlant.
+    S'ils ne s'éteignent pas, le faisceau continue vers une autre cible.
 
-knowledge-path-ash-s6-name = Mask of Madness
+knowledge-path-ash-s6-name = Masque de la Folie
 knowledge-path-ash-s6-desc =
-    The Nightwatcher was lost. That's what the Watch believed. Yet he walked the world, unnoticed by the masses.
+    Le Veilleur Nocturne était perdu. C'est ce que la Garde croyait. Pourtant, il arpentait le monde, inaperçu des masses.
 
-    Allows you to transmute any mask, a flare, a pool of ash, a lighter, a stun baton, and a liver to create a Mask of Madness.
-    The mask instills fear into heathens who witness it, causing stamina damage, hallucinations, and insanity.
-    It can also be forced onto a heathen, to make them unable to take it off...
-    Additionally, the mask grants you protection from fires and high temperature when worn.
+    Vous permet de transmutuer n'importe quel masque, une fusée éclairante, une mare de cendres, un briquet, une matraque paralysante et un foie pour créer un Masque de la Folie.
+    Le masque inspire la peur aux infidèles qui le voient, causant des dégâts d'endurance, des hallucinations et la folie.
+    Il peut aussi être forcé sur un infidèle, l'empêchant de le retirer...
+    De plus, le masque vous protège du feu et des températures élevées lorsqu'il est porté.
 
-knowledge-path-ash-s7-name = Fiery Blade
+knowledge-path-ash-s7-name = Lame Flamboyante
 knowledge-path-ash-s7-desc =
-    He returned, blade in hand, he swung and swung as the ash fell from the skies.
-    His city, the people he swore to watch... and watch he did, as they all burnt to cinders.
+    Il revint, lame en main, il balaya et balaya alors que les cendres tombaient du ciel.
+    Sa ville, les gens qu'il avait juré de protéger... et protéger il fit, les voyant tous brûler en cendres.
 
-    Your blade now lights enemies ablaze on attack.
+    Votre lame enflamme désormais les ennemis à l'attaque.
 
-knowledge-path-ash-s8-name = Nightwatcher's Rebirth
+knowledge-path-ash-s8-name = Renaissance du Veilleur Nocturne
 knowledge-path-ash-s8-desc =
-    The fire was inescapable, and yet, life remained in his charred body. The Nightwatcher was a particular man, always watching.
+    Le feu était inévitable, et pourtant, la vie subsistait dans son corps calciné. Le Veilleur Nocturne était un homme bien particulier, veillant toujours.
 
-    Grants you Nightwatcher's Rebirth, a spell that extinguishes you and burns all nearby heathens who are currently on fire, healing you for every victim afflicted.
-    If any victims afflicted are in critical condition, they will also instantly die.
+    Vous accorde Renaissance du Veilleur Nocturne, un sort qui vous éteint et brûle tous les infidèles proches qui sont actuellement en feu, vous soignant pour chaque victime affectée.
+    Si des victimes affectées sont en état critique, elles mourront aussi instantanément.
 
-knowledge-path-ash-s9-name = Ashlord's Rite
+knowledge-path-ash-s9-name = Rite du Seigneur des Cendres
 knowledge-path-ash-s9-desc =
-    The ascension ritual of the Path of Ash.
-    Bring 3 burning or husked corpses to a transmutation rune to complete the ritual.
-    When completed, you become a harbinger of flames, gaining two abilites.
-    Cascade, which causes a massive, growing ring of fire around you,
-    and Oath of Flame, causing you to passively create a ring of flames as you walk.
-    You will also become immune to flames, space, and similar environmental hazards.
+    Le rituel d'ascension de la Voie des Cendres.
+    Apportez 3 cadavres enflammés ou calcinés à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, vous devenez un héraut des flammes, gagnant deux capacités.
+    Cascade, qui provoque un immense anneau de feu grandissant autour de vous,
+    et Serment de Flamme, vous faisant créer passivement un anneau de flammes en marchant.
+    Vous deviendrez également immunisé contre le feu, l'espace et les dangers environnementaux similaires.

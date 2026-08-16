@@ -167,8 +167,8 @@ objective-condition-fail = { $condition } | [color={ $markupColor }]Échoué ![/
 
 # Admin Verbs
 
-admin-verb-make-blob = Make the target into a blob carrier.
-admin-verb-text-make-blob = Make Blob Carrier
+admin-verb-make-blob = Transformer la cible en porteur de blob.
+admin-verb-text-make-blob = Créer un porteur de blob
 
 # Language
 language-Blob-name = Blob

@@ -22,47 +22,47 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-void-s1-name = Glimmer of Winter
+knowledge-path-void-s1-name = Lueur d'Hiver
 knowledge-path-void-s1-desc =
-    I feel a shimmer in the air, the air around me gets colder.
-    I start to realize the emptiness of existence. Something's watching me.
+    Je sens un frémissement dans l'air, l'air autour de moi se glace.
+    Je commence à réaliser le vide de l'existence. Quelque chose m'observe.
 
-    Opens up the Path of Void to you.
-    Allows you to transmute a knife in sub-zero temperatures into a Void Blade.
-    You can only create two at a time.
+    Vous ouvre la Voie du Vide.
+    Vous permet de transmutuer un couteau à des températures négatives en Lame du Vide.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-void-s2-name = Grasp of Void
+knowledge-path-void-s2-name = Emprise du Vide
 knowledge-path-void-s2-desc =
-    I saw the cold watcher who observes me. The chill mounts within me.
-    They are quiet. This isn't the end of the mystery.
+    J'ai vu l'observateur glacial qui m'épie. Le froid monte en moi.
+    Il est silencieux. Ce n'est pas la fin du mystère.
 
-    Your Mansus Grasp will temporarily mute and chill the victim.
-    You become immune to cold temperatures.
+    Votre Emprise du Mansus rendra temporairement muet et glacera la victime.
+    Vous devenez immunisé aux températures froides.
 
 
-knowledge-path-void-s3-name = Void Phase
+knowledge-path-void-s3-name = Phase du Vide
 knowledge-path-void-s3-desc =
-    The entity calls themself the Aristocrat. They effortlessly walk through air like nothing - leaving a harsh, cold breeze in their wake.
-    They disappear, and I am left in the blizzard.
+    L'entité se nomme l'Aristocrate. Ils marchent sans effort dans les airs comme si de rien n'était - laissant derrière eux une brise glaciale et dure.
+    Ils disparaissent, et je suis laissé dans le blizzard.
 
-    Grants you Void Phase, a long range targeted teleport spell.
-    Additionally causes damage to heathens around your original and target destination.
+    Vous accorde Phase du Vide, un sort de téléportation ciblée à longue portée.
+    Inflige également des dégâts aux infidèles autour de votre position d'origine et de la destination.
 
-#knowledge-path-void-s3-name = Aristocrat's Way
+#knowledge-path-void-s3-name = Voie de l'Aristocrate
 #knowledge-path-void-s3-desc =
-#    I found a thread of cold breath. It lead me to a strange shrine, all made of crystals.
-#    Translucent and white, a depiction of a nobleman stood before me.
+#    J'ai trouvé un fil de souffle glacial. Il me mena à un étrange sanctuaire, tout fait de cristaux.
+#    Translucide et blanc, une représentation d'un noble se tenait devant moi.
 #
-#    Grants you immunity to cold temperatures, and removes your need to breathe.
-#    You can still take damage due to a lack of pressure.
+#    Vous accorde l'immunité aux températures froides, et supprime votre besoin de respirer.
+#    Vous pouvez encore subir des dégâts dus à un manque de pression.
 
-knowledge-path-void-s4-name = Mark of Void
+knowledge-path-void-s4-name = Marque du Vide
 knowledge-path-void-s4-desc =
-    A gust of wind? A shimmer in the air? The presence is overwhelming, my senses began to betray me. My mind is my own enemy.
+    Une rafale de vent ? Un frémissement dans l'air ? La présence accable, mes sens me trahissaient. Mon esprit est mon propre ennemi.
 
-    Your Mansus Grasp now applies the Mark of Void. The mark is triggered from an attack with your Void Blade.
-    When triggered, gives the victim the Curse of Void, which will mute and slowly freeze them to death.
-    You no longer need to breathe/
+    Votre Emprise du Mansus applique désormais la Marque du Vide. La marque se déclenche lors d'une attaque avec votre Lame du Vide.
+    Lorsqu'elle se déclenche, inflige à la victime la Malédiction du Vide, qui la rendra muette et la gèlera lentement à mort.
+    Vous n'avez plus besoin de respirer/
 
 #knowledge-path-void-s5-name = Void Blast
 #knowledge-path-void-s5-desc =
@@ -72,43 +72,43 @@ knowledge-path-void-s4-desc =
 #    Grants you Void Blast, a spell that shoots out a freezing blast in a cone in front of you,
 #    freezing the ground and cursing any victims within.
 
-knowledge-path-void-s5-name = Void Prison
+knowledge-path-void-s5-name = Prison du Vide
 knowledge-path-void-s5-desc =
-    At first, I see myself, waltzing along a snow-laden street.
-    I try to yell, grab hold of this fool and tell them to run.
-    But the only welts made are on my own beating fist.
-    My smiling face turns to regard me, reflecting back in glassy eyes the empty path I have been lead down.
+    D'abord, je me vois, dansant le long d'une rue enneigée.
+    J'essaie de crier, d'attraper ce fou et de lui dire de fuir.
+    Mais les seules meurtrissures sont sur mon propre poing battant.
+    Mon visage souriant se tourne vers moi, reflétant dans des yeux vitreux le chemin vide où l'on m'a entraîné.
 
-    Grants you Void Prison, a spell that places your victim into a ball, making them unable to do anything or speak. Applies void chill afterwards.
+    Vous accorde Prison du Vide, un sort qui enferme votre victime dans une sphère, la rendant incapable de faire quoi que ce soit ou de parler. Applique le froid du vide ensuite.
 
-knowledge-path-void-s6-name = Void Pull
+knowledge-path-void-s6-name = Traction du Vide
 knowledge-path-void-s6-desc =
-    All is fleeting, but what else stays? I'm close to ending what was started.
-    The Aristocrat reveals themselves to me again. They tell me I am late. Their pull is immense, I cannot turn back.
+    Tout est éphémère, mais que reste-t-il d'autre ? Je suis proche de finir ce qui a commencé.
+    L'Aristocrate se révèle à moi à nouveau. Ils me disent que je suis en retard. Leur traction est immense, je ne peux faire marche arrière.
 
-    Grants you Void Pull, a spell that pulls all nearby heathens towards you, stunning them briefly.
+    Vous accorde Traction du Vide, un sort qui attire tous les infidèles proches vers vous, les étourdissant brièvement.
 
-knowledge-path-void-s7-name = Seeking Blade
+knowledge-path-void-s7-name = Lame Chercheuse
 knowledge-path-void-s7-desc =
-    Fleeting memories, fleeting feet. I mark my way with frozen blood upon the snow. Covered and forgotten.
+    Souvenirs fugaces, pas fugaces. Je marque mon chemin de sang gelé sur la neige. Recouvert et oublié.
 
-    Your blade now freezes enemies. Additionally, you can now attack distant targets with your Void Blade, teleporting directly next to them.
+    Votre gèle désormais les ennemis. De plus, vous pouvez maintenant attaquer des cibles distantes avec votre Lame du Vide, vous téléportant directement à côté d'elles.
 
-knowledge-path-void-s8-name = Void Conduit
+knowledge-path-void-s8-name = Conduit du Vide
 knowledge-path-void-s8-desc =
-    The hum in the still, cold air turns to a cacophonous rattle.
-    Over the noise, there is no distinction to the clattering of window panes and the yawning knowledge that ricochets through my skull.
-    The doors won't close. I can't keep the cold out now.
+    Le bourdonnement dans l'air froid et immobile se mue en un cliquetis cacophonique.
+    Par-dessus le bruit, nulle distinction entre le claquement des vitres et la béante connaissance qui ricoche dans mon crâne.
+    Les portes ne se fermeront pas. Je ne peux plus garder le froid dehors.
 
-    Grants you Void Conduit, a spell which summons a pulsing gate to the Void itself. Every pulse breaks windows and airlocks, while afflicting Heathens with an eldritch chill and shielding Heretics against low pressure.
+    Vous accorde Conduit du Vide, un sort qui invoque une porte pulsante vers le Vide même. Chaque pulsation brise fenêtres et portes étanches, tout en affligeant les infidèles d'un froid indicible et protégeant les hérétiques contre la basse pression.
 
-knowledge-path-void-s9-name = Waltz at the End of Time
+knowledge-path-void-s9-name = Valse à la Fin des Temps
 knowledge-path-void-s9-desc =
-    The ascension ritual of the Path of Void.
-    Bring 3 corpses to a transmutation rune in sub-zero temperatures to complete the ritual.
-    When completed, grants you Aristocrat's Blessing.
-    A snowstorm is summoned, everything around you will be turned into snow and the air will constantly be frozen. Those nearby will be silenced and frozen even quicker.
-    Lights will shatter when nearby.
-    Lasers will pass through you and bullets will be slowed down at your presense and will avoid hitting you, the effect is greater if you are either walking or lying down.
-    Water, ice and slippery surfaces no slip you.
-    You will also become immune to flames, space, and similar environmental hazards. You gain total freedom of movement in zero-gravity.
+    Le rituel d'ascension de la Voie du Vide.
+    Apportez 3 cadavres à une rune de transmutation à des températures négatives pour accomplir le rituel.
+    Une fois accompli, vous accorde la Bénédiction de l'Aristocrate.
+    Une tempête de neige est invoquée, tout autour de vous sera changé en neige et l'air sera constamment gelé. Ceux à proximité seront réduits au silence et gelés encore plus vite.
+    Les lumières se briseront à proximité.
+    Les lasers vous traverseront et les balles seront ralenties par votre présence et éviteront de vous toucher, l'effet est plus grand si vous marchez ou êtes allongé.
+    L'eau, la glace et les surfaces glissantes ne vous feront pas glisser.
+    Vous deviendrez également immunisé contre le feu, l'espace, et les dangers environnementaux similaires. Vous gagnez une liberté de mouvement totale en apesanteur.

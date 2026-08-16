@@ -1,14 +1,14 @@
-marking-UnderwearDefault-boxers = Underwear
-marking-UnderwearDefault = Underwear (Default)
+marking-UnderwearDefault-boxers = Sous-vêtements
+marking-UnderwearDefault = Sous-vêtements (Défaut)
 
-marking-UnderwearBriefs-briefs = Underwear
-marking-UnderwearBriefs = Underwear (Briefs)
+marking-UnderwearBriefs-briefs = Sous-vêtements
+marking-UnderwearBriefs = Sous-vêtements (Caleçon)
 
-marking-UnderwearLowriders-lowriders = Underwear
-marking-UnderwearLowriders = Underwear (Lowriders)
+marking-UnderwearLowriders-lowriders = Sous-vêtements
+marking-UnderwearLowriders = Sous-vêtements (Taille Basse)
 
-marking-UnderwearSatin-satin = Underwear
-marking-UnderwearSatin = Underwear (Satin)
+marking-UnderwearSatin-satin = Sous-vêtements
+marking-UnderwearSatin = Sous-vêtements (Satin)
 
-marking-UnderwearTanga-tanga = Underwear
-marking-UnderwearTanga = Underwear (Tanga)
+marking-UnderwearTanga-tanga = Sous-vêtements
+marking-UnderwearTanga = Sous-vêtements (Tanga)

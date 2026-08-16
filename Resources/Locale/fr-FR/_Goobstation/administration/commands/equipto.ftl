@@ -1,12 +1,12 @@
-cmd-equipto-hint = Slot name.
+cmd-equipto-hint = Nom de l'emplacement.
 
-cmd-equipto-desc = Equip a given entity to a specified entity.
-cmd-equipto-help = Usage: equipto <target> <itemUid/ProtoId> <bool-DeletePrevious> / equipto <target> <itemUid/ProtoId> <bool-DeletePrevious> <slot>
+cmd-equipto-desc = Équiper une entité donnée à une entité spécifiée.
+cmd-equipto-help = Utilisation : equipto <cible> <itemUid/ProtoId> <bool-SupprimerPrecedent> / equipto <cible> <itemUid/ProtoId> <bool-SupprimerPrecedent> <emplacement>
 
-cmd-equipto-args-error = Invalid arguments. { cmd-equipto-help }
-cmd-equipto-bad-target = Unable to find entity '{$target}'.
-cmd-equipto-bad-proto = Invalid item UID/prototype: '{$item}'
+cmd-equipto-args-error = Arguments invalides. { cmd-equipto-help }
+cmd-equipto-bad-target = Impossible de trouver l'entité '{$target}'.
+cmd-equipto-bad-proto = UID d'objet/prototype invalide : '{$item}'
 
-cmd-equipto-success = Equipped {$item} to {$target} in slot {$targetSlot}.
-cmd-equipto-failure = Failed to equip {$item} to {$target} in slot {$targetSlot}.
-cmd-equipto-total-failure= Failed to equip {$item} to any slot on {$target}.
+cmd-equipto-success = Équipé {$item} sur {$target} dans l'emplacement {$targetSlot}.
+cmd-equipto-failure = Échec de l'équipement de {$item} sur {$target} dans l'emplacement {$targetSlot}.
+cmd-equipto-total-failure = Échec de l'équipement de {$item} sur n'importe quel emplacement de {$target}.

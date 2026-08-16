@@ -1,2 +1,2 @@
-upgrade-kit-automation = [color=cyan]Automation[/color]: provides [color=green]signal linking[/color] and [color=green]robotic arm item ports[/color].
-upgrade-kit-autodoc-bluespace = [color=cyan]Bluespace[/color]: provides effects of [color=green]bluespace surgical gloves[/color], allowing it to operate through clothing.
+upgrade-kit-automation = [color=cyan]Automatisation[/color] : fournit [color=green]liaison de signaux[/color] et [color=green]ports d'objets pour bras robotique[/color].
+upgrade-kit-autodoc-bluespace = [color=cyan]Bluespace[/color] : fournit les effets des [color=green]gants chirurgicaux bluespace[/color], permettant d'opérer à travers les vêtements.

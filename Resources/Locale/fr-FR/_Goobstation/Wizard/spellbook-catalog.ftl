@@ -4,190 +4,190 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-spellbook-mime-malaise-name = Mime Malaise
+spellbook-mime-malaise-name = Malaises de Mime
 spellbook-mime-malaise-desc =
-    A spell popular with theater nerd wizards and contrarian pranksters, this spell will put on a mime costume on the target, stun them so that they may contemplate Art, and silence them.
-    Effects are permanent on non-wizards.
-    Learning this spell allows you to get a set of mime wizard robes and hat for free!
-    Requires wizard's robe and hat to cast.
+    Un sort populaire parmi les sorciers mordus de théâtre et les farceurs contrariens, ce sort habille la cible en mime, l'étourdit pour qu'elle puisse contempler l'Art, et la réduit au silence.
+    Les effets sont permanents sur les non-sorciers.
+    Apprendre ce sort vous permet d'obtenir gratuitement un ensemble de robes et chapeau de sorcier mime !
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-banana-touch-name = Banana Touch
+spellbook-banana-touch-name = Toucher Banane
 spellbook-banana-touch-desc =
-    A spell popular at wizard birthday parties, this spell will put on a clown costume on the target, stun them with a loud HONK, and mutate them to make them more entertaining!
-    Effects are permanent on non-wizards.
-    Learning this spell allows you to get a set of clown wizard robes and hat for free!
-    Requires wizard's robe and hat to cast.
+    Un sort populaire aux anniversaires de sorciers, ce sort habille la cible en clown, l'étourdit avec un HONK retentissant, et la mute pour la rendre plus divertissante !
+    Les effets sont permanents sur les non-sorciers.
+    Apprendre ce sort vous permet d'obtenir gratuitement un ensemble de robes et chapeau de sorcier clown !
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-cluwne-curse-name = Curse of the Cluwne
+spellbook-cluwne-curse-name = Malédiction du Cluwne
 spellbook-cluwne-curse-desc =
-    Turns the target into a fat and cursed monstrosity of a clown.
-    Learning this spell allows you to get a set of clown wizard robes and hat for free!
-    Requires wizard's robe and hat to cast.
+    Transforme la cible en une monstrueuse abomination de clown obèse et maudite.
+    Apprendre ce sort vous permet d'obtenir gratuitement un ensemble de robes et chapeau de sorcier clown !
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-magic-missile-name = Magic Missile
+spellbook-magic-missile-name = Projectile Magique
 spellbook-magic-missile-desc =
-    This spell fires several stunning, slow moving, homing magic projectiles at nearby targets.
-    Requires wizard's robe and hat to cast.
+    Ce sort tire plusieurs projectiles magiques lents, à tête chercheuse et étourdissants sur les cibles proches.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-disable-tech-name = Disable Technology
+spellbook-disable-tech-name = Désactiver Technologie
 spellbook-disable-tech-desc =
-    This spell disables all weapons, cameras and most other technology in range.
-    Requires wizard's robe and hat to cast.
+    Ce sort désactive toutes les armes, caméras et la plupart des autres technologies à portée.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-smoke-name = Smoke
+spellbook-smoke-name = Fumée
 spellbook-smoke-desc =
-    This spell spawns a cloud of smoke at your location. People within will begin to choke and drop their items.
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort fait apparaître un nuage de fumée à votre emplacement. Les gens dedans commencent à s'étouffer et lâchent leurs objets.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-repulse-name = Repulse
+spellbook-repulse-name = Repousser
 spellbook-repulse-desc =
-    This spell throws everything around the user away. Thrown mobs are stunned briefly.
-    Requires wizard's robe and hat to cast.
+    Ce sort repousse tout autour de l'utilisateur. Les mobs projetés sont brièvement étourdis.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-stop-time-name = Stop Time
+spellbook-stop-time-name = Arrêt du Temps
 spellbook-stop-time-desc =
-    This spell stops time for everyone except for you and whoever learned this spell, allowing you and your guardian to move freely while your enemies and even projectiles are frozen.
-    Requires wizard's robe and hat to cast.
+    Ce sort arrête le temps pour tout le monde sauf vous et celui qui a appris ce sort, vous permettant à vous et votre gardien de bouger librement pendant que vos ennemis et même les projectiles sont gelés.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-corpse-explosion-name = Corpse Explosion
+spellbook-corpse-explosion-name = Explosion de Cadavre
 spellbook-corpse-explosion-desc =
-    Fills a corpse with energy, causing it to explode violently. Knocks down people and stuns silicons. It applies up to 100 brute damage to others surrounding the corpse; the damage lowering further out someone is. Wizard is immune to the effects of the explosion.
-    Doesn't require wizard's robe and hat to cast.
+    Remplit un cadavre d'énergie, le faisant exploser violemment. Renverse les gens et étourdit les siliciums. Inflige jusqu'à 100 dégâts bruts aux autres autour du cadavre ; les dégâts diminuant plus on s'éloigne. Le sorcier est immunisé aux effets de l'explosion.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-blind-name = Blind
+spellbook-blind-name = Aveuglement
 spellbook-blind-desc =
-    This spell temporarily blinds a single target.
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort aveugle temporairement une seule cible.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-bind-soul-name = Bind Soul
+spellbook-bind-soul-name = Lier l'Âme
 spellbook-bind-soul-desc =
-    A spell that binds your soul to an item in your hands. Binding your soul to an item will turn you into an immortal Lich. So long as the item remains intact and is on the same plane as your dead body, you will revive from death, no matter the circumstances.
-    If the item is on another grid or in space when you die, it itself or it's containing container (if any) will reappear somewhere on your dead body's grid or on the station if your body is not on any grid.
-    You can't bind soul while in silicon form.
-    Cannot be refunded.
-    Doesn't require wizard's robe and hat to cast.
+    Un sort qui lie votre âme à un objet dans vos mains. Lier votre âme à un objet vous transformera en Liche immortel. Tant que l'objet reste intact et sur le même plan que votre corps mort, vous ressusciterez de la mort, quelles que soient les circonstances.
+    Si l'objet est sur une autre grille ou dans l'espace quand vous mourez, lui-même ou son conteneur (s'il y en a un) réapparaîtra quelque part sur la grille de votre corps mort ou sur la station si votre corps n'est sur aucune grille.
+    Vous ne pouvez pas lier l'âme sous forme silicium.
+    Ne peut être remboursé.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-mutate-name = Mutate
+spellbook-mutate-name = Muter
 spellbook-mutate-desc =
-    Temporarily transforms you into a stun-immune hulk, capable of destroying walls with their massive strength and of shooting lasers using their massive minds.
-    Doesn't work in silicon form.
-    Requires wizard's robe and hat to cast.
+    Vous transforme temporairement en Hulk immunisé aux étourdissements, capable de détruire des murs avec sa force massive et de tirer des lasers avec son esprit massif.
+    Ne fonctionne pas sous forme silicium.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-tesla-blast-name = Tesla Blast
+spellbook-tesla-blast-name = Explosion Tesla
 spellbook-tesla-blast-desc =
-    Charge up a tesla arc and release it at random nearby targets! You can move freely while it charges. The arc jumps between targets and stuns them. Ignores insulation. You are immune to your own lightning.
-    Activate the spell again while it is charging to release the tesla blast, its power scales with charge time.
-    If it fully charges up, you'll lose control of the bolt and the spell will do nothing.
-    Requires wizard's robe and hat to cast.
+    Chargez un arc tesla et libérez-le sur des cibles proches aléatoires ! Vous pouvez bouger librement pendant la charge. L'arc saute entre les cibles et les étourdit. Ignore l'isolation. Vous êtes immunisé à votre propre foudre.
+    Activez le sort à nouveau pendant qu'il charge pour libérer l'explosion tesla, sa puissance dépend du temps de charge.
+    S'il charge complètement, vous perdrez le contrôle de l'éclair et le sort ne fera rien.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-lightning-bolt-name = Lightning Bolt
+spellbook-lightning-bolt-name = Éclair
 spellbook-lightning-bolt-desc =
-    Fire a lightning bolt at your foes! Ignores insulation, but can't stun. You are immune to your own lightning.
-    Doesn't require wizard's robe and hat to cast.
+    Tirez un éclair sur vos ennemis ! Ignore l'isolation, mais ne peut pas étourdir. Vous êtes immunisé à votre propre foudre.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-homing-toolbox-name = Homing Toolbox
+spellbook-homing-toolbox-name = Boîte à Outils à Tête Chercheuse
 spellbook-homing-toolbox-desc =
-    This spell summons and throws a magical homing toolbox at your opponent that knocks down on hit.
-    Learning this spell allows you to get a tider wizard bundle for free!
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort invoque et lance une boîte à outils magique à tête chercheuse sur votre adversaire qui le renverse au contact.
+    Apprendre ce sort vous permet d'obtenir un pack sorcier tider gratuitement !
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-spell-cards-name = Spell Cards
+spellbook-spell-cards-name = Cartes Magiques
 spellbook-spell-cards-desc =
-    Blazing hot rapid-fire homing cards. Send your foes to the shadow realm with their mystical power!
-    Doesn't require wizard's robe and hat to cast.
+    Cartes à tir rapide flamboyantes à tête chercheuse. Envoyez vos ennemis dans le royaume des ombres avec leur pouvoir mystique !
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-arcane-barrage-name = Arcane Barrage
+spellbook-arcane-barrage-name = Salve Arcanique
 spellbook-arcane-barrage-desc =
-    Fire a torrent of arcane energy at your foes with this powerful spell. Shoots faster than Lesser Summon Guns, but won't stun targets. The spell is more effective when both of your hands are free.
-    Learning this spell makes you unable to learn Lesser Summon Guns.
-    Requires wizard's robe and hat to cast.
+    Déchaînez un torrent d'énergie arcanique sur vos ennemis avec ce sort puissant. Tire plus vite que l'Invocation Mineure d'Armes, mais n'étourdira pas les cibles. Le sort est plus efficace quand vos deux mains sont libres.
+    Apprendre ce sort vous empêche d'apprendre l'Invocation Mineure d'Armes.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-lesser-summon-guns-name = Lesser Summon Guns
+spellbook-lesser-summon-guns-name = Invocation Mineure d'Armes
 spellbook-lesser-summon-guns-desc =
-    Why reload when you have infinite guns? Summons an unending stream of bolt action rifles that deal little damage, but will stun targets. The spell is more effective when both of your hands are free.
-    Learning this spell makes you unable to learn Arcane Barrage.
-    Requires wizard's robe and hat to cast.
+    Pourquoi recharger quand vous avez des armes infinies ? Invoque un flux sans fin de fusils à verrou qui infligent peu de dégâts, mais étourdissent les cibles. Le sort est plus efficace quand vos deux mains sont libres.
+    Apprendre ce sort vous empêche d'apprendre la Salve Arcanique.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-barnyard-name = Curse of the Barnyard
+spellbook-barnyard-name = Malédiction de la Basse-Cour
 spellbook-barnyard-desc =
-    This spell dooms an unlucky soul to possess the speech and facial attributes of a barnyard animal.
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort condamne une âme malchanceuse à posséder la parole et les attributs faciaux d'un animal de basse-cour.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-scream-for-me-name = Scream For Me
+spellbook-scream-for-me-name = Crie Pour Moi
 spellbook-scream-for-me-desc =
-    Sadistic sanguine spell that spills all victim's blood, causing them to die within seconds.
-    Requires wizard's robe and hat to cast.
+    Sort sanguin sadique qui fait couler tout le sang des victimes, les faisant mourir en quelques secondes.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-instant-summons-name = Instant Summons
+spellbook-instant-summons-name = Invocation Instantanée
 spellbook-instant-summons-desc =
-    This spell can be used to recall a previously marked item to your hand from anywhere in the universe.
-    Activate the spell while holding an item in your hands to mark it. Activate it again to recall the item to an empty hand. You can mark another item, this will remove the old mark.
-    If the marked item is in container, the entire container will be summoned.
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort permet de rappeler un objet précédemment marqué dans votre main depuis n'importe où dans l'univers.
+    Activez le sort en tenant un objet pour le marquer. Activez-le à nouveau pour le rappeler dans une main vide. Vous pouvez marquer un autre objet, ceci supprimera l'ancien marquage.
+    Si l'objet marqué est dans un conteneur, le conteneur entier sera invoqué.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-teleport-name = Teleport
+spellbook-teleport-name = Téléportation
 spellbook-teleport-desc =
-    Teleports you to an area of your selection.
-    Requires wizard's robe and hat to cast.
+    Vous téléporte vers une zone de votre choix.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-the-traps-name = The Traps!
+spellbook-the-traps-name = Les Pièges !
 spellbook-the-traps-desc =
-    Summon a number of traps around you. They will damage and enrage any enemies that step on them. You are immune to your own traps.
-    Requires wizard's robe and hat to cast.
+    Invoque un certain nombre de pièges autour de vous. Ils endommageront et enrageront les ennemis qui marcheront dessus. Vous êtes immunisé à vos propres pièges.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-bees-name = Lesser Summon Bees
+spellbook-bees-name = Invocation Mineure d'Abeilles
 spellbook-bees-desc =
-    This spell magically kicks a transdimensional beehive, instantly summoning a swarm of bees to your location. These bees are not friendly to anyone except wizards. Summoned bees inject various toxins into their victims.
-    Requires wizard's robe and hat to cast.
+    Ce sort donne magiquement un coup de pied à une ruche transdimensionnelle, invoquant instantanément un essaim d'abeilles à votre emplacement. Ces abeilles ne sont amicales envers personne sauf les sorciers. Les abeilles invoquées injectent diverses toxines à leurs victimes.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-simians-name = Summon Simians
+spellbook-simians-name = Invocation de Simiens
 spellbook-simians-desc =
-    This spell reaches deep into the elemental plane of bananas (the monkey one, not the clown one), and summons lesser monkeys and gorillas in front of you that will promptly flip out and attack everything in sight. Fun! The monkeys are not friendly to anyone except wizards.
-    Upgrading this spell also increases summonned monkey amount, and their gear gets stronger as well!
-    Cannot be refunded once fully upgraded.
-    Requires wizard's robe and hat to cast.
+    Ce sort plonge profondément dans le plan élémentaire des bananes (celle des singes, pas celle des clowns), et invoque des singes inférieurs et des gorilles devant vous qui s'enragent aussitôt et attaquent tout en vue. Amusant ! Les singes ne sont amicaux envers personne sauf les sorciers.
+    Améliorer ce sort augmente aussi le nombre de singes invoqués, et leur équipement devient plus fort !
+    Ne peut être remboursé une fois pleinement amélioré.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-sanguine-strike-name = Exsanguinating Strike
+spellbook-sanguine-strike-name = Frappe Exsanguinante
 spellbook-sanguine-strike-desc =
-    Sanguine spell that enchants your next weapon strike to deal more damage, heal you for damage dealt, and refill blood.
-    Damage dealt is either double damage, or +20 damage, whichever is less.
-    Requires wizard's robe and hat to cast.
+    Sort sanguin qui enchante votre prochaine frappe d'arme pour infliger plus de dégâts, vous soigner des dégâts infligés, et remplir le sang.
+    Dégâts infligés soit le double, soit +20 dégâts, le moindre des deux.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-chuuni-name = Chuuni Invocations
+spellbook-chuuni-name = Invocations Chuuni
 spellbook-chuuni-desc =
-    Replaces your wizard hat (if you have one) with an unremovable medical eyepatch, which still allows you to cast spells requiring a robe.
-    Makes all your spells shout invocations, and the invocations become... stupid. You heal slightly after casting a spell with a delay of 5 seconds.
-    Cannot be refunded.
-    Doesn't require wizard's robe and hat to cast.
+    Remplace votre chapeau de sorcier (si vous en avez un) par un cache-œil médical inamovible, qui permet toujours de lancer les sorts nécessitant une robe.
+    Fait que tous vos hurlent des invocations, et ces invocations deviennent... stupides. Vous soignez légèrement après avoir lancé un sort avec un délai de 5 secondes.
+    Ne peut être remboursé.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-swap-name = Swap
+spellbook-swap-name = Échange
 spellbook-swap-desc =
-    Switch places with any living target.
-    Alt-click: Mark a secondary swap target, in which case you'll go to the position occupied by your primary target, they'll go to the one occupied by your secondary, and your secondary target will end up where you originally were. The secondary swap target will be discarded once you swap, cancel the action or alt-click yourself.
-    Doesn't require wizard's robe and hat to cast.
+    Échangez de place avec n'importe quelle cible vivante.
+    Alt-clic : Marquez une cible d'échange secondaire, auquel cas vous irez à la position occupée par votre cible primaire, elle ira à celle occupée par votre secondaire, et votre cible secondaire finira où vous étiez à l'origine. La cible d'échange secondaire sera annulée une fois l'échange fait, l'action annulée ou alt-clic sur vous-même.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-soul-tap-name = Soul Tap
+spellbook-soul-tap-name = Ponction d'Âme
 spellbook-soul-tap-desc =
-    Taps your soul. Trades 20 max health for a refresh of all of your spells. Does not work if you have no soul, from formerly using Bind Soul.
-    Requires wizard's robe and hat to cast.
+    Puise dans votre âme. Échange 20 PV max pour un rafraîchissement de tous vos sorts. Ne fonctionne pas si vous n'avez pas d'âme, suite à l'utilisation de Lier l'Âme.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-thrown-lightning-name = Thrown Lightning
+spellbook-thrown-lightning-name = Éclair Lancé
 spellbook-thrown-lightning-desc =
-    Forged from eldritch energies, a packet of pure power, known as a spell packet will appear in your hand, that when thrown will paralyze your target.
-    Doesn't require wizard's robe and hat to cast.
+    Forgé à partir d'énergies eldritch, un paquet de puissance pure, connu comme paquet de sort, apparaîtra dans votre main, qui paralysera votre cible quand lancé.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-knock-name = Knock
+spellbook-knock-name = Frappe
 spellbook-knock-desc =
-    This spell opens nearby doors and lockers.
-    Doesn't require wizard's robe and hat to cast.
+    Ce sort ouvre les portes et casiers proches.
+    Ne nécessite pas la robe et le chapeau de sorcier pour lancer.
 
-spellbook-smite-name = Smite
+spellbook-smite-name = Frappe Divine
 spellbook-smite-desc =
-    This spell charges your hand with an unholy energy that can be used to cause a touched victim to violently explode.
-    Requires wizard's robe and hat to cast.
+    Ce sort charge votre main d'une énergie impie qui peut être utilisée pour faire exploser violemment une victime touchée.
+    Nécessite la robe et le chapeau de sorcier pour lancer.
 
-spellbook-rathen-name = Rathen's Secret
+spellbook-rathen-name = Secret de Rathen
 spellbook-rathen-desc =
-    Summons a powerful shockwave around you that knocks everyone down, forcing them to defecate their appendix.
-    if your victim has already lost their appendix they instead take 10 brute with a high chance of tearing off their other external limbs.
-    Requires wizard's robe and hat to cast.
+    Invoque une puissante onde de choc autour de vous qui renverse tout le monde, les forçant à éjecter leur appendice.
+    Si votre victime a déjà perdu son appendice elle subit à la place 10 brute avec une forte chance d'arracher ses autres membres externes.
+    Nécessite la robe et le chapeau de sorcier pour lancer.

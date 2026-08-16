@@ -1,17 +1,17 @@
-marking-MakeupLips-lips = Lips
-marking-MakeupLips = Lips
+marking-MakeupLips-lips = Lèvres
+marking-MakeupLips = Lèvres
 
-marking-MakeupBlush-blush = Blush
-marking-MakeupBlush = Blush
+marking-MakeupBlush-blush = Fard à joues
+marking-MakeupBlush = Fard à joues
 
-marking-MakeupNailPolishLeft-nail_polish_l = Left Nail Polish
-marking-MakeupNailPolishLeft = Left Nail Polish
+marking-MakeupNailPolishLeft-nail_polish_l = Vernis à ongles gauche
+marking-MakeupNailPolishLeft = Vernis à ongles gauche
 
-marking-MakeupNailPolishRight-nail_polish_r = Right Nail Polish
-marking-MakeupNailPolishRight = Right Nail Polish
+marking-MakeupNailPolishRight-nail_polish_r = Vernis à ongles droit
+marking-MakeupNailPolishRight = Vernis à ongles droit
 
-marking-MakeupMothBlush-moth_blush = Moth Blush
-marking-MakeupMothBlush = Moth Blush
+marking-MakeupMothBlush-moth_blush = Fard à joues de phalène
+marking-MakeupMothBlush = Fard à joues de phalène
 
-marking-MakeupMothLips-moth_lips = Moth Lipstick
-marking-MakeupMothLips = Moth Lipstick
+marking-MakeupMothLips-moth_lips = Rouge à lèvres de phalène
+marking-MakeupMothLips = Rouge à lèvres de phalène

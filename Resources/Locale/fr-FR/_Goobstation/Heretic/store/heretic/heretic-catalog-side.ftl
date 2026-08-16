@@ -23,115 +23,115 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-side-knowledge-name = Ritual of Knowledge
+knowledge-path-side-knowledge-name = Rituel de la Connaissance
 knowledge-path-side-knowledge-desc =
-    Everything can be a key to unlocking the secrets behind the Gates. I must be wary and wise.
+    Tout peut être une clé pour déverrouiller les secrets derrière les Portes. Je dois être prudent et sage.
 
-    You learn a special, one-time-only ritual that requires 4 different items. Performing this ritual instantly grants you 5 knowledge points.
+    Vous apprenez un rituel spécial, utilisable une seule fois, qui nécessite 4 objets différents. Effectuer ce rituel vous accorde instantanément 5 points de connaissance.
 
 ## stage 3
-knowledge-path-side-s3-armor-name = Armorer’s Ritual
+knowledge-path-side-s3-armor-name = Rituel de l'Armurier
 knowledge-path-side-s3-armor-desc =
-    The Rusted Hills welcomed the Blacksmith in their generosity. And the Blacksmith returned their generosity in kind.
+    Les Collines Rouillées accueillirent le Forgeron dans leur générosité. Et le Forgeron leur rendit leur générosité en retour.
 
-    Allows you to transmute a table and a gas mask to create Eldritch Armor.
-    Eldritch Armor provides great protection while also acting as a focus when hooded.
+    Vous permet de transmutuer une table et un masque à gaz pour créer une Armure Indicible.
+    L'Armure Indicible offre une grande protection tout en agissant comme un focus quand la capuche est levée.
 
-knowledge-path-side-s3-flask-name = Priest's Ritual
+knowledge-path-side-s3-flask-name = Rituel du Prêtre
 knowledge-path-side-s3-flask-desc =
-    This is an old recipe. The Owl whispered it to me. Created by the Priest - the Liquid that both was and is not.
+    C'est une vieille recette. Le Hibou me l'a chuchotée. Créée par le Prêtre - le Liquide qui à la fois était et n'est pas.
 
-    Allows you to transmute a tank of water and a glass shard into a Flask of Eldritch Essence.
-    Eldritch water can be consumed for potent healing.
+    Vous permet de transmutuer un réservoir d'eau et un éclat de verre en Fiole d'Essence Indicible.
+    L'eau indicible peut être consommée pour un soin puissant.
 
-knowledge-path-side-s3-ashen-eyes-name = Ashen Eyes
+knowledge-path-side-s3-ashen-eyes-name = Yeux Cendrés
 knowledge-path-side-s3-ashen-eyes-desc =
-    Piercing eyes guided them through the mundane. Neither darkness nor terror could stop them.
+    Des yeux perçants les guida à travers le mondain. Ni l'obscurité ni la terreur ne pouvaient les arrêter.
 
-    Allows you to transmute a pair of eyes, a flare, and a glass shard into an Eldritch Medallion.
-    The Eldritch Medallion grants you thermal vision while worn, and also functions as a focus.
+    Vous permet de transmutuer une paire d'yeux, une fusée éclairante et un éclat de verre en Médaillon Indicible.
+    Le Médaillon Indicible vous accorde la vision thermique quand porté, et fonctionne également comme un focus.
 
-knowledge-path-side-s3-void-cloak-name = Void Cloak
+knowledge-path-side-s3-void-cloak-name = Manteau du Vide
 knowledge-path-side-s3-void-cloak-desc =
-    The Owl is the keeper of things that are not quite in practice, but in theory are. Many things are.
+    Le Hibou est le gardien des choses pas tout à fait en pratique, mais qui le sont en théorie. Beaucoup de choses le sont.
 
-    Allows you to transmute a glass shard, a bedsheet, and any winter coat to create a Void Cloak.
-    While the hood is down, the cloak functions as a focus and provides low pressure and low temperature protection, and while the hood is up, the cloak is completely invisible.
-    It also provide decent armor and has pockets which can hold one of your blades, various ritual components (such as organs), and small heretical trinkets.
+    Vous permet de transmutuer un éclat de verre, un drap de lit et n'importe quel manteau d'hiver pour créer un Manteau du Vide.
+    Quand la capuche est baissée, le manteau fonctionne comme un focus et offre une protection contre la basse pression et la basse température, et quand la capuche est levée, le manteau est complètement invisible.
+    Il offre aussi une armure décente et a des poches qui peuvent contenir une de vos lames, divers composants de rituel (comme des organes), et de petits bibelots hérétiques.
 
-knowledge-path-side-s3-shark-name = Scorching Shark
+knowledge-path-side-s3-shark-name = Requin Embrasé
 knowledge-path-side-s3-shark-desc =
-    The cradle of the nebula was cold, but not dead. Light and heat flits even through the deepest darkness, and is hunted by its own predators.
+    Le berceau de la nébuleuse était froid, mais pas mort. La lumière et la chaleur vacillent même dans les ténèbres les plus profondes, et sont chassées par leurs propres prédateurs.
 
-    Allows you to transmute 3 pools of ash, a liver, and 3 sheets of plasma into 3 Fire Sharks.
-    Fire Sharks are fast and strong in groups, but die quickly. They are also highly resistant against fire attacks.
-    Fire Sharks ignite their victims and drop plasma sheet once they die.
-    You can only create 15 at a time.
+    Vous permet de transmutuer 3 mares de cendres, un foie, et 3 feuilles de plasma en 3 Requins de Feu.
+    Les Requins de Feu sont rapides et forts en groupe, mais meurent vite. Ils sont aussi hautement résistants aux attaques de feu.
+    Les Requins de Feu enflamment leurs victimes et laissent une feuille de plasma à leur mort.
+    Vous ne pouvez en créer que 15 à la fois.
 
-knowledge-path-side-s6-ice-spear-name = Mysteries of Creation
+knowledge-path-side-s6-ice-spear-name = Mystères de la Création
 knowledge-path-side-s6-ice-spear-desc =
-    Artifacts linked to the Winter Dawn exude unnatural stillness. Time slows around them. Fires choke. Thoughts become brittle. Proximity breeds hallucinations of endless white fields, a sky with no sun, and a voice that speaks only in cracking ice.
+    Les artéfacts liés à l'Aube Hivernale exhalent une immobilité surnaturelle. Le temps ralentit autour d'eux. Les feux s'étouffent. Les pensées deviennent fragiles. La proximité engendre des hallucinations de champs blancs infinis, un ciel sans soleil, et une voix qui ne parle qu'en glace craquante.
 
-    Grants you Mysteries of Creation, a spell that allows you to summon the Glacier Spear at will. This magical spear chills victims upon hit, but more importantly, it shatters upon throwing, dealing a significant amount of damage and temporarily freezing the target into an ice cube. If the spear is destroyed, activating this ability will create a new one, otherwise it will summon the existing spear into your hand.
+    Vous accorde Mystères de la Création, un sort qui vous permet d'invoquer la Lance du Glacier à volonté. Cette lance magique glace les victimes au toucher, mais plus important encore, elle se brise au lancer, infligeant des dégâts significatifs et gelant temporairement la cible en cube de glace. Si la lance est détruite, activer cette capacité en crée une nouvelle, sinon elle invoque la lance existante dans votre main.
 
 ## stage 6
-knowledge-path-side-s6-rustwalker-name = Rusted Ritual
+knowledge-path-side-s6-rustwalker-name = Rituel Rouillé
 knowledge-path-side-s6-rustwalker-desc =
-    I combined my knowledge of creation with my desire for corruption. The Marshal knew my name, and the Rusted Hills echoed out.
+    J'ai combiné ma connaissance de la création avec mon désir de corruption. Le Maréchal connaissait mon nom, et les Collines Rouillées répondirent en écho.
 
-    Allows you to transmute a pool of vomit, 15 cable coil, and 10 sheets of iron into a Rust Walker.
-    Rust Walkers excel at spreading rust and are moderately strong in combat.
+    Vous permet de transmutuer une mare de vomi, 15 bobines de câble, et 10 feuilles de fer en un Marcheur de Rouille.
+    Les Marcheurs de Rouille excellent à répandre la rouille et sont modérément forts au combat.
 
-knowledge-path-side-s6-knife-name = Carving Knife
+knowledge-path-side-s6-knife-name = Couteau à Sculpter
 knowledge-path-side-s6-knife-desc =
-    Etched, carved... eternal. There is power hidden in everything. I can unveil it! I can carve the monolith to reveal the chains!
+    Gravé, sculpté... éternel. Il y a un pouvoir caché en tout. Je peux le révéler ! Je peux sculpter le monolithe pour révéler les chaînes !
 
-    Allows you to transmute a knife, a shard of glass, and a piece of paper to create a Carving Knife.
-    The Carving Knife allows you to etch difficult to see traps that trigger on heathens who walk overhead.
-    Also makes for a handy throwing weapon.
+    Vous permet de transmutuer un couteau, un éclat de verre, et un morceau de papier pour créer un Couteau à Sculpter.
+    Le Couteau à Sculpter vous permet de graver des pièges difficiles à voir qui se déclenchent sur les infidèles qui marchent dessus.
+    Fait aussi une arme de jet pratique.
 
 ## stage 7
-knowledge-path-side-s7-uncuff-name = Wave of Desperation
+knowledge-path-side-s7-uncuff-name = Vague de Désespoir
 knowledge-path-side-s7-uncuff-desc =
-    My shackles undone in dark fury, their feeble bindings crumble before my power.
+    Mes chaînes défaites dans une fureur sombre, leurs liens fragiles s'effritèrent devant mon pouvoir.
 
-    Grants you Wave Of Desperation, a spell which can only be cast while restrained.
-    It removes your restraints, repels and knocks down adjacent people, and applies the Mansus Grasp to everything nearby.
-    However, you will fall unconscious a short time after casting this spell.
+    Vous accorde Vague de Désespoir, un sort qui ne peut être lancé qu'entravé.
+    Il retire vos entraves, repousse et renverse les gens adjacents, et applique l'Emprise du Mansus à tout ce qui est proche.
+    Cependant, vous tomberez inconscient peu de temps après avoir lancé ce sort.
 
-knowledge-path-side-s7-siphon-name = Blood Siphon
+knowledge-path-side-s7-siphon-name = Siphon de Sang
 knowledge-path-side-s7-siphon-desc =
-    No matter the man, we bleed all the same. That's what the Marshal told me.
+    Peu importe l'homme, nous saignons tous de la même façon. C'est ce que le Maréchal m'a dit.
 
-    Grants Blood Siphon, a ranged spell that steals a bit of life from your target, healing your bruises and restoring blood.
-    Additionally, you have a chance of transferring wounds you are experiencing to the target.
+    Vous accorde Siphon de Sang, un sort à distance qui vole un peu de vie à votre cible, soignant vos ecchymoses et restaurant votre sang.
+    De plus, vous avez une chance de transférer les blessures que vous subissez à la cible.
 
-knowledge-path-side-s7-crucible-name = Mawed Crucible
+knowledge-path-side-s7-crucible-name = Creuset Béant
 knowledge-path-side-s7-crucible-desc =
-    This is pure agony. I wasn't able to summon the figure of the Aristocrat,
-    but with the Priest's attention I stumbled upon a different recipe...
+    C'est une agonie pure. Je n'ai pas pu invoquer la figure de l'Aristocrate,
+    mais avec l'attention du Prêtre, je suis tombé sur une recette différente...
 
-    Allows you to transmute a portable water tank and a table to create a Mawed Crucible.
-    The Mawed Crucible can brew powerful potions for combat and utility, but must be fed bodyparts and organs between uses.
+    Vous permet de transmutuer un réservoir d'eau portable et une table pour créer un Creuset Béant.
+    Le Creuset Béant peut préparer de puissantes potions pour le combat et l'utilitaire, mais doit être nourri de parties du corps et d'organes entre les utilisations.
 
 # stage 8
-knowledge-path-side-s8-cleave-name = Blood Cleave
+knowledge-path-side-s8-cleave-name = Tranchée Sanglante
 knowledge-path-side-s8-cleave-desc =
-    At first I didn't understand these instruments of war, but the Priest told me to use them regardless. Soon, he said, I would know them well.
+    Au début je ne comprenais pas ces instruments de guerre, mais le Prêtre me dit de les utiliser quand même. Bientôt, dit-il, je les connaîtrais bien.
 
-    Grants you Cleave, an area-of-effect targeted spell that causes heavy bleeding and blood loss to anyone afflicted.
+    Vous accorde Tranchée, un sort ciblé à zone d'effet qui cause de lourdes hémorragies et pertes de sang à quiconque en est affecté.
 
 ## stage 9
-knowledge-path-side-s9-coin-name = Eldritch Coin
+knowledge-path-side-s9-coin-name = Pièce Indicible
 knowledge-path-side-s9-coin-desc =
-    The Mansus is a place of all sorts of sins. But greed held a special role.
+    Le Mansus est un lieu de toutes sortes de péchés. Mais la cupidité y tint un rôle particulier.
 
-    Transmute a sheet of plasma, a diamond and eyes into an Eldritch Coin.
-    The coin will open nearby airlocks if it lands on heads and bolt nearby airlocks if it lands on tails.
-    Using it on an airlock consumes the coin and permanently opens the airlock.
-    Attempting to flip or use the coin as a non-heretic will deal brute and/or burn damage, depending on the side it lands on.
+    Transmutez une feuille de plasma, un diamant et des yeux en Pièce Indicible.
+    La pièce ouvrira les portes étanches proches si elle tombe sur face et les verrouillera si elle tombe sur pile.
+    L'utiliser sur une porte étanche consomme la pièce et ouvre la porte étanche de façon permanente.
+    Tenter de la lancer ou de l'utiliser comme non-hérétique infligera des dégâts contondants et/ou de brûlure, selon le côté sur lequel elle tombe.
 
-knowledge-path-side-s9-ashman-name = Ashen Ritual
+knowledge-path-side-s9-ashman-name = Rituel Cendré
 knowledge-path-side-s9-ashman-desc =
-    Transmute a pile of ash, a brain and a book to summon an Ashman.
-    Ashmen can jaunt, cause bleeding wounds, and can release large waves of fire.
+    Transmutez une pile de cendres, un cerveau et un livre pour invoquer un Homme-Cendre.
+    Les Hommes-Cendres peuvent bondir, causer des blessures saignantes, et libérer de grandes vagues de feu.

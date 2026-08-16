@@ -1,92 +1,92 @@
 marking-FaceBindi = Bindi
 marking-FaceBindi-bindi = Bindi
 
-marking-FaceFullblush = Full Blush
-marking-FaceFullblush-fullblush = Full Blush
+marking-FaceFullblush = Rougeur Complète
+marking-FaceFullblush-fullblush = Rougeur Complète
 
-marking-FaceCheekspotRight = Cheek Spot (Right)
-marking-FaceCheekspotRight-cheekspot_r = Cheek Spot (Right)
+marking-FaceCheekspotRight = Tache Joues (Droit)
+marking-FaceCheekspotRight-cheekspot_r = Tache Joues (Droit)
 
-marking-FaceCheekspotLeft = Cheek Spot (Left)
-marking-FaceCheekspotLeft-cheekspot_l = Cheek Spot (Left)
+marking-FaceCheekspotLeft = Tache Joues (Gauche)
+marking-FaceCheekspotLeft-cheekspot_l = Tache Joues (Gauche)
 
-marking-FaceChesireRight = Chesire Grin (Right)
-marking-FaceChesireRight-chesire_r = Chesire Grin (Right)
+marking-FaceChesireRight = Sourire Cheshire (Droit)
+marking-FaceChesireRight-chesire_r = Sourire Cheshire (Droit)
 
-marking-FaceChesireLeft = Chesire Grin (Left)
-marking-FaceChesireLeft-chesire_l = Chesire Grin (Left)
+marking-FaceChesireLeft = Sourire Cheshire (Gauche)
+marking-FaceChesireLeft-chesire_l = Sourire Cheshire (Gauche)
 
-marking-FaceCrowRight = Crow's Feet (Right)
-marking-FaceCrowRight-crow_r = Crow's Feet (Right)
+marking-FaceCrowRight = Pattes d'oie (Droit)
+marking-FaceCrowRight-crow_r = Pattes d'oie (Droit)
 
-marking-FaceCrowLeft = Crow's Feet (Left)
-marking-FaceCrowLeft-crow_l = Crow's Feet (Left)
+marking-FaceCrowLeft = Pattes d'oie (Gauche)
+marking-FaceCrowLeft-crow_l = Pattes d'oie (Gauche)
 
-marking-FaceEarRight = Ear Cover (Right)
-marking-FaceEarRight-ear_r = Ear Cover (Right)
+marking-FaceEarRight = Cache-oreille (Droit)
+marking-FaceEarRight-ear_r = Cache-oreille (Droit)
 
-marking-FaceEarLeft = Ear Cover (Left)
-marking-FaceEarLeft-ear_l = Ear Cover (Left)
+marking-FaceEarLeft = Cache-oreille (Gauche)
+marking-FaceEarLeft-ear_l = Cache-oreille (Gauche)
 
-marking-FaceEyebrowRight = Eyebrow (Right)
-marking-FaceEyebrowRight-eyebrow_r = Eyebrow (Right)
+marking-FaceEyebrowRight = Sourcil (Droit)
+marking-FaceEyebrowRight-eyebrow_r = Sourcil (Droit)
 
-marking-FaceEyebrowLeft = Eyebrow (Left)
-marking-FaceEyebrowLeft-eyebrow_l = Eyebrow (Left)
+marking-FaceEyebrowLeft = Sourcil (Gauche)
+marking-FaceEyebrowLeft-eyebrow_l = Sourcil (Gauche)
 
-marking-FaceEyebrows = Eyebrows
-marking-FaceEyebrows-eyebrows = Eyebrows
+marking-FaceEyebrows = Sourcils
+marking-FaceEyebrows-eyebrows = Sourcils
 
-marking-FaceEyecornerRight = Eye Corner (Right)
-marking-FaceEyecornerRight-eyecorner_r = Eye Corner (Right)
+marking-FaceEyecornerRight = Coin Œil (Droit)
+marking-FaceEyecornerRight-eyecorner_r = Coin Œil (Droit)
 
-marking-FaceEyecornerLeft = Eye Corner (Left)
-marking-FaceEyecornerLeft-eyecorner_l = Eye Corner (Left)
+marking-FaceEyecornerLeft = Coin Œil (Gauche)
+marking-FaceEyecornerLeft-eyecorner_l = Coin Œil (Gauche)
 
-marking-FaceEyelashRight = Eyelash (Right)
-marking-FaceEyelashRight-eyelash_r = Eyelash (Right)
+marking-FaceEyelashRight = Cil (Droit)
+marking-FaceEyelashRight-eyelash_r = Cil (Droit)
 
-marking-FaceEyelashLeft = Eyelash (Left)
-marking-FaceEyelashLeft-eyelash_l = Eyelash (Left)
+marking-FaceEyelashLeft = Cil (Gauche)
+marking-FaceEyelashLeft-eyelash_l = Cil (Gauche)
 
-marking-FaceEyestripe = Eye Stripe
-marking-FaceEyestripe-eyestripe = Eye Stripe
+marking-FaceEyestripe = Rayure Œil
+marking-FaceEyestripe-eyestripe = Rayure Œil
 
-marking-FaceLipcornerRight = Lip Corner (Right)
-marking-FaceLipcornerRight-lipcorner_r = Lip Corner (Right)
+marking-FaceLipcornerRight = Coin Lèvre (Droit)
+marking-FaceLipcornerRight-lipcorner_r = Coin Lèvre (Droit)
 
-marking-FaceLipcornerLeft = Lip Corner (Left)
-marking-FaceLipcornerLeft-lipcorner_l = Lip Corner (Left)
+marking-FaceLipcornerLeft = Coin Lèvre (Gauche)
+marking-FaceLipcornerLeft-lipcorner_l = Coin Lèvre (Gauche)
 
-marking-FaceGlabella = Glabella
-marking-FaceGlabella-blabella = Glabella
+marking-FaceGlabella = Glabelle
+marking-FaceGlabella-glabella = Glabelle
 
-marking-FaceLowercheekRight = Lower Cheek (Right)
-marking-FaceLowercheekRight-lowercheek_r = Lower Cheek (Right)
+marking-FaceLowercheekRight = Joues Basses (Droit)
+marking-FaceLowercheekRight-lowercheek_r = Joues Basses (Droit)
 
-marking-FaceLowercheekLeft = Lower Cheek (Left)
-marking-FaceLowercheekLeft-lowercheek_l = Lower Cheek (Left)
+marking-FaceLowercheekLeft = Joues Basses (Gauche)
+marking-FaceLowercheekLeft-lowercheek_l = Joues Basses (Gauche)
 
-marking-FaceNosetape = Nose Tape
-marking-FaceNosetape-nosetape = Nose Tape
+marking-FaceNosetape = Ruban Nez
+marking-FaceNosetape-nosetape = Ruban Nez
 
-marking-FaceNosetip = Nose Tip
-marking-FaceNosetip-nosetip = Nose Tip
+marking-FaceNosetip = Bout Nez
+marking-FaceNosetip-nosetip = Bout Nez
 
-marking-FaceNosestripe = Nose Stripe
-marking-FaceNosestripe-nosestripe = Nose Stripe
+marking-FaceNosestripe = Rayure Nez
+marking-FaceNosestripe-nosestripe = Rayure Nez
 
-marking-FaceUnibrow = Unibrow
-marking-FaceUnibrow-unibrow = Unibrow
+marking-FaceUnibrow = Monosourcil
+marking-FaceUnibrow-unibrow = Monosourcil
 
-marking-FaceNeckSlim = Neck Cover (Slim)
-marking-FaceNeckSlim-neck_f = Neck Cover (Slim)
+marking-FaceNeckSlim = Cache-cou (Fin)
+marking-FaceNeckSlim-neck_f = Cache-cou (Fin)
 
-marking-FaceNeckWide = Neck Cover (Wide)
-marking-FaceNeckWide-neck_m = Neck Cover (Wide)
+marking-FaceNeckWide = Cache-cou (Large)
+marking-FaceNeckWide-neck_m = Cache-cou (Large)
 
-marking-FaceNeckSlimThick = Neck Cover (Slim Thick)
-marking-FaceNeckSlimThick-neck_thick_f = Neck Cover (Slim Thick)
+marking-FaceNeckSlimThick = Cache-cou (Fin Épais)
+marking-FaceNeckSlimThick-neck_thick_f = Cache-cou (Fin Épais)
 
-marking-FaceNeckWideThick = Neck Cover (Wide Thick)
-marking-FaceNeckWideThick-neck_thick_m = Neck Cover (Wide Thick)
+marking-FaceNeckWideThick = Cache-cou (Large Épais)
+marking-FaceNeckWideThick-neck_thick_m = Cache-cou (Large Épais)

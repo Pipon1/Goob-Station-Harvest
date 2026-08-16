@@ -1,10 +1,10 @@
-criminal-verb-name = Set wanted status
-criminal-verb-UI-name = Wanted Menu
-criminal-job-error = No job detected in criminal records
-criminal-name-error = No name detected in criminal records
+criminal-verb-name = Définir le statut de recherche
+criminal-verb-UI-name = Menu de recherche
+criminal-job-error = Aucun rôle détecté dans les dossiers criminels
+criminal-name-error = Aucun nom détecté dans les dossiers criminels
 
-criminal-records-status-demote = Demote
-criminal-records-console-demote-reason = Demote Reason
+criminal-records-status-demote = Rétrograder
+criminal-records-console-demote-reason = Raison de la rétrogradation
 
-criminal-records-console-demote = {$name} ({$job}) has been marked with demotion because of: {$reason}.
-criminal-records-console-not-demoted = {$name} ({$job}) is no longer marked with demotion.
+criminal-records-console-demote = {$name} ({$job}) a été marqué pour rétrogradation à cause de : {$reason}.
+criminal-records-console-not-demoted = {$name} ({$job}) n'est plus marqué pour rétrogradation.

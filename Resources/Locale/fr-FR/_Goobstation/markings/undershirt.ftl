@@ -1,29 +1,29 @@
-marking-UndershirtDefault-undershirt = Undershirt
-marking-UndershirtDefault = Undershirt (Default)
+marking-UndershirtDefault-undershirt = Sous-pull
+marking-UndershirtDefault = Sous-pull (Défaut)
 
-marking-UndershirtRolled-rolled_undershirt = Undershirt
-marking-UndershirtRolled = Undershirt (Rolled)
+marking-UndershirtRolled-rolled_undershirt = Sous-pull
+marking-UndershirtRolled = Sous-pull (Roulé)
 
-marking-UndershirtSleeveless-sleeveless = Tanktop
-marking-UndershirtSleeveless = Tanktop
+marking-UndershirtSleeveless-sleeveless = Débardeur
+marking-UndershirtSleeveless = Débardeur
 
-marking-UndershirtGrossSleeveless-gross_sleeveless = Tanktop
-marking-UndershirtGrossSleeveless = Tanktop (Gross)
+marking-UndershirtGrossSleeveless-gross_sleeveless = Débardeur
+marking-UndershirtGrossSleeveless = Débardeur (Sale)
 
-marking-UndershirtRolledSleeveless-rolled_undershirt_sleeveless = Tanktop
-marking-UndershirtRolledSleeveless = Tanktop (Rolled)
+marking-UndershirtRolledSleeveless-rolled_undershirt_sleeveless = Débardeur
+marking-UndershirtRolledSleeveless = Débardeur (Roulé)
 
-marking-UndershirtNanotrasen-nanotrasen = Undershirt
-marking-UndershirtNanotrasen = Undershirt (Nanotrasen)
+marking-UndershirtNanotrasen-nanotrasen = Sous-pull
+marking-UndershirtNanotrasen = Sous-pull (Nanotrasen)
 
 marking-UndershirtBinder-binder = Binder
 marking-UndershirtBinder = Binder
 
-marking-UndershirtBraClassic-classic = Bra
-marking-UndershirtBraClassic = Bra (Classic)
+marking-UndershirtBraClassic-classic = Soutien-gorge
+marking-UndershirtBraClassic = Soutien-gorge (Classique)
 
-marking-UndershirtBraSports-sports = Bra
-marking-UndershirtBraSports = Bra (Sports)
+marking-UndershirtBraSports-sports = Soutien-gorge
+marking-UndershirtBraSports = Soutien-gorge (Sport)
 
-marking-UndershirtBraStrapless-strapless = Bra
-marking-UndershirtBraStrapless = Bra (Strapless)
+marking-UndershirtBraStrapless-strapless = Soutien-gorge
+marking-UndershirtBraStrapless = Soutien-gorge (Sans Bretelles)

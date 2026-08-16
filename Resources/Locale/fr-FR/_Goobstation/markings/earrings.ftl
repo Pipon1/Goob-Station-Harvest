@@ -1,133 +1,133 @@
-marking-EarringsStudLeft = Stud Earrings (Left)
-marking-EarringsStudLeft-stud_l = Stud Earrings (Left)
+marking-EarringsStudLeft = Boucles Puces (Gauche)
+marking-EarringsStudLeft-stud_l = Boucles Puces (Gauche)
 
-marking-EarringsStudRight = Stud Earrings (Right)
-marking-EarringsStudRight-stud_r = Stud Earrings (Right)
+marking-EarringsStudRight = Boucles Puces (Droit)
+marking-EarringsStudRight-stud_r = Boucles Puces (Droit)
 
-marking-EarringsHeavyLeft = Heavy Earrings (Left)
-marking-EarringsHeavyLeft-heavy_l = Heavy Earrings (Left)
+marking-EarringsHeavyLeft = Boucles Lourdes (Gauche)
+marking-EarringsHeavyLeft-heavy_l = Boucles Lourdes (Gauche)
 
-marking-EarringsHeavyRight = Heavy Earrings (Right)
-marking-EarringsHeavyRight-heavy_r = Heavy Earrings (Right)
+marking-EarringsHeavyRight = Boucles Lourdes (Droit)
+marking-EarringsHeavyRight-heavy_r = Boucles Lourdes (Droit)
 
-marking-EarringsDropBasicLeft = Drop Earrings (Left)
-marking-EarringsDropBasicLeft-drop_l = Drop Earrings (Left)
+marking-EarringsDropBasicLeft = Boucles Pendantes (Gauche)
+marking-EarringsDropBasicLeft-drop_l = Boucles Pendantes (Gauche)
 
-marking-EarringsDropBasicRight = Drop Earrings (Right)
-marking-EarringsDropBasicRight-drop_r = Drop Earrings (Right)
+marking-EarringsDropBasicRight = Boucles Pendantes (Droit)
+marking-EarringsDropBasicRight-drop_r = Boucles Pendantes (Droit)
 
-marking-EarringsDropColoredLeft = Colored Drop Earrings (Left)
-marking-EarringsDropColoredLeft-drop_colored_tone_1_l = Material
-marking-EarringsDropColoredLeft-drop_colored_tone_2_l = Ornament
+marking-EarringsDropColoredLeft = Boucles Pendantes Colorées (Gauche)
+marking-EarringsDropColoredLeft-drop_colored_tone_1_l = Matériau
+marking-EarringsDropColoredLeft-drop_colored_tone_2_l = Ornement
 
-marking-EarringsDropColoredRight = Colored Drop Earrings (Right)
-marking-EarringsDropColoredRight-drop_colored_tone_1_r = Material
-marking-EarringsDropColoredRight-drop_colored_tone_2_r = Ornament
+marking-EarringsDropColoredRight = Boucles Pendantes Colorées (Droit)
+marking-EarringsDropColoredRight-drop_colored_tone_1_r = Matériau
+marking-EarringsDropColoredRight-drop_colored_tone_2_r = Ornement
 
-marking-EarringsDropLongLeft = Long Drop Earrings (Left)
-marking-EarringsDropLongLeft-drop_long_tone_1_l = Material
-marking-EarringsDropLongLeft-drop_long_tone_2_l = Ornament
+marking-EarringsDropLongLeft = Boucles Pendantes Longues (Gauche)
+marking-EarringsDropLongLeft-drop_long_tone_1_l = Matériau
+marking-EarringsDropLongLeft-drop_long_tone_2_l = Ornement
 
-marking-EarringsDropLongRight = Long Drop Earrings (Right)
-marking-EarringsDropLongRight-drop_long_tone_1_r = Material
-marking-EarringsDropLongRight-drop_long_tone_2_r = Ornament
+marking-EarringsDropLongRight = Boucles Pendantes Longues (Droit)
+marking-EarringsDropLongRight-drop_long_tone_1_r = Matériau
+marking-EarringsDropLongRight-drop_long_tone_2_r = Ornement
 
-marking-EarringsCrescentLeft = Crescent Earrings (Left)
-marking-EarringsCrescentLeft-crescent_l = Crescent Earrings (Left)
+marking-EarringsCrescentLeft = Boucles Croissant (Gauche)
+marking-EarringsCrescentLeft-crescent_l = Boucles Croissant (Gauche)
 
-marking-EarringsCrescentRight = Crescent Earrings (Right)
-marking-EarringsCrescentRight-crescent_r = Crescent Earrings (Right)
+marking-EarringsCrescentRight = Boucles Croissant (Droit)
+marking-EarringsCrescentRight-crescent_r = Boucles Croissant (Droit)
 
-marking-EarringsBangleLeft = Bangle Earrings (Left)
-marking-EarringsBangleLeft-bangle_l = Bangle Earrings (Left)
+marking-EarringsBangleLeft = Boucles Anneaux (Gauche)
+marking-EarringsBangleLeft-bangle_l = Boucles Anneaux (Gauche)
 
-marking-EarringsBangleRight = Bangle Earrings (Right)
-marking-EarringsBangleRight-bangle_r = Bangle Earrings (Right)
+marking-EarringsBangleRight = Boucles Anneaux (Droit)
+marking-EarringsBangleRight-bangle_r = Boucles Anneaux (Droit)
 
-marking-EarringsHoopBasicLeft = Hoop Earrings (Left)
-marking-EarringsHoopBasicLeft-hoop_l = Hoop Earrings (Left)
+marking-EarringsHoopBasicLeft = Boucles Créoles (Gauche)
+marking-EarringsHoopBasicLeft-hoop_l = Boucles Créoles (Gauche)
 
-marking-EarringsHoopBasicRight = Hoop Earrings (Right)
-marking-EarringsHoopBasicRight-hoop_r = Hoop Earrings (Right)
+marking-EarringsHoopBasicRight = Boucles Créoles (Droit)
+marking-EarringsHoopBasicRight-hoop_r = Boucles Créoles (Droit)
 
-marking-EarringsHoopMiniLeft = Mini Hoop Earrings (Left)
-marking-EarringsHoopMiniLeft-hoop_mini_l = Mini Hoop Earrings (Left)
+marking-EarringsHoopMiniLeft = Mini Créoles (Gauche)
+marking-EarringsHoopMiniLeft-hoop_mini_l = Mini Créoles (Gauche)
 
-marking-EarringsHoopMiniRight = Mini Hoop Earrings (Right)
-marking-EarringsHoopMiniRight-hoop_mini_r = Mini Hoop Earrings (Right)
+marking-EarringsHoopMiniRight = Mini Créoles (Droit)
+marking-EarringsHoopMiniRight-hoop_mini_r = Mini Créoles (Droit)
 
-marking-EarringsCrossBasicLeft = Cross Earrings (Left)
-marking-EarringsCrossBasicLeft-cross_l = Cross Earrings (Left)
+marking-EarringsCrossBasicLeft = Boucles Croix (Gauche)
+marking-EarringsCrossBasicLeft-cross_l = Boucles Croix (Gauche)
 
-marking-EarringsCrossBasicRight = Cross Earrings (Right)
-marking-EarringsCrossBasicRight-cross_r = Cross Earrings (Right)
+marking-EarringsCrossBasicRight = Boucles Croix (Droit)
+marking-EarringsCrossBasicRight-cross_r = Boucles Croix (Droit)
 
-marking-EarringsCrossSaintPeterLeft = St. Peter Cross Earrings (Left)
-marking-EarringsCrossSaintPeterLeft-cross_saint_peter_l = St. Peter Cross Earrings (Left)
+marking-EarringsCrossSaintPeterLeft = Boucles Croix de St-Pierre (Gauche)
+marking-EarringsCrossSaintPeterLeft-cross_saint_peter_l = Boucles Croix de St-Pierre (Gauche)
 
-marking-EarringsCrossSaintPeterRight = St. Peter Cross Earrings (Right)
-marking-EarringsCrossSaintPeterRight-cross_saint_peter_r = St. Peter Cross Earrings (Right)
+marking-EarringsCrossSaintPeterRight = Boucles Croix de St-Pierre (Droit)
+marking-EarringsCrossSaintPeterRight-cross_saint_peter_r = Boucles Croix de St-Pierre (Droit)
 
-marking-EarringsGemstoneBasicLeft = Gemstone Earrings (Left)
-marking-EarringsGemstoneBasicLeft-gemstone_tone_1_l = Material
-marking-EarringsGemstoneBasicLeft-gemstone_tone_2_l = Ornament
+marking-EarringsGemstoneBasicLeft = Boucles Pierre Gemme (Gauche)
+marking-EarringsGemstoneBasicLeft-gemstone_tone_1_l = Matériau
+marking-EarringsGemstoneBasicLeft-gemstone_tone_2_l = Ornement
 
-marking-EarringsGemstoneBasicRight = Gemstone Earrings (Right)
-marking-EarringsGemstoneBasicRight-gemstone_tone_1_r = Material
-marking-EarringsGemstoneBasicRight-gemstone_tone_2_r = Ornament
+marking-EarringsGemstoneBasicRight = Boucles Pierre Gemme (Droit)
+marking-EarringsGemstoneBasicRight-gemstone_tone_1_r = Matériau
+marking-EarringsGemstoneBasicRight-gemstone_tone_2_r = Ornement
 
-marking-EarringsGemstoneLongLeft = Long Gemstone Earrings (Left)
-marking-EarringsGemstoneLongLeft-gemstone_long_tone_1_l = Material
-marking-EarringsGemstoneLongLeft-gemstone_long_tone_2_l = Ornament
+marking-EarringsGemstoneLongLeft = Boucles Pierre Gemme Longues (Gauche)
+marking-EarringsGemstoneLongLeft-gemstone_long_tone_1_l = Matériau
+marking-EarringsGemstoneLongLeft-gemstone_long_tone_2_l = Ornement
 
-marking-EarringsGemstoneLongRight = Long Gemstone Earrings (Right)
-marking-EarringsGemstoneLongRight-gemstone_long_tone_1_r = Material
-marking-EarringsGemstoneLongRight-gemstone_long_tone_2_r = Ornament
+marking-EarringsGemstoneLongRight = Boucles Pierre Gemme Longues (Droit)
+marking-EarringsGemstoneLongRight-gemstone_long_tone_1_r = Matériau
+marking-EarringsGemstoneLongRight-gemstone_long_tone_2_r = Ornement
 
-marking-EarringsGemstoneDoubleLeft = Double Gemstone Earrings (Left)
-marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_1_l = Material
-marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_2_l = Upper Ornament
-marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_3_l = Lower Ornament
+marking-EarringsGemstoneDoubleLeft = Boucles Double Pierre Gemme (Gauche)
+marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_1_l = Matériau
+marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_2_l = Ornement Supérieur
+marking-EarringsGemstoneDoubleLeft-gemstone_double_tone_3_l = Ornement Inférieur
 
-marking-EarringsGemstoneDoubleRight = Double Gemstone Earrings (Right)
-marking-EarringsGemstoneDoubleRight-gemstone_double_tone_1_r = Material
-marking-EarringsGemstoneDoubleRight-gemstone_double_tone_2_r = Upper Ornament
-marking-EarringsGemstoneDoubleRight-gemstone_double_tone_3_r = Lower Ornament
+marking-EarringsGemstoneDoubleRight = Boucles Double Pierre Gemme (Droit)
+marking-EarringsGemstoneDoubleRight-gemstone_double_tone_1_r = Matériau
+marking-EarringsGemstoneDoubleRight-gemstone_double_tone_2_r = Ornement Supérieur
+marking-EarringsGemstoneDoubleRight-gemstone_double_tone_3_r = Ornement Inférieur
 
-marking-EarringsDangleBasicLeft = Dangle Earrings (Left)
-marking-EarringsDangleBasicLeft-dangle_tone_1_l = Material
-marking-EarringsDangleBasicLeft-dangle_tone_2_l = Ornament
+marking-EarringsDangleBasicLeft = Boucles Pendeloques (Gauche)
+marking-EarringsDangleBasicLeft-dangle_tone_1_l = Matériau
+marking-EarringsDangleBasicLeft-dangle_tone_2_l = Ornement
 
-marking-EarringsDangleBasicRight = Dangle Earrings (Right)
-marking-EarringsDangleBasicRight-dangle_tone_1_r = Material
-marking-EarringsDangleBasicRight-dangle_tone_2_r = Ornament
+marking-EarringsDangleBasicRight = Boucles Pendeloques (Droit)
+marking-EarringsDangleBasicRight-dangle_tone_1_r = Matériau
+marking-EarringsDangleBasicRight-dangle_tone_2_r = Ornement
 
-marking-EarringsDangleLongLeft = Long Dangle Earrings (Left)
-marking-EarringsDangleLongLeft-dangle_long_tone_1_l = Material
-marking-EarringsDangleLongLeft-dangle_long_tone_2_l = Ornament
+marking-EarringsDangleLongLeft = Boucles Pendeloques Longues (Gauche)
+marking-EarringsDangleLongLeft-dangle_long_tone_1_l = Matériau
+marking-EarringsDangleLongLeft-dangle_long_tone_2_l = Ornement
 
-marking-EarringsDangleLongRight = Long Dangle Earrings (Right)
-marking-EarringsDangleLongRight-dangle_long_tone_1_r = Material
-marking-EarringsDangleLongRight-dangle_long_tone_2_r = Ornament
+marking-EarringsDangleLongRight = Boucles Pendeloques Longues (Droit)
+marking-EarringsDangleLongRight-dangle_long_tone_1_r = Matériau
+marking-EarringsDangleLongRight-dangle_long_tone_2_r = Ornement
 
-marking-EarringsEightLeft = Eight Earrings (Left)
-marking-EarringsEightLeft-eight_l = Eight Earrings (Left)
+marking-EarringsEightLeft = Boucles 8 (Gauche)
+marking-EarringsEightLeft-eight_l = Boucles 8 (Gauche)
 
-marking-EarringsEightRight = Eight Earrings (Right)
-marking-EarringsEightRight-eight_r = Eight Earrings (Right)
+marking-EarringsEightRight = Boucles 8 (Droit)
+marking-EarringsEightRight-eight_r = Boucles 8 (Droit)
 
-marking-EarringsCrystalBasicLeft = Crystal Earrings (Left)
-marking-EarringsCrystalBasicLeft-crystal_tone_1_l = Material
-marking-EarringsCrystalBasicLeft-crystal_tone_2_l = Ornament
+marking-EarringsCrystalBasicLeft = Boucles Cristal (Gauche)
+marking-EarringsCrystalBasicLeft-crystal_tone_1_l = Matériau
+marking-EarringsCrystalBasicLeft-crystal_tone_2_l = Ornement
 
-marking-EarringsCrystalBasicRight = Crystal Earrings (Right)
-marking-EarringsCrystalBasicRight-crystal_tone_1_r = Material
-marking-EarringsCrystalBasicRight-crystal_tone_2_r = Ornament
+marking-EarringsCrystalBasicRight = Boucles Cristal (Droit)
+marking-EarringsCrystalBasicRight-crystal_tone_1_r = Matériau
+marking-EarringsCrystalBasicRight-crystal_tone_2_r = Ornement
 
-marking-EarringsCrystalLongLeft = Long Crystal Earrings (Left)
-marking-EarringsCrystalLongLeft-crystal_long_tone_1_l = Material
-marking-EarringsCrystalLongLeft-crystal_long_tone_2_l = Ornament
+marking-EarringsCrystalLongLeft = Boucles Cristal Longues (Gauche)
+marking-EarringsCrystalLongLeft-crystal_long_tone_1_l = Matériau
+marking-EarringsCrystalLongLeft-crystal_long_tone_2_l = Ornement
 
-marking-EarringsCrystalLongRight = Long Crystal Earrings (Right)
-marking-EarringsCrystalLongRight-crystal_long_tone_1_r = Material
-marking-EarringsCrystalLongRight-crystal_long_tone_2_r = Ornament
+marking-EarringsCrystalLongRight = Boucles Cristal Longues (Droit)
+marking-EarringsCrystalLongRight-crystal_long_tone_1_r = Matériau
+marking-EarringsCrystalLongRight-crystal_long_tone_2_r = Ornement

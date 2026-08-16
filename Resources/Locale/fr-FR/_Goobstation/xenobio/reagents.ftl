@@ -1,5 +1,11 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 xenobio-reagent-slime-toxin-name = Toxine de slime
-xenobio-reagent-slime-toxin-desc = The toxin that slime introduces into victim’s blood during the hunt, maintains the victim in a critical state even with zero blood volume. It also has hallucinogenic and sedative effects.
+xenobio-reagent-slime-toxin-desc = La toxine que le slime introduit dans le sang de la victime pendant la chasse maintient la victime dans un état critique même sans volume sanguin. Elle a aussi des effets hallucinogènes et sédatifs.
 
 xenobio-reagent-jelly-purple-name = Stéroïde de slime
 xenobio-reagent-jelly-purple-desc = C'est un mélange chimique puissant qui fera produire un extrait supplémentaire à un slime lors du traitement, pour un maximum de quatre en plus. Le stéroïde ne fonctionne que sur les slimes vivants.
@@ -10,7 +16,7 @@ xenobio-reagent-jelly-blue-desc = Réduit la chance de mutation d'un slime de 25
 xenobio-reagent-jelly-darkblue-name = Gelée réfrigérante de slime
 xenobio-reagent-jelly-darkblue-desc = Cette gelée rend tout consommateur ignifuge pendant un bon moment. Soyez un pyromane sans en avoir l'air ! Les mineurs peuvent en faire bon usage, car elle les rendra résistants aux tempêtes de cendres.
 
-xenobio-reagent-jelly-cerulean-name = Boost de slime 
+xenobio-reagent-jelly-cerulean-name = Boost de slime
 xenobio-reagent-jelly-cerulean-desc = Lorsqu'il est ingéré par un slime, celui-ci produira davantage de descendants par mitose. À ne pas confondre avec "Broly Boost".
 
 xenobio-reagent-jelly-red-name = Déstabilisateur de slime

@@ -4,8 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ghost-target-window-ghostbar = Ghost Bar
-ghost-window-spawn-ghostbar-button = Spawn at Ghost Bar
-ghost-window-spawn-ghostbar-button-timer = Spawn at Ghost Bar ({$time}s)
-ghost-bar-rules = Treat this role, and station, as you would just being a regular Ghost. You may talk about all current round events without the need for LOOC, and you remember everything from your previous life. DO NOT attack others, start fights, or attempt to break the station. If you see anyone doing this, please Ahelp and they will be promptly thrown into space. Also, if you decide to leave the bar, you DO NOT remember anything from being here, or your life before it.
-
+ghost-target-window-ghostbar = Bar des fantômes
+ghost-window-spawn-ghostbar-button = Apparaître au Bar des fantômes
+ghost-window-spawn-ghostbar-button-timer = Apparaître au Bar des fantômes ({$time}s)
+ghost-bar-rules = Traitez ce rôle, et la station, comme si vous étiez un Fantôme classique. Vous pouvez parler de tous les événements du round en cours sans avoir besoin de LOOC, et vous vous souvenez de tout de votre vie précédente. N'ATTAQUEZ PAS les autres, ne commencez pas de bagarres, et n'essayez pas de saboter la station. Si vous voyez quelqu'un faire cela, faites un Ahelp et il sera promptement éjecté dans l'espace. De plus, si vous décidez de quitter le bar, vous NE VOUS SOUVIENDREZ DE RIEN de ce qui s'est passé ici, ni de votre vie d'avant.

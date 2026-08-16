@@ -4,4 +4,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ipc-overheat-popup = {$name}'s circuits shut down from overheating!
+ipc-overheat-popup = Les circuits de {$name} s'arrêtent à cause de la surchauffe !

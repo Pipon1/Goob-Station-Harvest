@@ -1,2 +1,2 @@
-alerts-medigun-uber-name = Uber Charge
-alerts-medigun-uber-desc = Charge your medigun via healing living entities, fill this battery to 100%, and then you can enable Uber Mode!
+alerts-medigun-uber-name = Übercharge
+alerts-medigun-uber-desc = Chargez votre médipistolet en soignant des entités vivantes, remplissez cette batterie à 100 %, puis vous pourrez activer le mode Über !

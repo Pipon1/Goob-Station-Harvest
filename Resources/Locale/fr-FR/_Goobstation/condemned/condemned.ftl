@@ -1,1 +1,1 @@
-condemned-start = The ground splinters and cracks around {$target} as an unholy force approaches!
+condemned-start = Le sol se fissure et se brise autour de {$target} alors qu'une force impie approche !

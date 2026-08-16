@@ -1,233 +1,233 @@
 # Research Director
-loadout-group-research-director-envirohelm = Research Director envirohelm
-loadout-group-research-director-envirosuit = Research Director envirosuit
-loadout-group-research-director-envirogloves = Research Director envirogloves
+loadout-group-research-director-envirohelm = Casque enviro du directeur de la recherche
+loadout-group-research-director-envirosuit = Combinaison enviro du directeur de la recherche
+loadout-group-research-director-envirogloves = Gants enviro du directeur de la recherche
 
 # Scientist
-loadout-group-scientist-envirohelm = Scientist envirohelm
-loadout-group-scientist-envirosuit = Scientist envirosuit
-loadout-group-scientist-envirogloves = Scientist envirogloves
+loadout-group-scientist-envirohelm = Casque enviro du scientifique
+loadout-group-scientist-envirosuit = Combinaison enviro du scientifique
+loadout-group-scientist-envirogloves = Gants enviro du scientifique
 
 # Research Assistant
-loadout-group-research-assistant-envirohelm = Research Assistant envirohelm
-loadout-group-research-assistant-envirosuit = Research Assistant envirosuit
-loadout-group-research-assistant-envirogloves = Research Assistant envirogloves
+loadout-group-research-assistant-envirohelm = Casque enviro de l'assistant de recherche
+loadout-group-research-assistant-envirosuit = Combinaison enviro de l'assistant de recherche
+loadout-group-research-assistant-envirogloves = Gants enviro de l'assistant de recherche
 
 # Chief Medical Officer
-loadout-group-chief-medical-officer-envirohelm = Chief Medical Officer envirohelm
-loadout-group-chief-medical-officer-envirosuit = Chief Medical Officer envirosuit
-loadout-group-chief-medical-officer-envirogloves = Chief Medical Officer envirogloves
+loadout-group-chief-medical-officer-envirohelm = Casque enviro du médecin-chef
+loadout-group-chief-medical-officer-envirosuit = Combinaison enviro du médecin-chef
+loadout-group-chief-medical-officer-envirogloves = Gants enviro du médecin-chef
 
 # Medical Doctor
-loadout-group-medical-doctor-envirohelm = Medical Doctor envirohelm
-loadout-group-medical-doctor-envirosuit = Medical Doctor envirosuit
-loadout-group-medical-doctor-envirogloves = Medical Doctor envirogloves
+loadout-group-medical-doctor-envirohelm = Casque enviro du médecin
+loadout-group-medical-doctor-envirosuit = Combinaison enviro du médecin
+loadout-group-medical-doctor-envirogloves = Gants enviro du médecin
 
 # Medical Intern
-loadout-group-medical-intern-envirohelm = Medical Intern envirohelm
-loadout-group-medical-intern-envirosuit = Medical Intern envirosuit
-loadout-group-medical-intern-envirogloves = Medical Intern envirogloves
+loadout-group-medical-intern-envirohelm = Casque enviro de l'interne
+loadout-group-medical-intern-envirosuit = Combinaison enviro de l'interne
+loadout-group-medical-intern-envirogloves = Gants enviro de l'interne
 
 # Paramedic
-loadout-group-paramedic-envirohelm = Paramedic envirohelm
-loadout-group-paramedic-envirosuit = Paramedic envirosuit
-loadout-group-paramedic-envirogloves = Paramedic envirogloves
+loadout-group-paramedic-envirohelm = Casque enviro du secouriste
+loadout-group-paramedic-envirosuit = Combinaison enviro du secouriste
+loadout-group-paramedic-envirogloves = Gants enviro du secouriste
 
 # Psychologist
-loadout-group-psychologist-envirohelm = Psychologist envirohelm
-loadout-group-psychologist-envirosuit = Psychologist envirosuit
-loadout-group-psychologist-envirogloves = Psychologist envirogloves
+loadout-group-psychologist-envirohelm = Casque enviro du psychologue
+loadout-group-psychologist-envirosuit = Combinaison enviro du psychologue
+loadout-group-psychologist-envirogloves = Gants enviro du psychologue
 
 # Virologist
-loadout-group-virology-envirohelm = Virologist envirohelm
-loadout-group-virology-envirosuit = Virologist envirosuit
-loadout-group-virology-envirogloves = Virologist envirogloves
+loadout-group-virology-envirohelm = Casque enviro du virologue
+loadout-group-virology-envirosuit = Combinaison enviro du virologue
+loadout-group-virology-envirogloves = Gants enviro du virologue
 
 # Cargo Technician
-loadout-group-cargo-technician-envirohelm = Cargo Technician envirohelm
-loadout-group-cargo-technician-envirosuit = Cargo Technician envirosuit
-loadout-group-cargo-technician-envirogloves = Cargo Technician envirogloves
+loadout-group-cargo-technician-envirohelm = Casque enviro du technicien cargo
+loadout-group-cargo-technician-envirosuit = Combinaison enviro du technicien cargo
+loadout-group-cargo-technician-envirogloves = Gants enviro du technicien cargo
 
 # Quartermaster
-loadout-group-quartermaster-envirohelm = Quartermaster envirohelm
-loadout-group-quartermaster-envirosuit = Quartermaster envirosuit
-loadout-group-quartermaster-envirogloves = Quartermaster envirogloves
+loadout-group-quartermaster-envirohelm = Casque enviro du quartier-maître
+loadout-group-quartermaster-envirosuit = Combinaison enviro du quartier-maître
+loadout-group-quartermaster-envirogloves = Gants enviro du quartier-maître
 
 # Station Engineer
-loadout-group-station-engineer-envirohelm = Station Engineer envirohelm
-loadout-group-station-engineer-envirosuit = Station Engineer envirosuit
-loadout-group-station-engineer-envirogloves = Station Engineer envirogloves
+loadout-group-station-engineer-envirohelm = Casque enviro de l'ingénieur de station
+loadout-group-station-engineer-envirosuit = Combinaison enviro de l'ingénieur de station
+loadout-group-station-engineer-envirogloves = Gants enviro de l'ingénieur de station
 
 # Technical Assistant
-loadout-group-technical-assistant-envirohelm = Technical Assistant envirohelm
-loadout-group-technical-assistant-envirosuit = Technical Assistant envirosuit
-loadout-group-technical-assistant-envirogloves = Technical Assistant envirogloves
+loadout-group-technical-assistant-envirohelm = Casque enviro de l'assistant technique
+loadout-group-technical-assistant-envirosuit = Combinaison enviro de l'assistant technique
+loadout-group-technical-assistant-envirogloves = Gants enviro de l'assistant technique
 
 # Atmospheric Technician
-loadout-group-atmos-envirohelm = Atmospheric Technician envirohelm
-loadout-group-atmos-envirosuit = Atmospheric Technician envirosuit
-loadout-group-atmos-envirogloves = Atmospheric Technician envirogloves
+loadout-group-atmos-envirohelm = Casque enviro du technicien atmos
+loadout-group-atmos-envirosuit = Combinaison enviro du technicien atmos
+loadout-group-atmos-envirogloves = Gants enviro du technicien atmos
 
 # Chief Engineer
-loadout-group-chief-engineer-envirohelm = Chief Engineer envirohelm
-loadout-group-chief-engineer-envirosuit = Chief Engineer envirosuit
-loadout-group-chief-engineer-envirogloves = Chief Engineer envirogloves
+loadout-group-chief-engineer-envirohelm = Casque enviro de l'ingénieur en chef
+loadout-group-chief-engineer-envirosuit = Combinaison enviro de l'ingénieur en chef
+loadout-group-chief-engineer-envirogloves = Gants enviro de l'ingénieur en chef
 
 # Security Officer
-loadout-group-security-officer-envirohelm = Security Officer envirohelm
-loadout-group-security-officer-envirosuit = Security Officer envirosuit
-loadout-group-security-officer-envirogloves = Security Officer envirogloves
+loadout-group-security-officer-envirohelm = Casque enviro de l'officier de sécurité
+loadout-group-security-officer-envirosuit = Combinaison enviro de l'officier de sécurité
+loadout-group-security-officer-envirogloves = Gants enviro de l'officier de sécurité
 
 # Security Cadet
-loadout-group-security-cadet-envirohelm = Security Cadet envirohelm
-loadout-group-security-cadet-envirosuit = Security Cadet envirosuit
-loadout-group-security-cadet-envirogloves = Security Cadet envirogloves
+loadout-group-security-cadet-envirohelm = Casque enviro du cadet de sécurité
+loadout-group-security-cadet-envirosuit = Combinaison enviro du cadet de sécurité
+loadout-group-security-cadet-envirogloves = Gants enviro du cadet de sécurité
 
 # Detective
-loadout-group-detective-envirohelm = Detective envirohelm
-loadout-group-detective-envirosuit = Detective envirosuit
-loadout-group-detective-envirogloves = Detective envirogloves
-loadout-group-detective-gloves = Detective gloves
+loadout-group-detective-envirohelm = Casque enviro du détective
+loadout-group-detective-envirosuit = Combinaison enviro du détective
+loadout-group-detective-envirogloves = Gants enviro du détective
+loadout-group-detective-gloves = Gants du détective
 
 # Warden
-loadout-group-warden-envirohelm = Warden envirohelm
-loadout-group-warden-envirosuit = Warden envirosuit
-loadout-group-warden-envirogloves = Warden envirogloves
+loadout-group-warden-envirohelm = Casque enviro du gardien
+loadout-group-warden-envirosuit = Combinaison enviro du gardien
+loadout-group-warden-envirogloves = Gants enviro du gardien
 
 # Head of Personnel
-loadout-group-hop-envirohelm = Head of Personnel envirohelm
-loadout-group-hop-envirosuit = Head of Personnel envirosuit
-loadout-group-hop-envirogloves = Head of Personnel envirogloves
-loadout-group-hop-gloves = Head of Personnel gloves
+loadout-group-hop-envirohelm = Casque enviro du chef du personnel
+loadout-group-hop-envirosuit = Combinaison enviro du chef du personnel
+loadout-group-hop-envirogloves = Gants enviro du chef du personnel
+loadout-group-hop-gloves = Gants du chef du personnel
 
 # CentCom Officer
-loadout-group-centcom-officer-envirohelm = CentCom Officer envirohelm
-loadout-group-centcom-officer-envirosuit = CentCom Officer envirosuit
-loadout-group-centcom-officer-envirogloves = CentCom Officer envirogloves
+loadout-group-centcom-officer-envirohelm = Casque enviro de l'officier CentCom
+loadout-group-centcom-officer-envirosuit = Combinaison enviro de l'officier CentCom
+loadout-group-centcom-officer-envirogloves = Gants enviro de l'officier CentCom
 
 # Botanist
-loadout-group-botanist-envirohelm = Botanist envirohelm
-loadout-group-botanist-envirosuit = Botanist envirosuit
-loadout-group-botanist-envirogloves = Botanist envirogloves
+loadout-group-botanist-envirohelm = Casque enviro du botaniste
+loadout-group-botanist-envirosuit = Combinaison enviro du botaniste
+loadout-group-botanist-envirogloves = Gants enviro du botaniste
 
 # Chaplain
-loadout-group-chaplain-envirohelm = Chaplain envirohelm
-loadout-group-chaplain-envirosuit = Chaplain envirosuit
-loadout-group-chaplain-envirogloves = Chaplain envirogloves
+loadout-group-chaplain-envirohelm = Casque enviro de l'aumônier
+loadout-group-chaplain-envirosuit = Combinaison enviro de l'aumônier
+loadout-group-chaplain-envirogloves = Gants enviro de l'aumônier
 
 # Clown
-loadout-group-clown-envirohelm = Clown envirohelm
-loadout-group-clown-envirosuit = Clown envirosuit
-loadout-group-clown-envirogloves = Clown envirogloves
+loadout-group-clown-envirohelm = Casque enviro du clown
+loadout-group-clown-envirosuit = Combinaison enviro du clown
+loadout-group-clown-envirogloves = Gants enviro du clown
 
 # Chef
-loadout-group-chef-envirohelm = Chef envirohelm
-loadout-group-chef-envirosuit = Chef envirosuit
-loadout-group-chef-envirogloves = Chef envirogloves
+loadout-group-chef-envirohelm = Casque enviro du cuisinier
+loadout-group-chef-envirosuit = Combinaison enviro du cuisinier
+loadout-group-chef-envirogloves = Gants enviro du cuisinier
 
 # Janitor
-loadout-group-janitor-envirohelm = Janitor envirohelm
-loadout-group-janitor-envirosuit = Janitor envirosuit
-loadout-group-janitor-envirogloves = Janitor envirogloves
+loadout-group-janitor-envirohelm = Casque enviro du concierge
+loadout-group-janitor-envirosuit = Combinaison enviro du concierge
+loadout-group-janitor-envirogloves = Gants enviro du concierge
 
 # Librarian
-loadout-group-librarian-envirohelm = Librarian envirohelm
-loadout-group-librarian-envirosuit = Librarian envirosuit
-loadout-group-librarian-envirogloves = Librarian envirogloves
+loadout-group-librarian-envirohelm = Casque enviro du bibliothécaire
+loadout-group-librarian-envirosuit = Combinaison enviro du bibliothécaire
+loadout-group-librarian-envirogloves = Gants enviro du bibliothécaire
 
 # Mime
-loadout-group-mime-envirohelm = Mime envirohelm
-loadout-group-mime-envirosuit = Mime envirosuit
-loadout-group-mime-envirogloves = Mime envirogloves
-loadout-group-mime-gloves = Mime gloves
-loadout-group-mime-shoes = Mime shoes
+loadout-group-mime-envirohelm = Casque enviro du mime
+loadout-group-mime-envirosuit = Combinaison enviro du mime
+loadout-group-mime-envirogloves = Gants enviro du mime
+loadout-group-mime-gloves = Gants du mime
+loadout-group-mime-shoes = Chaussures du mime
 
 # Assistant
-loadout-group-assistant-envirohelm = Assistant envirohelm
-loadout-group-assistant-envirosuit = Assistant envirosuit
-loadout-group-assistant-envirogloves = Assistant envirogloves
+loadout-group-assistant-envirohelm = Casque enviro de l'assistant
+loadout-group-assistant-envirosuit = Combinaison enviro de l'assistant
+loadout-group-assistant-envirogloves = Gants enviro de l'assistant
 
 # Musician
-loadout-group-musician-envirohelm = Musician envirohelm
-loadout-group-musician-envirosuit = Musician envirosuit
-loadout-group-musician-envirogloves = Musician envirogloves
+loadout-group-musician-envirohelm = Casque enviro du musicien
+loadout-group-musician-envirosuit = Combinaison enviro du musicien
+loadout-group-musician-envirogloves = Gants enviro du musicien
 
 # Service Worker
-loadout-group-service-worker-envirohelm = Service Worker envirohelm
-loadout-group-service-worker-envirosuit = Service Worker envirosuit
-loadout-group-service-worker-envirogloves = Service Worker envirogloves
+loadout-group-service-worker-envirohelm = Casque enviro du travailleur de service
+loadout-group-service-worker-envirosuit = Combinaison enviro du travailleur de service
+loadout-group-service-worker-envirogloves = Gants enviro du travailleur de service
 
 # Bartender
-loadout-group-bartender-envirohelm = Bartender envirohelm
-loadout-group-bartender-envirosuit = Bartender envirosuit
+loadout-group-bartender-envirohelm = Casque enviro du barman
+loadout-group-bartender-envirosuit = Combinaison enviro du barman
 
 # Lawyer
-loadout-group-lawyer-envirohelm = Lawyer envirohelm
-loadout-group-lawyer-envirosuit = Lawyer envirosuit
-loadout-group-lawyer-envirogloves = Lawyer envirogloves
+loadout-group-lawyer-envirohelm = Casque enviro de l'avocat
+loadout-group-lawyer-envirosuit = Combinaison enviro de l'avocat
+loadout-group-lawyer-envirogloves = Gants enviro de l'avocat
 
 # Nanotrasen Representative
-loadout-group-ntr-envirohelm = Nanotrasen Representative envirohelm
-loadout-group-ntr-envirosuit = Nanotrasen Representative envirosuit
-loadout-group-ntr-envirogloves = Nanotrasen Representative envirogloves
-loadout-group-ntr-gloves = Nanotrasen Representative gloves
+loadout-group-ntr-envirohelm = Casque enviro du représentant Nanotrasen
+loadout-group-ntr-envirosuit = Combinaison enviro du représentant Nanotrasen
+loadout-group-ntr-envirogloves = Gants enviro du représentant Nanotrasen
+loadout-group-ntr-gloves = Gants du représentant Nanotrasen
 
 # Blueshield Officer
-loadout-group-bso-envirohelm = Blueshield Officer envirohelm
-loadout-group-bso-envirosuit = Blueshield Officer envirosuit
-loadout-group-bso-envirogloves = Blueshield Officer envirogloves
-loadout-group-bso-gloves = Blueshield Officer gloves
+loadout-group-bso-envirohelm = Casque enviro de l'officier Bouclier Bleu
+loadout-group-bso-envirosuit = Combinaison enviro de l'officier Bouclier Bleu
+loadout-group-bso-envirogloves = Gants enviro de l'officier Bouclier Bleu
+loadout-group-bso-gloves = Gants de l'officier Bouclier Bleu
 
 # Reporter
-loadout-group-reporter-envirohelm = Reporter envirohelm
-loadout-group-reporter-envirosuit = Reporter envirosuit
-loadout-group-reporter-envirogloves = Reporter envirogloves
+loadout-group-reporter-envirohelm = Casque enviro du reporter
+loadout-group-reporter-envirosuit = Combinaison enviro du reporter
+loadout-group-reporter-envirogloves = Gants enviro du reporter
 
 # Captain
-loadout-group-captain-envirohelm = Captain envirohelm
-loadout-group-captain-envirosuit = Captain envirosuit
-loadout-group-captain-envirogloves = Captain envirogloves
-loadout-group-captain-gloves = Captain gloves
-loadout-group-captain-shoes = Captain shoes
+loadout-group-captain-envirohelm = Casque enviro du capitaine
+loadout-group-captain-envirosuit = Combinaison enviro du capitaine
+loadout-group-captain-envirogloves = Gants enviro du capitaine
+loadout-group-captain-gloves = Gants du capitaine
+loadout-group-captain-shoes = Chaussures du capitaine
 
 
 # Salvage Specialist
-loadout-group-salvage-envirohelm = Salvage Specialist envirohelm
-loadout-group-salvage-envirosuit = Salvage Specialist envirosuit
-loadout-group-salvage-envirogloves = Salvage Specialist envirogloves
+loadout-group-salvage-envirohelm = Casque enviro du spécialiste récupération
+loadout-group-salvage-envirosuit = Combinaison enviro du spécialiste récupération
+loadout-group-salvage-envirogloves = Gants enviro du spécialiste récupération
 
 # Chemist
-loadout-group-chemist-envirohelm = Chemist envirohelm
-loadout-group-chemist-envirosuit = Chemist envirosuit
-loadout-group-chemist-envirogloves = Chemist envirogloves
+loadout-group-chemist-envirohelm = Casque enviro du chimiste
+loadout-group-chemist-envirosuit = Combinaison enviro du chimiste
+loadout-group-chemist-envirogloves = Gants enviro du chimiste
 
 # Head of Security
-loadout-group-head-of-security-envirohelm = Head of Security envirohelm
-loadout-group-head-of-security-envirosuit = Head of Security envirosuit
-loadout-group-head-of-security-envirogloves = Head of Security envirogloves
-loadout-group-head-of-security-gloves = Head of Security gloves
+loadout-group-head-of-security-envirohelm = Casque enviro du chef de la sécurité
+loadout-group-head-of-security-envirosuit = Combinaison enviro du chef de la sécurité
+loadout-group-head-of-security-envirogloves = Gants enviro du chef de la sécurité
+loadout-group-head-of-security-gloves = Gants du chef de la sécurité
 
 # Brigmedic
-loadout-group-brigmedic-envirohelm = Brigmedic envirohelm
-loadout-group-brigmedic-envirosuit = Brigmedic envirosuit
-loadout-group-brigmedic-envirogloves = Brigmedic envirogloves
+loadout-group-brigmedic-envirohelm = Casque enviro du médic de brig
+loadout-group-brigmedic-envirosuit = Combinaison enviro du médic de brig
+loadout-group-brigmedic-envirogloves = Gants enviro du médic de brig
 
 # Zookeeper
-loadout-group-zookeeper-envirohelm = Zookeeper envirohelm
-loadout-group-zookeeper-envirosuit = Zookeeper envirosuit
-loadout-group-zookeeper-envirogloves = Zookeeper envirogloves
-loadout-group-zookeeper-jumpsuit = Zookeeper jumpsuit
-loadout-group-zookeeper-head = Zookeeper hat
+loadout-group-zookeeper-envirohelm = Casque enviro du soigneur
+loadout-group-zookeeper-envirosuit = Combinaison enviro du soigneur
+loadout-group-zookeeper-envirogloves = Gants enviro du soigneur
+loadout-group-zookeeper-jumpsuit = Combinaison du soigneur
+loadout-group-zookeeper-head = Chapeau du soigneur
 
 # Boxer
-loadout-group-boxer-envirohelm = Boxer envirohelm
-loadout-group-boxer-envirosuit = Boxer envirosuit
-loadout-group-boxer-helmet = Boxer helmet
+loadout-group-boxer-envirohelm = Casque enviro du boxeur
+loadout-group-boxer-envirosuit = Combinaison enviro du boxeur
+loadout-group-boxer-helmet = Casque du boxeur
 
 # Misc
-loadout-group-plasma-tank = Plasma tank
+loadout-group-plasma-tank = Réservoir de plasma
 loadout-group-security-gloves = Gants de sécurité
 
 # Salvage/Shaft Miner
-loadout-group-salvage-specialist-jumpsuit = Salvage Specialist Jumpsuit
-loadout-group-shaft-miner-jumpsuit = Shaft Miner Jumpsuit
+loadout-group-salvage-specialist-jumpsuit = Combinaison du spécialiste récupération
+loadout-group-shaft-miner-jumpsuit = Combinaison du mineur de fond

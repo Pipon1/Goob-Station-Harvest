@@ -4,22 +4,22 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-chuuni-eyepatch-backstory-1 = [color=hotpink]This eyepatch is a seal that contains the power of the demon king. If I remove it, I will unleash a cataclysmic destruction upon the world.[/color]
-chuuni-eyepatch-backstory-2 = [color=hotpink]This eyepatch is a gift from the angel of light. It allows me to see the true nature of things and protect the innocent from harm.[/color]
-chuuni-eyepatch-backstory-3 = [color=hotpink]This eyepatch is a mark of my contract with the dragon god. It grants me access to his ancient wisdom and fiery breath.[/color]
-chuuni-eyepatch-backstory-4 = [color=hotpink]This eyepatch is a symbol of my sacrifice for the sake of love. It hides the scar that I received from saving my beloved from a fatal attack.[color]
+chuuni-eyepatch-backstory-1 = [color=hotpink]Ce cache-œil est un sceau qui contient le pouvoir du roi démon. Si je l'enlève, je déchaînerai une destruction cataclysmique sur le monde.[/color]
+chuuni-eyepatch-backstory-2 = [color=hotpink]Ce cache-œil est un don de l'ange de la lumière. Il me permet de voir la vraie nature des choses et de protéger les innocents du mal.[/color]
+chuuni-eyepatch-backstory-3 = [color=hotpink]Ce cache-œil est une marque de mon contrat avec le dieu dragon. Il m'accorde l'accès à sa sagesse ancestrale et à son souffle de feu.[/color]
+chuuni-eyepatch-backstory-4 = [color=hotpink]Ce cache-œil est un symbole de mon sacrifice pour l'amour. Il cache la cicatrice que j'ai reçue en sauvant mon bien-aimé d'une attaque fatale.[/color]
 
-chuuni-invocation-unset = This is embarrassing... I can't remember the words... um... maybe if I just wave my hand like this... no, that's not wor- Ah! There it goes!
-chuuni-invocation-holy = By the grace of the holy one, I summon the light of salvation. Let my allies rejoice. O, Heaven! Bless them!
-chuuni-invocation-psychic = By the secret of the hidden one, I reveal the truth of creation. Let my mind expand. O, Mystery! Enlighten me!
-chuuni-invocation-mime = O, Silence! Embrace my soul and amplify my gesture. Let me create the illusion and manipulate the perception!
-chuuni-invocation-restoration = I invoke the name of the goddess of mercy, hear my plea and grant your blessing to this soul! Divine Grace!
-chuuni-invocation-explosion = Darkness blacker than black and darker than dark, I beseech thee, combine with my deep crimson. I desire for my torrent of power a destructive force: a destructive force without equal! Return all creation to cinders! Explosion!!!
-chuuni-invocation-evocation = Behold, the ultimate power of the Dark Flame Master! I call upon the ancient forces of chaos and destruction to unleash their wrath upon my enemies!
-chuuni-invocation-transmutation = I invoke the law of equivalent exchange, the balance of the cosmos. As I offer this sacrifice, I demand a new creation. Reveal, the mystery of transmutation!
-chuuni-invocation-translocation = By the power of the spatial rifts, I bend the fabric of reality and move across the dimensions! Let nothing stand in my way as I travel to my destination!
-chuuni-invocation-conjuration = With the eye of fate, I see through the threads of destiny. Nothing can hide from me. Witness me, witness the miracle of manifestation!
-chuuni-invocation-necromancy = I am the Lord of the Dead, the Master of Bones, the Ruler of Shadows. I command the legions of the damned to rise from their graves and serve me!
-chuuni-invocation-forbidden = I renounce the laws of this world and embrace the chaos of the old gods! Let the forbidden power flow through me and destroy everything in its path!
-chuuni-invocation-sanguine = I cover my eye with an eyepatch to seal my true power, but now I will unleash it upon you. I feast on the life force of my prey and grow stronger with every drop!
-chuuni-invocation-chuuni = By the decree of the dark lord, I invoke the curse of the chuuni. Let all my spells be tainted by the power of delusion. O, Reality! Bend to my will!
+chuuni-invocation-unset = C'est embarrassant... Je ne me souviens plus des mots... euh... peut-être si je fais juste un geste comme ça... non, ça ne marche p- Ah ! Ça y est !
+chuuni-invocation-holy = Par la grâce du saint, j'invoque la lumière du salut. Que mes alliés se réjouissent. Ô, Ciel ! Bénis-les !
+chuuni-invocation-psychic = Par le secret du caché, je révèle la vérité de la création. Que mon esprit s'étende. Ô, Mystère ! Illumine-moi !
+chuuni-invocation-mime = Ô, Silence ! Embrasse mon âme et amplifie mon geste. Laisse-moi créer l'illusion et manipuler la perception !
+chuuni-invocation-restoration = J'invoque le nom de la déesse de la miséricorde, entends ma prière et accorde ta bénédiction à cette âme ! Grâce Divine !
+chuuni-invocation-explosion = Ténèbres plus noires que le noir et plus sombres que l'obscurité, je t'implore, fusionne avec mon cramoisi profond. Je désire pour mon torrent de puissance une force destructrice : une force destructrice sans égale ! Ramène toute la création en cendres ! Explosion !!!
+chuuni-invocation-evocation = Voici, la puissance ultime du Maître de la Flamme Noire ! J'appelle les forces anciennes du chaos et de la destruction à déchaîner leur courroux sur mes ennemis !
+chuuni-invocation-transmutation = J'invoque la loi de l'échange équivalent, l'équilibre du cosmos. En offrant ce sacrifice, j'exige une nouvelle création. Révèle, le mystère de la transmutation !
+chuuni-invocation-translocation = Par la puissance des failles spatiales, je plie la trame de la réalité et me déplace à travers les dimensions ! Que rien ne se dresse sur mon chemin alors que je voyage vers ma destination !
+chuuni-invocation-conjuration = Avec l'œil du destin, je vois à travers les fils de la destinée. Rien ne peut se cacher de moi. Soyez témoin, soyez témoin du miracle de la manifestation !
+chuuni-invocation-necromancy = Je suis le Seigneur des Morts, le Maître des Os, le Roi des Ombres. J'ordonne aux légions des damnés de se lever de leurs tombes et de me servir !
+chuuni-invocation-forbidden = Je renonce aux lois de ce monde et embrasse le chaos des anciens dieux ! Que le pouvoir interdit coule en moi et détruise tout sur son passage !
+chuuni-invocation-sanguine = Je couvre mon œil d'un cache-œil pour sceller mon vrai pouvoir, mais maintenant je vais le déchaîner sur toi. Je me nourris de la force vitale de mes proies et deviens plus fort avec chaque goutte !
+chuuni-invocation-chuuni = Par le décret du seigneur noir, j'invoque la malédiction du chuuni. Que tous mes sorts soient teintés par le pouvoir de l'illusion. Ô, Réalité ! Plie-toi à ma volonté !

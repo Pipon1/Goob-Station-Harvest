@@ -5,10 +5,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-mindshield-implant-effect-removed = You feel an agonizing pain as your perspective changes and your vision widens near-instantly.
-nanite-mend-popup = You feel a vivid warmness spread throughout your body.
+mindshield-implant-effect-removed = Vous ressentez une douleur atroce alors que votre perspective change et votre vision s'élargit quasi-instantanément.
+nanite-mend-popup = Vous ressentez une chaleur vive se propager dans tout votre corps.
 
-# BSO and nukie implant
+# Implant BSO et nukie
 
-deathrattle-implant-dead-message = {$user} has died {$position}.
-deathrattle-implant-critical-message = {$user} life signs critical, immediate assistance required {$position}.
+deathrattle-implant-dead-message = {$user} est mort {$position}.
+deathrattle-implant-critical-message = Signes vitaux de {$user} critiques, assistance immédiate requise {$position}.

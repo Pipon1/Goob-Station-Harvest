@@ -1,3 +1,3 @@
-marking-LizardHornsEasternDragon = Dragon antlers
-marking-LizardHornsEasternDragon-dragon-antlers-left = Left Horn
-marking-LizardHornsEasternDragon-dragon-antlers-right = Right Horn
+marking-LizardHornsEasternDragon = Bois de dragon
+marking-LizardHornsEasternDragon-dragon-antlers-left = Corne Gauche
+marking-LizardHornsEasternDragon-dragon-antlers-right = Corne Droite

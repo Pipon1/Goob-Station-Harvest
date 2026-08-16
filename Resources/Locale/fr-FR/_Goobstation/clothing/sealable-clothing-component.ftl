@@ -4,27 +4,27 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-sealable-clothing-equipment-not-toggled = Deploy all parts first!
-sealable-clothing-equipment-seal-failed = Sealing failed!
-sealable-clothing-seal-verb = Toggle Seals
+sealable-clothing-equipment-not-toggled = Déployez toutes les parties d'abord !
+sealable-clothing-equipment-seal-failed = Échec du scellement !
+sealable-clothing-seal-verb = Basculer les joints
 
-sealable-clothing-seal-up = The {$partName} is sealing
-sealable-clothing-seal-up-helmet =  The {$partName} hisses as it closes
-sealable-clothing-seal-up-gauntlets = The {$partName} tightens around your fingers and wrists
-sealable-clothing-seal-up-chestplate = The {$partName} clenches tightly around your chest
-sealable-clothing-seal-up-boots = The {$partName} seals around your feet
+sealable-clothing-seal-up = Le {$partName} se scelle
+sealable-clothing-seal-up-helmet = Le {$partName} siffle en se fermant
+sealable-clothing-seal-up-gauntlets = Le {$partName} se resserre autour de vos doigts et poignets
+sealable-clothing-seal-up-chestplate = Le {$partName} se serrent étroitement autour de votre poitrine
+sealable-clothing-seal-up-boots = Le {$partName} se scelle autour de vos pieds
 
-sealable-clothing-seal-down = The {$partName} is unsealing
-sealable-clothing-seal-down-helmet = The {$partName} hisses open
-sealable-clothing-seal-down-gauntlets = The {$partName} become loose around your fingers
-sealable-clothing-seal-down-chestplate = The {$partName} releases your chest
-sealable-clothing-seal-down-boots= The {$partName} relaxs its grip on your legs
+sealable-clothing-seal-down = Le {$partName} s'ouvre
+sealable-clothing-seal-down-helmet = Le {$partName} siffle en s'ouvrant
+sealable-clothing-seal-down-gauntlets = Le {$partName} se desserre autour de vos doigts
+sealable-clothing-seal-down-chestplate = Le {$partName} libère votre poitrine
+sealable-clothing-seal-down-boots = Le {$partName} relâche son emprise sur vos jambes
 
-sealable-clothing-sealed-process-toggle-fail = Suit is already shutting down!
-sealable-clothing-unsealed-process-toggle-fail = Suit is already starting up!
-sealable-clothing-sealed-toggle-fail = Deactivate the suit first!
-sealable-clothing-seal-was-broken = The Seal on the suit Breaks!
+sealable-clothing-sealed-process-toggle-fail = La combinaison est déjà en train de s'éteindre !
+sealable-clothing-unsealed-process-toggle-fail = La combinaison est déjà en train de démarrer !
+sealable-clothing-sealed-toggle-fail = Désactivez d'abord la combinaison !
+sealable-clothing-seal-was-broken = Le joint de la combinaison casse !
 
-sealable-clothing-not-powered = Suit is not powered!
-sealable-clothing-open-sealed-panel-fail = Wiring panel is too tightly sealed!
-sealable-clothing-close-panel-first = Close wiring panel first!
+sealable-clothing-not-powered = La combinaison n'est pas alimentée !
+sealable-clothing-open-sealed-panel-fail = Le panneau de câblage est trop hermétiquement scellé !
+sealable-clothing-close-panel-first = Fermez d'abord le panneau de câblage !

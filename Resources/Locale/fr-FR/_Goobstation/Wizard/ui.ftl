@@ -4,13 +4,13 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-wizard-teleport-target-window-title = Teleport to...
+wizard-teleport-target-window-title = Téléporter vers...
 
-store-refund-window-title = Refund
-store-refund-window-refund-all = Refund All Listings
-store-refund-window-refund-disabled = Refunds have been disabled.
-store-refund-window-nothing-to-refund = Nothing to refund.
+store-refund-window-title = Remboursement
+store-refund-window-refund-all = Rembourser toutes les offres
+store-refund-window-refund-disabled = Les remboursements ont été désactivés.
+store-refund-window-nothing-to-refund = Rien à rembourser.
 
-store-caregory-spellbook-summons = Summons
-store-caregory-spellbook-special = Special
-store-caregory-spellbook-bundles = Bundles
+store-caregory-spellbook-summons = Invocations
+store-caregory-spellbook-special = Spécial
+store-caregory-spellbook-bundles = Packs

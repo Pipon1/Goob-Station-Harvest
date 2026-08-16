@@ -1,6 +1,12 @@
-wraith-skeleton-rally-howl = { $user } emits a rallying howl!
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
-# Unused
+wraith-skeleton-rally-howl = { $user } pousse un hurlement de ralliement !
 
-wraith-skeleton-summon-skeleton = We summon a skeleton from the void.
-wraith-skeleton-summon-fail = We cannot summon a skeleton here!
+# Inutilisé
+
+wraith-skeleton-summon-skeleton = Nous invoquons un squelette depuis le vide.
+wraith-skeleton-summon-fail = Nous ne pouvons pas invoquer de squelette ici !

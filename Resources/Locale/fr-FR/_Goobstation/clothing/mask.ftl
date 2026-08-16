@@ -1,2 +1,2 @@
-alt-clothing-component-mask-alt = Underneath hair
-alt-clothing-component-mask-default = Above hair
+alt-clothing-component-mask-alt = Sous les cheveux
+alt-clothing-component-mask-default = Au-dessus des cheveux

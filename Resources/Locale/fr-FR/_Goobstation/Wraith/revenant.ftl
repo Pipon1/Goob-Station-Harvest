@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 revenant-crush-chaplain = Une force mystérieuse les protège de votre influence.
 revenant-crush-start = Le revenant tend la main vers vous en faisant un geste d'écrasement.
 revenant-crush-you = Vous êtes complètement écrasé.

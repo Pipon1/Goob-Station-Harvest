@@ -2,27 +2,27 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-language-FloorGoblin-name = Floor Goblin
+language-FloorGoblin-name = Gobelin de Sol
 language-FloorGoblin-description =
     Mimimi mimimi iyoyoyo memimimimi bibibibibi mimim mimimi
 
-chat-language-FloorGoblin-name = Floor Goblin
+chat-language-FloorGoblin-name = Gobelin de Sol
 
-chat-speech-verb-name-floor-goblin = Floor Goblin
-chat-speech-verb-floor-goblin-1 = mumbles
-chat-speech-verb-floor-goblin-2 = screeches
-chat-speech-verb-floor-goblin-3 = shrieks
+chat-speech-verb-name-floor-goblin = Gobelin de Sol
+chat-speech-verb-floor-goblin-1 = marmonne
+chat-speech-verb-floor-goblin-2 = crie
+chat-speech-verb-floor-goblin-3 = hurle
 
-ghost-role-information-floor-goblin-name = Floor Goblin
-ghost-role-information-floor-goblin-description = Steal shoes, bite ankles, run away from tiders with crowbars.
+ghost-role-information-floor-goblin-name = Gobelin de Sol
+ghost-role-information-floor-goblin-description = Volez des chaussures, mordez les chevilles, fuyez les tiders avec leurs pieds-de-biche.
 
-crawl-under-floor-toggle-on = {$name} crawled into the floor.
-crawl-under-floor-toggle-off = {$name} crawled out of the floor.
-crawl-under-floor-toggle-on-self = You crawl into the floor.
-crawl-under-floor-toggle-off-self = You crawl out of the floor.
+crawl-under-floor-toggle-on = {$name} s'est glissé sous le plancher.
+crawl-under-floor-toggle-off = {$name} est sorti du plancher.
+crawl-under-floor-toggle-on-self = Vous vous glissez sous le plancher.
+crawl-under-floor-toggle-off-self = Vous sortez du plancher.
 
-steal-shoes-event = You stole {$target}'s {$shoes}!
-steal-shoes-no-shoes = They have no shoes to steal!
-steal-shoes-covered = You can't reach their shoes from here!
+steal-shoes-event = Vous avez volé les {$shoes} de {$target} !
+steal-shoes-no-shoes = Ils n'ont pas de chaussures à voler !
+steal-shoes-covered = Vous ne pouvez pas atteindre leurs chaussures d'ici !
 
-shoes-stolen-target-event = Your shoes were stolen!
+shoes-stolen-target-event = Vos chaussures ont été volées !

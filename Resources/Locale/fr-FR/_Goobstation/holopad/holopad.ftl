@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-# Command-adjacent
-holopad-command-ntr = Command - NT Representative
-holopad-command-bso = Command - Blueshield Officer
+# Adjacent au commandement
+holopad-command-ntr = Commandement - Repr. NT
+holopad-command-bso = Commandement - Officier Bouclier Bleu
 holopad-centcomm = CentComm

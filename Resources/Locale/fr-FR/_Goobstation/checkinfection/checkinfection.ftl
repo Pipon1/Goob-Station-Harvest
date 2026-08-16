@@ -1,6 +1,6 @@
-check-infection-start = {$user} inserts the needle into {$target}.
-check-infection-clear = No presence of Romerol detected in bloodstream.
-check-infection-infected = Presence of Romerol detected in bloodstream. Seconds until criticality : {$time}
+check-infection-start = {$user} insère l'aiguille dans {$target}.
+check-infection-clear = Aucune présence de Romérol détectée dans le sang.
+check-infection-infected = Présence de Romérol détectée dans le sang. Secondes avant criticité : {$time}
 
-check-infection-examined-target = {"["}color=red] Last Target: {$target} {"["}/color]
-check-infection-examined-infection-status = {"["}color=red] Infected: {$status} {"["}/color]
+check-infection-examined-target = [color=red] Dernière cible : {$target} [/color]
+check-infection-examined-infection-status = [color=red] Infecté : {$status} [/color]

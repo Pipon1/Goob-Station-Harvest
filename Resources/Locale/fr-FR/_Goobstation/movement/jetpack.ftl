@@ -3,5 +3,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-jetpack-downed = The jetpack turns off
-jetpack-is-down = Can't use the jetpack while lying down
+jetpack-downed = Le propulseur dorsal s'éteint
+jetpack-is-down = Impossible d'utiliser le propulseur dorsal allongé

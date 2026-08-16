@@ -1,14 +1,14 @@
-secretplus-low-title = Secret+ Light
-secretplus-low-description = Relatively calm. But not always.
+secretplus-low-title = Secret+ Léger
+secretplus-low-description = Relativement calme. Mais pas toujours.
 
-secretplus-mid-title = Secret+ Medium
-secretplus-mid-description = Handle unknown but balanced threats.
+secretplus-mid-title = Secret+ Moyen
+secretplus-mid-description = Gérez des menaces inconnues mais équilibrées.
 
 secretplus-admeme-title = Secret+ Chaos
-secretplus-admeme-description = If it can happen, it will.
+secretplus-admeme-description = Si cela peut arriver, cela arrivera.
 
 survivalplus-title = Survival+
-survivalplus-description = Starts pretty calm. Ends up not quite.
+survivalplus-description = Commence plutôt calme. Finit pas vraiment.
 
-secretplus-lowpop-title = Secret+ Lowpop
+secretplus-lowpop-title = Secret+ Faible population
 secretplus-lowpop-description = Plus actif mais moins menaçant. Pour les petits équipages.

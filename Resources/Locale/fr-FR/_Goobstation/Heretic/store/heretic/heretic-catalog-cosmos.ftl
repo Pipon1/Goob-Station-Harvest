@@ -1,77 +1,77 @@
-knowledge-path-cosmos-s1-name = Eternal Gate
+knowledge-path-cosmos-s1-name = Porte Éternelle
 knowledge-path-cosmos-s1-desc =
-    A nebula appeared in the sky, its infernal birth shone upon me. This was the start of a great transcendence.
+    Une nébuleuse apparut dans le ciel, sa naissance infernale brilla sur moi. Ce fut le début d'une grande transcendance.
 
-    Opens up the Path of Cosmos to you.
-    Allows you to transmute a sheet of glass and a knife into an Cosmic Blade.
-    You can only create two at a time.
+    Vous ouvre la Voie du Cosmos.
+    Vous permet de transmutuer une feuille de verre et un couteau en Lame Cosmique.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-cosmos-s2-name = Grasp of Cosmos
+knowledge-path-cosmos-s2-name = Emprise du Cosmos
 knowledge-path-cosmos-s2-desc =
-    Some stars dimmed, others' magnitude increased. With newfound strength I could channel the nebula's power into myself.
+    Certaines étoiles s'assombrirent, l'éclat d'autres augmenta. D'une force nouvelle, je pouvais canaliser le pouvoir de la nébuleuse en moi.
 
-    Your Mansus Grasp will give people a star mark (cosmic ring) and create a cosmic field where you stand.
-    People with a star mark can not pass cosmic fields.
+    Votre Emprise du Mansus marque les gens d'une marque stellaire (anneau cosmique) et crée un champ cosmique là où vous vous tenez.
+    Les gens marqués d'une marque stellaire ne peuvent pas traverser les champs cosmiques.
 
-knowledge-path-cosmos-s3-name = Cosmic Runes
+knowledge-path-cosmos-s3-name = Runes Cosmiques
 knowledge-path-cosmos-s3-desc =
-    The distant stars crept into my dreams, roaring and screaming without reason. I spoke, and heard my own words echoed back.
+    Les étoiles lointaines s'insinuèrent dans mes rêves, rugissant et hurlant sans raison. Je parlais, et j'entendais mes propres mots me revenir en écho.
 
-    Grants you Cosmic Runes, a spell that creates two runes linked with each other for easy teleportation.
-    Only the entity activating the rune will get transported, and it can be used by anyone without a star mark.
-    However, people with a star mark will get transported along with another person using the rune.
-    Heathens, who try to teleport using the runes, will be star marked on arrival.
+    Vous accorde Runes Cosmiques, un sort qui crée deux runes liées l'une à l'autre pour une téléportation facile.
+    Seule l'entité activant la rune sera transportée, et cela peut être utilisé par quiconque sans marque stellaire.
+    Cependant, les gens marqués d'une marque stellaire seront transportés avec une autre personne utilisant la rune.
+    Les infidèles qui tentent de se téléporter via les runes seront marqués stellaires à l'arrivée.
 
-knowledge-path-cosmos-s4-name = Mark of Cosmos
+knowledge-path-cosmos-s4-name = Marque du Cosmos
 knowledge-path-cosmos-s4-desc =
-    The Beast now whispered to me occasionally, only small tidbits of their circumstances. I can help them, I have to help them.
+    la Bête me chuchotait maintenant occasionnellement, seulement de petits fragments de sa situation. Je peux l'aider, je dois l'aider.
 
-    Your Mansus Grasp now applies the Mark of Cosmos. The mark is triggered from an attack with your Cosmic Blade.
-    When triggered, the victim is returned to the location where the mark was originally applied to them, leaving a cosmic field in their place.
-    They will then be paralyzed for 2 seconds.
-    Cosmic fields now speed you up and regenerate stamina.
+    Votre Emprise du Mansus applique désormais la Marque du Cosmos. La marque se déclenche lors d'une attaque avec votre Lame Cosmique.
+    Lorsqu'elle se déclenche, la victime est renvoyée à l'endroit où la marque lui a été appliquée à l'origine, laissant un champ cosmique à sa place.
+    Elle sera ensuite paralysée pendant 2 secondes.
+    Les champs cosmiques vous accélèrent maintenant et régénèrent votre endurance.
 
-knowledge-path-cosmos-s5-name = Star Touch
+knowledge-path-cosmos-s5-name = Touche Stellaire
 knowledge-path-cosmos-s5-desc =
-    After waking in a cold sweat I felt a palm on my scalp, a sigil burned onto me. My veins now emitted a strange purple glow, the Beast knows I will surpass its expectations.
+    En me réveillant en sueur froide, je sentis une paume sur mon crâne, un sigile brûlé sur moi. Mes veines émettaient maintenant une étrange lueur violette, la Bête sait que je surpasserai ses attentes.
 
-    Grants you Star Touch, a spell which places a star mark upon your target and creates a cosmic field at your feet and to the turfs next to you.
-    Targets which already have a star mark will be connected to you with a cosmic ray, giving them a cosmic trail and allowing you to hit them at range using your cosmic blade.
-    Tethered victims cannot teleport by any means.
-    If the tether remains unbroken for 8 seconds, they will be put to sleep, star marked and teleported to you.
+    Vous accorde Touche Stellaire, un sort qui place une marque stellaire sur votre cible et crée un champ cosmique à vos pieds et sur les cases adjacentes.
+    Les cibles ayant déjà une marque stellaire seront reliées à vous par un rayon cosmique, leur donnant une traînée cosmique et vous permettant de les frapper à distance avec votre lame cosmique.
+    Les victimes attachées ne peuvent se téléporter par aucun moyen.
+    Si l'attache reste intacte pendant 8 secondes, elles seront endormies, marquées stellaires et téléportées vers vous.
 
-knowledge-path-cosmos-s6-name = Star Blast
+knowledge-path-cosmos-s6-name = Explosion Stellaire
 knowledge-path-cosmos-s6-desc =
-    The Beast was behind me now at all times, with each sacrifice words of affirmation coursed through me.
+    La Bête était derrière moi en permanence maintenant, à chaque sacrifice des paroles d'affirmation me traversaient.
 
-    Fires a projectile that moves very slowly, raising a short-lived wall of cosmic fields where it goes.
-    When recasted, you will be teleported to the projectile, and cosmic fields will generate from your current position and from teleport locations, pulling nearby heathens into it.
+    Tire un projectile qui se déplace très lentement, élevant un mur éphémère de champs cosmiques sur son passage.
+    En le relançant, vous serez téléporté vers le projectile, et des champs cosmiques se formeront depuis votre position actuelle et les positions de téléportation, attirant les infidèles proches.
 
-knowledge-path-cosmos-s7-name = Cosmic Blade
+knowledge-path-cosmos-s7-name = Lame Cosmique
 knowledge-path-cosmos-s7-desc =
-    The Beast took my blades in their hand, I kneeled and felt a sharp pain. The blades now glistened with fragmented power. I fell to the ground and wept at the beast's feet.
+    La Bête prit mes lames dans sa main, je m'agenouillai et sentis une vive douleur. Les lames scintillaient maintenant d'un pouvoir fragmenté. Je tombai à terre et pleurai aux pieds de la Bête.
 
-    Your blade now star marks your victims, and allows you to attack star marked heathens from further away.
-    Your attacks will chain bonus damage to up to two previous victims.
-    The combo is reset after two seconds without making an attack, or if you attack someone already marked.
-    If you combo more than two attacks you will receive a cosmic trail and increase your combo timer up to ten seconds.
-    Cosmic fields now block explosions, disrupt grenades or signalers from being activated and turn off already primed grenades.
+    Votre marque désormais vos victimes d'une marque stellaire, et vous permet d'attaquer les infidèles marqués à plus longue distance.
+    Vos attaques enchaîneront des dégâts bonus sur jusqu'à deux victimes précédentes.
+    Le combo se réinitialise après deux secondes sans attaque, ou si vous attaquez quelqu'un déjà marqué.
+    Si vous enchaînez plus de deux attaques, vous recevrez une traînée cosmique et augmenterez votre minuteur de combo jusqu'à dix secondes.
+    Les champs cosmiques bloquent maintenant les explosions, perturbent l'activation des grenades ou signaliseurs et désamorcent les grenades déjà amorcées.
 
-knowledge-path-cosmos-s8-name = Cosmic Expansion
+knowledge-path-cosmos-s8-name = Expansion Cosmique
 knowledge-path-cosmos-s8-desc =
-    The ground now shook beneath me. The Beast inhabited me, and their voice was intoxicating.
+    Le sol tremblait maintenant sous moi. La Bête m'habitait, et sa voix était enivrante.
 
-    Grants you Cosmic Expansion, a spell that creates a 5x5 area of cosmic fields around you.
-    Nearby beings will also receive a star mark.
+    Vous accorde Expansion Cosmique, un sort qui crée une zone de 5x5 de champs cosmiques autour de vous.
+    Les êtres proches recevront également une marque stellaire.
 
-knowledge-path-cosmos-s9-name = Creators's Gift
+knowledge-path-cosmos-s9-name = Don du Créateur
 knowledge-path-cosmos-s9-desc =
-    The ascension ritual of the Path of Cosmos.
-    Bring 3 corpses with a star mark to a transmutation rune to complete the ritual.
-    When completed, you become the owner of a Star Gazer.
-    The Star Gazer is a strong ally who can even break down reinforced walls.
-    The Star Gazer has an aura that will heal you.
-    Star Touch can now teleport you to the Star Gazer when activated in your hand.
-    Your cosmic expansion spell and your blades also become greatly empowered.
-    You gain x-ray vision as well as immunity to extreme pressure and temperature.
-    Cosmic fields now slow projectiles down.
+    Le rituel d'ascension de la Voie du Cosmos.
+    Apportez 3 cadavres marqués stellaires à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, vous devenez le propriétaire d'un Contemplateur d'Étoiles.
+    Le Contemplateur d'Étoiles est un allié puissant capable même de démolir des murs renforcés.
+    Le Contemplateur d'Étoiles a une aura qui vous soignera.
+    Touche Stellaire peut maintenant vous téléporter vers le Contemplateur d'Étoiles quand activée dans votre main.
+    Votre sort d'expansion cosmique et vos lames deviennent aussi grandement renforcés.
+    Vous gagnez la vision aux rayons X ainsi que l'immunité aux pressions et températures extrêmes.
+    Les champs cosmiques ralentissent maintenant les projectiles.

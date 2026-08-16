@@ -5,89 +5,91 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-spellbook-mime-bundle-name = Mime Wizard Bundle
+spellbook-mime-bundle-name = Pack Sorcier Mime
 spellbook-mime-bundle-desc =
-    Contains a set of mime clothes, as well as mime PDA and special mime wizard hat and robes.
-    Cannot be refunded.
-    Warning: Purchasing this blocks the refund of Mime Malaise spell!
+    Contient un ensemble de vêtements de mime, ainsi qu'un PDA mime et un chapeau et des robes de sorcier mimes spéciaux.
+    Ne peut être remboursé.
+    Avertissement : L'achat bloque le remboursement du sort Malaises de Mime !
 
-spellbook-clown-bundle-name = Clown Wizard Bundle
+spellbook-clown-bundle-name = Pack Sorcier Clown
 spellbook-clown-bundle-desc =
-    Contains a set of clown clothes, as well as clown PDA and special clown wizard hat and robes.
-    Cannot be refunded.
-    Warning: Purchasing this blocks the refund of Banana Touch and Curse of the Cluwne spells!
+    Contient un ensemble de vêtements de clown, ainsi qu'un PDA clown et un chapeau et des robes de sorcier clowns spéciaux.
+    Ne peut être remboursé.
+    Avertissement : L'achat bloque le remboursement des sorts Toucher Banane et Malédiction du Cluwne !
 
-spellbook-oblivion-enforcer-name = Oblivion Enforcer Bundle
+spellbook-oblivion-enforcer-name = Pack Exécuteur de l'Oubli
 spellbook-oblivion-enforcer-desc =
-    Contains Oblivion Enforcer robes, a pair of insulated gloves and Oblivion Enforcer mask with integrated voice changer.
-    The Oblivion Order is an isolated clique of monks that revere supermatter. Oblivion Enforcers are how the Order imposes their will on the universe as a whole. By taking this bundle, you give up your identity and become a faceless hand of the Order.
-    Cannot be refunded.
-    You can get this bundle as many times as you have purchased Supermatter Halberd.
-    Warning: Purchasing this blocks the refund of Supermatter Halberd!
+    Contient des robes d'Exécuteur de l'Oubli, une paire de gants isolants et un masque d'Exécuteur de l'Oubli avec changement de voix intégré.
+    L'Ordre de l'Oubli est un groupe isolé de moines qui vénèrent le supermatière. Les Exécuteurs de l'Oubli sont comment l'Ordre impose sa volonté sur l'univers. En prenant ce pack, vous abandonnez votre identité et devenez une main sans visage de l'Ordre.
+    Ne peut être remboursé.
+    Vous pouvez obtenir ce pack autant de fois que vous avez acheté la Hallebarde de Supermatériau.
+    Avertissement : L'achat bloque le remboursement de la Hallebarde de Supermatériau !
 
-spellbook-tider-bundle-name = Tider Wizard Bundle
+spellbook-tider-bundle-name = Pack Sorcier Tider
 spellbook-tider-bundle-desc =
-    Contains an ancient jumpsuit, a pair of insulated gloves, a gas mask, gray winter coat and mantle as well as assistant PDA.
-    Cannot be refunded.
-    Buying this gives you Assistant faction and unlocks purchasing a special Grey Tide spear.
-    Warning: Purchasing this blocks the refund of Homing Toolbox spell!
+    Contient une combinaison ancienne, une paire de gants isolants, un masque à gaz, un manteau d'hiver gris et manteau ainsi qu'un PDA d'assistant.
+    Ne peut être remboursé.
+    L'achat vous donne la faction Assistant et débloque l'achat d'une lance Marée Grise spéciale.
+    Avertissement : L'achat bloque le remboursement du sort Boîte à Outils à Tête Chercheuse !
 
-spellbook-full-random-name = Full Random
+spellbook-full-random-name = Aléatoire Complet
 spellbook-full-random-desc =
-    Get 15 WizCoins worth of completely random spells. There's no going back.
-    Not recommended for newer wizards.
+    Obtenez 15 WizCoins de sorts complètement aléatoires. Pas de retour en arrière possible.
+    Non recommandé pour les sorciers débutants.
 
-spellbook-semi-random-name = Semi-Random
+spellbook-semi-random-name = Semi-Aléatoire
 spellbook-semi-random-desc =
-    Get 12 WizCoins worth of random spells. You are guaranteed to get at least some mobility and lethal spells though. There's no going back.
-    Not recommended for newer wizards.
+    Obtenez 12 WizCoins de sorts aléatoires. Vous êtes garanti d'obtenir au moins quelques sorts de mobilité et létaux. Pas de retour en arrière possible.
+    Non recommandé pour les sorciers débutants.
 
-spellbook-event-dimension-shift-name = Dimension Shift
+spellbook-event-dimension-shift-name = Déplacement Dimensionnel
 spellbook-event-dimension-shift-desc =
-    Shift dimensions of the target station, making space atmosphere safe for humanoid beings but still non-breathable. Useful if you are afraid of space, but this also prevents crew from dying to it as well.
-    This spell goes into effect immediately the moment you buy it.
-    Cannot be refunded.
-spellbook-event-global-tile-toggle-name = Global Tile Movement
-spellbook-event-global-tile-toggle-description = The station will not like this.
-spellbook-apprentice-name = Contract of Apprenticeship
+    Déplace les dimensions de la station cible, rendant l'atmosphère spatiale sans danger pour les êtres humanoïdes mais toujours irrespirable. Utile si vous avez peur de l'espace, mais cela empêche aussi l'équipage d'en mourir.
+    Ce sort prend effet immédiatement dès son achat.
+    Ne peut être remboursé.
+
+spellbook-event-global-tile-toggle-name = Mouvement Global de Cases
+spellbook-event-global-tile-toggle-description = La station n'aimera pas ça.
+
+spellbook-apprentice-name = Contrat d'Apprentissage
 spellbook-apprentice-desc =
-    A magical contract binding an apprentice wizard to your service, using it will summon them to your side.
-    Can only be purchased once.
+    Un contrat magique liant un apprenti sorcier à votre service, son utilisation l'invoquera à vos côtés.
+    Ne peut être acheté qu'une seule fois.
 
-    You can choose between 8 set of spells for your apprentice to learn:
-    Destruction: Fireball and Mutate.
-    Ethereal: Ethereal Jaunt and Teleport.
-    Summoning: Lesser Summon Bees and Summon Simians.
-    Gunslinger: Lesser Summon Guns, Smoke and Blink.
-    Arcane: Arcane Barrage, Charge and Instant Summons.
-    Sanguine: Scream For Me, Exsanguinating Strike and Instant Summons.
-    Robeless: Mind Swap, Force Wall and Knock.
-    Chaos: 6 WizCoins worth of random spells, except for Bind Soul and Soul Tap.
+    Vous pouvez choisir entre 8 ensembles de sorts pour votre apprenti :
+    Destruction : Boule de Feu et Muter.
+    Éthéré : Jaunt Éthéré et Téléportation.
+    Invocation : Invocation Mineure d'Abeilles et Invocation de Simiens.
+    Gunslinger : Invocation Mineure d'Armes, Fumée et Clignement.
+    Arcanique : Salve Arcanique, Charge et Invocation Instantanée.
+    Sanguin : Crie Pour Moi, Frappe Exsanguinante et Invocation Instantanée.
+    Sans Robe : Échange d'Esprit, Mur de Force et Frappe.
+    Chaos : 6 WizCoins de sorts aléatoires, sauf Lier l'Âme et Ponction d'Âme.
 
-spellbook-magical-lamp-name = Magical Lamp
+spellbook-magical-lamp-name = Lampe Magique
 spellbook-magical-lamp-desc =
-    A magical golden lamp, capable of binding a personal guardian to your body. The guardian will transfer some amount of damage to you.
-    It would be wise to avoid buying these with anything capable of causing you to swap bodies with others.
-    After hosting guardian you won't be able to change your species in wizard magic mirror.
-    Can only be purchased once.
-    Cannot be refunded.
+    Une lampe dorée magique, capable de lier un gardien personnel à votre corps. Le gardien transférera une partie des dégâts à vous.
+    Il serait sage d'éviter d'acheter ceci avec quoi que ce soit capable de vous faire échanger de corps avec d'autres.
+    Après avoir hébergé un gardien, vous ne pourrez pas changer d'espèce dans le miroir magique du sorcier.
+    Ne peut être acheté qu'une seule fois.
+    Ne peut être remboursé.
 
-spellbook-bottle-blood-name = Bottle of Blood
+spellbook-bottle-blood-name = Bouteille de Sang
 spellbook-bottle-blood-desc =
-    A bottle of magically infused blood, the smell of which will attract extradimensional beings when broken.
+    Une bouteille de sang magiquement imprégné, dont l'odeur attirera des êtres extra-dimensionnels quand elle sera brisée.
 
-    Be careful though, these creatures, called Slaughter Demons, are indiscriminate in their killing,
-    and you yourself may become a victim.
+    Faites attention cependant, ces créatures, appelées Démons du Massacre, sont indiscriminées dans leur tuerie,
+    et vous-même pourriez devenir une victime.
 
-    You need to shatter the bottle to unleash the slaughter demon.
-    Buying this and Hell Ripte Scroll unlocks purchasing a special slaughter demon heart.
+    Vous devez briser la bouteille pour libérer le démon du massacre.
+    L'achat de ceci et du Parchemin Hell Ripte débloque l'achat d'un cœur de démon du massacre spécial.
 
-spellbook-bottle-tickles-name = Bottle of Tickles
+spellbook-bottle-tickles-name = Bouteille de Chatouilles
 spellbook-bottle-tickles-desc =
-    A bottle of magically infused fun, the smell of which will attract adorable extradimensional beings when broken.
+    Une bouteille de fun magiquement imprégné, dont l'odeur attirera d'adorables êtres extra-dimensionnels quand elle sera brisée.
 
-    These beings are similar to slaughter demons, but instead put their victims in an extradimensional hugspace,
-    reviving them after the demon dies. Chaotic, but not ultimately damaging.
-    The crew's reaction on the other hand could be very destructive.
+    Ces êtres sont similaires aux démons du massacre, mais mettent plutôt leurs victimes dans un espace-câlin extradimensionnel,
+    les ranimant après la mort du démon. Chaotique, mais pas définitivement destructeur.
+    La réaction de l'équipage, par contre, pourrait être très destructive.
 
-    You need to shatter the bottle to unleash the laughter demon.
+    Vous devez briser la bouteille pour libérer le démon du rire.

@@ -1,12 +1,12 @@
-signal-port-name-vinyl-player = Vinyl player output
-signal-port-description-vinyl-player = The vinyl players music output, connect to the rig.
+signal-port-name-vinyl-player = Sortie du lecteur vinyle
+signal-port-description-vinyl-player = La sortie musicale du lecteur vinyle, connectez au contrôleur.
 
-signal-port-name-radio-rig = Radio rig input
-signal-port-description-radio-rig = The input of a radio rig, connect a vinyl player to this and then connect the rig to the radio server.
+signal-port-name-radio-rig = Entrée du contrôleur radio
+signal-port-description-radio-rig = L'entrée d'un contrôleur radio, connectez un lecteur vinyle ici puis connectez le contrôleur au serveur radio.
 
-signal-port-name-radio-server = Server input
-signal-port-description-radio-server = The input of the radio server, connect a radio rig to this to play music around the station!
+signal-port-name-radio-server = Entrée du serveur
+signal-port-description-radio-server = L'entrée du serveur radio, connectez un contrôleur radio ici pour diffuser de la musique dans toute la station !
 
-vinyl-popout-no-station = The vinyl ejects itself, you're not on a station!
-vinyl-popout-no-power = The vinyl ejects itself, the player isn't powered!
-vinyl-popout-no-radio-connection = The vinyl ejects itself, the player isn't connected to the radio system!
+vinyl-popout-no-station = Le vinyle s'éjecte, vous n'êtes pas sur une station !
+vinyl-popout-no-power = Le vinyle s'éjecte, le lecteur n'est pas alimenté !
+vinyl-popout-no-radio-connection = Le vinyle s'éjecte, le lecteur n'est pas connecté au système radio !

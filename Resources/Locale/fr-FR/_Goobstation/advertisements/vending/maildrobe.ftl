@@ -5,5 +5,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-advertisement-maildrobe-1 = Outrun any dog with our psuedo-suede duracarbon mail shorts! Limited supply!
-advertisement-maildrobe-2 = Blue looks good on you!
+advertisement-maildrobe-1 = Dépassez n'importe quel chien avec nos shorts de courrier en duracarbon pseudo-suède ! Stock limité !
+advertisement-maildrobe-2 = Le bleu vous va bien !

@@ -2,5 +2,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-marking-dogTail = Dog Tail
-marking-dogTailWag = Dog Tail(Wagging)
+marking-dogTail = Queue de chien
+marking-dogTailWag = Queue de chien (remuante)

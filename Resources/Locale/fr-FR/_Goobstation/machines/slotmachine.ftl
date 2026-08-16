@@ -1,23 +1,23 @@
-slotmachine-verb = Spin
-slotmachine-message = Pull the lever and test your luck on the slot machine!
+slotmachine-verb = Tourner
+slotmachine-message = Tirez le levier et testez votre chance sur la machine à sous !
 
-slotmachine-no-money = Not enough money!
+slotmachine-no-money = Pas assez d'argent !
 
-slotmachine-win-normal = Congrats, you have won {$amount} spesos!
-slotmachine-win-jackpot = CONGRATULATIONS, YOU HIT THE JACKPOT!!
-slotmachine-win-godpot = ERROR INTERGER OVERFLOW, DISPENSING "GODPOT"
+slotmachine-win-normal = Félicitations, vous avez gagné {$amount} spesos !
+slotmachine-win-jackpot = FÉLICITATIONS, VOUS AVEZ TOUCHÉ LE JACKPOT !
+slotmachine-win-godpot = ERREUR DÉBORDEMENT ENTIER, DISTRIBUTION DU "GODPOT"
 
-wires-board-name-slot-machine = Slot Machine
+wires-board-name-slot-machine = Machine à Sous
 
-advertisement-slotmachine-1 = You can only lose so much!
-advertisement-slotmachine-2 = Gambling is a disease, but it's the only disease where you can win a bunch of money!
-advertisement-slotmachine-3 = ONE MORE SPIN!!
-advertisement-slotmachine-4 = Ignore rehab, they just don't want you to see you succeed!
-advertisement-slotmachine-5 = One more game, then you can quit!
-advertisement-slotmachine-6 = Step right up and give me a spin!
+advertisement-slotmachine-1 = Vous ne pouvez pas perdre plus que ça !
+advertisement-slotmachine-2 = Le jeu est une maladie, mais c'est la seule maladie où vous pouvez gagner un paquet d'argent !
+advertisement-slotmachine-3 = ENCORE UN TOUR !!
+advertisement-slotmachine-4 = Ignorez la cure, ils ne veulent juste pas vous voir réussir !
+advertisement-slotmachine-5 = Une dernière partie, puis vous pourrez arrêter !
+advertisement-slotmachine-6 = Approchez et donnez-moi un tour !
 
-coinflipper-win = Winner! You won {$amount} spesos!
+coinflipper-win = Gagnant ! Vous avez gagné {$amount} spesos !
 
-clawmachine-fail-self = You mess up and drop the plushie!
-clawmachine-fail-other = {$user} messes up and drops the plushie!
-clawmachine-fail-generic = The plushie falls out of the claw, how disappointing...
+clawmachine-fail-self = Vous bafouillez et faites tomber la peluche !
+clawmachine-fail-other = {$user} bafouille et fait tomber la peluche !
+clawmachine-fail-generic = La peluche tombe de la pince, quelle déception...

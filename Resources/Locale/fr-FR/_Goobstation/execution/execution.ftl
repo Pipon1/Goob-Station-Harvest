@@ -1,10 +1,17 @@
-execution-popup-gun-initial-internal = You ready the muzzle of {THE($weapon)} against {$victim}'s head.
-execution-popup-gun-initial-external = {$attacker} readies the muzzle of {THE($weapon)} against {$victim}'s head.
-execution-popup-gun-complete-internal = You blast {$victim} in the head!
-execution-popup-gun-complete-external = {$attacker} blasts {$victim} in the head!
-execution-popup-gun-empty = {CAPITALIZE(THE($weapon))} clicks.
+# SPDX-FileCopyrightText: 2024 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
-suicide-popup-gun-initial-internal = You place the muzzle of {THE($weapon)} in your mouth.
-suicide-popup-gun-initial-external = {$attacker} places the muzzle of {THE($weapon)} in {POSS-ADJ($attacker)} mouth.
-suicide-popup-gun-complete-internal = You shoot yourself in the head!
-suicide-popup-gun-complete-external = {$attacker} shoots {REFLEXIVE($attacker)} in the head!
+execution-popup-gun-initial-internal = Vous pointez le canon de {THE($weapon)} contre la tête de {$victim}.
+execution-popup-gun-initial-external = {$attacker} pointe le canon de {THE($weapon)} contre la tête de {$victim}.
+execution-popup-gun-complete-internal = Vous faites exploser la tête de {$victim} !
+execution-popup-gun-complete-external = {$attacker} fait exploser la tête de {$victim} !
+execution-popup-gun-empty = {CAPITALIZE(THE($weapon))} clique.
+
+suicide-popup-gun-initial-internal = Vous mettez le canon de {THE($weapon)} dans votre bouche.
+suicide-popup-gun-initial-external = {$attacker} met le canon de {THE($weapon)} dans {POSS-ADJ($attacker)} bouche.
+suicide-popup-gun-complete-internal = Vous vous tirez une balle dans la tête !
+suicide-popup-gun-complete-external = {$attacker} se tire une balle dans la tête !

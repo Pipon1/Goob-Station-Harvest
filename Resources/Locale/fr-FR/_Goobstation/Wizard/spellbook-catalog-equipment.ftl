@@ -5,111 +5,111 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-spellbook-scrying-orb-name = Scrying Orb
+spellbook-scrying-orb-name = Orbe de Scrutation
 spellbook-scrying-orb-desc =
-    An incandescent orb of crackling energy, using it will allow you to ghost while alive, allowing you to spy upon the station with ease. In addition, holding it in your hand or in your pocket will grant you x-ray vision.
+    Un orbe incandescent d'énergie crépitante, son utilisation vous permet de devenir un fantôme en étant vivant, vous permettant d'espionner la station aisément. De plus, le tenir en main ou dans votre poche vous accorde la vision rayons X.
 
-spellbook-spellblade-name = Spellblade
+spellbook-spellblade-name = Lamesort
 spellbook-spellblade-desc =
-    A magical sword that can be enchanted by using it in hand to have a unique on-hit effect.
+    Une épée magique qui peut être enchantée en l'utilisant en main pour avoir un effet unique au coup.
 
-    Lighting: arcs electricity between nearby targets, stunning and damaging them.
-    Fire: ignites nearby targets on hit, and makes the wielder immune to fire.
-    Bluespace: allows you to teleport a long distance, knocking down targets in a small radius around teleport location.
-    Forceshield: on hit, makes you stun immune for 5 seconds and reduces brute and heat damage by half.
-    Spacetime: will slice faster but weaker and will curse the target, slashing them a few seconds after they have not been swung at for each hit.
+    Foudre : fait des arcs électriques entre les cibles proches, les étourdissant et les blessant.
+    Feu : enflamme les cibles proches au coup, et rend le porteur immunisé au feu.
+    Bluespace : permet de se téléporter sur une longue distance, renversant les cibles dans un petit rayon autour du lieu de téléportation.
+    Bouclier de force : au coup, vous rend immunisé aux étourdissements pendant 5 secondes et réduit les dégâts bruts et de chaleur de moitié.
+    Espace-temps : tranche plus vite mais plus faiblement et maudit la cible, la tranchant quelques secondes après qu'elle n'ait pas été attaquée pour chaque coup.
 
-spellbook-everfull-mug-name = Everfull Mug
+spellbook-everfull-mug-name = Chochoir Infini
 spellbook-everfull-mug-desc =
-    A magical mug that can be filled with omnizine at will. Great source of healing.
+    Une chope magique qui peut être remplie d'omnizine à volonté. Excellente source de soin.
 
-spellbook-echo-katana-name = Echo Katana
+spellbook-echo-katana-name = Katana Écho
 spellbook-echo-katana-desc =
-    Modified Spider Clan energy katana, imbued with hyper-sonic magic. Able to dash a decent distance, slicing anyone on your path. Can't dash while lying down.
+    Katana énergétique du Clan Araignée modifié, imprégné de magie hyper-sonique. Permet de foncer sur une distance décente, tranchant quiconque sur votre passage. Impossible de foncer allongé.
 
-spellbook-skates-name = Wizard Skates
+spellbook-skates-name = Patins de Sorcier
 spellbook-skates-desc =
-    A pair of roller skates that greatly increase your movement speed.
-    These skates are imbued with collision protection magic so you don't have to worry about hitting obstacles.
+    Une paire de patins à roulettes qui augmentent grandement votre vitesse de déplacement.
+    Ces patins sont imprégnés de magie de protection contre les collisions donc vous n'avez pas à vous soucier des obstacles.
 
-spellbook-hardsuit-name = Mastercrafted Armor Set
+spellbook-hardsuit-name = Ensemble d'Armure de Maître
 spellbook-hardsuit-desc =
-    An artefact suit of armor that allows you to cast spells while providing more protection against attacks and the void of space.
-    Cannot be refunded.
+    Une armure d'artefact qui vous permet de lancer des sorts tout en offrant plus de protection contre les attaques et le vide spatial.
+    Ne peut être remboursé.
 
-spellbook-paper-robe-name = Papier-Mâché Robes
+spellbook-paper-robe-name = Robes en Papier-Mâché
 spellbook-paper-robe-desc =
-    Special wizard robes that allow the user to summon angry stick minions to aid them in battle
+    Robes de sorcier spéciales permettant à l'utilisateur d'invoquer des sbires en bois en colère pour l'aider au combat.
 
-spellbook-high-freq-name = High Frequency Blade
+spellbook-high-freq-name = Lame Haute Fréquence
 spellbook-high-freq-desc =
-    An incredibly swift enchanted blade resonating at a frequency high enough to be able to slice through anything.
-    Deals triple damage on light attack. Reflects lasers and bullets. Easily delimbs. Blocks thrown projectiles and bolas.
+    Une lame enchantée incroyablement rapide résonnant à une fréquence assez élevée pour pouvoir trancher n'importe quoi.
+    Inflige triple dégâts en attaque légère. Réfléchit lasers et balles. Delimb facilement. Bloque les projectiles et bolas lancés.
 
-spellbook-sm-halberd-name = Supermatter Halberd
+spellbook-sm-halberd-name = Hallebarde de Supermatériau
 spellbook-sm-halberd-desc =
-    Powerful two-handed halberd, used by Oblivion Enforcers, able to knockdown targets on light attack as well as easily ash walls, windows, doors and fallen enemies.
-    Purchasing this allows you to get magical Oblivion Enforcer equipment for free!
+    Puissante hallebarde à deux mains, utilisée par les Exécuteurs de l'Oubli, capable de renverser les cibles en attaque légère ainsi que de réduire en cendres murs, fenêtres, portes et ennemis à terre.
+    L'acheter vous permet d'obtenir gratuitement de l'équipement magique d'Exécuteur de l'Oubli !
 
-spellbook-staff-healing-name = Staff of Healing
+spellbook-staff-healing-name = Bâton de Soin
 spellbook-staff-healing-desc =
-    An altruistic staff that can heal the lame and raise the dead.
-    Effects are reversed on the undead, the staff would instantly kill them instead.
-    Automatically recharges once every 8 seconds.
+    Un bâton altruiste qui peut guérir les boiteux et ressusciter les morts.
+    Les effets sont inversés sur les morts-vivants, le bâton les tuerait instantanément à la place.
+    Se recharge automatiquement toutes les 8 secondes.
 
-spellbook-staff-change-name = Staff of Change
+spellbook-staff-change-name = Bâton de Changement
 spellbook-staff-change-desc =
-    An artefact that spits bolts of coruscating energy which cause the target's very form to reshape itself.
-    Automatically recharges once every 8 seconds.
+    Un artefact qui crache des éclairs d'énergie scintillante qui forcent la forme même de la cible à se remodeler.
+    Se recharge automatiquement toutes les 8 secondes.
 
-spellbook-staff-chaos-name = Staff of Chaos
+spellbook-staff-chaos-name = Bâton du Chaos
 spellbook-staff-chaos-desc =
-    A caprious tool that can fire all sorts of magic without any rhyme or reason. Using it on people you care about is not recommended.
-    Automatically recharges once every 2 seconds.
+    Un outil capricieux qui peut tirer toutes sortes de magie sans rime ni raison. L'utiliser sur des gens qui vous tiennent à cœur n'est pas recommandé.
+    Se recharge automatiquement toutes les 2 secondes.
 
-spellbook-staff-slipping-name = Staff of Slipping
+spellbook-staff-slipping-name = Bâton de Glissade
 spellbook-staff-slipping-desc =
-    A staff that shoots magical bananas. These bananas will either slip or stun the target when hit. Surprisingly reliable!
-    Make sure you don't step on the bananas yourself!
-    Automatically recharges once every 4 seconds.
+    Un bâton qui tire des bananes magiques. Ces bananes feront soit glisser soit étourdir la cible au contact. Étonnamment fiable !
+    Assurez-vous de ne pas marcher vous-même sur les bananes !
+    Se recharge automatiquement toutes les 4 secondes.
 
-spellbook-wand-name = Magic Wand
+spellbook-wand-name = Baguette Magique
 spellbook-wand-desc =
-    The iconic wizard's wand. Has 14 different magical firing modes, activate it to change them.
-    Only wizards and their apprentices can change wand firing mode.
-    Can be used on yourself.
-    Wand is more compact compared to staves but doesn't recharge automatically.
+    La baguette iconique du sorcier. A 14 modes de tir magiques différents, activez-la pour les changer.
+    Seuls les sorciers et leurs apprentis peuvent changer le mode de tir de la baguette.
+    Peut être utilisée sur soi-même.
+    La baguette est plus compacte que les bâtons mais ne se recharge pas automatiquement.
 
-spellbook-ninjutsu-name = Ninjutsu Scroll
+spellbook-ninjutsu-name = Parchemin de Ninjutsu
 spellbook-ninjutsu-desc =
-    A scroll that teaches one Ninjutsu, a martial art and set of tactics used by ninja in feudal Japan.
-    Cannot be refunded.
+    Un parchemin qui enseigne un Ninjutsu, un art martial et un ensemble de tactiques utilisées par les ninjas au Japon féodal.
+    Ne peut être remboursé.
 
-spellbook-hell-rip-name = Hell Ripte Scroll
+spellbook-hell-rip-name = Parchemin Hell Ripte
 spellbook-hell-rip-desc =
-    A scroll that teaches one Hell Ripte, a martial art and set of tactics used by Slaughter Demons.
-    Buying this and Bottle of Blood unlocks purchasing a special slaughter demon heart.
-    Cannot be refunded.
+    Un parchemin qui enseigne un Hell Ripte, un art martial et un ensemble de tactiques utilisées par les Démons du Massacre.
+    Acheter ceci et une Bouteille de Sang débloque l'achat d'un cœur de démon du massacre spécial.
+    Ne peut être remboursé.
 
-spellbook-demon-heart-name = Heart of the Demon
+spellbook-demon-heart-name = Cœur du Démon
 spellbook-demon-heart-desc =
-    Upon use, implants itself in your body, granting you slaughter demon blood crawl demonic whisper and the ability to devour bodies to regenerate health.
-    Cannot be refunded.
+    Une fois utilisé, s'implante dans votre corps, vous accordant la progression sanguine de démon du massacre, le murmure démoniaque et la capacité de dévorer des corps pour régénérer de la santé.
+    Ne peut être remboursé.
 
-spellbook-staff-animate-name = Staff of Animation
+spellbook-staff-animate-name = Bâton d'Animation
 spellbook-staff-animate-desc =
-    An arcane staff capable of infusing eldritch energy on contact which cause inanimate objects to come to life.
+    Un bâton arcanique capable d'infuser de l'énergie eldritch au contact, ce qui fait prendre vie aux objets inanimés.
 
 spellbook-hammer-mjollnir-name = Mjollnir
 spellbook-hammer-mjollnir-description =
-    A mighty hammer on loan from Thor, God of Thunder. It crackles with barely contained power.
+    Un marteau puissant prêté par Thor, Dieu du Tonnerre. Il crépite d'une puissance à peine contenue.
 
-spellbook-hammer-singularity-name = Singularity Hammer
+spellbook-hammer-singularity-name = Marteau à Singularité
 spellbook-hammer-singularity-description =
-    A hammer that creates an intensely powerful field of gravity where it strikes, pulling everything nearby to the point of impact.
+    Un marteau qui crée un champ de gravité intensément puissant là où il frappe, attirant tout ce qui est proche vers le point d'impact.
 
-spellbook-crate-of-enchanting-name = Crate of Enchanting
+spellbook-crate-of-enchanting-name = Caisse d'Enchantement
 spellbook-crate-of-enchanting-description =
-    A crate of stolen anomaly cores, summoned by arcane power.
-    Used for enchanting your gear to be even more powerful!
-    The selection is random and may be effectively useless. No refunds!
+    Une caisse de cœurs d'anomalie volés, invoqués par la puissance arcanique.
+    Utilisée pour enchanter votre équipement pour le rendre encore plus puissant !
+    La sélection est aléatoire et peut être effectivement inutile. Pas de remboursement !

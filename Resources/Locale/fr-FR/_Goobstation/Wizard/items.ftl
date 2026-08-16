@@ -4,21 +4,21 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ensouled-item-name = ensouled {$item}
-ensouled-item-desc = [color=darkred]A terrible aura surrounds this item, its very existence is offensive to life itself...[/color]
+ensouled-item-name = {$item} ensorcelé
+ensouled-item-desc = [color=darkred]Une aura terrible entoure cet objet, son existence même est une offense à la vie...[/color]
 
-delete-on-drop-attempt-comp-examine = Drop this item to get rid of it.
+delete-on-drop-attempt-comp-examine = Lâchez cet objet pour vous en débarrasser.
 
-enchanted-rifle-guns-left = Guns left: [color=yellow]{$guns}[/color].
+enchanted-rifle-guns-left = Armes restantes : [color=yellow]{$guns}[/color].
 
-teleport-scroll-uses-left = Uses left: [color=yellow]{$uses}[/color].
-teleport-scroll-no-charges = The scroll runs out of uses and crumbles to dust!
+teleport-scroll-uses-left = Utilisations restantes : [color=yellow]{$uses}[/color].
+teleport-scroll-no-charges = Le parchemin a épuisé ses utilisations et se désintègre en poussière !
 
-sanguine-strike-end = {CAPITALIZE($item)} seems to lose its red glow.
-sanguine-strike-examine = [color=#c41515]This weapon is empowered by sanguine magic.[/color]
+sanguine-strike-end = {CAPITALIZE($item)} semble perdre son éclat rouge.
+sanguine-strike-examine = [color=#c41515]Cette arme est renforcée par la magie sanguine.[/color]
 
-scrying-orb-verb-message = Enter the realm of the dead
-scrying-orb-verb-text = Activate the orb
+scrying-orb-verb-message = Entrez dans le royaume des morts
+scrying-orb-verb-text = Activer l'orbe
 
-wizard-mirror-guardian-change-species-fail = You can't change your species after hosting guardian!
-wizard-mirror-blood-crawl-change-species-fail = You can't change your species after using demonic heart!
+wizard-mirror-guardian-change-species-fail = Vous ne pouvez pas changer d'espèce après avoir hébergé le gardien !
+wizard-mirror-blood-crawl-change-species-fail = Vous ne pouvez pas changer d'espèce après avoir utilisé le cœur démoniaque !

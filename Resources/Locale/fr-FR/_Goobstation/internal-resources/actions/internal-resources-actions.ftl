@@ -1,8 +1,8 @@
-internal-resources-debug-name = debug resource
-internal-resources-debug-desc = debug resource desc
+internal-resources-debug-name = ressource de débogage
+internal-resources-debug-desc = description de ressource de débogage
 
-internal-resources-chemicals-name = chemicals
-internal-resources-chemicals-desc = Chemical reserves used for changeling abilities.
+internal-resources-chemicals-name = produits chimiques
+internal-resources-chemicals-desc = Réserves de produits chimiques utilisées pour les capacités de changeforms.
 
-internal-resources-biomass-name = biomass
-internal-resources-biomass-desc = Stored biomass reserves, born from a changeling's awakened deep instincts.
+internal-resources-biomass-name = biomasse
+internal-resources-biomass-desc = Réserves de biomasse stockées, nées des instincts profonds éveillés d'un changeform.

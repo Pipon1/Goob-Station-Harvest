@@ -22,69 +22,69 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-blade-s1-name = The Cutting Edge
+knowledge-path-blade-s1-name = Le Fil du Rasoir
 knowledge-path-blade-s1-desc =
-    Our great ancestors forged swords and practiced sparring on the eve of great battles.
+    Nos grands ancêtres forgèrent des épées et s'entraînèrent à l'escrime à la veille des grandes batailles.
 
-    Follow the path of blades.
-    Transmute two knives into a sundered blade.
-    You can create up to four at a time.
+    Suivez la voie des lames.
+    Transmutez deux couteaux en lame brisée.
+    Vous pouvez en créer jusqu'à quatre à la fois.
 
-knowledge-path-blade-s2-name = Grasp of the Blade
+knowledge-path-blade-s2-name = Emprise de la Lame
 knowledge-path-blade-s2-desc =
-    The story of the footsoldier has been told since antiquity. It is one of blood and valor, and is championed by sword, steel and silver.
+    L'histoire du fantassin se raconte depuis l'Antiquité. C'est une histoire de sang et de vaillance, championnée par l'épée, l'acier et l'argent.
 
-    Your Mansus Grasp will cause a short stun when used on someone lying down or facing away from you.
+    Votre Emprise du Mansus provoquera un étourdissement court si utilisée sur quelqu'un allongé ou tournant le dos.
 
-knowledge-path-blade-s3-name = Dance of the Brand
+knowledge-path-blade-s3-name = Danse du Fer
 knowledge-path-blade-s3-desc =
-    The footsoldier was known to be a fearsome duelist. Their general quickly appointed them as their personal Champion.
+    Le fantassin était connu comme un duelliste redoutable. Leur général les nomma rapidement Champion personnel.
 
-    Being attacked while wielding a Heretic Blade in either hand will deliver a riposte towards your attacker, knocking them down. This effect can only trigger once every 20 seconds.
+    Être attaqué en tenant une Lame d'Hérétique dans l'une ou l'autre main déclenchera une riposte vers votre agresseur, le jetant à terre. Cet effet ne peut se déclencher qu'une fois toutes les 20 secondes.
 
-knowledge-path-blade-s4-name = Mark of the Blade
+knowledge-path-blade-s4-name = Marque de la Lame
 knowledge-path-blade-s4-desc =
-    His general wished to end the war, but the Champion knew there could be no life without death. He would slay the coward himself, and anyone who tried to run.
+    Son général souhaitait mettre fin à la guerre, mais le Champion savait qu'il n'y a point de vie sans mort. Il occirait le lâche lui-même, et quiconque tenterait de fuir.
 
-    Your Mansus Grasp now applies the Mark of the Blade.
-    Triggering the mark will summon a knife that will orbit you for a short time.
-    The knife will block any attack directed towards you, but is consumed on use.
+    Votre Emprise du Mansus applique désormais la Marque de la Lame.
+    Déclencher la marque invoquera un couteau qui orbitera autour de vous brièvement.
+    Le couteau bloquera toute attaque dirigée vers vous, mais sera consommé à l'usage.
 
-knowledge-path-blade-s5-name = Realignment
+knowledge-path-blade-s5-name = Réalignement
 knowledge-path-blade-s5-desc =
-    In the flurry of death, he found peace within himself. Despite insurmountable odds, he forged on.
+    Dans la tourmente de la mort, il trouva la paix en lui-même. Malgré des obstacles insurmontables, il continua.
 
-    Grants you Realignment a spell that wil realign your body rapidly for a short period.
-    During this process, you will rapidly regenerate stamina and quickly recover from stuns, however, you will be unable to attack.
+    Vous accorde Réalignement, un sort qui réalignera votre corps rapidement pour une courte période.
+    Durant ce processus, vous régénérerez rapidement de l'endurance et récupérerez vite des étourdissements, mais vous ne pourrez pas attaquer.
 
-knowledge-path-blade-s6-name = Stance of the Torn Champion
+knowledge-path-blade-s6-name = Posture du Champion Déchiré
 knowledge-path-blade-s6-desc =
-    In time, it was he who stood alone among the bodies of his former comrades, awash in blood, none of it his own. He was without rival, equal, or purpose.
+    Avec le temps, ce fut lui qui se tenait seul parmi les corps de ses anciens compagnons, baigné de sang, nul n'étant le sien. Il n'avait ni rival, ni égal, ni but.
 
-    Grants immunity to having your limbs dismembered, as well as resistance to bloodloss and damage slowdown.
-    Additionally, when damaged below 50% of your maximum health, you gain increased resistance to gaining wounds and resistance to batons.
+    Confère l'immunité au démembrement, ainsi qu'une résistance aux saignements et au ralentissement par les dégâts.
+    De plus, lorsque vos points de vie tombent sous 50 % du maximum, vous gagnez une résistance accrue aux blessures et aux matraques.
 
-knowledge-path-blade-s7-name = Empowered Blades
+knowledge-path-blade-s7-name = Lames Puissantes
 knowledge-path-blade-s7-desc =
-    I found him cleaved in twain, halves locked in a duel without end; a flurry of blades, neither hitting their mark, for the Champion was indomitable.
+    Je le trouvai fendu en deux, les moitiés enfermées dans un duel sans fin ; une flambée de lames, aucune n'atteignant sa cible, car le Champion était indomptable.
 
-    Attacking someone with a Sundered Blade in both hands will now deliver a blow with both at once, dealing two attacks in rapid succession.
-    The second blow will be slightly weaker.
-    You are able to infuse your mansus grasp directly into your blades, and your blades are more effective against structures.
+    Attaquer quelqu'un avec une Lame Brisée dans chaque main porte désormais un coup avec les deux à la fois, infligeant deux attaques en succession rapide.
+    Le second coup sera légèrement plus faible.
+    Vous pouvez infuser votre emprise du Mansus directement dans vos lames, et vos lames sont plus efficaces contre les structures.
 
-knowledge-path-blade-s8-name = Furious Steel
+knowledge-path-blade-s8-name = Acier Furieux
 knowledge-path-blade-s8-desc =
-    Without thinking, I took the knife of a fallen soldier and threw with all my might. My aim was true! The Torn Champion smiled at their first taste of agony, and with a nod, their blades became my own.
+    Sans réfléchir, je pris le couteau d'un soldat tombé et le lançai de toutes mes forces. Mon viseur était vrai ! Le Champion Déchiré sourit à sa première rencontre avec l'agonie, et d'un hochement de tête, ses lames devinrent les miennes.
 
-    Grants you Furious Steel, a targeted spell. Using it will summon three orbiting blades around you. These blades will protect you from all attacks, but are consumed on use.
-    Additionally, you can click on the blade or on yourself to fire the blades at a nearest target, dealing heavy damage.
+    Vous accorde Acier Furieux, un sort ciblé. Son utilisation invoquera trois lames orbitant autour de vous. Ces lames vous protégeront de toutes les attaques, mais seront consommées à l'usage.
+    De plus, vous pouvez cliquer sur la lame ou sur vous-même pour la tirer vers la cible la plus proche, infligeant de lourds dégâts.
 
-knowledge-path-blade-s9-name = Maelstrom of Silver
+knowledge-path-blade-s9-name = Maelström d'Argent
 knowledge-path-blade-s9-desc =
-    The ascension ritual of the Path of Blades.
-    Bring 3 headless corpses to a transmutation rune to complete the ritual.
-    When completed, you will be surrounded in a constant, regenerating orbit of blades.
-    These blades will protect you from all attacks, but are consumed on use.
-    Your Furious Steel spell will also have a shorter cooldown.
-    Additionally, you become a master of combat, gaining the ability to waltz over slippery surfaces.
-    Your Sundered Blades will deal bonus damage and heal you on attack for a portion of the damage dealt.
+    Le rituel d'ascension de la Voie des Lames.
+    Apportez 3 cadavres décapités à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, vous serez entouré d'une orbite constante et régénérante de lames.
+    Ces lames vous protégeront de toutes les attaques, mais seront consommées à l'usage.
+    Votre sort Acier Furieux aura également un temps de recharge plus court.
+    De plus, vous devenez un maître du combat, gagnant la capacité de danser sur les surfaces glissantes.
+    Vos Lames Brisées infligeront des dégâts supplémentaires et vous soigneront lors de l'attaque d'une portion des dégâts infligés.

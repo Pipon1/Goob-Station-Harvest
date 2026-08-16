@@ -7,7 +7,7 @@
 time-transfer-panel-title = Transfert de temps
 time-transfer-panel-player-label = Joueur
 time-transfer-panel-time = Temps
-time-transfer-panel-add-time = Ajouter du temps 
+time-transfer-panel-add-time = Ajouter du temps
 time-transfer-panel-set-time = Définir le temps
 time-transfer-panel-set-time-confirm = Confirmer
 time-transfer-panel-warning-no-player = Aucun joueur sélectionné
@@ -21,11 +21,9 @@ time-transfer-overall-checkbox = Total
 time-transfer-panel-search-placeholder = Chercher les rôles
 
 
-cmd-timetransferpanel-desc = Opens time transfer menu
-admin-player-actions-window-time-transfer = Time Transfer
-time-transfer-panel-no-player-database-message = Player not found in database
+cmd-timetransferpanel-desc = Ouvre le menu de transfert de temps
+admin-player-actions-window-time-transfer = Transfert de temps
+time-transfer-panel-no-player-database-message = Joueur introuvable dans la base de données
 
 # Please change it if you really-really need to do it
 time-transfer-panel-author = Made by BombasterDS for Goobstation
-
-# à retraduire

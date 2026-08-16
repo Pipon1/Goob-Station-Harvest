@@ -22,72 +22,72 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-lock-s1-name = A Steward's Secret
+knowledge-path-lock-s1-name = Secret d'un Intendant
 knowledge-path-lock-s1-desc =
-    The Locked Labyrinth leads to freedom. But only the trapped Stewards know the correct path.
+    Le Labyrinthe Verrouillé mène à la liberté. Mais seuls les Intendants piégés connaissent le bon chemin.
 
-    Opens up the Path of Lock to you.
-    Allows you to transmute a knife and a crowbar into a Key Blade.
-    You can only create two at a time and they function as fast crowbars.
-    In addition, they can fit into utility belts.
+    Vous ouvre la Voie du Verrou.
+    Vous permet de transmutuer un couteau et un pied-de-biche en Lame Clé.
+    Vous ne pouvez en créer que deux à la fois et elles fonctionnent comme des pieds-de-biche rapides.
+    De plus, elles peuvent tenir dans les ceintures utilitaires.
 
-knowledge-path-lock-s2-name = Grasp of Lock
+knowledge-path-lock-s2-name = Emprise du Verrou
 knowledge-path-lock-s2-desc =
-    Nothing may remain closed from my touch.
+    Rien ne peut rester fermé face à mon toucher.
 
-    Your mansus grasp allows you to access anything! Right click on an airlock or a locker to force it open.
-    All locks will break. Any mech pilot will be instantly ejected. Consoles will break.
-    Makes a distinctive knocking sound on use.
+    Votre emprise du Mansus vous permet d'accéder à n'importe quoi ! Clic droit sur une porte étanche ou un casier pour le forcer à s'ouvrir.
+    Toutes les serrures se briseront. Tout pilote de mécha sera éjecté instantanément. Les consoles se briseront.
+    Émet un bruit de frappement distinctif à l'usage.
 
-knowledge-path-lock-s3-name = Key Keeper's Burden
+knowledge-path-lock-s3-name = Fardeau du Gardien des Clés
 knowledge-path-lock-s3-desc =
-    The Keeper sneered. These plastic rectangles are a mockery of keys, and I curse every door that desires them.
+    Le Gardien ricana. Ces rectangles de plastique sont une moquerie des clés, et je maudis chaque porte qui les désire.
 
-    Allows you to use your mansus grasp on an ID card to transform it into an Eldritch Card.
-    Hit a pair of airlocks with it to create a pair of portals, which will teleport you between them, but teleport non-heretics randomly.
-    Each card may only sustain a single pair of portals at the same time.
-    It also functions and appears the same as a regular ID Card.
-    Attacking a normal ID card with it consumes the card and gains its access.
-    Does not preserve the originally used card.
+    Vous permet d'utiliser votre emprise du Mansus sur une carte d'identité pour la transformer en Carte Indicible.
+    Frappez une paire de portes étanches avec pour créer une paire de portails, qui vous téléportera entre eux, mais téléportera les non-hérétiques au hasard.
+    Chaque carte ne peut maintenir qu'une seule paire de portails à la fois.
+    Elle fonctionne et apparaît également comme une carte d'identité normale.
+    Attaquer une carte d'identité normale avec la consume et vous octroie son accès.
+    Ne conserve pas la carte utilisée à l'origine.
 
-knowledge-path-lock-s4-name = Mark of Lock
+knowledge-path-lock-s4-name = Marque du Verrou
 knowledge-path-lock-s4-desc =
-    The Gatekeeper was a corrupt Steward. She hindered her fellows for her own twisted amusement.
+    Le Gardien de Porte était un Intendant corrompu. Elle entravait ses pairs pour son propre amusement tordu.
 
-    Your Mansus Grasp now applies the Mark of Lock.
-    Attack a marked person to bar them from all passages for the duration of the mark.
-    This will make it so that they have no access whatsoever, even public access doors will reject them.
+    Votre Emprise du Mansus applique désormais la Marque du Verrou.
+    Attaquez une personne marquée pour lui interdire tout passage pendant la durée de la marque.
+    Cela aura pour effet qu'elle n'aura aucun accès, pas même aux portes à accès public qui la rejetteront.
 
-knowledge-path-lock-s6-name = Concierge's Rite
+knowledge-path-lock-s6-name = Rite du Concierge
 knowledge-path-lock-s6-desc =
-    The Concierge scribbled my name into the Handbook. Welcome to your new home, fellow Steward.
+    Le Concierge gribouilla mon nom dans le Manuel. Bienvenue dans votre nouvelle demeure, confrère Intendant.
 
-    Allows you to transmute a stick of chalk, a wooden plank, and a multitool to create a Labyrinth Handbook.
-    It can materialize a barricade at range that only you and people resistant to magic can pass. Has limited uses.
+    Vous permet de transmutuer un bâton de craie, une planche de bois et un multitool pour créer un Manuel du Labyrinthe.
+    Il peut matérialiser une barricade à distance que seuls vous et les gens résistants à la magie pouvez franchir. Utilisations limitées.
 
-knowledge-path-lock-s7-name = Burglar's Finesse
+knowledge-path-lock-s7-name = Dextérité du Cambrioleur
 knowledge-path-lock-s7-desc =
-    Consorting with Burglar spirits is frowned upon, but a Steward will always want to learn about new doors.
+    Fréquenter les esprits cambrioleurs est mal vu, mais un Intendant voudra toujours apprendre sur de nouvelles portes.
 
-    Grants you Burglar's Finesse, a single-target spell that puts a random item from the victims backpack into your hand.
+    Vous accorde Dextérité du Cambrioleur, un sort à cible unique qui place un objet aléatoire du sac à dos de la victime dans votre main.
 
-knowledge-path-lock-s8-name = Opening Blade
+knowledge-path-lock-s8-name = Lame d'Ouverture
 knowledge-path-lock-s8-desc =
-    The Pilgrim-Surgeon was not an Steward. Nonetheless, its blades and sutures proved a match for their keys.
+    Le Pèlerin-Chirurgien n'était pas un Intendant. Néanmoins, ses lames et sutures firent le poids face à leurs clés.
 
-    Your blade has a chance to remove a random organ on attack.
+    Votre lame a une chance de retirer un organe aléatoire à l'attaque.
 
-knowledge-path-lock-s9-name = Caretaker's Last Refuge
+knowledge-path-lock-s9-name = Dernier Refuge du Gardien
 knowledge-path-lock-s9-desc =
-    Jealously, the Guard and the Hound hunted me. But I unlocked my form, and was but a haze, untouchable.
+    Par jalousie, la Garde et le Chien me traquèrent. Mais je déverrouillai ma forme, et ne fus qu'une brume, intangible.
 
-    Gives you a spell that makes you transparent and not dense. Cannot be used near living sentient beings.
-    While in refuge, you cannot use your hands or spells, and you are immune to slowdown.
-    You are invincible but unable to harm anything. Cancelled by being hit with an anti-magic item.
+    Vous donne un sort qui vous rend transparent et non dense. Ne peut être utilisé près d'êtres vivants conscients.
+    En refuge, vous ne pouvez utiliser vos mains ni vos sorts, et êtes immunisé au ralentissement.
+    Vous êtes invincible mais incapable de nuire à quoi que ce soit. Annulé en étant frappé par un objet anti-magique.
 
-knowledge-path-lock-s10-name = Unlock the Labyrinth
+knowledge-path-lock-s10-name = Déverrouiller le Labyrinthe
 knowledge-path-lock-s10-desc =
-    The ascension ritual of the Path of Lock.
-    Bring 3 corpses without organs in their torso to a transmutation rune to complete the ritual.
-    When completed, you will create a tear to the Labyrinth's heart; a tear in reality located at the site of this ritual.
-    Eldritch creatures will endlessly pour from this rift who are bound to obey your instructions.
+    Le rituel d'ascension de la Voie du Verrou.
+    Apportez 3 cadavres sans organes dans le torse à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, vous créerez une déchirure vers le cœur du Labyrinthe ; une déchirure dans la réalité située au site de ce rituel.
+    Des créatures indicibles s'écouleront sans fin de cette faille, liées pour obéir à vos instructions.

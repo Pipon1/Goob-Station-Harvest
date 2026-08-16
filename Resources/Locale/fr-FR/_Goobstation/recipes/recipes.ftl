@@ -1,4 +1,4 @@
-recipes-secret-door-reinforced-name = reinforced secret door
+recipes-secret-door-reinforced-name = porte secrète renforcée
 
-recipes-wooden-wand-name = wooden wand
-recipe-anomaly-core-name = anomaly core
+recipes-wooden-wand-name = baguette en bois
+recipe-anomaly-core-name = noyau d'anomalie

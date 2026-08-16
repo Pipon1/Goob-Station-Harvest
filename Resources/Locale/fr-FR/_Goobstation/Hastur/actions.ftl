@@ -1,23 +1,23 @@
-hastur-lash-target = {THE($user)} lashes {THE($target)} with a sharp tentacle!
+hastur-lash-target = {THE($user)} fouette {THE($target)} avec un tentacule acéré !
 
-hastur-devour = {THE($user)} reveals their true form for a moment and devours {THE($target)} whole!
+hastur-devour = {THE($user)} révèle sa vraie forme un instant et dévore {THE($target)} tout entier !
 
-hastur-insanityaura-begin1 = The reality around you fades out...
-hastur-insanityaura-begin2 = Suddenly, your mind feels extremely frail and vulnerable...
-hastur-insanityaura-begin3 = Your sanity begins to unravel...
+hastur-insanityaura-begin1 = La réalité autour de vous s'efface...
+hastur-insanityaura-begin2 = Soudain, votre esprit devient extrêmement fragile et vulnérable...
+hastur-insanityaura-begin3 = Votre santé mentale commence à se déliter...
 
-hastur-reveal1 = A horrible apparition fades into view!
-hastur-hide1 = {THE($user)} vanishes from sight!
+hastur-reveal1 = Une horrible apparition se révèle !
+hastur-hide1 = {THE($user)} disparaît de la vue !
 
-hastur-omnipresence-activate = Everything, everywhere, all at once.
+hastur-omnipresence-activate = Tout, partout, tout à la fois.
 
-hastur-pet = A sharp tentacle slaps {THE($user)} away as they attempt to pet {THE($target)}!
+hastur-pet = Un tentacule acéré repousse {THE($user)} alors qu'il tente de caresser {THE($target)} !
 
-hastur-announcement = The King is watching. It's time for you to perform.
+hastur-announcement = Le Roi observe. Il est temps pour vous de jouer.
 
-ghost-role-information-hastur-name-token = The King in Yellow (Token)
-ghost-role-information-hastur-name = The King in Yellow
+ghost-role-information-hastur-name-token = Le Roi en Jaune (Jeton)
+ghost-role-information-hastur-name = Le Roi en Jaune
 ghost-role-information-hastur-description = ????
-ghost-role-information-hastur-rules =  You are [color=yellow]???[/color]. 
+ghost-role-information-hastur-rules = Vous êtes [color=yellow]???[/color].
 hastur-round-end-agent-name = ????
-hastur-role-greeting = I am the [color=yellow]King[/color]. Fear the unknown.
+hastur-role-greeting = Je suis le [color=yellow]Roi[/color]. Craignez l'inconnu.

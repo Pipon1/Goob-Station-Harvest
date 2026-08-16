@@ -3,6 +3,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ventcrawling-enter-pipe-network = Enter Pipe Network
-ventcrawling-block-enter-reson-equiptment = your equiptment is blocking you from entering the pipe network
-ventcrawling-block-enter-reson-hand = need my hands free to enter the pipe network
+ventcrawling-enter-pipe-network = Entrer dans le réseau de tuyaux
+ventcrawling-block-enter-reson-equiptment = votre équipement vous empêche d'entrer dans le réseau de tuyaux
+ventcrawling-block-enter-reson-hand = il me faut les mains libres pour entrer dans le réseau de tuyaux

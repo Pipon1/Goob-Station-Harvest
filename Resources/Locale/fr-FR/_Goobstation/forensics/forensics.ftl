@@ -1,2 +1,2 @@
-forensic-scanner-interface-message-below-minute = {$dna} {$time-in-seconds} seconds ago
-forensic-scanner-interface-message-over-minute = {$dna} {$time-in-minutes} minutes ago
+forensic-scanner-interface-message-below-minute = {$dna} il y a {$time-in-seconds} secondes
+forensic-scanner-interface-message-over-minute = {$dna} il y a {$time-in-minutes} minutes

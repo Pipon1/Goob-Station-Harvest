@@ -28,7 +28,7 @@ traitor-corporateclimber-allies = Mort au Syndicat.
 traitor-corporateclimber-uplink = Vous avez des contacts sur le marché noir pour les contrats. Éliminez quelques poids morts, et votre ascension n'en sera que plus facile.
 traitor-corporateclimber-roundend = [color=yellow]un serial carriériste.[/color]
 
-traitor-donkcorporation-intro = You are the Donk Co. infiltrator.
+traitor-donkcorporation-intro = Vous êtes l'infiltré de Donk Co.
 traitor-donkcorporation-goal = Nous désapprouvons le massacre aveugle de travailleurs innocents ; notre devise, c'est « entrer, faire le travail, sortir ».
 traitor-donkcorporation-allies = Les membres de la Waffle Co. doivent être tués à vue ; leur présence dans la station est interdite tant que nous sommes là.
 traitor-donkcorporation-uplink = On vous a fourni un uplink du Syndicat pour accomplir votre mission.
@@ -64,7 +64,7 @@ traitor-wafflecorporation-allies = Les membres de Donk Co. doivent être tués �
 traitor-wafflecorporation-uplink = On vous a fourni un uplink du Syndicat pour accomplir votre mission.
 traitor-wafflecorporation-roundend = [color=orange]un infiltrateur de Waffle Corporation[/color]
 
-traitor-wafflecorporationterrorist-intro = Vous êtes le terrorist Waffle Co.
+traitor-wafflecorporationterrorist-intro = Vous êtes le terroriste de Waffle Corporation.
 traitor-wafflecorporationterrorist-goal = Nos investisseurs ont besoin d'une preuve concrète de notre engagement à détruire Nanotrasen. Donnons-leur-en une qui en jette !
 traitor-wafflecorporationterrorist-allies = La plupart des autres agents de syndicat ne sont pas dignes de confiance, à l'exception des Maraudeurs de Gorlex.
 traitor-wafflecorporationterrorist-uplink = On vous a fourni un uplink du Syndicat pour accomplir votre mission.
@@ -89,6 +89,4 @@ traitor-evilchampion-uplink = Les Champions du Mal entretiennent des liens étro
 traitor-evilchampion-roundend = [color=red]un Champion du Mal[/color]
 
 issuers-corporate-flavor-1 = NanoTrasen
-issuers-corporate-flavor-2 = Central Command
-
-# à retraduire
+issuers-corporate-flavor-2 = Commandement Central

@@ -1,1 +1,1 @@
-mob-caller-occluded = [color=red]It's not working due to not being exposed to space.[/color]
+mob-caller-occluded = [color=red]Ne fonctionne pas car non exposé à l'espace.[/color]

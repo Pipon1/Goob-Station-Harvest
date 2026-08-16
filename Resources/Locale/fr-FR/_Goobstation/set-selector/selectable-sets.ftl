@@ -1,254 +1,253 @@
 # Thief
 
-selectable-set-thief-anatomy-name = Anatomy Kit
+selectable-set-thief-anatomy-name = Kit Anatomie
 selectable-set-thief-anatomy-description =
-    You've reached peak physical performance... with a little help.
-    Includes: Storage implanter, DNA scrambler implanter, a lollypop,
-    ephedrine bottle, syringe, empty shaker, and omega soap.
+    Vous avez atteint le pic de la performance physique... avec un petit coup de pouce.
+    Inclus : Implant de stockage, implant brouilleur d'ADN, un sucette,
+    bouteille d'éphédrine, seringue, shaker vide, et savon oméga.
 
-selectable-set-thief-breacher-name = Breacher Kit
+selectable-set-thief-breacher-name = Kit Brèche
 selectable-set-thief-breacher-description =
-    What's that sound? A lil' C4 knockin' at their door.
-    No obstacle can stop you!
-    Includes: Two C4, a multitool, remote signaller, jaws of life,
-    advanced welder, engineering goggles, and insulated gloves.
+    C'est quoi ce bruit ? Un p'tit C4 qui frappe à leur porte.
+    Aucun obstacle ne peut vous arrêter !
+    Inclus : Deux C4, un multitool, signaliseur remote, mâchoires de vie,
+    soudeur avancé, lunettes d'ingénierie, et gants isolants.
 
-selectable-set-thief-chameleon-name = Chameleon Kit
+selectable-set-thief-chameleon-name = Kit Caméléon
 selectable-set-thief-chameleon-description =
-    You are everyone and no one; you are a master of disguise.
-    Includes: A full set of chameleon clothing,
-    a chameleon projector, and an Agent ID.
-    Disguise as anyone and anything.
+    Vous êtes tout le monde et personne ; vous êtes un maître du déguisement.
+    Inclus : Une tenue complète de vêtements caméléon,
+    un projecteur caméléon, et une Carte d'Agent.
+    Déguisez-vous en n'importe qui et n'importe quoi.
 
-selectable-set-thief-syndie-name = Syndie Kit
+selectable-set-thief-syndie-name = Kit Syndi
 selectable-set-thief-syndie-description =
-    Trinkets from a disavowed past, or stolen from a careless agent?
-    You've made some connections. Whiskey, echo...
-    Includes: An Emag, Access Breaker, Interdyne cigs, a Syndicate codeword,
-    a Radio Jammer, a novelty lighter box and some strange red crystals.
+    Bibelots d'un passé renié, ou volés à un agent négligent ?
+    Vous avez tissé des liens. Whiskey, echo...
+    Inclus : Un Emag, Briseur d'Accès, clopes Interdyne, un mot de passe Syndicat,
+    un Brouilleur Radio, une boîte de briquets fantaisie et d'étranges cristaux rouges.
 
-selectable-set-thief-sleeper-name = Sleeper Kit
+selectable-set-thief-sleeper-name = Kit Dormeur
 selectable-set-thief-sleeper-description =
-    Until we close our eyes for good, use your illegal prescriptions
-    to keep others asleep.
-    Includes: Sleepy nitrous oxide tank, two nocturine bottles,
-    and a hypopen.
+    Jusqu'à ce qu'on ferme les yeux pour de bon, utilisez vos prescriptions illégales
+    pour endormir les autres.
+    Inclus : Réservoir de protoxyde d'azote soporifique, deux bouteilles de nocturine,
+    et une hypopen.
 
-selectable-set-thief-communicator-name = Communicator Kit
+selectable-set-thief-communicator-name = Kit Communicateur
 selectable-set-thief-communicator-description =
-    Money is power, and secrets are money. Use your silver tongue
-    and wealth to subvert the station.
-    Includes: Master key for all station channels, a CyberSun pen,
-    voice chameleon mask, and 20k spesos inside a briefcase.
+    L'argent c'est le pouvoir, et les secrets c'est de l'argent. Utilisez votre langue de vipère
+    et votre richesse pour corrompre la station.
+    Inclus : Clé maîtresse pour tous les canaux de la station, un stylo CyberSun,
+    masque caméléon vocal, et 20k spesos dans une mallette.
 
-selectable-set-thief-smuggler-name = Smuggler Kit
+selectable-set-thief-smuggler-name = Kit Contrebandier
 selectable-set-thief-smuggler-description =
-    All thieves need somewhere to stash their goods in the dark.
-    Don't forget to link your fulton.
-    Includes: Fulton beacon, 10 fultons, 3 smoke grenades,
-    and an invisible crate to hide valuable loot.
+    Tous les voleurs ont besoin d'un endroit pour planquer leur butin dans l'ombre.
+    N'oubliez pas de lier votre fulton.
+    Inclus : Balise Fulton, 10 fultons, 3 grenades fumigènes,
+    et une caisse invisible pour cacher votre précieux butin.
 
 # Syndicate
 
-selectable-set-syndicate-spy-name = Spy Bundle
+selectable-set-syndicate-spy-name = Pack Espion
 selectable-set-syndicate-spy-description =
-    Complete your objectives quietly with this compilation of stealthy items.
-    Contains: chameleon thieving gloves, chameleon kit, voice mask,
-    agent ID card, a hypopen with a nocturine bottle, camera bug,
-    stealth box, syndicate jaws of life, and a syndicate encryption key.
+    Accomplissez vos objectifs en toute discrétion avec cette compilation d'objets furtifs.
+    Contient : gants de vol caméléon, kit caméléon, masque vocal,
+    carte d'agent ID, une hypopen avec une bouteille de nocturine, mouchard caméra,
+    boîte furtive, mâchoires de vie syndiquées, et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-hitman-name = Hitman Bundle
+selectable-set-syndicate-hitman-name = Pack Tueur à Gages
 selectable-set-syndicate-hitman-description =
-    Find and eliminate your targets quietly and effectively with this bundle.
-    Contains: Cobra pistol with 3 extra mags, CQC manual,
-    a special invisible armor vest, Interdyne herbals packet,
-    combat medkit, a stylish look and a syndicate encryption key.
+    Trouvez et éliminez vos cibles silencieusement et efficacement avec ce pack.
+    Contient : Pistolet Cobra avec 3 chargeurs supplémentaires, manuel CQC,
+    un gilet pare-balles invisible spécial, paquet d'herbales Interdyne,
+    trousse de combat médicale, un look stylé et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-implants-name = Cyberpsychosis Bundle
+selectable-set-syndicate-implants-name = Pack Cyberpsychose
 selectable-set-syndicate-implants-description =
-    A few implants to give you some options for when you inevitably get arrested.
-    Contains: nutriment pump, scram, freedom, smoke,
-    krav maga and syndicate radio implanters, Sandevistan
-    and paired mantis blades autosurgeons, and a cool jacket.
+    Quelques implants pour vous donner des options quand vous serez inévitablement arrêté.
+    Contient : pompe nutritive, scram, liberté, fumée,
+    implanteurs krav maga et radio syndiquée, Sandevistan
+    et lames mantes automatiques jumelées, et une veste cool.
 
-selectable-set-syndicate-hacker-name = Hacker Bundle
+selectable-set-syndicate-hacker-name = Pack Hacker
 selectable-set-syndicate-hacker-description =
-    A bundle with everything you need to hack into and disrupt the Station itself,
-    the station AI, its cyborgs and the Security team. HACK THE PLANET!
-    Contains: A custom law board, authentication disruptor, EMAG,
-    radio jammer, filled toolbox, experimental syndicate teleporter,
-    cool glasses, binary decoder implanter and a syndicate encryption key.
+    Un pack avec tout ce qu'il faut pour pirater et perturber la Station elle-même,
+    l'IA de la station, ses cyborgs et l'équipe de Sécurité. HACK THE PLANET !
+    Contient : Un plateau de loi personnalisé, disrupteur d'authentification, EMAG,
+    brouilleur radio, boîte à outils remplie, téléporteur syndical expérimental,
+    lunettes cool, implanteur décodeur binaire et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-desword-name = Dark Lord Bundle
+selectable-set-syndicate-desword-name = Pack Seigneur Noir
 selectable-set-syndicate-desword-description =
-    Turn your anger into hate and your hate into suffering with this lightsaber.
-    Contains: double-bladed energy sword, hyperzine microinjector kit, glue tube,
-    all clothing you need for a proper cosplay and a syndicate encryption key.
+    Transformez votre colère en haine et votre haine en souffrance avec ce sabre laser.
+    Contient : épée d'énergie à double lame, kit micro-injecteur d'hyperzine, tube de colle,
+    tous les vêtements nécessaires pour un cosplay convenable et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-grenadier-name = Grenadier Bundle
+selectable-set-syndicate-grenadier-name = Pack Grenadier
 selectable-set-syndicate-grenadier-description =
-    Some explosives to ensure you can blast your way through any situation.
-    Contains: syndicate encryption key, bomb suit, grenadier belt rig,
-    explosive-resistant backpack and so many grenades you'll fall asleep reading.
+    Des explosifs pour vous assurer de pouvoir faire exploser n'importe quelle situation.
+    Contient : clé de chiffrement syndiquée, combinaison anti-bombe, ceinturon grenadier,
+    sac à dos résistant aux explosions et tellement de grenades que vous vous endormirez en les lisant.
 
-selectable-set-syndicate-fluclear-name = Fluclear Operative Bundle
+selectable-set-syndicate-fluclear-name = Pack Opérative Nucléaire
 selectable-set-syndicate-fluclear-description =
-    Declare your allegiance to the Syndicate with this bundle, get dat fuckin' disk!
-    Contains: C-20R SMG, 3 extra mags, energy shield, jetpack,
-    a blood-red hardsuit and some basic nuclear operative gear.
+    Déclarez votre allégeance au Syndicat avec ce pack, récupérez ce putain de disque !
+    Contient : SMG C-20R, 3 chargeurs supplémentaires, bouclier d'énergie, jetpack,
+    une combinaison rigide rouge sang et du matériel de base d'opérative nucléaire.
 
-selectable-set-syndicate-friendship-name = Friendship Bundle
+selectable-set-syndicate-friendship-name = Pack Amitié
 selectable-set-syndicate-friendship-description =
-    Friendship is magic! Go find yourself some friends with this bundle!
-    Contains: a contractor baton and handcuffs for you, 4 mindcontrol implanters
-    and Mosin rifles for your friends, and 5 syndicate encryption keys for you all.
+    L'amitié c'est magique ! Allez vous trouver des amis avec ce pack !
+    Contient : une matraque et des menottes de contractant pour vous, 4 implanteurs de contrôle mental
+    et fusils Mosin pour vos amis, et 5 clés de chiffrement syndiquées pour vous tous.
 
-selectable-set-syndicate-carp-name = Carp Bundle
+selectable-set-syndicate-carp-name = Pack Carpe
 selectable-set-syndicate-carp-description =
-    Grr! Rrrr! Grr... Grrow?! KOWABUNGA!
-    Contains: a scroll of the Way of The Sleeping Carp, 10 dehydrated carp
-    (half of which are holo), a carp hardsuit and a syndicate encryption key.
+    Grr ! Rrrr ! Grr... Grrow?! KOWABUNGA !
+    Contient : un parchemin de la Voie de la Carpe Dormante, 10 carpes déshydratées
+    (dont la moitié sont holo), une combinaison rigide carpe et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-western-name = Western Bundle
+selectable-set-syndicate-western-name = Pack Western
 selectable-set-syndicate-western-description =
-    Light the western holo-cigar, tip the hat, and let the music play.
-    Contains: western holo-cigar, syndicate encryption key,
-    resonant jumpsuit, sunglasses, classic poncho,
-    cowboy hat and boots, two Python revolvers, six AP speedloaders,
-    and two advanced combat medipens.
+    Allumez le cigare holo western, touchez votre chapeau, et laissez la musique jouer.
+    Contient : cigare holo western, clé de chiffrement syndiquée,
+    combinaison résonnante, lunettes de soleil, poncho classique,
+    chapeau et bottes de cowboy, deux revolvers Python, six recharges rapides AP,
+    et deux stylos-médicaments de combat avancés.
 
-selectable-set-syndicate-sus-name = Suspicion Bundle
+selectable-set-syndicate-sus-name = Pack Suspicion
 selectable-set-syndicate-sus-description =
-    When the traitor is sus. The traitor is you, of course.
-    Contains: an advanced contortionist jumpsuit, betrayal knife, miniature
-    energy crossbow, stealth suit, and a syndicate encryption key.
+    Quand le traître est suspect. Le traître c'est vous, bien sûr.
+    Contient : une combinaison contorsionniste avancée, couteau de trahison, arbalète énergétique miniature,
+    combinaison furtive, et une clé de chiffrement syndiquée.
 
-selectable-set-syndicate-builder-name = Builder Bundle
+selectable-set-syndicate-builder-name = Pack Constructeur
 selectable-set-syndicate-builder-description =
-    It is funnier to pull down than to build. But it is not as effective.
-    Contains: 2 disposable ballistic turrets, a telecrystal miner flatpack,
-    some tools and materials to get you started, and a syndicate encryption key.
+    C'est plus drôle de démolir que de construire. Mais c'est pas aussi efficace.
+    Contient : 2 tourelles balistiques jetables, un mineur à télé-cristal en kit,
+    quelques outils et matériaux pour bien commencer, et une clé de chiffrement syndiquée.
 
 # Blueshield
 
-selectable-set-blueshield-shield-name = blueshield set
+selectable-set-blueshield-shield-name = kit bouclier
 selectable-set-blueshield-shield-description =
-    The iconic namesake of these soldiers.
-    Includes: The greatshield, and the DT-4 Atrocity customized stun baton.
+    Le nom emblématique de ces soldats.
+    Inclus : Le grand bouclier, et la matraque paralysante DT-4 Atrocité personnalisée.
 
-selectable-set-blueshield-revolver-name = revolver set
+selectable-set-blueshield-revolver-name = kit revolver
 selectable-set-blueshield-revolver-description =
-    Running out of ammo is the worst thing that could happen in a firefight.
-    Includes: The EG-4 energy revolver, capable of firing bolts using
-    recharging speedloaders, both lethal and not, and a shoulder holster.
+    Tomber à court de munitions, c'est le pire qui puisse arriver dans une fusillade.
+    Inclus : Le revolver EG-4 à énergie, capable de tirer des boulons utilisant
+    des recharges rapides rechargeantes, létales ou non, et un holster d'épaule.
 
-selectable-set-blueshield-dragon-name = kung fu manual set
+selectable-set-blueshield-dragon-name = kit manuel kung fu
 selectable-set-blueshield-dragon-description =
-    Sometimes you need to get your hands dirty.
-    Includes: A book capable of teaching the user
-    advanced kung fu martial art.
+    Parfois il faut mettre les mains dans le cambouis.
+    Inclus : Un livre capable d'enseigner à l'utilisateur
+    l'art martial avancé du kung fu.
 
-selectable-set-blueshield-chester-name = chester set
+selectable-set-blueshield-chester-name = kit chester
 selectable-set-blueshield-chester-description =
-    Ready to go hunting?
-    Includes: 8 Gauge shotgun, the Chester. Spare ammo,
-    Alternate ammo, Spare magazines.
+    Prêt à partir à la chasse ?
+    Inclus : Fusil à pompe calibre 8, le Chester. Munitions de rechange,
+    Munitions alternatives, Chargeurs de rechange.
 
-selectable-set-blueshield-syringe-name = medical set
+selectable-set-blueshield-syringe-name = kit médical
 selectable-set-blueshield-syringe-description =
-    Perfect for healing allies or poisioning foes in a pinch.
-    Includes: An explosive resistant chestrig, a combat injector, and
-    several vials of medicine.
+    Parfait pour soigner les alliés ou empoisonner les ennemis dans l'urgence.
+    Inclus : Un plastron résistant aux explosions, un injecteur de combat, et
+    plusieurs fioles de médicaments.
 
-# Blueshield hardsuits
+# Combinaisons rigides Blueshield
 
-selectable-set-blueshield-hardsuit-light-name = blueshield hardsuit
+selectable-set-blueshield-hardsuit-light-name = combinaison rigide bouclier
 selectable-set-blueshield-hardsuit-light-description =
-    An armoured hardsuit, allowing for more speed at the cost of protection.
+    Une combinaison rigide blindée, permettant plus de vitesse au coût de la protection.
 
-selectable-set-blueshield-modsuit-name = blueshield modsuit
+selectable-set-blueshield-modsuit-name = combinaison modulaire bouclier
 selectable-set-blueshield-modsuit-description =
-    A custom modular hardsuit, allowing for more customisation, at the cost of requiring power.
+    Une combinaison modulaire personnalisée, permettant plus de personnalisation, au coût de nécessiter de l'énergie.
 
 # ERT
 
-selectable-set-ert-ballistic-name = ballistics set
+selectable-set-ert-ballistic-name = kit balistique
 selectable-set-ert-ballistic-description =
-    Reliable, efficient, and compact. The Annies got your back.
-    Includes: .30 caliber rifle, the Annie.
-    Spare magazines for it, and an N1984.
+    Fiable, efficace, et compact. Les Annies ont votre dos.
+    Inclus : Fusil calibre .30, l'Annie.
+    Chargeurs de rechange pour elle, et un N1984.
 
-selectable-set-ert-pulse-name = pulse set
+selectable-set-ert-pulse-name = kit pulsar
 selectable-set-ert-pulse-description =
-    Running out of ammo is the worst thing that could happen
-    in a firefight.
-    Includes: A modified pulse carbine.
-    EG-4 revolver, pulse cells.
+    Tomber à court de munitions, c'est le pire qui puisse arriver
+    dans une fusillade.
+    Inclus : Une carabine pulsar modifiée.
+    Revolver EG-4, cellules pulsar.
 
-# Voidsuit selectors
+# Sélecteurs combinaisons spatiales
 
-selectable-set-paramedic-voidsuit-name = Paramedic hardsuit
+selectable-set-paramedic-voidsuit-name = Combinaison rigide de paramédic
 selectable-set-paramedic-voidsuit-desc =
-    A light hardsuit with minimal protection
-    but a fast movement speed.
+    Une combinaison rigide légère avec une protection minimale
+    mais une vitesse de déplacement rapide.
 
-selectable-set-paramedic-modsuit-name = Sanitater modsuit
+selectable-set-paramedic-modsuit-name = Combinaison modulaire Sanitäter
 selectable-set-paramedic-modsuit-desc =
-    A modular hardsuit with heavier plates
-    to shrug off a bullet or two, hopefully.
+    Une combinaison modulaire avec des plaques plus lourdes
+    pour encaisser une ou deux balles, espérons-le.
 
-selectable-set-security-voidsuit-name = Security hardsuit
+selectable-set-security-voidsuit-name = Combinaison rigide de sécurité
 selectable-set-security-voidsuit-desc =
-    A light hardsuit with an in-built plate carrier to provide
-    moderate protection while remaining mobile for low intensity kinetic ops.
+    Une combinaison rigide légère avec un porte-plaques intégré pour fournir
+    une protection modérée tout en restant mobile pour des opérations cinétiques de faible intensité.
 
-selectable-set-security-modsuit-name = Security 'soldat' modsuit
+selectable-set-security-modsuit-name = Combinaison modulaire 'soldat' de sécurité
 selectable-set-security-modsuit-desc =
-    A modular hardsuit with ceramic inserts to provide more protection
-    than the hardsuit counterpart, but with less mobility.
+    Une combinaison modulaire avec des inserts en céramique pour fournir plus de protection
+    que l'équivalent combinaison rigide, mais avec moins de mobilité.
 
-selectable-set-headofsecurity-voidsuit-name = Head of security's hardsuit
+selectable-set-headofsecurity-voidsuit-name = Combinaison rigide du chef de sécurité
 selectable-set-headofsecurity-voidsuit-desc =
-    A light hardsuit with material cut from non-vital areas to slightly increase
-    the armour value of the vital organs and increase mobility
-    compared to the standard security hardsuit.
+    Une combinaison rigide légère avec du matériel retiré des zones non-vitales pour légèrement augmenter
+    la valeur d'armure des organes vitaux et augmenter la mobilité
+    par rapport à la combinaison rigide de sécurité standard.
 
-selectable-set-headofsecurity-modsuit-name = Head of security's 'bulwark' modsuit
+selectable-set-headofsecurity-modsuit-name = Combinaison modulaire 'bouclier' du chef de sécurité
 selectable-set-headofsecurity-modsuit-desc =
-    A modular hardsuit with expensive plastitanium armour for the head of security's use.
-    Comes equipped with an AI operated on-board intravenous stim injector.
+    Une combinaison modulaire avec une armure en plastitanium coûteuse pour l'usage du chef de sécurité.
+    Équipée d'un injecteur intraveineux de stimulants à bord piloté par IA.
 
-selectable-set-engineering-voidsuit-name = Engineering hardsuit
+selectable-set-engineering-voidsuit-name = Combinaison rigide d'ingénierie
 selectable-set-engineering-voidsuit-desc =
-    A light hardsuit for low-intensity repairs around the station.
+    Une combinaison rigide légère pour des réparations de faible intensité autour de la station.
 
-selectable-set-engineering-modsuit-name = Engineering 'sapper' modsuit
+selectable-set-engineering-modsuit-name = Combinaison modulaire 'sapeur' d'ingénierie
 selectable-set-engineering-modsuit-desc =
-    A modular hardsuit with increased blast plating and the large vulnerable visor
-    replaced with external cameras to better protect against explosions
-    and other external threats.
+    Une combinaison modulaire avec un blindage anti-explosion accru et le grand viseur vulnérable
+    remplacé par des caméras externes pour mieux protéger contre les explosions
+    et autres menaces externes.
 
-selectable-set-captain-voidsuit-name = Captain's parade hardsuit
+selectable-set-captain-voidsuit-name = Combinaison rigide de parade du capitaine
 selectable-set-captain-voidsuit-desc =
-    Captain's light hardsuit made custom fitted for formal occasions, lightly
-    armored to protect during a calm shift, all while still retaining
-    common spacewalking capabilities.
+    Combinaison rigide légère du capitaine faite sur mesure pour les occasions formelles, légèrement
+    blindée pour protéger pendant un quart calme, tout en conservant
+    les capacités de marche spatiale communes.
 
-selectable-set-captain-modsuit-name = Captain's 'Magnate' modsuit
+selectable-set-captain-modsuit-name = Combinaison modulaire 'Magnat' du capitaine
 selectable-set-captain-modsuit-desc =
-    A modular hardsuit perfectly shined, adorned, and armored for the best of
-    the best, fitted with custom plating, cooling fluid, and diamonds to
-    make even the toughest of times leading seem like nothing to you.
+    Une combinaison modulaire parfaitement lustrée, ornée, et blindée pour le meilleur des
+    meilleurs, équipée de plaques personnalisées, fluide de refroidissement, et diamants pour
+    faire paraître même les moments les plus durs du commandement comme une promenade de santé.
 
-
-selectable-set-research-director-voidsuit-name = RD's hardsuit
+selectable-set-research-director-voidsuit-name = Combinaison rigide du DR
 selectable-set-research-director-voidsuit-desc =
-    The Research Director's light hardsuit fitted for experiments, lightly
-    armored to protect from assistants breaking in, all while still retaining
-    common spacewalking capabilities.
+    La combinaison rigide légère du Directeur de la Recherche adaptée pour les expériences, légèrement
+    blindée pour se protéger des assistants qui cassent la porte, tout en conservant
+    les capacités de marche spatiale communes.
 
-selectable-set-research-director-modsuit-name = RD's 'Minerva' modsuit
+selectable-set-research-director-modsuit-name = Combinaison modulaire 'Minerva' du DR
 selectable-set-research-director-modsuit-desc =
-    A modular hardsuit armored perfectly to turn you into a research tank,
-    not even the most dangerous of experiments will harm you in this,
-    and the worst of assistants will think twice before breaking in sci.
+    Une combinaison modulaire blindée à la perfection pour faire de vous un tank de recherche,
+    même les expériences les plus dangereuses ne vous feront pas de mal dedans,
+    et les pires assistants réfléchiront à deux fois avant de forcer l'entrée en science.

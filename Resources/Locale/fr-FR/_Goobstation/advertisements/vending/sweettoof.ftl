@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-advertisement-sweettoof-1 = 99.9% Artifical sugars!
-advertisement-sweettoof-2 = Sponsored by Donk Co.!
-advertisement-sweettoof-3 = SweetToof! Everyone deserves a little candy!
-advertisement-sweettoof-4 = Hey! Want some candy?
+advertisement-sweettoof-1 = 99,9 % de sucres artificiels !
+advertisement-sweettoof-2 = Parrainé par Donk Co. !
+advertisement-sweettoof-3 = SweetToof ! Tout le monde mérite un peu de bonbons !
+advertisement-sweettoof-4 = Hé ! Vous voulez des bonbons ?

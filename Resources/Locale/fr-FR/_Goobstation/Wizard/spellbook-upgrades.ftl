@@ -4,98 +4,98 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-spellbook-upgrade-mime-malaise-name = Mime Malaise Upgrade
-spellbook-upgrade-mime-malaise-desc = Upgrades Mime Malaise to a maximum of level 5!
+spellbook-upgrade-mime-malaise-name = Amélioration Malaises de Mime
+spellbook-upgrade-mime-malaise-desc = Améliore Malaises de Mime jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-cluwne-curse-name = Curse of the Cluwne Upgrade
-spellbook-upgrade-cluwne-curse-desc = Upgrades Cluwne Curse to a maximum of level 3!
+spellbook-upgrade-cluwne-curse-name = Amélioration Malédiction du Cluwne
+spellbook-upgrade-cluwne-curse-desc = Améliore Malédiction du Cluwne jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-banana-touch-name = Banana Touch Upgrade
-spellbook-upgrade-banana-touch-desc = Upgrades Banana Touch to a maximum of level 5!
+spellbook-upgrade-banana-touch-name = Amélioration Toucher Banane
+spellbook-upgrade-banana-touch-desc = Améliore Toucher Banane jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-magic-missile-name = Magic Missile Upgrade
-spellbook-upgrade-magic-missile-desc = Upgrades Magic Missile to a maximum of level 3!
+spellbook-upgrade-magic-missile-name = Amélioration Projectile Magique
+spellbook-upgrade-magic-missile-desc = Améliore Projectile Magique jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-disable-tech-name = Disable Technology Upgrade
-spellbook-upgrade-disable-tech-desc = Upgrades Disable Technology to a maximum of level 5!
+spellbook-upgrade-disable-tech-name = Amélioration Désactiver Technologie
+spellbook-upgrade-disable-tech-desc = Améliore Désactiver Technologie jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-smoke-name = Smoke Upgrade
-spellbook-upgrade-smoke-desc = Upgrades Smoke to a maximum of level 3!
+spellbook-upgrade-smoke-name = Amélioration Fumée
+spellbook-upgrade-smoke-desc = Améliore Fumée jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-repulse-name = Repulse Upgrade
-spellbook-upgrade-repulse-desc = Upgrades Repulse to a maximum of level 5!
+spellbook-upgrade-repulse-name = Amélioration Repousser
+spellbook-upgrade-repulse-desc = Améliore Repousser jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-stop-time-name = Stop Time Upgrade
-spellbook-upgrade-stop-time-desc = Upgrades Stop Tome to a maximum of level 3!
+spellbook-upgrade-stop-time-name = Amélioration Arrêt du Temps
+spellbook-upgrade-stop-time-desc = Améliore Arrêt du Temps jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-blind-name = Blind Upgrade
-spellbook-upgrade-blind-desc = Upgrades Blind to a maximum of level 5!
+spellbook-upgrade-blind-name = Amélioration Aveuglement
+spellbook-upgrade-blind-desc = Améliore Aveuglement jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-mutate-name = Mutate Upgrade
-spellbook-upgrade-mutate-desc = Upgrades Mutate to a maximum of level 2!
+spellbook-upgrade-mutate-name = Amélioration Muter
+spellbook-upgrade-mutate-desc = Améliore Muter jusqu'au niveau maximum 2 !
 
-spellbook-upgrade-tesla-blast-name = Tesla Blast Upgrade
-spellbook-upgrade-tesla-blast-desc = Upgrades Tesla Blast to a maximum of level 5!
+spellbook-upgrade-tesla-blast-name = Amélioration Explosion Tesla
+spellbook-upgrade-tesla-blast-desc = Améliore Explosion Tesla jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-lightning-bolt-name = Lightning Bolt Upgrade
-spellbook-upgrade-lightning-bolt-desc = Upgrades Lightning Bolt to a maximum of level 5!
+spellbook-upgrade-lightning-bolt-name = Amélioration Éclair
+spellbook-upgrade-lightning-bolt-desc = Améliore Éclair jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-homing-toolbox-name = Homing Toolbox Upgrade
-spellbook-upgrade-homing-toolbox-desc = Upgrades Homing Toolbox to a maximum of level 5!
+spellbook-upgrade-homing-toolbox-name = Amélioration Boîte à Outils à Tête Chercheuse
+spellbook-upgrade-homing-toolbox-desc = Améliore Boîte à Outils à Tête Chercheuse jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-arcane-barrage-name = Arcane Barrage Upgrade
-spellbook-upgrade-arcane-barrage-desc = Upgrades Arcane Barrage to a maximum of level 3!
+spellbook-upgrade-arcane-barrage-name = Amélioration Salve Arcanique
+spellbook-upgrade-arcane-barrage-desc = Améliore Salve Arcanique jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-lesser-summon-guns-name = Lesser Summon Guns Upgrade
-spellbook-upgrade-lesser-summon-guns-desc = Upgrades Lesser Summon Guns to a maximum of level 3!
+spellbook-upgrade-lesser-summon-guns-name = Amélioration Invocation Mineure d'Armes
+spellbook-upgrade-lesser-summon-guns-desc = Améliore Invocation Mineure d'Armes jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-barnyard-name = Curse of the Barnyard Upgrade
-spellbook-upgrade-barnyard-desc = Upgrades Barnyard Curse to a maximum of level 3!
+spellbook-upgrade-barnyard-name = Amélioration Malédiction de la Basse-Cour
+spellbook-upgrade-barnyard-desc = Améliore Malédiction de la Basse-Cour jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-scream-for-me-name = Scream For Me Upgrade
-spellbook-upgrade-scream-for-me-desc = Upgrades Scream For Me to a maximum of level 5!
+spellbook-upgrade-scream-for-me-name = Amélioration Crie Pour Moi
+spellbook-upgrade-scream-for-me-desc = Améliore Crie Pour Moi jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-teleport-name = Teleport Upgrade
-spellbook-upgrade-teleport-desc = Upgrades Teleport to a maximum of level 3!
+spellbook-upgrade-teleport-name = Amélioration Téléportation
+spellbook-upgrade-teleport-desc = Améliore Téléportation jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-the-traps-name = The Traps Upgrade
-spellbook-upgrade-the-traps-desc = Upgrades Traps to a maximum of level 5!
+spellbook-upgrade-the-traps-name = Amélioration Les Pièges
+spellbook-upgrade-the-traps-desc = Améliore Les Pièges jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-bees-name = Lesser Summon Bees Upgrade
-spellbook-upgrade-bees-desc = Upgrades Lesser Summon Bees to a maximum of level 3!
+spellbook-upgrade-bees-name = Amélioration Invocation Mineure d'Abeilles
+spellbook-upgrade-bees-desc = Améliore Invocation Mineure d'Abeilles jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-sanguine-strike-name = Exsanguinating Strike Upgrade
-spellbook-upgrade-sanguine-strike-desc = Upgrades Sanguine Strike to a maximum of level 3!
+spellbook-upgrade-sanguine-strike-name = Amélioration Frappe Exsanguinante
+spellbook-upgrade-sanguine-strike-desc = Améliore Frappe Exsanguinante jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-swap-name = Swap Upgrade
-spellbook-upgrade-swap-desc = Upgrades Swap to a maximum of level 3!
+spellbook-upgrade-swap-name = Amélioration Échange
+spellbook-upgrade-swap-desc = Améliore Échange jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-blink-name = Blink Upgrade
-spellbook-upgrade-blink-desc = Upgrades Blink to a maximum of level 3!
+spellbook-upgrade-blink-name = Amélioration Clignement
+spellbook-upgrade-blink-desc = Améliore Clignement jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-charge-name = Charge Upgrade
-spellbook-upgrade-charge-desc = Upgrades Charge to a maximum of level 5!
+spellbook-upgrade-charge-name = Amélioration Charge
+spellbook-upgrade-charge-desc = Améliore Charge jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-mind-swap-name = Mind Swap Upgrade
-spellbook-upgrade-mind-swap-desc = Upgrades Mind Swap to a maximum of level 3!
+spellbook-upgrade-mind-swap-name = Amélioration Échange d'Esprit
+spellbook-upgrade-mind-swap-desc = Améliore Échange d'Esprit jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-smite-name = Smite Upgrade
-spellbook-upgrade-smite-desc = Upgrades Smite to a maximum of level 3!
+spellbook-upgrade-smite-name = Amélioration Frappe Divine
+spellbook-upgrade-smite-desc = Améliore Frappe Divine jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-rathen-name = Rathen's Secret Upgrade
-spellbook-upgrade-rathen-desc = Upgrades Rathen's Secret to a maximum of level 3!
+spellbook-upgrade-rathen-name = Amélioration Secret de Rathen
+spellbook-upgrade-rathen-desc = Améliore Secret de Rathen jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-knock-name = Knock Upgrade
-spellbook-upgrade-knock-desc = Upgrades Knock to a maximum of level 3!
+spellbook-upgrade-knock-name = Amélioration Frappe
+spellbook-upgrade-knock-desc = Améliore Frappe jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-polymorph-rod-name = Rod Form Upgrade
-spellbook-upgrade-polymorph-rod-desc = Upgrades Rod Form to a maximum of level 5!
+spellbook-upgrade-polymorph-rod-name = Amélioration Forme de Bâton
+spellbook-upgrade-polymorph-rod-desc = Améliore Forme de Bâton jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-spell-cards-name = Spell Cards Upgrade
-spellbook-upgrade-spell-cards-desc = Upgrades Spell Cards to a maximum of level 3!
+spellbook-upgrade-spell-cards-name = Amélioration Cartes Magiques
+spellbook-upgrade-spell-cards-desc = Améliore Cartes Magiques jusqu'au niveau maximum 3 !
 
-spellbook-upgrade-force-wall-name = Force Wall Upgrade
-spellbook-upgrade-force-wall-desc = Upgrades Force Wall to a maximum of level 5!
+spellbook-upgrade-force-wall-name = Amélioration Mur de Force
+spellbook-upgrade-force-wall-desc = Améliore Mur de Force jusqu'au niveau maximum 5 !
 
-spellbook-upgrade-simians-name = Summon Simians Upgrade
-spellbook-upgrade-simians-desc = Upgrades Summon Simians to a maximum of level 5!
+spellbook-upgrade-simians-name = Amélioration Invocation de Simiens
+spellbook-upgrade-simians-desc = Améliore Invocation de Simiens jusqu'au niveau maximum 5 !

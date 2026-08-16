@@ -2,20 +2,20 @@
 loadout-group-traitor-uplink = Uplink
 
 # PDA Uplink Option
-loadout-traitor-uplink-pda-name = PDA Uplink
-loadout-traitor-uplink-pda-desc = Your uplink will be hidden in your PDA. Enter the code on your PDA's ringtone to access it.
+loadout-traitor-uplink-pda-name = Uplink PDA
+loadout-traitor-uplink-pda-desc = Votre uplink sera caché dans votre PDA. Entrez le code sur la sonnerie de votre PDA pour y accéder.
 
 # Pen Uplink Option
-loadout-traitor-uplink-pen-name = Pen Uplink
-loadout-traitor-uplink-pen-desc = Your uplink will be hidden in a pen. Spin to your code to unlock. Auto-locks when closed.
+loadout-traitor-uplink-pen-name = Uplink Stylo
+loadout-traitor-uplink-pen-desc = Votre uplink sera caché dans un stylo. Tournez jusqu'à votre code pour déverrouiller. Se verrouille automatiquement à la fermeture.
 
 # Implant Uplink Option
-loadout-traitor-uplink-implant-name = Subdermal Implant
-loadout-traitor-uplink-implant-desc = Your uplink will be implanted under your skin. Costs 10 TC. Activate it from your actions menu.
+loadout-traitor-uplink-implant-name = Implant Sous-cutané
+loadout-traitor-uplink-implant-desc = Votre uplink sera implanté sous votre peau. Coûte 10 TC. Activez-le depuis votre menu d'actions.
 
-ent-LoadoutDummyTraitorPda = PDA Uplink
-    .desc = Your uplink will be hidden in your PDA. Enter the code on your PDA's ringtone to access it.
-ent-LoadoutDummyTraitorPen = Pen Uplink
-    .desc = Your uplink will be hidden in a pen. Spin to your code to unlock. Auto-locks when closed.
-ent-LoadoutDummyTraitorImplant = Subdermal Implant
-    .desc = Your uplink will be implanted under your skin. Costs 10 TC. Activate it from your actions menu.
+ent-LoadoutDummyTraitorPda = Uplink PDA
+    .desc = Votre uplink sera caché dans votre PDA. Entrez le code sur la sonnerie de votre PDA pour y accéder.
+ent-LoadoutDummyTraitorPen = Uplink Stylo
+    .desc = Votre uplink sera caché dans un stylo. Tournez jusqu'à votre code pour déverrouiller. Se verrouille automatiquement à la fermeture.
+ent-LoadoutDummyTraitorImplant = Implant Sous-cutané
+    .desc = Votre uplink sera implanté sous votre peau. Coûte 10 TC. Activez-le depuis votre menu d'actions.

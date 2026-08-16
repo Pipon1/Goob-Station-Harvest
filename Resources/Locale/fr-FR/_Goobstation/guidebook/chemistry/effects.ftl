@@ -7,43 +7,43 @@
 reagent-effect-guidebook-deal-stamina-damage =
     { $chance ->
         [1] { $deltasign ->
-                [1] Deals
-                *[-1] Heals
+                [1] Inflige
+                *[-1] Soigne
             }
         *[other]
             { $deltasign ->
-                [1] deal
-                *[-1] heal
+                [1] inflige
+                *[-1] soigne
             }
     } { $amount } { $immediate ->
-                    [true] immediate
-                    *[false] overtime
-                  } stamina damage
+                    [true] immédiat
+                    *[false] sur la durée
+                  } dégâts d'endurance
 
-reagent-effect-guidebook-stealth-entities = Camouflages living mobs nearby.
+reagent-effect-guidebook-stealth-entities = Camoufle les êtres vivants à proximité.
 
-reagent-effect-guidebook-change-faction = Changes the mob's faction to {$faction}.
+reagent-effect-guidebook-change-faction = Change la faction de l'être pour {$faction}.
 
-reagent-effect-guidebook-mutate-plants-nearby = Randomly mutates nearby plants.
+reagent-effect-guidebook-mutate-plants-nearby = Mutation aléatoire des plantes à proximité.
 
-reagent-effect-guidebook-dnascramble = Scrambles the person's DNA.
+reagent-effect-guidebook-dnascramble = Détresse l'ADN de la personne.
 
-reagent-effect-guidebook-change-species = Turns the target into a {$species}.
+reagent-effect-guidebook-change-species = Transforme la cible en {$species}.
 
-reagent-effect-guidebook-change-species-random = Turns the target into a completely random species.
+reagent-effect-guidebook-change-species-random = Transforme la cible en une espèce complètement aléatoire.
 
-reagent-effect-guidebook-sex-change = Swaps the person's gender
+reagent-effect-guidebook-sex-change = Change le genre de la personne
 
 reagent-effect-guidebook-immunity-modifier =
     { $chance ->
-        [1] Modifies
-        *[other] modify
-    } immunity gain rate by {NATURALFIXED($gainrate, 5)}, strength by {NATURALFIXED($strength, 5)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)}
+        [1] Modifie
+        *[other] modifie
+    } le taux de gain d'immunité par {NATURALFIXED($gainrate, 5)}, la force par {NATURALFIXED($strength, 5)} pendant au moins {NATURALFIXED($time, 3)} {MANY("seconde", $time)}
 
 reagent-effect-guidebook-disease-progress-change =
     { $chance ->
-        [1] Modifies
-        *[other] modify
-    } progress of {$type} diseases by {NATURALFIXED($amount, 5)}
+        [1] Modifie
+        *[other] modifie
+    } la progression des maladies {$type} de {NATURALFIXED($amount, 5)}
 
-reagent-effect-guidebook-disease-mutate = Mutates diseases by {NATURALFIXED($amount, 4)}
+reagent-effect-guidebook-disease-mutate = Mute les maladies de {NATURALFIXED($amount, 4)}

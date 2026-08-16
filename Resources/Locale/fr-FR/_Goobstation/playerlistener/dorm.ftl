@@ -4,5 +4,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-dorm-condemned=Suspicious activity detected in {$dorm}, crew is hereby requested to investigate the disturbance.
-dorm-condemned-expedited=Unsanctioned extracurricular activity detected in {$dorm}, involving the next crew members: {$sinners}. Crew is commanded to resolve the issue.
+dorm-condemned=Activité suspecte détectée dans {$dorm}, l'équipage est prié d'enquêter sur le dérangement.
+dorm-condemned-expedited=Activité extra-scolaire non autorisée détectée dans {$dorm}, impliquant les membres d'équipage suivants : {$sinners}. L'équipage est prié de régler le problème.

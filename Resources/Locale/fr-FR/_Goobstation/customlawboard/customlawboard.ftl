@@ -1,9 +1,9 @@
-custom-lawboard-ui-title = experimental syndicate lawboard
+custom-lawboard-ui-title = panneau de lois syndical expérimental
 
 custom-lawboard-up-arrow = ↑
 custom-lawboard-down-arrow = ↓
 
-custom-lawboard-updated = Lawboard updated
+custom-lawboard-updated = Panneau de lois mis à jour
 
-custom-lawboard-import = Import
-custom-lawboard-export = Export
+custom-lawboard-import = Importer
+custom-lawboard-export = Exporter

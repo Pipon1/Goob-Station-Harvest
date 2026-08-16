@@ -1,1 +1,1 @@
-illusion-comp-death-message = {$ent} vanishes into thin air! It was a fake!
+illusion-comp-death-message = {$ent} disparaît dans les airs ! C'était un leurre !

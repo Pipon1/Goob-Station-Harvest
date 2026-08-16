@@ -5,5 +5,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-materials-bscrystal = cristal de bluespace
-materials-bscrystal-unprocessed = cristal de bluespace non traité
+materials-bscrystal = cristal de l'hyperespace
+materials-bscrystal-unprocessed = cristal de l'hyperespace non traité

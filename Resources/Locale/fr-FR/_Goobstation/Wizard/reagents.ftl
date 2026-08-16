@@ -5,23 +5,23 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 reagent-effect-condition-guidebook-has-component =
-    the target { $invert ->
-                 [true] is not
-                 *[false] is
+    la cible { $invert ->
+                 [true] n'est pas
+                 *[false] est
                 } {$comp}
 
 reagent-effect-guidebook-drop-items =
     { $chance ->
-        [1] Forces
+        [1] Force
         *[other] force
-    } to drop held items
+    } à lâcher les objets tenus
 
-reagent-name-thick-smoke = thick smoke
-reagent-desc-thick-smoke = Extremely thick smoke with magical properties. You don't want to inhale it.
+reagent-name-thick-smoke = fumée épaisse
+reagent-desc-thick-smoke = Fumée extrêmement épaisse aux propriétés magiques. Vous ne voulez surtout pas l'inhaler.
 
-reagent-name-mugwort = mugwort tea
-reagent-desc-mugwort = A rather bitter herb once thought to hold magical protective properties.
+reagent-name-mugwort = tisane d'armoise
+reagent-desc-mugwort = Une herbe assez amère que l'on pensait autrefois avoir des propriétés magiques protectrices.
 
-reagent-comp-condition-wizard-or-apprentice = wizard or apprentice
+reagent-comp-condition-wizard-or-apprentice = sorcier ou apprenti
 
-reagent-physical-desc-magical = magical
+reagent-physical-desc-magical = magique

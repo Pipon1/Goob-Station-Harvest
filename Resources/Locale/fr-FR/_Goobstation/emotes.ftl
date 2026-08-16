@@ -10,21 +10,21 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-emote-menu-category-farts = Farts
+emote-menu-category-farts = Pets
 
-chat-emote-name-flip = Do a flip
-chat-emote-name-spin = Spin
-chat-emote-name-jump = Jump
-chat-emote-name-tweak = Tweak
-chat-emote-name-flex = Flex muscles
-chat-emote-name-gulp = Gulp
-chat-emote-name-surprised = look surprised
+chat-emote-name-flip = Faire un salto
+chat-emote-name-spin = Tourner
+chat-emote-name-jump = Sauter
+chat-emote-name-tweak = Tweaker
+chat-emote-name-flex = Flexionner
+chat-emote-name-gulp = Avaler
+chat-emote-name-surprised = Avoir l'air surpris
 chat-emote-name-bagawk = Bagawk
 
-chat-emote-msg-flip = does a flip!
-chat-emote-msg-spin = spins!
-chat-emote-msg-jump = jumps!
-chat-emote-msg-tweak = starts tweaking!
-chat-emote-msg-flex = flexes its muscles.
-chat-emote-msg-gulp = gulps.
-chat-emote-msg-surprised = looks surprised.
+chat-emote-msg-flip = fait un salto !
+chat-emote-msg-spin = tourne !
+chat-emote-msg-jump = saute !
+chat-emote-msg-tweak = commence à tweaker !
+chat-emote-msg-flex = flexionne ses muscles.
+chat-emote-msg-gulp = déglutit.
+chat-emote-msg-surprised = a l'air surpris.

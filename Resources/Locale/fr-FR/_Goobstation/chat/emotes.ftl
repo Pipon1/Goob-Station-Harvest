@@ -6,36 +6,36 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-# Names
-chat-emote-name-fart = Fart
-chat-emote-name-fart-inhale = Breathe in a fart
-chat-emote-name-fart-super = Super Fart
-chat-emote-name-flap = Flap
-chat-emote-name-trill = Trill
-chat-emote-name-warble = Warble
+# Noms
+chat-emote-name-fart = Pet
+chat-emote-name-fart-inhale = Respirer un pet
+chat-emote-name-fart-super = Super Pet
+chat-emote-name-flap = Battre
+chat-emote-name-trill = Trille
+chat-emote-name-warble = Gazouillis
 chat-emote-name-wurble = Wurble
 chat-emote-name-mars = Mars
 
-# Message
-chat-emote-msg-fart = farts.
-chat-emote-msg-fart-inhale = breathes in a big fart.
-chat-emote-msg-fart-super = super farts.
-chat-emote-msg-flap = flaps {POSS-ADJ($entity)} wings.
-chat-emote-msg-trill = trills!
-chat-emote-msg-warble = warbles!
-chat-emote-msg-wurble = wurbles!
+# Messages
+chat-emote-msg-fart = pète.
+chat-emote-msg-fart-inhale = respire un gros pet.
+chat-emote-msg-fart-super = super pète.
+chat-emote-msg-flap = bat {POSS-ADJ($entity)} ailes.
+chat-emote-msg-trill = trille !
+chat-emote-msg-warble = gazouille !
+chat-emote-msg-wurble = wurble !
 chat-emote-msg-mars = mars.
-chat-emote-msg-bagawk = bagawks!
+chat-emote-msg-bagawk = cotcot !
 
 
-# Misc
-emote-fart-not-loaded = You don't have a super fart loaded!
-emote-fart-already-loaded = You already have a fart loaded!
-emote-fart-ass-off = You don't have a butt to fart with!
-emote-fart-out-of-farts = You're all out of farts!
-emote-fart-super-fart = You (literally) fart your ass off!
-emote-fart-inhale-notice = You breathe in, arming a super fart.
-emote-fart-inhale-disarm-notice = You disarm your super fart.
+# Divers
+emote-fart-not-loaded = Vous n'avez pas de super pet chargé !
+emote-fart-already-loaded = Vous avez déjà un pet chargé !
+emote-fart-ass-off = Vous n'avez pas de cul pour péter avec !
+emote-fart-out-of-farts = Vous n'avez plus de pets !
+emote-fart-super-fart = Vous (littéralement) pétez votre cul !
+emote-fart-inhale-notice = Vous respirez, chargeant un super pet.
+emote-fart-inhale-disarm-notice = Vous désarmez votre super pet.
 
 chat-emote-name-boop = Boop
-chat-emote-name-whirr = Whirr
+chat-emote-name-whirr = Vrombissement

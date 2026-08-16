@@ -22,79 +22,79 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-knowledge-path-flesh-s1-name = Principle of Hunger
+knowledge-path-flesh-s1-name = Principe de la Faim
 knowledge-path-flesh-s1-desc =
-    Hundreds of us starved, but not me... I found strength in my greed.
+    Des centaines d'entre nous moururent de faim, mais pas moi... J'ai trouvé la force dans ma cupidité.
 
-    Opens up the Path of Flesh to you.
-    Allows you to transmute a knife and a pool of blood into a Bloody Blade.
-    You can only create two at a time.
+    Vous ouvre la Voie de la Chair.
+    Vous permet de transmutuer un couteau et une mare de sang en Lame Sanglante.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-flesh-s2-name = Grasp of Flesh
+knowledge-path-flesh-s2-name = Emprise de la Chair
 knowledge-path-flesh-s2-desc =
-    My new found desires drove me to greater and greater heights.
+    Mes désirs nouvellement trouvés m'ont poussé vers des sommets toujours plus grands.
 
-    Your Mansus Grasp gains the ability to create a ghoul out of corpse with a soul.
-    Ghouls have only 50 health and look like husks to the heathens' eyes.
-    All ghouls get their own Bloody Blade that cannot be shattered and disappears on ghoul death.
-    You are now able to consume raw flesh. Eating meat, organs and body parts will empower and heal you temporarily, the effect scales with your path stage.
-    You also become immune to damage from poisons.
+    Votre Emprise du Mansus gagne la capacité de créer une goule à partir d'un cadavre avec une âme.
+    Les goules n'ont que 50 points de vie et ressemblent à des coques vides aux yeux des infidèles.
+    Toutes les goules reçoivent leur propre Lame Sanglante qui ne peut être brisée et disparaît à la mort de la goule.
+    Vous pouvez maintenant consommer de la chair crue. Manger de la viande, des organes et des parties du corps vous renforcera et vous soignera temporairement, l'effet dépendant de votre stade de la voie.
+    Vous devenez également immunisé aux dégâts des poisons.
 
-knowledge-path-flesh-s3-name = Imperfect Ritual
+knowledge-path-flesh-s3-name = Rituel Imparfait
 knowledge-path-flesh-s3-desc =
-    I found notes of a dark ritual, unfinished... yet still, I pushed forward.
+    J'ai trouvé les notes d'un rituel sombre, inachevé... pourtant, j'ai continué.
 
-    Allows you to transmute a corpse and a muzzle to create a Voiceless Dead.
-    The corpse does not need to have a soul.
-    Voiceless Dead are mute ghouls, which have 100 health and a Bloody Blade.
-    Voiceless Dead are stronger than regular ones at using Bloody Blades.
-    You can only create two at a time.
+    Vous permet de transmutuer un cadavre et une muselière pour créer un Mort Sans Voix.
+    Le cadavre n'a pas besoin d'avoir une âme.
+    Les Morts Sans Voix sont des goules muettes, qui ont 100 points de vie et une Lame Sanglante.
+    Les Morts Sans Voix sont plus forts que les goules régulières pour utiliser les Lames Sanglantes.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-flesh-s4-name = Mark of Flesh
+knowledge-path-flesh-s4-name = Marque de la Chair
 knowledge-path-flesh-s4-desc =
-    That's when I saw them, the marked ones. They were out of reach. They screamed, and screamed.
+    C'est alors que je les vis, les marqués. Ils étaient hors de portée. Ils hurlaient, et hurlaient.
 
-    Your Mansus Grasp now applies the Mark of Flesh. The mark is triggered from an attack with your Bloody Blade.
-    When triggered, the victim will split into flesh mimic that will attack them.
-    Flesh mimics are identical to ghouls risen by mansus grasp but they receive damage over time that increases slowly.
+    Votre Emprise du Mansus applique désormais la Marque de la Chair. La marque se déclenche lors d'une attaque avec votre Lame Sanglante.
+    Lorsqu'elle se déclenche, la victime se scindera en un mimique de chair qui l'attaquera.
+    Les mimiques de chair sont identiques aux goules invoquées par l'emprise du Mansus mais subissent des dégâts croissants au fil du temps.
 
-knowledge-path-flesh-s5-name = Knitting of Flesh
+knowledge-path-flesh-s5-name = Tissage de Chair
 knowledge-path-flesh-s5-desc =
-    But they were not out of my reach for long. With every step, the screams grew, until at last
-    I learned that they could be silenced.
+    Mais ils ne restèrent pas hors de ma portée longtemps. À chaque pas, les cris grandirent, jusqu'à ce qu'enfin
+    j'apprenne qu'ils pouvaient être réduits au silence.
 
-    Grants you the spell Knit Flesh. This touch spell acts as a great surgery tool that bypasses surgery steps, clothing, doesn't cause pain and doesn't deal poison damage. Also acts as medical hud and health analyzer.
-    This spell also allows you to heal your minions and summons.
+    Vous accorde le sort Tissage de Chair. Ce sort de contact agit comme un excellent outil chirurgical qui contourne les étapes de chirurgie, les vêtements, ne cause pas de douleur et n'inflige pas de dégâts de poison. Agit aussi comme HUD médical et analyseur de santé.
+    Ce sort vous permet également de soigner vos serviteurs et invocations.
 
-knowledge-path-flesh-s6-name = Raw Ritual
+knowledge-path-flesh-s6-name = Rituel Brut
 knowledge-path-flesh-s6-desc =
-    I could not continue alone. I was able to summon The Uncanny Man to help me see more.
-    The screams... once constant, now silenced by their wretched appearance. Nothing was out of reach.
+    Je ne pouvais continuer seul. Je suis parvenu à invoquer l'Homme Inquiétant pour m'aider à voir plus loin.
+    Les cris... jadis constants, maintenant réduits au silence par leur apparence misérable. Rien n'était hors de portée.
 
-    Allows you to transmute a pair of eyes, a stomach, and a pool of blood to create a Raw Prophet.
-    Raw Prophets have a greatly increased sight range and x-ray vision, as well as a long range jaunt and the ability to link minds to communicate with ease, but are very fragile and weak in combat.
-    Raw Prophets passively heal heretics and ghouls around themselves.
-    You can only create two at a time.
+    Vous permet de transmutuer une paire d'yeux, un estomac et une mare de sang pour créer un Prophète Brut.
+    Les Prophètes Bruts ont une portée de vue grandement augmentée et la vision aux rayons X, ainsi qu'un bond à longue portée et la capacité de lier les esprits pour communiquer aisément, mais sont très fragiles et faibles au combat.
+    Les Prophètes Bruts soignent passivement les hérétiques et goules autour d'eux.
+    Vous ne pouvez en créer que deux à la fois.
 
-knowledge-path-flesh-s7-name = Bleeding Steel
+knowledge-path-flesh-s7-name = Acier Saignant
 knowledge-path-flesh-s7-desc =
-    The Uncanny Man was not alone. They led me to the Marshal.
-    I finally began to understand. And then, blood rained from the heavens.
+    L'Homme Inquiétant n'était pas seul. Il me mena au Maréchal.
+    Je commençais enfin à comprendre. Et puis, le sang pleut des cieux.
 
-    Your Bloody Blade now causes enemies to bleed heavily on attack.
+    Votre Lame Sanglante fait maintenant saigner abondamment les ennemis à l'attaque.
 
-knowledge-path-flesh-s8-name = Lonely Ritual
+knowledge-path-flesh-s8-name = Rituel Solitaire
 knowledge-path-flesh-s8-desc =
-    I was able to combine my greed and desires to summon an eldritch beast I had never seen before.
-    An ever shapeshifting mass of flesh, it knew well my goals. The Marshal approved.
+    J'ai été capable de combiner ma cupidité et mes désirs pour invoquer une bête indicible que je n'avais jamais vue auparavant.
+    Une masse de chair métamorphe éternelle, elle connaissait bien mes objectifs. Le Maréchal approuva.
 
-    Allows you to transmute a heart, a stomach, lungs and a pen to create a Stalker.
-    Stalkers can jaunt, release EMPs, shapeshift into different creatures, and are strong in combat.
+    Vous permet de transmutuer un cœur, un estomac, des poumons et un stylo pour créer un Traqueur.
+    Les Traqueurs peuvent bondir, émettre des EMP, se métamorphoser en différentes créatures, et sont forts au combat.
 
-knowledge-path-flesh-s9-name = Priest’s Final Hymn
+knowledge-path-flesh-s9-name = Hymne Final du Prêtre
 knowledge-path-flesh-s9-desc =
-    The ascension ritual of the Path of Flesh. Bring 4 corpses to a transmutation rune to complete the ritual.
-    When completed, you will become even stronger from consuming flesh.
-    Additionally, upon taking damage, your body will split into flesh mimic. They will be given a Bloody Blade.
-    You can only sustain 10 flesh mimics at once, taking even more damage will instead heal existing mimics.
-    You will also become immune to extreme temperatures and pressure.
+    Le rituel d'ascension de la Voie de la Chair. Apportez 4 cadavres à une rune de transmutation pour accomplir le rituel.
+    Une fois accompli, vous deviendrez encore plus fort en consommant de la chair.
+    De plus, en subissant des dégâts, votre corps se scindera en mimique de chair. Ils recevront une Lame Sanglante.
+    Vous ne pouvez maintenir que 10 mimiques de chair à la fois, subir encore plus de dégâts soignera les mimiques existants à la place.
+    Vous deviendrez également immunisé aux températures et pressions extrêmes.

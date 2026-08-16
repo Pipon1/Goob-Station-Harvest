@@ -1,49 +1,49 @@
-marking-WristBraceletRight = Right Bracelet
-marking-WristBraceletRight-bracelet_r = Right Bracelet
+marking-WristBraceletRight = Bracelet Droit
+marking-WristBraceletRight-bracelet_r = Bracelet Droit
 
-marking-WristBraceletLeft = Left Bracelet
-marking-WristBraceletLeft-bracelet_l = Left Bracelet
+marking-WristBraceletLeft = Bracelet Gauche
+marking-WristBraceletLeft-bracelet_l = Bracelet Gauche
 
-marking-WristBraceletArmRight = Right Arm Bracelet
-marking-WristBraceletArmRight-bracelet_arm_r = Right Arm Bracelet
+marking-WristBraceletArmRight = Brassard Droit
+marking-WristBraceletArmRight-bracelet_arm_r = Brassard Droit
 
-marking-WristBraceletArmLeft = Left Arm Bracelet
-marking-WristBraceletArmLeft-bracelet_arm_l = Left Arm Bracelet
+marking-WristBraceletArmLeft = Brassard Gauche
+marking-WristBraceletArmLeft-bracelet_arm_l = Brassard Gauche
 
-marking-WristWatchRight = Right Watch
-marking-WristWatchRight-watch_r = Right Watch
+marking-WristWatchRight = Montre Droite
+marking-WristWatchRight-watch_r = Montre Droite
 
-marking-WristWatchLeft = Left Watch
-marking-WristWatchLeft-watch_l = Left Watch
+marking-WristWatchLeft = Montre Gauche
+marking-WristWatchLeft-watch_l = Montre Gauche
 
-marking-WristWatchSilverRight = Right Silver Watch
-marking-WristWatchSilverRight-watch_silver_r = Right Silver Watch
+marking-WristWatchSilverRight = Montre Argent Droite
+marking-WristWatchSilverRight-watch_silver_r = Montre Argent Droite
 
-marking-WristWatchSilverLeft = Left Silver Watch
-marking-WristWatchSilverLeft-watch_silver_l = Left Silver Watch
+marking-WristWatchSilverLeft = Montre Argent Gauche
+marking-WristWatchSilverLeft-watch_silver_l = Montre Argent Gauche
 
-marking-WristWatchGoldRight = Right Gold Watch
-marking-WristWatchGoldRight-watch_gold_r = Right Gold Watch
+marking-WristWatchGoldRight = Montre Or Droite
+marking-WristWatchGoldRight-watch_gold_r = Montre Or Droite
 
-marking-WristWatchGoldLeft = Left Gold Watch
-marking-WristWatchGoldLeft-watch_gold_l = Left Gold Watch
+marking-WristWatchGoldLeft = Montre Or Gauche
+marking-WristWatchGoldLeft-watch_gold_l = Montre Or Gauche
 
-marking-WristWatchHoloRight = Right Holographic Watch
-marking-WristWatchHoloRight-watch_holo_r = Right Holographic Watch
+marking-WristWatchHoloRight = Montre Holographique Droite
+marking-WristWatchHoloRight-watch_holo_r = Montre Holographique Droite
 
-marking-WristWatchHoloLeft = Left Holographic Watch
-marking-WristWatchHoloLeft-watch_holo_l = Left Holographic Watch
+marking-WristWatchHoloLeft = Montre Holographique Gauche
+marking-WristWatchHoloLeft-watch_holo_l = Montre Holographique Gauche
 
-marking-WristWatchLeatherRight = Right Leather Watch
-marking-WristWatchLeatherRight-watch_leather_r = Right Leather Watch
+marking-WristWatchLeatherRight = Montre Cuir Droite
+marking-WristWatchLeatherRight-watch_leather_r = Montre Cuir Droite
 
-marking-WristWatchLeatherLeft = Left Leather Watch
-marking-WristWatchLeatherLeft-watch_leather_l = Left Leather Watch
+marking-WristWatchLeatherLeft = Montre Cuir Gauche
+marking-WristWatchLeatherLeft-watch_leather_l = Montre Cuir Gauche
 
-marking-WristWatchColorableRight = Right Watch (Colorable)
-marking-WristWatchColorableRight-watch_colorable_r_tone_1 = Strap
-marking-WristWatchColorableRight-watch_colorable_r_tone_2 = Watch Face
+marking-WristWatchColorableRight = Montre Droite (Colorable)
+marking-WristWatchColorableRight-watch_colorable_r_tone_1 = Bracelet
+marking-WristWatchColorableRight-watch_colorable_r_tone_2 = Cadran
 
-marking-WristWatchColorableLeft = Left Watch (Colorable)
-marking-WristWatchColorableLeft-watch_colorable_l_tone_1 = Strap
-marking-WristWatchColorableLeft-watch_colorable_l_tone_2 = Watch Face
+marking-WristWatchColorableLeft = Montre Gauche (Colorable)
+marking-WristWatchColorableLeft-watch_colorable_l_tone_1 = Bracelet
+marking-WristWatchColorableLeft-watch_colorable_l_tone_2 = Cadran

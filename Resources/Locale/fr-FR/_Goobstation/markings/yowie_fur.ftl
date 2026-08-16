@@ -4,31 +4,31 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-marking-YowieFur = Yowie body fur
+marking-YowieFur = Fourrure corps Yowie
 
-marking-YowieFurHead = Yowie head fur
-marking-YowieFurHead-yowie_fur_head = Yowie head fur
+marking-YowieFurHead = Fourrure tête Yowie
+marking-YowieFurHead-yowie_fur_head = Fourrure tête Yowie
 
-marking-YowieFurChest = Yowie chest fur
-marking-YowieFurChest-yowie_fur_chest = Yowie chest fur
+marking-YowieFurChest = Fourrure torse Yowie
+marking-YowieFurChest-yowie_fur_chest = Fourrure torse Yowie
 
-marking-YowieFurGroin = Yowie groin fur
-marking-YowieFurGroin-yowie_fur_groin = Yowie groin fur
+marking-YowieFurGroin = Fourrure aine Yowie
+marking-YowieFurGroin-yowie_fur_groin = Fourrure aine Yowie
 
-marking-YowieFurArmRight = Yowie right arm fur
-marking-YowieFurArmRight-yowie_fur_arm_right = Yowie right arm fur
+marking-YowieFurArmRight = Fourrure bras droit Yowie
+marking-YowieFurArmRight-yowie_fur_arm_right = Fourrure bras droit Yowie
 
-marking-YowieFurArmLeft = Yowie left arm fur
-marking-YowieFurArmLeft-yowie_fur_arm_left = Yowie left arm fur
+marking-YowieFurArmLeft = Fourrure bras gauche Yowie
+marking-YowieFurArmLeft-yowie_fur_arm_left = Fourrure bras gauche Yowie
 
-marking-YowieFurLegRight = Yowie right leg fur
-marking-YowieFurLegRight-yowie_fur_leg_right = Yowie right leg fur
+marking-YowieFurLegRight = Fourrure jambe droite Yowie
+marking-YowieFurLegRight-yowie_fur_leg_right = Fourrure jambe droite Yowie
 
-marking-YowieFurLegLeft = Yowie left leg fur
-marking-YowieFurLegLeft-yowie_fur_leg_left = Yowie left leg fur
+marking-YowieFurLegLeft = Fourrure jambe gauche Yowie
+marking-YowieFurLegLeft-yowie_fur_leg_left = Fourrure jambe gauche Yowie
 
-marking-YowieFurFeetRight = Yowie right foot fur
-marking-YowieFurFeetRight-yowie_fur_feet_right = Yowie right foot fur
+marking-YowieFurFeetRight = Fourrure pied droit Yowie
+marking-YowieFurFeetRight-yowie_fur_feet_right = Fourrure pied droit Yowie
 
-marking-YowieFurFeetLeft = Yowie left foot fur
-marking-YowieFurFeetLeft-yowie_fur_feet_left = Yowie left foot fur
+marking-YowieFurFeetLeft = Fourrure pied gauche Yowie
+marking-YowieFurFeetLeft-yowie_fur_feet_left = Fourrure pied gauche Yowie
