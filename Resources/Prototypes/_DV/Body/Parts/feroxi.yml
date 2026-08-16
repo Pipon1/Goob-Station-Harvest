@@ -71,9 +71,9 @@
 - type: entity
   parent: [ PartFeroxiBase, BaseLeftFoot ]
   id: LeftFootFeroxi
-  name: left feroxi foot
+  name: pied gauche de feroxi
 
 - type: entity
   parent: [ PartFeroxiBase, BaseRightFoot ]
   id: RightFootFeroxi
-  name: right feroxi foot
+  name: pied droit de feroxi

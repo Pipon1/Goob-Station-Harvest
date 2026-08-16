@@ -48,10 +48,10 @@
 
 - type: entity
   id: ProjectileCosmic
-  name: Projectil malin
+  name: Projectile Malin
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Ouch.
+  description: Aïe.
   components:
   - type: Reflective
     reflective: Magic # Goobstation
@@ -96,10 +96,10 @@
 
 - type: entity
   id: ProjectileCosmicRazor
-  name: Projectile astral
+  name: Projectile Astral
   parent: ProjectileCosmic
   categories: [ HideSpawnMenu ]
-  description: Ouch.
+  description: Aïe.
   components:
   - type: DamageMarkerOnCollide
     whitelist:
