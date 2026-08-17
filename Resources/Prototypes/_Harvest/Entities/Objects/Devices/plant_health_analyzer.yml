@@ -1,0 +1,28 @@
+- type: entity
+  parent: BaseItem
+  id: PlantHealthAnalyzer
+  name: plant scanner
+  description: Scans the plants health and needs.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/Equipment/plant_analyzer.rsi
+    layers:
+    - state: icon
+    - state: analyzer
+      shader: unshaded
+  - type: Item
+    heldPrefix: analyzer
+    storedRotation: -90
+  - type: Tag
+    tags:
+    - PlantHealthAnalyzer
+  - type: PlantHealthAnalyzer
+  - type: ActivatableUI
+    key: enum.PlantHealthAnalyzerUiKey.Key
+    inHandsOnly: true
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.PlantHealthAnalyzerUiKey.Key:
+        type: PlantHealthAnalyzerBoundUserInterface
+        interactionRange: 2

@@ -1,0 +1,61 @@
+<controls:FancyWindow xmlns="https://spacestation14.io"
+                      xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+                      Title="{Loc 'plant-health-analyzer-window-title'}" MinSize="520 420">
+    <BoxContainer Orientation="Vertical" Margin="12" SeparationOverride="8">
+        <Label Name="EmptyLabel" Text="{Loc 'plant-health-analyzer-empty'}"
+               HorizontalAlignment="Center" VerticalExpand="True" VerticalAlignment="Center"
+               StyleClasses="LabelSubText" />
+
+        <ScrollContainer Name="PlantScroll" Visible="False" VerticalExpand="True" HScrollEnabled="False">
+            <BoxContainer Orientation="Vertical" Margin="8" SeparationOverride="12" HorizontalExpand="True">
+                <PanelContainer StyleClasses="AngleRect" HorizontalExpand="True">
+                    <BoxContainer Orientation="Horizontal" Margin="14 10" SeparationOverride="12">
+                        <SpriteView Name="PlantSprite" SetSize="80 80" Scale="2 2" OverrideDirection="South" VerticalAlignment="Center" />
+                        <BoxContainer Orientation="Vertical" SeparationOverride="8" VerticalAlignment="Center" HorizontalExpand="True">
+                            <RichTextLabel Name="PlantNameLabel" StyleClasses="LabelHeadingBigger" HorizontalExpand="True" />
+                            <ProgressBar Name="HealthBar" MinValue="0" MaxValue="100" MinHeight="24" HorizontalExpand="True">
+                                <Label Name="HealthBarLabel" StyleClasses="LabelHeading" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </ProgressBar>
+                        </BoxContainer>
+                    </BoxContainer>
+                </PanelContainer>
+
+                <BoxContainer Orientation="Horizontal" SeparationOverride="10" HorizontalExpand="True">
+                    <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="220">
+                        <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="5" VerticalExpand="True">
+                            <Label Text="{Loc 'plant-health-analyzer-section-status'}" StyleClasses="LabelHeading" />
+                            <PanelContainer StyleClasses="LowDivider" />
+                            <BoxContainer Orientation="Vertical" SeparationOverride="5" HorizontalExpand="True">
+                                <ProgressBar Name="GrowthBar" MinValue="0" MaxValue="100" MinHeight="18" HorizontalExpand="True">
+                                    <Label Name="GrowthBarLabel" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </ProgressBar>
+                                <Label Text="{Loc 'plant-health-analyzer-label-age'}" StyleClasses="LabelSubText" /><RichTextLabel Name="AgeLabel" HorizontalExpand="True" />
+                                <Label Text="{Loc 'plant-health-analyzer-label-harvest'}" StyleClasses="LabelSubText" /><RichTextLabel Name="HarvestLabel" HorizontalExpand="True" />
+                            </BoxContainer>
+                        </BoxContainer>
+                    </PanelContainer>
+
+                    <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="220">
+                        <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="5" VerticalExpand="True">
+                            <Label Text="{Loc 'plant-health-analyzer-section-stress'}" StyleClasses="LabelHeading" />
+                            <PanelContainer StyleClasses="LowDivider" />
+                            <BoxContainer Orientation="Vertical" SeparationOverride="5" HorizontalExpand="True">
+                                <ProgressBar Name="ToxinsBar" MinValue="0" MaxValue="100" MinHeight="18" HorizontalExpand="True"><Label Name="ToxinsBarLabel" HorizontalAlignment="Center" VerticalAlignment="Center" /></ProgressBar>
+                                <ProgressBar Name="PestsBar" MinValue="0" MaxValue="100" MinHeight="18" HorizontalExpand="True"><Label Name="PestsBarLabel" HorizontalAlignment="Center" VerticalAlignment="Center" /></ProgressBar>
+                                <ProgressBar Name="WeedsBar" MinValue="0" MaxValue="100" MinHeight="18" HorizontalExpand="True"><Label Name="WeedsBarLabel" HorizontalAlignment="Center" VerticalAlignment="Center" /></ProgressBar>
+                            </BoxContainer>
+                        </BoxContainer>
+                    </PanelContainer>
+                </BoxContainer>
+
+                <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True">
+                    <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="5">
+                        <Label Text="{Loc 'plant-health-analyzer-section-diagnostic'}" StyleClasses="LabelHeading" />
+                        <PanelContainer StyleClasses="LowDivider" />
+                        <RichTextLabel Name="ProblemsLabel" HorizontalExpand="True" />
+                    </BoxContainer>
+                </PanelContainer>
+            </BoxContainer>
+        </ScrollContainer>
+    </BoxContainer>
+</controls:FancyWindow>

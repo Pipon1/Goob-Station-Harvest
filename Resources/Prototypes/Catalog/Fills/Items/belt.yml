@@ -154,6 +154,7 @@
         - id: HydroponicsToolSpade
         - id: HydroponicsToolClippers
         - id: ChemistryBottleRobustHarvest
+        - id: PlantHealthAnalyzer # HarvestStation - Brua
 
 - type: entity
   id: ClothingBeltSheathFilled

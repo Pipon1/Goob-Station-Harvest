@@ -1144,6 +1144,9 @@
   id: PlantBGone # Storage whitelist: ClothingBeltPlant. ItemMapper: ClothingBeltPlant
 
 - type: Tag
+  id: PlantHealthAnalyzer # Storage whitelist: ClothingBeltPlant # HarvestStation - Brua
+
+- type: Tag
   id: PlantSampleTaker # Used by PlantHolderSystem to make tagged entities a pseudo-tool for trimming seeds. TODO this sucks!
 
 - type: Tag

@@ -289,7 +289,7 @@
   parent: [BaseCircuitboardRecipe]
   id: SmartFridgeCircuitboard
   result: SmartFridgeCircuitboard
-  
+
 # Bar
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]
@@ -321,6 +321,12 @@
   id: SeedExtractorMachineCircuitboard
   icon: { sprite:  Structures/Machines/seed_extractor.rsi, state: seedextractor-off } # Goobstation
   result: SeedExtractorMachineCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]
+  id: SeedAnalyzerMachineCircuitboard
+  icon: { sprite: Structures/Machines/seed_analyzer.rsi, state: seedanalyzer-off } # HarvestStation - Brua
+  result: SeedAnalyzerMachineCircuitboard
 
 # Kitchen
 - type: latheRecipe
