@@ -1,6 +1,6 @@
 - type: entity
   id: VinylPlayer
-  name: vinyl player
+  name: lecteur vinyle
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   description: Un vieux lecteur de disques vinyle posé sur un ensemble de tiroirs.
   components:

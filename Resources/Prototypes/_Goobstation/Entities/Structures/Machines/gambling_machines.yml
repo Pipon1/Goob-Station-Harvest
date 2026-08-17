@@ -277,8 +277,8 @@
 - type: entity
   id: ClawMachine
   parent: BaseMachinePowered
-  name: claw machine
-  description: Sure we got our health insurance benefits cut, and yeah we don't get any overtime on holidays, but hey - free to play claw machines!
+  name: machine à grue
+  description: Bien sûr, on a perdu nos avantages d'assurance santé, et ouais, on a pas d'heures sup' les jours fériés, mais hey - machines à grue gratuites !
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/Machines/slotmachines/claw_machine.rsi

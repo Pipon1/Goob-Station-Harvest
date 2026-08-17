@@ -3,7 +3,7 @@
 - type: entity
   parent: [ ClothingHandsBase , BaseWardenContraband ]
   id: ClothingHandsGlovesKravMaga
-  name: Krav Maga gloves
+  name: gants de Krav Maga
   description: Ces gants peuvent vous apprendre à pratiquer le Krav Maga grâce à des nanopuces tant que vous les portez.
   components:
   - type: Sprite

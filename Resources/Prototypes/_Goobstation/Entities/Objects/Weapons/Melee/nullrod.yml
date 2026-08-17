@@ -25,7 +25,7 @@
     - Nullrod
 
 - type: entity
-  name: Null Rod
+  name: Bâton Null
   parent: BaseNullrod
   id: Nullrod
   description: Le vieux classique. Ne fait rien de spécial, vraiment.
@@ -49,10 +49,10 @@
     - Nullrod
 
 - type: entity
-  name: holy claymore
+  name: claymore sacrée
   parent: BaseNullrod
   id: HolyClaymore
-  description: A weapon fit for a crusade! A sword capable of stealing life from evil-doers.
+  description: Une arme digne d'une croisade ! Une épée capable de voler la vie aux malfaiteurs.
   components:
   - type: Item
     size: Large
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseNullrod
   id: MonkStaff
-  name: monk's staff
-  description: A long, tall staff made of polished wood. Traditionally used in ancient old-Earth martial arts, now used to harass the clown. #this should be able to parry eventually.
+  name: bâton de moine
+  description: Un long bâton haut en bois poli. Traditionnellement utilisé dans les anciens arts martiaux de la vieille Terre, maintenant utilisé pour harceler le clown. #this should be able to parry eventually.
   components:
   - type: Nullrod
     DamageOnUntrainedUse:
@@ -296,10 +296,10 @@
     - MonkStaff
 
 - type: entity
-  name: Atheist's Fedora
+  name: fedora d'athée
   parent: BaseNullrod
   id: AtheistFedora
-  description: The brim of the hat is as sharp as your wit. Throwing it at someone would hurt almost as much as disproving the existence of God.
+  description: Le bord du chapeau est aussi tranchant que votre esprit. Le lancer sur quelqu'un ferait presque aussi mal que de prouver l'inexistence de Dieu.
   components:
   - type: Nullrod # Note - These are damages, not damage types. Specify blunt or something not brute.
     DamageOnUntrainedUse:
@@ -555,10 +555,10 @@
     - type: Insulated
 
 - type: entity
-  name: his holy chainsaw
+  name: sa tronçonneuse sacrée
   parent: BaseNullrod
   id: HolyChainsaw
-  description: Et parce que c'est putain de FUN ! AHAHA ! AHAHAHA ! AHAH-AAAAAAAA-MEN !
+  description: Parce que c'est putain de FUN ! AHAHA ! AHAHAHA ! AHAH-AAAAAAAA-MEN !
   suffix: Inamovible
   components:
   - type: Wieldable
@@ -616,7 +616,7 @@
   name: Casul
   parent: BaseItem
   id: WeaponPistolCasul
-  description: The first of two huge pistols, capable of firing regenerating silver bullets. Incapable of firing without its sister gun.
+  description: Le premier de deux énormes pistolets, capable de tirer des balles d'argent qui se régénèrent. Incapable de tirer sans son pistolet jumeau.
   components:
   - type: Nullrod
     DamageOnUntrainedUse:
@@ -675,7 +675,7 @@
   name: Jackal
   parent: WeaponPistolCasul
   id: WeaponPistolJackal
-  description: The second of two huge pistols, capable of firing regenerating silver bullets. Incapable of firing without its sister gun.
+  description: Le second de deux énormes pistolets, capable de tirer des balles d'argent qui se régénèrent. Incapable de tirer sans son pistolet jumeau.
   components:
   - type: Sprite
     sprite: _ShitChap/Objects/Weapons/Nullrod/jackal.rsi
@@ -695,7 +695,7 @@
   name: bénédiction du faucheur
   parent: [Nullrod, ArmBlade, BaseMajorContraband]
   id: BlessingOfTheReaper
-  description: A special undroppable armblade nullrod, it's blessed by the dark gods.
+  description: Une lame de bras nullrod spéciale et indébranchable, bénie par les dieux sombres.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Melee/blessing_reaper.rsi
@@ -716,8 +716,8 @@
 - type: entity
   parent: BaseNullrod
   id: RatvarianSpear
-  name: ancient spear
-  description: An ancient spear made of brass, I mean gold, I mean bronze. It looks highly mechanical.
+  name: lance ancienne
+  description: Une lance ancienne faite de laiton, je veux dire d'or, je veux dire de bronze. Elle a l'air très mécanique.
   components:
   - type: Nullrod
     DamageOnUntrainedUse:
@@ -837,7 +837,7 @@
 - type: entity
   id: InquisitorChainSword
   parent: BaseNullrod
-  name: chain sword
+  name: épée-chaîne
   description: L'arme parfaite pour purger la station de toute hérésie ! Activée par la prière.
   components:
   - type: Nullrod

@@ -4,7 +4,7 @@
   name: Chester
   parent: [ BaseWeaponRifle, BaseGunWieldable, BaseCentcommContraband ]
   id: WeaponLeverChester
-  description: "A flashy lever-action shotgun designed for NanoTrasen's Blueshield corps. Spinning it to reload fills you with a primal happiness. Feeds from lever rifle magazines."
+  description: "Un fusil à pompe à levier tape-à-l'œil conçu pour le corps des Boucliers Bleus de Nanotrasen. Le faire tourner pour recharger vous remplit d'un bonheur primitif. Se charge via des magazines de fusil à levier."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Lever/chester_icon_48x.rsi

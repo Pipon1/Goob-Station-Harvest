@@ -4,7 +4,7 @@
   name: Dualetta
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolDualetta
-  description: The coolest pistol in the sector. It is said that nobody is strong enough of will to tarnish this weapon's reputation by daring to fire it without its paired pistol. Feeds from .35 Auto pistol magazines.
+  description: Le pistolet le plus cool du secteur. On dit que personne n'a assez de volonté pour ternir la réputation de cette arme en osant la tirer sans son pistolet jumeau. Se charge via des magazines de pistolet .35 Auto.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Pistols/Dualetta.rsi
@@ -110,7 +110,7 @@
       ballistic-ammo: !type:Container
 
 - type: entity
-  name: Contract Terminator
+  name: Terminateur de contrat
   parent: [BaseWeaponPistol, BaseCentcommContraband]
   id: WeaponPistolCentcommAgent
   description: La nécessité est la mère de la tromperie.

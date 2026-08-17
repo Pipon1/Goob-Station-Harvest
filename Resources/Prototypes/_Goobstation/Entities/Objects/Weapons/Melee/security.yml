@@ -1,8 +1,8 @@
 - type: entity
-  name: polymer baton
+  name: matraque polymère
   parent: [BaseItem, BaseSecurityContraband]
   id: PolymerBaton
-  description: A lightweight, durable baton made from advanced polymers. Delivers less-than-lethal force for compliance and control.
+  description: Une matraque légère et durable faite de polymères avancés. Inflige une force non-létale pour la conformité et le contrôle.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Melee/polybaton.rsi
@@ -38,8 +38,8 @@
 - type: entity
   id: SpearTelescopic
   parent: [BaseItem, BaseSecurityContraband]
-  name: telescopic spear
-  description: A compact, throwable spear with a retractable shaft. Designed for both melee and ranged use.
+  name: lance télescopique
+  description: Une lance compacte et jetable avec un manche rétractable. Conçue pour le combat au corps à corps et à distance.
   components:
   - type: Item
     size: Normal
@@ -135,7 +135,7 @@
   id: Betty
   parent: [BaseItem, BaseSecurityContraband]
   name: Betty
-  description: An old intricate souvenir made from tough hyper-woven durathread repurposed for riot combat.
+  description: Un vieux souvenir complexe fait de durathread hyper-tissé résistant, réutilisé pour le combat anti-émeute.
   components:
     - type: Sprite
       sprite: _Goobstation/Objects/Weapons/Melee/betty.rsi
@@ -220,7 +220,7 @@
 - type: entity
   parent: [BaseItem, BaseSecurityContraband, ClothingBeltBase]
   id: PoliceBaton
-  name: police baton
+  name: matraque de police
   description: Une matraque en bois pour battre la racaille criminelle.
   components:
   - type: Sprite

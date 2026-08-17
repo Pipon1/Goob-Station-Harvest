@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseItem, BaseHonkraband]
   id: BananiumSword
-  name: bananium energy sword
-  description: A very loud & slippery sword with a beam made of pure, concentrated bananium. Slips un-galoshed targets like butter.
+  name: épée énergétique bananium
+  description: Une épée très bruyante et glissante avec un faisceau de bananium pur et concentré. Fait glisser les cibles sans galoches comme du beurre.
   components:
     - type: EnergySword
       colorOptions:

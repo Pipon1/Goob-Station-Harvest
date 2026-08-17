@@ -141,8 +141,8 @@
 - type: entity
   id: ScienceTechFab
   parent: [BaseLatheLube]
-  name: science techfab
-  description: Prints equipment and circuitboards for use by science department.
+  name: techfab scientifique
+  description: Imprime de l'équipement et des circuits imprimés pour le département scientifique.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -232,8 +232,8 @@
 - type: entity
   id: ServiceTechFab
   parent: [BaseLatheLube]
-  name: service techfab
-  description: Prints equipment and circuitboards for use by service department.
+  name: techfab de service
+  description: Imprime de l'équipement et des circuits imprimés pour le département de service.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi

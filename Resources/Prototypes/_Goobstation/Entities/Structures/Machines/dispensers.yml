@@ -117,9 +117,9 @@
 - type: entity
   id: ServiceEnergyChemDispenser
   parent: SmallConstructibleMachine
-  name: energy food synthesizer
+  name: synthétiseur alimentaire à énergie
   suffix: energy
-  description: A bluespace Chemical Dispenser that uses station energy to synthesize organic reagents. The future for chefs is here and now.
+  description: Un distributeur chimique bluespace qui utilise l'énergie de la station pour synthétiser des réactifs organiques. Le futur pour les cuisiniers est ici et maintenant.
   placement:
     mode: SnapgridCenter
   components:

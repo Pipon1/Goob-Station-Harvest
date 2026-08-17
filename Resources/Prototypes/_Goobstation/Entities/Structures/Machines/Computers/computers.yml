@@ -1,7 +1,7 @@
 - type: entity
   id: ComputerNTRTasks
   parent: [BaseComputer]
-  name: NTR tasks computer
+  name: ordinateur de missions NTR
   description: Un terminal fournissant accès aux missions NanoNet. Votre loyauté sera récompensée — accomplissez des tâches, accumulez des points de loyauté et dépensez-les sur des privilèges NTR exclusifs.
   components:
   - type: UserInterface
@@ -52,8 +52,8 @@
 - type: entity
   id: ComputerContractor
   parent: [BaseComputer, StorePresetUplink, BaseSyndicateContraband]
-  name: contractor uplink computer
-  description: A terminal providing access to the guild store. Spend your hard earned TC on exclusive gear and upgrades to aid you in your freelancer endeavors.
+  name: ordinateur liaison contractuel
+  description: Un terminal donnant accès à la boutique de la guilde. Dépensez vos TC durement gagnés en équipement et améliorations exclusifs pour vous aider dans vos activités de freelance.
   components:
   - type: UserInterface
     interfaces:

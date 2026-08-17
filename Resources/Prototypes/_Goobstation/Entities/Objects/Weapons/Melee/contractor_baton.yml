@@ -3,7 +3,7 @@
 - type: entity
   id: ContractorBaton
   parent: [BaseSyndicateContraband, TelescopicBaton]
-  name: contractor baton
+  name: matraque de contractor
   description: Un bâton compact et spécialisé assigné aux contractants syndicaux. Applique de légères décharges électriques sur les cibles.
   components:
   - type: Sprite

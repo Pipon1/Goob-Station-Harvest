@@ -1,8 +1,8 @@
 - type: entity
   id: StationRadioServer
-  name: station radio server
+  name: serveur radio de la station
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A rack of servers, controls whether your voice is being broadcasted or not
+  description: Une rangée de serveurs qui contrôle si votre voix est diffusée ou non.
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/Machines/StationRadio/stationradioserver.rsi

@@ -4,7 +4,7 @@
   id: BinglePit
   categories: [ Spawner ] # needed so tests don't sus
   name: binglepit
-  description: Looks Hungry
+  description: A l'air affamé
   placement:
     mode: SnapgridCenter
   components:

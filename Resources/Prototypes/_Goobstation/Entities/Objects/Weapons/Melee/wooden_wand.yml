@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: wooden wand
+  name: baguette en bois
   parent: BaseItem
   id: WeaponWoodenWand
   description: Baguette en bois artisanale avec un noyau d'anomalie.

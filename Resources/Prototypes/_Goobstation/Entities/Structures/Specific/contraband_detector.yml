@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: contraband detector
+  name: détecteur de contrebande
   description: Entrez avec confiance, sortez avec la sécurité à vos trousses.
   parent: BaseMachinePowered
   id: ContrabandDetector
@@ -92,7 +92,7 @@
 
 - type: entity
   id: ContrabandDetectorFrame
-  name: contraband detector frame
+  name: cadre détecteur de contrebande
   placement:
     mode: SnapgridCenter
   components:

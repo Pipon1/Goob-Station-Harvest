@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: lollychop
+  name: sucette sanglante
   parent: [BaseItem, BaseSyndicateContraband]
   id: LollyChop
   description: Remplissez (fendez) les ventres (crânes) de vos amis avec ces délicieux bonbons (acier froid).

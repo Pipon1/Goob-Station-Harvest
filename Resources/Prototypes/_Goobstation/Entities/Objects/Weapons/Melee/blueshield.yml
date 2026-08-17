@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: DT-3 "Atrocity"
+  name: DT-3 "Atrocité"
   parent: [BaseItem, BaseCentcommContraband]
   id: BlueshieldMace
-  description: Crush all those who oppose your leaders. Functions as a stun baton in its powered state.
+  description: Écrasez tous ceux qui s'opposent à vos dirigeants. Fonctionne comme une matraque paralysante dans son état activé.
   components:
   - type: Tag
     tags:

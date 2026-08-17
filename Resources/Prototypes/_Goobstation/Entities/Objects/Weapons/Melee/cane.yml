@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: cane blade
+  name: lame de canne
   suffix: Nanotrasen
   parent: BaseItem
   id: CaneBladeNanotrasen
-  description: A sharp blade with a cane shaped hilt, a Nanotrasen logo is engraved on the blade.
+  description: Une lame tranchante avec une poignée en forme de canne, le logo Nanotrasen est gravé sur la lame.
   components:
   - type: Sharp
   - type: Sprite
