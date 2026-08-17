@@ -88,7 +88,7 @@
 - type: entity
   id: TeslaCoilCircuitboard
   parent: BaseMachineCircuitboard
-  name: tesla coil board
+  name: carte bobine Tesla
   components:
     - type: Sprite
       state: engineering
@@ -102,7 +102,7 @@
 - type: entity
   id: RadiationCollectorCircuitboard
   parent: BaseMachineCircuitboard
-  name: radiation collector board
+  name: carte collecteur de radiations
   components:
     - type: Sprite
       state: engineering
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: PlumbingPumpCircuitboard
-  name: liquid pump board
+  name: carte pompe à liquide
   components:
   - type: Sprite
     state: engineering

@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterSuitHEV
-  name: H.E.V suit
-  description: Full-body hazardous suit designed to protect wearer from radiation, energy discarges, blunt-force trauma during the handling of hazardous material.
+  name: combinaison H.E.V
+  description: Combinaison intégrale de protection conçue pour protéger le porteur contre les radiations, les décharges d'énergie, les traumatismes contondants lors de la manipulation de matériaux dangereux.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Suits/hev.rsi
@@ -84,7 +84,7 @@
   parent: ClothingOuterWizardCentCommReal
   id: WhiteRobes
   name: robes de l'élu
-  description: theses white robes are worn by only the finest of Nanotrasen's special operations department.
+  description: Ces robes blanches sont portées par les meilleurs du département des opérations spéciales de Nanotrasen.
   suffix: chosen one
   components:
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitHotDog
-  name: hotdog costume
-  description: Hot-diggity-dog!
+  name: costume hot-dog
+  description: Hot-diggity-dog !
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/hotdog.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSuitPickle
-  name: pickle suit
+  name: costume cornichon
   description: Sent horriblement le vinaigre.
   components:
   - type: Sprite

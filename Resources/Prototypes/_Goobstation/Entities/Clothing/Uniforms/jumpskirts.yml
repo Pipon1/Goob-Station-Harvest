@@ -3,7 +3,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: CentcomAgentSkirt
-  name: centcom agent skirt
+  name: jupe d'agent centcomm
   description: Une jupe portée par l'équipe juridique de CentComm. Sent le café brûlé.
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNanotrasenRepresentative
-  name: nanotrasen representative skirt
+  name: jupe de représentant nanotrasen
   description: Une jupe noire portée par les officiels.
   components:
   - type: Sprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ClothingUniformBase,  ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtBlueshieldOfficer
-  name: blueshield officer jumpskirt
-  description: A short-sleeved grey and blue jumpskirt, made out of a sturdy material. Blueshield standard issue.
+  name: unijupe d'officier blueshield
+  description: Une unijupe à manches courtes grise et bleue, faite d'un matériau résistant. Émission standard du blueshield.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/blueshield_officer.rsi
@@ -47,7 +47,7 @@
 - type: entity # todo <mailfix>
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtMailCarrier
-  name: mail carrier's jumpskirt
+  name: unijupe de facteur
   description: Ennemi des chiens partout.
   components:
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtResearchDirectorAlt
-  name: research director's turtleneck
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+  name: col roulé du directeur de la recherche
+  description: C'est un col roulé porté par ceux qui ont les compétences pour atteindre le poste de Directeur de la Recherche. Son tissu offre une protection mineure contre les contaminants biologiques.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/RND/rndturtle.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtReporter
-  name: reporter's dress
-  description: An extravagant black dress designed to catch the attention of as many people as possible.
+  name: robe de journaliste
+  description: Une robe noire extravagante conçue pour attirer l'attention du plus grand nombre.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Civilian/reporter_dress.rsi # goob
@@ -129,8 +129,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomPencilSkirt
-  name: centcom pencil skirt
-  description: An elegant green formal blouse paired with a sleek black pencil skirt, decorated with exquisite golden detailing.
+  name: jupe crayon centcomm
+  description: Un chemisier formel vert élégant associé à une jupe crayon noire élégante, ornée de détails dorés exquis.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/centcomm_pencilskirt.rsi

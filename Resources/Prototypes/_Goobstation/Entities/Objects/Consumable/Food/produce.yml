@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: strange berries
+  name: baies étranges
   parent: FoodProduceBase
   id: FoodStrangeBerries
   description: Une poignée de baies étranges.
@@ -30,7 +30,7 @@
         Quantity: 5
 
 - type: entity
-  name: nevcotta log
+  name: bûche de nevcotta
   description: Lorsqu'il est planté hors de son habitat naturel, il pousse en une plante entièrement différente.
   id: Nevcotta
   parent: ProduceBase
@@ -46,7 +46,7 @@
     spawnCount: 2
 
 - type: entity
-  name: nevcotta bark
+  name: écorce de nevcotta
   description: L'écorce d'un arbre Nevcotta.
   id: NevcottaBark
   parent: BaseItem
@@ -68,7 +68,7 @@
 
 
 - type: entity
-  name: bluespace tomato
+  name: tomate bluespace
   parent: FoodBlueTomato
   id: FoodBluespaceTomato
   description: Faites attention avec ça.

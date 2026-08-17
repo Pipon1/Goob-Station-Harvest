@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingEyesHudOmni
   id: ClothingEyesHudChrono
-  name: futuristic visor
-  description: A visior from the future, capable of displaying almost anything.
+  name: visière futuriste
+  description: Une visière du futur, capable d'afficher presque n'importe quoi.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Hud/chrono.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: ClothingEyesHudSyndicate
   id: ClothingEyesHudContractor
-  name: contractor visor
+  name: visière de contractor
   description: L'affichage tête haute professionnel de la guilde, conçu pour mieux détecter les humanoïdes et faciliter leur capture.
   components:
   - type: ThermalVision

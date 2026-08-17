@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasChrono
-  name: futuristic gasmask
-  description: A futuristic gas mask of unknown design with an unimaginable number of filtration systems
+  name: masque à gaz futuriste
+  description: Un masque à gaz futuriste de design inconnu avec un nombre inimaginable de systèmes de filtration
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Mask/chronolegioneer.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingMaskClown
   id: ClothingMaskClownUnremoveable
-  name: unremoveable banana clown wig and mask
+  name: perruque et masque de clown banane inamovibles
   components:
   - type: Unremoveable
   - type: FlashImmunity
@@ -35,9 +35,9 @@
 - type: entity
   parent: [ClothingMaskBase, BaseMinorContraband]
   id: ClothingMaskGasVoiceCraftable
-  suffix: Voice Mask, Craftable
-  name: Voice Modulator Mask
-  description: A poorly constructed voice modulator made of a gasmask and voice trigger.
+  suffix: Masque Vocal, Fabricable
+  name: Masque Modulateur Vocal
+  description: Un modulateur vocal mal construit fait d'un masque à gaz et d'un déclencheur vocal.
   components:
     - type: Sprite
       sprite: Clothing/Mask/gas.rsi

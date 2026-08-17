@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseAutosurgeonSingle
   id: AutosurgeonRightSpeedLeg
-  name: autosurgeon (right S.P.E.E.D leg)
+  name: autochirurgien (jambe droite S.P.E.E.D)
   components:
   - type: AutoSurgeon
     targetBodyPart: Groin
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseAutosurgeonSingle
   id: AutosurgeonLeftSpeedLeg
-  name: autosurgeon (left S.P.E.E.D leg)
+  name: autochirurgien (jambe gauche S.P.E.E.D)
   components:
   - type: AutoSurgeon
     targetBodyPart: Groin
@@ -93,7 +93,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateSingle
   id: AutosurgeonRightMantisBlade
-  name: syndicate autosurgeon (right mantis blade)
+  name: autochirurgien du syndicat (lame de mante droite)
   components:
   - type: AutoSurgeon
     targetBodyPart: Arm
@@ -105,7 +105,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateSingle
   id: AutosurgeonLeftMantisBlade
-  name: syndicate autosurgeon (left mantis blade)
+  name: autochirurgien du syndicat (lame de mante gauche)
   components:
   - type: AutoSurgeon
     targetBodyPart: Arm
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateSingle
   id: AutosurgeonSandevistan
-  name: syndicate autosurgeon (sandevistan)
+  name: autochirurgien du syndicat (sandevistan)
   components:
   - type: AutoSurgeon
     targetBodyPart: Chest
@@ -137,7 +137,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateMultiple
   id: AutosurgeonSmartLink
-  name: syndicate autosurgeon (smartlink arms)
+  name: autochirurgien du syndicat (bras smartlink)
   components:
   - type: AutoSurgeonMultiple
     entries:
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateMultiple
   id: AutosurgeonRecoilAbsorber
-  name: syndicate autosurgeon (recoil absorbing arms)
+  name: autochirurgien du syndicat (bras absorbant le recul)
   components:
   - type: AutoSurgeonMultiple
     entries:
@@ -183,7 +183,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateSingle
   id: AutosurgeonBerserker
-  name: syndicate autosurgeon (berserker heart)
+  name: autochirurgien du syndicat (cœur de berserker)
   components:
   - type: AutoSurgeon
     targetBodyPart: Chest
@@ -193,7 +193,7 @@
 - type: entity
   parent: BaseAutosurgeonSyndicateSingle
   id: AutosurgeonJumpstarter
-  name: syndicate autosurgeon (jumpstarter heart)
+  name: autochirurgien du syndicat (cœur jumpstarter)
   components:
   - type: AutoSurgeon
     targetBodyPart: Chest

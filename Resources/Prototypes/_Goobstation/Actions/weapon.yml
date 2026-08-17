@@ -17,7 +17,7 @@
     event: !type:KravMagaActionEvent { }
   - type: KravMagaAction
     configuration: LegSweep
-    name: Leg Sweep
+    name: Balayage de Jambe
 
 - type: entity
   parent: BaseAction
@@ -38,7 +38,7 @@
     event: !type:KravMagaActionEvent { }
   - type: KravMagaAction
     configuration: NeckChop
-    name: Neck Chop
+    name: Coup à la Nuque
     effectTime: 20
 
 - type: entity
@@ -60,6 +60,6 @@
     event: !type:KravMagaActionEvent { }
   - type: KravMagaAction
     configuration: LungPunch
-    name: Lung Punch
+    name: Coup aux Poumons
     staminaDamage: 40
     effectTime: 10

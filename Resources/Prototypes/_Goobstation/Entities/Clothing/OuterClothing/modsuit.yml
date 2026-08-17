@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateStandard
-  name: standard modsuit chestplate
-  description: A special modular suit spaceproof cover designed for compact folding inside modular suit control.
+  name: plastron de modsuit standard
+  description: Une housse spatiale spéciale de combinaison modulaire conçue pour un pliage compact à l'intérieur du contrôle de la combinaison modulaire.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -96,7 +96,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateSecurity
-  name: soldat modsuit chestplate
+  name: plastron de modsuit soldat
   description: Une coque de combinaison modulaire robuste avec inserts céramique pour une protection supplémentaire.
   categories: [ HideSpawnMenu ]
   components:
@@ -175,7 +175,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateHeadOfSecurity
-  name: bulwark modsuit chestplate
+  name: plastron de modsuit rempart
   description: Une coque de combinaison modulaire robuste avec inserts céramique SUPPLÉMENTAIRES pour un peu plus de protection.
   categories: [ HideSpawnMenu ]
   components:
@@ -260,8 +260,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateParamedic
-  name: sanitater modsuit chestplate
-  description: A white and blue-ish-grey steel plate for keeping out the harsh void of space and the occasional bullet.
+  name: plastron de modsuit sanitäter
+  description: Une plaque d'acier blanche et gris-bleuté pour se protéger du vide spatial impitoyable et des balles occasionnelles.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -419,7 +419,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateAtmostech
-  name: aeolus modsuit chestplate
+  name: plastron de modsuit éole
   description: Une plaque d'armure ignifuge pour se défendre contre les conditions atmosphériques difficiles.
   categories: [ HideSpawnMenu ]
   components:

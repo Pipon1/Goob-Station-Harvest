@@ -16,7 +16,7 @@
 - type: entity
   parent: DrinkBasePlastic
   id: DrinkFitnessShakerBlack
-  name: fitness shaker
+  name: shaker fitness
   description: Assez grand pour contenir suffisamment de protéines pour devenir parfaitement musclé. Ne faites pas attention aux grumeaux.
   components:
   - type: Sprite
@@ -62,8 +62,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticSmallBaseFull]
   id: DrinkMilkBottleFull
-  name: milk bottle
-  description: How do plasmamen even drink this?
+  name: bouteille de lait
+  description: Comment font les plasmamen pour boire ça ?
   components:
   - type: SolutionContainerManager
     solutions:

@@ -3,7 +3,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCentcommContraband ]
   id: ClothingNeckMantleBlueshield
-  name: blueshield officer mantle
+  name: manteau d'agent blueshield
   description: Un manteau bien équilibré et protecteur, conçu pour une efficacité optimale en tant que garde du corps.
   components:
   - type: Sprite
@@ -15,8 +15,8 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckMantleVeteranSecurity
-  name: veteran security's mantle
-  description: Personally awarded by HOS for repealing a Syndicate attack, looking at it seems to boost your morale by a bit
+  name: manteau d'agent de sécurité vétéran
+  description: Remis personnellement par le chef de la sécurité pour avoir repoussé une attaque du Syndicat, le regarder semble booster un peu le moral.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Mantle/veteran_security.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCentcommContraband ]
   id: ClothingNeckMantleEpaulettes
-  name: golden epaulettes
-  description: Exquisitely-crafted gold epaulettes symbolizing admiralty within Central Command.
+  name: épaulettes dorées
+  description: De superbes épaulettes dorées symbolisant l'amirauté au sein du commandement central.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Mantle/epaulettes.rsi

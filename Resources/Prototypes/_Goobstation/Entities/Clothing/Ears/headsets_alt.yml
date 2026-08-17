@@ -12,12 +12,12 @@
 - type: entity
   parent: [ClothingHeadsetAltSyndicate, ClothingHeadsetAltLoudspeaker]
   id: ClothingHeadsetAltSyndicateCommander
-  name: blood-red commander over-ear headset
+  name: casque audio du commandant rouge sang
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetChronolegioneer
-  name: futuristic over-ear headset
+  name: casque audio futuriste
   description: Un casque du futur capable de capter la plupart des fréquences de la station.
   components:
   - type: ContainerFill
@@ -39,7 +39,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSecurityContraband]
   id: ClothingHeadsetAltWarden
-  name: warden's over-ear headset
+  name: casque audio du gardien
   description: Un intercom modulaire mis à jour, permettant des communications rapides avec le personnel de commandement.
   components:
   - type: ContainerFill
@@ -56,7 +56,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetDeathsquad
-  name: deathsquad over-ear headset
+  name: casque audio de l'escadron de la mort
   components:
   - type: ContainerFill
     containers:
@@ -73,7 +73,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSecurityContraband]
   id: ClothingHeadsetAltSecurityRegular
-  name: security over-ear headset
+  name: casque audio de sécurité
   components:
   - type: ContainerFill
     containers:
@@ -88,7 +88,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetAltBlueshield
-  name: blueshield officers over-ear headset
+  name: casque audio d'agent blueshield
   components:
   - type: ContainerFill
     containers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingHeadsetCommand
   id: ClothingHeadsetCommandService
-  name: command-service headset
-  description: A headset with a command and service channels.
+  name: casque de commandement et service
+  description: Un casque avec les canaux de commandement et de service.
   components:
   - type: ContainerFill
     containers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltRadioHost
-  name: Radio host's over-ear headset
-  description: Un casque supra-auriculaire avec une mousse supplémentaire autour des oreilles.
+  name: casque audio de présentateur de radio
+  description: Un casque audio avec une mousse supplémentaire autour des oreilles.
   components:
   - type: ContainerFill
     containers:

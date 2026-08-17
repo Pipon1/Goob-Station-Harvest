@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterVestWeb
   id: ClothingOuterVestWebDurathread
-  name: durathread web vest
-  description: An improvised armored web vest made from durathread with plasteel plates. It's surprisingly light, despite formidable armor plating.
+  name: gilet à mailles en fil durathread
+  description: Un gilet à mailles blindé improvisé fait de fil durathread avec des plaques en plasteel. Il est étonnamment léger, malgré son blindage formidable.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/durathread_web_vest.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmourDurathread
-  name: durathread armor
-  description: An armored vest created from plasteel plates woven with durathread. It's surprisingly flexible and light, despite formidable armor plating.
+  name: armure en fil durathread
+  description: Un gilet blindé créé à partir de plaques en plasteel tissées avec du fil durathread. Il est étonnamment flexible et léger, malgré son blindage formidable.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/durathread_armour.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: [ ClothingOuterArmorRaid, GeigerCounterClothing ]
   id: ClothingOuterArmorHelldiver
-  name: salvage NT-01 tactical hardsuit
-  description: This armor is the NanoTrasen standard issue, made from the same titanium alloy as the Goliath hull.
+  name: combinaison rigide tactique de sauvetage NT-01
+  description: Cette armure est l'équipement standard de NanoTrasen, fabriquée avec le même alliage de titane que la coque du Goliath.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/helldiver.rsi
@@ -90,7 +90,7 @@
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseSecurityCommandContraband]
   id: ClothingOuterArmorHoSVestWeb
   name: gilet tactique du chef de la sécurité
-  description: A high-quality armored vest made from a hard synthetic material. It is surprisingly flexible and light, despite formidable armor plating.
+  description: Un gilet blindé de haute qualité fait d'un matériau synthétique dur. Il est étonnamment flexible et léger, malgré son blindage formidable.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/web_vest_hos.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase ]
   id: ClothingOuterCapJacket
-  name: captain's armored jacket
+  name: veste blindée du capitaine
   description: Une veste extrêmement coûteuse avec une protection durathread supplémentaire au niveau du torse.
   components:
   - type: Sprite
@@ -122,8 +122,8 @@
 - type: entity
   parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterWinterCoatToggleable ]
   id: ClothingOuterWinterCapArmored
-  name: captain's fancy winter coat
-  description: An ornate winter coat with a ballistic plate made for the station's finest.
+  name: manteau d'hiver luxe du capitaine
+  description: Un manteau d'hiver orné avec une plaque balistique fabriqué pour les meilleurs de la station.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Wintercoats/cap_armored_winter_coat.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterArmorCaptainCarapace ]
   id: ClothingBlueshieldArmourVest
-  name: blueshield's security armour
-  description: An armoured vest with the badge of the blueshield. Utilizes bluespace technology to be more compact.
+  name: armure de sécurité du blueshield
+  description: Un gilet blindé avec l'insigne du blueshield. Utilise la technologie bluespace pour être plus compact.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/bso_armour.rsi
@@ -160,7 +160,7 @@
 - type: entity
   parent: ClothingBlueshieldArmourVest
   id: ClothingBlueshieldArmoredJacket
-  name: blueshield's armored jacket
+  name: veste blindée du blueshield
   description: Une veste avec des couches de renfort cousues.
   components:
   - type: Sprite
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingBlueshieldArmourVest
   id: ClothingBlueshieldArmoredCowboyJacket
-  name: blueshield's armored cowboy jacket
-  description: A jacket to protect important people in wild areas.
+  name: veste de cowboy blindée du blueshield
+  description: Une veste pour protéger les personnes importantes dans les zones sauvages.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/blueshield_cowboy_jacket.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterWinterCapArmored ]
   id: ClothingOuterWinterBlueshield
-  name: blueshield's armored winter coat
-  description: A blue winter coat reinforced with kevlar in the chest area.
+  name: manteau d'hiver blindé du blueshield
+  description: Un manteau d'hiver bleu renforcé avec du kevlar au niveau du torse.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Wintercoats/bso_winter_coat.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseCentcommContraband]
   id: ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.
-  name: bluespace assisted armor
-  description: An armored vest that utilizes bluespace technology, bending light and becoming invisible to the naked eye when worn.
+  name: armure assistée par bluespace
+  description: Un gilet blindé qui utilise la technologie bluespace, courbant la lumière et devenant invisible à l'œil nu lorsqu'il est porté.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/covert_armor.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: ClothingOuterArmourInvisible
   id: ClothingOuterArmourInvisibleChameleon
-  name: covert armor
-  description: An armored vest that utilizes bluespace technology. Capable of being completely invisible, or appearing as any other outer clothing.
+  name: armure furtive
+  description: Un gilet blindé qui utilise la technologie bluespace. Capable d'être complètement invisible, ou d'apparaître comme n'importe quel autre vêtement extérieur.
   components:
   - type: ChameleonClothing
     slot: [ outerClothing ]
@@ -243,8 +243,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, ClothingOuterStorageToggleableBase, AllowSuitStorageClothing, BaseSyndicateContraband ]
   id: ClothingOuterArmorCloakSith
-  name: dark lord cloak
-  description: What began as a simple cosplay cloak was illegally reinforced with armored plates, transforming it into a functional piece of armor. Looks like it's even capable of protecting the user from the lack of pressure in space.
+  name: cape du seigneur des ténèbres
+  description: Ce qui a commencé comme une simple cape de cosplay a été illégalement renforcée avec des plaques blindées, la transformant en une pièce d'armure fonctionnelle. On dirait qu'elle est même capable de protéger l'utilisateur du manque de pression dans l'espace.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/void_cloak.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: [BaseSyndicateContraband, ClothingOuterArmourInvisible]
   id: ClothingOuterArmourInvisibleSyndie
-  name: redspace assisted armor
-  description: An armored vest that utilizes redspace technology to appear invisible and not mess with your business style.
+  name: armure assistée par redspace
+  description: Un gilet blindé qui utilise la technologie redspace pour apparaître invisible et ne pas gâcher votre style professionnel.
   components:
   - type: Sprite
     state: icon-evil
@@ -309,8 +309,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorQueenCarapace
-  name: queen's carapace
-  description: The skull of the ancient Xeno Queen, reforged into an imposing chestpiece that turns her former menace into unyielding protection.
+  name: carapace de la reine
+  description: Le crâne de l'ancienne reine Xeno, reforgé en une pièce de torse imposante qui transforme son ancienne menace en protection inébranlable.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/queen_carapace.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: [ClothingOuterPonchoClassic, BaseMajorContraband]
   id: ClothingOuterPonchoClassicRobust
-  name: authentic cowboys poncho
-  description: A poncho made for real cowboy's.
+  name: poncho authentique de cowboy
+  description: Un poncho fait pour de vrais cowboys.
   components:
   - type: Armor
     coverage:
@@ -382,8 +382,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, AllowSuitStorageClothing ]
   id: ClothingOuterArmorTemplar
-  name: crusader armour
-  description: God wills it!
+  name: armure de croisé
+  description: Dieu le veut !
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/OuterClothing/Misc/templar.rsi
@@ -414,7 +414,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorStudent
-  name: student robe
+  name: robe d'étudiant
   description: L'uniforme d'un établissement d'enseignement révolu.
   components:
   - type: Sprite
@@ -425,7 +425,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorWitchhunter
-  name: witch hunter garb
+  name: tenue de chasseur de sorcières
   description: Cette tenue usée a beaucoup servi en son temps.
   components:
   - type: Sprite
@@ -436,7 +436,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorAncient
-  name: ancient armour
+  name: armure ancienne
   description: Défends le trésor...
   components:
   - type: Sprite
@@ -447,7 +447,7 @@
 - type: entity
   parent: [ClothingOuterArmorTemplar, ClothingOuterBaseToggleable]
   id: ClothingOuterArmorAdept
-  name: adept robes
+  name: robes d'adepte
   description: La tenue idéale pour brûler les infidèles.
   components:
   - type: Sprite
@@ -462,7 +462,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorClock
-  name: forgotten armour
+  name: armure oubliée
   description: On dirait de la vapeur qui siffle, des engrenages qui cliquettent, puis le silence. On dirait une machine morte essayant de battre la vie.
   components:
   - type: Sprite
@@ -473,7 +473,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorMonk
-  name: monk's habit
+  name: habit de moine
   description: Quelques crans au-dessus du sac de toile déchiré.
   components:
   - type: Sprite
@@ -484,7 +484,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorBishop
-  name: bishop's robes
+  name: robes d'évêque
   description: Heureux de voir que les dîmes que vous avez collectées ont été bien dépensées.
   components:
   - type: Sprite
@@ -495,8 +495,8 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorDragon
-  name: dragon suit
-  description: The scales were ethically sourced, promise.
+  name: costume de dragon
+  description: Les écailles ont été sourcées de manière éthique, promis.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/OuterClothing/Misc/dragonsuit.rsi
@@ -506,7 +506,7 @@
 - type: entity
   parent: ClothingOuterArmorTemplar
   id: ClothingOuterArmorInquisitor
-  name: inquisitor armor
+  name: armure d'inquisiteur
   description: Une armure massive ornée de chaînes et de motifs dorés. Montrez votre puissance à l'hérésie !
   components:
   - type: Sprite
@@ -517,8 +517,8 @@
 - type: entity
   parent: [ClothingOuterArmorTemplar, ClothingOuterBaseToggleable]
   id: ClothingOuterSchemaMonk
-  name: monastic vestments
-  description: A sign of complete renunciation of the world and the acceptance of heroism. It is worn by those who have chosen the path of prayer and struggle for the human soul. In the silence of the cosmos, it seems especially appropriate.
+  name: vêtements monastiques
+  description: Un signe de renoncement complet au monde et d'acceptation de l'héroïsme. Ils sont portés par ceux qui ont choisi le chemin de la prière et de la lutte pour l'âme humaine. Dans le silence du cosmos, cela semble particulièrement approprié.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/schema_monk.rsi
@@ -532,8 +532,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorVeteranSecurity
-  name: Veteran security's old armor
-  description: An old version of the standard NanoTrasen bulletproof vest, its design provides better protection against surprise attacks by clowns, it still meets NT's protection standards
+  name: ancienne armure de sécurité vétéran
+  description: Une ancienne version du gilet pare-balles standard de NanoTrasen, sa conception offre une meilleure protection contre les attaques surprises des clowns, elle répond toujours aux normes de protection de NT
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Armor/veteran_security.rsi

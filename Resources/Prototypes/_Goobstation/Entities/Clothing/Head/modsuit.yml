@@ -4,7 +4,7 @@
   abstract: true
   # Used to put pressureProtection, layers blocker and etc components into ComponentToggler
   id: BaseClothingModsuitHelmet
-  name: base modsuit helmet
+  name: casque de modsuit de base
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
   parent: BaseClothingModsuitHelmet
   # Used for helmets that hide your identity even if it's not sealed
   id: BaseClothingModsuitHelmetHideIdentity
-  name: base modsuit helmet
+  name: casque de modsuit de base
   categories: [ HideSpawnMenu ]
   components:
   - type: IdentityBlocker
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetStandard
-  name: standard modsuit helmet
-  description: A special modular suit spaceproof helmet designed for compact folding inside modular suit control.
+  name: casque de modsuit standard
+  description: Un casque spatial spécial de combinaison modulaire conçu pour un pliage compact à l'intérieur du contrôle de la combinaison modulaire.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -175,8 +175,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetSecurity
-  name: soldat modsuit helmet
-  description: A robust brain bucket for holding your brain in place just enough for it to be salvageable.
+  name: casque de modsuit soldat
+  description: Un casque robuste pour maintenir votre cerveau en place juste assez pour qu'il soit récupérable.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -288,7 +288,7 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, BaseClothingModsuitHelmetHideIdentity]
   id: ClothingModsuitHelmetHeadOfSecurity
-  name: bulwark modsuit helmet
+  name: casque de modsuit rempart
   description: Mettez la TÊTE de la sécurité.. Comment voyez-vous à travers ça ?
   categories: [ HideSpawnMenu ]
   components:
@@ -392,8 +392,8 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, BaseClothingModsuitHelmetHideIdentity]
   id: ClothingModsuitHelmetParamedic
-  name: sanitater modsuit helmet
-  description: A robust brain bucket for working on barely salvageable brains.
+  name: casque de modsuit sanitäter
+  description: Un casque robuste pour travailler sur des cerveaux à peine récupérables.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -476,7 +476,7 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, BaseClothingModsuitHelmetHideIdentity]
   id: ClothingModsuitHelmetEngineer
-  name: sapper modsuit helmet
+  name: casque de modsuit sapeur
   description: Une plaque plate avec des caméras permettant votre vision. Vous transforme en aero-baltringue, mais ça n'a pas d'importance dans l'espace.
   categories: [ HideSpawnMenu ]
   components:
@@ -564,8 +564,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetAtmostech
-  name: aeolus modsuit helmet
-  description: A specialised gas helmet to provide oxygen more efficiently.
+  name: casque de modsuit éole
+  description: Un casque à gaz spécialisé pour fournir l'oxygène plus efficacement.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -673,8 +673,8 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, BaseClothingModsuitHelmetHideIdentity]
   id: ClothingModsuitHelmetResearchDirector
-  name: minerva modsuit helmet
-  description: A dark dark dark visor protecting your precious face from shrap and blast.
+  name: casque de modsuit minerve
+  description: Une visière sombre sombre sombre protégeant votre précieux visage des éclats et explosions.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -767,8 +767,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetCaptain
-  name: magnate modsuit helmet
-  description: The visor is made from 10,000 year old amythest.
+  name: casque de modsuit magnat
+  description: La visière est faite d'améthyste âgée de 10 000 ans.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

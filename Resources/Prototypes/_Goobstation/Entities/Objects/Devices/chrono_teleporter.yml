@@ -3,7 +3,7 @@
 - type: entity
   id: ChronoTeleporter
   parent: BaseItem
-  name: futuristic teleporter
+  name: téléporteur futuriste
   description: En fait, pas si futuriste que tout le reste.
   components:
   - type: Sprite

@@ -3,7 +3,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseSecurityContraband, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesMedSec
-  name: medical security glasses
+  name: lunettes de sécurité médicales
   description: Lunettes de soleil avec un HUD médical et sécurité.
   components:
   - type: Sprite
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesPrescriptionGlasses
-  name: prescription glasses
-  description: Your insurance doesn't cover these. Don't lose them.
+  name: lunettes de vue
+  description: Votre assurance ne les couvre pas. Ne les perdez pas.
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesBroken
-  name: broken glasses
+  name: lunettes cassées
   description: Mes lunettes ! Je n'y vois rien sans mes lunettes !
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: [ClothingEyesBase, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesDiag
-  name: diagnostic glasses
+  name: lunettes de diagnostic
   description: Lunettes de soleil avec un HUD de diagnostic.
   components:
   - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesMed
-  name: medical glasses
+  name: lunettes médicales
   description: Lunettes de soleil avec un HUD médical.
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
   parent: [ClothingEyesHudOmni, BaseCentcommContraband]
   id: ClothingEyesGlassesDeathsquad
   suffix: NE PAS PLACER
-  name: central commander shades
+  name: lunettes du commandant central
   description: Fierté. Hubris. Colère. Ce n'est pas un péché si vous avez raison.
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
   parent: [ClothingEyesHudOmni, BaseCentcommContraband]
   id: ClothingEyesGlassesCentComm
   suffix: NE PAS PLACER
-  name: central command shades
-  description: A pair of shades designed for central command personnel. It's nothing personal. # *teleports behind you*, Nothing personnel, kid.
+  name: lunettes du commandement central
+  description: Une paire de lunettes conçue pour le personnel du commandement central. Ce n'est pas personnel. # *téléportation derrière toi*, Rien de personnel, gamin.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/centcommglasses.rsi
@@ -166,9 +166,9 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseCentcommContraband]
   id: ClothingEyesGlassesCentCommNoThermal
-  suffix: Sans thermique, NE PAS PLACER
-  name: central command shades
-  description: A pair of shades designed for central command personnel. Comes with more features than you could imagine.
+  suffix: Sans thermiques, NE PAS PLACER
+  name: lunettes du commandement central
+  description: Une paire de lunettes conçue pour le personnel du commandement central. Avec plus de fonctionnalités que vous ne pourriez l'imaginer.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/centcommglasses.rsi
@@ -192,7 +192,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowHealthRelatedIcons, BaseCentcommContraband, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesBSO
-  name: blueshield officer glasses
+  name: lunettes de l'agent blueshield
   description: Lunettes de soleil avec un HUD médical, professionnel et de diagnostic.
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: [ClothingEyesBase, ClothingEyesGlassesSunglasses, ShowHealthRelatedIcons]
   id: ClothingEyesGlassesMedDiag
-  name: meddiag glasses
+  name: lunettes médidiag
   description: Lunettes de soleil avec un HUD médical et de diagnostic.
   components:
   - type: Sprite
@@ -220,8 +220,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityCommandContraband]
   id: ClothingEyesGlassesSecurityAdvanced
-  name: advanced security goggles
-  description: A set of goggles that provide flash protection, a security HUD, and basic thermal vision.
+  name: lunettes de sécurité avancées
+  description: Un ensemble de lunettes offrant une protection anti-flash, un HUD de sécurité, et une vision thermique basique.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/hos-expi.rsi
@@ -248,7 +248,7 @@
 - type: entity
   parent: [ClothingEyesGlassesSecurity, BaseSecurityContraband]
   id: ClothingEyesGlassesSecurityContraDetect
-  name: contraband detector security glasses
-  description: A set of glasses that provide flash protection, a security HUD, and a built in contraband detector.
+  name: lunettes de sécurité détecteur de contrebande
+  description: Un ensemble de lunettes offrant une protection anti-flash, un HUD de sécurité, et un détecteur de contrebande intégré.
   components:
   - type: ShowContrabandIcons

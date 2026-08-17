@@ -5,7 +5,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitChronolegioneer
-  name: futuristic hardsuit
+  name: combinaison rigide futuriste
   description: Une combinaison rigide recouverte d'un matériau inconnu qui protège contre la plupart des dommages matériels et temporels.
   components:
   - type: Sprite
@@ -63,8 +63,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCentcommContraband]
   id: ClothingOuterHardsuitBlueshieldLight
-  name: "'praetorian' escort hardsuit"
-  description: A hardsuit designed for an elite bodyguard. This particular one is made of a lighter metal, allowing for more maneuverability.
+  name: "combinaison rigide d'escorte 'prétorienne'"
+  description: Une combinaison rigide conçue pour un garde du corps d'élite. Celle-ci est faite d'un métal plus léger, permettant plus de manœuvrabilité.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/bsolight.rsi
@@ -109,8 +109,8 @@
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit
-  description: A hardsuit with photo-reactive plating for sneaky operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
+  name: combinaison rigide furtive cybersun
+  description: Une combinaison rigide avec un revêtement photo-réactif pour les opérations furtives, le blindage ne fonctionne pas quand vous bougez ! Nécessite le casque pour compléter le champ furtif.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
@@ -165,7 +165,7 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateAnchoredContraband ]
   id: ClothingOuterHardsuitCybersunDreadnought
-  name: Cybersun dreadnought suit
+  name: combinaison rigide dreadnought cybersun
   description: Le Syndicat place sa gloire sur vos épaules, ne décevez pas.
   components:
   - type: Sprite
@@ -226,8 +226,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
   id: ClothingOuterVoidsuitSecurity
-  name: security hardsuit
-  description: A light hardsuit with an in-built plate carrier to provide moderate protection while remaining mobile.
+  name: combinaison rigide de sécurité
+  description: Une combinaison rigide légère avec un porte-plaques intégré pour fournir une protection modérée tout en restant mobile.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Voidsuits/security.rsi
@@ -294,7 +294,7 @@
   parent: [ClothingOuterHardsuitBase, BaseCentcommContraband]
   id: ClothingOuterHardsuitExperimentalNanorep
   name: "NTX5-Mirrorduss"
-  description: A crude dark exosuit of reinforced plating, etched with faintly glowing Bluespace circuits. You can tell someone attempted to scratch out part of the text — Prototype No. 2
+  description: Un exosquelette sombre et rudimentaire en plaques renforcées, gravé de circuits bluespace faiblement lumineux. On devine qu'une personne a tenté de gratter une partie du texte — Prototype N°2
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/ntr_experimental.rsi
@@ -335,8 +335,8 @@
 - type: entity
   parent: [BaseMagicalContraband, ClothingOuterHardsuitEngineeringWhite]
   id: ClothingSingulothArmor
-  name: singuloth knight's armor
-  description: A ceremonial armor from the chapter of the Singuloth Knights, It's made of pure forged adamantium.
+  name: armure des chevaliers singuloth
+  description: Une armure cérémonielle du chapitre des Chevaliers Singuloth, elle est faite d'adamantium pur forgé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/singuloth_knight_armor.rsi
@@ -351,7 +351,7 @@
 - type: entity
   parent: ClothingOuterHardsuitCybersunStealth
   id: ClothingOuterHardsuitVoxRaiderStealth
-  name: vox raider stealth suit
+  name: combinaison rigide furtive de raider vox
   description: Un élégant costume noir. Il semble avoir une queue, et est très lourd.
   components:
   - type: Sprite
@@ -367,8 +367,8 @@
 - type: entity
   parent: [ClothingOuterVoidsuitSecurity, BaseSecurityContraband]
   id: ClothingOuterHardsuitDetective
-  name: detective hardsuit
-  description: A hardsuit custom-made for the Detective. It has a strong smell of alcohol and cigarettes.
+  name: combinaison rigide de détective
+  description: Une combinaison rigide sur mesure pour le détective. Elle sent fort l'alcool et les cigarettes.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/detective.rsi
@@ -381,8 +381,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitContractor
-  name: contractor hardsuit
-  description: A light hardsuit with an in-built plate carrier to provide moderate protection while remaining mobile.
+  name: combinaison rigide de contractor
+  description: Une combinaison rigide légère avec un porte-plaques intégré pour fournir une protection modérée tout en restant mobile.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/contractor.rsi

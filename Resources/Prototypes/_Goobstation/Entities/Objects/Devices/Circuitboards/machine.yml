@@ -161,8 +161,8 @@
 - type: entity  # Food synthesizer
   parent: BaseMachineCircuitboard
   id: ServiceEnergyChemMachineCircuitboard
-  name: energy food synthesizer machine board
-  description: A machine printed circuit board for a energy food synthesizer.
+  name: carte machine de synthétiseur alimentaire énergétique
+  description: Un circuit imprimé de machine pour un synthétiseur alimentaire énergétique.
   components:
   - type: Sprite
     state: service

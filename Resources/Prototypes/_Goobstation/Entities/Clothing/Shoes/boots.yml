@@ -3,7 +3,7 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsChrono
-  name: futuristic boots
+  name: bottes futuristes
   description: Une chaussure futuriste avancée garantissant confort et adhérence totale sur toute surface.
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesResonant
-  name: resonant shoes
+  name: chaussures résonantes
   description: N'est-ce pas encore le moment… pour le magnifique rideau de se lever ?
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: [ClothingShoesBootsMagAdv, BaseJetpack, BaseCentcommContraband]
   id: ClothingShoesBootsMagEmergencyResponseTeam
-  name: tactical response magboots
+  name: magbottes d'intervention tactique
   description: Regardez ! Un intervenant d'urgence, nous sommes sauvés !
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
   id: ClothingShoesRealJordans
   suffix: Magboots
   name: air jordans
-  description: State-of-the-art, official, uncreased Jordans that protect you from slipping when turned on.
+  description: Des Jordans officielles, à la pointe de la technologie, non froissées, qui vous protègent du glissement lorsqu'elles sont activées.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi
@@ -151,7 +151,7 @@
   id: ClothingShoesFakeJordans
   name: air jordans
   suffix: fake
-  description: Upon closer inspection, something feels off about these. Are they.. creased? No, it can't be that. Wait, the logo looks a little off...
+  description: En y regardant de plus près, quelque chose cloche. Sont-elles... froissées ? Non, c'est pas possible. Attendez, le logo semble un peu bizarre...
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi
@@ -179,7 +179,7 @@
 - type: entity
   parent: [BaseCommandContraband, ClothingShoesBootsJack]
   id: ClothingShoesBootsJackAdvanced
-  name: advanced jackboots
+  name: rangers avancées
   description: Cette paire de rangers a été conçue pour le chef de la sécurité. Personne ne sait pourquoi elles s'appellent avancées, mais elles sont assurément avancées en style.
   components:
   - type: Sprite
@@ -195,7 +195,7 @@
   id: ClothingShoesRealJordansAutographed
   suffix: Devil
   name: air jordans
-  description: Ce ne sont pas des Jordans ordinaires, celles-ci ont été signées par Micheal Jordan lui-même. Elles doivent valoir une FORTUNE.
+  description: Ce ne sont pas des Jordans ordinaires, celles-ci ont été signées par Michael Jordan lui-même. Elles doivent valoir une FORTUNE.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi
@@ -232,7 +232,7 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, ClothingShoesBaseWinterBoots, BaseCentcommContraband]
   id: ClothingShoesBootsWinterSnowjackBso
-  name: blueshield's snowjacks
+  name: snowjacks du blueshield
   description: Pour quand vous devez sauver un chef d'un changelin sur une station de recherche en Antarctique.
   components:
   - type: Sprite
@@ -254,7 +254,7 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, ClothingShoesBaseWinterBoots, BaseSecurityContraband]
   id: ClothingShoesWinterCombatBoots
-  name: snowjacks boots
+  name: bottes snowjacks
   description: Bottes de combat de sécurité standard Nanotrasen pour scénarios et situations de combat. Maintenant en édition hivernale.
   components:
   - type: Sprite
@@ -283,7 +283,7 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, BaseMajorContraband]
   id: ClothingShoesBootsCowboyBrownRobust
-  name: authentic brown cowboy boots
+  name: bottes de cowboy marron authentiques
   description: Pour un vrai cowboy.
   components:
   - type: Sprite
@@ -296,7 +296,7 @@
 - type: entity
   parent: [BaseCommandContraband, ClothingShoesGaloshes]
   id: ClothingShoesBootsJackGaloshes
-  name: Jack Galoshes
+  name: Jack bottes
   description: Cette paire de rangers a été conçue pour les femmes de chambre d'élite de notre station. Peut-être l'objet le plus convoité de la station.
   components:
   - type: Sprite

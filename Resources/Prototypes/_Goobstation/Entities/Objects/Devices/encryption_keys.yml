@@ -3,8 +3,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyFuture
-  name: futuristic encryption key
-  description: whiskey echo... what's next?
+  name: clé de chiffrement futuriste
+  description: whisky écho... qu'est-ce qui suit ?
   components:
   - type: EncryptionKey
     channels:

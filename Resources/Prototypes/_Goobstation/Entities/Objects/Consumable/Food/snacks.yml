@@ -3,7 +3,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackProteinbar
-  name: protein bar
+  name: barre protéinée
   description: Barres protéinées de marque SwoleMAX, garanties pour vous faire vous sentir parfaitement trop confiant.
   components:
   - type: FlavorProfile
@@ -31,7 +31,7 @@
           Quantity: 1
 
 - type: entity
-  name: mothdog
+  name: chienmite
   parent: FoodMeatBase
   id: FoodSnackMothdog
   description: Il est dans la fleur de l'âge.
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackLunacakeWrapped
-  name: wrapped lunacake
+  name: lunacake emballé
   description: Maintenant avec 20% moins de rhégolite permettant les poursuites judiciaires !
   components:
   - type: Sprite
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackMochicakeWrapped
-  name: wrapped mochicake
-  description: Konnichiwa! Many go lucky rice cakes in future!
+  name: mochicake emballé
+  description: Konnichiwa ! De nombreux gâteaux de riz chanceux à l'avenir !
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/bay_food.rsi
@@ -127,7 +127,7 @@
   parent: FoodSnackBase
   id: FoodSnackMochicake
   name: mochicake
-  description: Konnichiwa! Many go lucky rice cakes in future!
+  description: Konnichiwa ! De nombreux gâteaux de riz chanceux à l'avenir !
   components:
   - type: FlavorProfile
     flavors:
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackMooncakeWrapped
-  name: wrapped mooncake
-  description: Explore the dark side! May contain trace amounts of reconstituted cocoa.
+  name: mooncake emballé
+  description: Explorez le côté obscur ! Peut contenir des traces de cacao reconstitué.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/bay_food.rsi
@@ -163,7 +163,7 @@
   parent: FoodSnackBase
   id: FoodSnackMooncake
   name: mooncake
-  description: Explore the dark side! May contain trace amounts of reconstituted cocoa.
+  description: Explorez le côté obscur ! Peut contenir des traces de cacao reconstitué.
   components:
   - type: FlavorProfile
     flavors:
@@ -176,7 +176,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackTidegobs
-  name: tide gobs
+  name: bouchées tide
   description: Contient plus de 9000% de votre apport quotidien recommandé en sel.
   components:
   - type: FlavorProfile
@@ -194,7 +194,7 @@
   parent: FoodSnackBase
   id: FoodSnackSaturnos
   name: saturn-os
-  description: Une ration journalière de sel, polystyrène et peut-être sciure de bois.
+  description: Une ration journalière de sel, polystyrène et peut-être de la sciure de bois.
   components:
   - type: FlavorProfile
     flavors:
@@ -210,7 +210,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackJoveGello
-  name: jove gello
+  name: gelée jovienne
   description: Par Jupiter ! C'est une sorte de gel.
   components:
   - type: FlavorProfile
@@ -227,7 +227,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackPlutoniumrods
-  name: plutonium rods
+  name: barres de plutonium
   description: Des barres nutritives sans goût ni base pour passer la journée. Maintenant encore moins provoquantes d'éruptions cutanées !
   components:
   - type: FlavorProfile
@@ -263,7 +263,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackVenusianhotcakes
-  name: venusian hot cakes
+  name: crêpes chaudement vénusiennes
   description: Des prises de position sur des crêpes chaudes, un classique intemporel enfin adapté à la consommation humaine !
   components:
   - type: FlavorProfile
@@ -280,8 +280,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackOortrocks
-  name: oort cloud rocks
-  description: Pop rocks themed on the most important industrial sector in Sol, new formula guarantees fewer shrapnel induced oral injury.
+  name: rochers du nuage d'Oort
+  description: Pop rocks aux couleurs du secteur industriel le plus important du Sol, nouvelle formule garantissant moins de blessures buccales causées par des éclats.
   components:
   - type: FlavorProfile
     flavors:
@@ -299,7 +299,7 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackRedalertnuts
-  name: red alert nuts
+  name: noix alerte rouge
   description: Un sachet de noix épicées de marque Alerte Rouge ! Va bien avec votre bière !
   components:
   - type: FlavorProfile
@@ -316,8 +316,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackRicecake
-  name: rice cake
-  description: Ancient earth snack food made from balled up rice.
+  name: gâteau de riz
+  description: Ancienne collation terrienne faite de riz aggloméré.
   components:
   - type: FlavorProfile
     flavors:
@@ -330,8 +330,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackPokeysticks
-  name: pokey sticks
-  description: A bundle of chocolate coated bisquit sticks.
+  name: bâtons pokey
+  description: Un sachet de bâtons de biscuits enrobés de chocolat.
   components:
   - type: FlavorProfile
     flavors:
@@ -345,8 +345,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackChocobanana
-  name: chocobanana
-  description: A chocolate and sprinkles coated banana. On a stick
+  name: choco-banane
+  description: Une banane enrobée de chocolat et de vermicelles. Sur un bâton.
   components:
   - type: FlavorProfile
     flavors:
@@ -364,7 +364,7 @@
   parent: FoodSnackBase
   id: FoodSnackDango
   name: dango
-  description: Food dyed rice dumplings on a stick.
+  description: Boulettes de riz teintées sur un bâton.
   components:
   - type: FlavorProfile
     flavors:
@@ -383,7 +383,7 @@
   parent: FoodSnackBase
   id: FoodSnackAncientBurger
   name: space burger
-  suffix: ancient
+  suffix: ancien
   description: À un moment donné, ça avait l'air délicieux.
   components:
   - type: FlavorProfile
@@ -416,8 +416,8 @@
 - type: entity
   parent: FoodSnackAncientBurger
   id: FoodSnackAncientFries
-  name: space fries
-  description: The salt appears to have preserved these, still stale and gross.
+  name: space frites
+  description: Le sel semble les avoir conservées, encore rassis et dégoûtants.
   components:
   - type: Sprite
     state: ancient_fries
@@ -445,7 +445,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketLunacakeTrash
-  name: lunacake wrapper
+  name: emballage de lunacake
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/bay_trash.rsi
@@ -456,7 +456,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketMochicakeTrash
-  name: mochicake wrapper
+  name: emballage de mochicake
   components:
   - type: Sprite
     state: mochicakewrap
@@ -466,7 +466,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketMooncakeTrash
-  name: mooncake wrapper
+  name: emballage de mooncake
   components:
   - type: Sprite
     state: mooncakewrap
@@ -476,7 +476,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketTidegobsTrash
-  name: tidegobs trash
+  name: déchets de tide gobs
   components:
   - type: Sprite
     state: tidegobs
@@ -486,7 +486,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketSaturnosTrash
-  name: saturn-os trash
+  name: déchets de saturn-os
   components:
   - type: Sprite
     state: saturno
@@ -496,7 +496,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketJoveGelloTrash
-  name: jove gello trash
+  name: déchets de gelée jovienne
   components:
   - type: Sprite
     state: jupiter
@@ -506,7 +506,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketPlutoniumrodsTrash
-  name: plutonium rods trash
+  name: déchets de barres de plutonium
   components:
   - type: Sprite
     state: pluto
@@ -516,7 +516,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketMarsFroukaTrash
-  name: mars frouka trash
+  name: déchets de frouka martienne
   components:
   - type: Sprite
     state: mars
@@ -526,7 +526,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketVenusTrash
-  name: venus hot cakes trash
+  name: déchets de crêpes chaudement vénusiennes
   components:
   - type: Sprite
     state: venus
@@ -536,7 +536,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketOortrocksTrash
-  name: oort rocks trash
+  name: déchets de rochers du nuage d'Oort
   components:
   - type: Sprite
     state: oort
@@ -546,7 +546,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodSnackMothdogTrash
-  name: mothdog stick
+  name: bâton de papichien
   description: Il n'est plus dans la fleur de l'âge.
   components:
   - type: Tag
@@ -577,7 +577,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketRedalertnutsTrash
-  name: red alert nuts packet
+  name: sachet de noix alerte rouge
   components:
   - type: Sprite
     state: weebonuts
@@ -587,7 +587,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketStickTrash
-  name: stick
+  name: bâton
   components:
   - type: Sprite
     state: stick
@@ -598,7 +598,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketLunacakeTrash
   id: FoodPacketProteinbarTrash
-  name: protein bar wrapper
+  name: emballage de barre protéinée
   components:
   - type: Sprite
     state: proteinbar

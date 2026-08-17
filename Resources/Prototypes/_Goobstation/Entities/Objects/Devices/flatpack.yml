@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseFlatpack
   id: TimelineDisruptorFlatpack
-  name: timeline disruptor flatpack
+  name: flatpack de perturbateur temporel
   description: Un flatpack utilisé pour construire un assemblage solaire.
   components:
   - type: Flatpack
@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ContrabandDetectorFlatpack
-  name: contraband detector flatpack
+  name: flatpack de détecteur de contrebande
   description: Un flatpack utilisé pour construire un détecteur de contrebande.
   components:
   - type: Flatpack
@@ -31,7 +31,7 @@
 - type: entity
   parent: BaseFlatpack
   id: MedicalScannerFlatpack
-  name: Medical Scanner Flatpack
+  name: flatpack de scanner médical
   description: Un flatpack utilisé pour construire un scanner médical.
   components:
   - type: Flatpack
@@ -40,7 +40,7 @@
 - type: entity
   parent: BaseFlatpack
   id: CloningpodFlatpack
-  name: Cloning pod Flatpack
+  name: flatpack de capsule de clonage
   description: Un flatpack utilisé pour construire une capsule de clonage.
   components:
   - type: Flatpack
@@ -49,7 +49,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerCloningConsoleFlatpack
-  name: Computer Cloning Console Flatpack
+  name: flatpack de console d'ordinateur de clonage
   description: Un flatpack utilisé pour construire une console d'ordinateur de clonage.
   components:
   - type: Flatpack
@@ -58,7 +58,7 @@
 - type: entity
   parent: BaseFlatpack
   id: BiomassReclaimerFlatpack
-  name: Biomass Reclaimer Flatpack
+  name: flatpack de récupérateur de biomasse
   description: Un flatpack utilisé pour construire un récupérateur de biomasse.
   components:
   - type: Flatpack
@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseFlatpack
   id: MedicalBiofabricatorFlatpack
-  name: Medical Biofabricator Flatpack
+  name: flatpack de biofabricateur médical
   description: Un flatpack utilisé pour construire un biofabricateur médical.
   components:
   - type: Flatpack
@@ -76,7 +76,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerNTRTasksFlatpack
-  name: ntr task computer flatpack
+  name: flatpack d'ordinateur de tâches NTR
   description: Un flatpack utilisé pour construire un ordinateur de tâches NTR.
   components:
   - type: Flatpack
@@ -85,8 +85,8 @@
 - type: entity
   parent: BaseFlatpack
   id: MachinePowerTransmissionLaserFlatpack
-  name: power transmision laser flatpack
-  description: Un flatpack utilisé pour construire un laser de transmission de puissance.
+  name: flatpack de laser de transmission d'énergie
+  description: Un flatpack utilisé pour construire un laser de transmission d'énergie.
   components:
   - type: Flatpack
     entity: MachinePowerTransmissionLaser
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerFundingAllocationFlatpack
-  name: funding allocation computer flatpack
+  name: flatpack d'ordinateur d'allocation de fonds
   description: Un flatpack utilisé pour construire un ordinateur d'allocation de fonds.
   components:
   - type: Flatpack
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerCargoRequestServiceFlatpack
-  name: service request computer flatpack
-  description: A flatpack used for constructing a service request computer
+  name: flatpack d'ordinateur de demandes de service
+  description: Un flatpack utilisé pour construire un ordinateur de demandes de service
   components:
   - type: Flatpack
     entity: ComputerCargoOrdersService
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerCargoRequestMedicalFlatpack
-  name: medical request computer flatpack
-  description: A flatpack used for constructing a medical request computer
+  name: flatpack d'ordinateur de demandes médicales
+  description: Un flatpack utilisé pour construire un ordinateur de demandes médicales
   components:
   - type: Flatpack
     entity: ComputerCargoOrdersMedical
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerCargoRequestScienceFlatpack
-  name: science request computer flatpack
-  description: A flatpack used for constructing a science request computer
+  name: flatpack d'ordinateur de demandes scientifiques
+  description: Un flatpack utilisé pour construire un ordinateur de demandes scientifiques
   components:
   - type: Flatpack
     entity: ComputerCargoOrdersScience
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ComputerCargoRequestSecurityFlatpack
-  name: security request computer flatpack
-  description: A flatpack used for constructing a security request computer
+  name: flatpack d'ordinateur de demandes de sécurité
+  description: Un flatpack utilisé pour construire un ordinateur de demandes de sécurité
   components:
   - type: Flatpack
     entity: ComputerCargoOrdersSecurity
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseFlatpack
   id: TegCirculatorFlatpack
-  name: circulator flatpack
+  name: flatpack de circulateur
   description: Un flatpack utilisé pour construire un circulateur pour générateur thermoélectrique.
   components:
   - type: Flatpack
@@ -154,7 +154,7 @@
 - type: entity
   parent: BaseFlatpack
   id: TegMiddleFlatpack
-  name: thermo-electric generator flatpack
+  name: flatpack de générateur thermoélectrique
   description: Un flatpack utilisé pour construire un générateur thermoélectrique.
   components:
   - type: Flatpack
@@ -169,7 +169,7 @@
 - type: entity
   parent: BaseFlatpack
   id: SlotMachineFlatpack
-  name: slot machine flatpack
+  name: flatpack de machine à sous
   description: Un flatpack utilisé pour construire une machine à sous.
   components:
   - type: Flatpack
@@ -178,7 +178,7 @@
 - type: entity
   parent: BaseFlatpack
   id: SlotMachineHighRollerFlatPack
-  name: high roller slot machine flatpack
+  name: flatpack de machine à sous pour gros joueur
   description: Un flatpack utilisé pour construire une machine à sous pour gros joueur.
   components:
   - type: Flatpack
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseFlatpack
   id: CoinFlipperFlatPack
-  name: coin flipper flatpack
+  name: flatpack de lanceur de pièce
   description: Un flatpack utilisé pour construire un lanceur de pièce.
   components:
   - type: Flatpack
@@ -196,7 +196,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ClawMachineFlatPack
-  name: claw machine flat pack
+  name: flatpack de machine à pinces
   description: Un flatpack utilisé pour construire une machine à pinces.
   components:
   - type: Flatpack
@@ -205,7 +205,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ChemistryHotplateFlatPack
-  name: hotplate flat pack
+  name: flatpack de plaque chauffante
   description: Un flatpack utilisé pour construire une plaque chauffante.
   components:
   - type: Flatpack
@@ -214,8 +214,8 @@
 - type: entity
   parent: BaseFlatpack
   id: DiseaseDiagnoserFlatPack
-  name: disease diagnoser flat pack
-  description: Un flatpack utilisé pour construire un diagnosticeur de maladie.
+  name: flatpack de diagnostiqueur de maladie
+  description: Un flatpack utilisé pour construire un diagnostiqueur de maladie.
   components:
   - type: Flatpack
     entity: DiseaseDiagnoser
@@ -223,7 +223,7 @@
 - type: entity
   parent: BaseFlatpack
   id: VaccinatorFlatPack
-  name: vaccinator machine flat pack
+  name: flatpack de machine vaccinatrice
   description: Un flatpack utilisé pour construire un vaccinateur.
   components:
   - type: Flatpack
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseFlatpack
   id: MaterialSiloFlatpack
-  name: material silo flatpack
-  description: A flatpack used for constructing a material silo.
+  name: flatpack de silo à matériaux
+  description: Un flatpack utilisé pour construire un silo à matériaux.
   components:
   - type: Flatpack
     entity: MachineMaterialSilo

@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseFoodCondimentPacket
   id: FoodCondimentPacketProtein
-  name: protein powder packet
+  name: sachet de protéine en poudre
   description: Contient 10u de protéine en poudre. Mélanger avec 20u d'eau.
   components:
   - type: SolutionContainerManager
@@ -24,7 +24,7 @@
   name: bloc de fromage de la liberté
   parent: FoodBakingBase
   id: FoodFreedomCheeseBlock
-  description: A solid block of artery-clogging cheese based on an questionable old world recipe. Slice it for your buddies.. or just eat the entire block for yourself, you weirdo.
+  description: Un bloc solide de fromage bouchant les artères basé sur une vieille recette mondiale douteuse. Tranchiez-le pour vos copains... ou mangez tout le bloc vous-même, vous êtes bizarre.
   components:
   - type: FlavorProfile
     flavors:
@@ -51,10 +51,10 @@
 
 
 - type: entity
-  name: freedom cheese slice
+  name: tranche de fromage de la liberté
   parent: FoodBakingBase
   id: FoodFreedomCheeseSlice
-  description: Highly questionable amalgamation of cheddar, fillers and the spirit of freedom. NanoTrasen's healthcare does not cover incidents regarding the consumption of this item.
+  description: Amalgame hautement douteux de cheddar, de sucre et de l'esprit de la liberté. La soins de santé de NanoTrasen ne couvre pas les incidents liés à la consommation de cet article.
   components:
   - type: FlavorProfile
     flavors:

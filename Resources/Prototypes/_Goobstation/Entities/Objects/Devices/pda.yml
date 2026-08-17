@@ -3,7 +3,7 @@
 - type: entity
   parent: AdminPDA
   id: ChronoPDA
-  name: futuristic PDA
+  name: PDA futuriste
   description: Un puissant ordinateur quantique déguisé en PDA ordinaire.
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   parent: AdminPDA
   id: GmanPDA
-  name: strange PDA
+  name: PDA bizarre
   description: Votre esprit ne peut pas vraiment comprendre ça.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: SalvagePDA
   id: HelldiverPDA
-  name: salvage diver PDA
+  name: PDA de plongeur de récupération
   description: Sent les cadavres d'insectes et d'androïdes.
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: CentcomPDA
   id: HecuPDA
-  name: HECU PDA
+  name: PDA HECU
   description: Sent la poudre à canon.
   components:
   - type: Appearance
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: BlueshieldPDA
-  name: blueshield officer PDA
-  description: Le bouclier argenté du Bouclier Bleu est gravé sur le devant.
+  name: PDA d'agent blueshield
+  description: Le bouclier argenté du blueshield est gravé sur le devant.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -125,8 +125,8 @@
 - type: entity
   parent: CentcomPDA
   id: DeathsquadPDA
-  name: deathsquad PDA
-  description: Déchire et arrache jusqu'à ce que ce soit fait.
+  name: PDA d'escadron de la mort
+  description: Déchirez et arrachez jusqu'à ce que ce soit fait.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -150,7 +150,7 @@
 - type: entity
   parent: CentcomPDA
   id: NanotrasenRepresentativePDA
-  name: nanotrasen representative's PDA
+  name: PDA de représentant Nanotrasen
   description: Le diable est dans les détails.
   components:
   - type: Pda
@@ -159,7 +159,7 @@
 - type: entity
   parent: CentcomPDA
   id: TrainerPDA
-  name: nct's PDA
+  name: PDA de NCT
   description: Un PDA standard de formateur de carrière Nanotrasen.
   components:
   - type: Pda
@@ -168,7 +168,7 @@
 - type: entity
   parent: CentcomPDA
   id: NavyCaptainPDA
-  name: navy captain's PDA
+  name: PDA de capitaine de marine
   description: Le diable est dans les détails.
   components:
   - type: Pda
@@ -193,7 +193,7 @@
 - type: entity
   parent: NavyCaptainPDA
   id: NavyOfficerPDA
-  name: navy officer's PDA
+  name: PDA d'officier de marine
   components:
   - type: Pda
     id: CentcomIDCardNavyOfficer
@@ -201,7 +201,7 @@
 - type: entity
   parent: NavyCaptainPDA
   id: SpecialOperationsOfficerPDA
-  name: special operations officer's PDA
+  name: PDA d'officier d'opérations spéciales
   components:
   - type: Pda
     id: CentcomIDCardSpecialOperationsOfficer
@@ -209,7 +209,7 @@
 - type: entity
   parent: NavyCaptainPDA
   id: DiplomatPDA
-  name: diplomat's PDA
+  name: PDA de diplomate
   components:
   - type: Pda
     id: CentcomIDCardDiplomat
@@ -217,7 +217,7 @@
 - type: entity
   parent: NavyCaptainPDA
   id: InspectorPDA
-  name: auditor's PDA
+  name: PDA d'auditeur
   components:
   - type: Pda
     id: CentcomIDCardInspector
@@ -225,7 +225,7 @@
 - type: entity
   parent: SyndiPDA
   id: SyndiPDANukie
-  name: syndicate PDA
+  name: PDA du syndicat
   description: Ok, temps d'être un membre productif de- oh super je suis un méchant temps de tuer des gens !
   components:
   - type: Pda
@@ -234,7 +234,7 @@
 - type: entity
   parent: NavyCaptainPDA
   id: HighCommandPDA
-  name: high commander PDA
+  name: PDA de haut commandant
   description: Un PDA syndical ordinaire, orné de symboles dorés. Son propriétaire est clairement de rang supérieur.
   components:
   - type: Appearance
@@ -267,7 +267,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: VirologistPDA
-  name: virology PDA
+  name: PDA de virologie
   description: Vous n'êtes pas sûr qu'il soit sécuritaire de le toucher.
   components:
   - type: Pda
@@ -287,7 +287,7 @@
 - type: entity
   parent: ClownPDA
   id: SecurityClownPDA
-  name: security clown PDA
+  name: PDA de clown de la sécurité
   description: Qui a un PDA rose dans la sécurité ?
   components:
   - type: Pda
@@ -296,7 +296,7 @@
 - type: entity
   parent: JanitorPDA
   id: CommandMaidPDA
-  name: command maid PDA
+  name: PDA de femme de chambre de commandement
   components:
   - type: Pda
     id: CommandMaidIDCard
@@ -304,8 +304,8 @@
 - type: entity
   parent: MusicianPDA
   id: PartyMakerPDA
-  name: party maker PDA
-  description: The best helper to make a party.
+  name: PDA d'organisateur de fête
+  description: Le meilleur assistant pour organiser une fête.
   components:
   - type: Pda
     id: PartyMakerIDCard
@@ -313,7 +313,7 @@
 - type: entity
   parent: BasePDA
   id: RoboticistPDA
-  name: roboticist PDA
+  name: PDA de roboticien
   description: Il est couvert d'ambitions échouées.
   components:
   - type: Pda
@@ -332,7 +332,7 @@
 - type: entity
   parent: BasePDA
   id: RadioHostPDA
-  name: radio host PDA
+  name: PDA d'animateur radio
   description: Vous écoutez les sons doux de 145.9 FM.
   components:
   - type: Pda
@@ -341,8 +341,8 @@
 - type: entity
   parent: CentcomPDA
   id: OuterCommandPDA
-  name: outer command PDA
-  description: Purple pda for outer command members.
+  name: PDA de commandement extérieur
+  description: PDA violet pour les membres du commandement extérieur.
   components:
   - type: Appearance
     appearanceDataInit:

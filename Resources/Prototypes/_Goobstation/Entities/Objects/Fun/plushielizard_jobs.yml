@@ -2,8 +2,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBlueshieldOfficer
-  name: blueshield officer lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a blueshield officer. One smack from this plushie is sure to ward off any evildoers.
+  name: peluche lézard agent blueshield
+  description: Une adorable peluche ressemblant à un lézard en agent blueshield. Un coup de cette peluche suffira à faire fuir tous les malfaiteurs.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobNanotrasenRepresentative
-  name: nanotrasen representative lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a nanotrasen representative. It seems to always be judgmental of you.
+  name: peluche lézard représentant Nanotrasen
+  description: Une adorable peluche ressemblant à un lézard en représentant Nanotrasen. Elle semble toujours vous juger.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobShaftMiner
-  name: shaft miner lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a shaft miner. Smells faintly of ash. Many parts have been mended back after being set on fire.
+  name: peluche lézard mineur
+  description: Une adorable peluche ressemblant à un lézard en mineur. Sent faiblement la cendre. De nombreuses parties ont été recousues après avoir brûlé.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobBrigmedic
-  name: brigmedic lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a brigmedic. Smells faintly of gunpowder and atropine.
+  name: peluche lézard brigmédic
+  description: Une adorable peluche ressemblant à un lézard en brigmédic. Sent faiblement la poudre à canon et l'atropine.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCentCommOfficial
-  name: centcomm official lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a centcomm officer. Wears its hat with pride. Or whatever emotion plushies feel.
+  name: peluche lézard officiel CentComù
+  description: Une adorable peluche ressemblant à un lézard en officiel CentComm. Porte sa casquette avec fierté. Ou quelle que soit l'émotion que ressentent les peluches.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobVirologist
-  name: virologist lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson as a virologist. It looks to be in pristine condition.
+  name: peluche lézard virologue
+  description: Une adorable peluche ressemblant à un lézard en virologue. Elle semble être en parfait état.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/plushielizard_jobs.rsi

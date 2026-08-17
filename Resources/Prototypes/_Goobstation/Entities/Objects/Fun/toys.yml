@@ -1079,8 +1079,8 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieRedstonewolf
-  name: Irene plushie
-  description: A soft plush toy resembling a red dragon. Despite being a big serpent, it still wehs.
+  name: peluche Irene
+  description: Une peluche douce ressemblant à un dragon rouge. Malgré d'être un grand serpent, elle fait encore weh.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -1112,91 +1112,91 @@
 # Plushies, but EVIL!!!
 
 - type: entity
-  name: evil Xeve plush
+  name: peluche Xeve maléfique
   parent: PlushieXeve
   id: EvilPlushieXeve
   suffix: Evil
 
 - type: entity
-  name: evil Boggle plush
+  name: peluche Boggle maléfique
   parent: PlushieBoggle
   id: EvilPlushieBoggle
   suffix: Evil
 
 - type: entity
-  name: evil Brizby plush
+  name: peluche Brizby maléfique
   parent: PlushieBrizby
   id: EvilPlushieBrizby
   suffix: Evil
 
 - type: entity
-  name: evil Nigel plush
+  name: peluche Nigel maléfique
   parent: PlushieNigel
   id: EvilPlushieNigel
   suffix: Evil
 
 - type: entity
-  name: evil Fern plush
+  name: peluche Fern maléfique
   parent: PlushieFern
   id: EvilPlushieFern
   suffix: Evil
 
 - type: entity
-  name: evil Jvne plush
+  name: peluche Jvne maléfique
   parent: PlushieJvne
   id: EvilPlushieJvne
   suffix: Evil
 
 - type: entity
-  name: evil Mnwaar plush
+  name: peluche Mnwaar maléfique
   parent: PlushieMnwaar
   id: EvilPlushieMnwaar
   suffix: Evil
 
 - type: entity
-  name: evil Durk plush
+  name: peluche Durk maléfique
   parent: PlushieDurk
   id: EvilPlushieDurk
   suffix: Evil
 
 - type: entity
-  name: evil Louie plush
+  name: peluche Louie maléfique
   parent: PlushieLouie
   id: EvilPlushieLouie
   suffix: Evil
 
 - type: entity
-  name: evil Grug plush
+  name: peluche Grug maléfique
   parent: PlushieWachtel
   id: EvilPlushieWachtel
   suffix: Evil
 
 - type: entity
-  name: evil Leguia plush
+  name: peluche Leguia maléfique
   parent: PlushieLeguia
   id: EvilPlushieLeguia
   suffix: Evil
 
 - type: entity
-  name: evil Pasha plush
+  name: peluche Pasha maléfique
   parent: PlushiePasha
   id: EvilPlushiePasha
   suffix: Evil
 
 - type: entity
-  name: Evil TwoFish
+  name: peluche TwoFish maléfique
   parent: PlushieTwofish
   id: EvilPlushieTwofish
   suffix: Evil
 
 - type: entity
-  name: evil Leo Malone plush
+  name: peluche Leo Malone maléfique
   parent: PlushieLeoMalone
   id: EvilPlushieLeoMalone
   suffix: Evil
 
 - type: entity
-  name: evil Irene plush
+  name: peluche Irene maléfique
   parent: PlushieRedstonewolf
   id: EvilPlushieRedstonewolf
   suffix: Evil

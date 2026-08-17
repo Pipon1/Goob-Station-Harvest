@@ -3,8 +3,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSyndiRoach
-  name: syndiroach reinforcement radio
-  description: Appelle un cafard-mite fidèlement entraîné avec une microbombe pour vous aider.
+  name: radio de renfort syndimite
+  description: Appelle un mitard fidèlement entraîné avec une microbombe pour vous aider.
   components:
   - type: GhostRole
     name: ghost-role-information-SyndiRoach-name

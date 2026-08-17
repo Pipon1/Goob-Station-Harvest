@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsStandard
-  name: standard modsuit boots
-  description: A special modular suit boots designed for compact folding inside modular suit control.
+  name: bottes de modsuit standard
+  description: Des bottes de combinaison modulaire spéciales conçues pour se plier de manière compacte dans le contrôle de modsuit.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsHeadOfSecurity
-  name: bulwark modsuit boots
-  description: I call these my commie stompers.
+  name: bottes de modsuit rempart
+  description: Je les appelle mes écrase-communistes.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsParamedic
-  name: sanitater modsuit boots
-  description: Made to get bloody.
+  name: bottes de modsuit sanitäter
+  description: Faites pour se couvrir de sang.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -187,8 +187,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsEngineer
-  name: sapper modsuit boots
-  description: Made to get oily.
+  name: bottes de modsuit sapeur
+  description: Faites pour se couvrir d'huile.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -232,8 +232,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsAtmostech
-  name: aeolus modsuit boots
-  description: Made to get burnt.
+  name: bottes de modsuit éole
+  description: Faites pour se brûler.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -268,7 +268,7 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsResearchDirector
-  name: minerva modsuit boots
+  name: bottes de modsuit minerve
   description: Ça ne vous empêchera pas de glisser sur votre propre sang quand la carpe holo vous aura.
   categories: [ HideSpawnMenu ]
   components:
@@ -301,7 +301,7 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsCaptain
-  name: magnate modsuit boots
+  name: bottes de modsuit magnat
   description: Ces bottes ont été conçues par LE Michael Jordan et fabriquées avec des alliages anciens, mec.
   categories: [ HideSpawnMenu ]
   components:

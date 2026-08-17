@@ -5,7 +5,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitChronolegioneer
-  name: futuristic helmet
+  name: casque futuriste
   description: Le casque des combattants du futur, conçu pour les opérations spéciales de flux temporel.
   components:
   - type: BreathMask
@@ -49,7 +49,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield hardsuit helmet
+  name: casque de combinaison rigide blueshield
   description: Le casque de la combinaison rigide du garde du corps du capitaine.
   components:
   - type: BreathMask
@@ -89,7 +89,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
+  name: casque de combinaison rigide furtive cybersun
   description: Un casque avec un revêtement photo-réactif pour les opérations furtives.
   components:
   - type: Sprite
@@ -130,7 +130,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDreadnought
-  name: Cybersun Dreadnought suit helmet
+  name: casque de combinaison rigide dreadnought cybersun
   description: Un casque, en regardant cela vous vous demandez s'il y a quelqu'un de vivant.
   components:
   - type: Sprite
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitExperimentalNanorep
-  name: "NTX5-Mirrorduss helmet"
-  description: A dark green helmet with glowing cyan nodes, a mirrored visor, and a mounted side light.
+  name: "Casque NTX5-Mirrorduss"
+  description: Un casque vert foncé avec des nœuds cyan lumineux, une visière miroir et un éclairage latéral monté.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Helmets/ntr_experimental_helmet.rsi
