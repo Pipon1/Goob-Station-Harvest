@@ -1,4 +1,5 @@
 using Content.Shared.Power.EntitySystems;
+using Content.Shared._NF.Storage.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Utility;
 
@@ -16,6 +17,7 @@ public abstract class SharedOreSiloSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<OreSiloComponent, ToggleOreSiloClientMessage>(OnToggleOreSiloClient);
+        SubscribeLocalEvent<OreSiloComponent, ToggleOreSiloMagnetMessage>(OnToggleOreSiloMagnet);
         SubscribeLocalEvent<OreSiloComponent, ComponentShutdown>(OnSiloShutdown);
         Subs.BuiEvents<OreSiloComponent>(OreSiloUiKey.Key,
             subs =>
@@ -29,6 +31,15 @@ public abstract class SharedOreSiloSystem : EntitySystem
         SubscribeLocalEvent<OreSiloClientComponent, ComponentShutdown>(OnClientShutdown);
 
         _clientQuery = GetEntityQuery<OreSiloClientComponent>();
+    }
+
+    private void OnToggleOreSiloMagnet(Entity<OreSiloComponent> ent, ref ToggleOreSiloMagnetMessage args)
+    {
+        if (!TryComp<MaterialStorageMagnetPickupComponent>(ent.Owner, out var magnet))
+            return;
+
+        magnet.MagnetEnabled = !magnet.MagnetEnabled;
+        UpdateOreSiloUi(ent);
     }
 
     private void OnToggleOreSiloClient(Entity<OreSiloComponent> ent, ref ToggleOreSiloClientMessage args)

@@ -21,6 +21,11 @@ public sealed class OreSiloBoundUserInterface(EntityUid owner, Enum uiKey) : Bou
         {
             SendPredictedMessage(new ToggleOreSiloClientMessage(netEnt));
         };
+
+        _menu.OnMagnetTogglePressed += () =>
+        {
+            SendPredictedMessage(new ToggleOreSiloMagnetMessage());
+        };
     }
 
     protected override void UpdateState(BoundUserInterfaceState state)

@@ -11,10 +11,13 @@ namespace Content.Client.Materials.UI;
 public sealed partial class OreSiloMenu : FancyWindow
 {
     public event Action<NetEntity>? OnClientEntryPressed;
+    public event Action? OnMagnetTogglePressed;
 
     public OreSiloMenu()
     {
         RobustXamlLoader.Load(this);
+
+        MagnetToggleButton.OnPressed += _ => OnMagnetTogglePressed?.Invoke();
 
         ClientList.OnItemSelected += args =>
         {
@@ -31,6 +34,10 @@ public sealed partial class OreSiloMenu : FancyWindow
 
     public void Update(OreSiloBuiState state)
     {
+        MagnetToggleButton.Text = Loc.GetString(state.MagnetEnabled
+            ? "ore-silo-ui-magnet-enabled"
+            : "ore-silo-ui-magnet-disabled");
+
         var items = new List<ItemList.Item>();
         var orderedClients = state.Clients.OrderBy(t => t.Item3).ThenBy(t => t.Item1.Id);
         foreach (var (ent, _, _) in orderedClients)
@@ -61,4 +68,3 @@ public sealed partial class OreSiloMenu : FancyWindow
         }
     }
 }
-

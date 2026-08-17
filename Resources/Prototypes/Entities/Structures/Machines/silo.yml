@@ -18,10 +18,15 @@
           False: { state: silo }
   - type: OreSilo
   - type: MaterialStorage
+    disallowOreEjection: false
+    insertingSound: !type:SoundCollectionSpecifier
+      collection: storageRustle
     whitelist:
       tags:
       - Sheet
       - Ingot
+      - RawMaterial
+      - Ore
   - type: ActivatableUI
     key: enum.OreSiloUiKey.Key
   - type: ActivatableUIRequiresPower
@@ -59,3 +64,5 @@
   - type: WiresPanel
   - type: StaticPrice
     price: 1500
+  - type: MaterialStorageMagnetPickup
+    range: 1

@@ -2,12 +2,14 @@
 
 using Content.Shared._NF.Storage.Components;
 using Content.Shared.Materials;
+using Content.Shared.Storage.EntitySystems;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Timing;
 using Content.Shared.Examine;   // Frontier
 using Content.Shared.Hands.Components;  // Frontier
 using Content.Shared.Verbs;     // Frontier
 using Robust.Shared.Utility;    // Frontier
+using Robust.Shared.Network;
 
 namespace Content.Shared._NF.Storage.EntitySystems;
 
@@ -18,7 +20,10 @@ public sealed class MaterialStorageMagnetPickupSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
-    [Dependency] private readonly SharedMaterialStorageSystem _storage = default!;
+    [Dependency] private readonly SharedMaterialStorageSystem _materialStorage = default!;
+    [Dependency] private readonly SharedStorageSystem _storage = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly INetManager _net = default!;
 
     private static readonly TimeSpan ScanDelay = TimeSpan.FromSeconds(1);
 
@@ -79,41 +84,61 @@ public sealed class MaterialStorageMagnetPickupSystem : EntitySystem
     // Frontier, used to toggle the magnet on the ore bag/box
     public bool ToggleMagnet(EntityUid uid, MaterialStorageMagnetPickupComponent comp)
     {
-        var query = EntityQueryEnumerator<MaterialStorageMagnetPickupComponent>();
         comp.MagnetEnabled = !comp.MagnetEnabled;
-
         return comp.MagnetEnabled;
     }
 
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
+
+        if (_net.IsClient)
+            return;
+
         var query = EntityQueryEnumerator<MaterialStorageMagnetPickupComponent, MaterialStorageComponent, TransformComponent>();
         var currentTime = _timing.CurTime;
 
         while (query.MoveNext(out var uid, out var comp, out var storage, out var xform))
         {
-            if (comp.NextScan < currentTime)
+            if (comp.NextScan > currentTime)
                 continue;
 
-            comp.NextScan += ScanDelay;
+            comp.NextScan = currentTime + ScanDelay;
 
             // Frontier - magnet disabled
             if (!comp.MagnetEnabled)
                 continue;
 
             var parentUid = xform.ParentUid;
+            var finalCoords = xform.Coordinates;
+            var moverCoords = _transform.GetMoverCoordinates(uid, xform);
 
-            foreach (var near in _lookup.GetEntitiesInRange(uid, comp.Range, LookupFlags.Dynamic | LookupFlags.Sundries))
+            foreach (var near in _lookup.GetEntitiesInRange(
+                uid,
+                comp.Range,
+                LookupFlags.Dynamic | LookupFlags.Sundries))
             {
-                if (!_physicsQuery.TryGetComponent(near, out var physics) || physics.BodyStatus != BodyStatus.OnGround)
+                if (!_physicsQuery.TryGetComponent(near, out var physics) ||
+                    physics.BodyStatus != BodyStatus.OnGround)
+                {
                     continue;
+                }
 
                 if (near == parentUid)
                     continue;
 
-                if (!_storage.TryInsertMaterialEntity(uid, near, uid, storage))
+                var nearXform = Transform(near);
+                var nearMapCoords = _transform.GetMapCoordinates(near, xform: nearXform);
+                var nearCoords = _transform.ToCoordinates(moverCoords.EntityId, nearMapCoords);
+
+                if (!_materialStorage.TryInsertMaterialEntity(uid, near, uid, storage))
                     continue;
+
+                _storage.PlayPickupAnimation(
+                    near,
+                    nearCoords,
+                    finalCoords,
+                    nearXform.LocalRotation);
             }
         }
     }
