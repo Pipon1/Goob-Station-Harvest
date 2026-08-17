@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseKnife, BaseSalvageContraband ]
   id: WeaponCrusherDagger
-  name: kinetic dagger
-  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
+  name: dague cinétique
+  description: Une version réduite d'un crusher proto-cinétique. Utilise l'énergie cinétique pour faire vibrer la lame à haute vitesse.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: [ BaseItem, ClothingHandsBase, BaseSalvageContraband ]
   id: LavalandWeaponKineticClaws
-  name: kinetic claws
-  description: Unleash your inner edgelord with this one-handed claw small enough to fit in your backpack.
+  name: griffes cinétiques
+  description: Libérez votre côté edgelord avec cette griffe à une main assez petite pour tenir dans votre sac.
   components:
   - type: Appearance
   - type: Sprite
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ BaseItem, BaseSalvageContraband ]
   id: LavalandWeaponKineticMachete
-  name: kinetic machete
-  description: A smaller, one-handed variant of the crusher which allows you to attack from afar and block incoming attacks.
+  name: machette cinétique
+  description: Une variante plus petite, à une main, du crusher qui permet d'attaquer de loin et de bloquer les attaques entrantes.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Secondary/kinetic_machete.rsi

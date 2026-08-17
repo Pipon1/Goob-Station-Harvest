@@ -6,8 +6,8 @@
 - type: entity
   id: BaseCrusherUpgradeMain
   parent: [BaseItem, BaseSecurityCargoContraband]
-  name: crusher upgrade capsule
-  description: A modkit for crusher weapons.
+  name: capsule d'amélioration du crusher
+  description: Un modkit pour les armes crusher.
   abstract: true
   components:
   - type: Sprite
@@ -24,8 +24,8 @@
 - type: entity
   id: CrusherUpgradeMainMarker
   parent: BaseCrusherUpgradeMain
-  name: crusher upgrade capsule (kinetic marker)
-  description: Compact generator of a bluespace field that can be shot on a living target to make it more vulnerable to crusher attacks. Its projectile also can destroy some types of rocks.
+  name: capsule d'amélioration du crusher (marqueur cinétique)
+  description: Générateur compact d'un champ bluespace qui peut être tiré sur une cible vivante pour la rendre plus vulnérable aux attaques de crusher. Son projectile peut également détruire certains types de roches.
   components:
   - type: Sprite
     layers:
@@ -67,8 +67,8 @@
 - type: entity
   id: CrusherUpgradeMainRudeBuster
   parent: BaseCrusherUpgradeMain
-  name: crusher upgrade capsule (rude buster)
-  description: Focuses determination of the user in itself and emits it as a half-magical projectile. You can see something constantly bouncing off inside it.
+  name: capsule d'amélioration du crusher (rude buster)
+  description: Concentre la détermination de l'utilisateur en lui-même et l'émet comme un projectile semi-magique. On peut voir quelque chose rebondir constamment à l'intérieur.
   components:
   - type: Sprite
     layers:
@@ -110,8 +110,8 @@
 - type: entity
   id: BaseCrusherUpgradeBlade
   parent: [BaseItem, BaseSecurityCargoContraband]
-  name: crusher blade upgrade
-  description: A modkit for crusher weapons.
+  name: amélioration de lame du crusher
+  description: Un modkit pour les armes crusher.
   abstract: true
   components:
   - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   id: CrusherUpgradeBladeLavaAspect
   parent: BaseCrusherUpgradeBlade
-  name: crusher blade upgrade (lava aspect)
-  description: A crystal made out of uncooling lava, making it constantly hot and highly flammable.
+  name: amélioration de lame du crusher (aspect lave)
+  description: Un cristal fait de lave qui ne refroidit jamais, le rendant constamment chaud et hautement inflammable.
   components:
   - type: Sprite
     state: lava-shard
@@ -158,8 +158,8 @@
 - type: entity
   id: CrusherUpgradeBladeIceFrost
   parent: BaseCrusherUpgradeBlade
-  name: crusher blade upgrade (ice frost)
-  description: A crystal that emits coldness, probably by violating laws of thermodynamics.
+  name: amélioration de lame du crusher (givre de glace)
+  description: Un cristal qui émet du froid, probablement en violant les lois de la thermodynamique.
   components:
   - type: Sprite
     state: ice-shard
@@ -184,8 +184,8 @@
 - type: entity
   id: CrusherUpgradeBladeSharpness
   parent: BaseCrusherUpgradeBlade
-  name: crusher blade upgrade (sharpness)
-  description: A simple grindstone that improves the damage of a crusher.
+  name: amélioration de lame du crusher (tranchant)
+  description: Une simple meule qui améliore les dégâts d'un crusher.
   components:
   - type: Sprite
     state: black-shard
@@ -207,8 +207,8 @@
 - type: entity
   id: BaseCrusherUpgradeHandle
   parent: [BaseItem, BaseSecurityCargoContraband]
-  name: crusher handle upgrade
-  description: A modkit for crusher weapons.
+  name: amélioration de manche du crusher
+  description: Un modkit pour les armes crusher.
   abstract: true
   components:
   - type: Sprite
@@ -225,8 +225,8 @@
 - type: entity
   id: CrusherUpgradeHandleWeights
   parent: BaseCrusherUpgradeHandle
-  name: crusher handle upgrade (weights)
-  description: A set of weighed loads that can be attached to a handle to make a weapon deal knockback to enemies.
+  name: amélioration de manche du crusher (poids)
+  description: Un ensemble de charges lestées qui peuvent être attachées à un manche pour faire projeter les ennemis en arrière.
   components:
   - type: Sprite
     state: handle-weights
@@ -246,8 +246,8 @@
 - type: entity
   id: CrusherUpgradeHandleLight
   parent: BaseCrusherUpgradeHandle
-  name: crusher handle upgrade (lightweight)
-  description: A lightweight handle replacement that allows you to make attacks more frequently.
+  name: amélioration de manche du crusher (léger)
+  description: Un remplacement de manche léger qui permet d'attaquer plus fréquemment.
   components:
   - type: Sprite
     state: handle-lightweight
@@ -263,8 +263,8 @@
 - type: entity
   id: CrusherUpgradeHandleRange
   parent: BaseCrusherUpgradeHandle
-  name: crusher handle upgrade (range)
-  description: A long handle replacement that allows you to make attacks more frequently.
+  name: amélioration de manche du crusher (portée)
+  description: Un remplacement de manche long qui permet d'attaquer plus fréquemment.
   components:
   - type: Sprite
     state: handle-spikes # Why spikes improve range? Cuz they're badass.

@@ -2,7 +2,7 @@
   abstract: true
   parent: MarkerBase
   id: ProximitySpawnerBase
-  name: proximity spawner
+  name: générateur de proximité
   description: Spawner that triggers when there is a player nearby.
   components:
   - type: Physics

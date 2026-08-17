@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: base katana
+  name: katana de base
   parent: BaseSword
   id: LavalandBaseKatana
   abstract: true
@@ -38,8 +38,8 @@
     price: 10000
 
 - type: entity
-  name: cryo katana
-  description: Okay maybe things took a weird route when a snow golem was making this engraved sword.
+  name: katana cryo
+  description: Bon, peut-être que les choses ont pris une route bizarre quand un golem de neige a fabriqué cette épée gravée.
   parent: [ LavalandBaseKatana, BaseSalvageContraband ]
   id: CryoKatana
   categories: [ DoNotMap ]
@@ -76,8 +76,8 @@
     heat: -100000 # Low temperature also slows you down, so the change is lower than on lava katana
 
 - type: entity
-  name: lava katana
-  description: One thousand degree knife, that somehow always keeps intact.
+  name: katana de lave
+  description: Un couteau à mille degrés, qui reste miraculeusement intact.
   parent: [ LavalandBaseKatana, BaseSalvageContraband ]
   id: LavaKatana
   categories: [ DoNotMap ]
@@ -114,8 +114,8 @@
     heat: 150000
 
 - type: entity
-  name: shadow katana
-  description: Legendary sword that emits the darkness itself. Has an ability to pierce through any armor with enough luck and determination.
+  name: katana d'ombre
+  description: Épée légendaire qui émet les ténèbres elles-mêmes. A la capacité de percer n'importe quelle armure avec assez de chance et de détermination.
   parent: BaseSword
   id: ShadowKatana
   categories: [ DoNotMap ]

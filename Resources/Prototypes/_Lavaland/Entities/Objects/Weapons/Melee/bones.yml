@@ -1,8 +1,8 @@
 - type: entity
-  name: bone axe
+  name: hache d'os
   parent: [ BaseItem, BaseMajorContraband ]
   id: BoneAxe
-  description: An axe made of bones. A primitive hunters favorite... probably.
+  description: Une hache faite d'os. L'arme favorite d'un chasseur primitif... probablement.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Melee/bone_axe.rsi
@@ -57,10 +57,10 @@
     node: axe
 
 - type: entity
-  name: bone dagger
+  name: dague d'os
   parent: [ BaseKnife, BaseMajorContraband ]
   id: DaggerBone
-  description: A sharpened bone. The bare minimum in survival.
+  description: Un os affûté. Le strict minimum pour survivre.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Melee/bone_dagger.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: MarkerBase
   id: HierophantClubShapeExpandingBox
-  name: hierophant attack box expanding spawner
-  suffix: Hierophant club
+  name: générateur boîte expansive
+  suffix: Bâton hiérophante
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   parent: MarkerBase
   id: HierophantClubShapeRandomCross
-  name: hierophant attack cross sequence spawner
-  suffix: Hierophant club
+  name: générateur séquence de croix
+  suffix: Bâton hiérophante
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite

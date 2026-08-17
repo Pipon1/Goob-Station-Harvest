@@ -1,8 +1,8 @@
 - type: entity
-  name: seraka cap
+  name: chapeau de seraka
   parent: FoodProduceBase
   id: FoodMealSerakaCap
-  description: Small, deeply flavourful mushrooms originally native to Tizira.
+  description: Petits champignons profondément savoureux, originaires de Tizira.
   components:
   - type: Edible
   - type: FlavorProfile

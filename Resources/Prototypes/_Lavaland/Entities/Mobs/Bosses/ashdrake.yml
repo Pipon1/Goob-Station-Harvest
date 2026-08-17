@@ -1,8 +1,8 @@
 - type: entity
-  name: ash drake
+  name: drake de cendre
   id: LavalandBossAshDrake
   parent: LavalandMobBase
-  description: Guardian of the Necropolis.
+  description: Gardien de la Nécropole.
   components:
   - type: Physics
     bodyType: KinematicController
