@@ -7,9 +7,7 @@
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/Equipment/plant_analyzer.rsi
     layers:
-    - state: icon
-    - state: analyzer
-      shader: unshaded
+    - state: plant_analyzer
   - type: Item
     heldPrefix: analyzer
     storedRotation: -90

@@ -157,7 +157,9 @@ public sealed partial class SeedAnalyzerWindow : FancyWindow
                 ? prototype.LocalizedName
                 : reagent.ReagentId;
             AddLine(ReagentsContainer, Loc.GetString("seed-analyzer-reagent-line", ("name", name),
-                    ("current", reagent.CurrentAmount), ("min", reagent.MinimumAmount), ("max", reagent.MaximumAmount)),
+                    ("current", FormatNumber(reagent.CurrentAmount)),
+                    ("min", FormatNumber(reagent.MinimumAmount)),
+                    ("max", FormatNumber(reagent.MaximumAmount))),
                 GoodColor);
         }
     }
@@ -252,4 +254,6 @@ public sealed partial class SeedAnalyzerWindow : FancyWindow
 
     private static string FormatCycles(float value) =>
         Loc.GetString("seed-analyzer-cycles", ("value", value.ToString("0.##")));
+
+    private static string FormatNumber(float value) => value.ToString("0.##");
 }

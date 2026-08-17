@@ -1,5 +1,4 @@
 using Robust.Client.UserInterface.Controls;
-using Robust.Shared.Maths;
 
 namespace Content.Client._Harvest.Botany;
 
@@ -9,14 +8,6 @@ public static class BotanyAnalyzerUiHelpers
     public static readonly Color Neutral = Color.FromHex("#D8D8D8");
     public static readonly Color Warning = Color.FromHex("#F2C94C");
     public static readonly Color Bad = Color.FromHex("#EB5757");
-
-    public static Color Compare(float current, float baseline, bool higherIsBetter)
-    {
-        if (MathHelper.CloseTo(current, baseline))
-            return Neutral;
-
-        return (current > baseline) == higherIsBetter ? Good : Bad;
-    }
 
     public static void AddRichLine(BoxContainer container, string text, Color color)
     {

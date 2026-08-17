@@ -19,7 +19,9 @@ seed-analyzer-harvest-automatic = Automatic harvest
 seed-analyzer-no-products = This plant produces no harvestable object.
 seed-analyzer-estimated-yield = Estimated total per harvest: { $yield }
 seed-analyzer-no-reagent = No reagent produced.
-seed-analyzer-reagent-line = • { $name }: { $current } u (range { $min }-{ $max } u)
+seed-analyzer-reagent-line =
+    • { $name }: { $current } u per fruit
+      Possible range: { $min }-{ $max } u
 seed-analyzer-gas-line = • { $name }: { $amount } mol
 seed-analyzer-product-line = • { $name }
 seed-analyzer-button-print = Print report
@@ -68,7 +70,9 @@ seed-analyzer-report-weed-tolerance = Weed tolerance: { $value }
 seed-analyzer-report-products-title = [head=2]Harvest products[/head]
 seed-analyzer-report-products = Estimated yield: { $yield }. Possible products: { $products }
 seed-analyzer-report-reagents-title = [head=2]Fruit reagents[/head]
-seed-analyzer-report-reagent = - { $name }: { $current } u at current potency ({ $min }-{ $max } u)
+seed-analyzer-report-reagent =
+    - { $name }: { $current } u per fruit
+      Possible range: { $min }-{ $max } u
 seed-analyzer-report-gases-title = [head=2]Atmospheric exchange per cycle[/head]
 seed-analyzer-report-gas-consumed = - Consumes { $amount } mol { $gas }
 seed-analyzer-report-gas-produced = - Produces { $amount } mol { $gas }

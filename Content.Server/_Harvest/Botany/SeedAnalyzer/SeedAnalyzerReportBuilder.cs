@@ -52,7 +52,9 @@ public sealed class SeedAnalyzerReportBuilder(IPrototypeManager prototypes)
         report.AppendLine(Loc.GetString("seed-analyzer-report-reagents-title"));
         foreach (var reagent in seed.Reagents)
             report.AppendLine(Loc.GetString("seed-analyzer-report-reagent", ("name", GetReagentName(reagent.ReagentId)),
-                ("current", reagent.CurrentAmount), ("min", reagent.MinimumAmount), ("max", reagent.MaximumAmount)));
+                ("current", FormatNumber(reagent.CurrentAmount)),
+                ("min", FormatNumber(reagent.MinimumAmount)),
+                ("max", FormatNumber(reagent.MaximumAmount))));
         if (seed.Reagents.Count == 0)
             report.AppendLine(Loc.GetString("seed-analyzer-none"));
         report.AppendLine();
