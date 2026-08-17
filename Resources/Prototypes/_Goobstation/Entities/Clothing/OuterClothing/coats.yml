@@ -79,7 +79,7 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterStorageBase, BaseWardenContraband]
   id: ClothingOuterCoatWardenBlue
-  name: warden's blue jacket
+  name: veste bleue du gardien
   description: Une veste robuste et utilitaire pour ceux qui connaissent bien le brig.
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDPurple
-  name: research director's experimental lab coat
+  name: blouse expérimentale du directeur de recherche
   description: Tissée avec une technologie expérimentale... cette blouse ne semble pas plus protectrice que l'habituelle. Au moins elle est belle.
   components:
   - type: Sprite
@@ -114,13 +114,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDPurpleOpened
-  name: research director's experimental lab coat
+  name: blouse expérimentale du directeur de recherche
 
 #hop longcoat
 - type: entity
   parent: [ClothingOuterStorageBase, BaseCommandContraband]
   id: ClothingOuterCoatHoPLong
-  name: hop's longcoat
+  name: long manteau du chef du personnel
   description: Un élégant long manteau pour le chef du personnel.
   components:
   - type: Sprite

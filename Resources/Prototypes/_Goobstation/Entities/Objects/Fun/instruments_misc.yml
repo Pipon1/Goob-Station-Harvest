@@ -39,7 +39,7 @@
 - type: entity
   parent: BaseCassette
   id: CrewCassette
-  name: cassette player
+  name: lecteur cassette
   description: Un vieux lecteur de cassettes ordinaire pour profiter de vos morceaux en déplacement.
   components:
     - type: Sprite

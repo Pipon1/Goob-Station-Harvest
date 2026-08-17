@@ -3,7 +3,7 @@
 - type: entity
   id: BaseFastDrawImplanter
   parent: BaseImplanter
-  name: fast draw implanter
+  name: implanteur rapide
   description: Une seringue avec des outils pour un retrait rapide d'implant. Elle a de petites étoiles dorées sur son corps.
   abstract: true
   components:
@@ -51,8 +51,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterCentcomm
   parent: [ BaseImplantOnlyImplanter, BaseCentcommContraband ]
-  name: centcomm implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants. The insertion needle is coated with an analgesic.
+  name: implanteur CentComm
+  description: Une seringue jetable compacte conçue exclusivement pour l'injection d'implants sous-dermiques. L'aiguille d'insertion est enduite d'analgésique.
   abstract: true
   components:
   - type: Item
@@ -247,7 +247,7 @@
   abstract: true
   id: BaseAntagImplantOnlyImplanter
   parent: BaseImplantOnlyImplanterCentcomm
-  name: antag implanter
+  name: implanteur d'antagoniste
 
 - type: entity
   id: AntagImplanterChangeling

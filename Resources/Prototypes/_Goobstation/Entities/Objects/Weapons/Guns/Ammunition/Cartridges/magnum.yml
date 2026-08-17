@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #- type: entity
 #  id: CartridgeMagnumEnsnaring
-#  name: cartridge (.45 magnum ensnaring)
+#  name: Cartouche (.45 magnum filet)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
@@ -16,7 +16,7 @@
 #
 #- type: entity
 #  id: CartridgeMagnumEMP
-#  name: cartridge (.45 magnum EMP)
+#  name: Cartouche (.45 magnum EMP)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
@@ -31,7 +31,7 @@
 #
 #- type: entity
 #  id: CartridgeMagnumFlash
-#  name: cartridge (.45 magnum flash)
+#  name: Cartouche (.45 magnum flash)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
@@ -46,7 +46,7 @@
 
 - type: entity
   id: CartridgeMagnumNeurotoxin
-  name: shell (.45 subsonic neurotoxin)
+  name: cartouche (.45 subsonique neurotoxine)
   parent: BaseCartridgeMagnum
   components:
   - type: Sprite

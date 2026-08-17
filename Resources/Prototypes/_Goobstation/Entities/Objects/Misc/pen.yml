@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: futuristic pen
+  name: stylo futuriste
   parent: PenCentcom
   id: PenFuture
   description: Certaines théories affirment que l'apocalypse de 3024 s'est produite à cause des stylos.

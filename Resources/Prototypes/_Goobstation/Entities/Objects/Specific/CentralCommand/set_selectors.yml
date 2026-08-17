@@ -41,7 +41,7 @@
 - type: entity
   id: ERTSecurityUndeterminedWeapon
   name: pack d'armement de réponse d'urgence
-  description: A small remote utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  description: Une petite télécommande utilisant la technologie bluespace pour déposer un équipement directement sur vous. Choisissez judicieusement.
   parent: [ BaseItem, BaseSetSelector, BaseCentcommContraband ]
   components:
   - type: Sprite

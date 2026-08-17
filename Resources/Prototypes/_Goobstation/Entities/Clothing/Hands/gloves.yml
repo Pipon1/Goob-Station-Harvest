@@ -275,7 +275,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesConquest
-  name: viltrumite prosthetic
+  name: prothèse viltrumite
   description: Prépare-toi à mon arrivée, vermisseau.
   components:
   - type: Sprite
@@ -427,7 +427,7 @@
 - type: entity
   parent: [BaseSyndicateContraband, ClothingHandsGlovesCombat]
   id: ClothingHandsGlovesGuerrilla
-  name: guerrilla gloves
+  name: gants de guérilla
   description: Des gants de combat syndicaux de première qualité, excellents pour les saisies et l'absorption des chocs électriques. Semblent alimentés par des télécrystaux.
   components:
   - type: Sprite

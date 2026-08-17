@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitResonant
-  name: resonant jumpsuit
+  name: combinaison résonnante
   description: Ne jouons pas trop brutalement. Ni vous ni moi ne pouvons encore l'atteindre…
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasenRepresentative
-  name: nanotrasen representative suit
+  name: costume de représentant Nanotrasen
   description: Un costume noir porté par les officiels.
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldShirt
-  name: blueshield officer blue shirt
+  name: chemise bleue officier blueshield
   description: Un uniforme de sécurité officiel. Assez sûr et assez chargé.
   components:
   - type: Sprite
@@ -144,7 +144,7 @@
 - type: entity # todo <mailfix>
   parent: ClothingUniformBase
   id: ClothingUniformMailCarrier
-  name: mail carrier's uniform
+  name: uniforme de facteur
   description: Ennemi des chiens partout.
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformHecu
-  name: HECU uniform
+  name: uniforme HECU
   description: Traque le Freeman.
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitRDSummer
-  name: research director's summer shirt
+  name: chemise d'été du directeur de recherche
   description: La tenue d'été sur mesure du directeur de recherche, pour quand ces anomalies de feu vous font transpirer.
   components:
   - type: Sprite
@@ -339,7 +339,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCaptainSummer
-  name: captain's summer shirt
+  name: chemise d'été du capitaine
   description: La tenue d'été sur mesure du capitaine, pour quand vous avez été dans le vert un moment.
   components:
   - type: Sprite
@@ -415,7 +415,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOverallsCargo
-  name: cargo tech's overalls
+  name: salopettes de technicien cargo
   description: C'est un solide ensemble de salopettes. Elles sont un peu poussiéreuses.
   components:
   - type: Sprite
@@ -426,7 +426,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOverallsSalvageSpecialist
-  name: salvage specialist's overalls
+  name: salopettes de récupérateur
   description: C'est un solide ensemble de salopettes. Elles sont très sales.
   components:
   - type: Sprite
@@ -437,7 +437,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOverallsShaftMiner
-  name: shaft miner's overalls
+  name: salopettes de mineur
   description: C'est un solide ensemble de salopettes, qui a l'air un peu brûlé.
   components:
   - type: Sprite

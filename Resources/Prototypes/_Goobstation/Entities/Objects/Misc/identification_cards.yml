@@ -3,7 +3,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChronoIDCard
-  name: futuristic ID card
+  name: carte d'identité futuriste
   description: La carte qui à l'origine donnait accès à tout dans cet univers.
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: SalvageIDCard
   id: HelldiverIDCard
-  name: salvage diver ID card
+  name: carte d'identité de plongeur de récupération
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/id_cards.rsi
@@ -45,7 +45,7 @@
 - type: entity
   parent: IDCardStandard
   id: HecuIDCard
-  name: HECU ID card
+  name: carte d'identité HECU
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueshieldIDCard
-  name: blueshield officer ID card
+  name: carte d'identité d'agent blueshield
   components:
   - type: Sprite
     layers:
@@ -84,7 +84,7 @@
 - type: entity
   parent: IDCardStandard
   id: NanotrasenRepresentativeIDCard
-  name: nanotrasen representative ID card
+  name: carte d'identité de représentant Nanotrasen
   components:
   - type: Sprite
     layers:
@@ -102,7 +102,7 @@
 - type: entity
   parent: IDCardStandard
   id: NanotrasenCareerTrainerIDCard
-  name: nanotrasen career trainer ID card
+  name: carte d'identité de formateur de carrière Nanotrasen
   components:
   - type: Sprite
     layers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: IDCardStandard
   id: ExecutiveIDCard
-  name: executive access card
-  description: Nanotrasen employees are legally obligated to listen to someone with one of these. It's also capable of overriding access locks on most devices.
+  name: carte d'accès exécutif
+  description: Les employés de Nanotrasen sont légalement tenus d'écouter quelqu'un qui possède cette carte. Elle est aussi capable de forcer les verrous d'accès sur la plupart des appareils.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/executive.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: ExecutiveIDCard
   id: ExecutiveIDCardChameleon
-  name: executive access card
+  name: carte d'accès exécutif
   description: Mêmes caractéristiques que la version originale, mais peut changer d'apparence.
   components:
   - type: AgentIDCard
@@ -176,7 +176,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCardNavyCaptain
-  name: Navy Captain's ID card
+  name: carte d'identité du capitaine de la Marine
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: CentcomIDCardNavyCaptain
   id: CentcomIDCardNavyOfficer
-  name: Navy Officer's ID card
+  name: carte d'identité d'officier de la Marine
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CentcomIDCardNavyCaptain
   id: CentcomIDCardSpecialOperationsOfficer
-  name: Special Operations Officer's ID card
+  name: carte d'identité d'officier des opérations spéciales
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -218,7 +218,7 @@
 - type: entity
   parent: CentcomIDCardNavyCaptain
   id: CentcomIDCardInspector
-  name: inspector's ID card
+  name: carte d'identité d'inspecteur
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -232,7 +232,7 @@
 - type: entity
   parent: CentcomIDCardNavyCaptain
   id: CentcomIDCardDiplomat
-  name: Diplomat's ID card
+  name: carte d'identité de diplomate
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -249,7 +249,7 @@
 - type: entity
   parent: IDCardStandard
   id: GmanIDCard
-  name: strange ID card
+  name: carte d'identité étrange
   description: La carte qui à l'origine donnait accès à tout dans cet univers.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: SyndicateIDCard
   id: HighCommandIDCard
-  name: high command ID card
+  name: carte d'identité du haut commandement
   description: Une carte d'identification syndicale particulièrement extravagante. Celle-ci a un briseur d'accès intégré pour ouvrir presque n'importe quelle porte.
   components:
   - type: Sprite
@@ -284,7 +284,7 @@
 - type: entity
   parent: IDCardStandard
   id: SecurityClownIDCard
-  name: security clown ID card
+  name: carte d'identité de clown de sécurité
   components:
   - type: Sprite
     layers:
@@ -296,7 +296,7 @@
 - type: entity
   parent: IDCardStandard
   id: CommandMaidIDCard
-  name: command maid ID card
+  name: carte d'identité de command-maid
   components:
   - type: Sprite
     layers:
@@ -308,7 +308,7 @@
 - type: entity
   parent: IDCardStandard
   id: PartyMakerIDCard
-  name: party maker ID card
+  name: carte d'identité d'animateur
   components:
   - type: Sprite
     layers:
@@ -322,7 +322,7 @@
 - type: entity
   parent: IDCardStandard
   id: RoboticistIDCard
-  name: roboticist ID card
+  name: carte d'identité de roboticien
   components:
   - type: Sprite
     layers:
@@ -334,7 +334,7 @@
 - type: entity
   parent: IDCardStandard
   id: RadioHostIDCard
-  name: radio host ID card
+  name: carte d'identité d'animateur radio
   components:
   - type: Sprite
     layers:
@@ -346,7 +346,7 @@
 - type: entity
   parent: IDCardStandard
   id: VirologistIDCard
-  name: virology ID card
+  name: carte d'identité de virologue
   components:
   - type: Sprite
     layers:
@@ -359,7 +359,7 @@
 - type: entity
   parent: CentcomIDCardNavyCaptain
   id: OuterCommandIDCard
-  name: Outer Command ID card
+  name: carte d'identité du Commandement Externe
   components:
     - type: Sprite
       sprite: Objects/Misc/id_cards.rsi

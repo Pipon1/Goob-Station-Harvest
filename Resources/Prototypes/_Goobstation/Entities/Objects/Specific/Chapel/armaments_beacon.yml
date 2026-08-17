@@ -1,5 +1,5 @@
 - type: entity
-  name: armaments beacon
+  name: balise d'armement
   description: Invoquez un ensemble d'armement standard de chapelain, tel que dicté par l'I.C.R.A.
   parent: BaseItem
   id: ArmamentsBeacon

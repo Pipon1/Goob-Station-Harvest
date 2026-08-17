@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: regenerating pie cannon
+  name: canon à tarte auto-régénérant
   parent: BaseStorageItem
   id: LauncherCreamPieRegenerating
   description: Un canon à tarte auto-régénérant.
-  suffix: Regenerating
+  suffix: Régénérant
   components:
   - type: PacifismAllowedGun
   - type: Sprite
@@ -41,7 +41,7 @@
 # Lollypop stuff
 
 - type: entity
-  name: tricordrazine lollypop dispenser
+  name: distributeur de sucettes tricordrazine
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingTricordazine
   description: Utilise un fabricateur intégré pour générer des sucettes à la tricordrazine à partir d'énergie.
@@ -58,7 +58,7 @@
     count: 3
 
 - type: entity
-  name: omnizine lollypop dispenser
+  name: distributeur de sucettes omnizine
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingOmnizine
   description: Utilise un fabricateur intégré pour générer des sucettes à l'omnizine à partir d'énergie.
@@ -75,7 +75,7 @@
     count: 2
 
 - type: entity
-  name: weh! lollypop dispenser
+  name: distributeur de sucettes Weh!
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingWeh
   description: Utilise un fabricateur intégré pour générer des sucettes Weh! à partir d'énergie. Weh!
@@ -92,7 +92,7 @@
     count: 3
 
 - type: entity
-  name: mystery lollypop dispenser
+  name: distributeur de sucettes mystère
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingMystery
   description: Utilise un fabricateur intégré pour générer des sucettes aléatoires à partir d'énergie.
@@ -109,7 +109,7 @@
     count: 3
 
 - type: entity
-  name: lollypop dispenser
+  name: distributeur de sucettes
   parent: BaseStorageItem
   id: LauncherLollypopRegenerating
   description: Utilise un fabricateur intégré pour générer des sucettes à partir d'énergie.
@@ -149,7 +149,7 @@
 - type: entity
   parent: LauncherCreamPieRegenerating
   id: SantaCannonRegenerating
-  name: Santa's merry pneumatic cannon
+  name: canon pneumatique joyeux du Père Noël
   suffix: NE PAS PLACER
   description: La seule chose dont vous aurez besoin pour répandre la joie de Noël !
   components:

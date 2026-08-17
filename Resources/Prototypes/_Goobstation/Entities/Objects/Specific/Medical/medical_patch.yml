@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseHealingItem
   id: BaseMedicalPatch
-  name: base patch
+  name: patch de base
   description: Un patch pour appliquer des médicaments aux patients dans le temps.
   abstract: true
   components:
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseHealingItem
   id: UsedMedicalPatch
-  name: used patch
-  description: ...ew.
+  name: patch usagé
+  description: ...eurk.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Medical/medical_patch.rsi
@@ -89,7 +89,7 @@
 - type: entity
   parent: UsedMedicalPatch
   id: UsedMedicalPatchMakeshift
-  name: used patch
+  name: patch usagé
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Medical/medical_patch.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: MedicalPatchBasic
   id: MedicalPatchRapid
-  name: rapid patch
-  description: A patch used for more rapid application of medicine. It has race cars drawn on it.
+  name: patch rapide
+  description: Un patch utilisé pour une application de médicaments plus rapide. Il y a des voitures de course dessinées dessus.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Medical/medical_patch.rsi
@@ -116,7 +116,7 @@
 - type: entity
   parent: MedicalPatchBasic
   id: MedicalPatchTherapeutic
-  name: therapeutic patch
+  name: patch thérapeutique
   description: Un patch qui applique une dose sur une période plus longue que les autres patchs.
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
 - type: entity
   parent: MedicalPatchBasic
   id: MedicalPatchLarge
-  name: large patch
+  name: grand patch
   description: Un patch plus grand et à plus haute capacité, utilisé pour les vraiment grosses blessures. Non recommandé avec des produits chimiques facilement surdosés.
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseMedicalPatch
   id: MedicalPatchMakeshift
-  name: makeshift patch
+  name: patch bricolé
   description: Ça n'a pas l'air hygiénique. Espérons que ça fasse le travail.
   components:
   - type: Sprite

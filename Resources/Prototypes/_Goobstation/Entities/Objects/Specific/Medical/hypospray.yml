@@ -41,9 +41,9 @@
           - AutoinjectorCartridge
 
 - type: entity
-  name: security cartridge autoinjector
+  name: auto-injecteur à cartouche de sécurité
   parent: [ BaseCartridgeAutoinjector , BaseSecurityContraband ]
-  description: Used for rapid administration of medicine. Uses cartridges printable at the security techfab.
+  description: Utilisé pour l'administration rapide de médicaments. Utilise des cartouches imprimables au techfab de sécurité.
   id: SecHypo
   components:
   - type: Sprite

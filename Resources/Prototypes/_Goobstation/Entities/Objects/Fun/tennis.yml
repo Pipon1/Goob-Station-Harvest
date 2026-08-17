@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: tennis racket
+  name: raquette de tennis
   parent: BaseItem
   id: BaseTennisRacket
   description: Une raquette de tennis robuste.

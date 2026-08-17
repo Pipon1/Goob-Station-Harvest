@@ -24,7 +24,7 @@
 - type: entity
   id: AdvMimeryVol1
   parent: [BaseSyndicateContraband, BaseSpellbook]
-  name: Guide to Advanced Mimery Vol 1
+  name: Guide de mime avancé Vol 1
   description: Les pages ne font aucun son quand on les tourne.
   components:
   - type: Sprite
@@ -39,8 +39,8 @@
 - type: entity
   id: AdvMimeryVol2
   parent: [BaseSyndicateContraband, BaseSpellbook]
-  name: Guide to Advanced Mimery Vol 2
-  description: There aren't any words written...
+  name: Guide de mime avancé Vol 2
+  description: Il n'y a aucun mot d'écrit...
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/bookmime.rsi
@@ -54,7 +54,7 @@
 - type: entity
   id: BoxAdvMimery
   parent: [BaseSyndicateContraband, BoxCardboard]
-  name: Guide to Advanced Mimery series box
+  name: Boîte de la série Guide de mime avancé
   components:
   - type: StorageFill
     contents:

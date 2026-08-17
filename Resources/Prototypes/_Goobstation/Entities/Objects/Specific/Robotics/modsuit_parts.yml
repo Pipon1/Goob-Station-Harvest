@@ -3,7 +3,7 @@
 - type: entity
   id: PartModsuit
   parent: BaseItem
-  name: MOD part
+  name: pièce MOD
   description: Une pièce utilisée dans la construction MOD.
   abstract: true
   components:
@@ -22,7 +22,7 @@
 - type: entity
   id: ModsuitChestplate
   parent: PartModsuit
-  name: MOD chestplate
+  name: plastron MOD
   components:
   - type: Sprite
     state: chestplate
@@ -39,7 +39,7 @@
 - type: entity
   id: ModsuitBoots
   parent: PartModsuit
-  name: MOD boots
+  name: bottes MOD
   components:
   - type: Sprite
     state: boots
@@ -56,7 +56,7 @@
 - type: entity
   id: ModsuitHelmet
   parent: PartModsuit
-  name: MOD helmet
+  name: casque MOD
   components:
   - type: Sprite
     state: helmet
@@ -73,7 +73,7 @@
 - type: entity
   id: ModsuitGauntlets
   parent: PartModsuit
-  name: MOD gauntlets
+  name: gantelets MOD
   components:
   - type: Sprite
     state: gauntlets
@@ -90,7 +90,7 @@
 - type: entity
   id: ModsuitShell
   parent: PartModsuit
-  name: MOD shell
+  name: carapace MOD
   components:
   - type: Appearance
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   id: ModsuitPlatingExternal
   parent: PartModsuit
-  name: MOD standard external plating
+  name: placage externe standard MOD
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   id: ModsuitPlatingParamedic
   parent: PartModsuit
-  name: MOD standard paramedic 'sanitater' plating
+  name: placage 'sanitäter' standard urgentiste MOD
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -167,7 +167,7 @@
 - type: entity
   id: ModsuitPlatingEngineer
   parent: PartModsuit
-  name: MOD standard engineer 'sapper' plating
+  name: placage 'sapper' standard ingénieur MOD
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   id: ModsuitPlatingSecurity
   parent: PartModsuit
-  name: MOD standard security 'soldat' plating
+  name: blindage standard MOD de sécurité 'soldat'
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   id: ModsuitPlatingCaptain
   parent: PartModsuit
-  name: MOD standard captain's magnate plating
+  name: blindage 'magnat' standard capitaine MOD
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -247,7 +247,7 @@
 - type: entity
   id: ModsuitPlatingRD
   parent: PartModsuit
-  name: MOD standard RD's 'minerva' plating
+  name: placage 'minerve' standard DR MOD
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   id: ModsuitPlatingAtmostech
   parent: PartModsuit
-  name: MOD standard atmospheric technician's 'aeolus' plating
+  name: blindage standard MOD de technicien atmosphérique 'éole'
   description: Une pièce utilisée dans la construction MOD.
   components:
   - type: Sprite
@@ -287,8 +287,8 @@
 - type: entity
   id: ModsuitCoreStandard
   parent: PartModsuit
-  name: MOD standard core
-  description: Growing in the most lush, fertile areas of the planet Sprout, there is a crystal known as the Heartbloom. These rare, organic piezoelectric crystals are of incredible cultural significance to the artist castes of the Ethereals, owing to their appearance; which is exactly similar to that of an Ethereal's heart. Which one you have in your suit is unclear, but either way, it's been repurposed to be an internal power source for a Modular Outerwear Device.
+  name: noyau standard MOD
+  description: Poussant dans les zones les plus luxuriantes et fertiles de la planète Sprout, il existe un cristal connu sous le nom de Cœur-Éclat. Ces cristaux piézoélectriques organiques rares ont une importance culturelle incroyable pour les castes d'artistes des Éthérés, en raison de leur apparence ; qui est exactement similaire à celle du cœur d'un Éthéré. On ne sait pas lequel vous avez dans votre combinaison, mais dans tous les cas, il a été réutilisé pour être une source d'énergie interne d'un Dispositif Modulaire Extérieur.
   components:
   - type: Sprite
     state: mod-core-standard

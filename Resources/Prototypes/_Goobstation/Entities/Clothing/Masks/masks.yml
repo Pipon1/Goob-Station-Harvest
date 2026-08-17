@@ -65,7 +65,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasHalf
-  name: half gas mask
+  name: demi-masque à gaz
   description: Un masque à gaz... à moitié seulement.
   components:
   - type: Sprite
@@ -92,8 +92,8 @@
 - type: entity # TODO: Whenever vampirism is ported, make this block it.
   parent: ClothingMaskBase
   id: ClothingMaskMuzzleSecure
-  name: secure muzzle
-  description: Can prevent vampires from biting people, or prevent annoying people from talking.
+  name: muselière sécurisée
+  description: Peut empêcher les vampires de mordre les gens, ou empêcher les gens agaçants de parler.
   components:
   - type: Item
     size: Tiny
@@ -113,8 +113,8 @@
 - type: entity # TODO: Whenever vampirism is ported, make this block it, and shock.
   parent: ClothingMaskMuzzleSecure
   id: ClothingMaskMuzzleShock
-  name: shock muzzle
-  description: A muzzle designed to prevent biting. This one is fitted with a behaviour correction system.
+  name: muselière électrique
+  description: Une muserolle conçue pour empêcher les morsures. Celle-ci est équipée d'un système de correction comportementale.
   components:
   - type: ShockOnTrigger
   - type: TriggerOnSpeak
@@ -131,7 +131,7 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingBSOMaskGasSwat
-  name: Blueshield SWAT gas mask
+  name: masque à gaz SWAT blueshield
   description: Un masque à gaz standard émis aux officiers du Bouclier Bleu.
   components:
   - type: Sprite
@@ -165,7 +165,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGasThunderdome
-  name: Thunderdome gas mask
+  name: masque à gaz du Thunderdome
   suffix: NE PAS PLACER
   description: ÊTES-VOUS PRÊTS À EN DÉCOUDRE ?
   components:

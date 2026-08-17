@@ -6,8 +6,8 @@
 
 - type: entity
   id: HeadOfSecurityWeaponUndetermined
-  name: X-00 Series Box
-  description: A small remote utilizing bluespace technology to drop in a weapon from the X-00 series to you. Choose wisely.
+  name: boîte série X-00
+  description: Une petite télécommande utilisant la technologie bluespace pour vous livrer une arme de la série X-00. Choisissez judicieusement.
   parent: [ BaseItem, BaseSetSelector, BaseCommandContraband ]
   components:
   - type: Sprite

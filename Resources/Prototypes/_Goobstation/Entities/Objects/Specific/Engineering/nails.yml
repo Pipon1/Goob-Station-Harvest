@@ -102,7 +102,7 @@
 - type: entity
   parent: BaseItem
   id: MagazineBoxNail
-  name: nail box
+  name: boîte de clous
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -121,7 +121,7 @@
 - type: entity
   parent: [ MagazineBoxNail, BaseSyndicateContraband ]
   id: MagazineBoxNailArmorPiercing
-  name: nail box (armor-piercing)
+  name: boîte de clous (perforants)
   components:
   - type: BallisticAmmoProvider
     proto: NailArmorPiercing

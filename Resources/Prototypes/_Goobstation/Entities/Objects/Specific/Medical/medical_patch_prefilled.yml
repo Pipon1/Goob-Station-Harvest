@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseMedicalPatch
   id: MedicalPatchPrefilledBase
-  name: prefilled medical patch
+  name: patch médical prérempli
   description: Patch médical rempli de produits chimiques.
   abstract: true
   components:
@@ -28,7 +28,7 @@
 - type: entity
   parent: MedicalPatchPrefilledBase
   id: MedicalPatchPrefilledBicaridine
-  name: brute patch
+  name: patch contusions
   suffix: Bicaridine
   components:
   - type: Label
@@ -44,7 +44,7 @@
 - type: entity
   parent: MedicalPatchPrefilledBase
   id: MedicalPatchPrefilledDermaline
-  name: burn patch
+  name: patch brûlures
   suffix: Dermaline
   components:
   - type: Label

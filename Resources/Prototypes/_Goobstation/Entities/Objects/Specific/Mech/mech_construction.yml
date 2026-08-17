@@ -14,7 +14,7 @@
 - type: entity
   parent: BaseRipleyMKIIPart
   id: RipleyMKIIHarness
-  name: ripley MK-II harness
+  name: harnais ripley MK-II
   description: Le cœur du Ripley MK-II.
   components:
   - type: Appearance
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseClarkePart
   id: ClarkeHarness
-  name: clarke harness
+  name: harnais clarke
   description: Le cœur du Clarke.
   components:
   - type: Appearance
@@ -134,7 +134,7 @@
 - type: entity
   parent: BaseClarkePartItem
   id: ClarkeHead
-  name: clarke head
+  name: tête clarke
   description: La tête du Clarke. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 - type: entity
   parent: BaseClarkePartItem
   id: ClarkeRArm
-  name: clarke right arm
+  name: bras droit clarke
   description: Le bras droit du Clarke. Il appartient au châssis du mech.
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 - type: entity
   parent: BaseClarkePartItem
   id: ClarkeLArm
-  name: clarke left arm
+  name: bras gauche clarke
   description: Le bras gauche du Clarke. Il appartient au châssis du mech.
   components:
   - type: Sprite
@@ -170,7 +170,7 @@
 - type: entity
   parent: BaseClarkePartItem
   id: ClarkeTreads
-  name: clarke treads
+  name: chenilles clarke
   description: Les chenilles du Clarke. Elles appartiennent au châssis du mech.
   components:
   - type: Sprite
@@ -202,7 +202,7 @@
 - type: entity
   parent: BaseDurandPart
   id: DurandHarness
-  name: durand harness
+  name: harnais durand
   description: Le cœur du Durand.
   components:
   - type: Appearance
@@ -255,7 +255,7 @@
 - type: entity
   parent: BaseDurandPartItem
   id: DurandHead
-  name: durand head
+  name: tête durand
   description: La tête du Durand. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: BaseDurandPartItem
   id: DurandLArm
-  name: durand left arm
+  name: bras gauche durand
   description: Le bras gauche du Durand. Il appartient au châssis du mech.
   components:
   - type: Sprite
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseDurandPartItem
   id: DurandLLeg
-  name: durand left leg
+  name: jambe gauche durand
   description: La jambe gauche du Durand. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -291,7 +291,7 @@
 - type: entity
   parent: BaseDurandPartItem
   id: DurandRLeg
-  name: durand right leg
+  name: jambe droite durand
   description: La jambe droite du Durand. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -303,7 +303,7 @@
 - type: entity
   parent: BaseDurandPartItem
   id: DurandRArm
-  name: durand right arm
+  name: bras droit durand
   description: Le bras droit du Durand. Il appartient au châssis du mech.
   components:
   - type: Sprite
@@ -335,7 +335,7 @@
 - type: entity
   parent: BaseGygaxPart
   id: GygaxHarness
-  name: gygax harness
+  name: harnais gygax
   description: Le cœur du Gygax.
   components:
   - type: Appearance
@@ -384,7 +384,7 @@
 - type: entity
   parent: BaseGygaxPartItem
   id: GygaxHead
-  name: gygax head
+  name: tête gygax
   description: La tête du Gygax. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -396,7 +396,7 @@
 - type: entity
   parent: BaseGygaxPartItem
   id: GygaxLArm
-  name: gygax left arm
+  name: bras gauche gygax
   description: Le bras gauche du Gygax. Il appartient au châssis du mech.
   components:
   - type: Sprite
@@ -408,7 +408,7 @@
 - type: entity
   parent: BaseGygaxPartItem
   id: GygaxLLeg
-  name: gygax left leg
+  name: jambe gauche gygax
   description: La jambe gauche du Gygax. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -420,7 +420,7 @@
 - type: entity
   parent: BaseGygaxPartItem
   id: GygaxRLeg
-  name: gygax right leg
+  name: jambe droite gygax
   description: La jambe droite du Gygax. Elle appartient au châssis du mech.
   components:
   - type: Sprite
@@ -432,7 +432,7 @@
 - type: entity
   parent: BaseGygaxPartItem
   id: GygaxRArm
-  name: gygax right arm
+  name: bras droit gygax
   description: Le bras droit du Gygax. Il appartient au châssis du mech.
   components:
   - type: Sprite

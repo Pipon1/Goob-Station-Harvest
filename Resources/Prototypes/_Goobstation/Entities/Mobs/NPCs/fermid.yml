@@ -5,7 +5,7 @@
   id: MobFermidBase
   parent: [ SimpleSpaceMobBase, MobCombat ]
   abstract: true
-  description: Extremely hostile asteroid-dwelling bugs. Best to avoid them wherever possible.
+  description: Insectes extrêmement hostiles habitant les astéroïdes. Mieux vaut les éviter où que ce soit.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Body # Shitmed Change
@@ -168,10 +168,10 @@
     factor: 1.5 # times more dangerous than a crew-member
 
 - type: entity
-  name: fermid queen
+  name: reine fermid
   id: MobFermidQueen
   parent: MobFermidBase
-  description: Did anyone bring insect repellent?
+  description: Quelqu'un a-t-il apporté de l'insectifuge ?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -205,10 +205,10 @@
 
 # Waiting on mob growth component from xenobio. Also needs sprites for moving north and south.
 #- type: entity
-#  name: fermid larva
+#  name: larve fermid
 #  id: MobFermidLarva
 #  parent: MobFermidBase
-#  description: Don't be fooled by its size. It will eat you all the same.
+#  description: Ne vous laissez pas tromper par sa taille. Elle vous mangera tout de même.
 #  components:
 #  - type: Sprite
 #    drawdepth: Mobs

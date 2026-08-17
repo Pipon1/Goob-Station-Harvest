@@ -59,10 +59,10 @@
 
 # ES-7 Multilens Sniper Rifle
 - type: entity
-  name:  ES-7 Multilens
+  name: ES-7 Multilentille
   parent: [ BaseWeaponCustomCell, BaseGunWieldable, BaseSecurityContraband ]
   id: WeaponLaserCellSniper
-  description: A burst-fire laser sniper rifle that retains its power across extreme distances. Fitted with a standard magnifying scope. Takes sniper power cells.
+  description: Un fusil sniper laser à tir en rafale qui conserve sa puissance sur de très longues distances. Équipé d'une lunette de visée standard. Accepte des cellules de puissance sniper.
   components:
   - type: Item
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/cell_sniper.rsi

@@ -330,7 +330,7 @@
       path: /Audio/_Goobstation/RadioStation/music/BurnTheWorldWaltz.ogg
 
 - type: entity
-  name: "vinyl disk: feral angel waltz"
+  name: "disque vinyle : valse de l'ange farouche"
   id: VinylDiskFeralAngel
   parent: BaseVinylDisk
   components:
@@ -707,7 +707,7 @@
     state: skull-vinyl-sleeve
 
 - type: entity
-  name: fisherman vinyl sleeve
+  name: pochette de vinyle pêcheur
   id: VinylSleeveFisherman
   parent: BaseVinylSleeve
   components:
@@ -715,7 +715,7 @@
     state: fisherman-vinyl-sleeve
 
 - type: entity
-  name: Heisenbee vinyl sleeve
+  name: pochette de vinyle Heisenbee
   description: La mascotte célèbre de Goonstation revient, en carton.
   id: VinylSleeveHeisenbee
   parent: BaseVinylSleeve
@@ -724,7 +724,7 @@
     state: heisenbee-vinyl-sleeve
 
 - type: entity
-  name: space station 13 vinyl sleeve
+  name: pochette de vinyle Station Spatiale 13
   description: La fameuse station spatiale, le malchanceux 13.
   id: VinylSleeveStation13
   parent: BaseVinylSleeve
@@ -733,7 +733,7 @@
     state: station13-vinyl-sleeve
 
 - type: entity
-  name: space station 14 vinyl sleeve
+  name: pochette de vinyle Station Spatiale 14
   description: La fameuse station spatiale, l'heureux 14.
   id: VinylSleeveStation14
   parent: BaseVinylSleeve
@@ -742,7 +742,7 @@
     state: station14-vinyl-sleeve
 
 - type: entity
-  name: reactor vinyl sleeve
+  name: pochette de vinyle réacteur
   id: VinylSleeveReactor
   parent: BaseVinylSleeve
   components:
@@ -750,7 +750,7 @@
     state: reactor-vinyl-sleeve
 
 - type: entity
-  name: pda vinyl sleeve
+  name: pochette de vinyle PDA
   id: VinylSleevePda
   parent: BaseVinylSleeve
   components:
@@ -758,7 +758,7 @@
     state: pda-vinyl-sleeve
 
 - type: entity
-  name: nuke disk vinyl sleeve
+  name: pochette de vinyle nuke disk
   description: Bien que ça y ressemble, ça ne fonctionne pas réellement comme un disque nucléaire.
   id: VinylSleeveNukeDisk
   parent: BaseVinylSleeve
@@ -767,7 +767,7 @@
     state: nukedisk-vinyl-sleeve
 
 - type: entity
-  name: blocky craft vinyl sleeve
+  name: pochette de vinyle blocky craft
   description: La bande-son du jeu vidéo à succès de 2457 blocky craft arrive sur vinyle !
   id: VinylSleeveBlockyCraft
   parent: BaseVinylSleeve
@@ -776,7 +776,7 @@
     state: blockycraft-vinyl-sleeve
 
 - type: entity
-  name: eye vinyl sleeve
+  name: pochette de vinyle œil
   id: VinylSleeveEye
   parent: BaseVinylSleeve
   components:
@@ -784,7 +784,7 @@
     state: eye-vinyl-sleeve
 
 - type: entity
-  name: th vinyl sleeve
+  name: pochette de vinyle th
   description: D'une façon ou d'une autre, ce groupe indé a décidé que s'appeler "th" était une bonne idée.
   id: VinylSleeveTh
   parent: BaseVinylSleeve
@@ -793,7 +793,7 @@
     state: th-vinyl-sleeve
 
 - type: entity
-  name: clown vinyl sleeve
+  name: pochette de vinyle clown
   description: Le clown gagne toujours.
   id: VinylSleeveClown
   parent: BaseVinylSleeve
@@ -802,7 +802,7 @@
     state: clown-vinyl-sleeve
 
 - type: entity
-  name: New Nano York vinyl sleeve
+  name: pochette de vinyle New Nano York
   description: La pochette représente New Nano York après la prise de contrôle corporative de 2333.
   id: VinylSleeveNanoYork
   parent: BaseVinylSleeve
@@ -811,7 +811,7 @@
     state: newnanoyork-vinyl-sleeve
 
 - type: entity
-  name: JD tider vinyl sleeve
+  name: pochette de vinyle DJ Tider
   description: DJ tider une sensation galactique, sa tournée galactique liste Sol et Alpha Centauri comme étapes.
   id: VinylSleeveDJTider
   parent: BaseVinylSleeve
@@ -820,7 +820,7 @@
     state: djtider-vinyl-sleeve
 
 - type: entity
-  name: coffee vinyl sleeve
+  name: pochette de vinyle café
   id: VinylSleeveCoffee
   parent: BaseVinylSleeve
   components:
@@ -837,7 +837,7 @@
     state: welcometoss13-vinyl-sleeve
 
 - type: entity
-  name: peace vinyl sleeve
+  name: pochette de vinyle paix
   description: L'art représente les événements de la station spatiale 12 où un capitaine et un insurgé syndical ont accepté une trêve le jour de Noël.
   id: VinylSleevePeace
   parent: BaseVinylSleeve
@@ -846,7 +846,7 @@
     state: peace-vinyl-sleeve
 
 - type: entity
-  name: japan vinyl sleeve
+  name: pochette de vinyle Japon
   id: VinylSleeveJapan
   parent: BaseVinylSleeve
   components:
@@ -854,7 +854,7 @@
     state: japan-vinyl-sleeve
 
 - type: entity
-  name: christmas vinyl sleeve
+  name: pochette de vinyle Noël
   id: VinylSleeveChristmas
   parent: BaseVinylSleeve
   components:
@@ -862,7 +862,7 @@
     state: christmas-vinyl-sleeve
 
 - type: entity
-  name: pickle vinyl sleeve
+  name: pochette de vinyle cornichon
   description: De nombreux artistes ont essayé de comprendre ce que représente cet art, nos plus grands esprits s'accordent à dire qu'il représente très probablement 3 cornichons sur une route.
   id: VinylSleevePickle
   parent: BaseVinylSleeve
@@ -871,7 +871,7 @@
     state: pickle-vinyl-sleeve
 
 - type: entity
-  name: flash vinyl sleeve
+  name: pochette de vinyle flash
   id: VinylSleeveFlash
   parent: BaseVinylSleeve
   components:
@@ -879,7 +879,7 @@
     state: flash-vinyl-sleeve
 
 - type: entity
-  name: beige vinyl sleeve
+  name: pochette de vinyle beige
   id: VinylSleeveBeige
   parent: BaseVinylSleeve
   components:
@@ -887,7 +887,7 @@
     state: plainbeige-vinyl-sleeve
 
 - type: entity
-  name: black vinyl sleeve
+  name: pochette de vinyle noir
   id: VinylSleeveBlack
   parent: BaseVinylSleeve
   components:
@@ -895,7 +895,7 @@
     state: plainblack-vinyl-sleeve
 
 - type: entity
-  name: white vinyl sleeve
+  name: pochette de vinyle blanc
   id: VinylSleeveWhite
   parent: BaseVinylSleeve
   components:

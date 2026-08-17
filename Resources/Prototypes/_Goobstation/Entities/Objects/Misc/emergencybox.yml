@@ -3,7 +3,7 @@
 - type: entity
   id: BoxSurvivalSlots
   parent: BaseItem
-  name: survival box
+  name: boîte de survie
   description: C'est une boîte avec des équipements de base à l'intérieur.
   suffix: Standard
   components:
@@ -193,7 +193,7 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsEngineering
-  name: extended-capacity survival box
+  name: boîte de survie à capacité étendue
   description: C'est une boîte avec des équipements de base à l'intérieur. Celle-ci est étiquetée pour contenir un réservoir à capacité étendue.
   suffix: Extended
   components:
@@ -245,7 +245,7 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsSecurity
-  name: survival box
+  name: boîte de survie
   description: C'est une boîte avec des équipements de base à l'intérieur.
   suffix: Security
   components:
@@ -297,7 +297,7 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsMedical
-  name: survival box
+  name: boîte de survie
   description: C'est une boîte avec des équipements de base à l'intérieur.
   suffix: Medical
   components:
@@ -404,7 +404,7 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsSyndicate
-  name: extended-capacity survival box
+  name: boîte de survie à capacité étendue
   description: C'est une boîte avec des équipements de base à l'intérieur. Celle-ci est étiquetée pour contenir un réservoir à capacité étendue.
   suffix: Syndicate
   components:
@@ -703,7 +703,7 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsSilicon
-  name: silicon survival box
+  name: boîte de survie silicium
   description: C'est une boîte avec des outils de base pour l'auto-réparation à l'intérieur.
   components:
   - type: ContainerContainer

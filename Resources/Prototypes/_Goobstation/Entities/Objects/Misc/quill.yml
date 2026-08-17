@@ -3,7 +3,7 @@
 - type: entity
   id: quill
   parent: BaseItem
-  name: quill
+  name: plume
   description: Ça a l'air chic, mais vous n'avez aucune idée de comment utiliser ce truc !
   components:
   - type: Sprite

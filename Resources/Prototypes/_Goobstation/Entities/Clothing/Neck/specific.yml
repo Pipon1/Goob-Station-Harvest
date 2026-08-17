@@ -3,7 +3,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: SurveillanceWirelessCameraBodySecurity
-  name: security bodycam
+  name: bodycam de sécurité
   description: Une caméra fixée sur le corps. Elle vous observe.
   components:
   - type: DeviceNetwork
@@ -39,7 +39,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckFellForItAward
-  name: nanotrasen gullibility award
+  name: prix de la crédulité Nanotrasen
   description: Une récompense décernée par Nanotrasen pour marquer les cas extrêmes de crédulité.
   components:
   - type: Sprite

@@ -122,7 +122,7 @@
             Quantity: 30
 
 - type: entity
-  name: bluespace vial
+  name: fiole bluespace
   parent: BaseBeakerMetallic
   description: C'est plus long à l'intérieur !
   id: BluespaceChemistryVial

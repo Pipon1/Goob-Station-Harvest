@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: MedicalBeamGun
-  name: medical beam gun
-  description: Delivers volatile medical nanites in a focused beam. Uber mode heals the patient much more powerfully, but makes them suffocate. Don't cross the beams! Recharges in 60 or 90 seconds.
+  name: fusil à rayon médical
+  description: Distribue des nanites médicales volatiles dans un rayon focalisé. Le mode Uber guérit le patient beaucoup plus rapidement, mais l'étouffe. Ne croisez pas les rayons ! Se recharge en 60 ou 90 secondes.
   suffix: Unlimited
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 - type: entity
   parent: [ MedicalBeamGun, BaseSyndicateContraband ]
   id: MedicalBeamGunSyndicate
-  name: syndicate medical beam gun
+  name: fusil à rayon médical du syndicat
   suffix: Syndicate, Unlimited
   components:
   - type: Sprite

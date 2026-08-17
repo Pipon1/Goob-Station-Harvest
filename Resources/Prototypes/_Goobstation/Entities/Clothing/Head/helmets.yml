@@ -310,7 +310,7 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetInquisitor
-  name: inquisitor cap
+  name: calotte d'inquisiteur
   description: Une majestueuse calotte dorée. La personnification du châtiment qui s'abattra sur les hérétiques !
   components:
   - type: Sprite

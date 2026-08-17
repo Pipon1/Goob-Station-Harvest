@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseItem
   id: ReverseBearTrapKey
-  name: reverse bear trap key
+  name: clé de piège à ours inversé
   description: Les clés pour déverrouiller le piège à ours inversé.
   components:
   - type: Item

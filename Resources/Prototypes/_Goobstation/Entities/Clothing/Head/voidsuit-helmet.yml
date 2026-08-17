@@ -166,7 +166,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetVoidsuitSecurity
-  name: security hardsuit helmet
+  name: casque de combinaison rigide de sécurité
   description: Une visière robuste attachée à la combinaison rigide de sécurité.
   components:
   - type: BreathMask
@@ -286,7 +286,7 @@
 - type: entity
   parent: [ClothingHeadHelmetHardsuitBlueshield, BaseMagicalContraband]
   id: ClothingHeadSinguloth
-  name: singuloth knight's helm
+  name: heaume de chevalier singuloth
   description: Un casque en adamantium du chapitre des Chevaliers Singuloth. Il brille d'une aura sacrée.
   components:
   - type: Sprite
@@ -320,7 +320,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitCybersunStealth
   id: ClothingHeadHelmetHardsuitVoxRaiderStealth
-  name: vox raider stealth helmet
+  name: casque furtif de raider vox
   description: Un casque alien lisse aux contours arrondis, noir mat.
   components:
   - type: Sprite
@@ -345,7 +345,7 @@
 - type: entity
   parent: ClothingHeadHelmetVoidsuitSecurity
   id: ClothingHeadHelmetHardsuitDetective
-  name: detective hardsuit helmet
+  name: casque de combinaison rigide de détective
   description: Un casque avec un fedora intégré pour la combinaison rigide du détective.
   components:
   - type: Sprite
@@ -361,7 +361,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitContractor
-  name: contractor hardsuit helmet
+  name: casque de combinaison rigide contractor
   description: Une visière robuste attachée à la combinaison rigide du contractant.
   categories: [HideSpawnMenu]
   components:

@@ -224,7 +224,7 @@
 - type: entity
   parent: ClothingHeadHatBeretHoS
   id: ClothingHeadHatBeretHeadOfSecurityAdvanced
-  name: head of security's parade beret
+  name: béret de parade du chef de la sécurité
   description: Un béret particulièrement doré, conçu pour le chef de la sécurité.
   components:
   - type: Sprite
@@ -239,7 +239,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSeniorBotanist
-  name: botanical beret
+  name: béret botanique
   description: Un béret vert orné d'une petite fleur bleue, remis aux botanistes expérimentés.
   components:
   - type: Sprite
@@ -307,7 +307,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTinfoilHat
-  name: tinfoil hat
+  name: chapeau en papier d'aluminium
   description: Un casque haute technologie confectionné en papier d'aluminium.
   components:
   - type: Sprite

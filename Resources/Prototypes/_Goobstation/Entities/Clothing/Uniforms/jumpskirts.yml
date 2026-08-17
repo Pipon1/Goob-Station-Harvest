@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingUniformJumpsuitNavyGold
   id: ClothingUniformJumpskirtTrainer
-  name: NCT Jumpskirt
-  description: Une combinaison-jupe émise aux formateurs de carrière Nanotrasen. Vous remplit d'un sentiment de fierté.
+  name: unijupe de NCT
+  description: Une unijupe émise aux formateurs de carrière Nanotrasen. Vous remplit d'un sentiment de fierté.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/trainer.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCommandMaid
-  name: command maid uniform
+  name: uniforme de femme de chambre de commandement
   description: Un uniforme de femme de chambre élégant, spécialement conçu pour les femmes de chambre de commandement d'élite. Allie professionnalisme et touche d'élégance.
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageSpecialist
-  name: salvage specialist's jumpskirt
-  description: C'est une combinaison-jupe élégante avec un solide ensemble de salopettes. Elle est très sale.
+  name: unijupe de récupérateur
+  description: C'est une unijupe élégante avec un solide ensemble de salopettes. Elle est très sale.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Cargo/salvage.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtShaftMiner
-  name: shaft miner's jumpskirt
-  description: C'est une combinaison-jupe élégante avec un solide ensemble de salopettes. Elle semble brûlée.
+  name: unijupe de mineur
+  description: C'est une unijupe élégante avec un solide ensemble de salopettes. Elle semble brûlée.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Cargo/shaft_miner.rsi

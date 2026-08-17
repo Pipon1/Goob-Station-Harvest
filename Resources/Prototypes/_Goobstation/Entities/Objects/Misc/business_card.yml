@@ -1,6 +1,6 @@
 - type: entity
   id: CentralCommandBusinessCard
-  name: centcomm business card
+  name: carte de visite CentComm
   parent: Paper
   description: Une carte verte avec le logo de Nanotrasen. Il y a quelque chose d'écrit au dos.
   components:
@@ -25,7 +25,7 @@
 
 - type: entity
   id: TunnelClownBusinessCard
-  name: tunnel clown business card
+  name: carte de visite clown du tunnel
   parent: CentralCommandBusinessCard
   components:
   - type: Paper

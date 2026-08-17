@@ -3,8 +3,8 @@
 - type: entity
   id: portableChemicalMixer
   parent: BaseItem
-  name: portable chemical mixer
-  description: A "Tider" grade chemical manipulator
+  name: mélangeur chimique portable
+  description: Un manipulateur chimique de grade "Tider"
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Tools/chemical_mixer.rsi
@@ -83,8 +83,8 @@
 - type: entity
   id: portableChemicalMixerIncomplete
   parent: BaseItem
-  name: Incomplete portable chemical mixer
-  description: A incompleted "Tider" grade chemical manipulator
+  name: mélangeur chimique portable incomplet
+  description: Un manipulateur chimique de grade "Tider" incomplet
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

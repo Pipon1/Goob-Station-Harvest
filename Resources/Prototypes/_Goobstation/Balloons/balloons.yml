@@ -399,9 +399,9 @@
 
 # This fucking kills server performance
 #- type: entity
-#  name: dragon zepplin
+#  name: zeppelin dragon
 #  parent: BaseBalloonTD
-#  description: Tier 1 Moab Class Balloon. Summons four carp balloons on death.
+#  description: Ballon de classe MOAB niveau 1. Invoque quatre ballons carpes à la mort.
 #  id: MoabBalloon
 #  components:
 #  - type: Sprite
@@ -436,7 +436,7 @@
 #- type: entity
 #  name: B.R.B.
 #  parent: BaseBalloonTD
-#  description: Tier 2 Moab Class Balloon. Stands for Blood Red Balloon.
+#  description: Ballon de classe MOAB niveau 2. Signifie Ballon Rouge Sang.
 #  id: BfbBalloon
 #  components:
 #  - type: Sprite
@@ -469,7 +469,7 @@
 #- type: entity
 #  name: Z.O.M.B.
 #  parent: BaseBalloonTD
-#  description: Tier 3 Moab Class Balloon. Stands for Zoh Oh Mbee Balloon. The Acronym department was underfunded.
+#  description: Ballon de classe MOAB niveau 3. Signifie Zoh Oh Mbee Balloon. Le département des acronymes a manqué de fonds.
 #  id: ZomgBalloon
 #  components:
 #  - type: Sprite
