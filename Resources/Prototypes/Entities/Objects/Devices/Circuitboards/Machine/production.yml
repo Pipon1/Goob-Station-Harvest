@@ -611,6 +611,21 @@
         Glass: 1
         Cable: 2
 
+
+- type: entity # HarvestStation - Brua
+  id: SeedAnalyzerMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: seed analyzer machine board
+  description: A machine printed circuit board for a seed analyzer.
+  components:
+    - type: Sprite
+      state: service
+    - type: MachineBoard
+      prototype: SeedAnalyzer
+      stackRequirements:
+        Glass: 5
+        Cable: 2
+
 - type: entity
   id: SMESMachineCircuitboard
   parent: BaseMachineCircuitboard

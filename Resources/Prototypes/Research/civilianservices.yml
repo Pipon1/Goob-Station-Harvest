@@ -13,6 +13,7 @@
   recipeUnlocks:
   - PlantBagOfHolding #DeltaV
   - SeedExtractorMachineCircuitboard
+  - SeedAnalyzerMachineCircuitboard # HarvestStation - Brua
   - HydroponicsTrayMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   # Goobstation R&D Console rework start
@@ -340,4 +341,3 @@
   technologyPrerequisites:
   - BiochemicalStasis
   # Goobstation R&D Console rework end
-

@@ -1,0 +1,126 @@
+<controls:FancyWindow xmlns="https://spacestation14.io"
+                      xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+                      Title="{Loc 'seed-analyzer-window-title'}" MinSize="600 540">
+    <BoxContainer Orientation="Vertical" Margin="12" SeparationOverride="8">
+        <Label Name="EmptyLabel" Text="{Loc 'seed-analyzer-empty'}"
+               HorizontalAlignment="Center" VerticalExpand="True" VerticalAlignment="Center"
+               StyleClasses="LabelSubText" />
+
+        <BoxContainer Name="DetailsContainer" Orientation="Vertical" Visible="False"
+                      VerticalExpand="True" SeparationOverride="8">
+            <PanelContainer StyleClasses="AngleRect">
+                <BoxContainer Orientation="Horizontal" Margin="12 8" SeparationOverride="12">
+                    <SpriteView Name="SeedSprite" SetSize="64 64" Scale="2 2" OverrideDirection="South" VerticalAlignment="Center" />
+                    <BoxContainer Orientation="Vertical" VerticalAlignment="Center" HorizontalExpand="True">
+                        <RichTextLabel Name="SeedNameLabel" StyleClasses="LabelHeadingBigger" HorizontalExpand="True" />
+                        <Label Name="SeedStatusLabel" StyleClasses="LabelSubText" />
+                    </BoxContainer>
+                </BoxContainer>
+            </PanelContainer>
+
+            <TabContainer Name="Tabs" VerticalExpand="True">
+                <ScrollContainer HScrollEnabled="False" VerticalExpand="True" HorizontalExpand="True">
+                    <BoxContainer Orientation="Vertical" Margin="8 10" SeparationOverride="10" HorizontalExpand="True">
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="10" HorizontalExpand="True">
+                            <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="260">
+                                <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                    <Label Text="{Loc 'seed-analyzer-section-growth'}" StyleClasses="LabelHeading" />
+                                    <PanelContainer StyleClasses="LowDivider" />
+                                    <BoxContainer Orientation="Vertical" SeparationOverride="7" HorizontalExpand="True">
+                                        <Label Text="{Loc 'seed-analyzer-label-yield'}" StyleClasses="LabelSubText" /><RichTextLabel Name="YieldLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-potency'}" StyleClasses="LabelSubText" /><RichTextLabel Name="PotencyLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-endurance'}" StyleClasses="LabelSubText" /><RichTextLabel Name="EnduranceLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-maturation'}" StyleClasses="LabelSubText" /><RichTextLabel Name="MaturationLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-production'}" StyleClasses="LabelSubText" /><RichTextLabel Name="ProductionLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-lifespan'}" StyleClasses="LabelSubText" /><RichTextLabel Name="LifespanLabel" HorizontalExpand="True" />
+                                    </BoxContainer>
+                                </BoxContainer>
+                            </PanelContainer>
+
+                            <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="260">
+                                <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                    <Label Text="{Loc 'seed-analyzer-section-properties'}" StyleClasses="LabelHeading" />
+                                    <PanelContainer StyleClasses="LowDivider" />
+                                    <BoxContainer Orientation="Vertical" SeparationOverride="7" HorizontalExpand="True">
+                                        <Label Text="{Loc 'seed-analyzer-label-viable'}" StyleClasses="LabelSubText" /><RichTextLabel Name="ViableLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-seedless'}" StyleClasses="LabelSubText" /><RichTextLabel Name="SeedlessLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-ligneous'}" StyleClasses="LabelSubText" /><RichTextLabel Name="LigneousLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-harvest'}" StyleClasses="LabelSubText" /><RichTextLabel Name="HarvestTypeLabel" HorizontalExpand="True" />
+                                    </BoxContainer>
+                                </BoxContainer>
+                            </PanelContainer>
+                        </BoxContainer>
+
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="10" HorizontalExpand="True">
+                            <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="260">
+                                <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                    <Label Text="{Loc 'seed-analyzer-section-resources'}" StyleClasses="LabelHeading" />
+                                    <PanelContainer StyleClasses="LowDivider" />
+                                    <BoxContainer Orientation="Vertical" SeparationOverride="7" HorizontalExpand="True">
+                                        <Label Text="{Loc 'seed-analyzer-label-water'}" StyleClasses="LabelSubText" /><RichTextLabel Name="WaterConsumptionLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-nutrients'}" StyleClasses="LabelSubText" /><RichTextLabel Name="NutrientConsumptionLabel" HorizontalExpand="True" />
+                                    </BoxContainer>
+                                </BoxContainer>
+                            </PanelContainer>
+
+                            <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True" VerticalExpand="True" MinWidth="260">
+                                <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                    <Label Text="{Loc 'seed-analyzer-section-environment'}" StyleClasses="LabelHeading" />
+                                    <PanelContainer StyleClasses="LowDivider" />
+                                    <BoxContainer Orientation="Vertical" SeparationOverride="7" HorizontalExpand="True">
+                                        <Label Text="{Loc 'seed-analyzer-label-temperature'}" StyleClasses="LabelSubText" /><RichTextLabel Name="TemperatureLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-pressure'}" StyleClasses="LabelSubText" /><RichTextLabel Name="PressureLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-toxins'}" StyleClasses="LabelSubText" /><RichTextLabel Name="ToxinToleranceLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-pests'}" StyleClasses="LabelSubText" /><RichTextLabel Name="PestToleranceLabel" HorizontalExpand="True" />
+                                        <Label Text="{Loc 'seed-analyzer-label-weeds'}" StyleClasses="LabelSubText" /><RichTextLabel Name="WeedToleranceLabel" HorizontalExpand="True" />
+                                    </BoxContainer>
+                                </BoxContainer>
+                            </PanelContainer>
+                        </BoxContainer>
+
+                        <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True">
+                            <BoxContainer Orientation="Vertical" Margin="14 10" SeparationOverride="7" HorizontalExpand="True">
+                                <Label Text="{Loc 'seed-analyzer-section-consumed-gases'}" StyleClasses="LabelHeading" />
+                                <PanelContainer StyleClasses="LowDivider" />
+                                <BoxContainer Name="ConsumedGasesContainer" Orientation="Vertical" SeparationOverride="3" />
+                            </BoxContainer>
+                        </PanelContainer>
+                    </BoxContainer>
+                </ScrollContainer>
+
+                <ScrollContainer HScrollEnabled="False" VerticalExpand="True" HorizontalExpand="True">
+                    <BoxContainer Orientation="Vertical" Margin="8 10" SeparationOverride="12" HorizontalExpand="True">
+                        <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True">
+                            <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                <Label Text="{Loc 'seed-analyzer-section-products'}" StyleClasses="LabelHeading" />
+                                <PanelContainer StyleClasses="LowDivider" />
+                                <RichTextLabel Name="EstimatedYieldLabel" StyleClasses="LabelSubText" HorizontalExpand="True" />
+                                <BoxContainer Name="ProductsContainer" Orientation="Vertical" SeparationOverride="3" />
+                            </BoxContainer>
+                        </PanelContainer>
+                        <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True">
+                            <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                <Label Text="{Loc 'seed-analyzer-section-reagents'}" StyleClasses="LabelHeading" />
+                                <PanelContainer StyleClasses="LowDivider" />
+                                <BoxContainer Name="ReagentsContainer" Orientation="Vertical" SeparationOverride="3" />
+                            </BoxContainer>
+                        </PanelContainer>
+                        <PanelContainer StyleClasses="PanelDark" HorizontalExpand="True">
+                            <BoxContainer Orientation="Vertical" Margin="14 12" SeparationOverride="7" HorizontalExpand="True">
+                                <Label Text="{Loc 'seed-analyzer-section-produced-gases'}" StyleClasses="LabelHeading" />
+                                <PanelContainer StyleClasses="LowDivider" />
+                                <BoxContainer Name="ProducedGasesContainer" Orientation="Vertical" SeparationOverride="3" />
+                            </BoxContainer>
+                        </PanelContainer>
+                    </BoxContainer>
+                </ScrollContainer>
+
+            </TabContainer>
+        </BoxContainer>
+
+        <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center" SeparationOverride="8">
+            <Button Name="PrintButton" Text="{Loc 'seed-analyzer-button-print'}" MinWidth="160" Disabled="True" />
+            <Button Name="EjectButton" Text="{Loc 'seed-analyzer-button-eject'}" MinWidth="180" Disabled="True" />
+        </BoxContainer>
+    </BoxContainer>
+</controls:FancyWindow>

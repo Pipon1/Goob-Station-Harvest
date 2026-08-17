@@ -261,6 +261,7 @@
       - BotanyHoe
       - BotanyHatchet
       - PlantBGone
+      - PlantHealthAnalyzer # HarvestStation - Brua
       - Bottle
       - Syringe
       - CigPack

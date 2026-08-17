@@ -153,6 +153,7 @@
         - id: HydroponicsToolMiniHoe
         - id: HydroponicsToolSpade
         - id: HydroponicsToolClippers
+        - id: PlantHealthAnalyzer # HarvestStation - Brua
         - id: ChemistryBottleRobustHarvest
 
 - type: entity

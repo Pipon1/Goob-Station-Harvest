@@ -1,0 +1,64 @@
+- type: entity
+  id: SeedAnalyzer
+  name: seed analyser
+  description: A machine that scans the seeds attributes.
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/seed_analyzer.rsi
+    snapCardinals: true
+    layers:
+    - state: seedanalyzer-off
+    - state: seedanalyzer-unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: seedanalyzer-seed
+      visible: false
+      map: ["enum.SeedAnalyzerVisuals.SeedLayer"]
+
+  - type: Appearance
+
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+      enum.SeedAnalyzerVisuals.SeedInserted:
+        enum.SeedAnalyzerVisuals.SeedLayer:
+          True: { visible: true }
+          False: { visible: false }
+
+  - type: SeedAnalyzer
+
+  - type: Machine
+    board: SeedAnalyzerMachineCircuitboard
+
+  - type: ActivatableUI
+    key: enum.SeedAnalyzerUiKey.Key
+
+  - type: ActivatableUIRequiresPower
+
+  - type: UserInterface
+    interfaces:
+      enum.SeedAnalyzerUiKey.Key:
+        type: SeedAnalyzerBoundUserInterface
+        interactionRange: 2
+
+  - type: ItemSlots
+    slots:
+      seedSlot:
+        name: seed-analyzer-seed-slot-name
+        whitelist:
+          components:
+          - Seed
+
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      seedSlot: !type:ContainerSlot
+
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - seedSlot

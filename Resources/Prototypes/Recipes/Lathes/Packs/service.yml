@@ -28,6 +28,7 @@
   - Holoprojector
   - WetFloorSign
   - WireBrush
+  - PlantHealthAnalyzer # HarvestStation - Brua
 
 - type: latheRecipePack
   id: ServiceBoardsStatic
@@ -64,6 +65,7 @@
   - FatExtractorMachineCircuitboard
   - HydroponicsTrayMachineCircuitboard # roundstart gear being unlocked roundstart when
   - SeedExtractorMachineCircuitboard # ^
+  - SeedAnalyzerMachineCircuitboard # HarvestStation - Brua
   - MassMediaCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   - JukeboxCircuitBoard
