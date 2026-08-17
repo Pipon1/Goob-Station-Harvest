@@ -84,7 +84,7 @@
   parent: [FoodSnackLollypopWrappedBase, BaseSyndicateContraband]
   id: FoodSnackLollypopWrappedBaseSyndicate
   abstract: true
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   description: Une sucette probablement dangereuse remplie de produits chimiques. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -104,7 +104,7 @@
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBaseSyndicate
   abstract: true
-  name: lollypop
+  name: sucette
   description: Un simple vieux sucette. Celui-ci vous donne un mauvais pressentiment. # Seul moyen de les distinguer. Lisez vos descriptions.
   components:
   - type: FlavorProfile
@@ -138,7 +138,7 @@
   parent: [FoodSnackLollypopWrappedBase, BaseCommandContraband]
   id: FoodSnackLollypopWrappedBaseNanotrasen
   abstract: true
-  name: wrapped nanotrasen lollypop
+  name: sucette nanotrasen emballée
   description: Une sucette probablement coûteuse. Elle est toujours dans son emballage doré.
   components:
   - type: Tag
@@ -158,7 +158,7 @@
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBaseNanotrasen
   abstract: true
-  name: nanotrasen lollypop
+  name: sucette nanotrasen
   description: Une sucette au goût coûteux.
   components:
   - type: FlavorProfile
@@ -190,7 +190,7 @@
 - type: entity
   parent: [FoodSnackLollypopWrappedBase, BaseCentcommContraband]
   id: FoodSnackLollypopWrappedBaseCentcomm
-  name: wrapped centcomm lollypop
+  name: sucette centcomm emballée
   description: Une sucette très coûteuse. Elle est toujours dans son emballage doré.
   abstract: true
   components:
@@ -210,7 +210,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBaseCentcomm
-  name: centcomm lollypop
+  name: sucette centcomm
   description: Une sucette au goût extrêmement coûteux. Peut contenir une quantité démesurée de produits chimiques.
   abstract: true
   components:
@@ -243,7 +243,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrapped
-  name: wrapped lollypop
+  name: sucette emballée
   description: Un simple vieux sucette. Il est toujours dans son emballage.
   components:
   - type: Tag
@@ -259,7 +259,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypop
-  name: lollypop
+  name: sucette
   description: Un simple vieux sucette. Il est aromatisé à la cerise !
   components:
   - type: Tag
@@ -272,7 +272,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedRainbow
-  name: wrapped rainbow lollypop
+  name: sucette arc-en-ciel emballée
   description: Une sucette aux couleurs arc-en-ciel. Comme c'est chic !
   components:
   - type: Tag
@@ -288,7 +288,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopRainbow
-  name: rainbow lollypop
+  name: sucette arc-en-ciel
   description: Une sucette aux couleurs arc-en-ciel. Aromatisée aux larmes de licorne.
   components:
   - type: Tag
@@ -311,7 +311,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedCarp
-  name: wrapped carp lollypop
+  name: sucette carpe emballée
   description: Une sucette en forme de carpe. Quelle bêtise !
   components:
   - type: Tag
@@ -327,7 +327,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopCarp
-  name: carp lollypop
+  name: sucette carpe
   description: Une sucette en forme de carpe. Attention, elle mord !
   components:
   - type: FlavorProfile
@@ -350,7 +350,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase # Todo, give this to blueshield.
   id: FoodSnackLollypopWrappedBlueshield
-  name: wrapped blueshield lollypop
+  name: sucette bouclier bleu emballée
   description: Une sucette bleu profond. Elle est toujours dans l'emballage.
   components:
   - type: Tag
@@ -366,7 +366,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBlueshield
-  name: blueshield lollypop
+  name: sucette bouclier bleu
   description: Une sucette bleu profond, vous imbibant d'un sens de la détermination. Allez-y soldat !
   components:
   - type: Tag
@@ -387,7 +387,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBaseNanotrasen
   id: FoodSnackLollypopWrappedCaptain
-  name: wrapped captains' lollypop
+  name: sucette du capitaine emballée
   description: Une sucette extravagante. Elle est toujours dans l'emballage.
   components:
   - type: Tag
@@ -403,8 +403,8 @@
 - type: entity
   parent: FoodSnackLollypopBaseNanotrasen
   id: FoodSnackLollypopCaptain
-  name: captains' lollypop
-  description: A blueish lollypop containing a potentially unhealthy amount of gold leaf. Only for the goodest of captains.
+  name: sucette du capitaine
+  description: Une sucette bleutée contenant une quantité potentiellement malsaine de feuille d'or. Uniquement pour les meilleurs capitaines.
   components:
   - type: Tag
     tags:
@@ -425,7 +425,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBaseCentcomm
   id: FoodSnackLollypopWrappedCentComm
-  name: wrapped centcomm lollypop
+  name: sucette centcomm emballée
   description: Une sucette encore plus extravagante. Elle est toujours dans l'emballage.
   components:
   - type: Tag
@@ -441,8 +441,8 @@
 - type: entity
   parent: FoodSnackLollypopBaseCentcomm
   id: FoodSnackLollypopCentcomm
-  name: centcomm lollypop
-  description: A green lollypop containing an extremely unhealthy amount of gold leaf. Only for the best centcomm agents.
+  name: sucette de centcomm
+  description: Une sucette verte contenant une quantité extrêmement malsaine de feuille d'or. Uniquement pour les meilleurs agents de CentComm.
   components:
   - type: Tag
     tags:
@@ -461,7 +461,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedBicaridine
-  name: wrapped bicaridine lollypop
+  name: sucette bicaridine emballée
   description: Une sucette remplie de bicaridine. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -480,7 +480,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBicaridine
-  name: bicaridine lollypop
+  name: sucette bicaridine
   description: Une sucette remplie de bicaridine. Aromatisée à l'orange.
   components:
   - type: Tag
@@ -513,7 +513,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedProbital
-  name: wrapped probital lollypop
+  name: sucette probital emballée
   description: Une sucette remplie de probital. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -532,7 +532,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopProbital
-  name: solar lollypop
+  name: sucette solaire
   description: Une sucette jaune vif remplie de probital. La préférée de Sol !
   components:
   - type: Tag
@@ -565,7 +565,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedKelotane
-  name: wrapped kelotane lollypop
+  name: sucette kélotane emballée
   description: Une sucette remplie de kélotane. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -584,7 +584,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopKelotane
-  name: kelotane lollypop
+  name: sucette kélotane
   description: Une sucette remplie de kélotane. Mangez-en une avec une à la dermaline en même temps pour des effets maximaux.
   components:
   - type: Tag
@@ -617,7 +617,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedDermaline
-  name: wrapped dermaline lollypop
+  name: sucette dermaline emballée
   description: Une sucette remplie de dermaline. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -636,7 +636,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopDermaline
-  name: dermaline lollypop
+  name: sucette dermaline
   description: Une sucette remplie de dermaline. Aromatisée avec... du bleu ?
   components:
   - type: Tag
@@ -669,7 +669,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedTricordrazine
-  name: wrapped tricordrazine lollypop
+  name: sucette tricordrazine emballée
   description: Une sucette remplie de Tricordrazine. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -688,7 +688,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopTricordrazine
-  name: Tricordrazine lollypop
+  name: sucette tricordrazine
   description: Une sucette remplie de Tricordrazine. La préférée des médecins !
   components:
   - type: Tag
@@ -721,7 +721,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedDylovene
-  name: wrapped dylovene lollypop
+  name: sucette dylovène emballée
   description: Une sucette remplie de dylovène. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -740,7 +740,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopDylovene
-  name: dylovene lollypop
+  name: sucette dylovène
   description: Une sucette remplie de dylovène. Elle est d'un violet terne.
   components:
   - type: Tag
@@ -773,7 +773,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedOmnizine
-  name: wrapped omnizine lollypop
+  name: sucette omnizine emballée
   description: Une sucette remplie d'omnizine. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -792,8 +792,8 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopOmnizine
-  name: omnizine lollypop
-  description: An omnizine filled lollypop. Reserved for the best of patients.
+  name: sucette omnizine
+  description: Une sucette remplie d'omnizine. Réservée aux meilleurs patients.
   components:
   - type: Tag
     tags:
@@ -825,7 +825,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedDexalinPlus
-  name: wrapped dexalin plus lollypop
+  name: sucette dexaline plus emballée
   description: Une sucette remplie de dexaline plus. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -844,8 +844,8 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopDexalinPlus
-  name: dexalin plus lollypop
-  description: A dexalin plus filled lollypop. Commonly forcefed to people who forgot their internals.
+  name: sucette déxaline plus
+  description: Une sucette remplie de dexaline plus. Donnée de force aux gens qui ont oublié leurs internes.
   components:
   - type: Tag
     tags:
@@ -877,7 +877,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedHyronalin
-  name: wrapped hyronalin lollypop
+  name: sucette hyronaline emballée
   description: Une sucette remplie d'hyronaline. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -896,7 +896,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopHyronalin
-  name: hyronalin lollypop
+  name: sucette hyronaline
   description: Une sucette remplie d'hyronaline. Pas aussi efficace qu'on l'espérerait.
   components:
   - type: Tag
@@ -929,7 +929,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedIbuprofen
-  name: wrapped ibuprofen lollypop
+  name: sucette ibuprofène emballée
   description: Une sucette remplie d'ibuprofène. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -948,7 +948,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopIbuprofen
-  name: ibuprofen lollypop
+  name: sucette ibuprofène
   description: Une sucette remplie d'ibuprofène. Laisse un mauvais arrière-goût dans la bouche.
   components:
   - type: Tag
@@ -981,7 +981,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedAntihol
-  name: wrapped antihol lollypop
+  name: sucette antihol emballée
   description: Une sucette remplie d'antihol. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -1000,8 +1000,8 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopAntihol
-  name: antihol lollypop
-  description: A calomel filled lollypop. A drunkards best friend.
+  name: sucette antihol
+  description: Une sucette remplie de calomel. La meilleure amie des ivrognes.
   components:
   - type: Tag
     tags:
@@ -1033,7 +1033,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedMitotrophin
-  name: wrapped mitotrophin lollypop
+  name: sucette mitotrophine emballée
   description: Une sucette remplie de mitotrophine. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -1052,7 +1052,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopMitotrophin
-  name: mitotrophin lollypop
+  name: sucette mitotrophine
   description: Une sucette remplie de mitotrophine. A un goût affreux, mais vous fera vous sentir mieux en un rien de temps.
   components:
   - type: Tag
@@ -1087,7 +1087,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedMystery
-  name: wrapped mystery lollypop
+  name: sucette mystère emballée
   suffix: good
   description: Une sucette mystérieuse. Parfaite pour tous vos besoins médicaux.
   components:
@@ -1131,7 +1131,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedMysteryNeutral
-  name: wrapped mystery lollypop
+  name: sucette mystère emballée
   suffix: neutral
   description: Une sucette mystérieuse. Ça pourrait être n'importe laquelle !
   components:
@@ -1195,7 +1195,7 @@
 - type: entity
   parent: [FoodSnackLollypopWrappedBase, BaseSyndicateContraband]
   id: FoodSnackLollypopWrappedMysteryEvil
-  name: wrapped mystery lollypop
+  name: sucette mystère emballée
   suffix: evil
   description: Une sucette mystérieuse. Celle-ci vous donne un mauvais pressentiment.
   components:
@@ -1273,7 +1273,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBaseSyndicate
   id: FoodSnackLollypopWrappedSyndicate
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   description: Fabriquée par Donk co, parfaite pour stocker des produits chimiques discrètement.
   components:
   - type: Tag
@@ -1292,7 +1292,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopSyndicate
-  name: lollypop
+  name: sucette
   description: Un simple vieux sucette. Celui-ci vous donne un mauvais pressentiment. # Seul moyen de les distinguer. Lisez vos descriptions !
   components:
   - type: Tag
@@ -1323,7 +1323,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedLexorin
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: lexorin
   description: Une sucette contenant du lexorin. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1340,7 +1340,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopLexorin
-  name: lollypop
+  name: sucette
   suffix: lexorin
   components:
   - type: Tag
@@ -1362,7 +1362,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedRomerol
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: romerol
   description: Une sucette contenant du romérol. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1379,7 +1379,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopRomerol
-  name: lollypop
+  name: sucette
   suffix: romerol
   components:
   - type: Tag
@@ -1401,7 +1401,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedNocturine
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: nocturine
   description: Une sucette remplie de nocturine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1421,7 +1421,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopNocturine
-  name: lollypop
+  name: sucette
   suffix: Nocturine
   components:
   - type: Tag
@@ -1446,7 +1446,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedHyperzine
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: hyperzine
   description: Une sucette remplie d'hyperzine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1463,7 +1463,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopHyperzine
-  name: lollypop
+  name: sucette
   suffix: hyperzine
   components:
   - type: Tag
@@ -1485,7 +1485,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedSynaptizine
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: synaptizine
   description: Une sucette à la synaptizine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1502,7 +1502,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopSynaptizine
-  name: lollypop
+  name: sucette
   suffix: Synaptizine
   components:
   - type: Tag
@@ -1524,7 +1524,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedCarpoToxin
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: carpotoxin
   description: Qui diable est Audrey White ?
   components:
@@ -1548,7 +1548,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopCarpoToxin
-  name: lollypop
+  name: sucette
   suffix: CarpoToxin
   description: Qui diable est Audrey White ?
   components:
@@ -1571,7 +1571,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedFentanyl
-  name: wrapped fentanyl lollypop
+  name: sucette fentanyl emballée
   suffix: fentanyl
   description: C'est pourquoi vos parents vous ont mis en garde contre les bonbons offerts par des étrangers. Semble ordinaire une fois déballé.
   components:
@@ -1591,7 +1591,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopFentanyl
-  name: lollypop
+  name: sucette
   suffix: fentanyl
   components:
   - type: Tag
@@ -1613,7 +1613,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedPhlogiston
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: phlogiston
   description: Une sucette contenant du phlogistique. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1630,7 +1630,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopPhlogiston
-  name: lollypop
+  name: sucette
   suffix: phlogiston
   components:
   - type: Tag
@@ -1652,7 +1652,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedCyanide
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: cyanide
   description: Une sucette contenant du cyanure. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1669,7 +1669,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopCyanide
-  name: lollypop
+  name: sucette
   suffix: cyanide
   components:
   - type: Tag
@@ -1691,7 +1691,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedTirizene
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: tirizene
   description: Une sucette contenant de la tirizène. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1708,7 +1708,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopTirizene
-  name: lollypop
+  name: sucette
   suffix: tirizene
   components:
   - type: Tag
@@ -1730,7 +1730,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedAnacea
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: anacea
   description: Une sucette contenant de l'anacée. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1747,7 +1747,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopAnacea
-  name: lollypop
+  name: sucette
   suffix: anacea
   components:
   - type: Tag
@@ -1769,7 +1769,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedPotassiumBomb
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: potassium bomb
   description: Une sucette explosive. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1786,7 +1786,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopPotassiumBomb
-  name: lollypop
+  name: sucette
   suffix: potassium bomb
   components:
   - type: Tag
@@ -1814,7 +1814,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedCognizine
-  name: wrapped cognizine lollypop
+  name: sucette cognizine emballée
   suffix: cognizine
   description: Une sucette remplie de cognizine. Elle est toujours dans son emballage.
   components:
@@ -1834,7 +1834,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopCognizine
-  name: cognizine lollypop
+  name: sucette cognizine
   description: Une sucette remplie de cognizine. Elle scintille d'un violet hypnotisant.
   components:
   - type: Tag
@@ -1867,7 +1867,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedWeh
-  name: wrapped weh lollypop
+  name: sucette weh emballée
   description: Une sucette remplie de Weh!. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -1886,7 +1886,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopWeh
-  name: Weh! lollypop
+  name: sucette Weh!
   description: Une sucette remplie de Weh!. Weh!
   components:
   - type: Tag
@@ -1918,7 +1918,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedCarpEvil
-  name: wrapped carp lollypop
+  name: sucette carpe emballée
   description: Une sucette en forme de carpe. Quelle bêtise !
   components:
   - type: Tag
@@ -1934,7 +1934,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopCarpEvil
-  name: carp lollypop
+  name: sucette carpe
   description: Qui diable est Aubrey White ?
   suffix: EVIL
   components:
@@ -1964,7 +1964,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedMouseBites
-  name: wrapped syndicate lollypop
+  name: sucette syndiquée emballée
   suffix: mouse bites
   description: Une sucette contenant des morsures de souris. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1981,7 +1981,7 @@
 - type: entity
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopMouseBites
-  name: mousebites lollypop
+  name: sucette morsures de souris
   suffix: mouse bites
   description: Il a besoin de morsures de souris pour vivre.
   components:
@@ -2012,7 +2012,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedMindbreakerToxin
-  name: wrapped mindbreaker lollypop
+  name: sucette brise-esprit emballée
   suffix: mindbreaker toxin
   description: Une sucette remplie de toxine brise-esprit. Elle est toujours dans son emballage.
   components:
@@ -2032,7 +2032,7 @@
 - type: entity
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopMindbreakerToxin
-  name: mindbreaker toxin lollypop
+  name: sucette toxine brise-esprit
   description: Une sucette remplie de toxine brise-esprit. Devriez-vous... manger ça ?
   components:
   - type: Tag
@@ -2066,7 +2066,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketLollypopTrash
-  name: lollypop stick
+  name: bâton de sucette
   description: Il est légèrement mâché.
   components:
   - type: Tag
@@ -2103,7 +2103,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodSnackLollypopTrash
-  name: lollypop wrapper
+  name: emballage de sucette
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/lollypop.rsi
@@ -2118,8 +2118,8 @@
   categories: [ HideSpawnMenu ]
   parent: [FoodPacketTrash, BaseSyndicateContraband]
   id: FoodSnackLollypopTrashSyndicate
-  name: syndicate lollypop wrapper
-  description: Someone's been naughty...
+  name: emballage de sucette syndiqué
+  description: Quelqu'un n'a pas été sage...
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/lollypop.rsi
@@ -2134,7 +2134,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodSnackLollypopTrashNanotrasen
-  name: nanotrasen lollypop wrapper
+  name: emballage de sucette nanotrasen
   description: Vous pourriez probablement vendre ça pour une jolie somme.
   components:
   - type: Sprite
@@ -2150,7 +2150,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodSnackLollypopTrashCentcomm
-  name: centcomm lollypop wrapper
+  name: emballage de sucette centcomm
   description: Si lourd que l'or dessus pourrait bien être réel.
   components:
   - type: Sprite
