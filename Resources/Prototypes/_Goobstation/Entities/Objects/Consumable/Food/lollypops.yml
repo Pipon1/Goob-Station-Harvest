@@ -5,7 +5,7 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackLollypopWrappedBase
-  description: Un simple vieux sucette. Il est toujours dans son emballage.
+  description: Une vieille sucette simple. Elle est toujours dans son emballage.
   abstract: true
   components:
   - type: SpaceGarbage
@@ -29,7 +29,7 @@
   parent: [FoodBase, FoodInjectableBase]
   id: FoodSnackLollypopBase
   abstract: true
-  description: Un simple vieux sucette. Il est aromatisé à la cerise.
+  description: Une vieille sucette simple. Elle est aromatisé à la cerise.
   components:
   - type: FlavorProfile
     flavors:
@@ -105,7 +105,7 @@
   id: FoodSnackLollypopBaseSyndicate
   abstract: true
   name: sucette
-  description: Un simple vieux sucette. Celui-ci vous donne un mauvais pressentiment. # Seul moyen de les distinguer. Lisez vos descriptions.
+  description: Une vieille sucette simple. Celle-ci vous donne un mauvais pressentiment. # Seul moyen de les distinguer. Lisez vos descriptions.
   components:
   - type: FlavorProfile
     flavors:
@@ -139,7 +139,7 @@
   id: FoodSnackLollypopWrappedBaseNanotrasen
   abstract: true
   name: sucette nanotrasen emballée
-  description: Une sucette probablement coûteuse. Elle est toujours dans son emballage doré.
+  description: Une sucette sans doute chère. Elle est toujours dans son emballage doré.
   components:
   - type: Tag
     tags:
@@ -159,7 +159,7 @@
   id: FoodSnackLollypopBaseNanotrasen
   abstract: true
   name: sucette nanotrasen
-  description: Une sucette au goût coûteux.
+  description: Une sucette qui a goût de richesse.
   components:
   - type: FlavorProfile
     flavors:
@@ -191,7 +191,7 @@
   parent: [FoodSnackLollypopWrappedBase, BaseCentcommContraband]
   id: FoodSnackLollypopWrappedBaseCentcomm
   name: sucette centcomm emballée
-  description: Une sucette très coûteuse. Elle est toujours dans son emballage doré.
+  description: Une sucette qui a goût de richesse. Elle est toujours dans son emballage doré.
   abstract: true
   components:
   - type: Tag
@@ -211,7 +211,7 @@
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypopBaseCentcomm
   name: sucette centcomm
-  description: Une sucette au goût extrêmement coûteux. Peut contenir une quantité démesurée de produits chimiques.
+  description: Une sucette qui a goût de richesse. Peut contenir une quantité démesurée de produits chimiques.
   abstract: true
   components:
   - type: FlavorProfile
@@ -244,7 +244,7 @@
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrapped
   name: sucette emballée
-  description: Un simple vieux sucette. Il est toujours dans son emballage.
+  description: Une vieille sucette simple. Elle est toujours dans son emballage.
   components:
   - type: Tag
     tags:
@@ -260,7 +260,7 @@
   parent: FoodSnackLollypopBase
   id: FoodSnackLollypop
   name: sucette
-  description: Un simple vieux sucette. Il est aromatisé à la cerise !
+  description: Une vieille sucette simple. Elle est aromatisé à la cerise !
   components:
   - type: Tag
     tags:
@@ -1293,7 +1293,7 @@
   parent: FoodSnackLollypopBaseSyndicate
   id: FoodSnackLollypopSyndicate
   name: sucette
-  description: Un simple vieux sucette. Celui-ci vous donne un mauvais pressentiment. # Seul moyen de les distinguer. Lisez vos descriptions !
+  description: Une vieille sucette simple. Celle-ci vous donne un mauvais pressentiment.
   components:
   - type: Tag
     tags:
@@ -1983,7 +1983,7 @@
   id: FoodSnackLollypopMouseBites
   name: sucette morsures de souris
   suffix: mouse bites
-  description: Il a besoin de morsures de souris pour vivre.
+  description: Elle a besoin de morsures de souris pour vivre.
   components:
   - type: Tag
     tags:
@@ -2012,9 +2012,9 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBase
   id: FoodSnackLollypopWrappedMindbreakerToxin
-  name: sucette brise-esprit emballée
+  name: sucette mindbreaker emballée
   suffix: mindbreaker toxin
-  description: Une sucette remplie de toxine brise-esprit. Elle est toujours dans son emballage.
+  description: Une sucette remplie de toxine mindbreaker. Elle est toujours dans son emballage.
   components:
   - type: Tag
     tags:
@@ -2067,7 +2067,7 @@
   parent: FoodPacketTrash
   id: FoodPacketLollypopTrash
   name: bâton de sucette
-  description: Il est légèrement mâché.
+  description: Elle est légèrement mâchée.
   components:
   - type: Tag
     tags:
