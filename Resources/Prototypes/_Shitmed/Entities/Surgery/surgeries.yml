@@ -201,7 +201,7 @@
 - type: entity
   parent: BasePartSurgery
   id: SurgeryExtractForeignBody
-  name: Extract Foreign Body
+  name: Extraire le corps étranger
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision
@@ -214,7 +214,7 @@
 - type: entity
   parent: BasePartSurgery
   id: SurgeryRepairBrainDamage
-  name: Repair Brain Damage
+  name: Réparer les dommages cérébraux
   components:
   - type: Surgery
     requirement: SurgeryOpenIncision

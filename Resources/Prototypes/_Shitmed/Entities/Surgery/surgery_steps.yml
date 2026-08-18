@@ -185,7 +185,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExtractForeignBody
-  name: Extract foreign body
+  name: Extraire le corps étranger
   components:
   - type: SurgeryStep
     tool:
@@ -203,7 +203,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBrain
-  name: Repair the brain
+  name: Réparer le cerveau
   components:
   - type: SurgeryStep
     tool:
