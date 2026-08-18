@@ -3,7 +3,7 @@ using Robust.Client.UserInterface;
 
 namespace Content.Client._Harvest.Botany.PlantHealthAnalyzer;
 
-public sealed class PlantHealthAnalyzerBoundUserInterface(EntityUid owner, Enum uiKey)
+public sealed class BotanyPlantAnalyzerBoundUserInterface(EntityUid owner, Enum uiKey)
     : BoundUserInterface(owner, uiKey)
 {
     private PlantHealthAnalyzerWindow? _window;

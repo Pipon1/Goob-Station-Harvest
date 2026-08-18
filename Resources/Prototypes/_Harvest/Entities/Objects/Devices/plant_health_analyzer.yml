@@ -22,5 +22,5 @@
   - type: UserInterface
     interfaces:
       enum.PlantHealthAnalyzerUiKey.Key:
-        type: PlantHealthAnalyzerBoundUserInterface
+        type: BotanyPlantAnalyzerBoundUserInterface
         interactionRange: 2
