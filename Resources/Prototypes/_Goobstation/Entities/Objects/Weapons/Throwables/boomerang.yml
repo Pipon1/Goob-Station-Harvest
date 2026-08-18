@@ -4,7 +4,7 @@
   id: boomerang
   parent: BaseItem
   name: boomerang
-  description: Made from wood. You should give this to a monkey.
+  description: Fabriqué en bois. Vous devriez le donner à un singe.
   components:
   - type: LandAtCursor
   - type: Sprite
@@ -27,7 +27,7 @@
 - type: entity
   id: boomerangIncomplete
   parent: BaseItem
-  name: incomplete boomerang
+  name: boomerang incomplet
   description: Appliquez un couteau pour obtenir un boomerang frais.
   components:
   - type: Sprite

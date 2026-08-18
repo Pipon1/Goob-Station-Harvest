@@ -39,7 +39,7 @@
   id: SpearTelescopic
   parent: [BaseItem, BaseSecurityContraband]
   name: lance télescopique
-  description: Une lance compacte et jetable avec un manche rétractable. Conçue pour le combat au corps à corps et à distance.
+  description: Une lance compacte et jetable avec un manche rétractable. Conçue pour le combat au corps-à-corps et à distance.
   components:
   - type: Item
     size: Normal

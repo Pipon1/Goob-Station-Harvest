@@ -84,7 +84,7 @@
   parent: [FoodSnackLollypopWrappedBase, BaseSyndicateContraband]
   id: FoodSnackLollypopWrappedBaseSyndicate
   abstract: true
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   description: Une sucette probablement dangereuse remplie de produits chimiques. Elle est toujours dans son emballage.
   components:
   - type: Tag
@@ -1273,7 +1273,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedBaseSyndicate
   id: FoodSnackLollypopWrappedSyndicate
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   description: Fabriquée par Donk co, parfaite pour stocker des produits chimiques discrètement.
   components:
   - type: Tag
@@ -1323,7 +1323,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedLexorin
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: lexorin
   description: Une sucette contenant du lexorin. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1362,7 +1362,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedRomerol
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: romerol
   description: Une sucette contenant du romérol. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1401,7 +1401,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedNocturine
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: nocturine
   description: Une sucette remplie de nocturine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1446,7 +1446,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedHyperzine
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: hyperzine
   description: Une sucette remplie d'hyperzine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1485,7 +1485,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedSynaptizine
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: synaptizine
   description: Une sucette à la synaptizine. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1524,7 +1524,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedCarpoToxin
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: carpotoxin
   description: Qui diable est Audrey White ?
   components:
@@ -1613,7 +1613,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedPhlogiston
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: phlogiston
   description: Une sucette contenant du phlogistique. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1652,7 +1652,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedCyanide
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: cyanide
   description: Une sucette contenant du cyanure. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1691,7 +1691,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedTirizene
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: tirizene
   description: Une sucette contenant de la tirizène. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1730,7 +1730,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedAnacea
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: anacea
   description: Une sucette contenant de l'anacée. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1769,7 +1769,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedPotassiumBomb
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: potassium bomb
   description: Une sucette explosive. Semble tout à fait ordinaire une fois déballée.
   components:
@@ -1964,7 +1964,7 @@
 - type: entity
   parent: FoodSnackLollypopWrappedSyndicate
   id: FoodSnackLollypopWrappedMouseBites
-  name: sucette syndiquée emballée
+  name: sucette du syndicat emballée
   suffix: mouse bites
   description: Une sucette contenant des morsures de souris. Semble tout à fait ordinaire une fois déballée.
   components:

@@ -339,7 +339,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateEngineer
-  name: sapper modsuit chestplate
+  name: plastron de modsuit sapeur
   description: Une plaque d'armure robuste pour se défendre contre les conditions atmosphériques difficiles et les ondes de choc.
   categories: [ HideSpawnMenu ]
   components:
@@ -497,7 +497,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateResearchDirector
-  name: minerva modsuit chestplate
+  name: plastron de modsuit minerve
   description: Un gros morceau d'acier résistant aux bombes et aux battes.
   categories: [ HideSpawnMenu ]
   components:
@@ -578,8 +578,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateCaptain
-  name: magnate modsuit chestplate
-  description: This shit is made out of DIAMONDS, man, this armor was forged with GEMS.
+  name: plastron de modsuit magnat
+  description: Ce bordel est fait de DIAMANTS, mec, cette armure a été forgée avec des GEMMES.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

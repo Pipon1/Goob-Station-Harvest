@@ -4,7 +4,7 @@
   parent: EncryptionKey
   id: EncryptionKeyFuture
   name: clé de chiffrement futuriste
-  description: whisky écho... qu'est-ce qui suit ?
+  description: Whisky écho... qu'est-ce qui suit ?
   components:
   - type: EncryptionKey
     channels:

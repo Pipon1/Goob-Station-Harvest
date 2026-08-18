@@ -59,9 +59,9 @@
       - SecBeltEquip
 
 - type: entity
-  name: medical cartridge autoinjector
+  name: auto-injecteur à cartouche médical
   parent: [ BaseCartridgeAutoinjector , BaseMedicalContraband ]
-  description: Used for rapid administration of medicine. Uses cartridges printable at the medical techfab.
+  description: Utilisé pour l'administration rapide de médicaments. Utilise des cartouches imprimables au techfab médical.
   id: ParamedHypo
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
         visible: false
 
 - type: entity # This ones weird.
-  name: amnestic spray
+  name: spray amnésiant
   parent: [BaseItem, BaseCentcommContraband]
   id: AmnestizineHypospray
   suffix: NE PAS PLACER
@@ -114,7 +114,7 @@
 # Autoinjector Cartridges
 
 - type: entity
-  name: autoinjector cartridge
+  name: cartouche d'auto-injecteur
   parent: BaseItem
   description: Utilisée dans un auto-injecteur à cartouche.
   id: BaseAutoinjectorCartridge
@@ -138,7 +138,7 @@
       - SecBeltEquip
 
 - type: entity
-  name: adrenaline autoinjector cartridge
+  name: cartouche d'auto-injecteur adrénaline
   parent: [ BaseSecurityMedicalContraband , BaseAutoinjectorCartridge ]
   description: Contient 7u d'épinéphrine et 3u d'acide tranexamique, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeEpinephrine
@@ -159,7 +159,7 @@
         Quantity: 3 # Fully stops bleeding
 
 - type: entity
-  name: airloss autoinjector cartridge
+  name: cartouche d'auto-injecteur asphyxie
   parent: [ BaseSecurityMedicalContraband , BaseAutoinjectorCartridge ]
   description: Contient 7u de solution saline et 3u de dexaline plus, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeSaline
@@ -180,7 +180,7 @@
         Quantity: 3
 
 - type: entity
-  name: brute autoinjector cartridge
+  name: cartouche d'auto-injecteur contondant
   parent: [ BaseSecurityMedicalContraband , BaseAutoinjectorCartridge ]
   description: Contient 4u de bicaridine, 4u d'ibuprofène, 1u d'acide salicylique et 1u d'acide tranexamique, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeBicaridine
@@ -206,7 +206,7 @@
   #If you have a full dmg spread, it'll heal ~60 dmg , down from previous 96
   #It will heal 20 dmg if you only have one dmg type and you have more than 25 dmg (see salicylic acid)
 - type: entity
-  name: burn autoinjector cartridge
+  name: cartouche d'auto-injecteur brûlure
   parent: [ BaseSecurityMedicalContraband , BaseAutoinjectorCartridge ]
   description: Contient 5u de kélotane, 4u de dermaline, 1u de léporazine, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeDermaline
@@ -230,7 +230,7 @@
 #what were they cooking here before, 114 total possible dmg heal was crazyyy
 #~21 dmg healed/dmg type (unless its cold, then its a lil more), doesnt heal caustic all that well
 - type: entity
-  name: emergency autoinjector cartridge
+  name: cartouche d'auto-injecteur d'urgence
   parent: [ BaseSecurityMedicalContraband , BaseAutoinjectorCartridge ]
   description: Contient 10u d'atropine, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeAtropine
@@ -249,7 +249,7 @@
         Quantity: 10
 
 - type: entity
-  name: piercing autoinjector cartridge
+  name: cartouche d'auto-injecteur perforant
   parent: [ BaseSyndicateContraband , BaseAutoinjectorCartridge ]
   description: Contient 10u de puncturase, utilisée dans un auto-injecteur à cartouche.
   id: CartridgePuncturase
@@ -268,7 +268,7 @@
         Quantity: 10
 
 - type: entity
-  name: stimulant autoinjector cartridge
+  name: cartouche d'auto-injecteur stimulant
   parent: [ BaseSyndicateContraband , BaseAutoinjectorCartridge ]
   description: Contient 10u d'éphédrine, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeEphedrine
@@ -287,7 +287,7 @@
         Quantity: 10
 
 - type: entity
-  name: sedative autoinjector cartridge
+  name: cartouche d'auto-injecteur sédatif
   parent: [ BaseSyndicateContraband , BaseAutoinjectorCartridge ]
   description: Contient 4u de tirizène, 3u d'impédrezène et 3u d'halopéridol, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeTirizene
@@ -312,7 +312,7 @@
 # Q - Why is this edible?
 # A - Because the dispenser reminded me of a pez dispenser, and it'd be funny if you could eat them.
 - type: entity
-  name: amnestic autoinjector cartridge
+  name: cartouche d'auto-injecteur amnésiant
   parent: [ BaseCentcommContraband , BaseAutoinjectorCartridge, EdibleBase ]
   description: Contient 10u d'acide dimtréméthique-neuraminyle, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeAmnestic
@@ -348,7 +348,7 @@
 # Medipens
 
 - type: entity
-  name: futuristic medipen
+  name: médipen futuriste
   parent: ChemicalMedipen
   id: StasiziumAutoInjector
   suffix: NE PAS PLACER
@@ -372,7 +372,7 @@
           Quantity: 10
 
 - type: entity
-  name: centcomm advanced stimulant
+  name: stimulant avancé centcomm
   parent: [ChemicalMedipen, BaseCentcommContraband]
   id: CentcommStimpack
   suffix: NE PAS PLACER
@@ -402,7 +402,7 @@
     price: 500
 
 - type: entity
-  name: biohazard medipen
+  name: médipen biohazard
   parent: ChemicalMedipen
   id: AmbuzolMedipen
   suffix: NE PAS PLACER
@@ -432,7 +432,7 @@
     - EmergencyMedipen
 
 - type: entity
-  name: advanced biohazard medipen
+  name: médipen biohazard avancé
   parent: ChemicalMedipen
   id: AmbuzolPlusMedipen
   suffix: NE PAS PLACER
@@ -464,9 +464,9 @@
 # Actual hyposprays
 
 - type: entity
-  name: centcomm hypospray
+  name: hypospray centcomm
   parent: [BaseItem, BaseCentcommContraband]
-  description: Reserved for Nanotrasen's top doctors. It utilizes experimental bluespace technology.
+  description: Réservé aux meilleurs médecins de Nanotrasen. Il utilise une technologie bluespace expérimentale.
   id: CentCommHypo
   components:
   - type: Sprite
@@ -497,8 +497,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: RomerolMedipen
-  name: romerol auto-injector
-  description: A non-refillable medipen containing multiple doses of "Braaaains".
+  name: auto-injecteur romerol
+  description: "Un médipen non rechargeable contenant plusieurs doses de « Cerveauuux »."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi

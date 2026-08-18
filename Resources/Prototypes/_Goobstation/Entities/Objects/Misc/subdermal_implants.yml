@@ -114,7 +114,7 @@
   parent: BaseSubdermalImplant
   id: SpaceProofImplant
   name: implant de protection spatiale
-  description: This implant allows the user to survive in space and without air.
+  description: Cet implant permet à l'utilisateur de survivre dans l'espace et sans air.
   categories: [ HideSpawnMenu ]
   components:
   - type: ComponentsImplant
@@ -240,7 +240,7 @@
   parent: BaseSubdermalImplant
   id: AntagImplantSpaceNinja
   name: implant de ninja
-  description: This implant allows the user to gain the skills of a space ninja.
+  description: Cet implant permet à l'utilisateur d'acquérir les compétences d'un ninja de l'espace.
   categories: [ HideSpawnMenu ]
   components:
   - type: ComponentsImplant

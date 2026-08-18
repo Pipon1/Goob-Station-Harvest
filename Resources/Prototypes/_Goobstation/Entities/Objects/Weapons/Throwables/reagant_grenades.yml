@@ -3,8 +3,8 @@
 - type: entity
   parent: SmokeGrenade
   id: LubeGrenade
-  name: Lube Grenade
-  description: A grenade that releases Space Lube foam.
+  name: grenade à lubrifiant
+  description: Une grenade qui libère de la mousse de Space Lube.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/foamdart.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: SmokeGrenade
   id: GlueGrenade
-  name: Glue Grenade
-  description: A grenade that releases Space Glue foam.
+  name: grenade à colle
+  description: Une grenade qui libère de la mousse de Space Glue.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/smoke.rsi
