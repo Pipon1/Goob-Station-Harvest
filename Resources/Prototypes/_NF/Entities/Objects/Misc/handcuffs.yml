@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: web cocoon
-  description: Strong web cocoon used to restrain preys or just criminals.
+  name: cocon en toile
+  description: Cocon en toile résistante utilisé pour retenir les proies ou simplement les criminels.
   id: WebCocoon
   parent: Handcuffs
   components:

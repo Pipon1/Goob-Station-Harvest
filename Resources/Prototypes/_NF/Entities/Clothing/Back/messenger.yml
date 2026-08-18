@@ -20,7 +20,7 @@
   parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessenger
   name: sac bandoulière
-  description: Un sac robuste pour keeping small stuff.
+  description: Un sac robuste pour ranger les petites affaires.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/messenger.rsi
