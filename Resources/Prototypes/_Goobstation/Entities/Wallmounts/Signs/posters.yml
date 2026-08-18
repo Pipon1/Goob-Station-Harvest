@@ -4,7 +4,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobWorkHard
-  name: "Work Hard"
+  name: "Travaille Dur"
   description: "Si vous travaillez suffisamment dur, VOUS pourriez gagner votre propre Débouchoir Plus Nanotrasen ! Assurez-vous de survivre assez longtemps pour l'échanger !.."
   components:
   - type: Sprite
@@ -14,8 +14,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobMakeshift
-  name: "Makeshift Clown Poster"
-  description: "A makeshift poster consisting of a crayon drawing upon a paper stuck to the wall with some horrible mix of glue and banana paste. Upon it is inscribed: 'Clowne was herE !!'."
+  name: "Affiche de Clown de fortune"
+  description: "Un affiche de fortune constituée d'un dessin au crayon sur du papier collé au mur avec un horrible mélange de colle et de purée de banane. Sur celui-ci est inscrit : 'Clowne était ici !!'."
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -24,7 +24,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobCan
-  name: "Fallen Can"
+  name: "Canette Tombée"
   description: "Une affiche vous rappelant de nettoyer après vous, personne n'aime les déchets ! Ou c'est probablement ce que ça veut dire. Ça fait si longtemps qu'elle est là, le sens original a peut-être disparu…"
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobFaded
-  name: "Faded Poster"
+  name: "Affiche délavée"
   description: "Était-ce une affiche de recherché ? Une prime sur un humain ? Ce n'est pas très clair. Vous pouvez dire, cependant, que la cible n'est probablement plus en liberté..."
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobCandle
-  name: "Magic Candle"
+  name: "Bougie Magique"
   description: "Le feu en vous brûle brillamment. Entretenez-le et prospérez. Négligez-le et dépérissez."
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
   parent: PosterBase
   id: PosterLegitGoobSuperMatter
   name: "Super-Matter"
-  description: "Nanotrasen's really getting creative with these motivational posters. Using the cause of death of thousands of people as a source of motivation? Brilliant. Now, if only it were actually effective..."
+  description: "Nanotrasen devient vraiment créatif avec ces affiches motivantes. Utiliser la cause de la mort de milliers de personnes comme source de motivation ? Brillant. Maintenant, si seulement c'était réellement efficace..."
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobWatching
-  name: "Always Watching"
-  description: "A good reminder that the Station AI is keeping everyone safe by eliminating all semblance of privacy! Aren't you glad it's probably staring at you right now?"
+  name: "Toujours en train de regarder"
+  description: "Un bon rappel que l'IA de la station garde tout le monde en sécurité en éliminant toute semblance de confidentialité ! Tu es probablement content qu'elle puisse te fixer en ce moment ?"
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -84,7 +84,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobSmokeBreak
-  name: "Smoke Break"
+  name: "Pause Clope"
   description: "Une affiche vous rappelant la durée 'optimale' des pauses cigarettes approuvées par Nanotrasen. Ils l'ont jugée suffisamment longue en raison d'un agent de sécurité qui aurait consommé environ 500 cigarettes en 5 minutes. Elle a été maladroitement modifiée pour tenir compte de son récente augmentation de 10 minutes, demandée quasi-unanimement par les Capitaines de Station sondés. La couleur du fond est légèrement irritante, mais vous ne savez pas trop pourquoi."
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobWallMeat
-  name: "Wall Meat"
-  description: "The objectively best way to store food is to hide it in the walls where nobody can ever find it! So convenient! So useful! So discrete! So cool! Agreed-upon by vampires everywhere."
+  name: "Viande Murale"
+  description: "La façon objectivement optimale de stocker de la nourriture est de la cacher dans les murs où personne ne peut jamais la trouver ! Alors pratique ! Alors utile ! Alors discret ! Alors cool ! Approuvé par les vampires partout."
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobCoolS
-  name: "Cool S"
-  description: "It seems some crewmember cut out part of a graffiti'd maintenance closet and stuck it onto this wall. And who can blame them? This thing is siiiick."
+  name: "S Cool"
+  description: "Il semble qu'un membre d'équipage ait découpé une partie d'un placard de maintenance peinturluré et l'ait collé sur ce mur. Et qui peut leur reprocher ? Cette chose est vraiment géniale."
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -114,7 +114,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobBigBrotherAI
-  name: "AI Sees All"
+  name: "L'IA voit tout"
   description: "Une affiche qui vous rappelle que vos secrets ne sont pas cachés à votre IA de Station."
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobDurkPlush
-  name: "Durk Plushie Advertisement"
+  name: "Publicité peluche Durk"
   description: "Une affiche représentant une sorte de personnage en peluche bientôt livré dans une station près de chez vous."
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
   parent: PosterBase
   id: PosterLegitGoobWelderBomb
   name: "Dangers des Réservoirs de Carburant"
-  description: "A poster depicting a leaking fuel tank... something inside you wonders what would happen if you put a welding torch near it"
+  description: "Une affiche représentant un réservoir de carburant qui fuit... quelque chose à l'intérieur de toi te demande ce qui se passerait si tu mettais un chalumeau de soudure près de lui"
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -144,7 +144,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobLokoAdvertisement
-  name: "14 Loko Advertisement"
+  name: "Publicité 14 Loko"
   description: "Une affiche publicitaire pour une boisson 14 Loko... vous vous sentez soudainement assoiffé en la regardant."
   components:
   - type: Sprite
@@ -154,7 +154,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobLouieVote
-  name: "Political Advertisement"
+  name: "Publicité politique"
   description: "Une affiche pour une publicité politique promouvant la campagne d'un rat nommé Louie... Vous avez l'impression de devoir voter pour lui."
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobSlowDownClown
-  name: "Slow Down, Clown!"
+  name: "Ralentis, Clown !"
   description: "Une affiche vous disant de ralentir autour des Clowns."
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobNTRAdvert
-  name: "NTRep Recruitment"
+  name: "Recrutement NTRep"
   description: "Une affiche publicitaire pour des postes de Représentant Nanotrasen ouverts, vous devriez peut-être postuler."
   components:
   - type: Sprite
@@ -184,8 +184,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandGoobChuckler
-  name: "The Chuckler"
-  description: "A poster depicting a clearly suffering clown. You can feel the sadness and anger behind the facade of a smile"
+  name: "Le Glousseur"
+  description: "Une affiche représentant un clown clairement souffrant. Tu peux ressentir la tristesse et la colère derrière la façade d'un sourire"
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
@@ -194,7 +194,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandGoobYakub
-  name: "Yakub Poster"
+  name: "Affiche Yakub"
   description: "Vos pouvoirs yakubiens de trickologie infusés en vous par Yakub se renforcent à mesure que vous fixez l'affiche."
   components:
   - type: Sprite
@@ -204,8 +204,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandGoobRedFOSS
-  name: "Red Tux Poster"
-  description: "A poster calling free open source software communism, you are unsure if the poster author is for or against this."
+  name: "Affiche Tux Rouge"
+  description: "Une affiche appelant le logiciel libre et open source du communisme, vous n'êtes pas sûr si l'auteur de l'affiche est pour ou contre ceci."
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/posters.rsi
