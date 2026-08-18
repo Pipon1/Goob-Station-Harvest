@@ -202,7 +202,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTrainer
-  name: NCT's hat
+  name: casquette de formateur NCT
   description: Une casquette émise aux formateurs de carrière Nanotrasen. Vous donne un air stylé.
   components:
   - type: Sprite
@@ -213,7 +213,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBeretTrainer
-  name: NCT's beret
+  name: béret de formateur NCT
   description: Un béret émis aux formateurs de carrière Nanotrasen. Vous donne un air stylé.
   components:
   - type: Sprite

@@ -145,7 +145,7 @@
   id: VehicleATV
   parent: BaseVehicle
   name: VTT
-  description: Véhicule Toutes-Dalles.
+  description: Véhicule Toutes-Tuiles.
   components:
   - type: Sprite
     sprite: Objects/Vehicles/atv.rsi

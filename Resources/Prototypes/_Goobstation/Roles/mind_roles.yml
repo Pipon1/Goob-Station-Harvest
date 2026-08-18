@@ -150,7 +150,7 @@
 - type: entity
   parent: [ MindRoleGhostRoleFreeAgentGoob ]
   id: MindRoleGhostRoleFreeAgentSecurityGoob
-  name: Ghost Role (Free Agent)
+  name: Rôle Fantôme (Agent Libre)
   components:
   - type: MindRole
     roleType: FreeAgent

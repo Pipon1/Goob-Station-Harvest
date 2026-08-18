@@ -224,7 +224,7 @@
 - type: entity
   parent: BaseNullrod
   id: ArrythmicKnife
-  name: arrythmic knife
+  name: couteau arythmique
   description: On dit que la peur est le vrai tueur de l'esprit, mais les poignarder à la tête marche aussi. Vous ralentit et vous accélère aléatoirement.
   components:
   - type: Nullrod
@@ -347,7 +347,7 @@
     - AthiestsFedora
 
 - type: entity
-  name: Bulwark
+  name: Rempart
   parent: BaseNullrod
   id: Bulwark
   description: Un bouclier à deux mains absolument énorme, très difficile à utiliser s'il n'est pas planté en place.
@@ -412,10 +412,10 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: Honkmother's Maw
+  name: Gueule de la Honkmother
   parent: BaseNullrod
   id: HonkmotherMaw
-  description: De-vant vous s'étend un chemin des plus hilarants.
+  description: Devant vous s'étend un chemin des plus hilarants.
   components:
   - type: Item
     size: Huge
@@ -454,8 +454,8 @@
 - type: entity
   parent: BaseNullrod
   id: UristHand
-  name: Grey Emperor's Glove
-  description: The tide beckons.
+  name: gant de l'empereur gris
+  description: La marée appelle.
   suffix: Inamovible
   components:
   - type: PointLight
@@ -801,7 +801,7 @@
   - type: ThrowableBlocked # Goobstation
 
 - type: entity
-  name: dragon's tail
+  name: queue de dragon
   parent: BaseNullrod
   id: DragonsTail
   description: Une queue de dragon empalée sur un bâton. Recèle toujours ce profond pouvoir ardent.
