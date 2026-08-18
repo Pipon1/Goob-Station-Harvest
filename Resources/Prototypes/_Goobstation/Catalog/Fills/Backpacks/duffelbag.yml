@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateMedicHardsuitBundle
-  name: paquet hardsuit médical syndiqué
-  description: "Un hardsuit médical de combat d'occasion, en paquet pour votre LARP."
+  name: kit hardsuit médical du syndicat
+  description: "Un hardsuit médical de combat d'occasion, en kit pour votre LARP."
   components:
   - type: StorageFill
     contents:
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  name: paquet furtif Cybersun
-  description: "Un paquet hardsuit furtif Cybersun avancé."
+  name: kit furtif Cybersun
+  description: "Un kit hardsuit furtif Cybersun avancé."
   components:
   - type: StorageFill
     contents:
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateBurner
-  name: Paquet Brûleur
+  name: kit brûleur
   description: "Un fusil Brûleur de gros calibre, livré avec des munitions anti-matériel et explosives."
   components:
   - type: StorageFill
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
-  name: Paquet M-90
-  description: "Un paquet contenant le fusil d'assaut M-90 du Syndicat, avec 2 chargeurs supplémentaires."
+  name: kit M-90
+  description: "Un kit contenant le fusil d'assaut M-90 du Syndicat, avec 2 chargeurs supplémentaires."
   components:
   - type: StorageFill
     contents:
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledWSPR
-  name: Paquet WSPR
-  description: "Un paquet contenant le fusil d'assaut WSPR du Syndicat, avec 2 chargeurs supplémentaires."
+  name: kit WSPR
+  description: "Un kit contenant le fusil d'assaut WSPR du Syndicat, avec 2 chargeurs supplémentaires."
   components:
   - type: StorageFill
     contents:
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledWhimsy
-  name: paquet joie & fantaisie syndiqué
-  description: "Un paquet contenant tout ce dont un Syndiqué a besoin pour passer un bon moment."
+  name: kit joie & fantaisie syndiqué
+  description: "Un kit contenant tout ce dont un Syndiqué a besoin pour passer un bon moment."
   components:
   - type: StorageFill
     contents:
@@ -92,8 +92,8 @@
 - type: entity # GOD I FUCKING LOVE GAMBLING
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCandy
-  name: paquet bonbons
-  description: "Un paquet bourré de bonbons jusqu'à ras bord. Quelqu'un a la dent sucrée !"
+  name: kit bonbons
+  description: "Un kit bourré de bonbons jusqu'à ras bord. Quelqu'un a la dent sucrée !"
   components:
   - type: StorageFill
     contents:
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledHE1SG8
-  name: Paquet HE1S-G8
-  description: Ce paquet contient le fusil HE1S-G8 accompagné de 19 cartouches pour un peu plus de fun.
+  name: kit HE1S-G8
+  description: Ce kit contient le fusil HE1S-G8 accompagné de 19 cartouches pour un peu plus de fun.
   components:
   - type: StorageFill
     contents:
@@ -121,7 +121,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelContractorHardsuitBundle
-  name: Paquet Hardsuit Contractuel
+  name: kit Hardsuit contractor
   description: "Contient le hardsuit approuvé par la Guilde."
   components:
   - type: StorageFill
@@ -136,7 +136,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelTennisGame
-  name: paquet jeu de tennis
+  name: kit jeu de tennis
   description: "Contient tout ce qu'il faut pour commencer un match de tennis !"
   components:
   - type: StorageFill
