@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckPonchoBlack
-  name: black cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold. This one is black.
+  name: poncho d'hiver noir
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. En réalité, il gratte, est étouffant, et un peu ample - mais au moins on n'a pas froid. Celui-ci est noir.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/black.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoArctic
-  name: cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold.
+  name: poncho d'hiver
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. En réalité, il gratte, est étouffant, et un peu ample - mais au moins on n'a pas froid.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/arctic.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSyndicate
-  name: black and red cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold. This one seems vaguely sinister...
+  name: poncho d'hiver noir et rouge
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. En réalité, il gratte, est étouffant, et un peu ample - mais au moins on n'a pas froid. Celui-ci a l'air vaguement sinistre...
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/syndicate.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallPink
-  name: small pink cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size. This one is pink and white.
+  name: petit poncho d'hiver rose
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. Cette version stylée existe en taille plus petite. Celui-ci est rose et blanc.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/pinksmall.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallRed
-  name: small red cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is red and black.
+  name: petit poncho d'hiver rouge
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. Cette version stylée existe en taille plus petite avec un design plus mignon. Celui-ci est rouge et noir.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/redsmall.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallPurple
-  name: small purple cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is purple with a fish decal.
+  name: petit poncho d'hiver violet
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. Cette version stylée existe en taille plus petite avec un design plus mignon. Celui-ci est violet avec un décalque de poisson.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/purplesmall.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallBlack
-  name: small black cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size. This one is black.
+  name: petit poncho d'hiver noir
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. Cette version existe en taille plus petite. Celui-ci est noir.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/blacksmall.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallWhite
-  name: small cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size.
+  name: petit poncho d'hiver
+  description: Le Poncho Grand Froid, annoncé comme un chef-d'œuvre de protection élémentaire. Cette version existe en taille plus petite.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/whitesmall.rsi

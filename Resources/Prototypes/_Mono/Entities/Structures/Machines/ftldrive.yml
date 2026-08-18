@@ -46,8 +46,8 @@
 - type: entity
   id: MachineFTLDrive
   parent: FTLDriveBase
-  name: FSS-512 bluespace drive
-  description: Low-power bluespace FTL engine that increases FTL radius.
+  name: moteur FTL FSS-512 bluespace
+  description: Moteur FTL bluespace à faible puissance qui augmente le rayon FTL.
   components:
   - type: Sprite
     sprite: _Mono/Structures/ShuttleComponents/drive.rsi
@@ -76,8 +76,8 @@
 - type: entity
   id: MachineFTLDriveHigh
   parent: FTLDriveBase
-  name: CTLA-2048 bluespace drive
-  description: High-power bluespace FTL engine that drastically extends FTL radius. Has high cooldown time.
+  name: moteur FTL CTLA-2048 bluespace
+  description: Moteur FTL bluespace à haute puissance qui étend considérablement le rayon FTL. Temps de recharge élevé.
   components:
   - type: Sprite
     sprite: _Mono/Structures/ShuttleComponents/drive.rsi
@@ -106,8 +106,8 @@
 - type: entity
   id: MachineFTLDriveAutomated
   parent: FTLDriveBase
-  name: CTLA-2048 bluespace drive
-  description: FTL Drive for Fixed Route Transport, has short cooldown at the cost of only working for Nanotrasen's preengineered transport routes
+  name: moteur FTL CTLA-2048 bluespace
+  description: Moteur FTL pour transport à route fixe, temps de recharge court au prix de ne fonctionner que pour les routes de transport préconçues de Nanotrasen
   components:
   - type: Sprite
     sprite: _Mono/Structures/ShuttleComponents/drive.rsi
