@@ -1,7 +1,7 @@
 - type: entity
   id: XenoWeeds
-  name: weeds
-  description: Weird black weeds...
+  name: herbes
+  description: De bizarres herbes noires...
   placement:
     mode: SnapgridCenter
     snap:
@@ -86,8 +86,8 @@
 - type: entity
   parent: XenoWeeds
   id: XenoWeedsSource
-  name: weed node
-  description: A weird, pulsating node
+  name: nœud d'herbes
+  description: Un nœud bizarre et pulsant
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -110,7 +110,7 @@
 
 - type: entity
   id: XenoWeedsWall
-  name: weeds
+  name: herbes murales
   placement:
     mode: SnapgridCenter
     snap:
@@ -170,8 +170,8 @@
 - type: entity
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSource
-  name: hardy weed node
-  description: A weird, pulsating node
+  name: nœud d'herbes robustes
+  description: Un nœud bizarre et pulsant
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi

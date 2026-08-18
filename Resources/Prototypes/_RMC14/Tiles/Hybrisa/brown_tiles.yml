@@ -2,12 +2,12 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorHybrisaBrownBase
-  name: tiles-cm-default-brown
+  name: tiles-cm-défaut-marron
 
 - type: tile
   parent: RMCFloorHybrisaBrownBase
   id: RMCFloorHybrisaBrown
-  name: brown metal tile
+  name: dalle de métal marron
   sprite: /Textures/_RMC14/Tiles/hybrisa/zbrownfloorfull1.png
 
 - type: tile

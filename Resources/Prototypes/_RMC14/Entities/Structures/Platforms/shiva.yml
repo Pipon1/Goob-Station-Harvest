@@ -2,8 +2,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformShivaRock
-  name: ice rock edge
-  description: A solid chunk of desolate rocks and ice. Looks like you could climb it with some difficulty.
+  name: bordure de rocher de glace
+  description: Un bloc solide de rochers et de glace désolés. On dirait que vous pourriez l'escalader avec un peu de difficulté.
   components:
   - type: Sprite
     state: strata_platform
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformShivaRockBroken
-  name: destroyed ice rock edge
-  description: A solid chunk of desolate rocks and ice. Looks like you could climb it with some difficulty. It has been destroyed.
+  name: bordure de rocher de glace détruite
+  description: Un bloc solide de rochers et de glace désolés. On dirait que vous pourriez l'escalader avec un peu de difficulté. Elle a été détruite.
   components:
   - type: Sprite
     state: strata_platform_broken
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformShivaRockCornerSmall
-  name: ice rock corner
-  description: A solid chunk of desolate rocks and ice.
+  name: coin de rocher de glace
+  description: Un bloc solide de rochers et de glace désolés.
   components:
   - type: Sprite
     state: strata_platform_deco

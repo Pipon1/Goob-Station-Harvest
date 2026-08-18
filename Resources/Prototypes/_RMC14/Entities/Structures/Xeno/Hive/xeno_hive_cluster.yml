@@ -1,8 +1,8 @@
 - type: entity
   id: HiveClusterXeno
   parent: BaseHiveStructure
-  name: Hive Cluster
-  description: A large clump of gooey mass. It rhythmically pulses, as if its pumping something into the weeds below...
+  name: Amas de ruche
+  description: Une grosse masse gluante. Elle pulse rythmiquement, comme si elle pompait quelque chose dans les herbes en dessous...
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/hive_cluster.rsi
