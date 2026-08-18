@@ -2,7 +2,7 @@
 
 - type: entity
   id: SpeedLoaderMatebaAP
-  name: "centcomm speed loader (.45 magnum armor-piercing)"
+  name: "chargeur rapide CentComm (.45 magnum perforant)"
   parent: [SpeedLoaderMagnumAP, BaseCentcommContraband]
   components:
   - type: BallisticAmmoProvider

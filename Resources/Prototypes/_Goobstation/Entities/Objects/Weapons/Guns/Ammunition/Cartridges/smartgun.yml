@@ -3,7 +3,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseSecurityContraband ]
   id: CartridgeSmart
-  name: cartridge (.160 smart)
+  name: cartouche (.160 smart)
   description: Une balle intelligente .160 avec une petite charge de propulseur booster en bas.
   components:
   - type: Tag
