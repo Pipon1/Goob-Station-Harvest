@@ -9,7 +9,7 @@
     - MobBloodstream
     - MobFlammable
   id: MobGondola
-  description: Having no hands he embodies the Taoist principle of wu-wei (non-action) while his smiling facial expression shows his utter and complete acceptance of the world as it is.
+  description: N'ayant pas de mains, il incarne le principe taoïste du wu-wei (non-action) tandis que son expression faciale souriante témoigne de son acceptation totale et complète du monde tel qu'il est.
   components:
   - type: Hunger
     thresholds:
@@ -128,10 +128,10 @@
   - type: Perishable
 
 - type: entity
-  name: syndiroach
+  name: syndimite
   id: MobMothSyndy
   parent: MobMothroach
-  description: Explosive moth.
+  description: Mite explosive.
   components:
   - type: Sprite
     sprite: _Goobstation/Mobs/Animals/syndiroach.rsi
@@ -168,11 +168,11 @@
     - TauCetiBasic # Needs to understand your nukie ops.
 
 - type: entity
-  name: syndie bee
+  name: abeille syndie
   suffix: Angry, syndicate
   parent: [ MobAngryBee ]
   id: MobSyndieAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: Comme c'est gentil une abeille. Oh non, elle a l'air en colère et veut ma pizza.
   components:
   - type: NpcFactionMember
     factions:
@@ -294,10 +294,10 @@
     price: 500
 
 - type: entity
-  name: space carp
+  name: carpe de l'espace
   id: MobCarpSentient
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
-  description: It's a space carp. Used to be a person.
+  description: C'est une carpe spatiale. C'était une personne auparavant.
   components:
   - type: InputMover
   - type: MobMover
@@ -511,7 +511,7 @@
   name: Clown Ian
   parent: MobCorgiIan
   id: MobCorgiIanClown
-  description: Honkmother's favorite corgi.
+  description: Le corgi préféré de la Honkmother.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -555,7 +555,7 @@
   name: brullbar
   id: MobBrullbar
   parent: [ SimpleSpaceMobBase, MobCombat ]
-  description: Oh god.
+  description: Mon dieu.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 4
