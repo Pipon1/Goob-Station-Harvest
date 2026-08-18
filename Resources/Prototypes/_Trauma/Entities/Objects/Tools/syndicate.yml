@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: AccessConfiguratorSyndicate
-  name: syndicate access configurator
-  description: A Cybersun-branded access configurator, compatible with all non-NanoTrasen IDs. Now with quick-swap functionality!
+  name: configurateur d'accès du syndicat
+  description: Un configurateur d'accès de marque Cybersun, compatible avec tous les badges non-NanoTrasen. Maintenant avec fonctionnalité d'échange rapide !
   components:
   - type: EmitSoundOnLand
     sound:

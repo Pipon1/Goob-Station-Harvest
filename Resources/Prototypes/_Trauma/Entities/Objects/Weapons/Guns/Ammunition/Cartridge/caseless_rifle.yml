@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRifleTranquilizer
-  name: cartridge (.25 caseless tranq)
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. A reservoir injects a mix of sedative and mute toxin into the target for true silent takedowns.
+  name: cartouche (.25 sans étui tranquillisant)
+  description: Un petit calibre utilisant la technologie sans étui, omettant le laiton conventionnel au profit d'un propulseur durci. Un réservoir injecte un mélange de sédatif et de toxine muette dans la cible pour de véritables abattages silencieux.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRifleTranquilizer
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseCartridgeCaselessRifle
   id: CartridgeCaselessRiflePoison
-  name: cartridge (.25 caseless toxin)
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. A toxic payload is installed to kill the target over time.
+  name: cartouche (.25 sans étui toxique)
+  description: Un petit calibre utilisant la technologie sans étui, omettant le laiton conventionnel au profit d'un propulseur durci. Une charge toxique est installée pour tuer la cible au fil du temps.
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRiflePoison

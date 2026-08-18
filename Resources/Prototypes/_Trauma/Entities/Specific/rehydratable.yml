@@ -1,8 +1,8 @@
 - type: entity
   parent: DehydratedSpaceCarp
   id: DehydratedMagicCarp
-  name: dehydrated magic carp
-  description: Looks like a plush toy magic carp, but just add water and it becomes a real-life magic carp!
+  name: carpe magique déshydratée
+  description: On dirait une carpe magique en peluche, mais ajoutez de l'eau et elle devient une vraie carpe magique !
   components:
   - type: Sprite
     state: magicplush

@@ -27,8 +27,8 @@
 - type: entity
   parent: [ DoorRemoteCanEletrifyDoors, BaseSyndicateContraband ]
   id: DoorRemoteSyndicate
-  name: syndicate door remote
-  description: A gadget which can open and bolt doors remotely. This one works for syndicate agents.
+  name: télécommande de porte du syndicat
+  description: Un gadget qui peut ouvrir et verrouiller les portes à distance. Celui-ci fonctionne pour les agents syndicats.
   components:
   - type: Sprite
     layers:
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseItem
   id: HandheldStationMapRecordsTablet
-  name: station map
-  description: Displays a readout of the current station.
+  name: plan de la station
+  description: Affiche une carte de la station actuelle.
   suffix: Records Tablet
   components:
   - type: GeneralStationRecordConsole

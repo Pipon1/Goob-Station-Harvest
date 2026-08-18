@@ -1,8 +1,8 @@
 - type: entity
   parent: [ AppraisalTool, WeaponPistolViper ]
   id: WeaponPistolViperAppraisal
-  name: appraisal tool
-  description: A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items. It will also tell you if a crate contains a completed bounty.
+  name: outil d'estimation
+  description: Le meilleur ami des comptables, avec une connexion quantique au marché galactique et la capacité d'estimer même les objets les plus coriaces. Il vous dira aussi si une caisse contient une prime terminée.
   suffix: Gun
   components:
   - type: Sprite

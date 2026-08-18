@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseSyndicateContraband, HandheldCrewMonitor ]
   id: SyndiCrewMonitor
-  name: syndicate crew monitor
-  description: The syndicated version of crew monitor, intercepts information from the server.
+  name: moniteur d'équipage du syndicat
+  description: La version syndicat du moniteur d'équipage, intercepte les informations du serveur.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihandheldcrewmonitor.rsi

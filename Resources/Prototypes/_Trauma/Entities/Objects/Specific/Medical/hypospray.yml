@@ -1,7 +1,7 @@
 - type: entity
   parent: EmergencyMedipen
   id: EmergencyMedipenMute
-  suffix: Mute Toxin
+  suffix: Toxine muette
   components:
   - type: Solution
     solution:

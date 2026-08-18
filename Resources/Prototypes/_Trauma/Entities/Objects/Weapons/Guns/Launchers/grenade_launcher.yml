@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LauncherStickyGrenadeRegenerating
-  name: sticky grenade launcher
-  description: A self-reloading launcher that fires sticky grenades. They embed into whatever they hit and explode after 3 seconds.
+  name: lance-grenades collantes
+  description: Un lanceur à rechargement automatique qui tire des grenades collantes. Elles s'incrustent dans ce qu'elles touchent et explosent après 3 secondes.
   suffix: Regenerating
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateNukieMouse
-  name: suspicious moldy cheese
-  description: Moldy cheese with a little worm sticking out of it and a... blinking antenna? Might attract an odd mouse.
+  name: fromage moisi suspect
+  description: Du fromage moisi avec un petit ver qui en sort et une... antenne clignotante ? Pourrait attirer une souris bizarre.
   components:
   - type: Sprite
     sprite: _Trauma/Objects/Devices/communication.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateNukieCarp
-  name: syndicate carp reinforcement radio
-  description: Calls in a syndicate carp ready to assist you.
+  name: radio de renfort carpe du syndicat
+  description: Appelle une carpe du syndicat prête à vous assister.
   components:
   - type: GhostRole
     name: ghost-role-information-nukie-carp-name
@@ -37,8 +37,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateNukieSpider
-  name: inexplicably menacing egg
-  description: You're not sure if that's a radio transceiver or an eye blinking at you. Might attract an odd spider.
+  name: œuf inexplicablement menaçant
+  description: Vous n'êtes pas sûr si c'est un transcepteur radio ou un œil qui cligne vers vous. Pourrait attirer une araignée bizarre.
   components:
   - type: Sprite
     sprite: _Trauma/Mobs/Animals/Syndicate/nukiespider.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgSaboteur
-  name: syndicate saboteur cyborg reinforcement radio
-  description: Calls in a saboteur borg with light weaponry and disruptive gear.
+  name: radio de renfort cyborg saboteur du syndicat
+  description: Appelle un cyborg saboteur avec arme légère et équipement perturbateur.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-cyborg-saboteur-name
@@ -75,8 +75,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgMedical
-  name: syndicate medical cyborg reinforcement radio
-  description: Calls in a medical borg with good support capabilities and disruptive gear.
+  name: radio de renfort cyborg médical du syndicat
+  description: Appelle un cyborg médical avec de bonnes capacités de soutien et un équipement perturbateur.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-cyborg-medical-name
@@ -92,8 +92,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateBehonker
-  name: behonker reinforcement radio
-  description: Calls in a behonker to assist you in your tomfoolery.
+  name: radio de renfort behonker
+  description: Appelle un behonker pour vous assister dans vos pitreries.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-behonker-name

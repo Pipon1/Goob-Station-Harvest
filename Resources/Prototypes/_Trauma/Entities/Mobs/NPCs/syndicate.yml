@@ -1,9 +1,9 @@
 - type: entity
   parent: [ MobMouse, MobCombat ]
   id: MobNukieMouse
-  name: nuclear operative mouse
-  description: A Nuclear Operative... MOUSE?!
-  suffix: Syndicate
+  name: souris opératif nucléaire
+  description: Un opératif nucléaire... SOURIS?!
+  suffix: Syndicat
   components:
   - type: GhostRole
     makeSentient: true
@@ -58,9 +58,9 @@
 - type: entity
   parent: MobGiantSpiderAngry
   id: MobNukieSpider
-  name: nuclear operative tarantula
-  description: A spider? A NUKIE SPIDER?!
-  suffix: Syndicate
+  name: tarentule opératif nucléaire
+  description: Une araignée? UNE ARAIGNÉE NUKIE?!
+  suffix: Syndicat
   components:
   - type: GhostRole
     makeSentient: true
@@ -167,9 +167,9 @@
 - type: entity
   parent: BaseMobCarp
   id: MobNukieCarp
-  name: nuclear operative carp
-  description: A blood-red carp trained in carp-to-carp combat.
-  suffix: Syndicate
+  name: carpe opérateif nucléaire
+  description: Une carpe rouge sang entraînée au combat carpe-à-carpe.
+  suffix: Syndicat
   components:
   - type: RandomMetadata
     nameFormat: name-format-nukie-operator
@@ -224,9 +224,9 @@
 - type: entity
   parent: BaseMobBehonker
   id: MobNukieBehonker
-  name: nuclear operative behonker
-  description: Gorlex thought it would be funny to have a behonker. It was.
-  suffix: Syndicate
+  name: behonker opérateif nucléaire
+  description: Gorlex a pensé qu'avoir un behonker serait drôle. C'était le cas.
+  suffix: Syndicat
   components:
   - type: RandomMetadata
     nameFormat: name-format-nukie-operator
