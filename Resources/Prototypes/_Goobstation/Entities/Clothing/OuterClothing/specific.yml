@@ -47,7 +47,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: SurveillanceWirelessCameraBodyEntertainment
-  name: nopro camera
+  name: caméra norpo
   description: Une caméra fixée sur le corps. Elle vous observe.
   components:
     - type: DeviceNetwork
@@ -130,7 +130,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterSuitTutu
   name: tutu
-  description: Why?..
+  description: Pourquoi ?..
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/tutu.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterArmorHereticCostume
-  name: occult robes
-  description: Un ensemble de robes en lambeaux et poussiéreux. D'étranges yeux flous tapissent l'intérieur.
+  name: robes occultes
+  description: Un ensemble de robes en lambeaux et poussiéreuses. D'étranges yeux flous tapissent l'intérieur.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/toy_armor.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterBrassArmor
-  name: brass armor
-  description: Old Slavic brass armor, like that of our ancestors.
+  name: armure en laiton
+  description: Vieille armure slave en laiton, comme celle de nos ancêtres.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/brass_armor.rsi
