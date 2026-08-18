@@ -29,7 +29,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -40,7 +40,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -139,7 +139,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolNeurotoxin
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -149,7 +149,7 @@
           - MagazineMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgeMagnumNeurotoxin
         priority: 1
         whitelist:

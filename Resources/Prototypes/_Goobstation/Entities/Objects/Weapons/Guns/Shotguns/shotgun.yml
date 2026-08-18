@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineShotgun
         priority: 2
         whitelist:

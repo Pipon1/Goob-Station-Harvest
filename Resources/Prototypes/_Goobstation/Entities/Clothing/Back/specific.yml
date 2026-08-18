@@ -122,7 +122,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         whitelist:
           tags:
           - MilitaryPowerCellLMG

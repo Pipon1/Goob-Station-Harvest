@@ -35,7 +35,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: Cartridge
+        name: Cartouche
         whitelist:
           tags:
           - AutoinjectorCartridge
@@ -72,7 +72,7 @@
         visible: false
 
 - type: entity # This ones weird.
-  name: spray amnésiant
+  name: spray amnésique
   parent: [BaseItem, BaseCentcommContraband]
   id: AmnestizineHypospray
   suffix: NE PAS PLACER
@@ -106,7 +106,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: Cartridge
+        name: Cartouche
         whitelist:
           tags:
           - AutoinjectorCartridge
@@ -312,7 +312,7 @@
 # Q - Why is this edible?
 # A - Because the dispenser reminded me of a pez dispenser, and it'd be funny if you could eat them.
 - type: entity
-  name: cartouche d'auto-injecteur amnésiant
+  name: cartouche d'auto-injecteur amnésique
   parent: [ BaseCentcommContraband , BaseAutoinjectorCartridge, EdibleBase ]
   description: Contient 10u d'acide dimtréméthique-neuraminyle, utilisée dans un auto-injecteur à cartouche.
   id: CartridgeAmnestic
