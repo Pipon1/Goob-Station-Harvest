@@ -1,2 +1,2 @@
-seeds-mango-name = mango
-seeds-mango-display-name = mango trees
+seeds-mango-name = mangue
+seeds-mango-display-name = manguier

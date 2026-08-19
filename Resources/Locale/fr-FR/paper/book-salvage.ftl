@@ -1,96 +1,92 @@
-# SPDX-FileCopyrightText: 2023 dontbetank <59025279+dontbetank@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-book-text-demonomicon1 = How To Summon a Demon
-          - by J.G. Wizgerald
+book-text-demonomicon1 = Comment invoquer un démon
+          - par J.G. Wizgerald
 
-          1. todo finish writing demon summoning guide
+          1. todo terminer l'écriture du guide d'invocation de démon
 
-book-text-demonomicon2 = How To Summon a Lemon
-          - by J.G. Wizgerald
+book-text-demonomicon2 = Comment invoquer un lémon
+          - par J.G. Wizgerald
 
-          1. todo finish writing lemon summoning guide
-          2. WAit. Typo. Oh shit. Sorry guys
+          1. todo terminer l'écriture du guide d'invocation de lémon
+          2. ATtendez. Typo. Oh merde. Désolé les mecs
 
-book-text-demonomicon3 = Cool Demon Names I Found
-      - by Ms. Mossrock
+book-text-demonomicon3 = Noms de démon sympas que j'ai trouvés
+      - par Mme. Mossrock
 
       Abraxas
-      Nephilim
+      Néphilim
       Baal
-      Leviathan
+      Léviathan
       Gary
       Moloch
       Scylla
-      Phenex
+      Phénéx
+      Cherry
 
-book-text-chemistry-insane = IGOR CHEMISTRY GUIDE TO CHEMISTRY
+book-text-chemistry-insane = GUIDE DE CHIMIE FOU D'IGOR
 
-      TITLE: GUIDE TO CHEMISTRY
+      TITRE : GUIDE DE CHIMIE
 
-      ABSTRACT: GUIDE TO CHEMISTRY
+      RÉSUMÉ : GUIDE DE CHIMIE
 
-      SECTION: WISE WORDS OF IGOR CHEMISTRY
+      SECTION : PAROLES SAGESSES D'IGOR CHIMIE
 
-      MY NUMBER ONE TIP. IS TO ALWAYS HAVE FUN. YOU NEVER KNOW WHEN IT'LL ALL END.
-      SO JUST KEEP AT IT!!
+      MON CONSEIL NUMÉRO UN. C'EST DE TOUJOURS S'AMUSER. ON NE SAIT JAMAIS QUAND ÇA VA TOUT SE TERMINER.
+      ALORS CONTINUEZ JUSTE!!
 
-      MY NUMBER TWO TIP. I JUST CAN'T STOP FUCKING GRINDING UP JUMPSUITS. MY "COLLEAGUES" (agents) KEEP YELLING AT ME
-      TO STOP AND THAT 'itll come out of our paychecks' BUT THE STUFF IS SO GOOD. I'M LIKE AN INTERIOR DECORATION GENIUS.
-      SAXOPHONES AND BATTERIES TAKE MY MIND OFF OF IT BUT I'M ALWAYS BACK TO THE JUMPSUITS. HOO WEE.
+      MON CONSEIL NUMÉRO DEUX. JE NE PEUX JUSTE PAS M'ARRÊTER DE BROYER DES COMBINAISONS EN GRANULES. MES "COLLÈGUES" (agents) ME CRIENT CONTINUELLEMENT DESSUS POUR QUE JE M'ARRÊTE ET QUE « cela sortira de nos fiches de paie » MAIS LE MATOS EST SI BON. JE SUIS COMME UN GÉNIE DE LA DÉCORATION D'INTÉRIEUR.
+      LES SAXOPHONES ET LES BATTERIES DÉTOURNENT MON ESPRIT, MAIS JE REVIENS TOUJOURS AUX COMBINAISONS. HOUHOUH.
 
-      MY NUMBER THREE TIP. THANK YOU FOR READING!! IGOR CHEMISTRY
+      MON CONSEIL NUMÉRO TROIS. MERCI D'AVOIR LU !! IGOR CHIMIE
 
-      CONCLUSION: IGOR CHEMISTRY
+      CONCLUSION : IGOR CHIMIE
 
-book-text-botanics = ** Applications of Botanical Specimens Found In Nanotrasen Territories **
+book-text-botanics = ** Applications des spécimens botaniques trouvés dans les territoires de Nanotrasen **
 
-      Many plants, when ground, yield useful chemicals. S. (spessmens) papaver and S. aloe vera
-      are known for their basic healing properties.
+      Beaucoup de plantes, lorsqu'elles sont broyées, donnent des produits chimiques utiles. S. (spessmens) papaver et S. aloe vera
+      sont connues pour leurs propriétés curatives de base.
 
-      S. lucidum, or lingzhi, is known for its potent ability to save those near death from toxins. Eating too much
-      is known to cause adverse effects.
+      S. lucidum, ou lingzhi, est connue pour sa puissante capacité à sauver ceux qui sont près de la mort des toxines. Manger trop
+      est connu pour provoquer des effets indésirables.
 
-      S. amanita, a powerfully poisonous specimen (Rest In Peace Sir Alacaster), and S. galactica, a
-      seemingly ordinary antitoxin, appear to have some sort of relation to eachother.
+      S. amanita, un spécimen extrêmement toxique (Repose en paix Sir Alacaster), et S. galactica, un antitoxine apparemment ordinaire,
+      semblent avoir une certaine relation l'un avec l'autre.
 
-      Some research is being done on combinations of the medicinal plants discussed, and they may prove fruitful.
+      Certaines recherches sont en cours sur des combinaisons des plantes médicinales discutées, et elles pourraient s'avérer fructueuses.
 
       ----
 
-      - penned by James Alacaster and Golzuk Amaranth
+      - écrit par James Alacaster et Golzuk Amaranth
 
-book-text-gnome = All Hail Our Gnome King
+book-text-gnome = Vive notre Roi Gnôme
 
-      He who is the grand cartographer who placed our kind into the world of the Island!
+      Celui qui est le grand cartographe qui a placé notre espèce dans le monde de l'Île !
 
-      He who loves those with the largest of Hats!
+      Celui qui aime ceux portant les plus grands chapeaux !
 
-      Struck down by the evildoers who cannot appreciate our kind!
+      Abattu par les méchants qui ne peuvent pas apprécier notre espèce !
 
-      Our revenge will be dealt in full! He will Rise once more! hee Hoo!
+      Notre vengeance sera complète ! Il reviendra une fois de plus ! hé Hou !
 
-book-text-fishing = When I grow up, I want to be one of the harvesters of the space sea!
+book-text-fishing = Quand je serai grand, je veux être l'un des récolteurs de l'espace marin !
 
-      I think before my days are done I want to catch the fabled space fish!
+      Je pense que avant la fin de mes jours, je veux attraper le poisson spatial fabuleux !
 
-      I'm like a little rat sailing the seas of cheese! The bastards come to end me but I am as sly as a cat and as lucky as they come!
+      Je suis comme un petit rat naviguant sur les mers de fromage ! Les salauds viennent pour m'éliminer mais je suis aussi rusé qu'un chat et aussi chanceux qu'il est possible !
 
-      Press the <L BUMPER> and <R TRIGGER> to activate the fishing minigame.
+      Appuie sur <L BUMPER> et <R TRIGGER> pour activer le mini-jeu de pêche.
 
       - Sgt. John Baker Aclopoly
 
-book-text-detective = CHAPTER 1: SMALL ADVENTURES IN A BIG STATION
+book-text-detective = CHAPITRE 1 : PETITES AVENTURES DANS UNE GRANDE STATION
 
-      This station is filled with crime and grime...
+      Cette station est remplie de crime et de crasse...
 
-      I was shooting hoops down on Bagel when I heard a cry and a laser shot. I walked under the table nearby to hide, but there wasn't a second shot.
+      Je tirais des paniers près de Bagel quand j'ai entendu un cri et un tir laser. Je suis passé sous la table voisine pour me cacher, mais il n'y a pas eu de second tir.
 
-      Outside, the engineerin chief got blasted by two Syndies hooked up with some fierce contraband. There wasn't enough of him for an open casket funeral.
+      À l'extérieur, le chef ingénieur s'est fait tirer dessus par deux Syndicats accrochés à de la contrebande féroce. Il n'y avait pas assez de lui pour un enterrement en cercueil ouvert.
 
-      Things always go wild here.. I'll never look at clowns the same.
+      Les choses deviennent toujours folles ici.. Je ne regarderai plus jamais les clowns de la même façon.
 
-      The question is.. Who did it?
+      La question est.. Qui l'a fait ?

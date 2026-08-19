@@ -1,161 +1,156 @@
-# SPDX-FileCopyrightText: 2023 eclips_e <67359748+Just-a-Unity-Dev@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-book-cnc-sheet = C&C 5e Character Sheet
+book-cnc-sheet = Feuilles de personnage C&C 5e
     --------------------------------------------------------------------------------------
-    SECTION 1:  THE BASICS
+    SECTION 1:  LES BASES
     --------------------------------------------------------------------------------------
-    Character Name  :
-    Race / Class    :
-    Level / Exp Pts :
-    Background      :
-
-    --------------------------------------------------------------------------------------
-    SECTION 2: ABILITIES
-    --------------------------------------------------------------------------------------
-    Strength     =     10   (+0) 10 Base
-    Dexterity    =     10   (+0) 10 Base
-    Constitution =     10   (+0) 10 Base
-    Intelligence =     10   (+0) 10 Base
-    Wisdom       =     10   (+0) 10 Base
-    Charisma     =     10   (+0) 10 Base
-
-    Proficiency Bonus =
-    Perception (passive wisdom) =
-
-    Racial (Race)
-
-    Class (Class)
-
+    Nom du personnage  :
+    Race / Classe    :
+    Niveau / Pts d'Exp :
+    Historique       :
 
     --------------------------------------------------------------------------------------
-    SECTION 3:  SAVING THROWS
+    SECTION 2: CAPACITÉS
     --------------------------------------------------------------------------------------
+    Force          =     10   (+0) 10 Base
+    Dextérité      =     10   (+0) 10 Base
+    Constitution   =     10   (+0) 10 Base
+    Intelligence   =     10   (+0) 10 Base
+    Sagesse        =     10   (+0) 10 Base
+    Charisme       =     10   (+0) 10 Base
 
-    ( )Strength     =      +0
-    ( )Dexterity    =      +0
-    ( )Constitution =      +0
-    ( )Intelligence =      +0
-    ( )Wisdom       =      +0
-    ( )Charisma     =      +0
+    Bonus de Maîtrise =
+    Perception (sagesse passive) =
+
+    Race (Race)
+
+    Classe (Classe)
 
 
     --------------------------------------------------------------------------------------
-    SECTION 4:  SKILLS
+    SECTION 3:  SAVES DE COMPÉTENCE
     --------------------------------------------------------------------------------------
 
-    ( )  Acrobatics (Dex)      +0       ( )  Medicine (Wis)        +0
-    ( )  Animal Handling (Wis) +0       ( )  Nature (Int)          +0
-    ( )  Arcana (Int)          +0       ( )  Perception (Wis)      +0
-    ( )  Athletics  (Str)      +0       ( )  Performance (Cha)     +0
-    ( )  Deception (Cha)       +0       ( )  Persuasion (Cha)      +0
-    ( )  History (Int)         +0       ( )  Religion (Int)        +0
-    ( )  Insight (Wis)         +0       ( )  Sleight of Hand (Dex) +0
-    ( )  Intimidation (Cha)    +0       ( )  Stealth (Dex)         +0
-    ( )  Investigation (Int)   +0       ( )  Survival (Wis)        +0
+    ( )Force       =      +0
+    ( )Dextérité   =      +0
+    ( )Constitution=      +0
+    ( )Intelligence=      +0
+    ( )Sagesse     =      +0
+    ( )Charisme    =      +0
 
 
     --------------------------------------------------------------------------------------
-    SECTION 5:  COMBAT & HEALTH
+    SECTION 4:  COMPÉTENCES
+    --------------------------------------------------------------------------------------
+
+    ( )  Acrobaties (Dex)      +0       ( )  Médecine (Wis)        +0
+    ( )  Dressage(Wis)         +0       ( )  Nature (Int)          +0
+    ( )  Arcanes (Int)         +0       ( )  Perception (Wis)      +0
+    ( )  Athlétisme  (Str)     +0       ( )  Représentation (Cha)  +0
+    ( )  Tromperie (Cha)       +0       ( )  Persuasion (Cha)      +0
+    ( )  Histoire (Int)        +0       ( )  Religion (Int)        +0
+    ( )  Intuition (Wis)       +0       ( )  Prestidigitation (Dex)+0
+    ( )  Intimidation (Cha)    +0       ( )  Discrétion (Dex)      +0
+    ( )  Enquête (Int)         +0       ( )  Survie (Wis)          +0
+
+
+    --------------------------------------------------------------------------------------
+    SECTION 5:  COMBAT & SANTÉ
     --------------------------------------------------------------------------------------
 
 
-    Armor Class          :
+    Classe d'armure         :
     Initiative (passive) :
-    Speed                :
+    Vitesse                :
 
-    Hit Dice             :
-    Max Hit Points       :
-    Current Hit Points   :
-    Temporary Hit Points :
+    Dé de Dégâts              :
+    Points de vie max      :
+    Points de vie actuels  :
+    Points de vie temporaires :
 
-    ATTACKS
-    Weapon type(Melee or Ranged)   /   Bonus   /   Damage (Type)
+    ATTAQUES
+    Type d'arme (Mêlée ou À distance)   /   Bonus   /   Dégâts (Type)
 
     --------------------------------------------------------------------------------------
-    SECTION 6:  BACKGROUND
+    SECTION 6:  HISTORIQUE
     --------------------------------------------------------------------------------------
 
-    Age / Gender         :
-    Height / Weight      :
-    Eyes / Skin / Hair   :
-    Description          :
+    Âge / Sexe         :
+    Taille / Poids     :
+    Yeux / Peau / Cheveux :
+    Description        :
 
-    Background           :
-    Skill Proficiencies  :
-    Tool Proficiencies   :
-    Languages            :
+    Historique         :
+    Maîtrises de compétences  :
+    Maîtrises d'outils   :
+    Langues            :
 
-    Features             :
-    Con of Choice        :
-    Traits               :
-    Ideal                :
-    Bonds                :
-    Flaws                :
+    Dons               :
+    Traits             :
+    Idéaux             :
+    Liens              :
+    Défauts            :
 
     --------------------------------------------------------------------------------------
     SECTION 7: EXTRAS
     --------------------------------------------------------------------------------------
-    Equipment List
-    Description                 Cost       Weight
+    Liste d'équipement
+    Description                 Coût       Poids
 
 
-    lbs
+    kgs
 
-    Wealth
+    Fortune
     PP         :
-    EP         :
-    GP         :
-    SP         :
-    CP         :
+    PE         :
+    PO         :
+    PA         :
+    PC         :
 
-    Gems         :
-    Jewelry      :
-    Other        :
-    Magic Items  :
+    Gemmes         :
+    Bijoux       :
+    Autres       :
+    Objets magiques  :
 
 
     --------------------------------------------------------------------------------------
-    SECTION 8: SPELLCASTING
+    SECTION 8: INCANTATIONS
     --------------------------------------------------------------------------------------
 
-    Spell Level:
-    Spell Save DC:
-    Spell Attack Mod:
-    Spell Slots:
-      1: (MAX) (USED)
-      2: (MAX) (USED)
-      3: (MAX) (USED)
-      4: (MAX) (USED)
-      5: (MAX) (USED)
-      6: (MAX) (USED)
-      7: (MAX) (USED)
-      8: (MAX) (USED)
-      9: (MAX) (USED)
+    Niveau de sort:
+    DD du sort:
+    Mod d'attaque de sort:
+    Emplacements de sorts:
+      1: (MAX) (UTILISÉ)
+      2: (MAX) (UTILISÉ)
+      3: (MAX) (UTILISÉ)
+      4: (MAX) (UTILISÉ)
+      5: (MAX) (UTILISÉ)
+      6: (MAX) (UTILISÉ)
+      7: (MAX) (UTILISÉ)
+      8: (MAX) (UTILISÉ)
+      9: (MAX) (UTILISÉ)
 
-    Cantrips
-    Name  Casting Time  Range  Duration  Components
+    Tours de magie
+    Nom  Temps d'incantation  Portée  Durée  Composants
 
-    1: Name  Casting Time  Range  Duration  Components  Ritual?
+    1: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    2: Name  Casting Time  Range  Duration  Components  Ritual?
+    2: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    3: Name  Casting Time  Range  Duration  Components  Ritual?
+    3: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    4: Name  Casting Time  Range  Duration  Components  Ritual?
+    4: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    5: Name  Casting Time  Range  Duration  Components  Ritual?
+    5: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    6: Name  Casting Time  Range  Duration  Components  Ritual?
+    6: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    7: Name  Casting Time  Range  Duration  Components  Ritual?
+    7: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    8: Name  Casting Time  Range  Duration  Components  Ritual?
+    8: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
 
-    9: Name  Casting Time  Range  Duration  Components  Ritual?
+    9: Nom  Temps d'incantation  Portée  Durée  Composants  Rituel ?
     --------------------------------------------------------------------------------------
-    Carps and Crypts 5e
+    Carpes et Cryptes 5e
 

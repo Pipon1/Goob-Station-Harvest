@@ -1,41 +1,39 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aineias1 <142914808+Aineias1@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ent-FloorTileItemWoodParquet = wooden parquet
+ent-FloorTileItemWoodParquet = parquet en bois
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodBlack = black wooden floor
+ent-FloorTileItemWoodBlack = plancher en bois noir
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodDark = dark wooden floor
+ent-FloorTileItemWoodDark = plancher en bois foncé
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodLight = white wooden floor
+ent-FloorTileItemWoodLight = plancher en bois blanc
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodRed = red wooden floor
+ent-FloorTileItemWoodRed = plancher en bois rouge
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodLargeBlack = large black wooden floor
+ent-FloorTileItemWoodLargeBlack = grand plancher en bois noir
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodLargeDark = large dark wooden floor
+ent-FloorTileItemWoodLargeDark = grand plancher en bois foncé
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodLargeLight = large white wooden floor
+ent-FloorTileItemWoodLargeLight = grand plancher en bois blanc
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodLargeRed = large red wooden floor
+ent-FloorTileItemWoodLargeRed = grand plancher en bois rouge
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodParquetBlack = black wooden parquet
+ent-FloorTileItemWoodParquetBlack = parquet en bois noir
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodParquetDark = dark wooden parquet
+ent-FloorTileItemWoodParquetDark = parquet en bois foncé
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodParquetLight = white wooden parquet
+ent-FloorTileItemWoodParquetLight = parquet en bois blanc
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodParquetRed = red wooden parquet
+ent-FloorTileItemWoodParquetRed = parquet en bois rouge
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodChess = wooden chess floor
+ent-FloorTileItemWoodChess = plancher en bois à damier
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodChessBlack = black wooden chess floor
+ent-FloorTileItemWoodChessBlack = plancher en bois à damier noir
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodChessDark = dark wooden chess floor
+ent-FloorTileItemWoodChessDark = plancher en bois à damier foncé
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodChessLight = white wooden chess floor
+ent-FloorTileItemWoodChessLight = plancher en bois à damier blanc
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemWoodChessRed = red wooden chess floor
+ent-FloorTileItemWoodChessRed = plancher en bois à damier rouge
     .desc = { ent-FloorTileItemBase.desc }
+    

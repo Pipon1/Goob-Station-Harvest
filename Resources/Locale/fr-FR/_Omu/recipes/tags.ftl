@@ -1,2 +1,2 @@
-construction-graph-tag-chem-hud = chemical analysis goggles
-construction-graph-tag-medichem-hud = medichem goggles
+construction-graph-tag-chem-hud = lunettes d'analyse chimique
+construction-graph-tag-medichem-hud = lunettes medichem

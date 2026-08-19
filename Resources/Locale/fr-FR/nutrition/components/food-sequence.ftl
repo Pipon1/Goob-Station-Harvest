@@ -1,13 +1,3 @@
-# SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 RumiTiger <154005209+RumiTiger@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 food-sequence-no-space = Vous ne pouvez plus en mettre !
@@ -26,15 +16,15 @@ food-sequence-content-salami = salami
 food-sequence-content-slime = slime
 food-sequence-content-clown = clown
 food-sequence-content-pea = pois
-food-sequence-content-world-pea = pois dans le monde
+food-sequence-content-world-pea = world pea
 food-sequence-content-bungo = bungo
 food-sequence-content-banana = banane
-food-sequence-content-mimana = mimana
+food-sequence-content-mimana = mimane
 food-sequence-content-lemon = citron
-food-sequence-content-lemoon = citrait
+food-sequence-content-lemoon = citrune
 food-sequence-content-lime = citron vert
 food-sequence-content-orange = orange
-food-sequence-content-potato = pomme de terre
+food-sequence-content-potato = patate
 food-sequence-content-apple = pomme
 food-sequence-content-cocoa = cacao
 food-sequence-content-corn = maïs
@@ -48,7 +38,7 @@ food-sequence-content-soy = soja
 food-sequence-content-cheese = fromage
 food-sequence-content-chevre = chèvre
 food-sequence-content-tofu = tofu
-food-sequence-content-brain = cervelle
+food-sequence-content-brain = cerveau
 food-sequence-content-tongue = langue
 food-sequence-content-ears = oreille
 food-sequence-content-stomach = estomac
@@ -79,7 +69,7 @@ food-sequence-content-koibean = koibean
 food-sequence-content-watermelon = pastèque
 food-sequence-content-holymelon = melon sacré
 food-sequence-content-cannabis = cannabis
-food-sequence-content-rainbow-cannabis = cannabis arc-en-ciel rainbow
+food-sequence-content-rainbow-cannabis = cannabis arc-en-ciel
 food-sequence-content-tobacco = tabac
 food-sequence-content-hamster = hamster
 food-sequence-content-suppermatter = suppermatter
@@ -94,80 +84,80 @@ food-sequence-content-anomaly-berry = baie d'anomalie
 
 food-sequence-burger-gen = {$content}burger
 
-food-sequence-burger-content-raw-meat = raw
-food-sequence-burger-content-meat = meaty
+food-sequence-burger-content-raw-meat = cru
+food-sequence-burger-content-meat = viando
 food-sequence-burger-content-carp = carpo
-food-sequence-burger-content-bear = bear
-food-sequence-burger-content-crab = crabs
-food-sequence-burger-content-penguin = peng
+food-sequence-burger-content-bear = ourso
+food-sequence-burger-content-crab = crabo
+food-sequence-burger-content-penguin = ping
 food-sequence-burger-content-corgi = corgi
 food-sequence-burger-content-goliath = goli
 food-sequence-burger-content-rat = rat
-food-sequence-burger-content-lizard = lizzy
-food-sequence-burger-content-plant = plant
-food-sequence-burger-content-rotten = trash
-food-sequence-burger-content-spider = web
-food-sequence-burger-content-carrot = carro
-food-sequence-burger-content-cabbage = cabba
-food-sequence-burger-content-garlic = garli
-food-sequence-burger-content-pineapple = pine
-food-sequence-burger-content-onion = oni
+food-sequence-burger-content-lizard = léza
+food-sequence-burger-content-plant = végé
+food-sequence-burger-content-rotten = pouri
+food-sequence-burger-content-spider = toilo
+food-sequence-burger-content-carrot = caro
+food-sequence-burger-content-cabbage = chou
+food-sequence-burger-content-garlic = ailo
+food-sequence-burger-content-pineapple = anana
+food-sequence-burger-content-onion = oigni
 food-sequence-burger-content-ambrosia = ambro
-food-sequence-burger-content-galaxy = galaxy
-food-sequence-burger-content-glasstle = glass
+food-sequence-burger-content-galaxy = galaxi
+food-sequence-burger-content-glasstle = verro
 food-sequence-burger-content-gatfruit = gat
 food-sequence-burger-content-capfruit = cap
-food-sequence-burger-content-rice = rice
-food-sequence-burger-content-soy = soy
+food-sequence-burger-content-rice = riz
+food-sequence-burger-content-soy = soja
 food-sequence-burger-content-koibean = koi
-food-sequence-burger-content-watermelon = water
-food-sequence-burger-content-holymelon = holy
-food-sequence-burger-content-cannabis = funny
-food-sequence-burger-content-rainbow-cannabis = FUNNY
-food-sequence-burger-content-tobacco = tobaco
+food-sequence-burger-content-watermelon = pastè
+food-sequence-burger-content-holymelon = sacré
+food-sequence-burger-content-cannabis = canna
+food-sequence-burger-content-rainbow-cannabis = CANNA
+food-sequence-burger-content-tobacco = tabac
 food-sequence-burger-content-suppermatter = supper
 food-sequence-burger-content-hamster = hams
-food-sequence-burger-content-berries = berri
-food-sequence-burger-content-spacemans-trumpet = spacetrump
+food-sequence-burger-content-berries = baie
+food-sequence-burger-content-spacemans-trumpet = tromp
 food-sequence-burger-content-anomaly-berry = anom
 food-sequence-burger-content-extradimensional-orange = 3d
-food-sequence-burger-content-world-pea = peace
+food-sequence-burger-content-world-pea = paix
 
 # COTTON BURGERS
 
 food-sequence-cotton-burger-gen = {$content}burger
 
-food-sequence-cotton-burger-content-cotton-bol = cotton
+food-sequence-cotton-burger-content-cotton-bol = coton
 food-sequence-cotton-burger-content-pyrotton-bol = pyro
 food-sequence-cotton-burger-content-plushie-throngler = throngle
 food-sequence-cotton-burger-content-plushie-ghost = spooky
 food-sequence-cotton-burger-content-plushie-revenant = spookier
-food-sequence-cotton-burger-content-plushie-bee = buzzzy
+food-sequence-cotton-burger-content-plushie-bee = abeille
 food-sequence-cotton-burger-content-plushie-hamptr = hampt
 food-sequence-cotton-burger-content-plushie-nukie = nukie
 food-sequence-cotton-burger-content-plushie-rouny = rouny
-food-sequence-cotton-burger-content-plushie-lamp = lamp
-food-sequence-cotton-burger-content-plushie-arachnid = spider
+food-sequence-cotton-burger-content-plushie-lamp = lampe
+food-sequence-cotton-burger-content-plushie-arachnid = arachn
 food-sequence-cotton-burger-content-plushie-lizard = weh
-food-sequence-cotton-burger-content-plushie-experiment = experimental
-food-sequence-cotton-burger-content-plushie-spacelizard = space
+food-sequence-cotton-burger-content-plushie-experiment = expérimental
+food-sequence-cotton-burger-content-plushie-spacelizard = espace
 food-sequence-cotton-burger-content-plushie-lizard-inversed = hew
 food-sequence-cotton-burger-content-plushie-diona = dion
-food-sequence-cotton-burger-content-plushie-shark = shonk
+food-sequence-cotton-burger-content-plushie-shark = requin
 food-sequence-cotton-burger-content-plushie-ratvar = ratvarian
 food-sequence-cotton-burger-content-plushie-narsie = nar'
-food-sequence-cotton-burger-content-plushie-carp = carp
+food-sequence-cotton-burger-content-plushie-carp = carpo
 food-sequence-cotton-burger-content-plushie-magicarp = magi
 food-sequence-cotton-burger-content-plushie-holocarp = holo
 food-sequence-cotton-burger-content-plushie-slime = slime
-food-sequence-cotton-burger-content-plushie-snake = snek
-food-sequence-cotton-burger-content-plushie-mouse = mouse
-food-sequence-cotton-burger-content-plushie-vox = skree
+food-sequence-cotton-burger-content-plushie-snake = serpo
+food-sequence-cotton-burger-content-plushie-mouse = souri
+food-sequence-cotton-burger-content-plushie-vox = skrii
 food-sequence-cotton-burger-content-plushie-atmosian = atmos
-food-sequence-cotton-burger-content-plushie-xeno = xeno
+food-sequence-cotton-burger-content-plushie-xeno = xéno
 food-sequence-cotton-burger-content-plushie-penguin = peng
 food-sequence-cotton-burger-content-plushie-human = uristmc
-food-sequence-cotton-burger-content-plushie-moth = fluff
+food-sequence-cotton-burger-content-plushie-moth = mito
 food-sequence-cotton-burger-content-plushie-ian = corgi
 food-sequence-cotton-burger-content-among-pequeno = sus
 

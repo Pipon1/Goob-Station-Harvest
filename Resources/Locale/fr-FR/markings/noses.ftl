@@ -1,20 +1,16 @@
-# SPDX-FileCopyrightText: 2024 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 marking-HumanNoseSchnozz = Schnozz
-marking-HumanNoseSchnozz-schnozz = Nose
+marking-HumanNoseSchnozz-schnozz = Nez
 
-marking-HumanNoseNubby = Nubby Nose
-marking-HumanNoseNubby-nubby = Nose
+marking-HumanNoseNubby = Nez en bosse
+marking-HumanNoseNubby-nubby = Nez
 
-marking-HumanNoseDroop = Droopy Nose
-marking-HumanNoseDroop-droop = Nose
+marking-HumanNoseDroop = Nez tombant
+marking-HumanNoseDroop-droop = Nez
 
-marking-HumanNoseBlob = Blobby Nose
-marking-HumanNoseBlob-blob = Nose
+marking-HumanNoseBlob = Nez blob
+marking-HumanNoseBlob-blob = Nez
 
-marking-HumanNoseUppie = Uppie Nose
-marking-HumanNoseUppie-uppie = Nose
+marking-HumanNoseUppie = Nez relevé
+marking-HumanNoseUppie-uppie = Nez

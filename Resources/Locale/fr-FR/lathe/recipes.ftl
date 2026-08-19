@@ -1,14 +1,10 @@
-# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-lathe-recipe-Medkit-name = first aid kit (empty)
-lathe-recipe-MedkitBurn-name = burn treatment kit (empty)
-lathe-recipe-MedkitToxin-name = toxin treatment kit (empty)
-lathe-recipe-MedkitO2-name = oxygen deprivation treatment kit (empty)
-lathe-recipe-MedkitBrute-name = brute trauma treatment kit (empty)
-lathe-recipe-MedkitAdvanced-name = advanced first aid kit (empty)
-lathe-recipe-MedkitRadiation-name = radiation treatment kit (empty)
-lathe-recipe-MedkitCombat-name = combat medical kit (empty)
+lathe-recipe-Medkit-name = trousse de premiers secours (vide)
+lathe-recipe-MedkitBurn-name = trousse de traitement des brûlures (vide)
+lathe-recipe-MedkitToxin-name = trousse de traitement des toxines (vide)
+lathe-recipe-MedkitO2-name = trousse de traitement de la privation d'oxygène (vide)
+lathe-recipe-MedkitBrute-name = trousse de traitement des traumatismes (vide)
+lathe-recipe-MedkitAdvanced-name = trousse avancée de premiers secours (vide)
+lathe-recipe-MedkitRadiation-name = trousse de traitement des radiations (vide)
+lathe-recipe-MedkitCombat-name = trousse médicale de combat (vide)

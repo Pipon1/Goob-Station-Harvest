@@ -1,18 +1,10 @@
-# SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 metalgearsloth <metalgearsloth@gmail.com>
-# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-cmd-weather-desc = Sets the weather for the current map.
-cmd-weather-help = weather <mapId> <prototype / null>
-cmd-weather-hint = Weather prototype
-cmd-weather-null = Clears the weather
+cmd-weather-desc = Définit la météorologique pour la carte actuelle.
+cmd-weather-help = météo <mapId> <prototype / nul>
+cmd-weather-hint = Prototype météo
+cmd-weather-null = Efface la météo
 
-cmd-weather-error-no-arguments = Not enough arguments!
-cmd-weather-error-unknown-proto = Unknown Weather prototype!
-cmd-weather-error-wrong-time = Time is in the wrong format!
+cmd-weather-error-no-arguments = Pas assez d'arguments !
+cmd-weather-error-unknown-proto = Prototype météo inconnu !
+cmd-weather-error-wrong-time = Le temps est au mauvais format !

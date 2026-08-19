@@ -1,21 +1,17 @@
-# SPDX-FileCopyrightText: 2021 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 ### Localization used for the list verbs command.
 # Mostly help + error messages.
 
-list-verbs-command-description = Lists all verbs that a player can use on a given entity.
+list-verbs-command-description = Liste tous les verbes qu'un joueur peut utiliser sur une entité donnée.
 list-verbs-command-help = listverbs <playerUid | "self"> <targetUid>
 
-list-verbs-command-invalid-args = listverbs takes 2 arguments.
+list-verbs-command-invalid-args = listverbs prend 2 arguments.
 
-list-verbs-command-invalid-player-uid = Player uid could not be parsed, or "self" was not passed.
-list-verbs-command-invalid-target-uid = Target uid could not be parsed.
+list-verbs-command-invalid-player-uid = L'uid du joueur n'a pas pu être analysé, ou "self" n'a pas été passé.
+list-verbs-command-invalid-target-uid = L'uid de la cible n'a pas pu être analysé.
 
-list-verbs-command-invalid-player-entity = Player uid given does not correspond to a valid entity.
-list-verbs-command-invalid-target-entity = Target uid given does not correspond to a valid entity.
+list-verbs-command-invalid-player-entity = L'uid du joueur donné ne correspond pas à une entité valide.
+list-verbs-command-invalid-target-entity = L'uid de la cible donné ne correspond pas à une entité valide.
 
 list-verbs-verb-listing = { $type }: { $verb }

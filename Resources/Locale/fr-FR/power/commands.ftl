@@ -1,4 +1,4 @@
-﻿cmd-power_validate-desc = Validate power network state integrity
-cmd-power_validate-help = Usage: power_validate
-cmd-power_validate-error = Error while validating: { $err }
-cmd-power_validate-success = Validation succeeded without error
+﻿cmd-power_validate-desc = Valider l'intégrité de l'état du réseau électrique
+cmd-power_validate-help = Utilisation : power_validate
+cmd-power_validate-error = Erreur lors de la validation : { $err }
+cmd-power_validate-success = La validation a réussi sans erreur

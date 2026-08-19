@@ -1,87 +1,74 @@
-# SPDX-FileCopyrightText: 2021 20kdc <asdd2808@gmail.com>
-# SPDX-FileCopyrightText: 2021 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 CrudeWax <75271456+CrudeWax@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Fishfish458 <47410468+Fishfish458@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 fishfish458 <fishfish458>
-# SPDX-FileCopyrightText: 2023 dontbetank <59025279+dontbetank@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Perry Fraser <perryprog@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 themias <89101928+themias@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-book-text-plasma-trap = Heheheheh, no way in hell they're going to get at our stash NOW, is there?
-      I rigged the area where our stuff's at to be a toasty thousand K.
-      You know how to drain it when we need it out.
+book-text-plasma-trap = Hé hé hé hé hé hé, aucun moyen qu'ils arrivent à atteindre notre réserve MAINTENANT, hein ?
+      J'ai truqué l'endroit où se trouvent nos affaires pour qu'il fasse une température agréable de mille K.
+      Tu sais comment le vidanger quand on en a besoin.
        - J.
 
-book-text-holoparasite-info = Thanks for choosing our holoparasite package!
-      At cybersun, we pride ourselves on cutting-edge military and industrial technology, and greatly appreciate your contribution to our establishment!
-      Guardians are helpful and intelligent beings which nest within your body, completely immune to common hazards such as pressure, temperature and even bullets!
-      You have purchased the holoparasite package, which contains a holoparasite activator, an instruction booklet, and our softcap merchandise.
-      Instructions for use:
-      1. Activate the holoparasite injector (preferably in a secluded area).
-      2. Wait for the tingling and/or painful metaphysical sensation.
-      3. Check your holoparasite for the ability to communicate and cooperate, and capacity to understand your orders.
-      4. Use your recall-manifest ability to summon or recall the holoparasite back into your body.
-      5. Keep the holoparasite within a short distance from yourself, otherwise it will be recalled by force!
-      WARNING: Guardians are metaphysical beings, but draw from your HEALTH in order to exist. Direct damage done to guardians will be partially transferred to you!
-      Cybersun inc. is not responsible for complete annihilation following the misuse of Holoparasite technology.
+book-text-holoparasite-info = Merci d'avoir choisi notre kit holoparasite !
+      Chez Cybersun, nous sommes fiers de notre technologie militaire et industrielle de pointe, et nous apprécions énormément votre contribution à notre établissement !
+      Les Gardiens sont des êtres utiles et intelligents qui nichent dans ton corps, complètement immunisés aux risques courants tels que la pression, la température et même les balles !
+      Vous avez acheté le kit holoparasite, qui contient un activateur holoparasite, un livret d'instructions, et notre marchandise softcap.
+      Instructions d'utilisation :
+      1. Activez l'injecteur holoparasite (de préférence dans une zone isolée).
+      2. Attendez la sensation métaphysique de picotement et/ou de douleur.
+      3. Vérifiez que votre holoparasite possède la capacité de communiquer et de coopérer, ainsi que la capacité de comprendre vos ordres.
+      4. Utilisez votez capacité de rappel-manifestation pour invoquer ou rappeler l'holoparasite dans votre corps.
+      5. Gardez l'holoparasite à une courte distance de vous, sinon il sera rappelé de force !
+      AVERTISSEMENT : Les Gardiens sont des êtres métaphysiques, mais ils tirent leur énergie de VOTRE SANTÉ pour exister. Les dégâts directs infligés aux Gardiens seront partiellement transférés à vous !
+      Cybersun inc. ne sera pas responsable de l'anéantissement complet suite à une mauvaise utilisation de la technologie Holoparasite.
 
-book-text-ame-scribbles = I don't know if you're trained already, so I hope this'll help.
-      AME controller needs LV power and an HV wire to output to. Check the area with a crowbar if you aren't sure.
-      There should be an empty room next to where you found this, that room's wired for the AME.
-      You can put an AME anywhere if you can get the wires to it, though.
-      3x3 grid of AME parts, multitool them to unpack. Be careful not to 'trap' anything.
-      AME controller adjacent horizontally or vertically (not diagonally) to any point.
-      With only 1 core (what a 3x3 grid will get you), don't turn it up above 2.
-      The golden rule is 2 injection for every 1 core. You can go lower to save fuel.
-      Higher will burn the engine out and eventually make it explode. Don't.
-      Don't forget to refuel it, it tends to stop at the worst possible time.
+book-text-ame-scribbles = Je ne sais pas si tu es déjà formé, donc j'espère que ça pourra t'aider.
+      Le contrôleur AME a besoin de puissance LV et d'un fil HV pour produire une sortie. Vérifie la zone avec un pied-de-biche si t'es pas sûr.
+      Il devrait y avoir une pièce vide à côté de l'endroit où tu as trouvé ça, cette pièce étant câblée pour l'AME.
+      Tu peux placer un AME n'importe où si tu peux y faire parvenir les fils, toutefois.
+      Fais une grille 3x3 de pièces AME, multioutil-les pour les déballer. Fais attention à ne pas 'piéger' quoi que ce soit.
+      Le contrôleur AME est adjacent horizontalement ou verticalement (pas en diagonale) à n'importe quel point.
+      Avec seulement 1 noyau (ce qu'une grille 3x3 te donnera), ne l'augmente pas au-dessus de 2.
+      La règle d'or est 2 injections pour chaque 1 noyau. Tu peux descendre pour économiser du carburant.
+      Plus brûlera le moteur et éventuellement le fera exploser. Ne le fais pas.
+      N'oublie pas de le ravitailler, il a tendance à s'arrêter au pire moment possible.
 
-book-text-agrichemkit-manual = Thank you for choosing the safe-for-all-ages NanoTrasen Agri-Chem is Fun! chemistry kit, the best learning-adjacent toy of 2468! Be prepared to discover all about the biggest innovations in agriculture since people buried fish with their corn seeds.
+book-text-agrichemkit-manual = Merci d'avoir choisi le kit de chimie "Agri-Chem est Fun !" de NanoTrasen, sûr pour tous les âges, le meilleur jouet-proche-de-l'apprentissage de 2468 ! Prépare-toi à découvrir tout ce qu'il y a de plus grand dans l'innovation agricole depuis que les gens ont enterré du poisson avec leurs graines de maïs.
 
-      Contents:
-      5 handily labeled 30u bottles, 1 each of nitrogen, phosphorus, hydrogen, potassium, and ethanol
-      2 Safe-T-Fun(TM) sized 5u vials, 1 each of chlorine and radium
-      1 30u empty bottle, ready for your experiments.
+      Contenu :
+      5 bouteilles de 30u clairement étiquetées, 1 chacune d'azote, de phosphore, d'hydrogène, de potassium et d'éthanol
+      2 fioles de 5u Safe-T-Fun(TM), 1 chacune de chlore et de radium
+      1 bouteille vide de 30u, prête pour vos expériences.
 
-      First Experiment: EZ Nutrient
-      To create EZ Nutrient, a fertilizer densely packed with nutrients required for healthy plants, mix equal parts nitrogen, phosphorus, and potassium. To make a full bottle, thats 10u of each.
-      A little bottle of EZ Nutrient replaces a big stack of produce you'd otherwise compost to keep your plants growing strong. And crops you compost are crops you didn't make a profit on, so keep that EZ Nutrient flowing.
+      Première expérience : EZ Nutriment
+      Pour créer le EZ Nutriment, un fertilisant densément rempli de nutriments nécessaires à des plantes saines, mélange des parts égales d'azote, de phosphore et de potassium. Pour faire une bouteille complète, cela fait 10u de chacun.
+      Une petite bouteille de EZ Nutriment remplace une grande pile de produits que tu aurais autrement compostés pour garder tes plantes en bonne croissance. Et les plantes que tu compostes sont celles dont tu n'as pas pu profiter, donc garde ce EZ Nutriment en circulation !
 
-      Second Experiment: Ammonia and Diethylamine
-      Mix 3 parts hydrogen to 1 part nitrogen to make ammonia. It's a healthy, nutritious treat for your crops that aren't at their best. 
-      But if you want to impress the judges at your local NanoTrasen-sponsored County Fair, you'll need to add an equal amount of ethanol to your ammonia.
-      This will mix into Diethylamine, a miracle fertilizer that can make plants grow faster AND live longer! Keep the crops you love with you longer thanks to Diethylamine.
+      Deuxième expérience : Ammoniac et Diéthylamine
+      Mélange 3 parts d'hydrogène avec 1 part d'azote pour obtenir de l'ammoniac. C'est un agréable plaisir nutritif pour tes cultures qui ne sont pas au mieux de leur forme.
+      Mais si tu veux impressionner les juges du Parrainage NanoTrasen, tu devras ajouter une quantité égale d'éthanol à ton ammoniac.
+      Cela se mélangera en Diéthylamine, un engrais miracle permettant aux plantes de pousser plus vite ET de vivre plus longtemps ! Garde les cultures que tu aimes avec toi plus longtemps grâce à la Diéthylamine.
 
-      Third Experiment: Unstable Mutagen
-      When you're ready to show everyone you're the greatest botanist on the station, you'll need to mix up some unstable mutagen and hope for the best. Despite the scary name, unstable mutagen is entirely safe when applied to plants, but do not drink the appealingly green chemical yourself.
-      
-      Mix equal parts radium, phosphorus, and chlorine together to get a bright green batch of unstable mutagen, the safe and fun way to get the most of your farm. The 15u this kit lets you make could be your introduction to agrichemical stardom!
-      Unstable mutagen can have a wide variety of effects on plant life, including drastic changes to all sorts of growth parameters, produce full of helpful pharmaceuticals, plants that glow in the dark, or creating entirely new species.
-      
-      Each individual plant responds to unstable mutagen differently, so you may want to use small doses on multiple crops and try to crossbreed the best traits from each of those. Applying multiple doses to one plant can stack multiple changes and make it harder to single out desirable traits.
-      Unstable mutagen is entirely safe when used as a fertilizer, and NanoTrasen takes no responsibility for dead crops, excessive water bills, newly sentient plants asking existential questions, or flora-strangled farmhands that may coincidentally occur while using it.
-      Do not drink unstable mutagen. Wash your hands thoroughly after handling. Wash your eyes if you have looked at unstable mutagen for over 30 minutes in a 24 hour period. Store in a dark room between 293–295K. Do not use on corporate holidays. If you begin hearing voices telling you to drink unstable mutagen, please contact your doctor, head of personnel, or exorcist.
+      Troisième expérience : Mutagène instable
+      Quand tu es prêt à montrer à tout le monde que tu es le plus grand botaniste de la station, tu devras préparer un mutagène instable et espérer le meilleur. Malgré son nom effrayant, le mutagène instable est totalement sûr lorsqu'il est appliqué aux plantes, mais ne bois pas le produit chimique vert toi-même.
 
-book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
-      Enclosed are two (2) CyberSun patented Throwing Croissants, and one (1) patent-pending Baguette Sword.
-      The included Donk Co. microwave board can construct a microwave capable of baking more weapons.
-      Just like the baked weapons, be sure to eat this note after use. Good luck, agent.
+      Mélange des parts égales de radium, de phosphore et de chlore ensemble pour obtenir un lot de mutagène instable vert éclatant, le moyen sûr et amusant d'obtenir le meilleur de ta ferme. Les 15u que tu viens de faire pourraient être le début de ta gloire agrochimique !
+      Le mutagène instable peut avoir une grande variété d'effets sur la vie végétale, incluant des changements drastiques de tous les paramètres de croissance, une production pleine de produits pharmaceutiques utiles, des plantes qui brillent dans l'obscurité, ou la création d'espèces entièrement nouvelles.
 
-      Baguette Sword Recipe:
-      Dough x 1
-      Salt 5u
-      Pepper 5u
-      Metal Rod x 1
-      Cook Time: 15 seconds
+      Chaque plante individuelle réagit différemment au mutagène instable, donc tu pourrais vouloir utiliser de petites doses sur plusieurs cultures et essayer de croiser les meilleurs traits de chacune d'elles. L'application de plusieurs doses sur une plante peut superposer plusieurs changements et rendre difficile l'isolation des traits souhaitables.
+      Le mutagène instable est totalement sûr lorsqu'il est utilisé comme engrais, et NanoTrasen ne prend aucune responsabilité pour les récoltes mortes, les factures d'eau excessives, les plantes récemment sensibles posant des questions existentielles, ou la flore qui étrangle les travailleurs de ferme pouvant coïncider lors de son utilisation.
+      Ne bois pas le mutagène instable. Lave-toi les mains soigneusement après manipulation. Lave-toi les yeux si tu as observé le mutagène instable pendant plus de 30 minutes sur une période de 24 heures. Entrepose-le dans une pièce sombre entre 293–295K. Ne pas utiliser durant les jours fériés des entreprises. Si tu commences à entendre des voix te disant de boire le mutagène instable, contacte ton médecin, le responsable du personnel, ou un exorciste.
 
-      Throwing Croissant Recipe:
-      Raw Croissant x 1
-      Butter Slice x 1
-      Glass Shard x 1
-      Cook Time: 5 seconds
+book-text-combat-bakery-kit = Merci d'avoir choisi notre kit de boulangerie de combat !
+      Inclus sont deux (2) Croissants de Lancer brevetés CyberSun, et un (1) Épée Baguette en attente de brevet.
+      Le circuit imprimé du micro-ondes Donk Co. inclus peut construire un micro-ondes capable de cuire plus d'armes.
+      Tout comme les armes cuites, assure-toi de manger cette note après utilisation. Bonne chance, agent.
+
+      Recette de l'Épée Baguette :
+      Pâte x 1
+      Sel 5u
+      Poivre 5u
+      Tige métallique x 1
+      Temps de cuisson : 15 secondes
+
+      Recette des Croixissants Lancés :
+      Croissant cru x 1
+      Tranche de beurre x 1
+      Éclat de verre x 1
+      Temps de cuisson : 5 secondes

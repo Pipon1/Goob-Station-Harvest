@@ -1,33 +1,29 @@
-# SPDX-FileCopyrightText: 2023 dontbetank <59025279+dontbetank@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-book-text-escalation = When it comes to getting robusted, it's all about strategy. Do it right and you'll be the envy of the station. Do it wrong and the gods themselves may turn against you. Personally, I always aim for the former...
+book-text-escalation = Quand il s'agit de se faire robuster, tout est une question de stratégie. Fais-le bien et tu seras la star de la station. Fais-le mal et les dieux eux-mêmes pourraient se retourner contre toi. Personnellement, je vise toujours la première option...
 
-        First things first: let the insults fly! This is your chance to really let your opponent know what you think of their ridiculously large shoes and that annoying bike horn.
+        Tout d'abord : laissez voler les insultes ! C'est ton opportunité de vraiment faire savoir à ton adversaire ce que tu penses de ses chaussures ridiculement grandes et de ce klaxon de vélo embêtant.
 
-        No conflict is complete without a little bit of physicality. Give your opponent a good shove or two, and if you're lucky, they'll stumble and fall, providing even more opportunities for insults.
+        Aucun conflit n'est complet sans un peu de physicalité. Pousse ton adversaire une ou deux fois, et si tu as de la chance, ils trébucheront et tomberont, offrant ainsi encore plus d'opportunités pour les insultes.
 
-        But beware, because by now your opponent is probably trying to kill you. So, try to calm things down a bit. It'll make you look good during the inevitable homicide investigation.
+        Mais attention, car maintenant ton adversaire essaie probablement de te tuer. Alors, essaie de calmer un peu les choses. Ça te fera avoir bonne figure lors de l'enquête inévitable sur l'homicide.
 
-        If deescalation doesn't work, it's time to grab a weapon. But be smart about it - choose something that looks like it couldn't possibly be deadly, like this book.
+        Si la désescalade ne fonctionne pas, il est temps de saisir une arme. Mais sois malin à ce sujet - choisis quelque chose qui n'a pas l'air mortel, comme ce livre.
 
-        And if you're both still standing, it's time to pull out the big guns. Find the sharpest thing you can and end things, because everyone's getting kind of tired of this by now.
+        Et si vous êtes encore tous les deux debout, il est temps de sortir l'artillerie lourde. Trouve l'objet le plus tranchant que tu peux et mets fin aux choses, car tout le monde commence à se lasser de ceci maintenant.
 
-        Now parade your vanquished opponent through the halls to the medbay so that everyone knows just how robust you really are.
+        Maintenant, fais défiler ton adversaire vaincu dans les couloirs jusqu'à l'infirmerie afin que tout le monde voie à quel point tu es vraiment robuste.
 
-        Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
+        N'oublie pas, il s'agit de conserver de l'énergie. Laisse ton adversaire faire une partie de l'escalade pour toi - c'est un situation gagnant-gagnant !
 
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
+book-text-escalation-security = Fais-le bien et tu auras toute la station qui t'appellera shitsec. Fais-le mal et tu devras faire face au harmbaton des dieux. Personnellement, je vise toujours la première option...
 
-        They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
+        On dit que la plume est plus puissante que l'épée, mais tu n'as pas d'épée, tu as un baton paralysant, et dès que tu commences à écrire, tout suspect va partir.
 
-        So, try starting your confrontations with words. It probably won't get you called shitsec, but it's also not likely to be very effective against someone with lethal intent.
+        Alors, essaie de commencer tes confrontations avec des mots. Cela ne va probablement pas te valoir d'être appelé shitsec, mais ce n'est pas très efficace contre quelqu'un avec une intention meurtrière.
 
-        Your next move should be to use non-lethal or less lethal devices, like stun batons, disablers, flashes, and flashbangs. Just make sure you get some training on these before trying to use them - offering them to a suspect in exchange for their cooperation is not an effective use of these tools.
+        Ton prochain coup devrait être d'utiliser des dispositifs non-létaux ou moins létaux, comme des batons paralysants, des disablers, des flashs et des grenades aveuglantes. Assure-toi juste d'avoir reçu une certaine formation sur ceux-ci avant d'essayer de les utiliser - les offrir à un suspect en échange de leur coopération n'est pas une utilisation efficace de ces outils.
 
-        If you're lucky enough to run into a suspect who is a lethal threat, it's time to bust out all the goodies you've been hoarding from the armory.
+        Si tu as assez de chance pour tomber sur un suspect qui représente une menace létale, il est temps de sortir toutes les bonnes choses que tu as accumulées de l'armurerie.
 
-        For an extra intimidation factor, take your robusted suspects to the medbay to be healed instead of the brig. That way, the whole crew can see just how robust you are.
+        Pour un facteur d'intimidation supplémentaire, emmène tes adversaires sévèrement réprimés à l'infirmerie pour qu'ils soient soignés au lieu de les envoyer au poste de garde. Ainsi, toute l'équipe pourra voir à quel point tu es vraiment robuste.

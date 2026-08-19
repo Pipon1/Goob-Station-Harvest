@@ -1,37 +1,33 @@
-# SPDX-FileCopyrightText: 2023 dontbetank <59025279+dontbetank@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-book-text-gaming1 = Can't stay for the game.
-      Engineering want me to keep a close eye on the singularity SMESes.
-      Leaving this so you know what's up.
-      Sorry.
+book-text-gaming1 = Je ne peux pas rester pour la partie.
+      L'ingénierie veut que je surveille de près les SMES de la singularité.
+      Je laisse ce message pour que tu saches ce qui se passe.
+      Désolé.
        - Alexander
 
 book-text-gaming2 = Johny Clowe
-      Class: Druid
-      Alignment: Neutral Good
-      Str: 1,294,139
-      Dex: 4,102,103
-      Con: 9,522,913
-      Int: 528,491
-      Wis: 1
-      Cha: 1
-      Where's the age?
-      Why are those ability scores so ridiculous?
-      What even are you trying to do here, Leah? - Your Friendly DM
+      Classe : Druide
+      Alignement : Bon Neutre
+      For : 1 294 139
+      Dex : 4 102 103
+      Con : 9 522 913
+      Int : 528 491
+      Sag : 1
+      Char : 1
+      Où est l'âge ?
+      Pourquoi ces scores de caractéristiques sont-ils si ridicules ?
+      Que cherches-tu même à faire ici, Leah ? - Ton MJ sympathique
 
-book-text-gaming3 = THE GIANT SPACE FLY FROM SPACE
-      Session 1: They should have just learned what's going on with the world and the Giant Space Fly.
-      Session 2: They should know to ask the Wizard's Court about seismic distortions.
-      Session 3: On their way to underground lair.
-      Session 4: Just ran into the Architect Of Flies.
-      Oh dear goodness they just started randomly killing everybody
+book-text-gaming3 = LA GROSSE MOUCHE SPATIALE DE L'ESPACE
+      Session 1 : Ils auraient dû simplement apprendre ce qui se passe dans le monde et avec la Grosse Mouche Spatiale.
+      Session 2 : Ils auraient dû penser à demander à la Cour du Sorcier concernant les déformations sismiques.
+      Session 3 : En chemin vers leur repaire souterrain.
+      Session 4 : Ils sont juste tombés sur l'Architecte des Mouches.
+      Oh mon Dieu, ils viennent de commencer à tuer au hasard tout le monde
 
-book-text-gaming4 = Won't be able to come to the meet, chemist blew up the hospital again.
-      Fifth time this shift.
-      It's amazing.
-      But not in a good way.
-      Cheers, - Arielle
+book-text-gaming4 = Je ne pourrai pas venir à la partie, le chimiste a fait exploser la medbay encore une fois.
+      Cinquième fois ce shift.
+      C'est impressionnant.
+      Mais pas d'une bonne manière.
+      À plus, - Arielle
