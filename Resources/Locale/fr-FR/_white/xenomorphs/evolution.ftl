@@ -1,6 +1,6 @@
-xenomorphs-evolution-ready = Our carapace crackles and our tendons strengthen. We are ready to evolve!
-xenomorphs-evolution-start-others = {$uid} begins to twist and contort.
-xenomorphs-evolution-start-self = We begin to twist and contort.
-xenomorphs-evolution-end = You emerge in a greater form from the husk of your old body. For the hive!
-xenomorphs-evolution-not-enough-points = We have to wait {$seconds} seconds to evolve.
-xenomorphs-evolution-no-cast-slot = You strain and try your best to evolve, but the hive cannot support another {$caste}
+xenomorphs-evolution-ready = Notre carapace crépite et nos tendons se renforcent. Nous sommes prêts à évoluer !
+xenomorphs-evolution-start-others = {$uid} commence à se tordre et à se déformer.
+xenomorphs-evolution-start-self = Nous commençons à nous tordre et à nous déformer.
+xenomorphs-evolution-end = Vous émergez sous une forme supérieure à partir de l'enveloppe de votre ancien corps. Pour la ruche !
+xenomorphs-evolution-not-enough-points = Nous devons attendre {$seconds} secondes pour évoluer.
+xenomorphs-evolution-no-cast-slot = Vous faites des efforts et faites de votre mieux pour évoluer, mais la ruche ne peut pas soutenir une autre {$caste}

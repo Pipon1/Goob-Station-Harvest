@@ -1,20 +1,16 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-uplink-night-vision-name = Night Vision Goggles
-uplink-night-vision-desc = They allow you to see in the dark, with a built in medical scanner.
+uplink-night-vision-name = Lunettes de vision nocturne
+uplink-night-vision-desc = Elles vous permettent de voir dans l'obscurité, avec un scanner médical intégré.
 
-uplink-thermal-vision-name = Thermal Vision Goggles
-uplink-thermal-vision-desc = They allow you to see living creatures regardless of obstacles.
+uplink-thermal-vision-name = Lunettes de vision thermique
+uplink-thermal-vision-desc = Elles vous permettent de voir les créatures vivantes indépendamment des obstacles.
 
-uplink-betrayal-knife-name = Betrayal Knife
+uplink-betrayal-knife-name = Couteau de trahison
 uplink-betrayal-knife-desc =
-    Betrayal knife allows the user to blink a short distance, knocking down people in a small radius around blink position.
-    Deals significant damage when target is lying down or facing away from you.
-    Use it in your hand to toggle blink mode.
+    Le couteau de trahison permet à l'utilisateur de se téléporter sur une courte distance, renversant les personnes dans un petit rayon autour de la position de téléportation.
+    Inflige des dégâts importants lorsque la cible est allongée ou tournée loin de vous.
+    Utilisez-le à la main pour basculer le mode de téléportation.
 
-uplink-experimental-syndicate-teleporter-name = Experimental Syndicate Teleporter
-uplink-experimental-syndicate-teleporter-desc = A self-recharging device that teleports the user forward. In case of teleportation into a wall, uses emergency teleportation. Or gibs the user if it's out of charges.
+uplink-experimental-syndicate-teleporter-name = Téléporteur expérimental du Syndicat
+uplink-experimental-syndicate-teleporter-desc = Un dispositif à recharge automatique qui téléporte l'utilisateur vers l'avant. En cas de téléportation dans un mur, utilise la téléportation d'urgence. Ou déchiquète l'utilisateur s'il n'a plus de charges.

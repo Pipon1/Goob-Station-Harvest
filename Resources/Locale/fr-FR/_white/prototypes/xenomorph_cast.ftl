@@ -1,7 +1,7 @@
-xenomorph-caste-larva = Larva
+xenomorph-caste-larva = Larve
 xenomorph-caste-drone = Drone
-xenomorph-caste-hunter = Hunter
-xenomorph-caste-sentinel = Sentinel
+xenomorph-caste-hunter = Chasseur
+xenomorph-caste-sentinel = Sentinelle
 xenomorph-caste-maid = Maid
-xenomorph-caste-praetorian = Praetorian
-xenomorph-caste-queen = Queen
+xenomorph-caste-praetorian = Prétorien
+xenomorph-caste-queen = Reine

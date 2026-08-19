@@ -1,81 +1,76 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 PuroSlavKing <103608145+PuroSlavKing@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # HEAD
-marking-LizardHeadGuilmon= Lizard, guilmon
-marking-LizardHeadGuilmon-guilmon = Main
+marking-LizardHeadGuilmon= Lézard, guilmon
+marking-LizardHeadGuilmon-guilmon = Principal
 
-marking-LizardShoutEasternDragon= Lizard, eastern dragon
-marking-LizardShoutEasternDragon-eastern_dragon = Outer
-marking-LizardShoutEasternDragon-eastern_dragon_overlay = Inner
+marking-LizardShoutEasternDragon= Lézard, dragon oriental
+marking-LizardShoutEasternDragon-eastern_dragon = Extérieur
+marking-LizardShoutEasternDragon-eastern_dragon_overlay = Intérieur
 
-marking-LizardShoutEasternDragonUsiki= Lizard, eastern dragon (Mustache)
-marking-LizardShoutEasternDragonUsiki-eastern_dragon = Outer
-marking-LizardShoutEasternDragonUsiki-eastern_dragon_overlay = Inner
-marking-LizardShoutEasternDragonUsiki-eastern_dragon_usiki = Mustache
+marking-LizardShoutEasternDragonUsiki= Lézard, dragon oriental (Moustache)
+marking-LizardShoutEasternDragonUsiki-eastern_dragon = Extérieur
+marking-LizardShoutEasternDragonUsiki-eastern_dragon_overlay = Intérieur
+marking-LizardShoutEasternDragonUsiki-eastern_dragon_usiki = Moustache
 
-marking-LizardHeadCobraHood = Lizard, hood with ears (Cobra)
-marking-LizardHeadCobraHood-cobra_hood_with_ears = Outer
-marking-LizardHeadCobraHood-cobra_hood_with_ears_overlay = Inner
+marking-LizardHeadCobraHood = Lézard, capuche avec oreilles (Cobra)
+marking-LizardHeadCobraHood-cobra_hood_with_ears = Extérieur
+marking-LizardHeadCobraHood-cobra_hood_with_ears_overlay = Intérieur
 
-marking-LizardHornsCurled-horns_curled_l = Left horn
-marking-LizardHornsCurled-horns_curled_r = Right horn
+marking-LizardHornsCurled-horns_curled_l = Corne gauche
+marking-LizardHornsCurled-horns_curled_r = Corne droite
 
-marking-LizardHornsRam-horns_ram_l = Left horn
-marking-LizardHornsRam-horns_ram_r = Right horn
+marking-LizardHornsRam-horns_ram_l = Corne gauche
+marking-LizardHornsRam-horns_ram_r = Corne droite
 
-marking-LizardHornsShort-horns_short_l = Left horn
-marking-LizardHornsShort-horns_short_r = Right horn
+marking-LizardHornsShort-horns_short_l = Corne gauche
+marking-LizardHornsShort-horns_short_r = Corne droite
 
-marking-LizardHornsSimple-horns_simple_l = Left horn
-marking-LizardHornsSimple-horns_simple_r = Right horn
+marking-LizardHornsSimple-horns_simple_l = Corne gauche
+marking-LizardHornsSimple-horns_simple_r = Corne droite
 
-marking-LizardHornsDouble-horns_double_l = Left horns
-marking-LizardHornsDouble-horns_double_r = Right horns
+marking-LizardHornsDouble-horns_double_l = Cors gauche
+marking-LizardHornsDouble-horns_double_r = Cors droit
 
-marking-LizardHornsArgali-horns_argali_l = Left horn
-marking-LizardHornsArgali-horns_argali_r = Right horn
+marking-LizardHornsArgali-horns_argali_l = Corne gauche
+marking-LizardHornsArgali-horns_argali_r = Corne droite
 
-marking-LizardHornsAyrshire-horns_ayrshire_l = Left Horn
-marking-LizardHornsAyrshire-horns_ayrshire_r = Right Horn
+marking-LizardHornsAyrshire-horns_ayrshire_l = Corne gauche
+marking-LizardHornsAyrshire-horns_ayrshire_r = Corne droite
 
-marking-LizardHornsMyrsore-horns_myrsore_l = Left horn
-marking-LizardHornsMyrsore-horns_myrsore_r = Right horn
+marking-LizardHornsMyrsore-horns_myrsore_l = Corne gauche
+marking-LizardHornsMyrsore-horns_myrsore_r = Corne droite
 
-marking-LizardHornsBighorn-horns_bighorn_l = Left horn
-marking-LizardHornsBighorn-horns_bighorn_r = Right horn
+marking-LizardHornsBighorn-horns_bighorn_l = Corne gauche
+marking-LizardHornsBighorn-horns_bighorn_r = Corne droite
 
 # TAILS
-marking-SnakeLargeTail = Lizard, large snake tail
-marking-SnakeLargeTail-tail_snakelarge = Inner
-marking-SnakeLargeTail-tail_snakelarge_overlay = Outer
+marking-SnakeLargeTail = Lézard, grande queue de serpent
+marking-SnakeLargeTail-tail_snakelarge = Intérieur
+marking-SnakeLargeTail-tail_snakelarge_overlay = Extérieur
 
 # SPINES
-marking-LizardChestSpinesAquatic = Lizard, chest, spines (Aquatic)
-marking-LizardChestSpinesAquatic-spines_aquatic = Spikes
-marking-LizardChestSpinesAquaticWithoutTail = Lizard, chest, spines (Aquatic, without tail)
-marking-LizardChestSpinesAquaticWithoutTail-spines_aquatic = Spikes
+marking-LizardChestSpinesAquatic = Lézard, poitrine, épines (Aquatique)
+marking-LizardChestSpinesAquatic-spines_aquatic = Pointes
+marking-LizardChestSpinesAquaticWithoutTail = Lézard, poitrine, épines (Aquatique, sans queue)
+marking-LizardChestSpinesAquaticWithoutTail-spines_aquatic = Pointes
 
-marking-LizardChestSpinesLong = Lizard, chest, spines (Long)
-marking-LizardChestSpinesLong-spines_long = Spikes
-marking-LizardChestSpinesLongWithoutTail = Lizard, chest, spines (Long, without tail)
-marking-LizardChestSpinesLongWithoutTail-spines_long = Spikes
+marking-LizardChestSpinesLong = Lézard, poitrine, épines (Long)
+marking-LizardChestSpinesLong-spines_long = Pointes
+marking-LizardChestSpinesLongWithoutTail = Lézard, poitrine, épines (Long, sans queue)
+marking-LizardChestSpinesLongWithoutTail-spines_long = Pointes
 
-marking-LizardChestSpinesLongMembrane = Lizard, chest, spines (Long, Membrane)
-marking-LizardChestSpinesLongMembrane-spines_longmembrane = spines
-marking-LizardChestSpinesLongMembraneWithoutTail = Lizard, chest, spines (Long, Membrane, without tail)
-marking-LizardChestSpinesLongMembraneWithoutTail-spines_longmembrane = spines
+marking-LizardChestSpinesLongMembrane = Lézard, poitrine, épines (Long, Membrane)
+marking-LizardChestSpinesLongMembrane-spines_longmembrane = Épines
+marking-LizardChestSpinesLongMembraneWithoutTail = Lézard, poitrine, épines (Long, Membrane, sans queue)
+marking-LizardChestSpinesLongMembraneWithoutTail-spines_longmembrane = Épines
 
-marking-LizardChestSpinesShort = Lizard, chest, spines (Short)
-marking-LizardChestSpinesShort-spines_short = Spikes
-marking-LizardChestSpinesShortWithoutTail = Lizard, chest, spines (Short, without tail)
-marking-LizardChestSpinesShortWithoutTail-spines_short = Spikes
+marking-LizardChestSpinesShort = Lézard, poitrine, épines (Court)
+marking-LizardChestSpinesShort-spines_short = Pointes
+marking-LizardChestSpinesShortWithoutTail = Lézard, poitrine, épines (Court, sans queue)
+marking-LizardChestSpinesShortWithoutTail-spines_short = Pointes
 
-marking-LizardChestSpinesShortMembrane = Lizard, chest, spines (Short, Membrane)
-marking-LizardChestSpinesShortMembrane-spines_short = Spikes
-marking-LizardChestSpinesShortMembraneWithoutTail = Lizard, chest, spines (Short, Membrane, without tail)
-marking-LizardChestSpinesShortMembraneWithoutTail-spines_short = Spikes
+marking-LizardChestSpinesShortMembrane = Lézard, poitrine, épines (Court, Membrane)
+marking-LizardChestSpinesShortMembrane-spines_short = Pointes
+marking-LizardChestSpinesShortMembraneWithoutTail = Lézard, poitrine, épines (Court, Membrane, sans queue)
+marking-LizardChestSpinesShortMembraneWithoutTail-spines_short = Pointes

@@ -1,8 +1,5 @@
-# SPDX-FileCopyrightText: 2024 whateverusername0 <whateveremail>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ui-options-log-in-chat = Log actions in the chat
+ui-options-log-in-chat = Enregistrer les actions dans le chat
 
-ui-options-hud-theme-xenomorph = Xenomorph
+ui-options-hud-theme-xenomorph = Xénomorphe

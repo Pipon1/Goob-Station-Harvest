@@ -1,1 +1,1 @@
-xenomorph-egg-clean-butsting-egg = You clear the hatched egg.
+xenomorph-egg-clean-butsting-egg = Vous nettoyez l'œuf éclos.

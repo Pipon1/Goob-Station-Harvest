@@ -1,2 +1,2 @@
-language-XenoHivemind-name = Hivemind
-language-XenoHivemind-description = This is not a language in the conventional sense, but a symphony of minds resonating with a psionic field through the hive node. It is a flow of sensations, images, emotions, and instincts, transmitted from one xenomorph to another, forming a unified collective consciousness.
+language-XenoHivemind-name = Conscience collective
+language-XenoHivemind-description = Ce n'est pas une langue au sens conventionnel, mais une symphonie d'esprits résonnant avec un champ psionique à travers le nœud de ruche. C'est un flot de sensations, d'images, d'émotions et d'instincts, transmis d'un xénomorphe à un autre, formant une conscience collective unifiée.
