@@ -6,3 +6,4 @@ terror-vox = Attention à l'équipage, il semblerait que quelqu'un sur votre sta
 terror-blob = Attention à l'équipage, il semblerait que quelqu'un sur votre station ait établi une communication inattendue avec un scientifique fou dans l'espace proche.
 terror-grey-tide = Attention à l'équipage, il semblerait que quelqu'un sur votre station ait établi une communication inattendue avec un individu très robuste dans l'espace proche.
 terror-wizard = Attention à l'équipage, il semblerait que quelqu'un sur votre station ait établi une communication inattendue avec une personne mentalement instable dans l'espace proche.
+terror-sleeper-agent = Attention à l'équipage, il semblerait qu'une communication inattendue ait eu des effets néfastes sur les membres d'équipage autour de la station.

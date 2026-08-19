@@ -268,7 +268,7 @@
 # Basically copies explosive grenades, I did not parent directly because animation caused the shrapnel to spawn with an error texture.
 - type: entity
   id: BulletShrapnelHeavyHighExplosive
-  name: éclats explosifs
+  name: shrapnel explosif
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   components:

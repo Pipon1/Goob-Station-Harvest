@@ -11,6 +11,7 @@ surgery-ui-window-steps-error-skills = Vous n'avez aucune compétence chirurgica
 surgery-ui-window-steps-error-table = Vous avez besoin d'une table d'opération pour cela.
 surgery-ui-window-steps-error-armor = Vous devez retirer son armure !
 surgery-ui-window-steps-error-tools = Outils manquants.
+surgery-ui-window-steps-error-missing-tool = Vous avez besoin de {$tool} pour effectuer cette étape !
 surgery-error-laying = Il/elle doit être allongé(e) !
 surgery-error-self-surgery = Vous ne pouvez pas vous opérer vous-même !
 surgery-part-damage-evaded = {$user} a évité de justesse !

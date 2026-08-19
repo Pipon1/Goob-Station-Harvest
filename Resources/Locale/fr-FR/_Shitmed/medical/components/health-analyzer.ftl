@@ -6,6 +6,8 @@ condition-body-trauma-OrganDamage = • Le {$woundable} présente des lésions s
 condition-body-trauma-VeinsDamage = • Le {$woundable} présente des lésions sur ses veines.
 condition-body-trauma-NerveDamage = • Le {$woundable} présente des lésions sur ses nerfs.
 condition-body-trauma-Dismemberment = • Le {$targetSymmetry}{$targetType} a été retiré...
+condition-body-trauma-Shrapnel = • Il y a des éclats d'obus enfoncés dans le {$woundable}.
+condition-body-trauma-Braindeath = • [color=red]Le cerveau est mort.[/color] Il doit être réparé chirurgicalement avant que la réanimation soit possible.
 condition-body-pain-decreased = • Les nerfs du {$woundable} sont engourdis.
 condition-body-pain-increased = • Les nerfs du {$woundable} sont anormalement sensibles.
 condition-body-unrevivable = • {$entity} a une constitution particulièrement fragile. Il/elle ne peut pas supporter le choc d'un défibrillateur.

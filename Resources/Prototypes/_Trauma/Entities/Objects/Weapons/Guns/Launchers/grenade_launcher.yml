@@ -2,7 +2,7 @@
   parent: BaseItem
   id: LauncherStickyGrenadeRegenerating
   name: lance-grenades collantes
-  description: Un lanceur à rechargement automatique qui tire des grenades collantes. Elles s'incrustent dans ce qu'elles touchent et explosent après 3 secondes.
+  description: Un lanceur à rechargement automatique qui tire des grenades collantes. Elles se collent à ce qu'elles touchent et explosent après 3 secondes.
   suffix: Regenerating
   components:
   - type: Sprite
