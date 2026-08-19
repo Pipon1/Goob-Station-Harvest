@@ -17,8 +17,8 @@
   parent: [ BoxCardboard, BaseSyndicateContraband ]
   id: BombCollarKit
   name: kit collier explosif
-  suffix: Rempli
-  components:Filled
+  suffix: Filled
+  components:
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:AllSelector
