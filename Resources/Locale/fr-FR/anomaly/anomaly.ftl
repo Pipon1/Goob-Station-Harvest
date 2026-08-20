@@ -68,7 +68,7 @@ anomaly-sync-connect-verb-message = Attacher une anomalie proche à {THE($machin
 anomaly-sync-disconnect-verb-text = Détacher l'anomalie
 anomaly-sync-disconnect-verb-message = Détacher l'anomalie connectée de {THE($machine)}.
 
-anomaly-generator-ui-title = Générateur d'Anomalie
+anomaly-generator-ui-title = Generateur d'Anomalie
 anomaly-generator-fuel-display = Carburant :
 anomaly-generator-cooldown = Recharge : [color=gray]{$time}[/color]
 anomaly-generator-no-cooldown = Recharge : [color=gray]Terminée[/color]

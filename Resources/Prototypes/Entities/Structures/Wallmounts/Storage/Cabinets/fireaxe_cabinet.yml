@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseWallmountCabinetGlass
   id: FireAxeCabinet
-  name: fire axe cabinet
-  description: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
+  name: armoire à hache incendie
+  description: Une petite étiquette indique "Pour usage d'urgence uniquement" avec les détails pour une utilisation sécurisée de la hache. Comme si.
   placement:
     mode: SnapgridCenter
   components:

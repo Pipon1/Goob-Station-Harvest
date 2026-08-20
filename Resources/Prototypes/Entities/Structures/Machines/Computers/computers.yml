@@ -1654,8 +1654,8 @@
 - type: entity
   id: StationAiUploadComputer
   parent: BaseComputer
-  name: AI upload console
-  description: Used to update the laws of the station AI.
+  name: console de téléversement IA
+  description: Utilisée pour mettre à jour les lois de l'IA de la station.
   components:
   - type: Sprite
     layers:
