@@ -1,14 +1,7 @@
-# SPDX-FileCopyrightText: 2024 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 motd-1 = Maintenant avec 65 % d'antags en plus !
-motd-2 = Le médicatoin ne craint pas, c'est toi.
+motd-2 = Le médicament ne craint pas, c'est toi.
 motd-3 = freak
 motd-4 = Bingle
 motd-5 = Les jetons d'antag ont été inventés par la Grande Sécu pour vendre plus de peines perpétuelles.

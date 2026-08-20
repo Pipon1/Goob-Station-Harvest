@@ -1,1 +1,1 @@
-flash-protection = It provides protection from [color=lightblue]bright flashes[/color].
+flash-protection = Cela offre une protection contre [color=lightblue]les flashs lumineux[/color].

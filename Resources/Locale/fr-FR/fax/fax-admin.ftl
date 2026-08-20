@@ -1,24 +1,18 @@
-# SPDX-FileCopyrightText: 2023 Morb <14136326+Morb0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 eoineoineoin <github@eoinrul.es>
-# SPDX-FileCopyrightText: 2024 dffdff2423 <dffdff2423@gmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Command
-cmd-faxui-desc = Open admin window for sending faxes
-cmd-faxui-help = Usage: faxui
+cmd-faxui-desc = Ouvrir la fenêtre d'admin pour envoyer des fax
+cmd-faxui-help = Utilisation : faxui
 
 # Window
-admin-fax-title = Admin Fax Manager
-admin-fax-fax = Fax:
-admin-fax-follow = Follow
-admin-fax-title-placeholder = Paper name...
-admin-fax-from-placeholder = Stamped by...
-admin-fax-message-placeholder = Your message here...
-admin-fax-stamp = Stamp icon:
-admin-fax-stamp-color = Stamp color:
-admin-fax-send = Send
-admin-fax-lock-page = Lock Page
-admin-fax-lock-page-tooltip = Lock the paper such that it cannot be edited even by things such as cybersun pens.
+admin-fax-title = Gestionnaire de fax admin
+admin-fax-fax = Fax :
+admin-fax-follow = Suivre
+admin-fax-title-placeholder = Nom du papier...
+admin-fax-from-placeholder = Tamponné par...
+admin-fax-message-placeholder = Votre message ici...
+admin-fax-stamp = Icône de tampon :
+admin-fax-stamp-color = Couleur du tampon :
+admin-fax-send = Envoyer
+admin-fax-lock-page = Verrouiller le papier
+admin-fax-lock-page-tooltip = Verrouiller le papier afin qu'il ne puisse pas être édité même par des objets tels que les stylos cybersun.
