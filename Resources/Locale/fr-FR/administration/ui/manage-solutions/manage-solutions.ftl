@@ -1,21 +1,16 @@
-# SPDX-FileCopyrightText: 2021 TemporalOroboros <TemporalOroboros@gmail.com>
-# SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-admin-solutions-window-title = Solution Editor - {$targetName}
-admin-solutions-window-solution-label = Target solution:
+admin-solutions-window-title = Éditeur de solution - {$targetName}
+admin-solutions-window-solution-label = Solution cible :
 admin-solutions-window-solution-button = Solution
-admin-solutions-window-solution-button-tooltip = Opens the corresponding server-side Solution instance in ViewVariables. Useful for debugging prediction issues.
+admin-solutions-window-solution-button-tooltip = Ouvre l'instance Solution côté serveur dans ViewVariables. Utile pour déboguer les problèmes de prédiction.
 admin-solutions-window-vv-button = VV
-admin-solutions-window-vv-button-tooltip = Opens the corresponding solution entity in ViewVariables.
-admin-solutions-window-add-new-button = Add new reagent
+admin-solutions-window-vv-button-tooltip = Ouvre l'entité solution correspondante dans ViewVariables.
+admin-solutions-window-add-new-button = Ajouter un nouveau réactif
 admin-solutions-window-volume-label = Volume {$currentVolume}/{$maxVolume}u
-admin-solutions-window-capacity-label = Capacity (u):
-admin-solutions-window-specific-heat-label = Specific Heat: {$specificHeat} J/(K*u)
-admin-solutions-window-heat-capacity-label = Heat Capacity: {$heatCapacity} J/K
-admin-solutions-window-temperature-label = Temperature (K):
-admin-solutions-window-thermal-energy-label = Thermal Energy (J):
-admin-solutions-window-thermals = Thermals
+admin-solutions-window-capacity-label = Capacité (u) :
+admin-solutions-window-specific-heat-label = Chaleur spécifique : {$specificHeat} J/(K*u)
+admin-solutions-window-heat-capacity-label = Capacité thermique : {$heatCapacity} J/K
+admin-solutions-window-temperature-label = Température (K) :
+admin-solutions-window-thermal-energy-label = Énergie thermique (J) :
+admin-solutions-window-thermals = Thermiques

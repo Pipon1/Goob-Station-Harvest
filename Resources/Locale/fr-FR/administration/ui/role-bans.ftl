@@ -1,3 +1,3 @@
-role-bans-ban-group = Ban All
-role-bans-expand-roles = Show Roles
-role-bans-contract-roles = Hide Roles
+role-bans-ban-group = Tout bannir
+role-bans-expand-roles = Afficher les rôles
+role-bans-contract-roles = Masquer les rôles
