@@ -285,7 +285,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGuardian
-  name: Activer/Désactiver le gardien
+  name: (Dés)activer le gardien
   description: Manifeste le gardien ou le rappelle dans votre corps.
   components:
   - type: Action

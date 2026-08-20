@@ -90,7 +90,7 @@
 - type: entity
   parent: BaseAction
   id: ActionOpenStorageImplant
-  name: Activer/Désactiver l'implant de stockage
+  name: (Dés)activer l'implant de stockage
   description: Ouvre ou ferme l'implant de stockage intégré sous votre peau
   components:
   - type: Action
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleSuitPiece
-  name: Activer/Désactiver les pièces de combinaison
+  name: (Dés)activer les pièces de combinaison
   description: N'oubliez pas d'équiper les pièces importantes de votre combinaison avant de passer à l'action.
   components:
   - type: Action
@@ -386,7 +386,7 @@
   parent: BaseAction
   id: FakeMindShieldToggleAction
   name: '[color=green]Basculer le faux Mindshield[/color]'
-  description: Activer/désactiver la transmission de l'implant Faux Mindshield
+  description: (Dés)activer la transmission de l'implant Faux Mindshield
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_fakemindshield.rsi, state: icon }

@@ -1,3 +1,3 @@
 # SPDX-License-Identifier: MIT
 
-power-switch-component-toggle-verb = Activer/Désactiver l'alimentation
+power-switch-component-toggle-verb = (Dés)activer l'alimentation

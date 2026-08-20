@@ -145,7 +145,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleLighting
-  name: Activer/Désactiver l'éclairage
+  name: (Dés)activer l'éclairage
   description: Basculez le rendu de la lumière pour mieux observer les zones sombres.
   components:
   - type: Action
@@ -159,7 +159,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Activer/Désactiver le champ de vision
+  name: (Dés)activer le champ de vision
   description: Bascule le champ de vision pour voir ce que les joueurs voient.
   components:
   - type: Action
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhosts
-  name: Activer/Désactiver les fantômes
+  name: (Dés)activer les fantômes
   description: Activez/Désactivez la visibilité des autres fantômes.
   components:
   - type: Action
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhostHearing
-  name: Activer/Désactiver l'écoute des fantômes
+  name: (Dés)activer l'écoute des fantômes
   description: Basculez entre entendre tous les messages et entendre uniquement les messages radio et proches.
   components:
   - type: Action

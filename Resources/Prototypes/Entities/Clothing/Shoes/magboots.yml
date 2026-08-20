@@ -141,7 +141,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleMagboots
-  name: Activer/désactiver les magboots
+  name: (Dés)activer les magboots
   description: Permet d'activer ou de désactiver vos bottes magnétiques.
   components:
   - type: Action

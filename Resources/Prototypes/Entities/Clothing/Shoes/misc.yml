@@ -176,7 +176,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleSpeedBoots
-  name: Activer/désactiver les bottes de vitesse
+  name: (Dés)activer les bottes de vitesse
   description: Permet d'activer ou de désactiver vos bottes de vitesse.
   components:
   - type: Action

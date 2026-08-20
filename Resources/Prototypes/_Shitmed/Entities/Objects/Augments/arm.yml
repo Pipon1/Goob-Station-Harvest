@@ -293,7 +293,7 @@
 - type: entity
   parent: BaseAugmentAction
   id: ActionAugmentToggleStrength
-  name: Activer/désactiver l'augment de force
+  name: (Dés)activer l'augment de force
   description: Augmente vos dégâts au corps à corps de 25 %, consomme 30W lorsqu'actif.
   components:
   - type: Action

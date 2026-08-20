@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSurvCameraLights
-  name: Activer/Désactiver les lumières des caméras
+  name: (Dés)activer les lumières des caméras
   description: Active les lumières des caméras de surveillance près de l'endroit que vous observez.
   components:
   - type: Action

@@ -9,7 +9,7 @@ spray-painter-interact-nothing-to-remove = Rien à supprimer !
 spray-painter-on-examined-painted-message = Il semble avoir été fraîchement peint.
 spray-painter-style-not-available = Impossible d'appliquer le style sélectionné à cet objet.
 
-spray-painter-verb-toggle-decals = Activer/désactiver la peinture de décalcomanies
+spray-painter-verb-toggle-decals = (Dés)activer la peinture de décalcomanies
 
 spray-painter-item-status-label = Décalcomanies : {$mode}
 spray-painter-item-status-add = [color=green]Ajouter[/color]

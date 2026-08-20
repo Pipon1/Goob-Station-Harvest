@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleInternals
-  name: Activer/Désactiver les réserves internes
+  name: (Dés)activer les réserves internes
   description: Respirez depuis le réservoir de gaz équipé. Nécessite également un masque respiratoire équipé.
   components:
   - type: Action

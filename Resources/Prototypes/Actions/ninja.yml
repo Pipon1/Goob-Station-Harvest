@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionToggleNinjaGloves
-  name: Activer/Désactiver les gants ninja
+  name: (Dés)activer les gants ninja
   description: Passe toutes les actions des gants au clic gauche. Inclut le forçage de portes, le drainage d'énergie, l'étourdissement d'ennemis et le piratage de certains ordinateurs.
   components:
   - type: Action

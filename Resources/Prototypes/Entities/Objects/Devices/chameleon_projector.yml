@@ -95,7 +95,7 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseNoRot
-  name: Activer/Désactiver la rotation
+  name: (Dés)activer la rotation
   description: Utilisez ceci pour empêcher votre déguisement de tourner, ce qui facilite la dissimulation dans certains scénarios.
   components:
   - type: Action
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseAnchor
-  name: Activer/Désactiver l'ancrage
+  name: (Dés)activer l'ancrage
   description: Pour de nombreux objets, vous voudrez être ancré pour ne pas être trop évident.
   components:
   - type: Action
