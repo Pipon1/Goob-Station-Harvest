@@ -1,19 +1,15 @@
-# SPDX-FileCopyrightText: 2023 keronshb <54602815+keronshb@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 ## Actions Commands loc
 
 ## Upgradeaction command loc
-upgradeaction-command-help = Usage: upgradeaction <entityUid> [level]
-upgradeaction-command-need-one-argument = upgradeaction needs at least one argument, the action entity uid. The second optional argument is a specified level.
-upgradeaction-command-max-two-arguments = upgradeaction has a maximum of two arguments, the action entity uid and the (optional) level to set.
-upgradeaction-command-second-argument-not-number = upgradeaction's second argument can only be a number.
-upgradeaction-command-less-than-required-level = upgradeaction cannot accept a level of 0 or lower.
-upgradeaction-command-incorrect-entityuid-format = You must use a valid entityuid format for upgradeaction.
-upgradeaction-command-entity-does-not-exist = This entity does not exist, a valid entity is required for upgradeaction.
-upgradeaction-command-entity-is-not-action = This entity doesn't have the action upgrade component, so this action cannot be leveled.
-upgradeaction-command-cannot-level-up = The action cannot be leveled up.
-upgradeaction-command-description = Upgrades an action by one level, or to the specified level, if applicable.
+upgradeaction-command-help = Utilisation : upgradeaction <entityUid> [niveau]
+upgradeaction-command-need-one-argument = upgradeaction a besoin d'au moins un argument, l'entityUid de l'action. Le second argument optionnel est un niveau spécifié.
+upgradeaction-command-max-two-arguments = upgradeaction a un maximum de deux arguments, l'entityUid de l'action et le (optionnel) niveau à définir.
+upgradeaction-command-second-argument-not-number = Le second argument de upgradeaction ne peut être qu'un nombre.
+upgradeaction-command-less-than-required-level = upgradeaction ne peut pas accepter un niveau de 0 ou inférieur.
+upgradeaction-command-incorrect-entityuid-format = Vous devez utiliser un format entityuid valide pour upgradeaction.
+upgradeaction-command-entity-does-not-exist = Cette entité n'existe pas, une entité valide est requise pour upgradeaction.
+upgradeaction-command-entity-is-not-action = Cette entité n'a pas le composant d'amélioration d'action, donc cette action ne peut pas être montée en niveau.
+upgradeaction-command-cannot-level-up = L'action ne peut pas être montée en niveau.
+upgradeaction-command-description = Monte une action d'un niveau, ou au niveau spécifié, si applicable.

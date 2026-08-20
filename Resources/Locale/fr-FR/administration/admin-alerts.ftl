@@ -1,14 +1,8 @@
-# SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Myra <vasilis@pikachu.systems>
-# SPDX-FileCopyrightText: 2025 PJB3005 <pieterjan.briers+git@gmail.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-admin-alert-shared-connection = {$player} is sharing a connection with {$otherCount} connected player(s): {$otherList}
-admin-alert-ipintel-blocked = {$player} was rejected from joining due to their IP having a {TOSTRING($percent, "P2")} confidence of being a VPN/Datacenter.
-admin-alert-ipintel-warning = {$player} IP has a {TOSTRING($percent, "P2")} confidence of being a VPN/Datacenter. Please watch them.
-admin-alert-antag-label = {$message} [ANTAG: {$name}, {$subtype}]
-admin-alert-tp-to-players-header = Players:{" "}
-admin-alert-tp-to-coords-header = Coords:{" "}
+admin-alert-shared-connection = {$player} partage une connexion avec {$otherCount} joueur(s) connecté(s) : {$otherList}
+admin-alert-ipintel-blocked = {$player} a été refusé pour connexion car son IP a une confiance de {TOSTRING($percent, "P2")} d'être un VPN/Datacenter.
+admin-alert-ipintel-warning = L'IP de {$player} a une confiance de {TOSTRING($percent, "P2")} d'être un VPN/Datacenter. Surveillez-le.
+admin-alert-antag-label = {$message} [ANTAG : {$name}, {$subtype}]
+admin-alert-tp-to-players-header = Joueurs :{" "}
+admin-alert-tp-to-coords-header = Coords :{" "}

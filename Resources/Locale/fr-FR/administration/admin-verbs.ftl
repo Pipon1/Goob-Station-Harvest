@@ -1,81 +1,67 @@
-# SPDX-FileCopyrightText: 2021 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 ShadowCommander <10494922+ShadowCommander@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2023 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Moony <moony@hellomouse.net>
-# SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2024 Brandon Hu <103440971+Brandon-Huu@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 no <165581243+pissdemon@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Generic verbs
-delete-verb-get-data-text = Delete
-edit-solutions-verb-get-data-text = Edit Solutions
-explode-verb-get-data-text = Explode
+delete-verb-get-data-text = Supprimer
+edit-solutions-verb-get-data-text = Modifier les solutions
+explode-verb-get-data-text = Exploser
 ahelp-verb-get-data-text = Message
-admin-verbs-admin-logs-entity = Entity Logs
-admin-verbs-teleport-to = Teleport To
-admin-verbs-teleport-here = Teleport Here
-admin-verbs-freeze = Freeze
-admin-verbs-freeze-and-mute = Freeze And Mute
-admin-verbs-unfreeze = Unfreeze
-admin-verbs-camera = Open Camera
-admin-verbs-camera-description = Open a camera window that follows the selected entity.
-admin-verbs-erase = Erase
-admin-verbs-erase-description = Removes the player from the round and crew manifest and deletes their chat messages.
-    Their items are dropped on the ground.
-    Players are shown a popup indicating them to play as if they never existed.
-toolshed-verb-mark = Mark
-toolshed-verb-mark-description = Places this entity into the $marked variable, a list of entities, replacing its prior value.
+admin-verbs-admin-logs-entity = Logs de l'entité
+admin-verbs-teleport-to = Téléporter vers
+admin-verbs-teleport-here = Téléporter ici
+admin-verbs-freeze = Geler
+admin-verbs-freeze-and-mute = Geler et mute
+admin-verbs-unfreeze = Dégeler
+admin-verbs-camera = Ouvrir caméra
+admin-verbs-camera-description = Ouvre une fenêtre caméra qui suit l'entité sélectionnée.
+admin-verbs-erase = Effacer
+admin-verbs-erase-description = Retire le joueur de la manche et du manifeste d'équipage et supprime ses messages de chat.
+    Ses objets sont déposés au sol.
+    Les joueurs voient une fenêtre indiquant de jouer comme s'il n'avait jamais existé.
+toolshed-verb-mark = Marquer
+toolshed-verb-mark-description = Place cette entité dans la variable $marked, une liste d'entités, remplaçant sa valeur précédente.
 
-export-entity-verb-get-data-text = Export sprite
+export-entity-verb-get-data-text = Exporter le sprite
 
 # Tools verbs
-admin-verbs-rejuvenate = Rejuvenate
-admin-verbs-make-indestructible = Make Indestructible
-admin-verbs-make-vulnerable = Make Vulnerable
-admin-verbs-refill-battery = Refill Battery
-admin-verbs-drain-battery = Drain Battery
-admin-verbs-infinite-battery = Infinite Battery
-admin-verbs-block-unanchoring = Block Unanchoring
-admin-verbs-refill-internals-oxygen = Refill Internals Oxygen
-admin-verbs-refill-internals-nitrogen = Refill Internals Nitrogen
-admin-verbs-refill-internals-plasma = Refill Internals Plasma
-admin-verbs-send-to-test-arena = Send to test arena
-admin-verbs-grant-all-access = Grant All Access
-admin-verbs-revoke-all-access = Revoke All Access
-admin-verbs-adjust-stack = Adjust Stack
-admin-verbs-fill-stack = Fill Stack
-admin-verbs-rename = Rename
-admin-verbs-redescribe = Redescribe
-admin-verbs-rename-and-redescribe = Rename & Redescribe
-admin-verbs-bar-job-slots = Bar job slots
-admin-verbs-locate-cargo-shuttle = Locate Cargo Shuttle
-admin-verbs-halt-movement = Halt Movement
-admin-verbs-unpause-map = Unpause Map
-admin-verbs-pause-map = Pause Map
-admin-verbs-snap-joints = Snap Joints
-admin-verbs-make-minigun = Make Minigun
-admin-verbs-set-bullet-amount = Set Bullet Amount
+admin-verbs-rejuvenate = Rajeunir
+admin-verbs-make-indestructible = Rendre indestructible
+admin-verbs-make-vulnerable = Rendre vulnérable
+admin-verbs-refill-battery = Recharger la batterie
+admin-verbs-drain-battery = Vider la batterie
+admin-verbs-infinite-battery = Batterie infinie
+admin-verbs-block-unanchoring = Bloquer le désancrage
+admin-verbs-refill-internals-oxygen = Recharger oxygène interne
+admin-verbs-refill-internals-nitrogen = Recharger azote interne
+admin-verbs-refill-internals-plasma = Recharger plasma interne
+admin-verbs-send-to-test-arena = Envoyer à l'arène de test
+admin-verbs-grant-all-access = Accorder tous les accès
+admin-verbs-revoke-all-access = Révoquer tous les accès
+admin-verbs-adjust-stack = Ajuster la pile
+admin-verbs-fill-stack = Remplir la pile
+admin-verbs-rename = Renommer
+admin-verbs-redescribe = Redécrire la description
+admin-verbs-rename-and-redescribe = Renommer & Redécrire
+admin-verbs-bar-job-slots = Verrouiller les postes
+admin-verbs-locate-cargo-shuttle = Localiser la navette cargo
+admin-verbs-halt-movement = Arrêter le mouvement
+admin-verbs-unpause-map = Dépauser la map
+admin-verbs-pause-map = Pauser la map
+admin-verbs-snap-joints = Claquer les articulations
+admin-verbs-make-minigun = Transformer en minigun
+admin-verbs-set-bullet-amount = Définir le nombre de balles
 
 # Toggles verbs
-admin-verbs-bolt = Bolt
-admin-verbs-unbolt = Unbolt
-admin-verbs-emergency-access-on = Emergency Access On
-admin-verbs-emergency-access-off = Emergency Access Off
+admin-verbs-bolt = Verrouiller
+admin-verbs-unbolt = Déverrouiller
+admin-verbs-emergency-access-on = Accès d'urgence activé
+admin-verbs-emergency-access-off = Accès d'urgence désactivé
 
 # Dialogs verbs
-admin-verbs-dialog-adjust-stack-amount = Amount (max {$max})
-admin-verbs-dialog-rename-title = Rename
-admin-verbs-dialog-rename-name = Name
-admin-verbs-dialog-redescribe-title = Redescribe
+admin-verbs-dialog-adjust-stack-amount = Quantité (max {$max})
+admin-verbs-dialog-rename-title = Renommer
+admin-verbs-dialog-rename-name = Nom
+admin-verbs-dialog-redescribe-title = Redécrire
 admin-verbs-dialog-redescribe-description = Description
-admin-verbs-dialog-rename-and-redescribe-title = Rename & Redescribe
-admin-verbs-dialog-set-bullet-amount-title = Set Bullet Amount
-admin-verbs-dialog-set-bullet-amount-amount = Amount (standard {$cap})
+admin-verbs-dialog-rename-and-redescribe-title = Renommer & Redécrire
+admin-verbs-dialog-set-bullet-amount-title = Définir le nombre de balles
+admin-verbs-dialog-set-bullet-amount-amount = Quantité (standard {$cap})
