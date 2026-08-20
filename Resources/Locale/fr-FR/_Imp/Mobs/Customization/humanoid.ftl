@@ -119,19 +119,19 @@ marking-ArmHeavyTattoosRight-heavy2 = Tatouages lourds bras (bas)
 marking-ArmProstheticRight = Prothèse (bras droit)
 marking-ArmProstheticRight-prosthetic = Prothèse (bras droit)
 
-marking-ArmTwistingRight = Twisted Scar (Right Arm)
-marking-ArmTwistingRight-twisting = Twisted Scar (Right Arm)
+marking-ArmTwistingRight = Cicatrice Torsadée (Bras Droit)
+marking-ArmTwistingRight-twisting = Cicatrice Torsadée (Bras Droit)
 
-marking-TattooCode4 = Tattoo (Code QR Right Arm)
+marking-TattooCode4 = Tatouage (QR Code Bras Droit)
 marking-TattooCode4-code4 = Tatouage
 
-marking-TattooCode5 = Tattoo (Code Bar Right Arm)
+marking-TattooCode5 = Tatouage (Code-Barre Bras Droit)
 marking-TattooCode5-code5 = Tatouage
 
-marking-TattooHeartR = Tattoo (Heart Right Arm)
+marking-TattooHeartR = Tatouage (Cœur Bras Droit)
 marking-TattooHeartR-heart = Tatouage
 
-marking-VitiligoArmR = Vitiligo (Right Arm)
+marking-VitiligoArmR = Vitiligo (Bras Droit)
 
 # LArm
 
@@ -145,59 +145,59 @@ marking-ArmHeavyTattoosLeft-heavy2 = Tatouages lourds bras (bas)
 marking-ArmProstheticLeft = Prothèse (bras gauche)
 marking-ArmProstheticLeft-prosthetic = Prothèse (bras gauche)
 
-marking-ArmTwistingLeft = Twisted Scar (Left Arm)
-marking-ArmTwistingLeft-twisting = Twisted Scar (Left Arm)
+marking-ArmTwistingLeft = Cicatrice Torsadée (Bras Gauche)
+marking-ArmTwistingLeft-twisting = Cicatrice Torsadée (Bras Gauche)
 
-marking-TattooHeartL = Tattoo (Heart Left Arm)
+marking-TattooHeartL = Tatouage (Cœur Bras Gauche)
 marking-TattooHeartL-heart = Tatouage
 
-marking-VitiligoArmL = Vitiligo (Left Arm)
+marking-VitiligoArmL = Vitiligo (Bras Gauche)
 
 # RLeg
 
-marking-LegDollJointsTattooRight = Doll Joints Leg Tattoo (Right)
-marking-LegDollJointsTattooRight-doll = Doll Joints Leg Tattoo (Right)
+marking-LegDollJointsTattooRight = Tatouage Articulations Poupée Jambe (Droite)
+marking-LegDollJointsTattooRight-doll = Tatouage Articulations Poupée Jambe (Droite)
 
-marking-LegHeavyTattoosRight = Heavy Leg Tattoos (Right)
-marking-LegHeavyTattoosRight-heavy1 = Heavy Leg Tattoos (Upper)
-marking-LegHeavyTattoosRight-heavy2 = Heavy Leg Tattoos (Lower)
+marking-LegHeavyTattoosRight = Tatouages Lourds Jambe (Droite)
+marking-LegHeavyTattoosRight-heavy1 = Tatouages Lourds Jambe (Haut)
+marking-LegHeavyTattoosRight-heavy2 = Tatouages Lourds Jambe (Bas)
 
-marking-LegTwistingRight = Twisted Scar (Right Leg)
-marking-LegTwistingRight-twisting = Twisted Scar (Right Leg)
+marking-LegTwistingRight = Cicatrice Torsadée (Jambe Droite)
+marking-LegTwistingRight-twisting = Cicatrice Torsadée (Jambe Droite)
 
-marking-VitiligoLegR = Vitiligo (Right)
+marking-VitiligoLegR = Vitiligo (Droit)
 
 # LLeg
 
-marking-LegDollJointsTattooLeft = Doll Joints Leg Tattoo (Left)
-marking-LegDollJointsTattooLeft-doll = Doll Joints Leg Tattoo (Left)
+marking-LegDollJointsTattooLeft = Tatouage Articulations Poupée Jambe (Gauche)
+marking-LegDollJointsTattooLeft-doll = Tatouage Articulations Poupée Jambe (Gauche)
 
-marking-LegHeavyTattoosLeft = Heavy Leg Tattoos (Left)
-marking-LegHeavyTattoosLeft-heavy1 = Heavy Leg Tattoos (Upper)
-marking-LegHeavyTattoosLeft-heavy2 = Heavy Leg Tattoos (Lower)
+marking-LegHeavyTattoosLeft = Tatouages Lourds Jambe (Gauche)
+marking-LegHeavyTattoosLeft-heavy1 = Tatouages Lourds Jambe (Haut)
+marking-LegHeavyTattoosLeft-heavy2 = Tatouages Lourds Jambe (Bas)
 
-marking-LegTwistingLeft = Twisted Scar (Left Leg)
-marking-LegTwistingLeft-twisting = Twisted Scar (Left Leg)
+marking-LegTwistingLeft = Cicatrice Torsadée (Jambe Gauche)
+marking-LegTwistingLeft-twisting = Cicatrice Torsadée (Jambe Gauche)
 
-marking-VitiligoLegL = Vitiligo (Left)
+marking-VitiligoLegL = Vitiligo (Gauche)
 
 # LFoot
 
-marking-FootDollJointsTattooLeft = Doll Joints Foot Tattoo (Left)
-marking-FootDollJointsTattooLeft-doll = Doll Joints Foot Tattoo (Left)
+marking-FootDollJointsTattooLeft = Tatouage Articulations Poupée Pied (Gauche)
+marking-FootDollJointsTattooLeft-doll = Tatouage Articulations Poupée Pied (Gauche)
 
-marking-FootHeavyTattoosLeft = Heavy Foot Tattoos (Left)
-marking-FootHeavyTattoosLeft-heavy1 = Heavy Foot Tattoos (Inner)
-marking-FootHeavyTattoosLeft-heavy2 = Heavy Foot Tattoos (Outer)
+marking-FootHeavyTattoosLeft = Tatouages Lourds Pied (Gauche)
+marking-FootHeavyTattoosLeft-heavy1 = Tatouages Lourds Pied (Intérieur)
+marking-FootHeavyTattoosLeft-heavy2 = Tatouages Lourds Pied (Extérieur)
 
 # RFoot
 
-marking-FootDollJointsTattooRight = Doll Joints Foot Tattoo (Right)
-marking-FootDollJointsTattooRight-doll = Doll Joints Foot Tattoo (Right)
+marking-FootDollJointsTattooRight = Tatouage Articulations Poupée Pied (Droit)
+marking-FootDollJointsTattooRight-doll = Tatouage Articulations Poupée Pied (Droit)
 
-marking-FootHeavyTattoosRight = Heavy Foot Tattoos (Right)
-marking-FootHeavyTattoosRight-heavy1 = Heavy Foot Tattoos (Inner)
-marking-FootHeavyTattoosRight-heavy2 = Heavy Foot Tattoos (Outer)
+marking-FootHeavyTattoosRight = Tatouages Lourds Pied (Droit)
+marking-FootHeavyTattoosRight-heavy1 = Tatouages Lourds Pied (Intérieur)
+marking-FootHeavyTattoosRight-heavy2 = Tatouages Lourds Pied (Extérieur)
 
 # LHand
 
