@@ -2,7 +2,7 @@
 
 - type: antag
   id: Mindcontrolled
-  name: sous contrôle mental
+  name: role-subtype-mindcontrolled #Harvest change: fixes french translation console spam
   antagonist: true
   setPreference: false
   objective: "Help your Master"
