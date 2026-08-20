@@ -8,16 +8,16 @@ names-moth-first-male-dataset-2 = Atlas
 names-moth-first-male-dataset-3 = Attacus
 
 # Attacus caesar
-names-moth-first-male-dataset-4 = Caesar
+names-moth-first-male-dataset-4 = César
 
 # Coscinocera hercules
-names-moth-first-male-dataset-5 = Hercules
+names-moth-first-male-dataset-5 = Hercule
 
 # Itame brunneata, "Rannoch Looper"
 names-moth-first-male-dataset-6 = Rannoch
 
 # Acosmeryx socrates
-names-moth-first-male-dataset-7 = Socrates
+names-moth-first-male-dataset-7 = Socrate
 
 # Saturniidae solus
 names-moth-first-male-dataset-8 = Solus
@@ -46,13 +46,13 @@ names-moth-first-male-dataset-14 = Skoros
 names-moth-first-male-dataset-15 = Bladud
 
 # Father of Icarus
-names-moth-first-male-dataset-16 = Daedalus
+names-moth-first-male-dataset-16 = Dédale
 
 # Greek primordial deity of darkness
-names-moth-first-male-dataset-17 = Erebus
+names-moth-first-male-dataset-17 = Érèbe
 
 # The classic
-names-moth-first-male-dataset-18 = Icarus
+names-moth-first-male-dataset-18 = Icare
 
 # Hindu figure, similar to Icarus
 names-moth-first-male-dataset-19 = Jatayu
@@ -70,25 +70,25 @@ names-moth-first-male-dataset-22 = Lucifer
 names-moth-first-male-dataset-23 = Merlin
 
 # Another Greek figure, similar to Icarus
-names-moth-first-male-dataset-24 = Phaethon
+names-moth-first-male-dataset-24 = Phaéton
 
 # Rendering of Bladud from the Welsh blaidd "wolf" + iudd "lord"
 names-moth-first-male-dataset-25 = Wolford
 
 ## Fun names
-names-moth-first-male-dataset-26 = Ace
-names-moth-first-male-dataset-27 = Altair
-names-moth-first-male-dataset-28 = Dusty
+names-moth-first-male-dataset-26 = As
+names-moth-first-male-dataset-27 = Altaïr
+names-moth-first-male-dataset-28 = Poussiéreux
 names-moth-first-male-dataset-29 = Gambit
-names-moth-first-male-dataset-30 = Hawk
+names-moth-first-male-dataset-30 = Faucon
 names-moth-first-male-dataset-31 = Mothew
-names-moth-first-male-dataset-32 = Timothy
+names-moth-first-male-dataset-32 = Timothée
 
 ## Common names, filler
 names-moth-first-male-dataset-33 = Asher
 names-moth-first-male-dataset-34 = Isaac
-names-moth-first-male-dataset-35 = Roman
+names-moth-first-male-dataset-35 = Romain
 names-moth-first-male-dataset-36 = Samuel
-names-moth-first-male-dataset-37 = Sebastian
+names-moth-first-male-dataset-37 = Sébastien
 names-moth-first-male-dataset-38 = Silas
 names-moth-first-male-dataset-39 = Simon

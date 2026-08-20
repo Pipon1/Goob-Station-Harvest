@@ -1,13 +1,9 @@
-# SPDX-FileCopyrightText: 2022 Morber <14136326+Morb0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-cmd-setalertlevel-desc = Set current station alert level for grid on which the player is standing.
-cmd-setalertlevel-help = Usage: setalertlevel <level> [locked]
-cmd-setalertlevel-invalid-grid = You must be on grid of station code that you are going to change.
-cmd-setalertlevel-invalid-level = Specified alert level does not exist on that grid.
+cmd-setalertlevel-desc = Définit le niveau d'alerte actuel de la station pour la grille sur laquelle le joueur se trouve.
+cmd-setalertlevel-help = Utilisation : setalertlevel <niveau> [verrouillé]
+cmd-setalertlevel-invalid-grid = Vous devez être sur la grille du code de station que vous allez modifier.
+cmd-setalertlevel-invalid-level = Le niveau d'alerte spécifié n'existe pas sur cette grille.
 
 cmd-setalertlevel-hint-1 = <level>
 cmd-setalertlevel-hint-2 = [locked]
