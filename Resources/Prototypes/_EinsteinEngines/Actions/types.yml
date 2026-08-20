@@ -1,6 +1,6 @@
 - type: entity
   id: ActionSelfExtinguish
-  name: Auto-extinction
+  name: Extinction automatique
   description: Vous éteint si vous êtes en feu et vous isole contre l'auto-ignition.
   categories: [ HideSpawnMenu ]
   components:

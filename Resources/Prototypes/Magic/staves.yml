@@ -5,8 +5,8 @@
 - type: entity
   id: RGBStaff
   parent: BaseItem
-  name: RGB staff
-  description: Helps fix the underabundance of RGB gear on the station.
+  name: Staff RVB
+  description: Aide à résoudre le manque d'équipement RVB sur la station.
   components:
   - type: LimitedCharges
     maxCharges: 25
@@ -41,8 +41,8 @@
 - type: entity
   id: AnimationStaff
   parent: BaseItem
-  name: staff of animation
-  description: An artefact that spits bolts of life-force which causes objects which are hit by it to animate and come to life!
+  name: Staff d'animation
+  description: Un artefact qui crache des boulons de force vitale, animant les objets qu'il touche et leur donnant vie !
   components:
   - type: LimitedCharges
     maxCharges: 6

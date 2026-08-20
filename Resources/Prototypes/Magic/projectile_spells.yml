@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseAction
   id: ActionFireball
-  name: Fireball
-  description: Fires an explosive fireball towards the clicked location.
+  name: Boule de feu
+  description: Lance une boule de feu explosive vers l'emplacement cliqué.
   components:
   - type: Magic
     requiresSpeech: true # Goobstation
@@ -38,8 +38,8 @@
 - type: entity
   parent: ActionFireball
   id: ActionFireballII
-  name: Fireball II
-  description: Fires a fireball, but faster!
+  name: Boule de feu II
+  description: Lance une boule de feu, mais plus rapide !
   components:
   - type: Action
     useDelay: 4 # Goob edit
@@ -47,8 +47,8 @@
 - type: entity
   parent: ActionFireball
   id: ActionFireballIII
-  name: Fireball III
-  description: The fastest fireball in the west!
+  name: Boule de feu III
+  description: La boule de feu la plus rapide de l'ouest !
   components:
   - type: Action
     useDelay: 2 # Goob edit

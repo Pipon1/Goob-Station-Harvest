@@ -14,8 +14,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionFlashRune
-  name: Flash Rune
-  description: Summons a rune that flashes if used.
+  name: Rune d'éclair
+  description: Invoque une rune qui clignote lorsqu'elle est utilisée.
   components:
   - type: Action
     useDelay: 10
@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionExplosionRune
-  name: Explosion Rune
-  description: Summons a rune that explodes if used.
+  name: Rune d'explosion
+  description: Invoque une rune qui explose lorsqu'elle est utilisée.
   components:
   - type: Action
     useDelay: 20
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionIgniteRune
-  name: Ignite Rune
-  description: Summons a rune that ignites if used.
+  name: Rune d'allumage
+  description: Invoque une rune qui enflamme lorsqu'elle est utilisée.
   components:
   - type: Action
     useDelay: 15
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionStunRune
-  name: Stun Rune
-  description: Summons a rune that stuns if used.
+  name: Rune d'étourdissement
+  description: Invoque une rune qui étourdit lorsqu'elle est utilisée.
   components:
   - type: Action
     useDelay: 10

@@ -8,8 +8,8 @@
 - type: entity
   parent: BaseItem
   id: CosmicCenser
-  name: ardent censer
-  description: Cleanses and sanctifies the air around it. If used on another being, it would irreversibly wipe their memories.
+  name: encens ardent
+  description: Purifie et sanctifie l'air autour de lui. S'il est utilisé sur un autre être, il effacerait irréversiblement leurs mémoires.
   components:
   - type: Item
     size: Small
