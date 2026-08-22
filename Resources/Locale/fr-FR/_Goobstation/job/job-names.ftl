@@ -10,7 +10,8 @@
 job-name-futureagent = Agent futur
 job-name-salvagediver = Plongeur de récupération
 job-name-ntr = Représentant NanoTrasen
-job-name-bs = Agent Blueshield
+job-name-bs = Blueshield
+job-name-bso = Agent Blueshield
 job-name-overall = Général
 job-name-tider = Fauteur de trouble
 

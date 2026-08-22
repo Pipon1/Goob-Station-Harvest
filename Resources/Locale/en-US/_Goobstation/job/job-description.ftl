@@ -1,9 +1,9 @@
-# SPDX-FileCopyrightText: 2024 starch <starchpersonal@gmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Dignitary
+
+job-description-bso = Act as a bodyguard and advisor for Command and CentCom VIPs.
+job-description-ntr = Represent NT, Send reports back to them on the station's situation, Inform the heads of anything CentCom orders them to do.
 
 # Navy
 
