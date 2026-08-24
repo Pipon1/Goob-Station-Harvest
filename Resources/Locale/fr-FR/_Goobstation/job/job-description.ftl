@@ -2,9 +2,8 @@
 
 # Dignitary
 
-job-description-bso = Soyez comme garde du corps et conseiller pour le Commandement et les VIPs de CentComm.
+job-description-bso = Soyez un garde du corps et conseiller pour le Commandement et les VIPs de CentComm.
 job-description-ntr = Représentez NT, envoyez des rapports sur la situation de la station, informez les chefs de tout ce que CentComm leur ordonne de faire.
-
 
 # Navy
 
@@ -18,8 +17,7 @@ job-description-outercommander = Un observateur externe qui audite le Commandeme
 # Generic Nanotrasen
 
 job-description-nct = Apprenez aux nouveaux à accomplir correctement leurs tâches assignées par l'entreprise, et restez hors des ennuis.
-job-description-ntr = Représentez NT, envoyez des rapports sur la situation de la station, informez les chefs de tout ce que CentComm leur ordonne de faire.
-job-description-bs = Soyez comme garde du corps et conseiller pour le Commandement et les VIPs de CentComm.
+job-description-bs = Soyez un garde du corps et conseiller pour le Commandement et les VIPs de CentComm.
 
 # Syndicate
 

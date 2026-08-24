@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 ui-options-preferences = Préférences
 
-ui-options-function-resist-grab = Résister à l'empoignade
+ui-options-function-resist-grab = Se débattre
 ui-options-coalesce-identical-messages = Fusionner les messages identiques dans le chat
 ui-options-detailed-examine = Afficher le texte d'examen détaillé
-ui-options-auto-focus-search-on-build-menu = Focus automatique sur la recherche à l'ouverture du menu de construction
-ui-options-lock-action-bar-drag = Autoriser le glisser-déposer d'actions sur la barre de raccourcis uniquement quand le menu d'actions est ouvert
+ui-options-auto-focus-search-on-build-menu = Placer automatiquement le curseur dans le champ de recherche à l'ouverture du menu de construction
+ui-options-lock-action-bar-drag = Autoriser le déplacement des actions dans la barre de raccourcis uniquement lorsque le menu des actions est ouvert
 
-ui-options-hud-theme-coscult = Culte Cosmique
+ui-options-hud-theme-coscult = Culte cosmique
 
-ui-options-admin-notifications-title = Notifications Admin
-ui-options-admin-notifications-volume = Volume des notifications Admin
+ui-options-admin-notifications-title = Notifications administrateur
+ui-options-admin-notifications-volume = Volume des notifications administrateur
