@@ -3,8 +3,8 @@
 - type: entity
   id: Airlock
   parent: BaseStructure
-  name: airlock
-  description: It opens, it closes, and maybe crushes you.
+  name: sas
+  description: Ça s'ouvre, ça se ferme, et ça vous écrase peut-être.
   components:
   - type: Anchorable
     flags:
@@ -225,7 +225,7 @@
 - type: entity
   id: AirlockGlass
   parent: Airlock
-  name: glass airlock
+  name: sas en verre
   components:
   - type: MeleeSound
     soundGroups:

@@ -5,8 +5,8 @@
   parent: [ BaseStructureDynamic, BasePaperLabelableVisualized,
             BaseAutomatedMachine ] # Goob: Automation
   id: GasCanister
-  name: gas canister
-  description: A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
+  name: bonbonne de gaz
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Animateable
     - type: InteractionOutline
@@ -150,7 +150,7 @@
 - type: entity
   parent: GasCanister
   id: StorageCanister
-  name: storage canister
+  name: bonbonne de stockage
   components:
     - type: Sprite
       layers:
@@ -188,8 +188,8 @@
 - type: entity
   parent: GasCanister
   id: AirCanister
-  name: air canister
-  description: A canister that can contain any type of gas. This one is supposed to contain air mixture. It can be attached to connector ports using a wrench.
+  name: bonbonne d'air
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir un mélange d'air. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: Sprite
     layers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: GasCanister
   id: OxygenCanister
-  name: oxygen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain oxygen. It can be attached to connector ports using a wrench.
+  name: bonbonne d'oxygène
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de l'oxygène. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: Sprite
     layers:
@@ -267,8 +267,8 @@
 - type: entity
   id: LiquidOxygenCanister
   parent: OxygenCanister
-  name: liquid oxygen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid oxygen. It can be attached to connector ports using a wrench.
+  name: bonbonne d'oxygène liquide
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de l'oxygène liquide. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: GasCanister
     gasMixture:
@@ -282,8 +282,8 @@
 - type: entity
   parent: GasCanister
   id: NitrogenCanister
-  name: nitrogen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain nitrogen. It can be attached to connector ports using a wrench.
+  name: bonbonne d'azote
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de l'azote. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -321,8 +321,8 @@
 - type: entity
   id: LiquidNitrogenCanister
   parent: NitrogenCanister
-  name: liquid nitrogen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid nitrogen. It can be attached to connector ports using a wrench.
+  name: bonbonne d'azote liquide
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de l'azote liquide. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: GasCanister
     gasMixture:
@@ -336,8 +336,8 @@
 - type: entity
   parent: GasCanister
   id: CarbonDioxideCanister
-  name: carbon dioxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain carbon dioxide. It can be attached to connector ports using a wrench.
+  name: bonbonne de dioxyde de carbone
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du dioxyde de carbone. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -377,8 +377,8 @@
 - type: entity
   id: LiquidCarbonDioxideCanister
   parent: CarbonDioxideCanister
-  name: liquid carbon dioxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid carbon dioxide. It can be attached to connector ports using a wrench.
+  name: bonbonne de dioxyde de carbone liquide
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du dioxyde de carbone liquide. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: GasCanister
     gasMixture:
@@ -392,8 +392,8 @@
 - type: entity
   parent: GasCanister
   id: PlasmaCanister
-  name: plasma canister
-  description: A canister that can contain any type of gas. This one is supposed to contain plasma. It can be attached to connector ports using a wrench.
+  name: bonbonne de plasma
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du plasma. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -433,8 +433,8 @@
 - type: entity
   parent: GasCanister
   id: TritiumCanister
-  name: tritium canister
-  description: A canister that can contain any type of gas. This one is supposed to contain tritium. It can be attached to connector ports using a wrench.
+  name: bonbonne de tritium
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du tritium. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -474,8 +474,8 @@
 - type: entity
   parent: GasCanister
   id: WaterVaporCanister
-  name: water vapor canister
-  description: A canister that can contain any type of gas. This one is supposed to contain water vapor. It can be attached to connector ports using a wrench.
+  name: bonbonne de vapeur d'eau
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de la vapeur d'eau. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -513,8 +513,8 @@
 - type: entity
   parent: GasCanister
   id: AmmoniaCanister
-  name: ammonia canister
-  description: A canister that can contain any type of gas. This one is supposed to contain ammonia. It can be attached to connector ports using a wrench.
+  name: bonbonne d'ammoniaque
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir de l'ammoniaque. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -554,8 +554,8 @@
 - type: entity
   parent: GasCanister
   id: NitrousOxideCanister
-  name: nitrous oxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain nitrous oxide. It can be attached to connector ports using a wrench.
+  name: bonbonne de protoxyde d'azote
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du protoxyde d'azote. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
     - type: Sprite
       layers:
@@ -595,8 +595,8 @@
 - type: entity
   parent: GasCanister
   id: FrezonCanister
-  name: frezon canister
-  description: A canister that can contain any type of gas. This one is supposed to contain frezon. It can be attached to connector ports using a wrench.
+  name: bonbonne de frezon
+  description: Une bonbonne qui peut contenir n'importe quel type de gaz. Celle-ci est censée contenir du frezon. Elle peut être fixée aux ports de connexion à l'aide d'une clé.
   components:
   - type: Sprite
     layers:
@@ -638,8 +638,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: GasCanisterBrokenBase
-  name: broken gas canister
-  description: A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
+  name: bonbonne de gaz cassée
+  description: Une bonbonne de gaz cassée. Pas encore inutile, car elle peut être récupérée pour des matériaux de haute qualité.
   components:
     - type: Destructible
       thresholds:
@@ -748,7 +748,7 @@
 - type: entity
   parent: GasCanisterBrokenBase
   id: WaterVaporCanisterBroken
-  name: broken water vapor canister
+  name: bonbonne de vapeur d'eau cassée
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

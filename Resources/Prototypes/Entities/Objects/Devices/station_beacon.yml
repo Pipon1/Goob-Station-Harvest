@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: DefaultStationBeacon
-  name: station beacon
-  description: A small device that transmits information to station maps. Can be configured.
+  name: balise de station
+  description: Un petit dispositif qui transmet des informations aux plans de station. Peut être configuré.
   placement:
     mode: SnapgridCenter
   suffix: General
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseItem
   id: StationBeaconPart
-  name: station beacon flatpack
-  description: A flatpack used for constructing a station beacon.
+  name: flatpack balise de station
+  description: Un flatpack utilisé pour construire une balise de station.
   components:
   - type: Item
     size: Small

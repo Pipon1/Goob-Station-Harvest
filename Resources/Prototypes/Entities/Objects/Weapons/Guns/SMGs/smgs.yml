@@ -39,7 +39,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -49,7 +49,7 @@
             - MagazinePistolSubMachineGun
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -97,7 +97,7 @@
   name: Atreides
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunAtreides
-  description: A rare, compact machine pistol not often found in the Spinward sector. Being produced during the Corporate Wars and the design specs being long since lost to time, the Atreides excels at CQB due to its overwhelming firerate. Feeds from .35 Auto SMG magazines. # Goobstation
+  description: Un pistolet-mitrailleur compact et rare peu fréquent dans le secteur Spinward. Produit pendant les Guerres Corporatistes et ses plans perdus depuis longtemps, l'Atreides excelle en CQB grâce à sa cadence de tir dévastatrice. Utilise des chargeurs .35 Auto SMG.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -120,7 +120,7 @@
   name: C-20R
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunC20r
-  description: The right hand of those who fight under the three serpents. A one-handed, bullpup SMG from the Waffle Corporation that sacrifices accuracy for pure firerate. Feeds from .35 Auto SMG magazines.
+  description: La main droite de ceux qui combattent sous les trois serpents. Un SMG bullpup à une main de la Waffle Corporation sacrifiant la précision pour la cadence pure. Utilise des chargeurs .35 Auto SMG.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -163,7 +163,7 @@
   name: C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example
   id: WeaponSubMachineGunC20rROW
   parent: BaseItem
-  description: A burst-fire C-20r submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: Un SMG C-20r tirant en rafales pour cyborgs. Crée des munitions .35 sur le vif via un fabricateur interne, qui se recharge lentement.
   components:
   - type: Gun
     minAngle: 2
@@ -205,7 +205,7 @@
   name: Drozd
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunDrozd
-  description: A bullpup SMG designed for the narrow and tight corridors common in station warfare. This law-enforcement model is select fire, but the Drozd's burst focused design throttles its full-auto performance massively. Feeds from .35 Auto SMG magazines.
+  description: Un SMG bullpup conçu pour les couloirs étroits et serrés communs en guerre de station. Ce modèle pour forces de l'ordre est à tir sélectif, mais le design axé rafale du Drozd bride massivement ses performances en full-auto. Utilise des chargeurs .35 Auto SMG.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -238,7 +238,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: Chargeur
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -248,7 +248,7 @@
               - MagazinePistolSubMachineGun
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: Chamber
+          name: Chambre
           priority: 1
           whitelist:
             tags:
@@ -260,10 +260,10 @@
     - type: Appearance
 
 - type: entity
-  name: WT550 # Goobstation
+  name: WT550
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunWt550
-  description: A truly unique firearm, the WT550 loads from a proprietary top-mounted magazine parallel to the barrel. While the RPM isn't great, the small package and steady recoil make it fully usable one-handed. Feeds from top-mounted .35 Auto SMG magazines. # Goobstation
+  description: Une arme véritablement unique, le WT550 se charge via un chargeur propriétaire monté sur le dessus, parallèle au canon. Bien que les RPM ne soient pas exceptionnelles, le format compact et le recul stable le rendent entièrement utilisable à une main. Utilise des chargeurs .35 Auto SMG montés sur le dessus.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -296,7 +296,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -306,7 +306,7 @@
             - MagazinePistolSubMachineGunTopMounted
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -324,10 +324,10 @@
     - 0,0,2,1
 
 - type: entity
-  name: brown briefcase
+  name: mallette brune
   parent: [BaseWeaponSubMachineGun]
   id: WeaponSubMachineGunBriefcase
-  description: Useful for carrying items in your hands.
+  description: Utile pour transporter des objets dans vos mains.
   suffix: Gun
   components:
   - type: Item

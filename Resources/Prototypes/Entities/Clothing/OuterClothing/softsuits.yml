@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: EVA suit
-  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  name: combinaison EVA
+  description: Une combinaison spatiale légère capable de protéger le porteur du vide spatial en cas d'urgence.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseSyndicateContraband ]
   id: ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: combinaison EVA du syndicat
+  description: "Possède une étiquette au dos indiquant : « N'appartient absolument pas à une corporation ennemie, promis ! »"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitEmergency
-  name: emergency EVA suit
-  description: An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+  name: combinaison EVA d'urgence
+  description: Une combinaison EVA d'urgence avec un casque intégré. Elle est horriblement lente et offre une protection thermique insuffisante, mais elle suffit à vous faire gagner du temps face au vide spatial impitoyable.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner EVA suit
-  description: An emergency EVA suit meant for prisoners. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+  name: combinaison EVA de prisonnier
+  description: Une combinaison EVA d'urgence destinée aux prisonniers. Elle est horriblement lente et offre une protection thermique insuffisante, mais elle suffit à vous faire gagner du temps face au vide spatial impitoyable.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA voidsuit #Nanotrasen Space Research Association
-  description: An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
+  name: combinaison spatiale NTSRA #Nanotrasen Space Research Association
+  description: Une ancienne combinaison spatiale, conçue par la branche NTSRA de CentComm. Elle est fabriquée avec un grand soin, permettant une meilleure mobilité que la plupart des combinaisons spatiales modernes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, ClothingOuterBaseToggleable ]
   id: ClothingOuterHardsuitVoidParamed
-  name: paramedic hardsuit # Goob edit - it has high pressure protection and resistances, call it a hardsuit
-  description: A hardsuit made for paramedics. # Goob edit
+  name: combinaison blindée de paramédic # Goob edit - it has high pressure protection and resistances, call it a hardsuit
+  description: Une combinaison blindée conçue pour les paramédics. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi

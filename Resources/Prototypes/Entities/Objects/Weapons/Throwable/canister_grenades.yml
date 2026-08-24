@@ -1,8 +1,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseSecurityContraband ]
   id: SmokeGrenade
-  name: smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  name: grenade fumigène
+  description: Une grenade tactique qui libère un grand nuage de fumée durable lors de son utilisation.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/smoke.rsi
@@ -27,7 +27,7 @@
   parent: [ BaseCivilianContraband, SmokeGrenade ]
   id: CleanerGrenade
   name: cleanade
-  description: Special grenade for janitors, releasing large cloud of space cleaner foam.
+  description: Grenade spéciale pour les concierges, libérant un grand nuage de mousse nettoyante.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/janitor.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: SmokeGrenade
   id: TearGasGrenade
-  name: tear gas grenade
-  description: A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
+  name: grenade lacrymogène
+  description: Une grenade lacrymogène anti-émeute. Provoque irritation, douleur et fait pleurer toutes les larmes de votre corps.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, SmokeGrenade ]
   id: MetalFoamGrenade
-  name: metal foam grenade
-  description: An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
+  name: grenade mousse métallique
+  description: Un outil d'urgence pour colmater les brèches de coque avec une mousse métallique à prise rapide. Presque aussi bien que de vrais sols !
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, GrenadeBase ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade
   id: AirGrenade
-  name: air grenade
-  description: A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
+  name: grenade d'air
+  description: Une grenade chimique spéciale à l'état solide qui libère rapidement de l'air dans une zone dépressurisée. Remplit jusqu'à 30 tuiles !
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/airboom.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCodeObjective
   id: ShadowlingAscendObjective
-  description: I must ascend at all costs.
+  description: "Je dois m'élever à tout prix."
   components:
   - type: Objective
     issuer: objective-issuer-shadowling

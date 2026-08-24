@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Burner
+  name: Brûleur
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleBurner
-  description: An obscene fully-automatic anti-materiel rifle that slings .50 downrange as long as you can shoulder it. You don't want to know how much it costs. Feeds from .50 Anti-Materiel magazines.
+  description: Un fusil anti-matériel entièrement automatique obscène qui envoie du .50 à longue distance tant que vous pouvez l'épauler. Vous ne voulez pas savoir combien il coûte. Se charge via des magazines .50 anti-matériel.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/burner.rsi
@@ -25,7 +25,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineHighCaliber
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -35,7 +35,7 @@
             - MagazineHighCaliber
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgeHighCaliber
         priority: 1
         whitelist:
@@ -58,7 +58,7 @@
   name: M-90
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90
-  description: A cheaper revision of the M-90GL that omits the integrated grenade launcher. Feeds from .20 Rifle magazines.
+  description: Une révision moins chère du M-90GL qui omet le lance-grenades intégré. Se charge via des magazines de fusil .20.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi
@@ -72,7 +72,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -82,7 +82,7 @@
           - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgeRifle
         priority: 1
         whitelist:
@@ -104,7 +104,7 @@
   name: Annie
   parent: [BaseCentcommContraband, BaseWeaponRifle]
   id: WeaponRifleAnnie
-  description: A beast designed to shoulder the weight of impossible missions, and the pride of the Emergency Response corps. Feeds from .30 Rifle magazines.
+  description: Une bête conçue pour porter le poids de missions impossibles, et la fierté du corps d'intervention d'urgence. Se charge via des magazines de fusil .30.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
@@ -131,7 +131,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -141,7 +141,7 @@
           - MagazineLightRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
@@ -161,7 +161,7 @@
   name: WSPR
   parent: [BaseSyndicateContraband, BaseWeaponRifle]
   id: WeaponRifleWSPR
-  description: An obscure rifle from Cybersun designed for covert missions in target-rich environments. Silenced, subsonic, and caseless, for the operative that leaves no trace. Feeds from 9.5mm SMG magazines.
+  description: Un fusil obscur de Cybersun conçu pour des missions secrètes dans des environnements riches en cibles. Silencieux, subsonique et sans douille, pour l'opératif qui ne laisse aucune trace. Se charge via des magazines de mitraillette 9,5 mm.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/wspr.rsi
@@ -182,7 +182,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -192,7 +192,7 @@
           - MagazineCaselessRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: CartridgeCaselessRifle
         priority: 1
         whitelist:

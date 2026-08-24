@@ -3,8 +3,8 @@
 - type: entity
   id: ClosetWall
   parent: BaseWallCloset
-  name: maintenance wall closet
-  description: It's a storage unit.
+  name: placard mural de maintenance
+  description: C'est une unité de stockage.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -13,9 +13,9 @@
 
 - type: entity
   id: ClosetWallEmergency
-  name: emergency wall closet
+  name: placard mural d'urgence
   parent: BaseWallCloset
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: C'est une unité de stockage pour masques à oxygène de secours et bouteilles d'O2.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: emergency
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseWallCloset
   id: ClosetWallEmergencyN2
-  name: emergency nitrogen wall closet
-  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+  name: placard mural d'urgence azote
+  description: C'est rempli d'équipement de sauvetage. En supposant, c'est-à-dire, que vous respirez de l'azote.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: n2
@@ -35,9 +35,9 @@
 
 - type: entity
   id: ClosetWallFire
-  name: fire-safety wall closet
+  name: placard mural sécurité incendie
   parent: BaseWallCloset
-  description: It's a storage unit for fire-fighting supplies.
+  description: C'est une unité de stockage pour équipements anti-incendie.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: fire
@@ -47,8 +47,8 @@
 - type: entity
   id: ClosetWallBlue
   parent: BaseWallCloset
-  name: blue wall closet
-  description: "A wardrobe packed with stylish blue clothing."
+  name: placard mural bleu
+  description: "Une armoire remplie de vêtements bleus élégants."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -58,8 +58,8 @@
 - type: entity
   id: ClosetWallPink
   parent: BaseWallCloset
-  name: pink wall closet
-  description: "A wardrobe packed with fabulous pink clothing."
+  name: placard mural rose
+  description: "Une armoire remplie de vêtements roses fabuleux."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -69,8 +69,8 @@
 - type: entity
   id: ClosetWallBlack
   parent: BaseWallCloset
-  name: black wall closet
-  description: "A wardrobe packed with stylish black clothing."
+  name: placard mural noir
+  description: "Une armoire remplie de vêtements noirs élégants."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -80,8 +80,8 @@
 - type: entity
   id: ClosetWallGreen
   parent: BaseWallCloset
-  name: green wall closet
-  description: "A wardrobe packed with stylish green clothing."
+  name: placard mural vert
+  description: "Une armoire remplie de vêtements verts élégants."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -91,7 +91,7 @@
 - type: entity
   id: ClosetWallOrange
   parent: BaseWallCloset
-  name: prison wall closet
+  name: placard mural de prison
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -101,8 +101,8 @@
 - type: entity
   id: ClosetWallYellow
   parent: BaseWallCloset
-  name: yellow wall closet
-  description: "A wardrobe packed with stylish yellow clothing."
+  name: placard mural jaune
+  description: "Une armoire remplie de vêtements jaunes élégants."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -112,8 +112,8 @@
 - type: entity
   id: ClosetWallWhite
   parent: BaseWallCloset
-  name: white wall closet
-  description: "A wardrobe packed with stylish white clothing."
+  name: placard mural blanc
+  description: "Une armoire remplie de vêtements blancs élégants."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -123,8 +123,8 @@
 - type: entity
   id: ClosetWallGrey
   parent: BaseWallCloset
-  name: grey wall closet
-  description: "A wardrobe packed with a tide of grey clothing."
+  name: placard mural gris
+  description: "Une armoire remplie d'une marée de vêtements gris."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -134,8 +134,8 @@
 - type: entity
   id: ClosetWallMixed
   parent: BaseWallCloset
-  name: mixed wall closet
-  description: "A wardrobe packed with a mix of colorful clothing."
+  name: placard mural mixte
+  description: "Une armoire remplie d'un mélange de vêtements colorés."
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -145,7 +145,7 @@
 - type: entity
   id: ClosetWallAtmospherics
   parent: BaseWallCloset
-  name: atmospherics wall closet
+  name: placard mural atmosphérique
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: generic
@@ -155,7 +155,7 @@
 - type: entity
   id: LockerWallMedical
   parent: BaseWallLocker
-  name: medical wall locker
+  name: casier mural médical
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: med
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseWallLocker
   id: LockerWallEvacRepair
-  name: emergency shuttle emergency wall locker
-  description: It's emergencies all the way down.
+  name: casier mural d'urgence navette secours
+  description: C'est des urgences jusqu'au bout.
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: eng
@@ -180,8 +180,8 @@
 - type: entity
   parent: [ GenpopBase , BaseWallLocker ]
   id: LockerWallBasePrisoner
-  name: prisoner wall closet
-  description: It's a secure locker for an inmate's personal belongings during their time in prison.
+  name: placard mural prisonnier
+  description: C'est un casier sécurisé pour les effets personnels d'un détenu pendant son incarcération.
   suffix: 1
 
 - type: entity
@@ -243,8 +243,8 @@
 - type: entity
   id: LockerWallSyndicate
   parent: BaseWallLocker
-  name: blood-red wall locker
-  description: It's a wall storage unit with a blood-red design.
+  name: placard mural rouge sang
+  description: C'est une unité de stockage mural avec un design rouge sang.
   suffix: "Locked"
   components:
   - type: Appearance

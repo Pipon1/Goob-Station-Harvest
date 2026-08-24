@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: LavalandJaunter
-  name: jaunter
-  description: A complex device running on bluespace technology, that can teleport you out of danger spaces. You should have this on you when walking near a chasm.
+  name: sauteur
+  description: Un appareil complexe fonctionnant grâce à la technologie du bluespace, qui peut vous téléporter hors des zones dangereuses. Vous devriez l'avoir sur vous quand vous marchez près d'un gouffre.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Specific/Salvage/jaunter.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: LavalandJaunter
   id: LavalandJaunterRecharging
-  name: experimental jaunter
+  name: sauteur expérimental
   components:
   - type: PreventChasmFalling
     deleteOnUse: false

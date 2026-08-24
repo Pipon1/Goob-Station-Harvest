@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: space tick
+  name: tique de l'espace
   id: MobTick
   parent: SimpleSpaceMobBase
-  description: It's a space tick, watch out for its nasty bite. CentComm reports that 90 percent of cargo leg amputations are due to space tick bites.
+  description: C'est une tique spatiale, attention à sa vilaine morsure. CentComm rapporte que 90 pour cent des amputations de jambes de cargo sont dues aux morsures de tiques spatiales.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: InputMover

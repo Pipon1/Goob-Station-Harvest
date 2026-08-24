@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitResponsorySecurity
-  name: Security Responsory modsuit control unit
-  description: The main controller for a Security Responsory modsuit.
+  name: unité de contrôle de combimod Responsory de Sécurité
+  description: "Le contrôleur principal d'une combimod Responsory de Sécurité."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/NanoTrasen/Modsuits/security-responsory.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsResponsorySecurity
-  name: Security Responsory modsuit gauntlets
-  description: A pair of gauntlets made for the Security Responsory modsuit.
+  name: gantelets de combimod Responsory de Sécurité
+  description: Une paire de gantelets conçus pour la combimod Responsory de Sécurité.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -57,8 +57,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetResponsorySecurity
-  name: Security Responsory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Security Responsory modsuit. It includes a built-in HUD.
+  name: casque de combimod Responsory de Sécurité
+  description: Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Sécurité. Il inclut un HUD intégré.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateResponsorySecurity
-  name: Security Responsory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Security Responsory modsuit. It incorporates powered servos to reduce the equipment load.
+  name: plastron de combimod Responsory de Sécurité
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Sécurité. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsResponsorySecurity
-  name: Security Responsory modsuit boots
-  description: A state-of-the-art pair of magboots for the Security Responsory modsuit.
+  name: bottes de combimod Responsory de Sécurité
+  description: Une paire de magbottes à la pointe de la technologie pour la combimod Responsory de Sécurité.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -180,7 +180,7 @@
 - type: entity
   id: SuitStorageResponsorySecurity
   parent: SuitStorageBase
-  suffix: Security Responsory Modsuit
+  suffix: Combimod Responsory de Sécurité
   components:
     - type: StorageFill
       contents:

@@ -63,8 +63,8 @@
 - type: entity
   parent: CableBase
   id: CableHV
-  name: HV power cable
-  description: An orange high voltage power cable.
+  name: câble électrique HT/HV
+  description: Un câble électrique orange de haute tension.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/hv_cable.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: CableBase
   id: CableMV
-  name: MV power cable
-  description: A medium voltage power cable.
+  name: câble électrique MT/MV
+  description: Un câble électrique de moyenne tension.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/mv_cable.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: CableBase
   id: CableApcExtension
-  name: LV power cable
-  description: A cable used to connect machines to an APC. #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
+  name: câble électrique BT/LV
+  description: Un câble électrique utilisé pour connecter des machines à un APC. #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
   components:
   - type: Sprite
     color: Green
@@ -230,8 +230,8 @@
 - type: entity
   id: CableDet
   parent: [ CablePhysBase, BaseSecurityContraband ]
-  name: explosive cord
-  description: Spaghetti for people who hate walls.
+  name: cordon explosif
+  description: Des spaghettis pour les gens qui détestent les murs.
   components:
   - type: Cable
     cableDroppedOnCutPrototype: CableDetStack1

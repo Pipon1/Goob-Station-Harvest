@@ -1,6 +1,6 @@
 - type: body
   id: XenomorphPraetorian
-  name: xenomorph praetorian
+  name: xénomorphe prétorien
   root: chest
   slots:
     head:

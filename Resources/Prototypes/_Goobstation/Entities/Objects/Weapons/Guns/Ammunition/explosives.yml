@@ -2,7 +2,7 @@
 
 - type: entity
   id: GrenadeMPAPERS
-  name: MP-APERS shell (40mm)
+  name: obus MP-APERS (40mm)
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -19,7 +19,7 @@
 
 - type: entity
   id: GrenadeTeargas
-  name: tear gas shell (40mm)
+  name: obus lacrymogène (40mm)
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: RMCContainerBase
-  name: cargo container
-  description: A huge industrial shipping container.
+  name: conteneur cargo
+  description: Un énorme conteneur d'expédition industriel.
   placement:
     mode: SnapgridCenter
   components:
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerFujinLeft
-  name: Fujin Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from Fujin, a manufacturer of a variety of electronical and mechanical products.\nAt least, that is what is says on the container. You have literally never heard of this company before."
+  name: Conteneur cargo Fujin
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient de Fujin, un fabricant de divers produits électroniques et mécaniques.\nDu moins, c'est ce qui est écrit sur le conteneur. Vous n'avez littéralement jamais entendu parler de cette entreprise auparavant."
   suffix: Fujin, Left
   components:
   - type: Sprite
@@ -121,8 +121,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerApocraphyLeft
-  name: Apocraphy Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from The Apocrahpy Corporation, a manufacturer of medical and biotechnological parts.\nYou remember hearing about one of their latest drugs, and how dangerous it was... though they claimed to be close to finding a solution."
+  name: Conteneur cargo Apocraphy
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient de la Corporation Apocraphy, un fabricant de pièces médicales et biotechnologiques.\nVous vous souvenez avoir entendu parler de l'un de leurs derniers médicaments, et de son dangerosité... bien qu'ils aient affirmé être proches de trouver une solution."
   suffix: Apocraphy, Left
   components:
   - type: Sprite
@@ -139,8 +139,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerPathosLeft
-  name: Pathos Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from Pathos, a computer parts and motion detector manufacturer.\nYou still wonder why we have a container of old Motion Detectors, and if they even still work."
+  name: Conteneur cargo Pathos
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient de Pathos, un fabricant de pièces informatiques et de détecteurs de mouvement.\nVous vous demandez encore pourquoi nous avons un conteneur de vieux détecteurs de mouvement, et s'ils fonctionnent encore."
   suffix: Pathos, Left
   components:
   - type: Sprite
@@ -157,8 +157,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerWeYaLeft
-  name: Weston-Yamada Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from The Weston-Yamada Corporation, you have probably heard of them before."
+  name: Conteneur cargo Weston-Yamada
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient de la Corporation Weston-Yamada, vous en avez probablement déjà entendu parler."
   suffix: WeYa, Left
   components:
   - type: Sprite
@@ -207,8 +207,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerTrijentLeft
-  name: Trijent Corporation Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from The Trijent Corporation's mining operations.\nIf this breaks open, you figure you probably shouldn't breathe in what's inside."
+  name: Conteneur cargo Corporation Trijent
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient des opérations minières de la Corporation Trijent.\nS'il s'ouvre, vous pensez qu'il vaudrait mieux ne pas respirer ce qu'il contient."
   suffix: Trijent, Left
   components:
   - type: Sprite
@@ -257,8 +257,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerFerretLeft
-  name: Ferret Heavy Industries Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from Ferret Heavy Industries, a manufacturer of terrestrial crawlers and powerloaders.\nUnfortunately, the company went bankrupt. Fortunately, these containers are really cheap now."
+  name: Conteneur cargo Ferret Heavy Industries
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient de Ferret Heavy Industries, un fabricant de véhicules chenillés et de chargeurs industriels.\nMalheureusement, l'entreprise a fait faillite. Heureusement, ces conteneurs sont vraiment bon marché maintenant."
   suffix: Ferret, Left
   components:
   - type: Sprite
@@ -283,8 +283,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerNovarisLeft
-  name: Novaris Cargo Container
-  description: "A huge industrial shipping containerThis one is from Novaris, they makes just about anything and everything.\nYou notice this container has a peeling note on it, saying all contents were transferred from another station decades ago, how long has it been here?"
+  name: Conteneur cargo Novaris
+  description: "Un énorme conteneur d'expédition industrielCelui-ci provient de Novaris, ils fabriquent à peu près tout et n'importe quoi.\nVous remarquez une note qui se décolle sur le conteneur, indiquant que tout le contenu a été transféré depuis une autre station il y a des décennies, depuis combien de temps est-il ici ?"
   suffix: Novaris, Left
   components:
   - type: Sprite
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCContainerBase
   id: RMCContainerAICMiddle
-  name: AIC Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from the Asian Industrial Collective, which was absorded into the SPP. Their massive industrial output has ensured that cargo containers bearing their symbols and name won't be disappearing any time soon."
+  name: Conteneur cargo AIC
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient du Collectif Industriel Asiatique, qui a été absorbé par le SPP. Leur production industrielle massive a assuré que les conteneurs cargo portant leurs symboles et leur nom ne disparaîtront pas de sitôt."
   suffix: AIC, Middle
   components:
   - type: Sprite
@@ -320,8 +320,8 @@
   parent: RMCContainerBase
   id: RMCContainerSPPLeft
   suffix: SPP, Left
-  name: SPP Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from the Socailists Progressive Peoples, as indicated by the massive symbol on the side."
+  name: Conteneur cargo SPP
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient des Socialistes Populaires Progressistes, comme l'indique le symbole massif sur le côté."
   components:
   - type: Sprite
     state: sppcontainerleft
@@ -370,8 +370,8 @@
   parent: RMCContainerBase
   id: RMCContainerMSPLeft
   suffix: MSP, Left
-  name: Ministry of Space Protection Cargo Container
-  description: "A huge industrial shipping container.\nThis one belongs to the SPP's Ministry of Space Protection."
+  name: Conteneur cargo Ministère de la Protection Spatiale
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci appartient au Ministère de la Protection Spatiale du SPP."
   components:
   - type: Sprite
     state: mspcontainerleft
@@ -396,8 +396,8 @@
   parent: RMCContainerBase
   id: RMCContainerUNMCLeft
   suffix: UNMC, Left
-  name: United Nations Marine Corps Cargo Container
-  description: "A huge industrial shipping container.\nThis one belongs to the UN's United Nations Marine Corps."
+  name: Conteneur cargo Corps des Marines des Nations Unies
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci appartient au Corps des Marines des Nations Unies de l'ONU."
   components:
   - type: Sprite
     state: unmccontainerleft
@@ -422,8 +422,8 @@
   parent: RMCContainerBase
   id: RMCContainerAegisLeft
   suffix: Aegis, Left
-  name: AEGIS Cargo Container
-  description: "A huge industrial shipping container.\nThis one is from AEGIS, the defense contractors behind the M54C and other marine weaponry."
+  name: Conteneur cargo AEGIS
+  description: "Un énorme conteneur d'expédition industriel.\nCelui-ci provient d'AEGIS, les entrepreneurs de défense derrière le M54C et d'autres armes marines."
   components:
   - type: Sprite
     state: aegiscontainerleft

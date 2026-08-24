@@ -1,0 +1,1 @@
+objective-condition-other-traitor-progress-title = Assurez-vous que votre collègue traître {$targetName}, {CAPITALIZE($job)}, reste en vie.

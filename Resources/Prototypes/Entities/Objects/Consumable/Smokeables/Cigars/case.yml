@@ -3,8 +3,8 @@
 - type: entity
   id: CigarCase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: cigar case
-  description: A case for holding your cigars when you are not smoking them.
+  name: étui à cigares
+  description: Un étui pour tenir vos cigares quand vous ne les fumez pas.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/case.rsi
@@ -69,8 +69,8 @@
 - type: entity
   id: CigarGoldCase
   parent: CigarCase
-  name: premium cigar case
-  description: "A case of premium Havanian cigars. You'll only see heads with these."
+  name: étui à cigares premium
+  description: "Un étui de cigares Havaniens premium. Vous ne verrez que des têtes avec ceux-ci."
   components:
   - type: EntityTableContainerFill
     containers:

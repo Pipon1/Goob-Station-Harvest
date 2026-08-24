@@ -4,7 +4,7 @@
   id: Mannequin
   parent: [BaseStructureDynamic, StripableInventoryBase]
   name: mannequin
-  description: It can wear any clothing with style.
+  description: Il peut porter n'importe quel vêtement avec style.
   components:
   - type: Appearance
   - type: Sprite

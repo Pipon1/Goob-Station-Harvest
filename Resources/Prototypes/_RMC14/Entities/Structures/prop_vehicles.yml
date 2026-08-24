@@ -2,8 +2,8 @@
 
 - type: entity
   id: RMCCarPileup
-  name: burned out vehicle pileup
-  description: Burned-out vehicles block your path, their charred frames and shattered glass hinting at recent chaos. The acrid smell of smoke lingers.
+  name: amas de véhicules calcinés
+  description: Des véhicules calcinés bloquent votre chemin, leurs carcasses carbonisées et leurs vitres brisées témoignent du chaos récent. L'âcre odeur de fumée persiste.
   placement:
     mode: SnapgridCenter
   components:
@@ -78,7 +78,7 @@
   id: RMCPropVehicleMonoSupronOrange
   suffix: Orange
   name: Mono-Supron
-  description: The 'Mono-Supron', a mass-produced civilian vehicle for the colonial markets, in and outside of the United Nations. Produced by 'Mizutani' a car marque and associated operating division of the Weston-Yamada Corporation.
+  description: La 'Mono-Supron', un véhicule civil produit en série pour les marchés coloniaux, à l'intérieur et à l'extérieur des Nations Unies. Produite par 'Mizutani', une marque automobile et division d'exploitation associée de la Corporation Weston-Yamada.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/vehicles.rsi

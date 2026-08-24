@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanTunnelClown
-  name: Tunnel clown
+  name: Clown de tunnel
   components:
   - type: RandomHumanoidAppearance
     randomizeName: true
@@ -12,7 +12,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSingulothKnight
-  name: Singuloth Knight
+  name: Chevalier de Singuloth
   components:
   - type: RandomHumanoidAppearance
     randomizeName: true
@@ -22,7 +22,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanDarkLord
-  name: The Dark Lord
+  name: Le Seigneur des Ténèbres
   components:
   - type: ActionGrant
     actions:
@@ -36,7 +36,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanChosenOne
-  name: The chosen one
+  name: L'élu
   components:
   - type: ActionGrant
     actions:
@@ -67,7 +67,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanDarkPriest
-  name: Dark Priest
+  name: Prêtre des Ténèbres
   components:
   - type: RandomHumanoidAppearance
     randomizeName: true
@@ -77,7 +77,7 @@
 - type: entity
   parent: MobVox
   id: MobVoxRaider
-  name: Vox Raider
+  name: Raider Vox
   components:
   - type: AutoImplant
     implants:
@@ -93,7 +93,7 @@
 - type: entity
   parent: BaseMobHuman
   id: SantaClaus
-  name: Santa Claus
+  name: Père Noël
   components:
   - type: Loadout
     prototypes: [ SantaGear ]

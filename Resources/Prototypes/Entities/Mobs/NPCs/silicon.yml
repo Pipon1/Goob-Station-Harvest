@@ -151,8 +151,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobFireBot
-  name: firebot
-  description: A little fire extinguishing bot. He looks rather anxious.
+  name: robopompier
+  description: Un petit robot extincteur. Il à l'air assez anxieux.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/firebot.rsi
@@ -199,8 +199,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: robohonk
+  description: Terrifiant.
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -268,8 +268,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: robojonk
+  description: Terrifiant.
   components:
   - type: SpamEmitSound
     sound:
@@ -309,8 +309,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: robonettoyeur
+  description: L'avancée de l'automatisation menace désormais les concierges de l'espace.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -363,8 +363,8 @@
   - ShowMedicalIcons
   - StripableInventoryBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: robomédic
+  description: Pas un substitut à un médecin, mais mieux que rien.
   components:
   - type: Medibot
     treatments:
@@ -437,8 +437,8 @@
   - MobSiliconBase
   - StripableInventoryBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give the mimebot a friendly wave?
+  name: robomime
+  description: Pourquoi ne pas faire un coucou au robomime ?
   components:
   - type: Sprite
     layers:
@@ -468,8 +468,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: supplybot
-  description: Delivers cargo!
+  name: robolivreur
+  description: Livre le cargo!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi
@@ -541,8 +541,8 @@
 - type: entity
   parent: [ MobSiliconBase, MobCombat ]
   id: MobHugBot
-  name: hugbot
-  description: Awww, who needs a hug?
+  name: robocâlin
+  description: Awww, qui a besoin d'un câlin ?
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/hugbot.rsi

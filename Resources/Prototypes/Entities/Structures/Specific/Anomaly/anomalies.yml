@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: anomaly
-  description: An impossible object. Should you be standing this close to it?
+  name: anomalie
+  description: Un objet impossible. Devriez-vous vous tenir si près ?
   components:
   - type: Anomaly
     offset: 0, 0.15
@@ -830,9 +830,9 @@
 
 - type: entity
   id: AnomalyFloraBulb
-  name: strange glowing berry
+  name: baie lumineuse étrange
   parent: BaseStructure
-  description: It's a beautiful strange glowing berry. It seems to have something growing inside it...
+  description: C'est une belle baie lumineuse étrange. Il semble y avoir quelque chose qui pousse à l'intérieur...
   suffix: Flora Anomaly
   components:
   - type: Transform

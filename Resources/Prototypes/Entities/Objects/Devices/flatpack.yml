@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFlatpack
-  name: base flatpack
-  description: A flatpack used for constructing something.
+  name: flatpack de base
+  description: Un flatpack utilisé pour construire quelque chose.
   categories:
   - HideSpawnMenu
   components:
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SolarAssemblyFlatpack
-  name: solar assembly flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: flatpack assemblage solaire
+  description: Un flatpack utilisé pour construire un assemblage solaire.
   components:
   - type: Flatpack
     entity: SolarAssembly
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-  name: AME flatpack
-  description: A flatpack used for constructing an antimatter engine reactor.
+  name: flatpack AME
+  description: Un flatpack utilisé pour construire un réacteur à antimatière.
   components:
   - type: Sprite
     layers:
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SingularityGeneratorFlatpack
-  name: singularity generator flatpack
-  description: A flatpack used for constructing a singularity generator.
+  name: flatpack générateur de singularité
+  description: Un flatpack utilisé pour construire un générateur de singularité.
   components:
   - type: Flatpack
     entity: SingularityGenerator
@@ -98,8 +98,8 @@
 - type: entity
   parent: BaseFlatpack
   id: RadiationCollectorFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: flatpack collecteur de radiations
+  description: Un flatpack utilisé pour construire un collecteur de radiations.
   components:
   - type: Flatpack
     entity: RadiationCollectorNoTank
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ContainmentFieldGeneratorFlatpack
-  name: containment field generator flatpack
-  description: A flatpack used for constructing a containment field generator.
+  name: flatpack générateur champ confinement
+  description: Un flatpack utilisé pour construire un générateur de champ de confinement.
   components:
   - type: Flatpack
     entity: ContainmentFieldGenerator
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseFlatpack
   id: EmitterFlatpack
-  name: emitter flatpack
-  description: A flatpack used for constructing an emitter.
+  name: flatpack émetteur
+  description: Un flatpack utilisé pour construire un émetteur.
   components:
   - type: Flatpack
     entity: Emitter
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGeneratorFlatpack
-  name: tesla generator flatpack
-  description: A flatpack used for constructing a tesla generator.
+  name: flatpack générateur tesla
+  description: Un flatpack utilisé pour construire un générateur tesla.
   components:
   - type: Flatpack
     entity: TeslaGenerator
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaCoilFlatpack
-  name: tesla coil flatpack
-  description: A flatpack used for constructing a tesla coil.
+  name: flatpack bobine tesla
+  description: Un flatpack utilisé pour construire une bobine tesla.
   components:
   - type: Flatpack
     entity: TeslaCoil
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGroundingRodFlatpack
-  name: grounding rod flatpack
-  description: A flatpack used for constructing a grounding rod.
+  name: flatpack tige de mise à la terre
+  description: Un flatpack utilisé pour construire une tige de mise à la terre.
   components:
   - type: Flatpack
     entity: TeslaGroundingRod
@@ -194,8 +194,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GyroscopeFlatpack
-  name: gyroscope flatpack
-  description: A flatpack used for constructing a gyroscope.
+  name: flatpack gyroscope
+  description: Un flatpack utilisé pour construire un gyroscope.
   components:
   - type: Flatpack
     entity: Gyroscope
@@ -209,8 +209,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ThrusterFlatpack
-  name: thruster flatpack
-  description: A flatpack used for constructing a thruster.
+  name: flatpack propulseur
+  description: Un flatpack utilisé pour construire un propulseur.
   components:
   - type: Flatpack
     entity: Thruster
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SpaceHeaterFlatpack
-  name: space heater flatpack
-  description: A flatpack used for constructing a space heater.
+  name: flatpack chauffage spatial
+  description: Un flatpack utilisé pour construire un chauffage spatial.
   components:
   - type: Flatpack
     entity: SpaceHeaterAnchored
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseFlatpack
   id: FaxMachineFlatpack
-  name: fax machine flatpack
-  description: A flatpack used for constructing a fax machine.
+  name: flatpack fax
+  description: Un flatpack utilisé pour construire un fax.
   components:
   - type: Sprite
     layers:
@@ -245,8 +245,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringServerFlatpack
-  name: crew monitoring server flatpack
-  description: A flatpack used for constructing a crew monitoring server.
+  name: flatpack serveur surveillance équipage
+  description: Un flatpack utilisé pour construire un serveur de surveillance d'équipage.
   components:
   - type: Flatpack
     entity: CrewMonitoringServer
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringComputerFlatpack
-  name: crew monitoring computer flatpack
-  description: A flatpack used for constructing a crew monitoring console.
+  name: flatpack console surveillance équipage
+  description: Un flatpack utilisé pour construire une console de surveillance d'équipage.
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
@@ -263,8 +263,8 @@
 - type: entity
   parent: BaseFlatpack
   id: HydroponicsTrayFlatpack
-  name: hydroponics tray flatpack
-  description: A flatpack used for constructing a hydroponics tray.
+  name: flatpack bac hydroponique
+  description: Un flatpack utilisé pour construire un bac hydroponique.
   components:
   - type: Flatpack
     entity: hydroponicsTray

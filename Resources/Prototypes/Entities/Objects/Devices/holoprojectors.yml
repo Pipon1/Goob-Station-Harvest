@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: projecteur holosign
+  description: Un projecteur holographique pratique qui affiche un panneau de signalétique de nettoyage.
   components:
   - type: Item
     storedRotation: -90
@@ -45,8 +45,8 @@
   parent: Holoprojector
   id: HoloprojectorBorg
   suffix: borg
-  name: holosign projector
-  description: A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
+  name: projecteur holosign
+  description: Un projecteur holographique modifié pour une utilisation dans les cyborgs d'entretien. Se recharge automatiquement.
   components:
   - type: HolosignProjector
     chargeUse: 240
@@ -61,8 +61,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorClownBorg
-  name: holopeel projector
-  description: A holopeel projector that creates a slippery, hard light banana peel. It recharges, so that the fun never ends!
+  name: projecteur holopeau
+  description: Un projecteur holopeau qui crée une écorce de banane rigide et glissante en lumière dure. Il se recharge, donc le plaisir ne finit jamais!
   suffix: borg
   components:
   - type: HolosignProjector
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseItem # DeltaV - remove powercell requirement
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: projecteur holofan
+  description: Empêche les passagers suicidaires de tuer tout le monde lors des urgences atmosphériques.
   components:
   - type: ChargeHolosignProjector # DeltaV - different implementation using charges
     signProto: HoloFan
@@ -155,8 +155,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: force field projector
-  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
+  name: projecteur de champ de force
+  description: Crée un champ de force impénétrable qui ne laisse rien passer. Une proximité rapprochée peut éventuellement provoquer un cancer.
   components:
     - type: HolosignProjector
       signProto: HolosignForcefield
@@ -183,8 +183,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: projecteur holobarrière
+  description: Crée une barrière holographique solide mais fragile.
   components:
     - type: HolosignProjector
       signProto: HolosignSecurity

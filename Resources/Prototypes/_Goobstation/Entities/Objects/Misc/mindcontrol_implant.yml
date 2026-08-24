@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MindcontrolImplant
-  name: mind control implant
-  description: commit menticide
+  name: implant de contrôle mental
+  description: commettez un menticide
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant

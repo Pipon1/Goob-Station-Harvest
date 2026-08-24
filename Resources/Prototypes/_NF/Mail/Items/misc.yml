@@ -70,7 +70,7 @@
 - type: entity
   id: NecrosolChemistryBottle
   parent: BaseChemistryBottleFilled
-  name: necrosol bottle
+  name: bouteille de nécrosol
   components:
   - type: SolutionContainerManager
     solutions:
@@ -85,35 +85,35 @@
 - type: entity
   id: DrinkPremiumVodkaBottleFull
   parent: DrinkVodkaBottleFull
-  name: Moment of Clarity vodka bottle
-  description: When things get a bit hectic, all you need is a Moment of Clarity.
+  name: bouteille de vodka Moment of Clarity
+  description: Quand les choses deviennent un peu chaotiques, tout ce dont vous avez besoin c'est d'un Moment of Clarity.
 
 - type: entity
   id: DrinkPremiumGinBottleFull
   parent: DrinkGinBottleFull
-  name: Harry's gin bottle
-  description: An interesting set of botanicals, for sure. Is that pumpkin?
+  name: bouteille de gin Harry's
+  description: Un ensemble intéressant de plantes, c'est sûr. Est-ce du potiron ?
 
 - type: entity
   id: DrinkPremiumTequilaBottleFull
   parent: DrinkTequilaBottleFull
-  name: Casa del Eorg tequila bottle
-  description: Save the best for last. Casa del Eorg, 100% agave.
+  name: bouteille de tequila Casa del Eorg
+  description: Gardez le meilleur pour la fin. Casa del Eorg, 100% agave.
 
 - type: entity
   id: DrinkPremiumWhiskeyBottleFull
   parent: DrinkWhiskeyBottleFull
-  name: Ol' Prowler 18 whiskey bottle
-  description: Surprisingly smooth, it has a nasty habit of sneaking up on you.
+  name: bouteille de whiskey Ol' Prowler 18
+  description: Étonnamment doux, il a la fâcheuse habitude de vous prendre par surprise.
 
 - type: entity
   id: DrinkPremiumRumBottleFull
   parent: DrinkRumBottleFull
-  name: Redeemer's Bounty rum bottle
-  description: Well, you asked for it. Navy strength.
+  name: bouteille de rhum Redeemer's Bounty
+  description: Eh bien, vous l'avez demandé. Force marine.
 
 - type: entity
   id: DrinkPremiumAbsintheBottleFull
   parent: DrinkAbsintheBottleFull
-  name: Bureaucracy's Kiss absinthe bottle
-  description: A refined taste that tends to linger.
+  name: bouteille d'absinthe Bureaucracy's Kiss
+  description: Un goût raffiné qui a tendance à durer.

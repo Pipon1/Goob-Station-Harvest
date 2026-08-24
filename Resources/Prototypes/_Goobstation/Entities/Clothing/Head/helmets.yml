@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseSyndicateContraband, ClothingHeadHelmetBase]
   id: ClothingHeadHelmetHelldiver
-  name: salvage NT-01 tactical helmet
-  description: This armor is the NanoTrasen standard issue, made from the same titanium alloy as the Goliath hull.
+  name: casque de sauvetage tactique NT-01
+  description: Cette armure est l'équipement standard de NanoTrasen, fabriquée avec le même alliage de titane que la coque du Goliath.
   components:
   - type: Armor
     coverage:
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetHEV
-  name: H.E.V helmet
-  description: Not included in a set with crowbar, long jump module and gravity manipulation device.
+  name: casque H.E.V.
+  description: "Ne sont pas inclus : le pied-de-biche, le module de saut en longueur et le dispositif de manipulation de la gravité."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Helmets/hev.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseMajorContraband ]
   id: ReverseBearTrap
-  name: reverse bear trap
-  description: A horrifying set of shut metal jaws, rigged to a kitchen timer and secured by padlock to a head-mounted clamp. To apply, hit someone with it
+  name: piège à ours inversé
+  description: Un terrifiant ensemble de mâchoires métalliques fermées, relié à un minuteur et sécurisé par un cadenas à une pince de tête. Pour l'appliquer, frappez quelqu'un avec.
   components:
   - type: ReverseBearTrap
     countdownDuration: 60
@@ -103,8 +103,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadHatHoodCloakSith
-  name: dark lord hood
-  description: What began as a simple cosplay hood was illegally reinforced with armored plates, transforming it into a functional piece of armor. Looks like it's even capable of protecting the user from the lack of pressure in space.
+  name: capuche du seigneur des ténèbres
+  description: Ce qui a commencé comme une simple capuche de cosplay a été illégalement renforcée avec des plaques blindées, la transformant en une pièce d'armure fonctionnelle. On dirait qu'elle est même capable de protéger l'utilisateur du manque de pression dans l'espace.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/voidcloak.rsi
@@ -147,13 +147,13 @@
   parent: [ClothingHeadHatArmored, ClothingHeadHatCowboyBrown, BaseMajorContraband]
   id: ClothingHeadHatCowboyBrownRobust
   name: authentic brown cowboy hat
-  description: "\"This station ain't big enough for the two of us.\""
+  description: "\"Cette station est trop petite pour nous deux.\""
 
 # Shitchap
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHelmetTemplar
-  name: crusader helmet
+  name: casque de croisé
   description: Deus Vult.
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetCage
   name: cage
-  description: A cage that restrains the will of the self, allowing one to see the profane world for what it is.
+  description: Une cage qui entrave la volonté du moi, permettant de voir le monde profane tel qu'il est.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/cage.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetAncient
-  name: ancient helmet
-  description: None may pass!
+  name: casque ancien
+  description: Nul ne peut passer !
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/ancient.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetWitchhunter
-  name: witchunter hat
-  description: This hat saw much use back in the day.
+  name: chapeau de chasseur de sorcières
+  description: Ce chapeau a beaucoup servi en son temps.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/witchhunter.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetAdept
-  name: adept hood
-  description: Its only heretical when others do it.
+  name: capuche d'adepte
+  description: Ce n'est hérésie que quand les autres le font.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/adept.rsi
@@ -252,8 +252,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetClock
-  name: forgotten helmet
-  description: It has the unyielding gaze of a god eternally forgotten.
+  name: casque oublié
+  description: Il possède le regard inflexible d'un dieu éternellement oublié.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/clock.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetMonk
-  name: monk's blindfold
-  description: For people who want to give up unnecessary feelings.
+  name: bandeau de moine
+  description: Pour ceux qui veulent renoncer aux sentiments superflus.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/monkblindfold.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetBishop
-  name: bishop mitre
-  description: An opulent hat that functions as a radio to God. Or as a lightning rod, depending on who you ask.
+  name: mitre d'évêque
+  description: Un chapeau opulent qui sert de radio vers Dieu. Ou de paratonnerre, selon qui vous demandez.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/bishop.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetDragon
-  name: dragon skull
-  description: Cool skull.
+  name: crâne de dragon
+  description: Un crâne cool.
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/dragonskull.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetInquisitor
-  name: inquisitor cap
-  description: A majestic gilded cap. The personification of the punishment that will befall heretics!
+  name: calotte d'inquisiteur
+  description: Une majestueuse calotte dorée. La personnification du châtiment qui s'abattra sur les hérétiques !
   components:
   - type: Sprite
     sprite: _ShitChap/Clothing/Head/Misc/inquisitor.rsi
@@ -327,8 +327,8 @@
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHoodSchemaMonk
   categories: [ HideSpawnMenu ]
-  name: hood of a monastic vestments
-  description: Comfortable hood of monastic vestment.
+  name: capuche de vêtement monastique
+  description: Capuche confortable de vêtement monastique.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hoods/schema_monk.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: ClothingHeadHatHelmetTemplar
   id: ClothingHeadHatHelmetBrass
-  name: brass helmet
-  description: Brass helmet, like in the good old days.
+  name: casque en laiton
+  description: Casque en laiton, comme au bon vieux temps.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Helmets/brass_helmet.rsi

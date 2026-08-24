@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: MIT
 
 - type: entity
-  name: coordinates disk
+  name: disque de coordonnées
   parent: BaseItem
   id: CoordinatesDisk
-  description: A disk containing the coordinates to a location in space. Necessary for any FTL-traversing vessel to reach their destination. Fits inside shuttle consoles.
+  description: Un disque contenant les coordonnées d'un emplacement dans l'espace. Nécessaire pour tout vaisseau traversant l'hyperespace pour atteindre sa destination. S'insère dans les consoles des navettes.
   components:
   - type: Sprite
     sprite: Objects/Misc/cd.rsi

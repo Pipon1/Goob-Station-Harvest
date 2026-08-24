@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseHeaterMachine
   id: ChemistryHotplate
-  name: hotplate
-  description: "The descendent of the microwaves, our newest invention in beaker heating technology: the hotplate!"
+  name: plaque chauffante
+  description: "La descendante des micro-ondes, notre dernière invention en matière de chauffage de béchers : la plaque chauffante !"
   components:
   - type: Sprite
     sprite: Structures/Machines/hotplate.rsi

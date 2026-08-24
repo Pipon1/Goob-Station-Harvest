@@ -1,0 +1,1 @@
+cleaning-tool-scrubbing-start = {$user} commence à frotter le sol

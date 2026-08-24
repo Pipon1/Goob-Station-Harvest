@@ -1,7 +1,7 @@
 - type: entity
   id: FloraMossPale
-  name: pale moss
-  description: A pale carpet of moss that looks disgusting and tasty at the same time.
+  name: mousse pâle
+  description: Un tapis de mousse pâle qui a l'air dégoûtant et appétissant à la fois.
   placement:
     mode: SnapgridCenter
     snap:

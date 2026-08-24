@@ -4,7 +4,7 @@
   name: piano
   parent: BasePlaceableInstrumentRotatable
   id: PianoInstrument
-  description: Play Needles Piano Now.
+  description: Joue Needles Piano maintenant.
   components:
   - type: Instrument
     program: 1
@@ -13,10 +13,10 @@
   - type: Climbable
 
 - type: entity
-  name: upright piano
+  name: piano droit
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
-  description: I said Piannie!
+  description: J'ai dit Piannie !
   components:
   - type: Instrument
     program: 3
@@ -28,7 +28,7 @@
   name: vibraphone
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
-  description: Good vibes all around.
+  description: De bonnes vibrations partout.
   components:
   - type: Instrument
     program: 11
@@ -46,10 +46,10 @@
     state: marimba
 
 - type: entity
-  name: church organ
+  name: orgue d'église
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
-  description: This thing really blows!
+  description: Un instrument qui brasse de l'air.
   components:
   - type: Instrument
     program: 19
@@ -60,7 +60,7 @@
   name: tuba
   parent: BasePlaceableInstrument
   id: TubaInstrument
-  description: The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
+  description: Le grand patriarche de la famille des cuivres. Se tenir debout à côté de sa majesté te fait sentir petit.
   components:
   - type: Instrument
     program: 58
@@ -70,8 +70,8 @@
 - type: entity
   id: HarpInstrument
   parent: BasePlaceableInstrument
-  name: harp
-  description: Plucking at the strings cuts your fingers, but at least the music is pretty.
+  name: harpe
+  description: Pincer les cordes vous coupe les doigts, mais au moins la musique est jolie.
   components:
   - type: Instrument
     program: 46
@@ -82,7 +82,7 @@
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
   name: timpani
-  description: It goes BOOM BOOM BOOM BOOM!
+  description: Il fait BOUM BOUM BOUM BOUM !
   components:
   - type: Instrument
     program: 47
@@ -93,7 +93,7 @@
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
   name: taiko
-  description: A large drum. Looking at it fills you with the urge to slap it.
+  description: Un grand tambour. Le regarder te donne envie de le frapper.
   components:
   - type: Instrument
     program: 116
@@ -103,8 +103,8 @@
 - type: entity
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
-  name: contrabass
-  description: Perfect for laying down a nice jazzy beat.
+  name: contrebasse
+  description: Parfait pour poser un beau rythme jazz.
   components:
   - type: Instrument
     program: 43
@@ -131,7 +131,7 @@
   name: minimoog
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
-  description: This is a minimoog, like a space piano, but more spacey!
+  description: C'est un minimoog, comme un piano de l'espace, mais encore plus spatial !
   components:
   - type: Instrument
     program: 81
@@ -141,8 +141,8 @@
 - type: entity
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: tom drums
-  description: Where'd the rest of the kit go?
+  name: toms
+  description: Où est passé le reste de la batterie ?
   components:
   - type: Instrument
     program: 117
@@ -152,8 +152,8 @@
 - type: entity
   parent: [ BasePlaceableInstrumentRotatable, ConstructibleMachine]
   id: DawInstrument
-  name: digital audio workstation
-  description: Cutting edge music technology, straight from the 90s.
+  name: station de travail audio numérique
+  description: Technologie musicale de pointe, tout droit sorti des années 90.
   components:
   - type: Sprite
     layers:

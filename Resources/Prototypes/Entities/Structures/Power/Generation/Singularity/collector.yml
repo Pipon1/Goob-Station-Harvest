@@ -3,9 +3,9 @@
 - type: entity
   id: RadiationCollector
   parent: [ ConstructibleMachine, BaseAutomatedMachine ] # Goob: Automation
-  name: radiation collector
+  name: collecteur de radiation
   suffix: Empty tank
-  description: A machine that collects radiation and turns it into power. Requires plasma gas to function.
+  description: Une machine qui collecte les rayonnements et les convertit en énergie. Nécessite du gaz plasma pour fonctionner.
   placement:
     mode: SnapgridCenter
   components:

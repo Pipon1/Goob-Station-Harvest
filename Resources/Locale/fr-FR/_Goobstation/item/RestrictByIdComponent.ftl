@@ -1,0 +1,1 @@
+restricted-by-id-component-attack-fail-id-wrong = Accès refusé. Votre badge ne correspond pas aux accès requis.

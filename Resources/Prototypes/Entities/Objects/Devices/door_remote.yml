@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: door remote
-  description: A gadget which can open and bolt doors remotely.
+  name: télécommande de porte
+  description: Un gadget qui peut ouvrir et verrouiller des portes à distance.
   abstract: true
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCommand
-  name: command door remote
+  name: télécommande de porte de commandement
   components:
   - type: Sprite
     layers:
@@ -81,8 +81,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCustom
-  name: custom door remote
-  description: A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
+  name: télécommande de porte personnalisée
+  description: Un gadget qui peut ouvrir et verrouiller des portes à distance. Cette variante avancée ne dispose pas d'accès intégré, elle hérite plutôt de l'accès d'identification de l'utilisateur.
   components:
   - type: Sprite
     layers:
@@ -98,7 +98,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteSecurity
-  name: security door remote
+  name: télécommande de porte de sécurité
   components:
   - type: Sprite
     layers:
@@ -114,7 +114,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseSecurityCommandContraband]
   id: DoorRemoteArmory
-  name: armory door remote
+  name: télécommande de porte d'armurerie
   components:
   - type: Sprite
     layers:
@@ -130,7 +130,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteService
-  name: service door remote
+  name: télécommande de porte de service
   components:
   - type: Sprite
     layers:
@@ -146,7 +146,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteResearch
-  name: research door remote
+  name: télécommande de porte de recherche
   components:
   - type: Sprite
     layers:
@@ -162,7 +162,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: cargo door remote
+  name: télécommande de porte de cargo
   components:
   - type: Sprite
     layers:
@@ -178,7 +178,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteMedical
-  name: medical door remote
+  name: télécommande de porte médicale
   components:
   - type: Sprite
     layers:
@@ -194,7 +194,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteEngineering
-  name: engineering door remote
+  name: télécommande de porte d'ingénierie
   components:
   - type: Sprite
     layers:
@@ -210,7 +210,7 @@
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseCommandContraband]
   id: DoorRemoteAll
-  name: super door remote
+  name: télécommande de porte ultime
   suffix: Admeme
   components:
   - type: Sprite
@@ -235,7 +235,7 @@
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseXenoborgContraband]
   id: DoorRemoteXenoborg
-  name: xenoborg door remote
+  name: télécommande de porte xénoborg
   components:
   - type: Sprite
     layers:

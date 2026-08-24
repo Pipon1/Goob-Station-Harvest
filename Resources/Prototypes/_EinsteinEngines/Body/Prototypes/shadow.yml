@@ -1,6 +1,6 @@
 - type: body
   id: Shadow
-  name: Shadow
+  name: Ombre
   root: chest
   slots:
     head:

@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseItem, BaseMagicalContraband ]
   id: BaseSpellbook
-  name: spellbook
+  name: grimoire
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -26,9 +26,9 @@
 - type: entity
   parent: [ BaseItem, BaseMagicalContraband, StorePresetSpellbook ] # Goob edit
   id: WizardsGrimoire
-  name: wizard's grimoire
+  name: grimoire de sorcier
   suffix: Wizard
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
+  description: Un tome lourd contenant des formules arcaniques compliquées pour préparer des sorts magiques et conjurer des équipements surnaturels. Des décennies d'étude ont été consacrées à la recherche de cette collection de secrets mystiques ; allez maintenant les utiliser pour ruiner la journée de quelqu'un.
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -61,8 +61,8 @@
 # Used for the Antag Planet
 - type: entity
   id: WizardsGrimoireGhost
-  name: ghostly grimoire
-  description: A modified wizard grimoire that can by used by more than one person and has more wizcoins, but can't buy certain spells.
+  name: grimoire fantôme
+  description: Un grimoire de sorcier modifié qui peut être utilisé par plus d'une personne et qui possède plus de wizcoins, mais ne peut pas acheter certains sorts.
   suffix: Wizard
   parent: [ BaseItem, BaseMagicalContraband, GhostAntagSpellPreset ] # Goob edit
   components:
@@ -111,7 +111,7 @@
   parent: WizardsGrimoire
   id: WizardsGrimoireDebug
   suffix: Wizard, DEBUG
-  description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Someone wrote "FOR EXPERIMENTAL USE ONLY" on the inside cover.
+  description: Un tome lourd contenant des formules arcaniques compliquées pour préparer des sorts magiques et conjurer des équipements surnaturels. Quelqu'un a écrit "FOR EXPERIMENTAL USE ONLY" à l'intérieur de la couverture.
   components:
     - type: Store
       ownerOnly: false # For ease of debugging.
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SpawnSpellbook
-  name: spawn spellbook
+  name: grimoire d'apparition
   components:
     - type: Spellbook
       spellActions:
@@ -130,7 +130,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ForceWallSpellbook
-  name: force wall spellbook
+  name: grimoire de mur de force
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: BaseSpellbook
   id: BlinkBook
-  name: blink spellbook
+  name: grimoire de clignement
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: BaseSpellbook
   id: SmiteBook
-  name: smite spellbook
+  name: grimoire de frappe
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: BaseSpellbook
   id: KnockSpellbook
-  name: knock spellbook
+  name: grimoire d'ouverture
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -219,7 +219,7 @@
 - type: entity
   parent: BaseSpellbook
   id: FireballSpellbook
-  name: fireball spellbook
+  name: grimoire de boule de feu
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -243,7 +243,7 @@
 - type: entity
   parent: BaseSpellbook
   id: ScrollRunes
-  name: scroll of traps # Goob edit
+  name: parchemin de pièges # Goob edit
   components:
   - type: Item
     size: Normal

@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitPraetorian
-  name: Praetorian modsuit control unit
-  description: The main controller for a Praetorian modsuit.
+  name: unité de contrôle de combimod Prétorienne
+  description: "Le contrôleur principal d'une combimod Prétorienne."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/NanoTrasen/Modsuits/praetorian.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsPraetorian
-  name: Praetorian modsuit gauntlets
-  description: A pair of gauntlets made for the Praetorian modsuit.
+  name: gantelets de combimod Prétorienne
+  description: Une paire de gantelets conçus pour la combimod Prétorienne.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingModsuitHelmetStandard
   id: ClothingModsuitHelmetPraetorian
-  name: Praetorian modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Praetorian modsuit.
+  name: casque de combimod Prétorienne
+  description: Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Prétorienne.
   categories: [HideSpawnMenu]
   components:
     - type: Clothing
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplatePraetorian
-  name: Praetorian modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Praetorian modsuit. It incorporates powered servos to reduce the equipment load.
+  name: plastron de combimod Prétorienne
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Prétorienne. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -178,8 +178,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsPraetorian
-  name: Praetorian modsuit boots
-  description: A state-of-the-art pair of magboots for the Praetorian modsuit.
+  name: bottes de combimod Prétorienne
+  description: Une paire de magbottes à la pointe de la technologie pour la combimod Prétorienne.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -212,7 +212,7 @@
 - type: entity
   id: SuitStoragePraetorian
   parent: SuitStorageBase
-  suffix: Praetorian Modsuit
+  suffix: Combimod Prétorienne
   components:
     - type: StorageFill
       contents:

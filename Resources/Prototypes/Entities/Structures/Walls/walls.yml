@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseStructureWall
-  name: basewall
-  description: Keeps the air in and the greytide out.
+  name: mur de base
+  description: Garde l'air à l'intérieur et la greytide à l'extérieur.
   placement:
     mode: SnapgridCenter
     snap:
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseWall
   id: WallBrick
-  name: brick wall
+  name: mur en brique
   components:
   - type: Sprite
     sprite: Structures/Walls/brick.rsi
@@ -141,7 +141,7 @@
 - type: entity
   parent: BaseWall
   id: WallClock
-  name: clock wall
+  name: mur d'horloge
   components:
   - type: Sprite
     sprite: Structures/Walls/clock.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: BaseWall
   id: WallClown
-  name: bananium wall
+  name: mur de bananium
   components:
   - type: Sprite
     sprite: Structures/Walls/clown.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseWall
   id: WallMeat
-  name: meat wall
-  description: Sticky.
+  name: mur de viande
+  description: Collant.
   components:
   - type: Tag
     tags:
@@ -258,7 +258,7 @@
 - type: entity
   parent: BaseWall
   id: WallCult
-  name: cult wall
+  name: mur de culte
   components:
   - type: Sprite
     sprite: Structures/Walls/cult.rsi
@@ -286,7 +286,7 @@
 - type: entity
   parent: BaseWall
   id: WallDebug
-  name: debug wall
+  name: mur de débogage
   suffix: DEBUG
   components:
   - type: Tag
@@ -318,7 +318,7 @@
 - type: entity
   parent: BaseWall
   id: WallDiamond
-  name: diamond wall
+  name: mur de diamant
   components:
   - type: Sprite
     sprite: Structures/Walls/diamond.rsi
@@ -352,7 +352,7 @@
 - type: entity
   parent: BaseWall
   id: WallGold
-  name: gold wall
+  name: mur d'or
   components:
   - type: Sprite
     sprite: Structures/Walls/gold.rsi
@@ -409,7 +409,7 @@
 - type: entity
   parent: BaseWall
   id: WallIce
-  name: ice wall
+  name: mur de glace
   components:
   - type: Sprite
     sprite: Structures/Walls/ice.rsi
@@ -439,7 +439,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlasma
-  name: plasma wall
+  name: mur de plasma
   components:
   - type: Sprite
     sprite: Structures/Walls/plasma.rsi
@@ -485,7 +485,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastic
-  name: plastic wall
+  name: mur en plastique
   components:
   - type: Sprite
     sprite: Structures/Walls/plastic.rsi
@@ -529,7 +529,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastitaniumIndestructible
-  name: plastitanium wall
+  name: mur en plastitanium
   suffix: indestructible
   components:
     - type: Sprite
@@ -564,7 +564,7 @@
 - type: entity
   parent: WallPlastitaniumIndestructible
   id: WallPlastitanium
-  name: plastitanium wall
+  name: mur en plastitanium
   suffix: ""
   components:
     - type: Destructible
@@ -589,7 +589,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallPlastitaniumDiagonalIndestructible
-  name: plastitanium wall
+  name: mur en plastitanium
   suffix: diagonal, indestructible
   components:
   - type: Sprite
@@ -608,7 +608,7 @@
 - type: entity
   parent: WallPlastitaniumDiagonalIndestructible
   id: WallPlastitaniumDiagonal
-  name: plastitanium wall
+  name: mur en plastitanium
   suffix: diagonal
   components:
   - type: Sprite
@@ -638,7 +638,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforced
-  name: reinforced wall
+  name: mur renforcé
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -768,7 +768,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallReinforcedDiagonal
-  name: reinforced wall
+  name: mur renforcé
   components:
   - type: Tag
     tags:
@@ -815,7 +815,7 @@
 - type: entity
   parent: BaseWall
   id: WallRiveted
-  name: riveted wall
+  name: mur riveté
   components:
   - type: Sprite
     sprite: Structures/Walls/riveted.rsi
@@ -851,7 +851,7 @@
 - type: entity
   parent: BaseWall
   id: WallSandstone
-  name: sandstone wall
+  name: mur de grès
   components:
   - type: Sprite
     sprite: Structures/Walls/sandstone.rsi
@@ -881,7 +881,7 @@
 - type: entity
   parent: BaseWall
   id: WallSilver
-  name: silver wall
+  name: mur d'argent
   components:
   - type: Sprite
     sprite: Structures/Walls/silver.rsi
@@ -926,7 +926,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallShuttleDiagonal
-  name: shuttle wall
+  name: mur de navette
   components:
   - type: Sprite
     drawdepth: Walls
@@ -1000,7 +1000,7 @@
 - type: entity
   parent: BaseWall
   id: WallShuttle
-  name: shuttle wall
+  name: mur de navette
   components:
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -1078,7 +1078,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolid
-  name: solid wall
+  name: mur solide
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -1132,7 +1132,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallSolidDiagonal
-  name: solid wall
+  name: mur solide
   components:
   - type: Sprite
     drawdepth: Walls
@@ -1209,7 +1209,7 @@
 - type: entity
   parent: WallPlastitanium
   id: WallXenoborg
-  name: xenoborg wall
+  name: mur xenoborg
   components:
   - type: Sprite
     sprite: Structures/Walls/xenoborg.rsi
@@ -1222,7 +1222,7 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallXenoborgDiagonal
-  name: xenoborg wall
+  name: mur xenoborg
   suffix: diagonal
   components:
   - type: Sprite
@@ -1236,7 +1236,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolidChitin
-  name: solid chitin
+  name: chitine solide
   components:
   - type: Tag
     tags:
@@ -1281,7 +1281,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforcedChitin
-  name: reinforced chitin
+  name: chitine renforcée
   components:
   - type: Sprite
     sprite: Structures/Walls/xeno.rsi
@@ -1339,7 +1339,7 @@
 - type: entity
   parent: BaseWall
   id: WallUranium
-  name: uranium wall
+  name: mur d'uranium
   components:
   - type: Sprite
     sprite: Structures/Walls/uranium.rsi
@@ -1392,8 +1392,8 @@
 - type: entity
   parent: BaseWall
   id: WallWood
-  name: wood wall
-  description: The traditional greytide defense.
+  name: mur en bois
+  description: La défense traditionnelle contre la greytide.
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -1433,8 +1433,8 @@
 - type: entity
   parent: BaseWall
   id: WallWeb
-  name: web wall
-  description: Keeps the spiders in and the greytide out.
+  name: mur de toile
+  description: Garde les araignées à l'intérieur et la greytide à l'extérieur.
   components:
   - type: MeleeSound
     soundGroups:
@@ -1485,7 +1485,7 @@
 - type: entity
   parent: BaseWall
   id: WallNecropolis
-  name: stone wall
+  name: mur de pierre
   components:
   - type: Sprite
     sprite: Structures/Walls/necropolis.rsi
@@ -1510,7 +1510,7 @@
 - type: entity
   parent: BaseWall
   id: WallMining
-  name: mining wall
+  name: mur de mine
   components:
   - type: Sprite
     sprite: Structures/Walls/mining.rsi
@@ -1540,7 +1540,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallMiningDiagonal
-  name: mining wall
+  name: mur de mine
   components:
   - type: Sprite
     drawdepth: Walls
@@ -1584,8 +1584,8 @@
 - type: entity
   parent: BaseWall
   id: WallVaultAlien
-  name: alien vault wall
-  description: A mysterious ornate looking wall. There may be ancient dangers inside.
+  name: mur de coffre-fortalien
+  description: Un mur orné d'apparence mystérieuse. D'anciens dangers pourraient s'y trouver.
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1609,7 +1609,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultRock
-  name: rock vault wall
+  name: mur de coffre-fort en roche
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1621,7 +1621,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultSandstone
-  name: sandstone vault wall
+  name: mur de coffre-fort en grès
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1634,7 +1634,7 @@
 
 - type: entity
   id: WallInvisible
-  name: invisible wall
+  name: mur invisible
   components:
   - type: TimedDespawn
     lifetime: 15
@@ -1659,7 +1659,7 @@
 
 - type: entity
   id: WallForce
-  name: force wall
+  name: mur de force
   components:
     - type: TimedDespawn
       lifetime: 30 # Goob edit
@@ -1724,8 +1724,8 @@
 - type: entity
   parent: BaseWall
   id: WallCobblebrick
-  name: cobblestone brick wall
-  description: Stone by stone, perfectly fitted together to form a wall.
+  name: mur en briques de pavés
+  description: Pierre après pierre, parfaitement ajustées pour former un mur.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick.rsi
@@ -1752,7 +1752,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallBasaltCobblebrick
-  name: basalt brick wall
+  name: mur en briques de basalte
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_basalt.rsi
@@ -1765,8 +1765,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSnowCobblebrick
-  name: snow brick wall
-  description: A cold, not-so-impenetrable wall.
+  name: mur en briques de neige
+  description: Un mur froid, pas si impénétrable que ça.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_snow.rsi
@@ -1779,7 +1779,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAsteroidCobblebrick
-  name: asteroid stone brick wall
+  name: mur en briques de pierre d'astéroïde
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_asteroid.rsi
@@ -1792,7 +1792,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSandCobblebrick
-  name: sandstone brick wall
+  name: mur en briques de grès
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_sand.rsi
@@ -1805,7 +1805,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallChromiteCobblebrick
-  name: chromite brick wall
+  name: mur en briques de chromite
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_chromite.rsi
@@ -1818,7 +1818,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAndesiteCobblebrick
-  name: andesite brick wall
+  name: mur en briques d'andésite
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_andesite.rsi
@@ -1831,8 +1831,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallIronsandCobblebrick
-  name: ironsand brick wall
-  description: The pale, rounded shapes that make up this wall look strikingly different from the iron sands they were allegedly made from.
+  name: mur en briques de sable de fer
+  description: Les formes arrondies et pâles qui composent ce mur semblent radicalement différentes des sables de fer desquels elles proviennent prétendument.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_ironsand.rsi
@@ -1867,8 +1867,8 @@
 - type: entity
   id: Cardwall
   parent: BaseStructure
-  name: cardboard wall
-  description: Budget cuts are hitting hard.
+  name: mur en carton
+  description: Les coupes budgétaires frappent dur.
   placement:
     mode: SnapgridCenter
     snap:

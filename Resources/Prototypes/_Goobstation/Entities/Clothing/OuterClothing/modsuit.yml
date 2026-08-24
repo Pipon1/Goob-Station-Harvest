@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateStandard
-  name: standard modsuit chestplate
-  description: A special modular suit spaceproof cover designed for compact folding inside modular suit control.
+  name: plastron de modsuit standard
+  description: Une housse spatiale spéciale de combinaison modulaire conçue pour un pliage compact à l'intérieur du contrôle de la combinaison modulaire.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateSecurity
-  name: soldat modsuit chestplate
-  description: A robust modular suit cover with ceramic inserts for extra protection.
+  name: plastron de modsuit soldat
+  description: Une coque de combinaison modulaire robuste avec inserts céramique pour une protection supplémentaire.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -175,8 +175,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateHeadOfSecurity
-  name: bulwark modsuit chestplate
-  description: A robust modular suit cover with EXTRA ceramic inserts for slightly more protection.
+  name: plastron de modsuit rempart
+  description: Une coque de combinaison modulaire robuste avec inserts céramique SUPPLÉMENTAIRES pour un peu plus de protection.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -260,8 +260,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateParamedic
-  name: sanitater modsuit chestplate
-  description: A white and blue-ish-grey steel plate for keeping out the harsh void of space and the occasional bullet.
+  name: plastron de modsuit sanitäter
+  description: Une plaque d'acier blanche et gris-bleuté pour se protéger du vide spatial impitoyable et des balles occasionnelles.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -339,8 +339,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateEngineer
-  name: sapper modsuit chestplate
-  description: A tough armor plate to defend against harsh atmospheric conditions and shockwaves.
+  name: plastron de modsuit sapeur
+  description: Une plaque d'armure robuste pour se défendre contre les conditions atmosphériques difficiles et les ondes de choc.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -419,8 +419,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateAtmostech
-  name: aeolus modsuit chestplate
-  description: A fire-proof armor plate to defend against harsh atmospheric conditions.
+  name: plastron de modsuit éole
+  description: Une plaque d'armure ignifuge pour se défendre contre les conditions atmosphériques difficiles.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -497,8 +497,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateResearchDirector
-  name: minerva modsuit chestplate
-  description: A bulky bomb and bat proof chunk of steel.
+  name: plastron de modsuit minerve
+  description: Un gros morceau d'acier résistant aux bombes et aux battes.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -578,8 +578,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateCaptain
-  name: magnate modsuit chestplate
-  description: This shit is made out of DIAMONDS, man, this armor was forged with GEMS.
+  name: plastron de modsuit magnat
+  description: Ce bordel est fait de DIAMANTS, mec, cette armure a été forgée avec des GEMMES.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

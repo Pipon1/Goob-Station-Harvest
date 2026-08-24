@@ -1,6 +1,6 @@
 - type: entity
   name: bloodtrak
-  description: A handheld tracking device, capable of tracking someone from their DNA. This particular model only works on puddles, and only functions for a short duration.
+  description: Un dispositif de suivi portable, capable de suivre quelqu'un à partir de son ADN. Ce modèle particulier ne fonctionne que sur les flaques, et seulement pour une courte durée.
   parent: [BaseItem, BaseSecurityContraband]
   id: BloodTrak
   components:

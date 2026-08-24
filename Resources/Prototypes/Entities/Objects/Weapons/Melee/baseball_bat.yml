@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: baseball bat
+  name: batte de baseball
   parent: [BaseItem, BaseMinorContraband]
   id: BaseBallBat
-  description: A robust baseball bat.
+  description: Une batte de baseball robuste.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
@@ -60,10 +60,10 @@
   - type: UndetectableContraband #Goobstation-Contraband detector
 
 - type: entity
-  name: incomplete baseball bat
+  name: batte de baseball inachevée
   parent: BaseItem
   id: IncompleteBaseBallBat
-  description: A few planks of wood stuck together.
+  description: Quelques planches de bois assemblées.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/incomplete_bat.rsi
@@ -81,10 +81,10 @@
     node: incompleteBat
 
 - type: entity
-  name: knockback stick
+  name: bâton de knockback
   parent: BaseBallBat
   id: WeaponMeleeKnockbackStick
-  description: And then he spleefed all over.
+  description: Et puis il a spleefé partout.
   categories: [ DoNotMap ]
   components:
   - type: MeleeThrowOnHit

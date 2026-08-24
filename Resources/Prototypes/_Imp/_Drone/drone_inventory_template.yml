@@ -8,7 +8,7 @@
     slotFlags: HEAD
     uiWindowPos: 1,0
     strippingWindowPos: 0,0
-    displayName: Head
+    displayName: Tête
     offset: 0, -0.25
   - name: pocket1
     slotTexture: pocket
@@ -17,7 +17,7 @@
     slotGroup: MainHotbar
     uiWindowPos: 0,3
     strippingWindowPos: 0,4
-    displayName: Pocket 1
+    displayName: Poche 1
   - name: pocket2
     slotTexture: pocket
     fullTextureName: template_small
@@ -25,7 +25,7 @@
     slotGroup: MainHotbar
     uiWindowPos: 2,3
     strippingWindowPos: 1,4
-    displayName: Pocket 2
+    displayName: Poche 2
   - name: back
     slotTexture: back
     fullTextureName: template_small
@@ -34,4 +34,4 @@
     stripTime: 6
     uiWindowPos: 3,0
     strippingWindowPos: 0,5
-    displayName: Back
+    displayName: Dos

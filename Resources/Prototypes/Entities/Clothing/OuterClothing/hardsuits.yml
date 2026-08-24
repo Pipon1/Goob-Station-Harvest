@@ -1,148 +1,4 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
-
-# SPDX-FileCopyrightText: 2020 FrostMando <68990565+FrostMando@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2020 Swept <sweptwastaken@protonmail.com>
-# SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto <zddm@outlook.es>
-# SPDX-FileCopyrightText: 2020 Ygg01 <daniel.fath7@gmail.com>
-# SPDX-FileCopyrightText: 2021 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 Elijahrane <60792108+Elijahrane@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 Mith-randalf <84274729+Mith-randalf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 Paul <ritter.paul1+git@googlemail.com>
-# SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
-# SPDX-FileCopyrightText: 2021 xRiriq <94037592+xRiriq@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2021 xRiriq <xRiriq.git@gmail.com>
-# SPDX-FileCopyrightText: 2022 CommieFlowers <rasmus.cedergren@hotmail.com>
-# SPDX-FileCopyrightText: 2022 Fishfish458 <47410468+Fishfish458@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 HoidC <99100948+HoidC@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Moony <moonheart08@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Pancake <Pangogie@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Peptide90 <78795277+Peptide90@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Rane <60792108+Elijahrane@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Vordenburg <114301317+Vordenburg@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 fishfish458 <fishfish458>
-# SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2022 rolfero <45628623+rolfero@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Alekshhh <44923899+Alekshhh@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Colin-Tel <113523727+Colin-Tel@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 CrigCrag <137215465+CrigCrag@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 ElectroJr <leonsfriedrich@gmail.com>
-# SPDX-FileCopyrightText: 2023 EnDecc <33369477+Endecc@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Genkail <50331122+Genkail@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Maxtone <124747282+MagnusCrowe@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Puro <103608145+PuroSlavKing@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 StanTheCarpenter <66203777+StanTheCarpenter@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 brainfood1183 <113240905+brainfood1183@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 crazybrain23 <44417085+crazybrain23@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 lapatison <100279397+lapatison@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 AJCM <AJCM@tutanota.com>
-# SPDX-FileCopyrightText: 2024 Alex Evgrashin <aevgrashin@yandex.ru>
-# SPDX-FileCopyrightText: 2024 Alex Pavlenko <diraven@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 AlexUm & XGabriel08X <159550239+AlexUmAndXGabriel08X@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 AlexUm <alexum444@gmail.com>
-# SPDX-FileCopyrightText: 2024 Alice "Arimah" Heurlin <30327355+arimah@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Archylle <81660513+Archylle@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 ArkiveDev <95712736+ArkiveDev@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Boaz1111 <149967078+Boaz1111@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Brandon Hu <103440971+Brandon-Huu@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Cojoke <83733158+Cojoke-dot@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Doomsdrayk <robotdoughnut@comcast.net>
-# SPDX-FileCopyrightText: 2024 DrEnzyme <DrEnzyme@gmail.com>
-# SPDX-FileCopyrightText: 2024 DrSmugleaf <10968691+DrSmugleaf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 ERROR404 <100093430+ERORR404V1@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Elysium206 <151651971+Elysium206@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Emisse <99158783+Emisse@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 EmoGarbage404 <retron404@gmail.com>
-# SPDX-FileCopyrightText: 2024 Eoin Mcloughlin <helloworld@eoinrul.es>
-# SPDX-FileCopyrightText: 2024 Errant <35878406+Errant-4@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Flareguy <78941145+Flareguy@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Floofi <126319569+Shadowtheprotogen546@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ghagliiarghii <68826635+Ghagliiarghii@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 HS <81934438+HolySSSS@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Hmeister-real <118129069+Hmeister-real@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 K-Dynamic <20566341+K-Dynamic@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Kara <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2024 Kevin Zheng <kevinz5000@gmail.com>
-# SPDX-FileCopyrightText: 2024 Ko4ergaPunk <62609550+Ko4ergaPunk@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MetalSage <74924875+MetalSage@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MetalSage <metalsage.official@gmail.com>
-# SPDX-FileCopyrightText: 2024 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Mr. 27 <45323883+Dutch-VanDerLinde@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MureixloI <132683811+MureixloI@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 PJBot <pieterjan.briers+bot@gmail.com>
-# SPDX-FileCopyrightText: 2024 Partmedia <kevinz5000@gmail.com>
-# SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 Plykiya <58439124+Plykiya@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 PoTeletubby <ajcraigaz@gmail.com>
-# SPDX-FileCopyrightText: 2024 Redfire1331 <125223432+Redfire1331@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Rouge2t7 <81053047+Sarahon@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-# SPDX-FileCopyrightText: 2024 Tonk-GCR <ryantrujillo82@gmail.com>
-# SPDX-FileCopyrightText: 2024 Truoizys <153248924+Truoizys@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 TsjipTsjip <19798667+TsjipTsjip@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 VMSolidus <evilexecutive@gmail.com>
-# SPDX-FileCopyrightText: 2024 Vasilis <vasilis@pikachu.systems>
-# SPDX-FileCopyrightText: 2024 WarMechanic <69510347+WarMechanic@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Winkarst <74284083+Winkarst-cpu@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 beck-thompson <107373427+beck-thompson@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 deathride58 <deathride58@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 deltanedas <@deltanedas:kde.org>
-# SPDX-FileCopyrightText: 2024 eoineoineoin <github@eoinrul.es>
-# SPDX-FileCopyrightText: 2024 github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 inquisitor-star <81660513+inquisitor-star@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 inquisitor-star <thecatankha@gmail.com>
-# SPDX-FileCopyrightText: 2024 lzk <124214523+lzk228@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 marbow <152051971+marboww@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <comedian_vs_clown@hotmail.com>
-# SPDX-FileCopyrightText: 2024 mhamster <81412348+mhamsterr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 neutrino <67447925+neutrino-laser@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 osjarw <62134478+osjarw@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 plykiya <plykiya@protonmail.com>
-# SPDX-FileCopyrightText: 2024 redfire1331 <Redfire1331@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 username <113782077+whateverusername0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 whateverusername0 <whateveremail>
-# SPDX-FileCopyrightText: 2024 Арт <123451459+JustArt1m@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aidenkrz <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 August Sun <45527070+august-sun@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aviu00 <aviu00@protonmail.com>
-# SPDX-FileCopyrightText: 2025 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 BombasterDS <deniskaporoshok@gmail.com>
-# SPDX-FileCopyrightText: 2025 BombasterDS2 <shvalovdenis.workmail@gmail.com>
-# SPDX-FileCopyrightText: 2025 BramvanZijp <56019239+BramvanZijp@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GMWQ <garethquaile@gmail.com>
-# SPDX-FileCopyrightText: 2025 Gareth Quaile <garethquaile@gmail.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-# SPDX-FileCopyrightText: 2025 Ilya246 <ilyukarno@gmail.com>
-# SPDX-FileCopyrightText: 2025 Killerqu00 <47712032+Killerqu00@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Killerqu00 <killerqueen1777@gmail.com>
-# SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
-# SPDX-FileCopyrightText: 2025 Michael <107807667+doc-michael@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Theodore Lukin <66275205+pheenty@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 august-sun <45527070+august.sun@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 deltanedas <39013340+deltanedas@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
 #When adding new hardsuits, please try to keep the organization consistent with hardsuit-helmets.yml (if possible.)
 
 #CREW HARDSUITS
@@ -150,8 +6,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseEngineeringContraband]
   id: ClothingOuterHardsuitAtmos
-  name: atmospherics hardsuit # Goob edit
-  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+  name: combinaison spatiale atmosphérique # Goob edit
+  description: Une combinaison spéciale qui protège contre les environnements dangereux à basse pression. Dispose d'une protection thermique.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
@@ -192,8 +48,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseEngineeringContraband]
   id: ClothingOuterHardsuitEngineering
-  name: engineering hardsuit
-  description: A special hardsuit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: combinaison spatiale d'ingénieur
+  description: Une combinaison spatiale spéciale qui protège contre les environnements dangereux à basse pression. Dispose d'un blindage contre les radiations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
@@ -231,8 +87,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSpatio
-  name: spationaut hardsuit # Goob edit
-  description: A lightweight hardsuit designed for industrial EVA in zero gravity. # Goob edit
+  name: combinaison spatiale de spationaute # Goob edit
+  description: Une combinaison spatiale légère conçue pour les sorties extravéhiculaires industrielles en apesanteur. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
@@ -272,8 +128,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSalvage
-  name: mining hardsuit # Goob edit
-  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+  name: combinaison spatiale minière # Goob edit
+  description: Une combinaison spéciale qui protège contre les environnements dangereux à basse pression. Dispose d'un blindage renforcé pour les rencontres avec la faune hostile.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
@@ -315,8 +171,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitGoliath
-  name: goliath hardsuit # Goob edit
-  description: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide. # Goob edit
+  name: combinaison spatiale goliath # Goob edit
+  description: Une combinaison spatiale légère, ornée d'un assemblage de plaques épaisses en chitine de goliath. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
@@ -361,8 +217,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitMaxim
-  name: salvager maxim hardsuit # Goob edit
-  description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
+  name: combinaison spatiale maxime de récupérateur # Goob edit
+  description: Le feu. La chaleur. Ces éléments forgent de grandes armes, mais ils forgent aussi de grands récupérateurs.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
@@ -406,8 +262,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
   id: ClothingOuterHardsuitSecurity
-  name: security hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: combinaison spatiale de sécurité
+  description: Une combinaison spéciale qui protège contre les environnements dangereux à basse pression. Elle possède une couche d'armure supplémentaire.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security.rsi
@@ -453,8 +309,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
   id: ClothingOuterHardsuitBrigmedic
-  name: brigmedic hardsuit # Goob edit
-  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit. # Goob edit
+  name: combinaison spatiale de brigmedic # Goob edit
+  description: Combinaison spatiale spéciale de l'ange gardien du brig. Il s'agit de la version médicale de la combinaison spatiale blindée de sécurité. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/brigmedic.rsi
@@ -491,8 +347,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseWardenContraband]
   id: ClothingOuterHardsuitWarden
-  name: warden's hardsuit # Goob edit
-  description: A specialized riot suit geared to combat low pressure environments.
+  name: combinaison spatiale du gardien # Goob edit
+  description: Une combinaison anti-émeute spécialisée conçue pour combattre les environnements à basse pression.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
@@ -534,8 +390,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitCap
-  name: captain's parade hardsuit # Goob edit
-  description: A formal and slightly armored hardsuit, made for the station's captain. # Goob edit
+  name: combinaison spatiale de parade du capitaine # Goob edit
+  description: Une combinaison spatiale formelle et légèrement blindée, faite pour le capitaine de la station. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
@@ -582,8 +438,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitEngineeringWhite
-  name: chief engineer's hardsuit # Goob edit
-  description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station. # Goob edit
+  name: combinaison spatiale du chef ingénieur # Goob edit
+  description: Une combinaison spatiale spéciale qui protège contre les environnements dangereux et à basse pression, faite pour le chef ingénieur de la station. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
@@ -632,8 +488,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitMedical
-  name: chief medical officer's hardsuit # Goob edit
-  description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement. # Goob edit
+  name: combinaison spatiale du directeur médical # Goob edit
+  description: Une combinaison spéciale qui protège contre les environnements dangereux et à basse pression. Construite avec des matériaux légers pour une meilleure mobilité. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
@@ -669,8 +525,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseGrandTheftContraband]
   id: ClothingOuterHardsuitRd
-  name: experimental research hardsuit # Goob edit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: combinaison spatiale de recherche expérimentale # Goob edit
+  description: Une combinaison spéciale qui protège contre les environnements dangereux et à basse pression. Dispose d'une couche de blindage supplémentaire.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
@@ -722,8 +578,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitSecurityRed
-  name: head of security's hardsuit
-  description: Lighter and more protective than the standard security hardsuit, but not by much.
+  name: combinaison spatiale du chef de la sécurité
+  description: Plus légère et plus protectrice que la combinaison spatiale de sécurité standard, mais pas beaucoup.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
@@ -766,8 +622,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit # Goob edit
-  description: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move. # Goob edit
+  name: combinaison spatiale minière de luxe # Goob edit
+  description: Une combinaison spatiale minière remise à neuf, façonnée selon les couleurs du maître de cargo. La doublure en graphène offre moins de protection, mais est beaucoup plus facile à bouger. # Goob edit
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -805,8 +661,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitSyndie
-  name: blood-red hardsuit # Goob edit
-  description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  name: combinaison spatiale rouge sang # Goob edit
+  description: Une combinaison spatiale lourdement blindée conçue pour les opérations spéciales. Propriété des Maraudeurs Gorlex.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -860,8 +716,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieMedic
-  name: blood-red medic hardsuit # Goob edit
-  description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+  name: combinaison spatiale médicale rouge sang # Goob edit
+  description: Une combinaison spatiale avancée lourdement blindée et agile conçue spécifiquement pour les opérations de médecin de terrain.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
@@ -884,8 +740,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieElite
-  name: syndicate elite hardsuit # Goob edit
-  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders. # Goob edit
+  name: combinaison spatiale élite Syndicat # Goob edit
+  description: Une version élite de la combinaison spatiale rouge sang, avec une mobilité améliorée et une ignifugation. Propriété des Maraudeurs Gorlex. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -936,8 +792,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieCommander
-  name: syndicate commander hardsuit # Goob edit
-  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights. # Goob edit
+  name: combinaison spatiale de commandant Syndicat # Goob edit
+  description: Une version renforcée de la combinaison spatiale rouge sang, conçue spécialement pour le commandant d'une équipe d'opérateurs Syndicat. Dispose d'une armure considérablement améliorée pour les combats meurtriers en première ligne. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
@@ -985,8 +841,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitJuggernaut
-  name: cybersun juggernaut suit
-  description: A suit made by the cutting edge R&D department at Cybersun to be hyper resilient.
+  name: combinaison spatiale juggernaut Cybersun
+  description: Une combinaison fabriquée par le département R&D de pointe de Cybersun pour être ultra-résiliente.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
@@ -1035,8 +891,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingOuterWizardBaseArmor, BaseMagicalContraband] # Goob edit
   id: ClothingOuterHardsuitWizard
-  name: wizard hardsuit # Goob edit
-  description: A bizarre gem-encrusted suit that radiates magical energies.
+  name: combinaison spatiale magicien # Goob edit
+  description: Une combinaison bizarre incrustée de pierres précieuses qui rayonne des énergies magiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
@@ -1083,8 +939,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLing
-  name: organic space suit
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: combinaison spatiale organique
+  description: Une biomasse spatialisée de tissu résistant à la pression et à la température.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
@@ -1119,9 +975,9 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseMajorContraband ]
   id:  ClothingOuterHardsuitPirateEVA
-  name: deep space EVA suit
+  name: combinaison spatiale EVA espace profond
   suffix: Pirate
-  description: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
+  description: Une combinaison spatiale lourde qui offre une protection de base contre les réalités froides et dures de l'espace profond.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
@@ -1158,8 +1014,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseMajorContraband ]
   id: ClothingOuterHardsuitPirateCap
-  name: pirate captain's hardsuit # Goob edit
-  description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags. # Goob edit
+  name: combinaison spatiale du capitaine pirate # Goob edit
+  description: Une ancienne combinaison spatiale blindée, parfaite pour se défendre contre le scorbut spatial et les vauriens armés de boîtes à outils. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
@@ -1200,8 +1056,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
   id: ClothingOuterHardsuitERTLeader
-  name: ERT leader's hardsuit # Goob edit
-  description: A protective hardsuit worn by the leader of an emergency response team. # Goob edit
+  name: combinaison spatiale du chef d'équipe ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par le leader d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
@@ -1215,8 +1071,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
   id: ClothingOuterHardsuitERTChaplain
-  name: ERT chaplain's hardsuit # Goob edit
-  description: A protective hardsuit worn by the chaplains of an Emergency Response Team. # Goob edit
+  name: combinaison spatiale du chapelain ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par les chapelains d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
@@ -1230,8 +1086,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieElite ]
   id: ClothingOuterHardsuitERTEngineer
-  name: ERT engineer's hardsuit # Goob edit
-  description: A protective hardsuit worn by the engineers of an emergency response team. # Goob edit
+  name: combinaison spatiale de l'ingénieur ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par les ingénieurs d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
@@ -1247,8 +1103,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieMedic ]
   id: ClothingOuterHardsuitERTMedical
-  name: ERT medic's hardsuit # Goob edit
-  description: A protective hardsuit worn by the medics of an emergency response team. # Goob edit
+  name: combinaison spatiale du médecin ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par les médecins d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
@@ -1262,8 +1118,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
   id: ClothingOuterHardsuitERTSecurity
-  name: ERT security's hardsuit # Goob edit
-  description: A protective hardsuit worn by the security officers of an emergency response team. # Goob edit
+  name: combinaison spatiale de sécurité ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par les agents de sécurité d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
@@ -1281,8 +1137,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieElite ]
   id: ClothingOuterHardsuitERTJanitor
-  name: ERT janitor's hardsuit # Goob edit
-  description: A protective hardsuit worn by the janitors of an emergency response team. # Goob edit
+  name: combinaison spatiale du concierge ERT # Goob edit
+  description: Une combinaison spatiale protectrice portée par les concierges d'une équipe d'intervention d'urgence. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
@@ -1296,8 +1152,8 @@
 - type: entity # Goobstation - Start
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitDeathsquad # Todo - This should be a modsuit when those are done.
-  name: PI-52 "Lucifer" hardsuit # Goob edit
-  description: A famous hardsuit used by Central Command's death-squadrons, often shown in movies by Nanotrasen intended to increase recruitment. # Goob edit
+  name: combinaison spatiale PI-52 « Lucifer » # Goob edit
+  description: Une célèbre combinaison spatiale utilisée par les Escadrons de la mort du Commandement central, souvent montrée dans les films par Nanotrasen pour augmenter le recrutement. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -1354,8 +1210,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitCBURN
-  name: CBURN exosuit
-  description: A lightweight yet strong exosuit used for special cleanup operations.
+  name: combinaison exo CBURN
+  description: Une combinaison exo légère mais robuste utilisée pour les opérations de nettoyage spéciales.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
@@ -1400,8 +1256,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitClown
-  name: clown hardsuit # Goob edit
-  description: A custom-made clown hardsuit. # Goob edit
+  name: combinaison spatiale clown # Goob edit
+  description: Une combinaison spatiale clown faite sur mesure. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
@@ -1437,8 +1293,8 @@
 - type: entity
   parent: ClothingOuterHardsuitClown
   id: ClothingOuterHardsuitMime
-  name: mime hardsuit # Goob edit
-  description: A custom-made mime hardsuit. # Goob edit.
+  name: combinaison spatiale mime # Goob edit
+  description: Une combinaison spatiale mime faite sur mesure. # Goob edit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
@@ -1455,8 +1311,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSanta
-  name: Santa's hardsuit # Goob edit
-  description: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes. # Goob edit
+  name: combinaison spatiale du Père Noël # Goob edit
+  description: Une combinaison spatiale festive qui protège le joyeux donateur de cadeaux lors de trajets en traîneau dans l'espace. Offre une certaine résistance aux collisions d'astéroïdes. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi

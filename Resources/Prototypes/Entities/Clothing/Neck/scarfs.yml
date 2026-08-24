@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedRed
-  name: striped red scarf
-  description: A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe rouge rayée
+  description: Une élégante écharpe rouge rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/red.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBlue
-  name: striped blue scarf
-  description: A stylish striped blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe bleue rayée
+  description: Une élégante écharpe bleue rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/blue.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedGreen
-  name: striped green scarf
-  description: A stylish striped green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe verte rayée
+  description: Une élégante écharpe verte rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/green.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBlack
-  name: striped black scarf
-  description: A stylish striped black scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe noire rayée
+  description: Une élégante écharpe noire rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/black.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBrown
-  name: striped brown scarf
-  description: A stylish striped brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe marron rayée
+  description: Une élégante écharpe marron rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/brown.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLightBlue
-  name: striped light blue scarf
-  description: A stylish striped light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe bleu clair rayée
+  description: Une élégante écharpe bleu clair rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/lightblue.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedOrange
-  name: striped orange scarf
-  description: A stylish striped orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe orange rayée
+  description: Une élégante écharpe orange rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/orange.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedPurple
-  name: striped purple scarf
-  description: A stylish striped purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe violette rayée
+  description: Une élégante écharpe violette rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/purple.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseSyndicateContraband ]
   id: ClothingNeckScarfStripedSyndieGreen
-  name: striped syndicate green scarf
-  description: A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+  name: écharpe verte rayée du Syndicat
+  description: Une élégante écharpe verte rayée du Syndicat. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ont envie de voler quelque chose.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/syndiegreen.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseSyndicateContraband ]
   id: ClothingNeckScarfStripedSyndieRed
-  name: striped syndicate red scarf
-  description: A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+  name: écharpe rouge rayée du Syndicat
+  description: Une élégante écharpe rouge rayée du Syndicat. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ont envie de voler quelque chose.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/syndiered.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseCentcommContraband ]
   id: ClothingNeckScarfStripedCentcom
-  name: striped CentComm scarf
-  description: A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
+  name: écharpe rayée de CentComm
+  description: Une élégante écharpe rayée aux couleurs de CentComm. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui doivent remplir des documents dans le froid.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/centcom.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedZebra
-  name: zebra scarf
-  description: A striped scarf, a mandatory accessory for artists.
+  name: écharpe zébrée
+  description: Une écharpe rayée, un accessoire obligatoire pour les artistes.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/zebra.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAce
-  name: striped asexual scarf
-  description: A stylish striped asexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe asexuelle rayée
+  description: Une élégante écharpe asexuelle rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/ace.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAro
-  name: striped aromantic scarf
-  description: A stylish striped aromantic scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe aromantique rayée
+  description: Une élégante écharpe aromantique rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/aro.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAroace
-  name: striped aroace scarf
-  description: A stylish striped aroace scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe aroace rayée
+  description: Une élégante écharpe aroace rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/aroace.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBiSexual
-  name: striped bisexual scarf
-  description: A stylish striped bisexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe bisexuel rayée
+  description: Une élégante écharpe bisexuel rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/bi.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedGay
-  name: striped gay scarf
-  description: A stylish striped gay scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe gay rayée
+  description: Une élégante écharpe gay rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/gay.rsi
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedInter
-  name: striped intersex scarf
-  description: A stylish striped intersex scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe intersexe rayée
+  description: Une élégante écharpe intersexe rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/inter.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLesbian
-  name: striped lesbian scarf
-  description: A stylish striped lesbian scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe lesbienne rayée
+  description: Une élégante écharpe lesbienne rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/lesbian.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedPan
-  name: striped pan scarf
-  description: A stylish striped pan scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe pan rayée
+  description: Une élégante écharpe pan rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/pan.rsi
@@ -232,8 +232,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedNonBinary
-  name: striped non-binary scarf
-  description: A stylish striped non-binary scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe non-binaire rayée
+  description: Une élégante écharpe non-binaire rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/non.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedRainbow
-  name: rainbow scarf
-  description: A stylish rainbow scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe arc-en-ciel.
+  description: Une élégante écharpe arc-en-ciel. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/rainbow.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedTrans
-  name: striped trans scarf
-  description: A stylish striped trans scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: écharpe trans rayée
+  description: Une élégante écharpe trans rayée. L'accessoire d'hiver parfait pour ceux qui ont un sens aigu de la mode, et ceux qui ne supportent tout simplement pas une brise froide sur leur cou.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/trans.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLesbianLong
-  name: long bacon
-  description: Long bacon! Perfect for sharing with your girlfriend!
+  name: bacon long
+  description: Du bacon long ! Parfait à partager avec votre petite amie !
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/lesbian-long.rsi

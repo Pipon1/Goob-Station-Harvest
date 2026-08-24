@@ -54,8 +54,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieThrongler
-  name: throngler plushie
-  description: A stuffed toy to remind cargo techs of what they can no longer have.
+  name: peluche throngler
+  description: Une peluche pour rappeler aux techniciens en cargaison ce qu'ils ne peuvent plus avoir.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/ThronglerPlushie.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGhost
-  name: ghost soft toy
-  description: The start of your personal GHOST GANG!
+  name: peluche fantôme
+  description: Le début de ton propre GANG DE FANTÔMES !
   components:
   - type: Sprite
     sprite: Mobs/Ghosts/ghost_human.rsi
@@ -118,8 +118,8 @@
   parent: PlushieGhost
   id: PlushieGhostRevenant
   categories: [ DoNotMap ]
-  name: revenant soft toy
-  description: So soft it almost makes you want to take a nap...
+  name: peluche revenant
+  description: Tellement doux que ça donne presque envie de faire une sieste...
   components:
   - type: Sprite
     sprite: Mobs/Ghosts/revenant.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBee
-  name: bee plushie
-  description: A cute toy that resembles an even cuter programmer. You'd have to be a monster to grind this up.
+  name: peluche abeille
+  description: Un jouet mignon qui ressemble à un programmeur encore plus mignon. Tu devrais être un monstre pour broyer ça.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/bee.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieHampter
-  name: hampter plushie
-  description: A cute stuffed toy that resembles a hamster. Its face looks squished.
+  name: peluche hamster
+  description: Un jouet en peluche mignon qui ressemble à un hamster. Son visage semble écrasé.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/hampter.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: PlushieBee
   id: PlushieRGBee
-  name: RGBee plushie
-  description: A cute toy that resembles a bee plushie while you're on LSD.
+  name: peluche RGBee
+  description: Un jouet mignon ressemblant à une peluche abeille lorsque tu es sous LSD.
   components:
   - type: PointLight
     radius: 1.5
@@ -236,8 +236,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieNuke
-  name: nukie plushie
-  description: A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious.
+  name: peluche nukie
+  description: Un jouet en peluche qui ressemble à un opératif nucléaire du Syndicat. L'étiquette prétend que les opératifs sont purement fictifs.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/nukie.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRouny
-  name: rouny plushie
+  name: peluche rouny
   description: Rouny.
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLamp
-  name: lamp plushie
-  description: A light emitting friend!
+  name: peluche lampe
+  description: Un ami qui émet de la lumière !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lamp.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieArachind
-  name: arachnid plushie
-  description: An adorable stuffed toy that resembles an arachnid. It feels silky..
+  name: peluche arachnide
+  description: Un adorable jouet en peluche qui ressemble à un arachnide. Elle est soyeuse..
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/arachnid.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLizard #Weh!
-  name: lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  name: peluche lézard
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard. Créée par CentComm comme une initiative symbolique pour lutter contre le spécisme dans les environnements de travail. « Accueillez vos nouveaux collègues comme vous le feriez avec cette peluche, les bras ouverts ! »
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lizard.rsi
@@ -390,8 +390,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieExperiment #Arf!
-  name: experiment plushie
-  description: A plushie of a canid of sorts. It yearns to be detonated on a landmine.
+  name: peluche expérience
+  description: Une peluche d'un canidé de quelque sorte. Elle rêve d'être déclenchée sur une mine terrestre.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/expi.rsi
@@ -442,8 +442,8 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieRainbowLizard #Weh but gay
-  name: rainbow lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...
+  name: peluche lézard arc-en-ciel
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard de toutes les couleurs. Tu pourrais juste trébucher en la regardant...
   components:
   - type: Sprite
     state: rainbowlizardplush
@@ -478,8 +478,8 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieSpaceLizard #ᵂᵉʰ!
-  name: space lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  name: peluche lézard de l'espace
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard dans une combinaison EVA. Créée par CentComm comme une initiative symbolique pour lutter contre le spécisme dans les environnements spatiaux. « Accueillez vos nouveaux collègues comme vous le feriez avec cette peluche, les bras ouverts ! »
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/lizard.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieLizardInversed #Hew!
-  name: drazil plushie
-  description: An adorable stuffed toy that resembles a lizardperson from an inversed dimension. Hew!
+  name: peluche drazél
+  description: Un adorable jouet en peluche qui ressemble à un homme-lézard venant d'une dimension inversée. Hew!
   components:
   - type: Sprite
     state: plushie_lizard_inversed
@@ -572,8 +572,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDiona
-  name: diona plushie
-  description: An adorable stuffed toy that resembles a diona. Love water and cuddles. Do not wet!
+  name: peluche diona
+  description: Un adorable jouet en peluche qui ressemble à une diona. Elle aime l'eau et les câlins. Ne pas mouiller !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/diona.rsi
@@ -656,8 +656,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSharkBlue
-  name: blue shark soft toy
-  description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
+  name: jouet requin bleu
+  description: Gros et sûr à avoir à vos côtés si vous voulez découvrir le monde sous la surface de l'océan.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/shark.rsi
@@ -694,7 +694,7 @@
 - type: entity
   parent: PlushieSharkBlue
   id: PlushieSharkPink
-  name: pink shark soft toy
+  name: jouet requin rose
   description: Hehe shonk :)
   components:
   - type: Sprite
@@ -714,8 +714,8 @@
 - type: entity
   parent: PlushieSharkBlue
   id: PlushieSharkGrey
-  name: grey shark soft toy
-  description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
+  name: jouet requin gris
+  description: Un requin tranquille et réservé. Il aime suivre la grey tide.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/shark.rsi
@@ -734,8 +734,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRatvar
-  name: ratvar plushie
-  description: A large stuffed doll of the elder god Ratvar.
+  name: peluche ratvar
+  description: Une grande poupée en peluche du vieux dieu Ratvar.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/ratvar.rsi
@@ -756,8 +756,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieNar
-  name: nar'sie plushie
-  description: A large stuffed doll of the elder goddess Nar'Sie.
+  name: peluche nar'sie
+  description: Une grande poupée en peluche de l'ancienne déesse Nar'Sie.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/narsie.rsi
@@ -778,8 +778,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCarp
-  name: carp plushie
-  description: An adorable stuffed toy that resembles the monstrous space carp.
+  name: peluche carpe
+  description: Un adorable jouet en peluche qui ressemble à la carpe de l'espace monstrueuse.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/carp.rsi
@@ -825,8 +825,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieMagicarp
-  name: magicarp plushie
-  description: An adorable stuffed toy resembling the exceedingly rare magicarp.
+  name: peluche magicarpe
+  description: Un adorable jouet en peluche ressemblant à l'extrêmement rare magicarpe.
   components:
   - type: Sprite
     state: magicplush
@@ -848,8 +848,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieRainbowCarp
-  name: rainbow carp plushie
-  description: An adorable stuffed toy resembling the legendary rainbow carp.
+  name: peluche carpe arc-en-ciel
+  description: Un adorable jouet en peluche ressemblant à la légendaire carpe arc-en-ciel.
   components:
   - type: Sprite
     state: rainbowcarpplush
@@ -870,8 +870,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieHolocarp
-  name: holocarp plushie
-  description: A holographic stuffed toy resembling science's nemesis - the holocarp.
+  name: peluche holocarpe
+  description: Un jouet en peluche holographique ressemblant à la némésis de la science - l'holocarpe.
   components:
   - type: Sprite
     state: holoplush
@@ -893,8 +893,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSlime
-  name: slime plushie
-  description: An adorable stuffed toy that resembles a slime. It's basically a hacky sack.
+  name: peluche slime
+  description: Un adorable jouet en peluche qui ressemble à un slime.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/slime.rsi
@@ -926,8 +926,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSnake
-  name: snake plushie
-  description: An adorable stuffed toy that resembles a snake.
+  name: peluche serpent
+  description: Un adorable jouet en peluche qui ressemble à un serpent.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/snake.rsi
@@ -964,8 +964,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyMouse
-  name: mouse toy
-  description: A colorful toy mouse!
+  name: souris en peluche
+  description: Une souris jouet colorée !
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_mouse.rsi
@@ -998,8 +998,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieVox
-  name: vox plushie
-  description: SKREEEEEEEEEEEE!
+  name: peluche vox
+  description: SKREEEEEEEEEEEE !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/vox.rsi
@@ -1037,8 +1037,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAtmosian
-  name: atmosian plushie
-  description: An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
+  name: peluche atmosien
+  description: Un adorable jouet en peluche qui ressemble à un atmosien courageux. Malheureusement, il ne réparera pas ces dépressurisations pour vous.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/atmosian.rsi
@@ -1059,8 +1059,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieXeno
-  name: xeno plushie
-  description: An adorable stuffed toy that resembles a scary xenomorf. You're lucky it's just a toy.
+  name: peluche xéno
+  description: Un adorable jouet en peluche qui ressemble à un xénomorphe effrayant. Tu as de la chance que ce ne soit qu'un jouet.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/xeno.rsi
@@ -1100,8 +1100,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePenguin
-  name: penguin plushie
-  description: I use arch btw!
+  name: peluche pingouin
+  description: J'utilise arch btw !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/penguin.rsi
@@ -1118,8 +1118,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieHuman
-  name: human plushie
-  description: This is a felt plush of a human. All craftsmanship is of the lowest quality. The human is naked. The human is crying. The human is screaming.
+  name: peluche humaine
+  description: Ceci est une peluche en feutre représentant un humain. Toute la confection est de la pire qualité. L'humain est nu. L'humain pleure. L'humain crie.
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/human.rsi
@@ -1165,8 +1165,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieMoth
-  name: moth plushie
-  description: Cute and fluffy moth plushie. Enjoy, bz!
+  name: peluche mite
+  description: Peluche mite mignonne et duveteuse. Enjoy, bz !
   components:
   - type: Sprite
     sprite: Objects/Fun/Plushies/moth.rsi
@@ -1198,8 +1198,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyIan
-  name: ian toy
-  description: Unable to eat, but just as fluffy as the real guy!
+  name: ian jouet
+  description: Incapable de manger, mais tout aussi duveteux que le vrai gars !
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_ian.rsi
@@ -1236,8 +1236,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyAmongPequeno
-  name: among pequeño
-  description: Sus!
+  name: petit among
+  description: Sus !
   components:
   - type: Sprite
     sprite: Objects/Fun/pequeno.rsi

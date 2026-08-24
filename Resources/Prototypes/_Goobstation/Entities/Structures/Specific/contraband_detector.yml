@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: contraband detector
-  description: Walk in with confidence, walk out with security chasing you.
+  name: détecteur de contrebande
+  description: Entrez avec confiance, sortez avec la sécurité à vos trousses.
   parent: BaseMachinePowered
   id: ContrabandDetector
   placement:
@@ -92,7 +92,7 @@
 
 - type: entity
   id: ContrabandDetectorFrame
-  name: contraband detector frame
+  name: cadre détecteur de contrebande
   placement:
     mode: SnapgridCenter
   components:
@@ -129,7 +129,7 @@
   id: ContrabandDetectorCircuitboard
   parent: BaseElectronics
   name: contraband detector electronics
-  description: An electronics board used in contraband detector.
+  description: Un circuit électronique utilisé dans le détecteur de contrebande.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

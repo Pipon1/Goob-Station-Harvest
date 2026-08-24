@@ -2,7 +2,7 @@
 - type: entity
   id: ActionBaseHierophant
   parent: BaseAction
-  name: hierophant action
+  name: action hiérophante
   abstract: true
   components:
   - type: Action
@@ -20,8 +20,8 @@
 - type: entity
   id: ActionHierophantBox
   parent: ActionBaseHierophant
-  name: Expanding Box
-  description: Spawns an expanding box on the target position.
+  name: Boîte expansive
+  description: Fait apparaître une boîte expansive à la position de la cible.
   components:
   - type: AngerDelayAction
     minDelay: 1.5
@@ -34,8 +34,8 @@
 - type: entity
   id: ActionHierophantCrosses
   parent: ActionBaseHierophant
-  name: Sequence Crosses
-  description: Spawns a sequence of crosses on the target position.
+  name: Séquence de croix
+  description: Fait apparaître une séquence de croix à la position de la cible.
   components:
   - type: AngerDelayAction
     minDelay: 1.5
@@ -49,8 +49,8 @@
 - type: entity
   id: ActionHierophantChasers
   parent: ActionBaseHierophant
-  name: Spawn Chasers
-  description: Spawns hierophant tile chasers that move towards the target.
+  name: Apparition de poursuivants
+  description: Fait apparaître des poursuivants de cases hiérophante qui se déplacent vers la cible.
   categories: [ HideSpawnMenu ]
   components:
   - type: AngerDelayAction
@@ -67,7 +67,7 @@
   id: ActionHierophantBlink
   parent: ActionBaseHierophant
   name: Blink
-  description: Teleports you to the target position.
+  description: Vous téléporte à la position de la cible.
   components:
   - type: AngerDelayAction
     minDelay: 3.0

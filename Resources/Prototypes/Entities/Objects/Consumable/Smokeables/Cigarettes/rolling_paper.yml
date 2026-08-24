@@ -2,9 +2,9 @@
 
 - type: entity
   parent: BaseStorageItem
-  name: pack of rolling paper
+  name: paquet de papier à rouler
   id: PackPaperRolling
-  description: A pack of thin pieces of paper used to make fine smokeables.
+  description: Un paquet de fins morceaux de papier utilisés pour faire de belles cigarettes.
   components:
   - type: Storage
     grid:
@@ -26,9 +26,9 @@
 
 - type: entity
   parent: PackPaperRolling
-  name: pack of rolling paper with filters
+  name: paquet de papier à rouler avec filtres
   id: PackPaperRollingFilters
-  description: A pack of filters and thin pieces of paper used to make fine smokeables.
+  description: Un paquet de filtres et de fins morceaux de papier utilisés pour faire de beaux fumables.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -41,8 +41,8 @@
 
 - type: entity
   id: PaperRolling
-  name: rolling paper
-  description: A thin piece of paper used to make fine smokeables.
+  name: papier à rouler
+  description: Un fin morceau de papier utilisé pour faire une belle cigarette.
   suffix: Full
   parent: BaseItem
   components:
@@ -71,8 +71,8 @@
 
 - type: entity
   id: CigaretteFilter
-  name: cigarette filter
-  description: A strip of firm paper used as a filter for handmade cigarettes.
+  name: filtre à cigarette
+  description: Une bande de papier ferme utilisée comme filtre pour les cigarettes faites à la main.
   suffix: Full
   parent: BaseItem
   components:

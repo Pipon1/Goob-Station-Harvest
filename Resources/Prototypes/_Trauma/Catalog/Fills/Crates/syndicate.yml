@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSyndicate
   id: CrateSyndicateShuttleBundle
-  name: shuttle bundle crate
-  description: The bare necessities for a shuttle.
+  name: caisse lot navette
+  description: Le strict nécessaire pour une navette.
   components:
   - type: EntityTableContainerFill
     containers:

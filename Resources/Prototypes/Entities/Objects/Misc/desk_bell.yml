@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: DeskBell
-  name: desk bell
-  description: The cornerstone of any customer service job. You feel an unending urge to ring it.
+  name: sonnette de bureau
+  description: La pierre angulaire de tout emploi de service client. Vous ressentez une envie irrépressible de la sonner.
   components:
   - type: Sprite
     sprite: Objects/Misc/desk_bell.rsi

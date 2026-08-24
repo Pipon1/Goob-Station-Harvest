@@ -1,0 +1,1 @@
+comp-light-replacer-recycle-progress = Il est à {$num}% vers un nouveau tube lumineux.

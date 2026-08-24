@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseEntitySpellAction
   id: ActionAnimateSpell
-  name: Animate
-  description: Bring an inanimate object to life!
+  name: Animer
+  description: Donnez vie à un objet inanimé !
   components:
   - type: Action
     useDelay: 0

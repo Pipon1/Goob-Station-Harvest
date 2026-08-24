@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBlink
-  name: Blink
-  description: Teleport to the clicked location.
+  name: Téléportation
+  description: Téléporte vers l'emplacement choisi.
   components:
   - type: Action
     useDelay: 10

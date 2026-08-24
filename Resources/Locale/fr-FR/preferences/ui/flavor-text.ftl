@@ -1,0 +1,3 @@
+# SPDX-License-Identifier: MIT
+
+flavor-text-placeholder = Une description extérieure de votre personnage que les autres peuvent avoir en vous regardant...

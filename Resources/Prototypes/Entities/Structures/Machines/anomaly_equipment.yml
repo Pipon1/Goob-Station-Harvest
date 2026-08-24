@@ -3,8 +3,8 @@
 - type: entity
   id: MachineAnomalyVessel
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: anomaly vessel
-  description: A container able to harness a scan of an anomaly and turn it into research data.
+  name: vaisseau d'anomalie
+  description: Un conteneur capable d'exploiter le scan d'une anomalie pour le transformer en données de recherche.
   components:
   - type: Sprite
     noRot: true
@@ -93,8 +93,8 @@
 - type: entity
   id: MachineAnomalyVesselExperimental
   parent: MachineAnomalyVessel
-  name: experimental anomaly vessel
-  description: An advanced anomaly vessel capable of greater research potential at the cost of increased volatility and low-level radioactive decay into the environment.
+  name: vaisseau d'anomalie expérimental
+  description: Un vaisseau d'anomalie avancé capable d'un potentiel de recherche supérieur au prix d'une volatilité accrue et d'une désintégration radioactive de bas niveau dans l'environnement.
   components:
   - type: Sprite
     sprite: Structures/Machines/Anomaly/adv_anomaly_vessel.rsi
@@ -119,7 +119,7 @@
   id: MachineAPE
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: A.P.E.
-  description: An Anomalous Particle Emitter, capable of shooting out unstable particles which can interface with anomalies.
+  description: Un Émetteur de Particules Anomales (A.P.E.), capable de tirer des particules instables qui peuvent interagir avec les anomalies.
   components:
   - type: Sprite
     noRot: true
@@ -222,8 +222,8 @@
 - type: entity
   id: MachineAnomalyGenerator
   parent: BaseMachinePowered
-  name: anomaly generator
-  description: The peak of pseudoscientific technology.
+  name: générateur d'anomalies
+  description: Le sommet de la technologie pseudoscientifique.
   placement:
     mode: AlignTileAny
   components:

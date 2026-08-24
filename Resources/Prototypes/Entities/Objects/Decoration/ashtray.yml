@@ -3,8 +3,8 @@
 - type: entity
   id: Ashtray
   parent: BaseItem
-  name: ashtray
-  description: Proven by scientists to improve the smoking experience by 37%!
+  name: cendrier
+  description: Prouvé par les scientifiques pour améliorer l'expérience de fumage de 37% !
   components:
   - type: Sprite
     sprite: Objects/Decoration/ashtray.rsi

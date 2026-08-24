@@ -1,9 +1,9 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedPlasmaFlatcapGrey
-  name: grey flatcap
-  description: "Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim."
-  suffix: Bladed Plasma
+  name: casquette grise
+  description: "À la mode pour la classe ouvrière comme pour le vieux Jenkins. Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Plasma
   components:
   - type: Construction
     graph: BladedPlasmaFlatcapGrey
@@ -18,9 +18,9 @@
 - type: entity
   parent: BladedFlatcapBrown
   id: BladedPlasmaFlatcapBrown
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
-  suffix: Bladed Plasma
+  name: casquette marron
+  description: "\"Abruti de clown, t'as fait croire que j'étais méchant !\" Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Plasma
   components:
   - type: Construction
     graph: BladedPlasmaFlatcapBrown
@@ -35,9 +35,9 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedReinforcedFlatcapGrey
-  name: grey flatcap
-  description: "Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim."
-  suffix: Bladed Reinforced
+  name: casquette grise
+  description: "À la mode pour la classe ouvrière comme pour le vieux Jenkins. Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Renforcée
   components:
   - type: Construction
     graph: BladedReinforcedFlatcapGrey
@@ -52,9 +52,9 @@
 - type: entity
   parent: BladedFlatcapBrown
   id: BladedReinforcedFlatcapBrown
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
-  suffix: Bladed Reinforced
+  name: casquette marron
+  description: "\"Abruti de clown, t'as fait croire que j'étais méchant !\" Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Renforcée
   components:
   - type: Construction
     graph: BladedReinforcedFlatcapBrown
@@ -69,9 +69,9 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedUraniumFlatcapGrey
-  name: grey flatcap
-  description: "Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim."
-  suffix: Bladed Uranium
+  name: casquette grise
+  description: "À la mode pour la classe ouvrière comme pour le vieux Jenkins. Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Uranium
   components:
   - type: Construction
     graph: BladedUraniumFlatcapGrey
@@ -87,9 +87,9 @@
 - type: entity
   parent: BladedFlatcapBrown
   id: BladedUraniumFlatcapBrown
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
-  suffix: Bladed Uranium
+  name: casquette marron
+  description: "\"Abruti de clown, t'as fait croire que j'étais méchant !\" Des éclats de verre sont cachés dans la visière."
+  suffix: Lame Uranium
   components:
   - type: Construction
     graph: BladedUraniumFlatcapBrown

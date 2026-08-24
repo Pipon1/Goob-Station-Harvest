@@ -5,7 +5,7 @@
   parent: BaseItem
   id: BaseWeaponCrusher
   name: crusher
-  description: An early design of the proto-kinetic accelerator.
+  description: Une conception précoce de l'accélérateur proto-cinétique.
   components:
   - type: Appearance
   - type: Item
@@ -133,8 +133,8 @@
 - type: entity
   parent: [ BaseWeaponCrusher, BaseSalvageContraband ]
   id: WeaponCrusher
-  name: crusher axe
-  description: An early design of the proto-kinetic accelerator.
+  name: hache crusher
+  description: Une conception précoce de l'accélérateur proto-cinétique.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: [ BaseWeaponCrusher, BaseSalvageContraband ]
   id: WeaponCrusherGlaive
-  name: crusher glaive
-  description: An early design of the proto-kinetic accelerator, in glaive form. Provides better healing in exchange for less charged damage.
+  name: glaive crusher
+  description: Une conception précoce de l'accélérateur proto-cinétique, sous forme de glaive. Offre de meilleurs soins en échange de moins de dégâts chargés.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_glaive.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: [ BaseWeaponCrusher, BaseSalvageContraband ]
   id: WeaponCrusherHammer
-  name: crusher hammer
-  description: A beefy, two-handed weapon that inflicts knockback and heavier damage than a crusher.
+  name: marteau crusher
+  description: Une arme massive à deux mains qui inflige un recul et des dégâts plus lourds qu'un crusher.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_hammer.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: [ BaseWeaponCrusher, BaseSalvageContraband ]
   id: WeaponCrusherHalberd
-  name: crusher halberd
-  description: A universal weapon that combines the power of a crusher and the range of a spear.
+  name: hallebarde crusher
+  description: Une arme universelle qui combine la puissance d'un crusher et la portée d'une lance.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_halberd.rsi

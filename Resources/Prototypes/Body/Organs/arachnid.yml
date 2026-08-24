@@ -40,7 +40,7 @@
 - type: entity
   id: OrganArachnidStomach
   parent: OrganAnimalStomach
-  description: "Gross. This is hard to stomach."
+  description: "Dégueulasse. C'est difficile à digérer."
   components:
   - type: Sprite
     sprite: Mobs/Species/Arachnid/organs.rsi
@@ -78,8 +78,8 @@
 - type: entity
   id: OrganArachnidLungs
   parent: BaseArachnidOrgan
-  name: lungs
-  description: "Filters oxygen from an atmosphere... just more greedily."
+  name: poumons
+  description: "Filtre l'oxygène d'une atmosphère... juste plus agressivement."
   components:
   - type: Sprite
     layers:
@@ -126,8 +126,8 @@
 - type: entity
   id: OrganArachnidHeart
   parent: BaseArachnidOrgan
-  name: heart
-  description: "A disgustingly persistent little biological pump made for spiders."
+  name: cœur
+  description: "Une petite pompe biologique répugnante et persistante conçue pour les araignées."
   components:
   - type: Sprite
     state: heart-on
@@ -160,8 +160,8 @@
 - type: entity
   id: OrganArachnidLiver
   parent: BaseHumanOrgan
-  name: liver
-  description: "Pairing suggestion: chianti and fava beans."
+  name: foie
+  description: "Suggestion d'accompagnement : chianti et fèves."
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -193,8 +193,8 @@
 - type: entity
   id: OrganArachnidKidneys
   parent: BaseHumanOrgan
-  name: kidneys
-  description: "Filters toxins from the bloodstream."
+  name: reins
+  description: "Filtre les toxines du flux sanguin."
   categories: [ HideSpawnMenu ]
   components:
   - type: Organ # Shitmed
@@ -227,8 +227,8 @@
 - type: entity
   id: OrganArachnidEyes
   parent: BaseArachnidOrgan
-  name: eyes
-  description: "Two was already too many."
+  name: yeux
+  description: "Deux, c'était déjà trop."
   components:
   - type: Sprite
     layers:
@@ -255,8 +255,8 @@
 - type: entity
   id: OrganArachnidTongue
   parent: BaseArachnidOrgan
-  name: tongue
-  description: "A fleshy muscle mostly used for lying."
+  name: langue
+  description: "Un muscle charnu principalement utilisé pour mentir."
   components:
   - type: Sprite
     state: tongue

@@ -1,12 +1,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgEngi
-  name: engi xenoborg
+  name: xénoborg ingénieur
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
+  description: Un hybride homme-machine qui vise à se répliquer. Ils aiment extraire les cerveaux pour les insérer dans de nouveaux châssis Xénoborg afin de développer leur armée. Celui-ci semble être du type ingénierie, car il a plus d'outils pour soutenir les autres Xénoborgs.
   components:
   - type: BorgTransponder
-    name: engi xenoborg
+    name: xénoborg ingénieur
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_engi
@@ -57,12 +57,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgHeavy
-  name: heavy xenoborg
+  name: xénoborg lourd
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+  description: Un hybride homme-machine qui vise à se répliquer. Ils aiment extraire les cerveaux pour les insérer dans de nouveaux châssis Xénoborg afin de développer leur armée. Ce type a de lourds lasers et est recouvert de plaques d'armure épaisses. Il peut être plus dur, mais sa vitesse correspond à sa force.
   components:
   - type: BorgTransponder
-    name: heavy xenoborg
+    name: xénoborg lourd
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_heavy
@@ -151,12 +151,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgScout
-  name: scout xenoborg
+  name: xénoborg scout
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+  description: Un hybride homme-machine qui vise à se répliquer. Ils aiment extraire les cerveaux pour les insérer dans de nouveaux châssis Xénoborg afin de développer leur armée. C'est un type éclaireur, ses propulseurs agiles lui permettent de se déplacer rapidement dans l'espace.
   components:
   - type: BorgTransponder
-    name: scout xenoborg
+    name: xénoborg scout
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_scout
@@ -205,12 +205,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgStealth
-  name: stealth xenoborg
+  name: xénoborg furtif
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+  description: Un hybride homme-machine qui vise à se répliquer. Ils aiment extraire les cerveaux pour les insérer dans de nouveaux châssis Xénoborg afin de développer leur armée. Celui-ci est un type furtif. Son armure brille à la lumière comme aucun autre matériau que vous ayez vu.
   components:
   - type: BorgTransponder
-    name: stealth xenoborg
+    name: xénoborg furtif
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_stealth

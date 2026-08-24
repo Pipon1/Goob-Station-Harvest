@@ -1,9 +1,9 @@
 - type: entity
-  name: lavashroom
+  name: champilave
   parent: BaseStructure
   id: Lavashroom
   suffix: Structure
-  description: A wild mushroom that likes to grow in hot, moist environments.
+  description: Un champignon sauvage qui aime pousser dans les environnements chauds et humides.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Decoration/Flora/Plants/lavashroom.rsi
@@ -43,10 +43,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: seraka mushrooms
+  name: champignons seraka
   parent: BaseStructure
   id: SerakaMushroom
-  description: A small cluster of seraka mushrooms.
+  description: Un petit groupe de champignons seraka.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Decoration/Flora/Plants/seraka_mushroom.rsi

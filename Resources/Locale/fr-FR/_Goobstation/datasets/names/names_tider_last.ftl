@@ -1,0 +1,10 @@
+names-tider-last-1 = Tide
+names-tider-last-2 = Rampeur
+names-tider-last-3 = Roi
+names-tider-last-4 = Boîte à outils
+names-tider-last-5 = Casseur
+names-tider-last-6 = Voleur
+names-tider-last-7 = Clé anglaise
+names-tider-last-8 = Pied de biche
+names-tider-last-9 = Shitter
+names-tider-last-10 = Ceinture

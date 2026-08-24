@@ -18,7 +18,7 @@
   - BaseWall
   - CMBaseXenoStructure
   id: BaseWallXeno
-  name: resin wall
+  name: mur en résine
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseWallXeno
   id: WallXenoResin
-  name: resin wall
-  description: Weird slime solidified into a wall.
+  name: mur en résine
+  description: Une étrange limace solidifiée en mur.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinThick
-  name: thick resin wall
-  description: Weird slime solidified into a thick wall.
+  name: mur en résine épais
+  description: Une étrange limace solidifiée en un mur épais.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -84,7 +84,7 @@
 - type: entity
   parent: BaseWallXeno
   id: BaseMembraneXeno
-  name: resin membrane
+  name: membrane en résine
   abstract: true
   components:
   - type: Destructible
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembrane
-  name: resin membrane
-  description: Weird slime translucent enough to let light pass through.
+  name: membrane en résine
+  description: Une étrange limace assez translucide pour laisser passer la lumière.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembraneThick
-  name: thick resin membrane
-  description: Weird thick slime just translucent enough to let light pass through.
+  name: membrane en résine épaisse
+  description: Une étrange limace épaisse juste assez translucide pour laisser passer la lumière.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi

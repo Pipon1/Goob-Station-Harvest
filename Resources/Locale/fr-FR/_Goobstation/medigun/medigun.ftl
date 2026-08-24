@@ -1,0 +1,2 @@
+alerts-medigun-uber-name = Übercharge
+alerts-medigun-uber-desc = Chargez votre médipistolet en soignant des entités vivantes, remplissez cette batterie à 100 %, puis vous pourrez activer le mode Über !

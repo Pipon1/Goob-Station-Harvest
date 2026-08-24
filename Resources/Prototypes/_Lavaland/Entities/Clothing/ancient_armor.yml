@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseCargoContraband ]
   id: LavalandEquipmentAncientArmor
-  name: predecessor armor
-  description: Ancient armor that is fully made out of strong goliath plates. 
+  name: armure des prédécesseurs
+  description: Ancienne armure entièrement faite de plaques de goliath robustes. 
   components:
   - type: Sprite
     sprite: _Lavaland/Clothing/OuterClothing/Hardsuits/ancient_armor.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LavalandEquipmentAncientArmorHood
-  name: predecessor helmet
-  description: Armored helmet that resembles some pagan deity. Eye holes are covered with durable resin. Looks like it's hard to breath inside.
+  name: casque des prédécesseurs
+  description: Casque blindé ressemblant à une divinité païenne. Les trous pour les yeux sont couverts de résine durable. On dirait qu'il est difficile de respirer à l'intérieur.
   components:
   - type: Sprite
     sprite: _Lavaland/Clothing/Head/Hardsuits/ancient_armor.rsi

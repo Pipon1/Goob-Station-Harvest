@@ -2,12 +2,12 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorHybrisaWhiteBase
-  name: tiles-cm-default-white
+  name: tiles-cm-défaut-blanc
 
 - type: tile
   parent: RMCFloorHybrisaWhiteBase
   id: RMCFloorHybrisaWhite
-  name: white metal tile
+  name: dalle de métal blanc
   sprite: /Textures/_RMC14/Tiles/hybrisa/tilewhite.png
 
 - type: tile

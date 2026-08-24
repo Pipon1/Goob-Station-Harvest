@@ -1,7 +1,7 @@
 - type: entity
   id: FloorChasmOpeningSpawner
-  name: chasm opening
-  description: A rapidly opening chasm. If it's under you, RUN!!!
+  name: ouverture de crevasse
+  description: Une crevasse qui s'ouvre rapidement. Si elle est sous vous, FUYEZ !!!
   placement:
     mode: SnapgridCenter
     snap:

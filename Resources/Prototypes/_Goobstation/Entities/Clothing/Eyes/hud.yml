@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingEyesHudOmni
   id: ClothingEyesHudChrono
-  name: futuristic visor
-  description: A visior from the future, capable of displaying almost anything.
+  name: visière futuriste
+  description: Une visière du futur, capable d'afficher presque n'importe quoi.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Hud/chrono.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingEyesHudChrono
   id: ClothingEyesHudChronoUnremoveable
-  suffix: Unremoveable
+  suffix: Inamovible
   components:
   - type: Unremoveable
 
@@ -38,7 +38,7 @@
   parent: [ClothingEyesBase, ShowHealthRelatedIcons]
   id: ClothingEyesHudDiagnosticMedical
   name: meddiag hud
-  description: A heads-up display combining both medical and diagnostic information.
+  description: Un affichage tête haute combinant informations médicales et de diagnostic.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Hud/meddiag.rsi
@@ -55,7 +55,7 @@
   parent: ClothingEyesHudMedical
   id: ClothingEyesHudViro
   name: viro hud
-  description: A medical HUD upgraded with advanced disease scanning.
+  description: Un HUD médical amélioré avec un scanner de maladies avancé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Hud/viro.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingEyesHudSyndicate
   id: ClothingEyesHudContractor
-  name: contractor visor
-  description: The guild's professional head-up display, designed for better detection of humanoids and their subsequent capture.
+  name: visière de contractor
+  description: L'affichage tête haute professionnel de la guilde, conçu pour mieux détecter les humanoïdes et faciliter leur capture.
   components:
   - type: ThermalVision
     isEquipment: true

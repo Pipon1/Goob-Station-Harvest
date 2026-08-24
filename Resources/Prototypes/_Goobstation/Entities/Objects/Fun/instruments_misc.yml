@@ -24,8 +24,8 @@
 - type: entity
   parent: [BaseCassette, BaseSyndicateContraband]
   id: BloodredCassette
-  name: bloodred cassette player
-  description: The least subtle way to enjoy your favorite tunes.
+  name: lecteur cassette rouge sang
+  description: La manière la moins subtile de profiter de vos morceaux préférés.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/bloodred_cassette_player.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseCassette
   id: CrewCassette
-  name: cassette player
-  description: Regular old cassette player to enjoy your tunes on the go.
+  name: lecteur cassette
+  description: Un vieux lecteur de cassettes ordinaire pour profiter de vos morceaux en déplacement.
   components:
     - type: Sprite
       sprite: _Goobstation/Objects/Fun/crew_cassette_player.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseCassette
   id: ExecutiveCassette
-  name: executive cassette player
-  description: Perfect to make you look like you do mergers and acquisitions.
+  name: lecteur cassette executive
+  description: Parfait pour vous donner l'air de faire des fusions-acquisitions.
   components:
     - type: Sprite
       sprite: _Goobstation/Objects/Fun/executive_cassette_player.rsi

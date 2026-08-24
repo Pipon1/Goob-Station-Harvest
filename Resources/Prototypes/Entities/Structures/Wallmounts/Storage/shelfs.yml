@@ -4,8 +4,8 @@
   parent: BaseWallmount
   id: ShelfBase
   abstract: true
-  name: shelf
-  description: A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
+  name: étagère
+  description: Un endroit étrange pour placer, eh bien, n'importe quoi vraiment. Vous avez l'impression que vous ne devriez pas voir cela.
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -42,8 +42,8 @@
   abstract: true
   id: ShelfBaseReinforced
   parent: ShelfBase
-  name: reinforced shelf
-  description: It looks as strong as reality itself.
+  name: étagère renforcée
+  description: Elle a l'air aussi solide que la réalité elle-même.
   components:
   - type: Lock
   - type: LockedStorage
@@ -72,8 +72,8 @@
 - type: entity
   id: ShelfWood
   parent: ShelfBase
-  name: wooden shelf
-  description: A convenient place to place, well, anything really.
+  name: étagère en bois
+  description: Un endroit pratique pour placer, eh bien, n'importe quoi vraiment.
   components:
   - type: Destructible
     thresholds:
@@ -111,8 +111,8 @@
 - type: entity
   id: ShelfMetal
   parent: ShelfBase
-  name: metal shelf
-  description: A sturdy place to place, well, anything really.
+  name: étagère en métal
+  description: Un endroit robuste pour placer, eh bien, n'importe quoi vraiment.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -152,8 +152,8 @@
 - type: entity
   id: ShelfGlass
   parent: ShelfBase
-  name: glass shelf
-  description: A fragile place to place, well, anything really.
+  name: étagère en verre
+  description: Un endroit fragile pour placer, eh bien, n'importe quoi vraiment.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -194,8 +194,8 @@
 - type: entity
   id: ShelfRWood
   parent: ShelfBaseReinforced
-  name: sturdy wood shelf
-  description: A safe place to put your favorite bottle of whiskey.
+  name: étagère en bois solide
+  description: Un endroit sûr pour mettre votre bouteille de whisky préférée.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/wood.rsi
@@ -240,8 +240,8 @@
 - type: entity
   id: ShelfRMetal
   parent: ShelfBaseReinforced
-  name: sturdy metal shelf
-  description: A strong & shiny place to keep all your vials safe.
+  name: étagère en métal solide
+  description: Un endroit solide et brillant pour garder toutes vos fioles en sécurité.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -283,8 +283,8 @@
 - type: entity
   id: ShelfRGlass
   parent: ShelfBaseReinforced
-  name: sturdy glass shelf
-  description: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
+  name: étagère en verre solide
+  description: Portes en verre renforcé cristallin pour exhiber toutes vos bouteilles chiques que vous n'avez définitivement pas vendues contre la mitite préférée d'un collègue.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -327,8 +327,8 @@
 - type: entity
   id: ShelfBar
   parent: ShelfBase
-  name: bar shelf
-  description: Made out of the finest synthetic wood for all alcohol holding needs.
+  name: étagère de bar
+  description: Fabriquée en bois synthétique de la plus haute qualité pour tous vos besoins de stockage d'alcool.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/bar.rsi
@@ -377,8 +377,8 @@
 - type: entity
   id: ShelfKitchen
   parent: ShelfBase
-  name: kitchen shelf
-  description: Holds knifes, spice, and everything nice!
+  name: étagère de cuisine
+  description: Contient couteaux, épices et tout ce qui est sympa !
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
@@ -433,8 +433,8 @@
 - type: entity
   id: ShelfChemistry
   parent: ShelfBaseReinforced
-  name: chemical shelf
-  description: Keeps all your chemicals safe and out of the clow- er, public hands!
+  name: étagère chimique
+  description: Garde tous vos produits chimiques en sécurité et hors des mains du - euh, du public !
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi

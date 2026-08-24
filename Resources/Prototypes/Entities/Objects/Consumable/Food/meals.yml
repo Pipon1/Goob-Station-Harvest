@@ -9,7 +9,7 @@
   abstract: true
   parent: FoodInjectableBase
   id: FoodMealBase
-  description: A delicious meal, cooked with love.
+  description: Un délicieux repas, préparé avec amour.
   components:
   - type: Item
     shape:
@@ -29,8 +29,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealPotatoLoaded
-  name: loaded baked potato
-  description: Totally baked.
+  name: pomme de terre au four chargée
+  description: Totalement cuite au four.
   components:
   - type: Item
     storedOffset: 0,-2
@@ -45,8 +45,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealFries
-  name: space fries
-  description: AKA, French Fries, Freedom Fries, etc.
+  name: frites de l'espace
+  description: AKA, frites françaises, frites belges, etc.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -61,8 +61,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealFriesCheesy
-  name: cheesy fries
-  description: Fries. Covered in cheese. Duh.
+  name: frites au fromage
+  description: Des frites. Recouvertes de fromage. Évidemment.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -78,8 +78,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealFriesCarrot
-  name: carrot fries
-  description: Tasty fries from fresh carrots.
+  name: frites aux carottes
+  description: Des frites savoureuses faites à partir de carottes fraîches.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -105,7 +105,7 @@
   parent: FoodMealBase
   id: FoodMealNachos
   name: nachos
-  description: Chips from Space Mexico.
+  description: Chips du Mexique de l'espace.
   components:
   - type: Item
     storedOffset: 0,-2
@@ -133,8 +133,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealNachosCheesy
-  name: cheesy nachos
-  description: The delicious combination of nachos and melting cheese.
+  name: nachos au fromage
+  description: La délicieuse combinaison de nachos et de fromage fondu.
   components:
   - type: Item
     storedOffset: 0,-2
@@ -163,8 +163,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealNachosCuban
-  name: Cuban nachos
-  description: That's some dangerously spicy nachos.
+  name: nachos cubains
+  description: Voilà des nachos dangereusement épicés.
   components:
   - type: Item
     storedOffset: 0,-2
@@ -194,8 +194,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealMint
-  name: mint
-  description: It's wafer thin.
+  name: menthe
+  description: C'est aussi fin qu'une ostie.
   components:
   - type: Item
     storedOffset: 0,-1
@@ -217,8 +217,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealEggplantParm
-  name: eggplant parmigiana
-  description: The only good recipe for eggplant.
+  name: aubergine parmigiana
+  description: La seule bonne recette pour l'aubergine.
   components:
   - type: Item
     storedOffset: 0,-2
@@ -246,7 +246,7 @@
   parent: FoodMealBase
   id: FoodMealPotatoYaki
   name: yaki imo
-  description: Made with roasted sweet potatoes!
+  description: Préparé avec des patates douces rôties !
   components:
   - type: Item
     storedOffset: 0,-2
@@ -261,8 +261,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealCubancarp
-  name: Cuban carp
-  description: A grifftastic sandwich that burns your tongue and then leaves it numb!
+  name: carpe cubaine
+  description: Un sandwich grifftastique qui brûle votre langue puis l'engourdit !
   components:
   - type: Item
     storedOffset: 3,-7
@@ -291,8 +291,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealCornedbeef
-  name: corned beef and cabbage
-  description: Now you can feel like a real tourist vacationing in Ireland.
+  name: bœuf salé et chou
+  description: Maintenant, vous pouvez vous sentir comme un vrai touriste en vacances en Irlande.
   components:
   - type: Item
     storedOffset: 0,-1
@@ -319,8 +319,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealBearsteak
-  name: filet migrawr
-  description: Because eating bear wasn't manly enough.
+  name: filet migraou
+  description: Parce que manger de l'ours n'était pas assez viril.
   components:
   - type: Item
     size: Normal
@@ -350,8 +350,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealPigblanket
-  name: pig in a blanket
-  description: A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it.
+  name: cochon dans une couverture
+  description: Une petite saucisse enveloppée dans un rouleau feuilleté et beurré. Libérez ce cochon de sa prison de couverture en le mangeant.
   components:
   - type: Item
     size: Tiny
@@ -380,8 +380,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealRibs
-  name: bbq ribs
-  description: BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
+  name: ribs barbecue
+  description: Ribs au barbecue, nappées d'une saine couche de sauce barbecue. La chose la moins végane qu'il soit donné d'exister.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -413,8 +413,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealEggsbenedict
-  name: eggs benedict
-  description: There is only one egg on this, how rude.
+  name: œufs bénédicte
+  description: Il n'y a qu'un seul œuf sur ce plat, quelle impolitesse.
   components:
   - type: FlavorProfile
     flavors:
@@ -440,8 +440,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealOmelette
-  name: cheese omelette
-  description: Cheesy.
+  name: omelette du fromage # Vive la France
+  description: Fromagé.
   components:
   - type: Item
     storedOffset: 0,-1
@@ -466,8 +466,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealFriedegg
-  name: fried egg
-  description: A fried egg, with a touch of salt and pepper.
+  name: œuf au plat
+  description: Un œuf au plat, avec une touche de sel et de poivre.
   components:
   - type: Item
     storedOffset: 0,-1
@@ -498,7 +498,7 @@
   parent: FoodMealBase
   id: FoodMealMilkape
   name: milk ape
-  description: The king of Jungle Thick.
+  description: Le roi de l'Épaisse Jungle.
   components:
   - type: Item
     size: Normal
@@ -516,7 +516,7 @@
   parent: FoodMealBase
   id: FoodMealMemoryleek
   name: memory leek
-  description: This should refresh your memory.
+  description: Ceci devrait rafraîchir votre mémoire.
   components:
   - type: Item
     shape:
@@ -540,8 +540,8 @@
 - type: entity
   parent: FoodMealBase
   id: DisgustingSweptSoup
-  name: salty sweet miso cola soup
-  description: Jesus christ.
+  name: soupe miso cola sucrée salée
+  description: Oh putain.
   components:
   - type: Item
     size: Normal
@@ -567,7 +567,7 @@
   parent: FoodMealBase
   id: FoodMealQueso
   name: queso
-  description: A classic dipping sauce that you can't go wrong with.
+  description: Une sauce pour tremper classique que vous ne pouvez pas manquer.
   components:
     - type: Item
       storedOffset: 0,-6
@@ -582,7 +582,7 @@
   name: sashimi
   parent: FoodMealBase
   id: FoodMealSashimi
-  description: Its taste can only be described as "Exotic". The poisoning though? That's pretty common.
+  description: Son goût ne peut être décrit que comme "Exotique". L'empoisonnement cependant ? C'est assez courant.
   components:
   - type: FlavorProfile
     flavors:
@@ -607,7 +607,7 @@
   parent: FoodMealBase
   id: FoodMealEnchiladas
   name: enchiladas
-  description: Viva La Mexico!
+  description: Vive le Mexique !
   components:
     - type: Item
       storedOffset: -1,0
@@ -633,8 +633,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodSaladWatermelonFruitBowl
-  name: melon fruit bowl
-  description: The only salad where you can eat the bowl.
+  name: melon de fruits
+  description: La seule salade où vous pouvez manger le bol.
   components:
   - type: Item
     storedOffset: 0,-3
@@ -666,8 +666,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealCornInButter
-  name: corn in butter
-  description: Buttery.
+  name: maïs beurré
+  description: Beurré.
   components:
   - type: Item
     storedOffset: 0,-5

@@ -2,8 +2,8 @@
   abstract: true
   parent: [BaseWeaponEnergyTurret, ConstructibleMachine]
   id: WeaponEnergyTurretStationBase
-  name: sentry turret
-  description: A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
+  name: tourelle de surveillance
+  description: Un système d'armes autonome de haute technologie conçu pour empêcher le personnel non autorisé d'accéder aux zones sensibles.
   components:
   - type: Anchorable
     flags:

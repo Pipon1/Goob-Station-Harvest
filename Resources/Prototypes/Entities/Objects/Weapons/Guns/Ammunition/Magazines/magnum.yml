@@ -4,7 +4,7 @@
   abstract: true
   parent: [ BaseMagazinePistol, BaseSecurityContraband ]
   id: BaseMagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: chargeur de pistolet (.45 magnum)
   components:
   - type: Tag
     tags:
@@ -18,7 +18,7 @@
 
 - type: entity
   id: BaseMagazineMagnumSubMachineGun
-  name: SMG magazine (.45 magnum)
+  name: chargeur depistolet-mitrailleur (.45 magnum)
   parent: BaseItem
   abstract: true
   components:
@@ -52,9 +52,9 @@
 - type: entity
   parent: BaseMagazineMagnum
   id: MagazineMagnumEmpty
-  name: pistol magazine (.45 magnum any)
+  name: chargeur de pistolet (.45 magnum universel)
   suffix: empty
-  description: 7-round single stack magazine for large-caliber pistols.
+  description: Chargeur simple rangée de 7 cartouches pour pistolet.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseMagazineMagnum
   id: MagazineMagnum
-  name: pistol magazine (.45 magnum)
-  description: 7-round single stack magazine for large-caliber pistols. Intended to hold general-purpose kinetic ammunition.
+  name: chargeur de pistolet (.45 magnum)
+  description: Chargeur simple rangée de 7 cartouches pour pistolet. Destiné aux munitions cinétiques polyvalentes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseMagazineMagnum
   id: MagazineMagnumPractice
-  name: pistol magazine (.45 magnum practice)
-  description: 7-round single stack magazine for large-caliber pistols. Intended to hold harmless practice ammunition.
+  name: chargeur de pistolet (.45 magnum entraînement)
+  description: Chargeur simple rangée de 7 cartouches pour pistolet. Destiné aux munitions à craie inoffensives.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -122,8 +122,8 @@
 - type: entity
   parent: BaseMagazineMagnum
   id: MagazineMagnumUranium
-  name: pistol magazine (.45 magnum uranium)
-  description: 7-round single stack magazine for large-caliber pistols. Intended to hold exotic uranium-core ammunition.
+  name: chargeur de pistolet (.45 magnum uranium)
+  description: Chargeur simple rangée de 7 cartouches pour pistolet. Destiné aux munitions exotiques à noyau d'uranium.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseMagazineMagnum
   id: MagazineMagnumAP
-  name: pistol magazine (.45 magnum armor-piercing)
-  description: 7-round single stack magazine for large-caliber pistols. Intended to hold specialized armor-piercing ammunition.
+  name: chargeur de pistolet (.45 magnum perforant)
+  description: Chargeur simple rangée de 7 cartouches pour pistolet. Destiné aux munitions rares à tête perforante.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -175,7 +175,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunEmpty
-  name: SMG magazine (.45 magnum any)
+  name: chargeur de pistolet-mitrailleur (.45 magnum universel)
   suffix: empty
   parent: BaseMagazineMagnumSubMachineGun
   components:
@@ -196,7 +196,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGun
-  name: SMG magazine (.45 magnum)
+  name: chargeur de pistolet-mitrailleur (.45 magnum)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -216,7 +216,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPractice
-  name: SMG magazine (.45 magnum practice)
+  name: chargeur de pistolet-mitrailleur (.45 magnum entraînement)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -242,7 +242,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunUranium
-  name: SMG magazine (.45 magnum uranium)
+  name: chargeur de pistolet-mitrailleur (.45 magnum uranium)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -268,7 +268,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPiercing
-  name: SMG magazine (.45 magnum armour-piercing)
+  name: chargeur de pistolet-mitrailleur (.45 magnum perforant)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider

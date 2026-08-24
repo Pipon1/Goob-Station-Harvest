@@ -4,13 +4,13 @@
   id: BaseTranslatorImplanter
   abstract: true
   parent: BaseImplantOnlyImplanter
-  name: translator implanter
+  name: implanteur de traducteur
 
 # Gives ability to understand TauCetiBasic.
 - type: entity
   id: BasicGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  suffix: Basic Common
+  suffix: Commun de Base
   components:
   - type: Implanter
     implant: BasicTauCetiBasicTranslatorImplant
@@ -19,7 +19,7 @@
 - type: entity
   id: AdvancedGalaticCommonTranslatorImplanter
   parent: BaseTranslatorImplanter
-  suffix: Advanced Common
+  suffix: Commun Avancé
   components:
   - type: Implanter
     implant: TauCetiBasicTranslatorImplant
@@ -27,7 +27,7 @@
 - type: entity
   id: BubblishTranslatorImplanter
   parent: BaseTranslatorImplanter
-  suffix: Bubblish
+  suffix: Bulbeux
   components:
   - type: Implanter
     implant: BubblishTranslatorImplant
@@ -43,7 +43,7 @@
 - type: entity
   id: DraconicTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Draconic
+  suffix: Draconique
   components:
   - type: Implanter
     implant: DraconicTranslatorImplant
@@ -59,7 +59,7 @@
 - type: entity
   id: SolCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Sol-Common
+  suffix: Sol-Commun
   components:
   - type: Implanter
     implant: SolCommonTranslatorImplant
@@ -67,7 +67,7 @@
 - type: entity
   id: NovuNedericTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Novu-Nederic
+  suffix: Novu-Nédérique
   components:
   - type: Implanter
     implant: NovuNedericTranslatorImplant
@@ -75,7 +75,7 @@
 - type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Root-Speak
+  suffix: Langue-des-Racines
   components:
   - type: Implanter
     implant: RootSpeakTranslatorImplant
@@ -83,7 +83,7 @@
 - type: entity
   id: MofficTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Moffic
+  suffix: Moffique
   components:
   - type: Implanter
     implant: MofficTranslatorImplant
@@ -91,7 +91,7 @@
 - type: entity
   id: ValyrianStandardTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  suffix: Valyrian Standard
+  suffix: Standard Valyrien
   components:
   - type: Implanter
     implant: ValyrianStandardTranslatorImplant

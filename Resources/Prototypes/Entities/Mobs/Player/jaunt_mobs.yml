@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: jaunt
+  name: téléportation
   parent: [Incorporeal, BaseMob]
   id: BaseMobJaunt
-  description: Faint traces of a humanoid figure linger here
+  description: Des traces tenues d'une figure humanoïde subsistent ici.
   suffix: Ethereal
   components:
   - type: ContentEye
@@ -25,7 +25,7 @@
 
 # Should be slow, for balance
 - type: entity
-  name: jaunt
+  name: téléportation
   parent: BaseMobJaunt
   id: EtherealJaunt
   suffix: Wizard
@@ -48,8 +48,8 @@
 - type: entity
   parent: [Incorporeal, BaseMob]
   id: DesynchronizedPocket
-  name: desynchronized pocket
-  description: A pocket in spacetime, keeping the user a fraction of a second in the future.
+  name: poche désynchronisée
+  description: Une poche dans l'espace-temps, tenant l'utilisateur une fraction de seconde dans le futur.
   components:
   - type: Spectral
   - type: MovementSpeedModifier

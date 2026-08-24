@@ -3,8 +3,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrata
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: bordure métallique surélevée
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Vous pourriez probablement l'escalader.
   components:
   - type: Sprite
     state: strata_metalplatform
@@ -12,6 +12,7 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformStrataBroken
+  name: bordure métallique surélevée détruite
   components:
   - type: Sprite
     state: strata_metalplatform_broken
@@ -33,8 +34,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: coin métallique surélevé
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Ceci est le coin.
   components:
   - type: Sprite
     state: strata_metalplatform_deco
@@ -42,8 +43,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataTwo
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: bordure métallique surélevée
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Vous pourriez probablement l'escalader.
   components:
   - type: Sprite
     state: strata_metalplatform2
@@ -51,6 +52,7 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformStrata2Broken
+  name: bordure métallique surélevée détruite
   components:
   - type: Sprite
     state: strata_metalplatform2_broken
@@ -58,8 +60,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataTwoCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: coin métallique surélevé
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Ceci est le coin.
   components:
   - type: Sprite
     state: strata_metalplatform_deco2
@@ -67,8 +69,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataThree
-  name: raised metal edge
-  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  name: bordure métallique surélevée
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Vous pourriez probablement l'escalader.
   components:
   - type: Sprite
     state: strata_metalplatform3
@@ -76,6 +78,7 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformStrata3Broken
+  name: bordure métallique surélevée détruite
   components:
   - type: Sprite
     state: strata_metalplatform3_broken
@@ -83,8 +86,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataThreeCornerSmall
-  name: raised metal corner
-  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  name: coin métallique surélevé
+  description: Un niveau de métal surélevé, souvent utilisé pour élever des zones au-dessus d'autres. Ceci est le coin.
   components:
   - type: Sprite
     state: strata_metalplatform_deco3
@@ -93,8 +96,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataRock
-  name: ice rock edge
-  description: A solid chunk of desolate rocks and ice. Looks like you could climb it with some difficulty.
+  name: bordure de rocher de glace
+  description: Un bloc solide de rochers et de glace désolés. On dirait que vous pourriez l'escalader avec un peu de difficulté.
   components:
   - type: Sprite
     state: strata_rock_platform
@@ -102,8 +105,8 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformStrataRockBroken
-  name: destroyed ice rock edge
-  description: A solid chunk of desolate rocks and ice. Looks like you could climb it with some difficulty. It has been destroyed.
+  name: bordure de rocher de glace détruite
+  description: Un bloc solide de rochers et de glace désolés. On dirait que vous pourriez l'escalader avec un peu de difficulté. Elle a été détruite.
   components:
   - type: Sprite
     state: strata_rock_platform_broken
@@ -111,8 +114,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataRockCornerSmall
-  name: ice rock corner
-  description: A solid chunk of desolate rocks and ice.
+  name: coin de rocher de glace
+  description: Un bloc solide de rochers et de glace désolés.
   components:
   - type: Sprite
     state: strata_rock_platform_deco

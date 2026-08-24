@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseGateway
   id: GatewayLavaland
-  name: Lavaland gateway
-  description: To hell you go.
+  name: passerelle Lavaland
+  description: Allez au diable.
   components:
   - type: ActivatableUI
     key: enum.GatewayUiKey.Key
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseGateway
   id: GatewayLavalandStation
-  name: Lavaland gateway
-  description: To hell you go.
+  name: passerelle Lavaland
+  description: Allez au diable.
   suffix: Station
   components:
   - type: ActivatableUI

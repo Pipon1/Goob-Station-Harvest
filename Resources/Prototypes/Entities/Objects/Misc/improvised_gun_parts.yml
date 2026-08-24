@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: ModularReceiver
-  name: modular receiver
-  description: A vital part used in the creation of firearms. #Could use a better description, but I'm not a gun nut so I can't really do that.
+  name: récepteur modulaire
+  description: Une pièce essentielle utilisée dans la création d'armes à feu. #Pourrait utiliser une meilleure description, mais je ne suis pas un passionné d'armes donc je ne peux pas vraiment faire cela.
   components:
     - type: Item
       storedRotation: -90
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseItem
   id: RifleStock
-  name: rifle stock
-  description: A robust wooden stock, used in the creation of firearms. #Same as above
+  name: crosse de fusil
+  description: Une crosse en bois robuste, utilisée dans la création d'armes à feu. #Même chose que ci-dessus
   components:
     - type: Item
       storedRotation: -90

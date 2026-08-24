@@ -2,7 +2,7 @@
 
 - type: entity
   id: PelletClusterLethalWeak
-  name: pellet (ball, lethal)
+  name: plomb (balle, létale)
   categories: [ HideSpawnMenu ]
   parent: PelletClusterLethal
   components:

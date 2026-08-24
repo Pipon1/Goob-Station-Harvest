@@ -2,7 +2,7 @@
   parent: MobSiliconBase
   id: MobMineBot
   name: minebot
-  description: A miner's best friend!
+  description: "Le meilleur ami d'un mineur !"
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Mobs/Silicon/Bots/minebot.rsi

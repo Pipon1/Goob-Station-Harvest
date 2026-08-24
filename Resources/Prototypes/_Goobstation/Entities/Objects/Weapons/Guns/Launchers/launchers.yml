@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: GL-06 RGL
+  name: GL-06 LGAE
   parent: [WeaponFlareGun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLauncherNonLethal
-  description: A single shot, break action riot grenade launcher designed for crowd control and law enforcement use. The built in safety prevents the use of lethal grenades.
+  description: Un lance-grenades anti-émeute à coup unique, action basculante, conçu pour le contrôle des foules et le maintien de l'ordre. La sécurité intégrée empêche l'utilisation de grenades létales.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Launchers/riotlauncher.rsi
@@ -25,7 +25,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -35,7 +35,7 @@
   name: M172 LAW
   parent: [ BaseWeaponLauncher, BaseMajorContraband, BaseGunWieldable] # Major contra because it isn't manufactured by the syndicate; NT would use this
   id: WeaponLauncherRocketDisposable
-  description: A single shot 84mm disposable Light Anti-structure Weapon for precisely taking out structures with little collateral damage. Can be folded in order to be conveniantly stored. DO NOT ATTEMPT TO REMOVE ROCKET FROM TUBE.
+  description: Une arme anti-structure légère à usage unique de 84 mm pour éliminer précisément les structures avec peu de dommages collatéraux. Peut être pliée pour être stockée commodément. NE TENTEZ PAS DE RETIRER LA ROQUETTE DU TUBE.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Launchers/m172_icon_48x.rsi
@@ -77,7 +77,7 @@
   name: RPO-A Shmel
   parent: [ BaseWeaponLauncher, BaseMajorContraband, BaseGunWieldable] # Same as above
   id: WeaponLauncherRocketDisposableThermobaric
-  description: A single shot 93mm disposable anti-personnel thermobaric rocket launcher, considered a flamethrower by the manufacturer. Can be folded in order to be conveniantly stored.
+  description: Un lance-roquettes thermobarique anti-personnel à usage unique de 93 mm, considéré comme un lance-flammes par le fabricant. Peut être plié pour être stocké commodément.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Launchers/shmel_icon_48x.rsi

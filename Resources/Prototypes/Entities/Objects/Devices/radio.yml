@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: handheld radio
-  description: A handy handheld radio.
+  name: radio portable
+  description: Une radio portable pratique.
   parent: BaseItem
   id: RadioHandheld
   components:
@@ -32,8 +32,8 @@
     - Radio
 
 - type: entity
-  name: security radio
-  description: A handy security radio.
+  name: radio de sécurité
+  description: Une radio de sécurité pratique.
   parent: [ RadioHandheld, BaseSecurityContraband ]
   id: RadioHandheldSecurity
   components:

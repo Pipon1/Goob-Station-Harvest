@@ -6,7 +6,7 @@
   name: Ian
   parent: MobCorgi
   id: MobCorgiIan
-  description: Favorite pet corgi.
+  description: Le Corgi préféré.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -59,10 +59,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Old Ian
+  name: Vieux Ian
   parent: MobCorgiIan
   id: MobCorgiIanOld
-  description: Still the favorite pet corgi. Love his wheels.
+  description: Toujours le corgi préféré. On aime ses roues.
   components:
   - type: Sprite
     layers:
@@ -87,7 +87,7 @@
   name: Lisa
   parent: MobCorgiIan
   id: MobCorgiLisa
-  description: Ian's favorite corgi.
+  description: Le corgi préféré d'Ian.
   components:
   - type: Sprite
     layers:
@@ -121,10 +121,10 @@
             state: corgi_eyes_displacement
 
 - type: entity
-  name: real mouse
+  name: vraie souris
   parent: MobCorgiIan
   id: MobCorgiMouse
-  description: It's 100% a real hungry mouse.
+  description: C'est 100% une vraie souris affamée.
   components:
   - type: Sprite
     layers:
@@ -144,10 +144,10 @@
       gender: female
 
 - type: entity
-  name: Puppy Ian
+  name: Ian chiot
   parent: MobCorgiPuppy
   id: MobCorgiIanPup
-  description: Favourite puppy corgi. Awww.
+  description: Le chiot corgi préféré. Awww.
   components:
   - type: Grammar
     attributes:
@@ -171,7 +171,7 @@
   name: Aves
   parent: MobCat
   id: MobCatRuntime
-  description: The cat who walks by himself.
+  description: Le chat qui marche tout seul.
   components:
   - type: NpcFactionMember
     factions:
@@ -200,7 +200,7 @@
   name: Exception
   id: MobCatException
   parent: MobCatCalico
-  description: Ask nicely, and maybe they'll give you one of their spare lives.
+  description: Demandez gentiment, et peut-être qu'ils vous en donneront une de leurs vies de rechange.
   components:
   - type: NpcFactionMember
     factions:
@@ -226,7 +226,7 @@
   name: Floppa
   id: MobCatFloppa
   parent: MobCatCaracal
-  description: He out here.
+  description: Il est là.
   components:
   - type: Fixtures
     fixtures:
@@ -259,7 +259,7 @@
   name: Bandito
   parent: MobFerret
   id: MobBandito
-  description: Just a silly little guy!
+  description: Juste un petit gars !
   components:
   - type: Grammar
     attributes:
@@ -280,7 +280,7 @@
   name: Bingus
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobBingus
-  description: Bingus my beloved...
+  description: Bingus mon amour...
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -343,7 +343,7 @@
   name: McGriff
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobMcGriff
-  description: This dog can tell something smells around here, and that something is CRIME!
+  description: Ce chien peut dire que quelque chose sent par ici, et cette chose c'est LE CRIME !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -423,7 +423,7 @@
   name: Paperwork
   parent: MobSloth
   id: MobPaperwork
-  description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+  description: Il a accepté un nouvel emploi de tri de livres à la bibliothèque après son transfert de la Station Spatiale 13. Il semble être tout aussi lent à ça.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -463,7 +463,7 @@
   name: Walter
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobWalter
-  description: He likes chems and treats. Walter.
+  description: Il aime les produits chimiques et les bonbons. Walter.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -530,7 +530,7 @@
   name: Morty
   parent: MobPossum
   id: MobPossumMorty
-  description: The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
+  description: L'opossum résident de la station. Un gars sensible mais résilient.
   components:
   - type: InteractionPopup
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.
@@ -579,7 +579,7 @@
   name: Poppy # the Safety Possum
   parent: MobPossumMorty
   id: MobPossumPoppy
-  description: It's an opossum, a small scavenging marsupial. It's wearing appropriate personal protective equipment.
+  description: C'est un opossum, un petit marsupial charognard. Il porte l'équipement de protection personnelle approprié.
   components:
   - type: Grammar
     attributes:
@@ -602,7 +602,7 @@
   name: Morticia
   parent: MobRaccoon
   id: MobRaccoonMorticia
-  description: A powerful creature of the night. Her eyeshadow is always on point.
+  description: Une créature puissante de la nuit. Son maquillage des yeux est toujours impeccable.
   components:
   - type: InteractionPopup
     successChance: 0.7
@@ -630,7 +630,7 @@
   name: Alexander
   parent: MobPig
   id: MobAlexander
-  description: Chef's finest colleague.
+  description: Le meilleur collègue du chef.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -658,7 +658,7 @@
   name: Renault
   parent: MobFox
   id: MobFoxRenault
-  description: The captain's trustworthy fox.
+  description: Le renard fiable du capitaine.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -694,7 +694,7 @@
   name: Hamlet
   parent: MobHamster
   id: MobHamsterHamlet
-  description: A grumpy, cute and fluffy hamster.
+  description: Un hamster grincheux, mignon et tout doux.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -777,7 +777,7 @@
   name: Shiva
   parent: MobGiantSpider
   id: MobSpiderShiva
-  description: The first defender of the station.
+  description: Le premier défenseur de la station.
   components:
   - type: InteractionPopup
     successChance: 0.5 # spider is mean
@@ -850,7 +850,7 @@
   name: Willow
   parent: MobKangaroo
   id: MobKangarooWillow
-  description: Willow the boxing kangaroo.
+  description: Willow le kangourou boxeur.
   components:
   - type: InteractionPopup
     successChance: 0.8
@@ -887,7 +887,7 @@
   name: Smile
   id: MobSlimesPet
   parent: [MobAdultSlimes, StripableInventoryBase]
-  description: This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
+  description: Ce chef-d'œuvre a subi des milliers d'expériences. Mais c'est la créature la plus douce du monde. Smile slime !
   components:
   - type: Sprite
     layers:
@@ -975,7 +975,7 @@
   name: Pun Pun
   parent: MobMonkey
   id: MobMonkeyPunpun
-  description: A prominent representative of monkeys with unlimited access to alcohol.
+  description: Un représentant éminent des singes avec un accès illimité à l'alcool.
   components:
   - type: GhostRole
     prob: 1
@@ -1022,7 +1022,7 @@
   name: Tropico
   parent: MobCrab
   id: MobCrabAtmos
-  description: The noble and stalwart defender of Atmosia. Viva!
+  description: Le noble et intrépide défenseur d'Atmosia. Viva !
   components:
 #  - type: GhostRole
 #    prob: 1
@@ -1055,7 +1055,7 @@
   name: Polly the parrot
   parent: MobParrotBase
   id: MobPollyParrot
-  description: An expert in quantum cracker theory
+  description: Un expert en théorie des crackers quantiques.
   components:
   - type: Vocalizer
     maxVocalizeInterval: 240 # polly is chattier

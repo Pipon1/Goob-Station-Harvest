@@ -13,8 +13,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes.
+  name: cartouche de prise de notes
+  description: Un programme pour prendre des notes.
   components:
   - type: Sprite
     state: cart-y
@@ -30,8 +30,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NanoTaskCartridge
-  name: NanoTask cartridge
-  description: A program that allows you to keep a list of tasks to do.
+  name: cartouche NanoTâche
+  description: Un programme qui vous permet de garder une liste de tâches à faire.
   components:
   - type: Sprite
     state: cart-nav
@@ -47,8 +47,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NewsReaderCartridge
-  name: news cartridge
-  description: A program for reading news.
+  name: cartouche de nouvelles
+  description: Un programme pour lire les nouvelles.
   components:
   - type: Sprite
     state: cart-y
@@ -64,8 +64,8 @@
 - type: entity
   parent: BasePDACartridge
   id: CrewManifestCartridge
-  name: crew manifest cartridge
-  description: A program for listing your fellow crewmembers.
+  name: cartouche de manifeste d'équipage
+  description: Un programme pour lister les membres de votre équipage.
   components:
     - type: Sprite
       state: cart-y
@@ -81,8 +81,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NetProbeCartridge
-  name: NetProbe cartridge
-  description: A program for getting the address and frequency of network devices.
+  name: cartouche NetProbe
+  description: Un programme pour obtenir l'adresse et la fréquence des appareils réseau.
   components:
     - type: Sprite
       state: cart-y
@@ -98,8 +98,8 @@
 - type: entity
   parent: BasePDACartridge
   id: LogProbeCartridge
-  name: LogProbe cartridge
-  description: A program for getting access logs from devices.
+  name: cartouche LogProbe
+  description: Un programme pour obtenir les journaux d'accès des appareils.
   components:
     - type: Sprite
       state: cart-log
@@ -121,8 +121,8 @@
 - type: entity
   parent: BasePDACartridge
   id: WantedListCartridge
-  name: Wanted list cartridge
-  description: A program to get a list of wanted persons.
+  name: cartouche de liste de recherchés
+  description: Un programme pour obtenir une liste de personnes recherchées.
   components:
   - type: Sprite
     state: cart-sec
@@ -143,8 +143,8 @@
 - type: entity
   parent: BasePDACartridge
   id: MedTekCartridge
-  name: MedTek cartridge
-  description: A program that provides medical diagnostic tools.
+  name: cartouche MedTek
+  description: Un programme qui fournit des outils de diagnostic médical.
   components:
     - type: Sprite
       state: cart-med
@@ -161,8 +161,8 @@
 - type: entity
   parent: BasePDACartridge
   id: AstroNavCartridge
-  name: AstroNav cartridge
-  description: A program for navigation that provides GPS coordinates.
+  name: cartouche AstroNav
+  description: Un programme de navigation qui fournit des coordonnées GPS.
   components:
     - type: Sprite
       state: cart-nav

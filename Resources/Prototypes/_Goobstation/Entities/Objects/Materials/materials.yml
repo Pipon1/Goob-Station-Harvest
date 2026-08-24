@@ -3,8 +3,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBSCrystal
-  name: bluespace crystal
-  suffix: Full
+  name: cristal de bluespace
+  suffix: Pleine
   components:
   - type: Stack
     stackType: BSCrystal
@@ -38,7 +38,7 @@
 - type: entity
   parent: MaterialBSCrystal
   id: MaterialBSCrystal1
-  suffix: Single
+  suffix: Unique
   components:
   - type: Stack
     count: 1
@@ -46,8 +46,8 @@
 - type: entity
   parent: MaterialBSCrystal
   id: MaterialBSCrystalUnprocessed
-  name: unprocessed bluespace crystal
-  suffix: Full
+  name: cristal de bluespace brut
+  suffix: Pleine
   components:
   - type: Stack
     stackType: BSCrystalUnprocessed
@@ -57,8 +57,8 @@
 - type: entity
   parent: MaterialBSCrystalUnprocessed
   id: MaterialBSCrystal1Unprocessed
-  name: unprocessed bluespace crystal
-  suffix: Single
+  name: cristal de bluespace brut
+  suffix: Unique
   components:
   - type: Stack
     count: 1

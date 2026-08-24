@@ -4,7 +4,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto)
+  name: boîte de munitions (.35 auto)
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: ammunition box (.35 auto)
-  description: A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
+  name: boîte de munitions (.35 auto)
+  description: Une boîte en carton de munitions .35 auto. Destinée aux munitions cinétiques polyvalentes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: ammunition box (.35 auto practice)
-  description: A cardboard box of .35 auto rounds. Intended to hold harmless practice ammunition.
+  name: boîte de munitions (.35 auto entraînement)
+  description: Une boîte en carton de munitions .35 auto. Destinée aux munitions à craie inoffensives.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -72,8 +72,8 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto incendiary)
-  description: A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
+  name: boîte de munitions (.35 auto incendiaire)
+  description: Une boîte en carton de munitions .35 auto. Destinée aux munitions incendiaires à auto-allumage.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolUranium
-  name: ammunition box (.35 auto uranium)
-  description: A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.
+  name: boîte de munitions (.35 auto uranium)
+  description: Une boîte en carton de munitions .35 auto. Destinée aux munitions exotiques à noyau d'uranium.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium

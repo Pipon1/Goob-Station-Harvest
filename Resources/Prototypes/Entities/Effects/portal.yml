@@ -3,8 +3,8 @@
 - type: entity
   id: BasePortal
   abstract: true
-  name: bluespace portal
-  description: Transports you to a linked destination!
+  name: portail bluespace
+  description: Vous transporte à une destination liée !
   components:
   - type: Transform
     anchored: True
@@ -30,7 +30,7 @@
 - type: entity
   id: PortalRed
   parent: BasePortal
-  description: This one looks more like a redspace portal.
+  description: Celui-ci ressemble plus à un portail redspace.
   components:
   - type: Sprite
     layers:
@@ -105,8 +105,8 @@
 
 - type: entity
   id: ShadowPortal
-  name: shadow rift
-  description: Looks unstable.
+  name: fissure d'ombre
+  description: À l'air instable.
   parent: [ BasePortal, BaseShadow ]
   components:
   - type: Portal

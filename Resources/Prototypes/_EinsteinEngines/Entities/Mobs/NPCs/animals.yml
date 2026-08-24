@@ -4,7 +4,7 @@
   name: squackroach
   parent: MobCockroach
   id: MobSquackroach
-  description: This is just a horrific genetic stew of a specimen.
+  description: "C'est simplement un horrible mélange génétique de spécimen."
   components:
   - type: HarpySinger
     ShutUpDamageThreshold: 5 # Punch does 5 damage

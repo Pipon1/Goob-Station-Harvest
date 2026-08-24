@@ -1,8 +1,8 @@
 - type: entity
   parent: Cutlass
   id: RealFoamCutlass
-  name: foam cutlass
-  description: Cosplay as a pirate and force your friends to walk the plank.
+  name: sabre en mousse
+  description: Faites du cosplay pirate et forcez vos amis à marcher sur la planche.
   suffix: Real
   components:
   - type: Sprite

@@ -3,8 +3,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorEndCap
-  name: PA end-cap
-  description: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED].
+  name: bouchon terminal PA
+  description: Formellement connu sous le nom de Réseau de Génération de Particules Alpha. C'est là que les particules Alpha sont générées à partir de [REDACTED].
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/end_cap.rsi
@@ -21,9 +21,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorEndCapUnfinished
-  name: PA end-cap
+  name: bouchon terminal PA
   suffix: Unfinished
-  description: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED]. It looks unfinished.
+  description: Formellement connu sous le nom de Réseau de Génération de Particules Alpha. C'est là que les particules Alpha sont générées à partir de [REDACTED]. Il semble inachevé.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/end_cap.rsi

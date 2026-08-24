@@ -24,7 +24,7 @@
 - type: entity
   id: OxygenTankFilled
   parent: OxygenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -38,7 +38,7 @@
 - type: entity
   id: EmergencyOxygenTankFilled
   parent: EmergencyOxygenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -52,7 +52,7 @@
 - type: entity
   id: EmergencyNitrogenTankFilled
   parent: EmergencyNitrogenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -67,7 +67,7 @@
 - type: entity
   id: ExtendedEmergencyOxygenTankFilled
   parent: ExtendedEmergencyOxygenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -81,7 +81,7 @@
 - type: entity
   id: ExtendedEmergencyNitrogenTankFilled
   parent: ExtendedEmergencyNitrogenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -96,7 +96,7 @@
 - type: entity
   id: DoubleEmergencyOxygenTankFilled
   parent: DoubleEmergencyOxygenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -110,7 +110,7 @@
 - type: entity
   id: DoubleEmergencyNitrogenTankFilled
   parent: DoubleEmergencyNitrogenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -124,7 +124,7 @@
 - type: entity
   id: EmergencyFunnyOxygenTankFilled
   parent: EmergencyFunnyOxygenTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 22.4
@@ -140,7 +140,7 @@
 - type: entity
   id: AirTankFilled
   parent: AirTank
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 101.3
@@ -156,8 +156,8 @@
 - type: entity
   id: NitrogenTankFilled
   parent: NitrogenTank
-  suffix: Filled
-  name: nitrogen tank
+  suffix: Rempli
+  name: réservoir d'azote
   components:
   - type: GasTank
     air:
@@ -170,8 +170,8 @@
 - type: entity
   id: NitrousOxideTankFilled
   parent: NitrousOxideTank
-  suffix: Filled
-  name: nitrous oxide tank
+  suffix: Rempli
+  name: réservoir d'oxyde nitreux
   components:
   - type: GasTank
     #      0.21  | % oxygen in normal atmosphere
@@ -192,8 +192,8 @@
 - type: entity
   id: PlasmaTankFilled
   parent: PlasmaTank
-  name: plasma tank
-  suffix: Filled
+  name: réservoir de plasma
+  suffix: Rempli
   components:
   - type: GasTank
     outputPressure: 5.325

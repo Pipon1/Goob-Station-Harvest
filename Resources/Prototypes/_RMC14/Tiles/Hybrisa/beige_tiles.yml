@@ -2,12 +2,12 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorHybrisaBeigeBase
-  name: tiles-cm-default-beige
+  name: tiles-cm-défaut-beige
 
 - type: tile
   parent: RMCFloorHybrisaBeigeBase
   id: RMCFloorHybrisaBeige
-  name: beige metal tile
+  name: dalle de métal beige
   sprite: /Textures/_RMC14/Tiles/hybrisa/tilebeige.png
 
 - type: tile
@@ -43,7 +43,7 @@
 - type: tile
   parent: RMCFloorHybrisaBeigeBase
   id: RMCFloorHybrisaBeigeCarpet
-  name: beige carpet
+  name: tapis beige
   sprite: /Textures/_RMC14/Tiles/hybrisa/carpetbeige.png
 
 - type: tile
@@ -54,5 +54,5 @@
 - type: tile
   parent: RMCFloorHybrisaBeigeCarpet
   id: RMCFloorHybrisaBrownPatternCarpet
-  name: brown metal tile
+  name: tapis motif marron
   sprite: /Textures/_RMC14/Tiles/hybrisa/carpetpatternbrown.png

@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: forensic scanner
+  name: scanner médico-légal
   parent: [ BaseItem, BaseSecurityContraband ]
   id: ForensicScanner
-  description: A handheld device that can scan objects for fingerprints and fibers.
+  description: Un dispositif portable capable de scanner des objets pour détecter des empreintes digitales et des fibres.
   components:
   - type: Sprite
     sprite: Objects/Devices/forensic_scanner.rsi
@@ -33,10 +33,10 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: rapport de scanner médico-légal
   parent: Paper
   id: ForensicReportPaper
-  description: Circumstantial evidence, at best.
+  description: Des preuves circonstancielles, au mieux.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ForensicReportPaper
   id: PaperAccessLogs
-  name: access logs
-  description: A printout from the detective's trusty LogProbe.
+  name: journaux d'accès
+  description: Une page imprimée provenant du LogProbe fidèle du détective.
   components:
   - type: PaperVisuals
     headerImagePath: null

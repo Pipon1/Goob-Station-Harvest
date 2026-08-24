@@ -4,8 +4,8 @@
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
   parent: BaseStructure
-  name: table frame
-  description: Pieces of metal that make the frame of a table.
+  name: cadre de table
+  description: Pièces de métal qui composent le cadre d'une table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -60,8 +60,8 @@
 - type: entity
   id: CounterWoodFrame
   parent: BaseStructure
-  name: wooden counter frame
-  description: Pieces of wood that make the frame of a table.
+  name: cadre de comptoir en bois
+  description: Pièces de bois qui composent le cadre d'une table.
   components:
   - type: SpriteFade
   - type: Sprite
@@ -118,8 +118,8 @@
 - type: entity
   id: CounterMetalFrame
   parent: CounterWoodFrame
-  name: metal counter frame
-  description: Pieces of metal that make the frame of a table.
+  name: cadre de comptoir en métal
+  description: Pièces de métal qui composent le cadre d'une table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -164,7 +164,7 @@
   id: Table
   parent: TableBase
   name: table
-  description: A square piece of metal standing on four metal legs.
+  description: Un morceau de métal carré sur quatre pieds en métal.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/generic.rsi
@@ -210,8 +210,8 @@
 - type: entity
   id: TableReinforced
   parent: TableBase
-  name: reinforced table
-  description: A square piece of metal standing on four metal legs. Extra robust.
+  name: table renforcée
+  description: Un morceau de métal carré sur quatre pieds en métal. Extra robuste.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/reinforced.rsi
@@ -259,8 +259,8 @@
 - type: entity
   id: TableGlass
   parent: TableBase
-  name: glass table
-  description: A square piece of glass, standing on four metal legs.
+  name: table en verre
+  description: Un morceau de verre carré, sur quatre pieds en métal.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/glass.rsi
@@ -315,8 +315,8 @@
 - type: entity
   id: TableCard
   parent: TableBase
-  name: cardboard table
-  description: Cardboard sheets wrapped around a metal table frame.
+  name: table en carton
+  description: Feuilles de carton enroulées autour d'un cadre de table en métal.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/card.rsi
@@ -370,8 +370,8 @@
 - type: entity
   id: TableReinforcedGlass
   parent: TableBase
-  name: reinforced glass table
-  description: A square piece of glass, standing on four metal legs. Extra robust.
+  name: table en verre renforcé
+  description: Un morceau de verre carré, sur quatre pieds en métal. Extra robuste.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/r_glass.rsi
@@ -429,8 +429,8 @@
 - type: entity
   id: TablePlasmaGlass
   parent: TableBase
-  name: plasma glass table
-  description: A square piece of plasma glass, standing on four metal legs. Pretty!
+  name: table en verre de plasma
+  description: Un morceau de verre de plasma carré, sur quatre pieds en métal. Joli !
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/plasma.rsi
@@ -488,8 +488,8 @@
 - type: entity
   id: TableBrass
   parent: TableBase
-  name: brass table
-  description: A shiny, corrosion resistant brass table. Steampunk!
+  name: table en laiton
+  description: Une table brillante en laiton, résistante à la corrosion. Steampunk !
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/brass.rsi
@@ -533,8 +533,8 @@
 - type: entity
   id: TableWood
   parent: TableBase
-  name: wood table
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: table en bois
+  description: N'approchez pas de feu sur ça. On dit qu'elle brûle facilement.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -585,8 +585,8 @@
 - type: entity
   id: TableCarpet
   parent: TableBase
-  name: gambling table
-  description: Play em' cowboy.
+  name: table de jeu
+  description: Joue, cowboy.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/carpet.rsi
@@ -640,8 +640,8 @@
 - type: entity
   id: TableStone
   parent: TableBase
-  name: stone table
-  description: Literally the sturdiest thing you have ever seen.
+  name: table en pierre
+  description: Littéralement la chose la plus solide que vous ayez jamais vue.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/stone.rsi
@@ -669,8 +669,8 @@
 - type: entity
   id: TableWeb
   parent: TableBase
-  name: web table
-  description: Really smooth and surprisingly durable.
+  name: table toile
+  description: Vraiment lisse et surprenamment durable.
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -705,8 +705,8 @@
 - type: entity
   parent: TableBase
   id: TableXeno
-  name: xeno table
-  description: I wouldn't put the silverware on it.
+  name: table xéno
+  description: Je ne mettrais pas l'argenterie dessus.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/xeno.rsi
@@ -733,8 +733,8 @@
   id: TableFancyBase
   abstract: true
   parent: TableBase
-  name: fancy table
-  description: Expensive and rich.
+  name: table de luxe
+  description: Coûteuse et riche.
   components:
   - type: Damageable
     damageModifierSet: Wood
@@ -931,7 +931,7 @@
   id: TableDebug
   parent: TableBase
   name: table
-  description: PUT ON THEM CODERSOCKS!!
+  description: METTEZ VOS CODERSOCKS !!
   suffix: DEBUG
   components:
   - type: Tag
@@ -955,8 +955,8 @@
 - type: entity
   id: TableCounterWood
   parent: CounterBase
-  name: wood counter
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: comptoir en bois
+  description: N'approchez pas de feu sur ça. On dit qu'il brûle facilement.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi
@@ -1001,8 +1001,8 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: metal counter
-  description: Looks like a good place to put a drink down.
+  name: comptoir en métal
+  description: Ça a l'air d'être un bon endroit pour poser un verre.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/countermetal.rsi

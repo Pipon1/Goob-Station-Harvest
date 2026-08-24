@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: behonker
+  name: tyrahonk
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: BaseMobBehonker
   abstract: true
-  description: A floating demon aspect of the honkmother.
+  description: Un aspect démoniaque flottant de la honkmother.
   components:
     - type: GhostRole
       allowMovement: true

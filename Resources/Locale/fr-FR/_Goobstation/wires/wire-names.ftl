@@ -1,0 +1,1 @@
+wires-board-name-camera = Caméra de Surveillance

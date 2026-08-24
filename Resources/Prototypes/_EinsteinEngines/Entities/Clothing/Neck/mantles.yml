@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOldClothWrap
-  name: old cloth wrap
-  description: A tattered fabric wrap, faded over the years. Smells faintly of cigars.
+  name: enveloppe de tissu ancien
+  description: Une enveloppe de tissu en lambeaux, délavée au fil des ans. Sent légèrement le cigare.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Neck/Mantles/oldmantle.rsi

@@ -1,7 +1,7 @@
 jobs-1 = commandement
-jobs-2 = bridge
-jobs-3 = centcom
-jobs-4 = central command
+jobs-2 = pont
+jobs-3 = centcomm
+jobs-4 = commandement central
 jobs-5 = service
 jobs-6 = personnel
 jobs-7 = hop
@@ -31,5 +31,5 @@ jobs-30 = cargo
 jobs-31 = quartier-maître
 jobs-32 = médical
 jobs-33 = médecin
-jobs-34 = paramedic
+jobs-34 = urgentiste
 jobs-35 = cmo

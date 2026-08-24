@@ -1,0 +1,22 @@
+figurines-devil-1 = Ne voulez-vous pas serrer la main d'un pauvre pécheur ?
+figurines-devil-2 = Bien sûr que tu peux me faire confiance ! Signe juste ce contrat !
+figurines-devil-3 = Le chapelain est un escroc, ne lui fais pas confiance !
+figurines-devil-4 = As-tu entendu parler du prochain grand investissement crypto ? Ça s'appelle « Goobcoin » et ça va à la lune !
+figurines-devil-5 = Contractant ? Contracté ? C'est vraiment la même chose.
+figurines-devil-6 = CHAPELAIN !! JE SUIS UN MEMBRE D'ÉQUIPAGE !! JE SUIS UN MEMBRE D'ÉQUIPAGE !!
+figurines-devil-7 = Hé ! Où vas-tu avec mon codex ? Rends-le moi !
+figurines-devil-8 = Quoi ? Non, « Force » te rendra plus fort, fais-moi juste confiance !
+figurines-devil-9 = J'ai dit que je voulais ton « Âme », pas ta « Semelle ». Reprends les chaussures !
+figurines-devil-10 = Pas de filles ? Je peux t'aider avec ça.
+figurines-devil-11 = Vrai nom ? Tu n'as pas besoin de t'en préoccuper.
+
+figurines-brigmedic-1 = Rappelez-vous, équipe, je suis la seule chose qui se tient entre vous et la mort instantanée !
+figurines-brigmedic-2 = Guérir n'est pas aussi gratifiant que faire du mal.
+figurines-brigmedic-3 = Viens ici. Je te promesse que je vais te guérir !
+figurines-brigmedic-4 = Ce n'est pas un crime de guerre si tu t'es amusé.
+figurines-brigmedic-5 = Oups ! Ce n'était pas de la médecine !
+figurines-brigmedic-6 = Ugh, je ne pense pas que nous avons apporté assez de sacs mortuaires.
+figurines-brigmedic-7 = Oui, ce produit chimique vert brillant est totalement juste de l'acide pentënique.
+figurines-brigmedic-8 = Reste en vie, je n'ai pas gaspillé tous mes médicaments pour rien.
+figurines-brigmedic-9 = Convention de Genève ? Plus comme Suggestion de Genève !
+figurines-brigmedic-10 = Tu appelles ça une blessure ? J'en ai vu pire d'une seule balle !

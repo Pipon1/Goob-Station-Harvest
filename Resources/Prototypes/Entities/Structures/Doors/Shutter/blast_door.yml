@@ -3,8 +3,8 @@
 - type: entity
   id: BlastDoor
   parent: BaseShutter
-  name: blast door
-  description: This one says 'BLAST DONGER'.
+  name: porte blindée
+  description: C'est marqué « PORTE BLINDÉE ».
   components:
   - type: AccessReader
     containerAccessProvider: board
@@ -76,8 +76,8 @@
 - type: entity
   id: BlastDoorFrame
   parent: BaseStructureDynamic
-  name: blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: cadre de porte blindée
+  description: C'est marqué « PORTE BLINDÉE ».
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: BlastDoor
   id: BlastDoorXeno
-  name: xeno blast door
-  description: Don't lose an arm!
+  name: porte blindée xéno
+  description: Ne perdez pas un bras !
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BlastDoorXenoFrame
-  name: xeno blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: cadre de porte blindée xéno
+  description: C'est marqué « PORTE BLINDÉE ».
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: BlastDoor
   id: BlastDoorXenoborg
-  name: xenoborg blast door
-  description: Don't lose a head!
+  name: porte blindée xénoborg
+  description: Ne perdez pas la tête !
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/xenoborg_blastdoor.rsi

@@ -5,8 +5,8 @@
 # Advertisements
 - type: entity
   id: MailRobustToolsSpam
-  name: Robust Toolbox - Special Offer!
-  description: An advertisement for the robust toolboxes.
+  name: Offre spéciale ! Boîtes à outils robustes !
+  description: Une publicité pour les boîtes à outils robustes.
   parent: Paper
   components:
   - type: Paper
@@ -14,8 +14,8 @@
 
 - type: entity
   id: MailNanotrasenSpam
-  name: Reasons to choose Nanotrasen!
-  description: An advertisement for the Nanotrasen.
+  name: Raisons de choisir Nanotrasen !
+  description: Une publicité pour Nanotrasen.
   parent: Paper
   components:
   - type: Paper
@@ -23,8 +23,8 @@
 
 - type: entity
   id: MailSyndicateSpam
-  name: Reasons to choose The Syndicate!
-  description: An advertisement for the The Syndicate.
+  name: Raisons de choisir le Syndicat !
+  description: Une publicité pour le Syndicat.
   parent: Paper
   components:
   - type: Paper
@@ -32,8 +32,8 @@
 
 - type: entity
   id: MailAlternativeDimensionSpam
-  name: Send reinforcements!
-  description: An official notice from... an alternate timeline?
+  name: Envoyez des renforts !
+  description: Un avis officiel d'... une timeline alternative ?
   parent: Paper
   components:
   - type: Paper
@@ -41,8 +41,8 @@
 
 - type: entity
   id: MailNarsieCultSpam
-  name: The Children of Nar'Sie
-  description: A local cult is looking for recruits.
+  name: Les Enfants de Nar'Sie
+  description: Un culte local recrute des membres.
   parent: Paper
   components:
   - type: Paper
@@ -50,8 +50,8 @@
 
 - type: entity
   id: MailRageCageSpam
-  name: Do you want to fight?!
-  description: Advertisement for a local fighting club.
+  name: Tu veux te battre ?!
+  description: Publicité pour un club de combat local.
   parent: Paper
   components:
   - type: Paper
@@ -59,8 +59,8 @@
 
 - type: entity
   id: MailVoyageAdvertisementSpam
-  name: Join us on the maiden voyage!
-  description: Advertisement for a relaxing voyage.
+  name: Rejoignez-nous pour le voyage inaugural !
+  description: Publicité pour un voyage relaxant.
   parent: Paper
   components:
   - type: Paper
@@ -69,8 +69,8 @@
 # Scam Mail
 - type: entity
   id: MailScienceSpiderClanSpam
-  name: Tired of science blowing up?
-  description: Follow these simple steps to ensure it never happens again!
+  name: Fatigué que la science explose tout le temps ?
+  description: Suivez ces étapes simples pour vous assurer que ça n'arrive plus jamais !
   parent: Paper
   components:
   - type: Paper
@@ -78,8 +78,8 @@
 
 - type: entity
   id: MailAllAccessSpam
-  name: FREE ALL AXCESS!! # Spelling mistake intentional
-  description: Did you ever want free all access?!
+  name: ALL AXCÈS GRATUIT !! # Faute d'orthographe intentionnelle
+  description: Tu as déjà voulu avoir un all acces gratuit ?!
   parent: Paper
   components:
   - type: Paper
@@ -87,8 +87,8 @@
 
 - type: entity
   id: MailCentcommRetributionSpam
-  name: NOTICE FROM NANOTRASN!! # Spelling mistake intentional
-  description: An official notice from the CEO of Nanotrasn?!
+  name: AVIS DE NANOTRASN!! # Faute d'orthographe intentionnelle
+  description: Un avis officiel du PDG de Nanotrasn ?!
   parent: Paper
   components:
   - type: Paper
@@ -96,8 +96,8 @@
 
 - type: entity
   id: MailEvilLizardSpam
-  name: DO NOT OPEN THIS MAIL
-  description: You have been cursed!
+  name: N'OUVREZ PAS CE COURRIER
+  description: Vous avez été maudit !
   parent: Paper
   components:
   - type: Paper
@@ -105,9 +105,18 @@
 
 - type: entity
   id: MailParentsNeedMoneySpam
-  name: Help mom and dad!
-  description: Parents in need of financial support.
+  name: Aide maman et papa !
+  description: Des parents ont besoin d'aide financière.
   parent: Paper
   components:
   - type: Paper
     content: delivery-spam-parents-need-money
+
+- type: entity
+  id: MailAngryReaderSpam
+  name: VOUS LES AVEZ TUÉS !!!!
+  description: Une lettre à un éditeur.
+  parent: Paper
+  components:
+  - type: Paper
+    content: delivery-spam-angry-reader

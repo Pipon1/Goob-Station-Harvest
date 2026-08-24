@@ -45,7 +45,7 @@
   id: MechRipley2
   parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
   name: Ripley APLU MK-II
-  description: The "MK-II" has a pressurized cabin for space operations, but the added weight has slowed it down.
+  description: Le "MK-II" possède une cabine pressurisée pour les opérations spatiales, mais le poids supplémentaire l'a ralenti.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -103,7 +103,7 @@
   id: MechClarke
   parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
   name: Clarke
-  description: A fast-moving mech for space travel. It has built-in trusts.
+  description: Un mécha rapide pour les voyages spatiaux. Il possède des propulseurs intégrés.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -174,7 +174,7 @@
   id: MechGygax
   parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
   name: Gygax
-  description: While lightly armored, the Gygax has incredible mobility thanks to its ability that lets it smash through walls at high speeds.
+  description: Bien que légèrement blindé, le Gygax possède une mobilité incroyable grâce à sa capacité à fracasser les murs à grande vitesse.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -233,7 +233,7 @@
   id: MechDurand
   parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
   name: Durand
-  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
+  description: Un exosuit de combat lent mais robuste qui est particulièrement effrayant dans les espaces confinés grâce à ses coups de poing. Les Xenos le détestent !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -300,7 +300,7 @@
   id: MechMarauder
   parent: [ BaseMech, CombatMech, BaseCentcommContraband ]
   name: Marauder
-  description: Looks like we're all saved. # ERT mech
+  description: On dirait qu'on est tous sauvés. # Mécha ERT
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -373,7 +373,7 @@
   id: MechSeraph
   parent: [ BaseMech, CombatMech, BaseCentcommContraband ]
   name: Seraph
-  description: That's the last thing you'll see. # Death Squad mech
+  description: C'est la dernière chose que vous verrez. # Mech de l'escouade de la mort
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -448,8 +448,8 @@
 - type: entity
   id: MechGygaxSyndie
   parent: [ BaseMech, CombatMech, BaseSyndicateAnchoredContraband ]
-  name: Dark Gygax
-  description: A modified Gygax used for nefarious purposes. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: Gygax Obscur
+  description: Un Gygax modifié utilisé à des fins néfastes. Au dos de la plaque de blindage, il y a une inscription "Cybersun Inc."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -521,8 +521,8 @@
 - type: entity
   id: MechMaulerSyndie
   parent: [ BaseMech, CombatMech, BaseSyndicateContraband ]
-  name: Mauler
-  description: A modified Marauder used by the Syndicate that's not as maneuverable as the Dark Gygax, but it makes up for that in armor and sheer firepower. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: Broyeur
+  description: Un Marauder modifié utilisé par le Syndicat, moins manœuvrable que le Gygax Obscur, mais il compense par son blindage et sa puissance de feu brute. Au dos de la plaque de blindage, il y a une inscription "Cybersun Inc."
   components:
   - type: Sprite
     drawdepth: Mobs

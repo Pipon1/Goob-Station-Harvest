@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitResponsoryJanitorial
-  name: Janitorial Responsory modsuit control unit
-  description: The main controller for a Janitorial Responsory modsuit.
+  name: unité de contrôle de combimod Responsory de Conciergerie
+  description: "Le contrôleur principal d'une combimod Responsory de Conciergerie."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/NanoTrasen/Modsuits/janitorial-responsory.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsResponsoryJanitorial
-  name: Janitorial Responsory modsuit gauntlets
-  description: A pair of gauntlets made for the Janitorial Responsory modsuit.
+  name: gantelets de combimod Responsory de Conciergerie
+  description: Une paire de gantelets conçus pour la combimod Responsory de Conciergerie.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetResponsoryJanitorial
-  name: Janitorial Responsory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Janitorial Responsory modsuit. It includes a built-in HUD.
+  name: casque de combimod Responsory de Conciergerie
+  description: Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Conciergerie. Il inclut un HUD intégré.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateResponsoryJanitorial
-  name: Janitorial Responsory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Janitorial Responsory modsuit. It incorporates powered servos to reduce the equipment load.
+  name: plastron de combimod Responsory de Conciergerie
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory de Conciergerie. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsResponsoryJanitorial
-  name: Janitorial Responsory modsuit boots
-  description: A state-of-the-art pair of magboots for the Janitorial Responsory modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: bottes de combimod Responsory de Conciergerie
+  description: Une paire de magbottes à la pointe de la technologie pour la combimod Responsory de Conciergerie. Tant que la combinaison est alimentée, celles-ci ne ralentiront pas le porteur.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -180,7 +180,7 @@
 - type: entity
   id: SuitStorageResponsoryJanitorial
   parent: SuitStorageBase
-  suffix: Janitorial Responsory Modsuit
+  suffix: Combimod Responsory de Conciergerie
   components:
     - type: StorageFill
       contents:

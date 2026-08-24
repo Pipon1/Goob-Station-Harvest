@@ -1,0 +1,1 @@
+teleport-blocked-message = Vous ne pouvez pas vous téléporter maintenant !

@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: janitor's key ring
+  name: trousseau de clés du concierge
   id: KeyRingJanitor
   parent: [BaseItem, BaseJanitorContraband]
-  description: A janitor's best friend; their trusty old key ring. You can never quite remember which key goes where.
+  description: Le meilleur ami d'un concierge ; son fidèle vieux trousseau de clés. On ne se souvient jamais vraiment quelle clé va où.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Janitorial/keyring.rsi

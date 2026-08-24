@@ -1,0 +1,2 @@
+petting-failure-gemini = Vous tendez la main pour caresser {THE($target)}, mais {POSS-ADJ($target)} se dissipe en minuscules nanomachines devant vos mains.
+petting-success-gemini = Vous caressez {THE($target)} sur {POSS-ADJ($target)} tête composée de nanomachines.

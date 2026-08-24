@@ -1,8 +1,8 @@
 - type: entity
   id: MobLegion
   parent: BaseMobAsteroid
-  name: legion humanoid
-  description: You can still see what was once a human under the shifting mass of corruption.
+  name: humanoïde légion
+  description: On peut encore voir ce qui était autrefois un humain sous la masse changeante de corruption.
   components:
   - type: Sprite
     sprite: _Lavaland/Mobs/legion.rsi
@@ -64,8 +64,8 @@
 - type: entity
   id: MobLegionSkull
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: legion skull
-  description: A fragment of the original legion, rallying behind its original. One isn't much of a threat, but...
+  name: crâne légion
+  description: Un fragment de la légion originelle, se ralliant derrière son original. Un seul n'est pas vraiment une menace, mais...
   components:
   - type: Sprite
     sprite: _Lavaland/Mobs/legion.rsi

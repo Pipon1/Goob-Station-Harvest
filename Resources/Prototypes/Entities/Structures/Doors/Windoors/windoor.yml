@@ -3,44 +3,44 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: windoor
-  description: It's a window and a sliding door. Wow!
+  name: porte-fenêtre
+  description: C'est une fenêtre et une porte coulissante. Wow !
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: secure windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: porte-fenêtre sécurisée
+  description: C'est une fenêtre robuste et une porte coulissante. Wow !
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: porte-fenêtre clockwork
+  description: C'est une fenêtre robuste et une porte coulissante. Wow !
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: plasma windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: porte-fenêtre plasma
+  description: C'est une fenêtre rose *et* une porte coulissante. Incroyable !
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: secure plasma windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: porte-fenêtre plasma sécurisée
+  description: C'est une fenêtre violette robuste *et* une porte coulissante. Spectaculaire !
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: uranium windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: porte-fenêtre uranium
+  description: C'est une fenêtre et une porte coulissante. Hein ? Ah, et elle est verte !
 
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: secure uranium windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: porte-fenêtre uranium sécurisée
+  description: C'est une fenêtre robuste et une porte coulissante. Elle est si néon vert qu'on dirait du citron vert !
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)
@@ -532,9 +532,9 @@
 - type: entity #Goob Content Start
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureSyndicateLockedIndestructable
-  suffix: Syndicate, Locked, Plasma, Indestructable
-  name: secure plasma windoor?
-  description: You have a bad feeling about this.
+  suffix: Syndicat, Verrouillé, Plasma, Indestructible
+  name: porte-fenêtre plasma sécurisée ?
+  description: Vous avez un mauvais pressentiment à ce sujet.
   components:
   - type: ContainerFill
     containers:

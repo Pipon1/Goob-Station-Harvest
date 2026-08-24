@@ -6,8 +6,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWeb
-  name: web vest
-  description: A synthetic armor vest. This one has added webbing and ballistic plates.
+  name: gilet tactique
+  description: Un gilet pare-balles synthétique. Celui-ci est équipé de sangles supplémentaires et de plaques balistiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWebElite
-  name: elite web vest
-  description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
+  name: gilet tactique d'élite
+  description: Un gilet pare-balles synthétique. Celui-ci est équipé de sangles supplémentaires et de fibres résistantes à la chaleur.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/elitevest.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: [ BaseMajorContraband, ClothingOuterVestWeb] #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebMerc
-  name: mercenary web vest
-  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+  name: gilet tactique de mercenaire
+  description: Un gilet blindé de haute qualité fabriqué à partir d'un matériau synthétique rigide. Il est étonnamment flexible et léger, malgré un blindage imposant.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterVestDetective
-  name: detective's vest
-  description: A hard-boiled private investigator's armored vest.
+  name: gilet de détective
+  description: Un gilet blindé de détective privé endurci.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: gilet haute visibilité
+  description: Un gilet haute visibilité utilisé dans les zones de travail.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: gilet
+  description: Un gilet épais avec une enveloppe caoutchouteuse résistante à l'eau.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: tank harness
-  description: A simple harness that can hold a gas tank.
+  name: harnais pour bouteille
+  description: Un simple harnais capable de maintenir une bouteille de gaz.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi

@@ -31,7 +31,7 @@ public sealed partial class HumanoidProfileEditor
             .Where(o => o.RoundStart &&
                         (o.SpeciesWhitelist is null ||
                          o.SpeciesWhitelist.Contains(Profile.Species)))
-            .OrderBy(o => Loc.GetString(o.ID))
+            .OrderBy(o => o.Name) //Harvest change: forces the protomanager to consider strings as names to avoid duplicate localization lookup spam, was: .OrderBy(o => Loc.GetString(o.ID))
             .ToList();
 
         BarkVoiceButton.Clear();
@@ -43,7 +43,7 @@ public sealed partial class HumanoidProfileEditor
             if (bark == Profile.BarkVoice)
                 selectedBarkId = i;
 
-            BarkVoiceButton.AddItem(Loc.GetString(bark.Name), i);
+            BarkVoiceButton.AddItem(bark.Name, i); //Harvest change: forces the protomanager to consider strings as names to avoid duplicate localization lookup spam, was: BarkVoiceButton.AddItem(Loc.GetString(bark.Name), i);
         }
 
         if (selectedBarkId == -1)

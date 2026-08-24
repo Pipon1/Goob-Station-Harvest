@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseItem, BaseMinorContraband]
   id: ThrowingStar
-  name: throwing star
-  description: An ancient weapon still used to this day, due to its ease of lodging itself into its victim's body parts.
+  name: shuriken
+  description: Une arme antique encore utilisée aujourd'hui, du fait de sa facilité à s'incruster dans les parties du corps de sa victime.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Throwable/throwing_star.rsi
@@ -48,7 +48,7 @@
 - type: entity
   parent: ThrowingStar
   id: ThrowingStarNinja
-  name: ninja throwing star
+  name: shuriken ninja
   components:
   # prevent ninja crashing server + filling bag with 20 stars to instakill a single person
   # also limits the crew's use

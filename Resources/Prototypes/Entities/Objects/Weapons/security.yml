@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: stun baton
+  name: matraque paralysante
   parent: [BaseItem, BaseSecurityContraband]
   id: Stunbaton
-  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  description: Une matraque paralysante pour neutraliser les gens. L'utiliser pour blesser activement est considéré comme de mauvais ton.
   components:
   - type: Tag # goob edit
     tags:
@@ -108,10 +108,10 @@
     form: CorporateJudo # Goobstation - Martial Arts
 
 - type: entity
-  name: truncheon
+  name: matraque
   parent: [BaseItem, BaseSecurityContraband]
   id: Truncheon
-  description: A rigid, steel-studded baton, meant to harm.
+  description: Une matraque rigide à clous d'acier, conçue pour blesser.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -150,7 +150,7 @@
   parent: [BaseItem, BaseSecurityScienceCommandContraband]
   id: Flash
   suffix: DO NOT MAP
-  description: An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
+  description: Une ampoule ultra-brillante avec un déclencheur, qui étourdit la victime et lui fait perdre la vue un instant. Inutile une fois grillée.
   components:
     # Goobstation edit start
     - type: EmitSoundOnPickup
@@ -217,10 +217,10 @@
       maxCharges: 2
 
 - type: entity
-  name: portable flasher
+  name: flasheur portable
   parent: [BaseMachine, BaseSecurityContraband]
   id: PortableFlasher
-  description: An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
+  description: Une ampoule ultra-brillante avec un déclencheur de proximité, utile pour rendre une zone accessible uniquement à la sécurité.
   components:
     - type: EmitSoundOnTrigger
       predicted: true

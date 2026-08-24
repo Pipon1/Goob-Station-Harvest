@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasChrono
-  name: futuristic gasmask
-  description: A futuristic gas mask of unknown design with an unimaginable number of filtration systems
+  name: masque à gaz futuriste
+  description: Un masque à gaz futuriste de design inconnu avec un nombre inimaginable de systèmes de filtration
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Mask/chronolegioneer.rsi
@@ -19,14 +19,14 @@
 - type: entity
   parent: ClothingMaskGasChrono
   id: ClothingMaskGasChronoUnremoveable
-  suffix: Unremoveable
+  suffix: Inamovible
   components:
   - type: Unremoveable
 
 - type: entity
   parent: ClothingMaskClown
   id: ClothingMaskClownUnremoveable
-  name: unremoveable banana clown wig and mask
+  name: perruque et masque de clown banane inamovibles
   components:
   - type: Unremoveable
   - type: FlashImmunity
@@ -35,9 +35,9 @@
 - type: entity
   parent: [ClothingMaskBase, BaseMinorContraband]
   id: ClothingMaskGasVoiceCraftable
-  suffix: Voice Mask, Craftable
-  name: Voice Modulator Mask
-  description: A poorly constructed voice modulator made of a gasmask and voice trigger.
+  suffix: Masque Vocal, Fabricable
+  name: Masque Modulateur Vocal
+  description: Un modulateur vocal mal construit fait d'un masque à gaz et d'un déclencheur vocal.
   components:
     - type: Sprite
       sprite: Clothing/Mask/gas.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasHalf
-  name: half gas mask
-  description: A gas mask... only the half of it.
+  name: demi-masque à gaz
+  description: Un masque à gaz... à moitié seulement.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Mask/gashalf.rsi
@@ -92,8 +92,8 @@
 - type: entity # TODO: Whenever vampirism is ported, make this block it.
   parent: ClothingMaskBase
   id: ClothingMaskMuzzleSecure
-  name: secure muzzle
-  description: Can prevent vampires from biting people, or prevent annoying people from talking.
+  name: muselière sécurisée
+  description: Peut empêcher les vampires de mordre les gens, ou empêcher les gens agaçants de parler.
   components:
   - type: Item
     size: Tiny
@@ -113,8 +113,8 @@
 - type: entity # TODO: Whenever vampirism is ported, make this block it, and shock.
   parent: ClothingMaskMuzzleSecure
   id: ClothingMaskMuzzleShock
-  name: shock muzzle
-  description: A muzzle designed to prevent biting. This one is fitted with a behaviour correction system.
+  name: muselière électrique
+  description: Une muserolle conçue pour empêcher les morsures. Celle-ci est équipée d'un système de correction comportementale.
   components:
   - type: ShockOnTrigger
   - type: TriggerOnSpeak
@@ -124,15 +124,15 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingMaskGasUnremoveable
-  suffix: Unremoveable
+  suffix: Inamovible
   components:
   - type: Unremoveable
 
 - type: entity
   parent: [ ClothingMaskGas, BaseCentcommContraband ]
   id: ClothingBSOMaskGasSwat
-  name: Blueshield SWAT gas mask
-  description: A standard issue gas mask for BlueShield Officers
+  name: masque à gaz SWAT blueshield
+  description: Un masque à gaz standard émis aux officiers du Bouclier Bleu.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Mask/bsoswat.rsi
@@ -165,9 +165,9 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGasThunderdome
-  name: Thunderdome gas mask
-  suffix: DONT MAP
-  description: ARE YOU READY TO RUMBLEEEE?
+  name: masque à gaz du Thunderdome
+  suffix: NE PAS PLACER
+  description: ÊTES-VOUS PRÊTS À EN DÉCOUDRE ?
   components:
   - type: Item
     size: Tiny

@@ -1,0 +1,2 @@
+upgrade-kit-automation = [color=cyan]Automatisation[/color] : fournit [color=green]liaison de signaux[/color] et [color=green]ports d'objets pour bras robotique[/color].
+upgrade-kit-autodoc-bluespace = [color=cyan]Bluespace[/color] : fournit les effets des [color=green]gants chirurgicaux bluespace[/color], permettant d'opérer à travers les vêtements.

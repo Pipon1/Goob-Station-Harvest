@@ -37,8 +37,8 @@
 - type: entity
   parent: [WeaponEnergyCrossbowBase, BaseSyndicateContraband]
   id: WeaponEnergyCrossbow
-  name: mini energy crossbow
-  description: Launches renewable toxic arrows capable of flooring targets instantly.
+  name: mini arbalète énergétique
+  description: Tire des flèches toxiques renouvelables capables de mettre les cibles K.O. instantanément.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi

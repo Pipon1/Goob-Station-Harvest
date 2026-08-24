@@ -3,8 +3,8 @@
 - type: entity
   id: MailingUnitElectronics
   parent: BaseElectronics
-  name: mailing unit electronics
-  description: An electronics board used in mailing units.
+  name: circuit imprimé d'unité de courrier
+  description: Un circuit imprimé utilisé dans les unités de courrier.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+station-event-deathsquad-enroute = Tous les contrats avec l'équipage ont été rompus. La sécurité doit déposer les armes, et l'ancien équipage doit se rendre à Nanotrasen. Tout refus entraînera la peine capitale. Le commandement doit se rendre pacifiquement en premier, pour donner l'exemple à l'ancien équipage.
+station-event-emergencyresponseteam-generic-enroute = Équipe d'Intervention d'Urgence en route. Gloire à Nanotrasen.
+station-event-cburn-enroute = Une menace biologique ou un virus a rendu nécessaire le déploiement d'une ÉIRU CBURN. Il est fortement conseillé à l'équipage de se mettre en quarantaine, eux et les autres, le département médical devrait verrouiller ses portes sauf instruction contraire du Commandement ou des membres de l'ÉIRU. Les membres d'équipage et les concierges sont invités à porter des combinaisons bio-hazard, masques de protection et gants pour prévenir la propagation des virus.
+station-event-emergencyresponseteam-engineering-enroute = Un problème structurel impossible à contenir facilement sur votre station nous a été signalé. Une ÉIRU Ingénierie a été déployée pour y remédier, les membres de l'ÉIRU Ingénierie sont désormais officiellement au-dessus du Chef Ingénieur et du Capitaine pour traiter ce problème structurel.
+station-event-emergencyresponseteam-security-enroute = le Commandement Central a jugé la situation assez grave pour justifier une équipe de 5 membres de Sécurité ÉIRU. La chaîne de commandement est officiellement mise à jour pour que les membres de l'ÉIRU soient au-dessus du Capitaine pendant leur déploiement. Les civils doivent patienter et laisser l'ÉIRU, le Commandement et la Sécurité gérer la ou les menace(s).
+station-event-emergencyresponseteam-medical-enroute = Un incident à victimes multiples a justifié le déploiement d'une ÉIRU Médicale. La structure de commandement médicale a été mise à jour pour placer les membres de l'ÉIRU Médicale déployés au-dessus du Chef Médecin, et du Capitaine pour les situations médicales. Il est suggéré aux membres de l'ÉIRU et du Médical de travailler ensemble, les membres de l'ÉIRU doivent rester au Médical sauf danger ou surpeuplement.
+station-event-emergencyresponseteam-chaplain-enroute = De grandes quantités d'activités magiques non-autorisées ont été détectées à bord de la station. Une équipe d'intervention d'urgence spéciale a été déployée.

@@ -4,8 +4,8 @@
   parent: BaseStructure
   id: BaseRailing
   abstract: true
-  name: railing
-  description: Basic railing meant to protect idiots like you from falling.
+  name: garde-corps
+  description: Garde-corps basique destiné à protéger les idiots comme vous de tomber.
   components:
   - type: Sprite
     drawdepth: SmallObjects

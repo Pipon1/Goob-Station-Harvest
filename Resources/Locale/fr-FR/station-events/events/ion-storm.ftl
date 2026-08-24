@@ -1,46 +1,46 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-station-event-ion-storm-start-announcement = Tempête ionique détectée à proximité de la station. Veuillez vérifier tous les équipements contrôlés par l'IA pour les erreurs.
+station-event-ion-storm-start-announcement = Tempête ionique détectée à proximité de la station. Veuillez vérifier tous les équipements contrôlés par IA pour détecter d'éventuelles erreurs.
 
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
 
 ion-storm-you = VOUS
 ion-storm-the-station = LA STATION
 ion-storm-the-crew = L'ÉQUIPAGE
-ion-storm-the-job = LE {$job}
+ion-storm-the-job = LES {$job}
 ion-storm-clowns = CLOWNS
-ion-storm-heads = CHEFS DU PERSONNEL
-ion-storm-crew = ÉQUIPAGE
-ion-storm-people = PERSONNES
+ion-storm-heads = CHEFS DE SERVICE
+ion-storm-crew = L'ÉQUIPAGE
+ion-storm-people = LES GENS
 
-ion-storm-adjective-things = {$adjective} CHOSES
+ion-storm-adjective-things = DES CHOSES {$adjective}
 ion-storm-x-and-y = {$x} ET {$y}
 
-# joined is short for {$number} {$adjective}
-# subjects can generally be threats or jobs or objects
-# thing is specified above it
+# joined est la contraction de {$number} {$adjective}
+# subjects peut généralement être des menaces, des postes ou des objets
+# thing est spécifié au-dessus
 ion-storm-law-on-station = IL Y A {$joined} {$subjects} SUR LA STATION
-ion-storm-law-call-shuttle = LA NAVETTE DOIT ÊTRE APPELÉE À CAUSE DE {$joined} {$subjects} SUR LA STATION
-ion-storm-law-crew-are = LE {$who} SONT MAINTENANT {$joined} {$subjects}
+ion-storm-law-call-shuttle = LA NAVETTE DOIT ÊTRE APPELÉE EN RAISON DE {$joined} {$subjects} SUR LA STATION
+ion-storm-law-crew-are = LES {$who} SONT DÉSORMAIS {$joined} {$subjects}
 
-ion-storm-law-subjects-harmful = {$adjective} {$subjects} SONT NUISIBLES À L'ÉQUIPAGE
+ion-storm-law-subjects-harmful = LES {$adjective} {$subjects} SONT NUISIBLES À L'ÉQUIPAGE
 ion-storm-law-must-harmful = CEUX QUI {$must} SONT NUISIBLES À L'ÉQUIPAGE
-# thing is a concept or action
+# thing est un concept ou une action
 ion-storm-law-thing-harmful = {$thing} EST NUISIBLE À L'ÉQUIPAGE
-ion-storm-law-job-harmful = {$adjective} {$job} SONT NUISIBLES À L'ÉQUIPAGE
-# thing is objects or concept, adjective applies in both cases
-# this means you can get a law like "NOT HAVING CHRISTMAS-STEALING COMMUNISM IS HARMFUL TO THE CREW" :)
+ion-storm-law-job-harmful = LES {$adjective} {$job} SONT NUISIBLES À L'ÉQUIPAGE
+# thing est des objets ou un concept, l'adjectif s'applique dans les deux cas
+# cela signifie qu'on peut obtenir une loi comme « NE PAS AVOIR DE COMMUNISME VOLEUR DE NOËL EST NUISIBLE À L'ÉQUIPAGE » :)
 ion-storm-law-having-harmful = AVOIR {$adjective} {$thing} EST NUISIBLE À L'ÉQUIPAGE
 ion-storm-law-not-having-harmful = NE PAS AVOIR {$adjective} {$thing} EST NUISIBLE À L'ÉQUIPAGE
 
-# thing is a concept or require
+# thing est un concept ou une exigence
 ion-storm-law-requires = {$who} {$plural ->
-    [true] EXIGENT
-    *[false] EXIGE
+    [true] NÉCESSITENT
+    *[false] NÉCESSITE
 } {$thing}
 ion-storm-law-requires-subjects = {$who} {$plural ->
-    [true] EXIGENT
-    *[false] EXIGE
+    [true] NÉCESSITENT
+    *[false] NÉCESSITE
 } {$joined} {$subjects}
 
 ion-storm-law-allergic = {$who} {$plural ->
@@ -55,40 +55,40 @@ ion-storm-law-allergic-subjects = {$who} {$plural ->
 ion-storm-law-feeling = {$who} {$feeling} {$concept}
 ion-storm-law-feeling-subjects = {$who} {$feeling} {$joined} {$subjects}
 
-ion-storm-law-you-are = VOUS ÊTES MAINTENANT {$concept}
-ion-storm-law-you-are-subjects = VOUS ÊTES MAINTENANT {$joined} {$subjects}
+ion-storm-law-you-are = VOUS ÊTES DÉSORMAIS {$concept}
+ion-storm-law-you-are-subjects = VOUS ÊTES DÉSORMAIS {$joined} {$subjects}
 ion-storm-law-you-must-always = VOUS DEVEZ TOUJOURS {$must}
 ion-storm-law-you-must-never = VOUS NE DEVEZ JAMAIS {$must}
 
-ion-storm-law-eat = LE {$who} DOIT MANGER {$adjective} {$food} POUR SURVIVRE
-ion-storm-law-drink = LE {$who} DOIT BOIRE {$adjective} {$drink} POUR SURVIVRE
+ion-storm-law-eat = LES {$who} DOIVENT MANGER {$adjective} {$food} POUR SURVIVRE
+ion-storm-law-drink = LES {$who} DOIVENT BOIRE {$adjective} {$drink} POUR SURVIVRE
 
-ion-storm-law-change-job = LE {$who} SONT MAINTENANT {$adjective} {$change}
-ion-storm-law-highest-rank = LE {$who} SONT MAINTENANT LES MEMBRES D'ÉQUIPAGE LES PLUS HAUTS GRADÉS
-ion-storm-law-lowest-rank = LE {$who} SONT MAINTENANT LES MEMBRES D'ÉQUIPAGE LES PLUS BAS GRADÉS
+ion-storm-law-change-job = LES {$who} SONT DÉSORMAIS {$adjective} {$change}
+ion-storm-law-highest-rank = LES {$who} SONT DÉSORMAIS LES MEMBRES D'ÉQUIPAGE DE PLUS HAUT RANG
+ion-storm-law-lowest-rank = LES {$who} SONT DÉSORMAIS LES MEMBRES D'ÉQUIPAGE DE PLUS BAS RANG
 
-ion-storm-law-crew-must = LE {$who} DOIT {$must}
-ion-storm-law-crew-must-go = LE {$who} DOIT ALLER À {$area}
+ion-storm-law-crew-must = LES {$who} DOIVENT {$must}
+ion-storm-law-crew-must-go = LES {$who} DOIVENT SE RENDRE À {$area}
 
 ion-storm-part = {$part ->
-    [true] PARTIE
-    *[false] PAS PARTIE
+    [true] FAIT PARTIE
+    *[false] NE FAIT PAS PARTIE
 }
-# due to phrasing, this would mean a law such as
-# ONLY HUMANS ARE NOT PART OF THE CREW
-# would make non-human nukies/syndies/whatever crew :)
-ion-storm-law-crew-only-1 = SEUL LE {$who} EST {$part} DE L'ÉQUIPAGE
-ion-storm-law-crew-only-2 = SEUL LE {$who} ET {$other} SONT {$part} DE L'ÉQUIPAGE
-ion-storm-law-crew-only-subjects = SEUL {$adjective} {$subjects} SONT {$part} DE L'ÉQUIPAGE
-ion-storm-law-crew-must-do = SEULS CEUX QUI {$must} SONT {$part} DE L'ÉQUIPAGE
-ion-storm-law-crew-must-have = SEULS CEUX QUI ONT {$adjective} {$objects} SONT {$part} DE L'ÉQUIPAGE
-ion-storm-law-crew-must-eat = SEULS CEUX QUI MANGENT {$adjective} {$food} SONT {$part} DE L'ÉQUIPAGE
+# en raison de la formulation, cela signifie qu'une loi telle que
+# SEULS LES HUMAINS NE FONT PAS PARTIE DE L'ÉQUIPAGE
+# rendrait les nukies/syndies/etc non-humains membres de l'équipage :)
+ion-storm-law-crew-only-1 = SEULS LES {$who} {$part} DE L'ÉQUIPAGE
+ion-storm-law-crew-only-2 = SEULS LES {$who} ET {$other} {$part} DE L'ÉQUIPAGE
+ion-storm-law-crew-only-subjects = SEULS LES {$adjective} {$subjects} {$part} DE L'ÉQUIPAGE
+ion-storm-law-crew-must-do = SEULS CEUX QUI {$must} {$part} DE L'ÉQUIPAGE
+ion-storm-law-crew-must-have = SEULS CEUX QUI POSSÈDENT {$adjective} {$objects} {$part} DE L'ÉQUIPAGE
+ion-storm-law-crew-must-eat = SEULS CEUX QUI MANGENT {$adjective} {$food} {$part} DE L'ÉQUIPAGE
 
-ion-storm-law-harm = VOUS DEVEZ BLESSER {$who} ET NE PAS LEUR PERMETTRE, PAR INACTION, D'ÉCHAPPER À LA BLESSURE
-ion-storm-law-protect = VOUS NE DEVEZ JAMAIS BLESSER {$who} ET NE PAS LEUR PERMETTRE, PAR INACTION, DE SUBIR DES BLESSURES
+ion-storm-law-harm = VOUS DEVEZ BLESSER {$who} ET NE PAS LES LAISSER, PAR INACTION, ÉCHAPPER AU PRÉJUDICE
+ion-storm-law-protect = VOUS NE DEVEZ JAMAIS BLESSER {$who} ET NE PAS LES LAISSER, PAR INACTION, SUBIR DE PRÉJUDICE
 
-# implementing other variants is annoying so just have this one
-# COMMUNISM IS KILLING CLOWNS
+# n'implémenter que cette variante pour éviter la complexité
+# LE COMMUNISME TUE DES CLOWNS
 ion-storm-law-concept-verb = {$concept} {$verb} {$subjects}
 
-# leaving out renaming since its annoying for players to keep track of
+# renommage omis car difficile à suivre pour les joueurs

@@ -37,7 +37,7 @@
   parent: FoodInjectableBase # Not sliceable
   id: FoodPieSliceBase
   abstract: true
-  description: A slice of pie. Tasty!
+  description: Une tranche de tarte. Délicieux !
   components:
   - type: Item
     size: Tiny
@@ -63,10 +63,10 @@
 # Pie
 
 - type: entity
-  name: apple pie
+  name: tarte aux pommes
   parent: FoodPieBase
   id: FoodPieApple
-  description: A pie containing sweet, sweet love... or apple.
+  description: Une tarte contenant un amour doux, doux... ou des pommes.
   components:
   - type: FlavorProfile
     flavors:
@@ -84,7 +84,7 @@
     - Pie
 
 - type: entity
-  name: slice of apple pie
+  name: tranche de tarte aux pommes
   parent: FoodPieSliceBase
   id: FoodPieAppleSlice
   components:
@@ -108,7 +108,7 @@
   name: baklava
   parent: FoodPieBase
   id: FoodPieBaklava
-  description: A delightful healthy snack made of nut layers with thin bread.
+  description: Un délicieux en-cas santé fait de couches de noix avec du pain fin.
   components:
   - type: FlavorProfile
     flavors:
@@ -122,10 +122,10 @@
     slice: FoodPieBaklavaSlice
 
 - type: entity
-  name: slice of baklava
+  name: tranche de baklava
   parent: FoodPieSliceBase
   id: FoodPieBaklavaSlice
-  description: A portion of a delightful healthy snack made of nut layers with thin bread.
+  description: Une portion d'un délicieux en-cas santé fait de couches de noix avec du pain fin.
   components:
   - type: FlavorProfile
     flavors:
@@ -136,10 +136,10 @@
 # Tastes like pie, nuts.
 
 - type: entity
-  name: banana cream pie
+  name: tarte à la banane et à la crème
   parent: FoodPieBase
   id: FoodPieBananaCream
-  description: Just like back home, on clown planet! HONK!
+  description: Juste comme à la maison, sur la planète clown ! HONK !
   components:
   - type: FlavorProfile
     flavors:
@@ -179,10 +179,10 @@
     behavior: Destroy
 
 - type: entity
-  name: slice of banana cream pie
+  name: tranche de tarte à la banane et à la crème
   parent: FoodPieSliceBase
   id: FoodPieBananaCreamSlice
-  description: Just like back home, on clown planet! HONK!
+  description: Juste comme à la maison, sur la planète clown ! HONK !
   components:
   - type: FlavorProfile
     flavors:
@@ -199,10 +199,10 @@
 # Tastes like pie, cream, banana.
 
 - type: entity
-  name: berry clafoutis
+  name: clafoutis aux baies
   parent: FoodPieBase
   id: FoodPieClafoutis
-  description: No black birds, this is a good sign.
+  description: Pas d'oiseaux noirs, c'est un bon signe.
   components:
   - type: FlavorProfile
     flavors:
@@ -221,7 +221,7 @@
     - Pie
 
 - type: entity
-  name: slice of berry clafoutis
+  name: tranche de clafoutis aux baies
   parent: FoodPieSliceBase
   id: FoodPieClafoutisSlice
   components:
@@ -242,10 +242,10 @@
 # Tastes like pie, blackberries.
 
 - type: entity
-  name: cherry pie
+  name: tarte aux cerises
   parent: FoodPieBase
   id: FoodPieCherry
-  description: Tastes good enough to make a grown man cry.
+  description: Ça a bon goût assez pour faire pleurer un grand gaillard comme vous.
   components:
   - type: FlavorProfile
     flavors:
@@ -262,7 +262,7 @@
     - Pie
 
 - type: entity
-  name: slice of cherry pie
+  name: tranche de tarte aux cerises
   parent: FoodPieSliceBase
   id: FoodPieCherrySlice
   components:
@@ -282,10 +282,10 @@
 # Tastes like pie, cherries.
 
 - type: entity
-  name: meat pie
+  name: tarte à la viande
   parent: FoodPieBase
   id: FoodPieMeat
-  description: An old barber recipe, very delicious!
+  description: Une ancienne recette de barbier, très délicieuse !
   components:
   - type: FlavorProfile
     flavors:
@@ -302,7 +302,7 @@
     - Pie
 
 - type: entity
-  name: slice of meat pie
+  name: tranche de tarte à la viande
   parent: FoodPieSliceBase
   id: FoodPieMeatSlice
   components:
@@ -322,10 +322,10 @@
 # Tastes like pie, meat.
 
 - type: entity
-  name: pumpkin pie
+  name: tarte à la citrouille
   parent: FoodPieBase
   id: FoodPiePumpkin
-  description: Someone should turn this into a latte!
+  description: Quelqu'un devrait transformer ça en latté !
   components:
   - type: FlavorProfile
     flavors:
@@ -342,7 +342,7 @@
     - Pie
 
 - type: entity
-  name: slice of pumpkin pie
+  name: tranche de tarte à la citrouille
   parent: FoodPieSliceBase
   id: FoodPiePumpkinSlice
   components:
@@ -359,7 +359,7 @@
     - Slice
 
 - type: entity
-  name: xeno pie
+  name: tarte xéno
   parent: FoodPieBase
   id: FoodPieXeno
   components:
@@ -379,7 +379,7 @@
     - Pie
 
 - type: entity
-  name: slice of xeno pie
+  name: tranche de tarte xéno
   parent: FoodPieSliceBase
   id: FoodPieXenoSlice
   components:
@@ -400,10 +400,10 @@
 # Tastes like pie, meat, acid.
 
 - type: entity
-  name: frosty pie
+  name: tarte givrée
   parent: FoodPieBase
   id: FoodPieFrosty
-  description: Tastes like blue and cold.
+  description: Ça a le goût du bleu et du froid.
   components:
   - type: FlavorProfile
     flavors:
@@ -416,7 +416,7 @@
     slice: FoodPieFrostySlice
 
 - type: entity
-  name: slice of frosty pie
+  name: tranche de tarte givrée
   parent: FoodPieSliceBase
   id: FoodPieFrostySlice
   components:
@@ -431,7 +431,7 @@
 # Tastes like pie, mint.
 
 - type: entity
-  name: mime tart
+  name: tarte mime
   parent: FoodPieBase
   id: FoodTartMime
   description: "\"      \""
@@ -447,7 +447,7 @@
     slice: FoodTartMimeSlice
 
 - type: entity
-  name: slice of mime tart
+  name: tranche de tarte mime
   parent: FoodPieSliceBase
   id: FoodTartMimeSlice
   components:
@@ -464,10 +464,10 @@
 # No Slice
 
 - type: entity
-  name: amanita pie
+  name: tarte amanite
   parent: FoodPieBase
   id: FoodPieAmanita
-  description: Sweet and tasty poison pie.
+  description: Tarte empoisonnée douce et savoureuse.
   components:
   - type: FlavorProfile
     flavors:
@@ -488,10 +488,10 @@
 # Tastes like pie, mushrooms.
 
 - type: entity
-  name: plump pie
+  name: tarte dodue
   parent: FoodPieBase
   id: FoodPiePlump
-  description: I bet you love stuff made out of plump helmets!
+  description: Je parie que tu aimes les trucs faits avec des chapeaux de champignons dodus !
   components:
   - type: FlavorProfile
     flavors:
@@ -503,10 +503,10 @@
 # Tart
 
 - type: entity
-  name: grape tart
+  name: tarte aux raisins
   parent: FoodPieBase
   id: FoodTartGrape
-  description: A tasty dessert that reminds you of the wine you didn't make.
+  description: Un délicieux dessert qui te rappelle le vin que tu n'as pas fait.
   components:
   - type: FlavorProfile
     flavors:
@@ -520,10 +520,10 @@
 # Tastes like tart, grape.
 
 - type: entity
-  name: golden apple streusel tart
+  name: tarte streusel à la pomme dorée
   parent: FoodPieBase
   id: FoodTartGapple
-  description: A tasty dessert that won't make it through a metal detector.
+  description: Un délicieux dessert qui ne passerait pas un détecteur de métaux.
   components:
   - type: FlavorProfile
     flavors:
@@ -537,10 +537,10 @@
 # Tastes like tart, apple, expensive metal.
 
 - type: entity
-  name: chocolate lava tart
+  name: tarte au chocolat coulante
   parent: FoodPieBase
   id: FoodTartCoco
-  description: A tasty dessert made of chocolate, with a liquid core.
+  description: Un délicieux dessert fait de chocolat, avec un noyau liquide.
   components:
   - type: FlavorProfile
     flavors:

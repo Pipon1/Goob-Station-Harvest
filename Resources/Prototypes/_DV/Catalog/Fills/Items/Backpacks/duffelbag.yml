@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSalvage
   id: ClothingBackpackDuffelSalvageConscription
-  name: mining conscription kit
-  description: A duffel bag containing everything a crewmember needs to support a shaft miner in the field.
+  name: kit de conscription minier
+  description: Un sac de sport contenant tout ce dont un membre d'équipage a besoin pour soutenir un mineur de puits sur le terrain.
   components:
   - type: StorageFill
     contents:

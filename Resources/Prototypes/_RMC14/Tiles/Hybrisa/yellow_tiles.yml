@@ -2,18 +2,18 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorHybrisaYellowBase
-  name: tiles-cm-default-yellow
+  name: tiles-cm-défaut-jaune
 
 - type: tile
   parent: RMCFloorHybrisaYellowBase
   id: RMCFloorHybrisaYellow
-  name: yellow metal tile
+  name: dalle de métal jaune
   sprite: /Textures/_RMC14/Tiles/hybrisa/yellow_bigtile.png
 
 - type: tile
   parent: RMCFloorHybrisaYellow
   id: RMCFloorHybrisaOrangeLine1
-  name: orange metal tile
+  name: dalle de métal orange
   sprite: /Textures/_RMC14/Tiles/hybrisa/orangeline_1.png
 
 - type: tile

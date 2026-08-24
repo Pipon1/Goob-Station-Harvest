@@ -3,7 +3,7 @@
   parent: [ BaseSimpleMob, MobCombat, MobRobotic ]
   id: MobHivebot
   name: hivebot
-  description: Agitating, mechanized pests.
+  description: Des parasites mécanisés agaçants.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -75,7 +75,7 @@
   id: MobHivebotRanged
   name: hivebot
   suffix: Ranged
-  description: Agitating, mechanized pests. This one has a gun.
+  description: Des parasites mécanisés agaçants. Celui-ci a un flingue.
   components:
   - type: Sprite
     layers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: MobHivebotRanged
   id: MobHivebotStrong
-  name: strong hivebot
-  description: Agitating, mechanized pests. This one looks much stronger then normal.
+  name: hivebot costaud
+  description: Des parasites mécanisés agaçants. Celui-ci semble beaucoup plus fort que la normale.
   components:
   - type: Sprite
     layers:

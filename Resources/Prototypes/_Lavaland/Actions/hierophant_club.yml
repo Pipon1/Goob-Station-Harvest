@@ -3,8 +3,8 @@
 # Hierophant club
 - type: entity
   id: ActionHierophantClubTileMovement
-  name: Curse of Tile Movement
-  description: Makes the target move only by tiles.
+  name: Malédiction du mouvement par cases
+  description: Force la cible à ne se déplacer que par cases.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -23,7 +23,7 @@
   id: ActionHierophantClubBlink
   parent: ActionBaseHierophant
   name: Blink
-  description: Teleports you to any position you can physically reach.
+  description: Vous téléporte à n'importe quelle position que vous pouvez physiquement atteindre.
   components:
   - type: Action
     raiseOnUser: true

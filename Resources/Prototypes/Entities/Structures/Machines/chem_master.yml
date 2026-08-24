@@ -4,7 +4,7 @@
   id: ChemMaster
   parent: [ BaseMachinePowered, ConstructibleMachine, BaseAutomatedMachine ] # Goob: Automation
   name: ChemMaster 4000
-  description: An industrial grade chemical manipulator with pill and bottle production included.
+  description: Un manipulateur chimique industriel avec production de pilules et de bouteilles incluse.
   placement:
     mode: SnapgridCenter
   components:

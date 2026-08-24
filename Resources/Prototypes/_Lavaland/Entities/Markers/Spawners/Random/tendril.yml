@@ -20,7 +20,7 @@
       - id: LavalandTendrilMagmawingWatcher
 
 - type: entity
-  name: tendril spawner
+  name: générateur vrille
   id: SpawnerRandomTendrilLavaland
   parent: MarkerBase
   suffix: Lavaland

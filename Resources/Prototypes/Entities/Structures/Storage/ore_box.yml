@@ -2,8 +2,8 @@
 
 - type: entity
   id: OreBox
-  name: ore box
-  description: A large storage container for holding unprocessed ores.
+  name: caisse de minerais
+  description: Un grand conteneur de stockage pour les minerais non transformés.
   parent: BaseStructureDynamic
   components:
   - type: StaticPrice

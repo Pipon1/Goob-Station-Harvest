@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseHeaterMachine
   id: KitchenElectricGrill
-  name: electric grill
-  description: A microwave? No, a real man cooks steaks on a grill!
+  name: grill électrique
+  description: Un micro-ondes ? Non, un vrai homme cuisine des steaks sur un grill !
   components:
   - type: Sprite
     # TODO: draw a sprite

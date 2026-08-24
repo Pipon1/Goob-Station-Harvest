@@ -1,7 +1,7 @@
 - type: entity
   parent: ToteBase
   id: BoxCaptainCircuitboards
-  name: bridge circuit tote
+  name: boîte de circuits imprimés du pont
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,7 +13,7 @@
 - type: entity
   parent: ToteBase
   id: BoxCECircuitboards
-  name: engineering circuit tote
+  name: boîte de circuits imprimés d'ingénierie
   components:
   - type: EntityTableContainerFill
     containers:
@@ -28,7 +28,7 @@
 - type: entity
   parent: ToteBase
   id: BoxCMOCircuitboards
-  name: medical circuit tote
+  name: boîte de circuits imprimés médicaux
   components:
   - type: EntityTableContainerFill
     containers:
@@ -40,7 +40,7 @@
 - type: entity
   parent: ToteBase
   id: BoxHoPCircuitboards
-  name: head of personnel circuit tote
+  name: boîte de circuits imprimés du chef du personnel
   components:
   - type: EntityTableContainerFill
     containers:
@@ -53,7 +53,7 @@
 - type: entity
   parent: BoxStamps
   id: BoxHoPStamps
-  name: head of personnel's stamp box
+  name: boîte de tampons du chef du personnel
   components:
   - type: EntityTableContainerFill
     containers:
@@ -66,7 +66,7 @@
 - type: entity
   parent: ToteBase
   id: BoxHoSCircuitboards
-  name: security circuit tote
+  name: boîte de circuits imprimés de la sécurité
   components:
   - type: EntityTableContainerFill
     containers:
@@ -78,7 +78,7 @@
 - type: entity
   parent: ToteBase
   id: BoxQMCircuitboards
-  name: cargo circuit tote
+  name: boîte de circuits imprimés du cargo
   components:
   - type: EntityTableContainerFill
     containers:
@@ -95,7 +95,7 @@
 - type: entity
   parent: BoxStamps
   id: BoxQMStamps
-  name: quartermaster's stamp box
+  name: boîte de tampons du chef du quartier-maître
   components:
   - type: EntityTableContainerFill
     containers:
@@ -108,7 +108,7 @@
 - type: entity
   parent: ToteBase
   id: BoxRDCircuitboards
-  name: science circuit tote
+  name: boîte de circuits imprimés de la science
   components:
   - type: EntityTableContainerFill
     containers:

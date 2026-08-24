@@ -2,7 +2,7 @@
 
 - type: entity
   id: ShipRailgunProjectile
-  name: M381 CHARON 280mm 75.25 kg slug
+  name: projectile M381 CHARON 280mm 75.25 kg
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -65,7 +65,7 @@
 
 - type: entity
   id: 20mmBulletArmorPiercing
-  name: 20mm AP bullet
+  name: balle 20mm AP
   parent: 20mmBulletBase
   categories: [ HideSpawnMenu ]
   components:
@@ -85,7 +85,7 @@
 
 - type: entity
   id: ShipDravonProjectile
-  name: DRAVON 57mm projectile
+  name: projectile DRAVON 57mm
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -123,7 +123,7 @@
 
 - type: entity
   id: 90mmBulletBase
-  name: shell
+  name: obus
   parent: BaseBulletTrigger
   abstract: true
   categories: [ HideSpawnMenu ]
@@ -180,7 +180,7 @@
 
 - type: entity
   id: ShipTarnyxProjectile
-  name: TARNYX 150mm projectile
+  name: projectile TARNYX 150mm
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -214,7 +214,7 @@
 
 - type: entity
   id: ShipCyrexaProjectile
-  name: CYREXA 220mm projectile
+  name: projectile CYREXA 220mm
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -252,7 +252,7 @@
 
 - type: entity
   id: ShipBoforsProjectile
-  name: Bofors 255mm projectile
+  name: projectile Bofors 255mm
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -290,7 +290,7 @@
 
 - type: entity
   id: ShipKargilProjectile
-  name: Kargil 203mm projectile
+  name: projectile Kargil 203mm
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -328,8 +328,8 @@
 
 - type: entity
   id: ShipHadesProjectile
-  name: HADES 305mm projectile
-  description: I feel a primal fear. The omen comes for me.
+  name: projectile HADES 305mm
+  description: Je ressens une peur primitive. L'augure vient pour moi.
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

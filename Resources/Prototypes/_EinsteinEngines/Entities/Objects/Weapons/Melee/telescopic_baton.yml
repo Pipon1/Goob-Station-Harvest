@@ -3,8 +3,8 @@
 - type: entity
   id: TelescopicBaton
   parent: [BaseItem, BaseCommandContraband] # Goob edit
-  name: telescopic baton
-  description: A compact and harmless personal defense weapon. Sturdy enough to knock the feet out from under attackers. If you hit a person immediately after extending the baton, it will force them drop held items as well. # Goob edit
+  name: matraque télescopique
+  description: "Une arme de défense personnelle compacte et inoffensive. Assez solide pour faire tomber les attaquants. Si vous frappez une personne immédiatement après avoir déployé la matraque, elle lâchera également les objets qu'elle tient." # Goob edit
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Melee/telebaton.rsi # Goob edit

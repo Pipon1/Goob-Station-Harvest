@@ -5,7 +5,7 @@
 - type: entity
   id: PartHydrakin
   parent: [BaseItem, BasePart]
-  name: "hydrakin body part"
+  name: "partie de corps hydrakin"
   abstract: true
   components:
   - type: Icon # Shitmed Change
@@ -24,7 +24,7 @@
 
 - type: entity
   id: TorsoHydrakin
-  name: "hydrakin torso"
+  name: "torse hydrakin"
   parent: [PartHydrakin, BaseChest]
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 
 - type: entity
   id: HeadHydrakin
-  name: "hydrakin head"
+  name: "tête hydrakin"
   parent: [PartHydrakin, BaseHead]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   id: GroinHydrakin
-  name: hydrakin groin
+  name: aine hydrakin
   parent: [PartHydrakin, BaseGroin]
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 
 - type: entity
   id: LeftArmHydrakin
-  name: "left hydrakin arm"
+  name: "bras gauche hydrakin"
   parent: [PartHydrakin, BaseLeftArm]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: RightArmHydrakin
-  name: "right hydrakin arm"
+  name: "bras droit hydrakin"
   parent: [PartHydrakin, BaseRightArm]
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 
 - type: entity
   id: LeftHandHydrakin
-  name: "left hydrakin hand"
+  name: "main gauche hydrakin"
   parent: [PartHydrakin, BaseLeftHand]
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: RightHandHydrakin
-  name: "right hydrakin hand"
+  name: "main droite hydrakin"
   parent: [PartHydrakin, BaseRightHand]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LeftLegHydrakin
-  name: "left Hydrakin leg"
+  name: "jambe gauche hydrakin"
   parent: [PartHydrakin, BaseLeftLeg]
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: RightLegHydrakin
-  name: "right hydrakin leg"
+  name: "jambe droite hydrakin"
   parent: [PartHydrakin, BaseRightLeg]
   components:
   - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: LeftFootHydrakin
-  name: "left hydrakin foot"
+  name: "pied gauche hydrakin"
   parent: [PartHydrakin, BaseLeftFoot]
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 
 - type: entity
   id: RightFootHydrakin
-  name: "right hydrakin foot"
+  name: "pied droit hydrakin"
   parent: [PartHydrakin, BaseRightFoot]
   components:
   - type: Sprite

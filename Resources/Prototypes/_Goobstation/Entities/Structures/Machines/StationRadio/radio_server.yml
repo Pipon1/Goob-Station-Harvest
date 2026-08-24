@@ -1,8 +1,8 @@
 - type: entity
   id: StationRadioServer
-  name: station radio server
+  name: serveur radio de la station
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A rack of servers, controls whether your voice is being broadcasted or not
+  description: Une rangée de serveurs qui contrôle si votre voix est diffusée ou non.
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/Machines/StationRadio/stationradioserver.rsi
@@ -29,7 +29,7 @@
   id: StationRadioRig
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: station radio rig
-  description: A collection of everything you need to play music over the station.
+  description: Une collection de tout ce qu'il vous faut pour diffuser de la musique sur la station.
   components:
   - type: Sprite
     sprite: _Goobstation/Structures/Machines/StationRadio/radiostationrig.rsi

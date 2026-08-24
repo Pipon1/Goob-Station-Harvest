@@ -2,7 +2,7 @@
 #Entities found at entities/objects/specific/medical
 - type: entity
   id: MedkitFilled
-  suffix: Filled
+  suffix: Rempli
   parent: Medkit
   components:
   - type: EntityTableContainerFill
@@ -18,7 +18,7 @@
 
 - type: entity
   id: MedkitBurnFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitBurn
   components:
   - type: EntityTableContainerFill
@@ -34,7 +34,7 @@
 
 - type: entity
   id: MedkitBruteFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitBrute
   components:
   - type: EntityTableContainerFill
@@ -50,7 +50,7 @@
 
 - type: entity
   id: MedkitToxinFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitToxin
   components:
   - type: EntityTableContainerFill
@@ -65,7 +65,7 @@
 
 - type: entity
   id: MedkitOxygenFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitO2
   components:
   - type: EntityTableContainerFill
@@ -80,7 +80,7 @@
 
 - type: entity
   id: MedkitRadiationFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitRadiation
   components:
   - type: EntityTableContainerFill
@@ -94,7 +94,7 @@
 
 - type: entity
   id: MedkitAdvancedFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitAdvanced
   components:
   - type: EntityTableContainerFill
@@ -109,7 +109,7 @@
 
 - type: entity
   id: MedkitCombatFilled
-  suffix: Filled
+  suffix: Rempli
   parent: MedkitCombat
   components:
   - type: EntityTableContainerFill
@@ -125,7 +125,7 @@
 
 - type: entity
   id: StimkitFilled
-  suffix: Stimkit, Filled
+  suffix: Stimkit, Rempli
   parent: Medkit
   components:
   - type: EntityTableContainerFill

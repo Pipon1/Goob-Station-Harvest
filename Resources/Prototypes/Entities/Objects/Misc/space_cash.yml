@@ -4,7 +4,7 @@
   parent: BaseItem
   id: SpaceCash
   name: spesos
-  description: You gotta have money.
+  description: Il vous faut de l'argent.
   components:
   - type: Cash
   - type: Item

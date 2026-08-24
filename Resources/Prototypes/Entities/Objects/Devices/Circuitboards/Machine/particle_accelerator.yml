@@ -3,8 +3,8 @@
 - type: entity
   id: MachineParticleAcceleratorEndCapCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA end cap board
-  description: A machine board for a particle accelerator end cap.
+  name: circuit de capot terminal PA
+  description: Un circuit imprimé pour le capot terminal d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering
@@ -17,8 +17,8 @@
 - type: entity
   id: MachineParticleAcceleratorFuelChamberCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA fuel chamber board
-  description: A machine board for a particle accelerator fuel chamber.
+  name: circuit de chambre de carburant PA
+  description: Un circuit imprimé pour la chambre de carburant d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering
@@ -35,8 +35,8 @@
 - type: entity
   id: MachineParticleAcceleratorPowerBoxCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA power box board
-  description: A machine board for a particle accelerator power box.
+  name: circuit de boîte d'alimentation PA
+  description: Un circuit imprimé pour la boîte d'alimentation d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering
@@ -51,8 +51,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterStarboardCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA starboard emitter board
-  description: A machine board for a particle accelerator left emitter.
+  name: circuit d'émetteur tribord PA
+  description: Un circuit imprimé pour l'émetteur gauche d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering
@@ -65,8 +65,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterForeCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA fore emitter board
-  description: A machine board for a particle accelerator center emitter.
+  name: circuit d'émetteur avant PA
+  description: Un circuit imprimé pour l'émetteur central d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering
@@ -79,8 +79,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterPortCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA port emitter board
-  description: A machine board for a particle accelerator right emitter.
+  name: circuit d'émetteur bâbord PA
+  description: Un circuit imprimé pour l'émetteur droit d'un accélérateur de particules.
   components:
     - type: Sprite
       state: engineering

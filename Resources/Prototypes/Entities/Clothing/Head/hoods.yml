@@ -3,9 +3,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBioGeneral
-  name: bio hood
-  suffix: Generic
-  description: A hood that protects the head and face from biological contaminants.
+  name: capuche biologique
+  suffix: Générique
+  description: Une capuche qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -48,9 +48,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
-  name: bio hood
-  suffix: CMO
-  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+  name: capuche biologique
+  suffix: Directeur médical
+  description: Une capuche avancée pour les directeurs médicaux qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -63,9 +63,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioJanitor
-  name: bio hood
-  suffix: Janitor
-  description: A hood that protects the head and face from biological contaminants.
+  name: capuche biologique
+  suffix: Concierge
+  description: Une capuche qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -76,9 +76,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioScientist
-  name: bio hood
+  name: capuche biologique
   suffix: Science
-  description: A hood that protects the head and face from biological contaminants.
+  description: Une capuche qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -89,9 +89,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioSecurity
-  name: bio hood
-  suffix: Security
-  description: A hood that protects the head and face from biological contaminants.
+  name: capuche biologique
+  suffix: Sécurité
+  description: Une capuche qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -112,9 +112,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioVirology
-  name: bio hood
-  suffix: Virology
-  description: A hood that strongly protects the head and face from biological contaminants.
+  name: capuche biologique
+  suffix: Virologie
+  description: Une capuche qui protège fortement la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -128,8 +128,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodChaplainHood
   categories: [ HideSpawnMenu ]
-  name: chaplain's hood
-  description: Maximum piety in this star system.
+  name: capuche du chapelain
+  description: Piété maximale dans ce système stellaire.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCulthood
-  name: cult hood
-  description: There's no cult without cult hoods.
+  name: capuche de culte
+  description: Il n'y a pas de culte sans capuches de culte.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodNunHood
-  name: nun hood
-  description: Maximum piety in this star system.
+  name: capuche de nonne
+  description: Piété maximale dans ce système stellaire.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRad
-  name: radiation hood
-  description: A hood of the hazmat suit, designed for protection from high radioactivity.
+  name: capuche de rayonnement
+  description: Une capuche de la combinaison hazmat, conçue pour la protection contre la radioactivité élevée.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/rad.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodGoliathCloak
-  name: goliath cloak hood
-  description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
+  name: capuche de cape goliath
+  description: Une capuche de cape goliath, elle est faite de la peau de la faune résiliente d'une planète lointaine.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
@@ -226,8 +226,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodIan
   categories: [ HideSpawnMenu ]
-  name: ian hood
-  description: A hood to complete the 'Good boy' look.
+  name: capuche d'Ian
+  description: Une capuche pour compléter le look « Good boy ».
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
@@ -249,8 +249,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCarp
   categories: [ HideSpawnMenu ]
-  name: carp hood
-  description: A gnarly hood adorned with plastic space carp teeth.
+  name: capuche de carpe
+  description: Une capuche avec des dents de carpe spatiale en plastique.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
@@ -280,8 +280,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodMoth
-  name: moth mask
-  description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
+  name: masque de mite
+  description: Un masque en forme de tête de mite est généralement fabriqué à partir de matériaux légers. Il imite la forme d'une tête de mite avec de grands yeux et de longues antennes. Ces masques sont souvent utilisés dans le cosplay, ou lors du tournage de films et de vidéos.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
@@ -303,7 +303,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterDefault
   categories: [ HideSpawnMenu ]
-  name: default winter coat hood
+  name: capuche de manteau d'hiver par défaut
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -314,7 +314,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBartender
   categories: [ HideSpawnMenu ]
-  name: bartender winter coat hood
+  name: capuche de manteau d'hiver du barman
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
@@ -325,8 +325,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCaptain
   categories: [ HideSpawnMenu ]
-  name: captain's winter coat hood
-  description: An expensive hood, to keep the captain's head warm.
+  name: capuche de manteau d'hiver du capitaine
+  description: Une capuche coûteuse, pour garder la tête du capitaine au chaud.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
@@ -337,7 +337,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCargo
   categories: [ HideSpawnMenu ]
-  name: cargo winter coat hood
+  name: capuche de manteau d'hiver de cargo
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi
@@ -348,7 +348,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCE
   categories: [ HideSpawnMenu ]
-  name: chief engineer's winter coat hood
+  name: capuche de manteau d'hiver du chef ingénieur
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
@@ -359,8 +359,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   categories: [ HideSpawnMenu ]
-  name: CentComm winter coat hood
-  description: A hood for keeping the central comander's head warm.
+  name: capuche de manteau d'hiver CentComm
+  description: Une capuche pour garder la tête du commandant central au chaud.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
@@ -371,7 +371,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterChem
   categories: [ HideSpawnMenu ]
-  name: chemist winter coat hood
+  name: capuche de manteau d'hiver de chimiste
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
@@ -382,7 +382,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: chief medical officer's winter coat hood
+  name: capuche de manteau d'hiver du directeur médical
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
@@ -393,7 +393,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterEngineer
   categories: [ HideSpawnMenu ]
-  name: engineer winter coat hood
+  name: capuche de manteau d'hiver d'ingénieur'
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
@@ -404,7 +404,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOP
   categories: [ HideSpawnMenu ]
-  name: head of personnel's winter coat hood
+  name: capuche de manteau d'hiver du chef du personnel
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
@@ -415,7 +415,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOS
   categories: [ HideSpawnMenu ]
-  name: head of security's winter coat hood
+  name: capuche de manteau d'hiver du chef de la sécurité
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
@@ -426,7 +426,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHydro
   categories: [ HideSpawnMenu ]
-  name: hydroponics coat hood
+  name: capuche de manteau de botaniste
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
@@ -437,7 +437,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterJani
   categories: [ HideSpawnMenu ]
-  name: janitor coat hood
+  name: capuche de manteau de concierge
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
@@ -448,7 +448,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMed
   categories: [ HideSpawnMenu ]
-  name: medic coat hood
+  name: capuche de manteau de médecin
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
@@ -459,7 +459,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMime
   categories: [ HideSpawnMenu ]
-  name: mime coat hood
+  name: capuche de manteau de mime
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
@@ -470,7 +470,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMiner
   categories: [ HideSpawnMenu ]
-  name: miner coat hood
+  name: capuche de manteau de mineur
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
@@ -481,7 +481,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterPara
   categories: [ HideSpawnMenu ]
-  name: paramedic coat hood
+  name: capuche de manteau d'urgentiste
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
@@ -492,7 +492,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterQM
   categories: [ HideSpawnMenu ]
-  name: quartermaster's coat hood
+  name: capuche de manteau du quartier-maître
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodqm.rsi
@@ -503,7 +503,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRD
   categories: [ HideSpawnMenu ]
-  name: research director's coat hood
+  name: capuche de manteau du directeur de la recherche
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
@@ -514,7 +514,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRobo
   categories: [ HideSpawnMenu ]
-  name: robotics coat hood
+  name: capuche de manteau de roboticien
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
@@ -525,7 +525,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSci
   categories: [ HideSpawnMenu ]
-  name: scientist coat hood
+  name: capuche de manteau de scientifique
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
@@ -536,7 +536,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSec
   categories: [ HideSpawnMenu ]
-  name: security coat hood
+  name: capuche de manteau de la sécurité
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -547,7 +547,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndie
   categories: [ HideSpawnMenu ]
-  name: syndicate coat hood
+  name: capuche de manteau du Syndicat
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
@@ -558,7 +558,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWarden
   categories: [ HideSpawnMenu ]
-  name: warden's coat hood
+  name: capuche de manteau du gardien
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -569,7 +569,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWeb
   categories: [ HideSpawnMenu ]
-  name: web coat hood
+  name: capuche de manteau en toile
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
@@ -580,7 +580,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlack
   categories: [ HideSpawnMenu ]
-  name: black winter coat hood
+  name: capuche de manteau d'hiver noire
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -600,7 +600,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorPurple
   categories: [ HideSpawnMenu ]
-  name: purple winter coat hood
+  name: capuche de manteau d'hiver violette
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -620,7 +620,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorRed
   categories: [ HideSpawnMenu ]
-  name: red winter coat hood
+  name: capuche de manteau d'hiver rouge
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -640,7 +640,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlue
   categories: [ HideSpawnMenu ]
-  name: blue winter coat hood
+  name: capuche de manteau d'hiver bleue
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -660,7 +660,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBrown
   categories: [ HideSpawnMenu ]
-  name: brown winter coat hood
+  name: capuche de manteau d'hiver marron
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -680,7 +680,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGray
   categories: [ HideSpawnMenu ]
-  name: gray winter coat hood
+  name: capuche de manteau d'hiver grise
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -700,7 +700,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGreen
   categories: [ HideSpawnMenu ]
-  name: green winter coat hood
+  name: capuche de manteau d'hiver verte
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -720,7 +720,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorLightBrown
   categories: [ HideSpawnMenu ]
-  name: light brown winter coat hood
+  name: capuche de manteau d'hiver marron clair
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -740,7 +740,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorOrange
   categories: [ HideSpawnMenu ]
-  name: orange winter coat hood
+  name: capuche de manteau d'hiver orange
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -760,7 +760,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorWhite
   categories: [ HideSpawnMenu ]
-  name: white winter coat hood
+  name: capuche de manteau d'hiver blanche
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -780,7 +780,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorYellow
   categories: [ HideSpawnMenu ]
-  name: yellow winter coat hood
+  name: capuche de manteau d'hiver jaune
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -799,8 +799,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodVoidCloak
-  name: void cloak hood
-  description: The hood of a void cloak. For those who have gone to the dark side of the force.
+  name: capuche de cape du vide
+  description: La capuche d'une cape du vide. Pour ceux qui sont passés du côté obscur de la force.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/voidcloak.rsi

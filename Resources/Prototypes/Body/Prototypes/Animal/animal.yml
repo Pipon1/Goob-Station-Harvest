@@ -29,7 +29,7 @@
 
 - type: body
   id: Mouse
-  name: "mouse"
+  name: "souris"
   root: chest
   slots:
     chest:

@@ -3,7 +3,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalWaterVapor
-  suffix: Standard H2O
+  suffix: H2O Standard
   components:
   - type: EntityTableContainerFill
     containers:
@@ -25,7 +25,7 @@
 - type: entity
   parent: BoxSurvivalEngineering
   id: BoxSurvivalEngineeringWaterVapor
-  suffix: Extended H2O
+  suffix: H2O Étendu
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,7 +47,7 @@
 - type: entity
   parent: BoxSurvivalSecurity
   id: BoxSurvivalSecurityWaterVapor
-  suffix: Security H2O
+  suffix: H2O Sécurité
   components:
   - type: EntityTableContainerFill
     containers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: BoxSurvivalMedical
   id: BoxSurvivalMedicalWaterVapor
-  suffix: Medical H2O
+  suffix: H2O Médical
   components:
   - type: EntityTableContainerFill
     containers:
@@ -91,7 +91,7 @@
 - type: entity
   parent: BoxHug
   id: BoxHugWaterVapor
-  suffix: Emergency H2O
+  suffix: H2O Urgence
   components:
   - type: EntityTableContainerFill
     containers:
@@ -109,7 +109,7 @@
 - type: entity
   parent: BoxSurvivalWaterVapor
   id: BoxMimeWaterVapor
-  suffix: Mime, Emergency H2O
+  suffix: Mime, H2O Urgence
   components:
   - type: EntityTableContainerFill
     containers:
@@ -131,7 +131,7 @@
 - type: entity
   parent: BoxSurvivalSyndicate
   id: BoxSurvivalSyndicateWaterVapor
-  suffix: Syndicate H2O
+  suffix: H2O Syndicat
   components:
   - type: EntityTableContainerFill
     containers:

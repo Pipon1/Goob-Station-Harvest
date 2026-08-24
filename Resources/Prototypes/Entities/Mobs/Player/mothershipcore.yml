@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseControllable, BaseStructure ]
   id: MothershipCore
-  name: mothership core
-  description: A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
+  name: noyau du vaisseau-mère
+  description: Une machine sentiente qui peut produire des Xénoborgs. Sans cela, les Xénoborgs sont condamnés.
   components:
   - type: InputMover # needs this to pilot the mothership
   - type: BlockMovement # They should never be moving!
@@ -284,8 +284,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgControlMonitor
-  name: Xenoborgs Control Console
-  description: View the Xenoborgs Control Console
+  name: Console de contrôle des Xénoborgs
+  description: Affiche la console de contrôle des Xénoborgs.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-control-computer }
@@ -298,8 +298,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgCameraMonitor
-  name: Xenoborgs Camera Monitor
-  description: View the Xenoborgs Camera Monitor
+  name: Moniteur caméra des Xénoborgs
+  description: Affiche le moniteur caméra des Xénoborgs.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-camera-computer }

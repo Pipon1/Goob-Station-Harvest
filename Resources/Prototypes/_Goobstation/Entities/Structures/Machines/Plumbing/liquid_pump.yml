@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ConstructibleMachine, BaseMachinePowered ]
   id: PlumbingPump
-  name: liquid pump
-  description: An electric pump that can transfer liquids between machines that have an automation upgrade installed.
+  name: pompe à liquide
+  description: Une pompe électrique capable de transférer des liquides entre les machines disposant d'une amélioration d'automatisation.
   components:
   # Visuals
   - type: Sprite

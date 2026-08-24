@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: CentcomAgentSkirt
-  name: centcom agent skirt
-  description: A skirt worn by CentComs legal team. Smells of burnt coffee.
+  name: jupe d'agent centcomm
+  description: Une jupe portée par l'équipe juridique de CentComm. Sent le café brûlé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/centcom_agent.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNanotrasenRepresentative
-  name: nanotrasen representative skirt
-  description: A black skirt worn by officials.
+  name: jupe de représentant nanotrasen
+  description: Une jupe noire portée par les officiels.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/nanotrasen_representative.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ClothingUniformBase,  ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtBlueshieldOfficer
-  name: blueshield officer jumpskirt
-  description: A short-sleeved grey and blue jumpskirt, made out of a sturdy material. Blueshield standard issue.
+  name: unijupe d'officier blueshield
+  description: Une unijupe à manches courtes grise et bleue, faite d'un matériau résistant. Émission standard du blueshield.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/blueshield_officer.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingUniformJumpsuitNavyGold
   id: ClothingUniformJumpskirtTrainer
-  name: NCT Jumpskirt
-  description: A jumpskirt issued to Nanotrasen Career Trainers. Fills you with a feeling of pride.
+  name: unijupe de NCT
+  description: Une unijupe émise aux formateurs de carrière Nanotrasen. Vous remplit d'un sentiment de fierté.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/trainer.rsi
@@ -47,8 +47,8 @@
 - type: entity # todo <mailfix>
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtMailCarrier
-  name: mail carrier's jumpskirt
-  description: Enemy of dogs everywhere.
+  name: unijupe de facteur
+  description: Ennemi des chiens partout.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Cargo/mailman.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCommandMaid
-  name: command maid uniform
-  description: A stylish maid uniform specially designed for elite Command Maids. Combines professionalism with a touch of elegance.
+  name: uniforme de femme de chambre de commandement
+  description: Un uniforme de femme de chambre élégant, spécialement conçu pour les femmes de chambre de commandement d'élite. Allie professionnalisme et touche d'élégance.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Other/command_maid.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageSpecialist
-  name: salvage specialist's jumpskirt
-  description: It's a snappy jumpskirt with a sturdy set of overalls. It's very dirty.
+  name: unijupe de récupérateur
+  description: C'est une unijupe élégante avec un solide ensemble de salopettes. Elle est très sale.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Cargo/salvage.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtShaftMiner
-  name: shaft miner's jumpskirt
-  description: It's a snappy jumpskirt with a sturdy set of overalls. It looks burnt.
+  name: unijupe de mineur
+  description: C'est une unijupe élégante avec un solide ensemble de salopettes. Elle semble brûlée.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Cargo/shaft_miner.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtResearchDirectorAlt
-  name: research director's turtleneck
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+  name: col roulé du directeur de la recherche
+  description: C'est un col roulé porté par ceux qui ont les compétences pour atteindre le poste de Directeur de la Recherche. Son tissu offre une protection mineure contre les contaminants biologiques.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/RND/rndturtle.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtReporter
-  name: reporter's dress
-  description: An extravagant black dress designed to catch the attention of as many people as possible.
+  name: robe de journaliste
+  description: Une robe noire extravagante conçue pour attirer l'attention du plus grand nombre.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Civilian/reporter_dress.rsi # goob
@@ -129,8 +129,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomPencilSkirt
-  name: centcom pencil skirt
-  description: An elegant green formal blouse paired with a sleek black pencil skirt, decorated with exquisite golden detailing.
+  name: jupe crayon centcomm
+  description: Un chemisier formel vert élégant associé à une jupe crayon noire élégante, ornée de détails dorés exquis.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Centcom/centcomm_pencilskirt.rsi

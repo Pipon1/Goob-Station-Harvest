@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnvirogloves
-  name: plasma envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants plasma
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesBlack
-  name: black envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants noirs
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBlack
   id: ClothingHandsGlovesEnviroglovesCombat
-  name: combat envirogloves
-  description: Specially designed envirogloves for combat and shock-protection.
+  name: envirogants de combat
+  description: Envirogants spécialement conçus pour le combat et la protection contre les chocs.
   components:
   - type: Insulated
   - type: Fiber
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesNitrile
-  name: nitrile envirogloves
-  description: Pricy nitrile gloves made for Plasmamen.
+  name: envirogants en nitrile
+  description: Des gants en nitrile coûteux fabriqués pour les Plasmamens.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesWhite
-  name: white envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants blancs
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -134,14 +134,14 @@
   parent: ClothingHandsGlovesEnviroglovesWhite
   id: ClothingHandsGlovesEnviroglovesColor
   name: envirogloves
-  description: Covers up those scandalous boney hands.
-  suffix: Loadouts, Colorable
+  description: Couvre ces mains osseuses scandaleuses.
+  suffix: Équipements, Colorable
 
 - type: entity
   parent: [ClothingHandsGlovesEnviroglovesBase, BaseSecurityContraband]
   id: ClothingHandsGlovesEnviroglovesDetective
-  name: forensic envirogloves
-  description: Covers up those scandalous boney fingerprints.
+  name: envirogants forensiques
+  description: Couvre ces empreintes digitales osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/forensic.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesRoboticist
-  name: roboticist envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de roboticiste
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesJanitor
-  name: janitor envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de concierge
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesCargo
-  name: logistics envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de logistique
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesEngineering
-  name: engineering envirogloves
-  description: Covers up those scandalous boney hands.
+  name: "envirogants d'ingénierie"
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesAtmos
-  name: atmos envirogloves
-  description: Covers up those scandalous boney hands.
+  name: "envirogants d'atmosphérique"
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesSalvage
-  name: salvage envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de récupération
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -332,8 +332,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesLeather
-  name: hydroponics envirogloves
-  description: These leather gloves protect your boney hands against thorns, barbs, prickles, and spikes.
+  name: "envirogants d'hydroponique"
+  description: Ces gants en cuir protègent vos mains osseuses contre les épines, les barbelés, les piquants et les pointes.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -367,8 +367,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesPrototype
-  name: prototype envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants prototype
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -396,8 +396,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesClown
-  name: clown envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de clown
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesHoP
-  name: head of personnel's envirogloves
-  description: Covers up those scandalous, bony hands. Appears to be an attempt at making a replica of the captain's gloves.
+  name: envirogants du chef du personnel
+  description: Couvre ces mains osseuses scandaleuses. Semble être une tentative de reproduire les gants du capitaine.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/Hands/Gloves/Envirogloves/hop.rsi
@@ -450,8 +450,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesHoP
   id: ClothingHandsGlovesEnviroglovesCaptain
-  name: captain's envirogloves
-  description: Covers up those scandalous, bony hands in a fancy way.
+  name: envirogants du capitaine
+  description: "Couvre ces mains osseuses scandaleuses d'une manière élégante."
   components:
   - type: FingerprintMask
   - type: Insulated
@@ -462,8 +462,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesChiefEngineer
-  name: chief engineer's envirogloves
-  description: Covers up those scandalous boney hands.
+  name: "envirogants de l'ingénieur en chef"
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -492,8 +492,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesResearchDirector
-  name: research director's envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants du directeur de recherche
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -521,8 +521,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesPurple
-  name: purple envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants violets
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesAdminAssistant
-  name: administrative assistant's envirogloves
-  description: Covers up those scandalous boney hands.
+  name: "envirogants de l'assistant administratif"
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -579,8 +579,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesColorDarkGreen
-  name: dark green envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants vert foncé
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -608,8 +608,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesColorDarkGrey
-  name: dark grey envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants gris foncé
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -637,8 +637,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesGladiator
-  name: gladiator envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de gladiateur
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -666,8 +666,8 @@
 - type: entity
   parent: ClothingHandsGlovesEnviroglovesBase
   id: ClothingHandsGlovesEnviroglovesReporter
-  name: reporter envirogloves
-  description: Covers up those scandalous boney hands.
+  name: envirogants de reporter
+  description: Couvre ces mains osseuses scandaleuses.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi

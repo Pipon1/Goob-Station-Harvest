@@ -4,7 +4,7 @@
   name: Trevor
   parent: [MobHorse, ShowSecurityIcons]
   id: MobTrevor
-  description: A thousand years of space evolution and this is the best we could come up with.
+  description: Mille ans d'évolution spatiale et c'est le mieux qu'on ait pu faire.
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -51,8 +51,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonSmallBaseFull]
   id: DrinkJuiceLimeCarton
-  name: lime juice
-  description: Sweet-sour goodness.
+  name: jus de citron vert
+  description: Bonté sucré-acide.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -66,8 +66,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuiceOrangeCarton
-  name: orange juice
-  description: Full of vitamins and deliciousness!
+  name: jus d'orange
+  description: Plein de vitamines et de délice !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -81,8 +81,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuiceTomatoCarton
-  name: tomato juice
-  description: Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
+  name: jus de tomate
+  description: Eh bien, ça a au moins l'air du jus de tomate. Vous ne pouvez pas dire avec tout ce rouge.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -96,8 +96,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkCoconutWaterCarton
-  name: coconut water
-  description: It's the inside of the coconut that counts.
+  name: eau de noix de coco
+  description: C'est l'intérieur de la noix de coco qui compte.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -111,8 +111,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkCreamCarton
-  name: milk cream
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: crème laitière
+  description: C'est de la crème. Fabriquée à partir du lait. Quoi d'autre pensiez-vous trouver dedans ?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -126,8 +126,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonSmallBaseFull]
   id: DrinkJuiceLemonCarton
-  name: lemon juice
-  description: First it's sour, then it's still sour.
+  name: jus de citron
+  description: D'abord c'est acide, ensuite c'est toujours acide.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -141,8 +141,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuicePineappleCarton
-  name: pineapple juice
-  description: Tastes like a tropical vacation far from space.
+  name: jus d'ananas
+  description: Goût comme des vacances tropicales loin de l'espace.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -158,8 +158,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseFull] # Looks like a plastic jug, fight me
   id: DrinkMilkCarton
-  name: milk
-  description: An opaque white liquid produced by the mammary glands of mammals.
+  name: lait
+  description: Un liquide blanc opaque produit par les glandes mammaires des mammifères.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -173,8 +173,8 @@
 - type: entity
   parent: DrinkCartonBaseFull
   id: DrinkSoyMilkCarton
-  name: soy milk
-  description: White and nutritious soy goodness!
+  name: lait de soja
+  description: Un plein de soja blanc et nutritif !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -188,8 +188,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseFull]
   id: DrinkOatMilkCarton
-  name: oat milk
-  description: It's oat milk. Tan and nutritious goodness!
+  name: lait d'avoine
+  description: C'est du lait d'avoine. Beige et plein de nutriments !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -205,8 +205,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseXtraLargeFull]
   id: DrinkJuiceLimeCartonXL
-  name: lime juice XL
-  description: Sweet-sour goodness.
+  name: jus de citron vert XL
+  description: Saveur sucré-acide délicieuse.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -223,8 +223,8 @@
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
   id: DrinkJuiceOrangeCartonXL
-  name: orange juice XL
-  description: Full of vitamins and deliciousness!
+  name: jus d'orange XL
+  description: Plein de vitamines et de saveur délicieuse !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -241,8 +241,8 @@
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
   id: DrinkCreamCartonXL
-  name: milk cream XL
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: crème laitière XL
+  description: C'est de la crème. Fabriquée à partir du lait. Quoi d'autre pensiez-vous trouver dedans ?
   components:
   - type: SolutionContainerManager
     solutions:

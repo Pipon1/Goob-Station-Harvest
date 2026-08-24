@@ -4,7 +4,7 @@
   parent: [AntagPlanetContravendPreset, VendingMachine]
   id: VendingMachineSyndieContraband # Ported from Frontier
   name: ContraVend
-  description: Wanted across multiple sectors!
+  description: Recherché dans de multiples secteurs !
   components:
   - type: VendingMachine
     pack: EmptyVendingMachineInventory

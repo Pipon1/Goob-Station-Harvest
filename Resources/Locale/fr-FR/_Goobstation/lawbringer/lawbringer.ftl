@@ -1,0 +1,1 @@
+lawbringer-phrase = JE SUIS LA LOI

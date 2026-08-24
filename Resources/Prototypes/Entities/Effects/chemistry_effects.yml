@@ -36,7 +36,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: smoke
+  name: fumée
   categories: [ HideSpawnMenu ]
   components:
   - type: Occluder
@@ -52,7 +52,7 @@
 - type: entity
   parent: BaseFoam
   id: TearGasSmoke
-  name: tear gas
+  name: gaz lacrymogène
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   parent: Smoke
   id: WizardSmoke
-  name: smoke
+  name: fumée
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke
@@ -84,7 +84,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: foam
+  name: mousse
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -118,7 +118,7 @@
 
 - type: entity
   id: MetalFoam
-  name: metal foam
+  name: mousse métallique
   categories: [ HideSpawnMenu ]
   parent: Foam
   components:
@@ -144,7 +144,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: iron metal foam
+  name: mousse de fer
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -153,7 +153,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: aluminium metal foam
+  name: mousse d'aluminium
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -162,7 +162,7 @@
 
 - type: entity
   id: BaseFoamedMetal
-  name: base foamed metal
+  name: mousse de métal de base
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -217,8 +217,8 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: foamed iron metal
-  description: "For sealing hull breaches."
+  name: mousse de fer
+  description: "Pour sceller les brèches de coque."
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -239,8 +239,8 @@
 
 - type: entity
   id: FoamedAluminiumMetal
-  name: foamed aluminium metal
-  description: "Leftover sparse foam from an aluminum foam grenade. Easily destroyed."
+  name: mousse d'aluminium
+  description: "Mousse restante d'une grenade à mousse d'aluminium. Facilement destructible."
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -288,7 +288,7 @@
 - type: entity
   parent: BaseFoam
   id: Resin
-  name: resin
+  name: résine
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

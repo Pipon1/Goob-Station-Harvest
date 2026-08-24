@@ -4,7 +4,7 @@
   name: gohei
   parent: BaseItem
   id: Gohei
-  description: A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's weeaboos.
+  description: Un bâton en bois avec des bandelettes blanches au bout. Utilisé à l'origine par les prêtresses de sanctuaire pour purifier. Maintenant utilisé par les weeaboos de la station.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/gohei.rsi

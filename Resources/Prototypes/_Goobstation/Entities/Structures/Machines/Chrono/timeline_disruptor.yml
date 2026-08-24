@@ -2,8 +2,8 @@
 
 - type: entity
   id: TimelineDisruptor
-  name: timeline disruptor
-  description: A device capable of extracting an object placed inside from the current timeline.
+  name: disrupteur temporel
+  description: Un dispositif capable d'extraire un objet placé à l'intérieur de la ligne temporelle actuelle.
   placement:
     mode: SnapgridCenter
   components:

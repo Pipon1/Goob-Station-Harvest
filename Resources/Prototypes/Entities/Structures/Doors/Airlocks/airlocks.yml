@@ -119,7 +119,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMaint
-  name: maintenance access
+  name: accès maintenance
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatch
-  name: airtight hatch
+  name: sas hermétique
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
@@ -165,7 +165,7 @@
 - type: entity
   parent: Airlock
   id: AirlockXenoborg
-  name: xenoborg airlock
+  name: sas xénoborg
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/xenoborg.rsi
@@ -175,7 +175,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchMaintenance
-  name: maintenance hatch
+  name: trappe de maintenance
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchSyndicate
-  name: airtight hatch
-  suffix: Syndicate
+  name: sas hermétique
+  suffix: Syndicat
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_syndicate.rsi

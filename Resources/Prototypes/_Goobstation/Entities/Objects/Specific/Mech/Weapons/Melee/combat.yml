@@ -3,9 +3,9 @@
 - type: entity
   id: WeaponMechChainSword
   parent: [ BaseMechWeaponMelee, CombatMechEquipment  ]
-  name: exosuit chainsword
+  name: tronçonneuse d'exosuit
   suffix: Mech Weapon, Melee, Combat
-  description: Equipment for combat exosuits. This is the mechanical chainsword that'll pierce the heavens!
+  description: Équipement pour exosuits de combat. C'est l'épée tronçonneuse mécanique qui percera les cieux !
   components:
   - type: Sprite
     state: mecha_chainsword

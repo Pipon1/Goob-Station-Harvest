@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: anomaly pinpointer
-  description: A handheld tracking device that locks onto any anomaly while off. Keep upright to retain accuracy.
+  name: localisateur d'anomalie
+  description: Un dispositif de suivi portable qui se verrouille sur toute anomalie quand il est éteint. Gardez-le droit pour conserver la précision.
   id: PinpointerAnomaly
   parent: PinpointerBase
   components:
@@ -24,8 +24,8 @@
       - Anomaly
 
 - type: entity
-  name: artifact pinpointer
-  description: A handheld tracking device that tracks all near artifacts. Keep upright to retain accuracy.
+  name: localisateur d'artefact
+  description: Un dispositif de suivi portable qui suit tous les artéfacts proches. Gardez-le droit pour conserver la précision.
   id: PinpointerArtifact
   parent: PinpointerBase
   components:
@@ -46,8 +46,8 @@
       - XenoArtifact
 
 - type: entity
-  name: borg pinpointer
-  description: A handheld tracking device that locks onto any silicon while off. Keep upright to retain accuracy.
+  name: localisateur de borg
+  description: Un dispositif de suivi portable qui se verrouille sur tout silicium quand il est éteint. Gardez-le droit pour conserver la précision.
   id: PinpointerBorg
   parent: PinpointerBase
   components:
@@ -69,8 +69,8 @@
       - BorgChassis
 
 - type: entity
-  name: generic pinpointer
-  description: A handheld tracking device that locks onto any item while off. Keep upright to retain accuracy.
+  name: localisateur générique
+  description: Un dispositif de suivi portable qui se verrouille sur tout objet quand il est éteint. Gardez-le droit pour conserver la précision.
   id: PinpointerGeneric
   parent: PinpointerBase
   suffix: Admin
@@ -93,8 +93,8 @@
       - Item
 
 - type: entity
-  name: station pinpointer
-  description: A handheld tracking device that tracks all near stations. Keep upright to retain accuracy.
+  name: localisateur de station
+  description: Un dispositif de suivi portable qui suit toutes les stations proches. Gardez-le droit pour conserver la précision.
   id: PinpointerStationGoob
   parent: PinpointerBase
   components:
@@ -116,8 +116,8 @@
       - LavalandStation # Lavaland change
 
 - type: entity
-  name: thieving pinpointer
-  description: A handheld tracking device that can target anything worthwhile, including high risk items and stealable structures while off. Keep upright to retain accuracy.
+  name: localisateur de voleur
+  description: Un dispositif de suivi portable qui peut cibler tout ce qui vaut le coup, y compris les objets à haut risque et les structures volables quand il est éteint. Gardez-le droit pour conserver la précision.
   id: PinpointerThief
   parent: [ PinpointerBase, BaseMinorContraband ]
   components:
@@ -139,8 +139,8 @@
       - StealTarget # You can marker your objective with it!
 
 - type: entity
-  name: syndicate nuke pinpointer
-  description: Produced specifically for nuclear operative missions, get that nuclear bomb!
+  name: localisateur de bombe nucléaire du syndicat
+  description: Produit spécifiquement pour les missions d'opérateurs nucléaires, obtenez cette bombe nucléaire !
   id: PinpointerSyndicateNuclearFission
   parent: [ PinpointerBase, BaseSyndicateContraband ]
   components:
@@ -163,8 +163,8 @@
     targetName: nuclear fission explosive
 
 - type: entity
-  name: contractor pinpointer
-  description: A handheld tracking device that points to your ship, and your target. Keep upright to retain accuracy.
+  name: localisateur de contractor
+  description: Un dispositif de suivi portable qui pointe vers votre vaisseau et votre cible. Gardez-le droit pour conserver la précision.
   id: PinpointerContractor
   parent: PinpointerBase
   components:
@@ -189,7 +189,7 @@
 
 
 - type: entity
-  name: dark lord pinpointer
+  name: localisateur de seigneur du mal
   id: PinpointerDarkLord
   parent: [ PinpointerBase, BaseCommandContraband ]
   components:

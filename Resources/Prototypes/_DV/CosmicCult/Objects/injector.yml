@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem # Not inheriting from ChemicalMedipen so that you can't transmute an empty injector into a filled one.
   id: CosmicMedipen
-  name: malign injector
-  description: Previously a sterile injector, now corrupted beyond recognition. You can see the liquid inside it boiling and freezing at the same time.
+  name: injecteur malin
+  description: Autrefois un injecteur stérile, désormais corrompu au-delà de toute reconnaissance. On peut voir le liquide à l'intérieur bouillir et geler en même temps.
   components:
   - type: CosmicCultExamine
     cultistText: cosmic-examine-text-injector-cult

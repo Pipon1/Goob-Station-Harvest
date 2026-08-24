@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: arm blade
+  name: lame d'avant-bras
   parent: BaseItem
   id: ArmBlade
-  description: A grotesque blade made out of bone and flesh that cleaves through people as a hot knife through butter.
+  description: Une lame grotesque faite d'os et de chair qui fend les gens comme un couteau chaud dans du beurre.
   components:
   - type: Sharp
   - type: Execution

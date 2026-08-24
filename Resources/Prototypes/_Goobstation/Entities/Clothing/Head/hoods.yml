@@ -4,8 +4,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodZeusHood
   categories: [ HideSpawnMenu ]
-  name: zeus hood
-  description: Guaranteed to not fly off when leaping from skyscraper to skyscraper.
+  name: capuche de zeus
+  description: Garantie de ne pas s'envoler en sautant de gratte-ciel en gratte-ciel.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hoods/mercer_hood.rsi
@@ -22,7 +22,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBso
   categories: [ HideSpawnMenu ]
-  name: blueshield's winter coat hood
+  name: capuche de manteau d'hiver du blueshield
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hoods/bso_winter_hood.rsi
@@ -33,7 +33,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCapFancy
   categories: [ HideSpawnMenu ]
-  name: captain's fancy winter coat hood
+  name: capuche de manteau d'hiver de luxe du capitaine
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hoods/cap_winter_hood.rsi
@@ -44,12 +44,11 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodHereticCostume
   categories: [ HideSpawnMenu ]
-  name: occult hood
-  description: A torn, dust-caked hood. Smudgy eyes line the inside.
+  name: capuche occulte
+  description: Une capuche déchirée et couverte de poussière. Des yeux flous tapissent l'intérieur.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/Head/toy_hood.rsi
     state: icon
   - type: Clothing
     sprite: _Goobstation/Heretic/Clothing/Head/toy_hood.rsi
-

@@ -1,9 +1,9 @@
 # Mailcart
 - type: entity
-  name: mail cart
+  name: chariot postal
   id: MailCart
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: Deliver packages with style and efficiency.
+  description: Livrez des colis avec style et efficacité.
   components:
     - type: Sprite
       noRot: true

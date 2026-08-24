@@ -1,6 +1,6 @@
 - type: entity
-  name: cd disk
-  description: A cd disk, usually contains ads.
+  name: disque CD
+  description: Un disque CD, contient généralement des publicités.
   id: BaseCdDisk
   parent: BaseItem
   abstract: true
@@ -31,7 +31,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Danitos Burritos)
+  name: disque CD (Danitos Burritos)
   id: CdDiskDanitosBurritos
   components:
   - type: Vinyl
@@ -40,7 +40,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (bill movie)
+  name: disque CD (bill movie)
   id: CdDiskBillMovie
   components:
   - type: Vinyl
@@ -49,7 +49,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (captain training PSA)
+  name: disque CD (PSA entraînement capitaine)
   id: CdDiskCapTraining
   components:
   - type: Vinyl
@@ -58,7 +58,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Cargonia)
+  name: disque CD (Cargonia)
   id: CdDiskCargonia
   components:
   - type: Vinyl
@@ -67,7 +67,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Chemistry)
+  name: disque CD (Chimie)
   id: CdDiskChemistry
   components:
   - type: Vinyl
@@ -76,7 +76,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (cloning PSA)
+  name: disque CD (PSA clonage)
   id: CdDiskCloningPsa
   components:
   - type: Vinyl
@@ -85,7 +85,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Dans Tickets)
+  name: disque CD (Dans Tickets)
   id: CdDiskDansTickets
   components:
   - type: Vinyl
@@ -94,7 +94,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (grones)
+  name: disque CD (grones)
   id: CdDiskGrones
   components:
   - type: Vinyl
@@ -103,7 +103,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Pope Crunch Cereal)
+  name: disque CD (Céréales Pope Crunch)
   id: CdDiskPopeCrunchCereal
   components:
   - type: Vinyl
@@ -112,7 +112,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (Quik Noodles)
+  name: disque CD (Nouilles Quik)
   id: CdDiskQuikNoodles
   components:
   - type: Vinyl
@@ -121,7 +121,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (robotics)
+  name: disque CD (robotique)
   id: CdDiskRobotics
   components:
   - type: Vinyl
@@ -130,7 +130,7 @@
 
 - type: entity
   parent: BaseCdDisk
-  name: cd disk (security psa)
+  name: disque CD (PSA sécurité)
   id: CdDiskSecurityPsa
   components:
   - type: Vinyl
@@ -143,12 +143,12 @@
   parent: BaseCdDisk
   id: CdDiskWeird
   abstract: true
-  name: weird cd disk
-  description: A weird cd disk, something tells you that this one doesn't contain ads.
+  name: disque CD bizarre
+  description: Un disque CD bizarre, quelque chose vous dit que celui-ci ne contient pas de publicités.
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (commander announcement)
+  name: disque CD (annonce du commandant)
   id: CdDiskCommanderAnnouncement
   components:
   - type: Sprite
@@ -159,7 +159,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (commander figurines)
+  name: disque CD (figurines du commandant)
   id: CdDiskCommanderFigurines
   components:
   - type: Sprite
@@ -170,7 +170,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (commander resignation)
+  name: disque CD (démission du commandant)
   id: CdDiskCommanderResignation
   components:
   - type: Sprite
@@ -181,7 +181,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (commander support)
+  name: disque CD (soutien du commandant)
   id: CdDiskCommanderSupport
   components:
   - type: Sprite
@@ -192,7 +192,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (trial of Heisenbee)
+  name: disque CD (le procès de Heisenbee)
   id: CdDiskHeisenbeeTrial
   components:
   - type: Vinyl
@@ -201,7 +201,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (xg onboarding 1)
+  name: disque CD (intégration xg 1)
   id: CdDiskXgOnboarding1
   components:
   - type: Vinyl
@@ -210,7 +210,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (xg onboarding 2)
+  name: disque CD (intégration xg 2)
   id: CdDiskXgOnboarding2
   components:
   - type: Vinyl
@@ -219,7 +219,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (xg onboarding 3)
+  name: disque CD (intégration xg 3)
   id: CdDiskXgOnboarding3
   components:
   - type: Vinyl
@@ -228,7 +228,7 @@
 
 - type: entity
   parent: CdDiskWeird
-  name: cd disk (xg onboarding 4)
+  name: disque CD (intégration xg 4)
   id: CdDiskXgOnboarding4
   components:
   - type: Vinyl
@@ -239,14 +239,14 @@
   parent: BaseCdDisk
   id: JVNECdDisk
   abstract: true
-  description: The June and Eels show!
+  description: Le spectacle de June et Eels !
   components:
   - type: Sprite
     state: jne-cd
 
 - type: entity
   parent: JVNECdDisk
-  name: cd disk (Capstien)
+  name: disque CD (Capstien)
   id: JVNECdDiskCapstien
   components:
   - type: Vinyl
@@ -255,7 +255,7 @@
 
 - type: entity
   parent: JVNECdDisk
-  name: cd disk (NINJA!!!)
+  name: disque CD (NINJA!!!)
   id: JVNECdDiskNinja
   components:
   - type: Vinyl
@@ -264,7 +264,7 @@
 
 - type: entity
   parent: JVNECdDisk
-  name: cd disk (Next Up)
+  name: disque CD (Next Up)
   id: JVNECdDiskNextUp
   components:
   - type: Vinyl
@@ -273,7 +273,7 @@
 
 - type: entity
   parent: JVNECdDisk
-  name: cd disk (June & Eels Show)
+  name: disque CD (June & Eels Show)
   id: JVNECdDiskJNE
   components:
   - type: Vinyl
@@ -284,16 +284,16 @@
   parent: [BaseSyndicateContraband, BaseCdDisk]
   id: SyndiCdDisk
   abstract: true
-  description: Get da disk!
+  description: Prends le disque !
   components:
   - type: Sprite
     state: synd-cd
 
 - type: entity
   parent: SyndiCdDisk
-  name: cd disk (Numbers)
+  name: disque CD (Numbers)
   id: JVNECdDiskNumber
-  description: All around the mulberry bush, the monkey chased the weasel...
+  description: Tout autour du mûrier, le singe chassait la belette...
   components:
   - type: Vinyl
     song:
@@ -303,9 +303,9 @@
 
 - type: entity
   parent: SyndiCdDisk
-  name: cd disk (Syndicate)
+  name: disque CD (Syndicate)
   id: JVNECdDiskSyndicate
-  description: 102.9 Syndicate radio
+  description: 102.9 Radio syndicale
   components:
   - type: Vinyl
     song:

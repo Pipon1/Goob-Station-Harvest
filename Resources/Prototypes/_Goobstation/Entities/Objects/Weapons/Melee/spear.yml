@@ -2,7 +2,7 @@
   parent: [BaseItem, BaseMagicalContraband]
   id: SpearGreyTide
   name: Grey Tide
-  description: Recovered from the aftermath of a revolt aboard Defense Outpost Theta Aegis, in which a seemingly endless tide of Assistants caused heavy casualties among Nanotrasen military forces.
+  description: Récupérée après une révolte à bord de l'Avant-poste de Défense Theta Aegis, où une marée apparemment sans fin d'Assistants a causé de lourdes pertes parmi les forces militaires de Nanotrasen.
   components:
   - type: EmbeddableProjectile
     offset: -0.15,0.0

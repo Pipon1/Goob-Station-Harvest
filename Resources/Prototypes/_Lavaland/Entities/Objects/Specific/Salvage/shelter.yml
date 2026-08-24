@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseShelterCapsule
   id: ShelterCapsule
-  name: bluespace shelter capsule
-  description: An emergency shelter stored within a pocket of bluespace.
+  name: capsule d'abri bluespace
+  description: Un abri d'urgence stocké dans une poche de bluespace.
   components:
   - type: DeployableGrid
     deployTime: 5.0
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseShelterCapsule
   id: ShelterCapsuleLuxury
-  name: luxury bluespace shelter capsule
-  description: An exorbitantly expensive luxury suite stored within a pocket of bluespace.
+  name: capsule d'abri bluespace de luxe
+  description: Une suite de luxe exorbitante stockée dans une poche de bluespace.
   components:
   - type: DeployableGrid
     deployTime: 8.0

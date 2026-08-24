@@ -12,8 +12,8 @@
   abstract: true
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorBase
-  name: armor vest
-  description: A standard Type I armored vest that provides decent protection against most types of damage.
+  name: gilet pare-balles
+  description: Un gilet pare-balles standard de type I offrant une protection correcte contre la plupart des types de dégâts.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security.rsi
@@ -59,9 +59,9 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicSlim
-  name: armor vest
-  suffix: slim
-  description: A slim Type I armored vest that provides decent protection against most types of damage.
+  name: gilet pare-balles
+  suffix: mince
+  description: Un gilet pare-balles mince de type I offrant une protection correcte contre la plupart des types de dégâts.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorBulletproof
-  name: bulletproof vest
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  name: gilet pare-balles lourd
+  description: Un lourd gilet pare-balles de type III qui excelle dans la protection de son porteur contre les armes à projectiles conventionnelles et, dans une moindre mesure, contre les explosifs.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorReflective
-  name: reflective vest
-  description: An armored vest with advanced shielding to protect against energy weapons.
+  name: gilet réfléchissant
+  description: Un gilet pare-balles doté d'un blindage avancé pour protéger contre les armes à énergie.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseCommandContraband] # Goobstation?
   id: ClothingOuterArmorCaptainCarapace
-  name: captain's carapace
-  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+  name: cuirasse du capitaine
+  description: Une pièce d'armure thoracique offrant une protection tout en garantissant une mobilité et une flexibilité maximales. Distribuée uniquement aux meilleurs membres de la station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/captain_carapace.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCentcommContraband]
   id: ClothingOuterArmorCentcommCarapace
-  name: centcomm carapace
-  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
+  name: cuirasse de CentComm
+  description: Une pièce d'armure thoracique offrant une protection tout en garantissant une mobilité et une flexibilité maximales. Distribuée uniquement aux responsables et agents de CentComm.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/centcomm_carapace.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSyndicateContraband ]
   id: ClothingOuterArmorRaid
-  name: syndicate raid suit
-  description: A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
+  name: combinaison de raid du Syndicat
+  description: Une combinaison relativement flexible et bien blindée, équipée d'une puissante lampe torche montée sur l'épaule et fabriquée dans la palette de couleurs rouge sang emblématique des Maraudeurs de Gorlex. Elle ne protège toutefois pas son porteur contre le vide spatial.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
@@ -404,8 +404,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorRiot
-  name: riot suit
-  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  name: combinaison anti-émeute
+  description: Une armure corporelle en polycarbonate semi-flexible avec un rembourrage épais pour se protéger contre les attaques de mêlée. Parfaite pour affronter les fauteurs de troubles autour de la station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -445,8 +445,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorCult
-  name: acolyte armor
-  description: An evil-looking piece of cult armor, made of bones.
+  name: armure d'acolyte
+  description: Une pièce d'armure de culte à l'apparence sinistre, fabriquée à partir d'os.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
@@ -483,8 +483,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
-  name: heavy armor suit
-  description: A heavily armored suit that protects against excessive damage.
+  name: combinaison d'armure lourde
+  description: Une combinaison lourdement blindée qui protège contre les dégâts importants.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
@@ -524,8 +524,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyGreen
-  name: green heavy armor suit
-  description: A heavily armored suit with green accents that protects against excessive damage.
+  name: combinaison d'armure lourde verte
+  description: Une combinaison lourdement blindée avec des accents verts qui protège contre les dégâts importants.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
@@ -535,8 +535,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyRed
-  name: red heavy armor suit
-  description: A heavily armored suit with red accents that protects against excessive damage.
+  name: combinaison d'armure lourde rouge
+  description: Une combinaison lourdement blindée avec des accents rouge qui protège contre les dégâts importants.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavyred.rsi
@@ -546,8 +546,8 @@
 - type: entity
   parent: [ClothingOuterArmorHeavy, ClothingOuterWizardBaseArmor, BaseMagicalContraband] # Goob edit
   id: ClothingOuterArmorMagusblue
-  name: blue magus armor
-  description: An blue armored suit that provides good protection. Doesn't count as wizard robes. # Goob edit
+  name: armure de mage bleue
+  description: Une combinaison blindée bleue offrant une bonne protection. Ne compte pas comme une robe de sorcier. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusblue.rsi
@@ -581,8 +581,8 @@
 - type: entity
   parent: ClothingOuterArmorMagusblue # Goob edit
   id: ClothingOuterArmorMagusred
-  name: red magus armor
-  description: A red armored suit that provides good protection. Doesn't count as wizard robes. # Goob edit
+  name: armure de mage rouge
+  description: Une combinaison blindée rouge offrant une bonne protection. Ne compte pas comme une robe de sorcier. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusred.rsi
@@ -592,8 +592,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorChangeling
-  name: chitinous armor
-  description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
+  name: armure chitineuse
+  description: Transforme le corps du changelin en une masse d'armure chitineuse dévorante.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
@@ -646,8 +646,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorBone
-  name: bone armor
-  description: Sits on you like a second skin.
+  name: armure d'os
+  description: Se pose sur vous comme une seconde peau.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
@@ -699,8 +699,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorPodWars
-  name: ironclad II armor
-  description: A repurposed suit of ironclad II armor, a relic of the pod wars.
+  name: armure Ironclad II
+  description: Une combinaison d'armure Ironclad II reconvertie, un vestige des guerres de protojet.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi
@@ -745,8 +745,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: CardArmour
-  name: cardboard armour
-  description: A medieval chestpiece built from cardboard.
+  name: armure en carton
+  description: Une pièce d'armure médiévale fabriquée en carton.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/card_armour.rsi

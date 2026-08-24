@@ -11,7 +11,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCottonBun
-  name: cotton bun recipe
+  name: cotton bun recette
   result: FoodCottonBun
   time: 5
   group: Moth
@@ -21,7 +21,7 @@
 #Bagels
 - type: microwaveMealRecipe
   id: RecipeBagel
-  name: bagel recipe
+  name: bagel recette
   result: FoodBagel
   time: 5
   group: Breads
@@ -30,7 +30,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBagelPoppy
-  name: poppyseed bagel recipe
+  name: poppyseed bagel recette
   result: FoodBagelPoppy
   time: 5
   group: Breads
@@ -40,7 +40,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBagelCotton
-  name: cotton bagel recipe
+  name: cotton bagel recette
   result: FoodBagelCotton
   time: 5
   group: Moth
@@ -51,7 +51,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeAppendixBurger
-  name: appendix burger recipe
+  name: appendix burger recette
   result: FoodBurgerAppendix
   time: 10
   group: Savory
@@ -61,7 +61,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBaconBurger
-  name: bacon burger recipe
+  name: bacon burger recette
   result: FoodBurgerBacon
   time: 10
   group: Savory
@@ -72,7 +72,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBaseballBurger
-  name: baseball burger recipe
+  name: baseball burger recette
   result: FoodBurgerBaseball
   time: 10
   group: Savory
@@ -82,7 +82,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBearger
-  name: bearger recipe
+  name: bearger recette
   result: FoodBurgerBear
   time: 10
   group: Savory
@@ -92,7 +92,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBigBiteBurger
-  name: big bite burger recipe
+  name: big bite burger recette
   result: FoodBurgerBig
   time: 15
   group: Savory
@@ -105,7 +105,7 @@
 
 - type: microwaveMealRecipe #Added to metamorph recipes
   id: RecipeBrainBurger
-  name: brain burger recipe
+  name: brain burger recette
   result: FoodBurgerBrain
   time: 10
   group: Savory
@@ -115,7 +115,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCatBurger
-  name: cat burger recipe
+  name: cat burger recette
   result: FoodBurgerCat
   time: 10
   group: Savory
@@ -126,7 +126,7 @@
 
 - type: microwaveMealRecipe #Added to metamorph recipes
   id: RecipeCheeseburger
-  name: cheeseburger recipe
+  name: cheeseburger recette
   result: FoodBurgerCheese
   time: 10
   group: Savory
@@ -137,7 +137,7 @@
 
 - type: microwaveMealRecipe #Added to metamorph recipes
   id: RecipeChickenSandwich
-  name: chicken sandwich recipe
+  name: chicken sandwich recette
   result: FoodBurgerChicken
   time: 10
   group: Savory
@@ -149,7 +149,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeClownBurger
-  name: clownburger recipe
+  name: clownburger recette
   result: FoodBurgerClown
   time: 10
   group: Savory
@@ -159,7 +159,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCorgiBurger
-  name: corgi burger recipe
+  name: corgi burger recette
   result: FoodBurgerCorgi
   time: 10
   group: Savory
@@ -169,7 +169,7 @@
 
 - type: microwaveMealRecipe #Added to metamorph recipes
   id: RecipeCrabBurger
-  name: crab burger recipe
+  name: crab burger recette
   result: FoodBurgerCrab
   time: 10
   group: Savory
@@ -179,7 +179,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCrazyHamburger
-  name: crazy hamburger recipe
+  name: crazy hamburger recette
   result: FoodBurgerCrazy
   time: 15
   group: Savory
@@ -196,7 +196,7 @@
 
 - type: microwaveMealRecipe #Added to metamorph recipes
   id: RecipeDuckBurger
-  name: duck sandwich recipe
+  name: duck sandwich recette
   result: FoodBurgerDuck
   time: 10
   group: Savory
@@ -207,7 +207,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeEmpoweredBurger
-  name: empowered burger recipe
+  name: empowered burger recette
   result: FoodBurgerEmpowered
   time: 10
   group: Savory
@@ -217,7 +217,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCarpBurger
-  name: fillet-o-carp burger recipe
+  name: fillet-o-carp burger recette
   result: FoodBurgerCarp
   time: 10
   group: Savory
@@ -228,7 +228,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFiveBurger
-  name: five alarm burger recipe
+  name: five alarm burger recette
   result: FoodBurgerFive
   time: 10
   group: Savory
@@ -239,7 +239,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeGhostBurger
-  name: ghost burger recipe
+  name: ghost burger recette
   result: FoodBurgerGhost
   time: 10
   group: Savory
@@ -249,7 +249,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHumanBurger
-  name: human burger recipe
+  name: human burger recette
   result: FoodBurgerHuman
   time: 10
   group: Savory
@@ -259,7 +259,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeJellyBurger
-  name: jelly burger recipe
+  name: jelly burger recette
   result: FoodBurgerJelly
   time: 10
   group: Savory
@@ -269,7 +269,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBurgerMcguffin
-  name: McGuffin recipe
+  name: McGuffin recette
   result: FoodBurgerMcguffin
   time: 10
   group: Savory
@@ -281,7 +281,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBurgerMcrib
-  name: BBQ rib sandwich recipe
+  name: BBQ rib sandwich recette
   result: FoodBurgerMcrib
   time: 10
   group: Savory
@@ -292,7 +292,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMimeBurger
-  name: mime burger recipe
+  name: mime burger recette
   result: FoodBurgerMime
   time: 10
   group: Savory
@@ -302,7 +302,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePlainBurger
-  name: plain burger recipe
+  name: plain burger recette
   result: FoodBurgerPlain
   time: 10
   group: Savory
@@ -312,7 +312,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRatBurger
-  name: rat burger recipe
+  name: rat burger recette
   result: FoodBurgerRat
   time: 10
   group: Savory
@@ -322,7 +322,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRobotBurger
-  name: roburger recipe
+  name: roburger recette
   result: FoodBurgerRobot
   time: 10
   group: Savory
@@ -333,7 +333,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSoylentBurger
-  name: soylent burger recipe
+  name: soylent burger recette
   result: FoodBurgerSoy
   time: 10
   group: Savory
@@ -344,7 +344,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSpellBurger
-  name: spell burger recipe
+  name: spell burger recette
   result: FoodBurgerSpell
   time: 10
   group: Savory
@@ -354,7 +354,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSuperBiteBurger
-  name: super bite burger recipe
+  name: super bite burger recette
   result: FoodBurgerSuper
   time: 25
   group: Savory
@@ -369,7 +369,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeTofuBurger
-  name: tofu burger recipe
+  name: tofu burger recette
   result: FoodBurgerTofu
   time: 10
   group: Savory
@@ -389,7 +389,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMothRoachburger
-  name: mothroachburger recipe
+  name: mothroachburger recette
   result: FoodBurgerMothRoach
   group: Savory
   solids:
@@ -400,7 +400,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBananaBread
-  name: banana bread recipe
+  name: banana bread recette
   result: FoodBreadBanana
   time: 15
   group: Breads
@@ -410,7 +410,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCornbread
-  name: cornbread recipe
+  name: cornbread recette
   result: FoodBreadCorn
   time: 10
   group: Breads
@@ -419,7 +419,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCreamCheeseBread
-  name: cream cheese bread recipe
+  name: cream cheese bread recette
   result: FoodBreadCreamcheese
   time: 15
   group: Breads
@@ -431,7 +431,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMeatBread
-  name: meat bread recipe
+  name: meat bread recette
   result: FoodBreadMeat
   time: 15
   group: Breads
@@ -442,7 +442,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMimanaBread
-  name: mimana bread recipe
+  name: mimana bread recette
   result: FoodBreadMimana
   time: 15
   group: Breads
@@ -454,7 +454,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBread
-  name: bread recipe
+  name: bread recette
   result: FoodBreadPlain
   time: 10
   group: Breads
@@ -463,7 +463,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBreadCotton
-  name: cotton bread recipe
+  name: cotton bread recette
   result: FoodBreadCotton
   time: 10
   group: Moth
@@ -472,7 +472,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSausageBread
-  name: sausage bread recipe
+  name: sausage bread recette
   result: FoodBreadSausage
   time: 15
   group: Breads
@@ -482,7 +482,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSpiderMeatBread
-  name: spider meat bread recipe
+  name: spider meat bread recette
   result: FoodBreadMeatSpider
   time: 15
   group: Breads
@@ -493,7 +493,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeTofuBread
-  name: tofu bread recipe
+  name: tofu bread recette
   result: FoodBreadTofu
   time: 15
   group: Breads

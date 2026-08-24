@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: ChopSticks
-  name: chopsticks
-  description: A very traditional utensil.
+  name: baguettes
+  description: Un ustensile très traditionnel.
   components:
   - type: Sprite
     sprite: Objects/Misc/chopstick.rsi
@@ -21,9 +21,9 @@
 
 - type: entity
   parent: BaseItem
-  name: paired chopsticks
+  name: baguettes jumelées
   id: PairedChopsticks
-  description: You should probably separate them.
+  description: Vous devriez probablement les séparer.
   components:
   - type: SpawnItemsOnUse
     items:

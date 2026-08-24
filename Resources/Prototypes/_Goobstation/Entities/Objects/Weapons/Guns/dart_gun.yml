@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: dart gun
+  name: pistolet à fléchettes
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: DartGun
-  description: 'The label reads: "Interdyne Pharmaceutics is not responsible for any geneva convention violations caused by improper use."'
+  description: "L'étiquette indique : « Interdyne Pharmaceutics n'est pas responsable des violations de la convention de Genève causées par une utilisation inappropriée. »"
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/dart_gun.rsi
@@ -50,8 +50,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletDartGun
-  name: chemical dart
-  description: Is this one healing or harming?
+  name: fléchette chimique
+  description: Celui-ci soigne-t-il ou blesse-t-il ?
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/dart_red.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MaterialWatcherWing
-  name: watcher's wing
-  description: They are tough and yet easily merge together, it should be a great material for new tools.
+  name: aile de guetteur
+  description: Elles sont robustes et pourtant se fusionnent facilement, ce devrait être un excellent matériau pour de nouveaux outils.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Materials/watcher.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseItem
   id: MaterialWatcherMagmaWing
-  name: watcher's magma wing
-  description: A wing with magma flowing inside. They are tough and yet easily merge together, it should be a great material for new tools.
+  name: aile magma de guetteur
+  description: Une aile avec du magma qui coule à l'intérieur. Elles sont robustes et pourtant se fusionnent facilement, ce devrait être un excellent matériau pour de nouveaux outils.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Materials/watcher.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseItem
   id: MaterialWatcherIceWing
-  name: watcher's ice wing
-  description: A wing that is made out of ice, but it somehow refuses to melt. They are tough and yet easily merge together, it should be a great material for new tools.
+  name: aile glace de guetteur
+  description: Une aile faite de glace, mais qui refuse inexplicablement de fondre. Elles sont robustes et pourtant se fusionnent facilement, ce devrait être un excellent matériau pour de nouveaux outils.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Materials/watcher.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseItem
   id: MaterialLegionSkull
-  name: legion skull
-  description: A grey deformed skull of a long gone humanoid. Just for a brief moment, you felt like it is staring right at your soul.
+  name: crâne légion
+  description: Un crâne gris déformé d'un humanoïde disparu depuis longtemps. Juste un bref instant, vous avez l'impression qu'il fixe votre âme.
   components:
   - type: Sprite
     sprite: _Lavaland/Objects/Materials/legion.rsi

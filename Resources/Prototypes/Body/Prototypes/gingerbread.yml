@@ -2,7 +2,7 @@
 
 - type: body
   id: Gingerbread
-  name: gingerbread
+  name: bonhomme de pain d'épices
   root: chest
   slots:
     head:

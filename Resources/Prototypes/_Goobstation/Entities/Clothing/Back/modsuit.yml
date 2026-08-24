@@ -3,8 +3,8 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
   id: ClothingModsuitStandard
-  name: standard modsuit control unit
-  description: A special modular suit contol unit containing all necessary modular hardsuit parts.
+  name: unité de contrôle de modsuit standard
+  description: Une unité de contrôle de combinaison modulaire spéciale contenant toutes les pièces nécessaires de hardsuit modulaire.
   components:
   - type: Appearance
   - type: Sprite
@@ -87,8 +87,8 @@
 - type: entity
   parent: Clothing
   id: ClothingModsuitStandardNoStorage
-  name: standard modsuit control unit
-  description: A special modular suit contol unit containing all necessary modular hardsuit parts.
+  name: unité de contrôle de modsuit standard
+  description: Une unité de contrôle de combinaison modulaire spéciale contenant toutes les pièces nécessaires de hardsuit modulaire.
   components:
   - type: Appearance
   - type: Sprite
@@ -170,8 +170,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseSecurityContraband]
   id: ClothingModsuitSecurity
-  name: security soldat modsuit control unit
-  description: A robust modular hardsuit control module unit for thrashing commies in spess.
+  name: unité de contrôle de modsuit soldat d'agent de sécurité
+  description: Une unité de contrôle de hardsuit modulaire robuste pour tabasser des communistes dans l'espace.
   components:
   - type: Appearance
   - type: Sprite
@@ -208,8 +208,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseCommandContraband]
   id: ClothingModsuitHeadOfSecurity
-  name: head of security's bulwark modsuit control unit
-  description: A robust modular HARDERsuit control module unit for the head of security.
+  name: unité de contrôle de modsuit rempart du chef de la sécurité
+  description: Une unité de contrôle de HARDSUIT modulaire robuste pour le chef de la sécurité.
   components:
   - type: Appearance
   - type: Clothing
@@ -254,8 +254,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseMedicalContraband]
   id: ClothingModsuitParamedic
-  name: sanitater modsuit control unit
-  description: A modular hardsuit control module unit for paramedics.
+  name: unité de contrôle de modsuit sanitäter
+  description: Une unité de contrôle de hardsuit modulaire pour les ambulanciers.
   components:
   - type: Appearance
   - type: Sprite
@@ -297,8 +297,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseEngineeringContraband]
   id: ClothingModsuitEngineer
-  name: engineer sapper modsuit control unit
-  description: A modular hardsuit control module unit for withstanding the greatest hazards on the job.
+  name: unité de contrôle de modsuit sapeur ingénieur
+  description: Une unité de contrôle de hardsuit modulaire pour résister aux plus grands dangers du métier.
   components:
   - type: Appearance
   - type: Sprite
@@ -337,8 +337,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseEngineeringContraband]
   id: ClothingModsuitAtmostech
-  name: atmospheric technician aeolus modsuit control unit
-  description: A modular hardsuit control module unit for withstanding the greatest hazards on the job.
+  name: unité de contrôle de modsuit éole technicien atmosphérique
+  description: Une unité de contrôle de hardsuit modulaire pour résister aux plus grands dangers du métier.
   components:
   - type: Appearance
   - type: Sprite
@@ -377,8 +377,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseCommandContraband, BaseGrandTheftContraband]
   id: ClothingModsuitResearchDirector
-  name: RD's minerva modsuit control unit
-  description: A modular hardsuit control module unit for withstanding another shuttlebomb.
+  name: unité de contrôle de modsuit minerve du DR
+  description: Une unité de contrôle de hardsuit modulaire pour résister à une autre bombe dans la navette.
   components:
   - type: Appearance
   - type: Sprite
@@ -420,8 +420,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseCommandContraband]
   id: ClothingModsuitCaptain
-  name: captain's magnate modsuit control unit
-  description: A gem-encrusted, mirror-shined and absolutely MAGNATE armored modsuit. The cooling fluid is dragons' blood watered down with Dr. Gibb. This shit is nothing to you, man. # goob edit - grammar
+  name: unité de contrôle de modsuit magnat du capitaine
+  description: Une combinaison modulaire blindée incrustée de gemmes, brillante comme un miroir et absolument MAGNAT. Le liquide de refroidissement est du sang de dragon dilué avec du Dr. Gibb. C'est que dalle pour vous, mec. # goob edit - grammar
   components:
   - type: Appearance
   - type: Sprite

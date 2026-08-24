@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCOG
-  name: Old robe
-  description: An ancient crimson draping from a now-defunct cult.
+  name: Vieille robe
+  description: Un drap cramoisi ancestral provenant d'un culte désormais disparu.
   components:
   - type: Sprite
     scale: 0.6, 0.6

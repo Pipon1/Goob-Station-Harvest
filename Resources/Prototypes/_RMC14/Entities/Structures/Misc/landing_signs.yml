@@ -2,8 +2,8 @@
   parent: BaseStructure
   abstract: true
   id: RMCBaseLandingSign
-  name: sign
-  description: A sign.
+  name: panneau
+  description: Un panneau.
   components:
   - type: Transform
     anchored: false
@@ -18,8 +18,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCLazarusLandingSign
-  name: Lazarus landing sign
-  description: A large sign reading 'lazarus landing por-' the rest of it is smeared in blood.
+  name: panneau d'atterrissage Lazarus
+  description: Un grand panneau indiquant 'atterrissage Lazarus por-' le reste est maculé de sang.
   components:
   - type: Sprite
     state: laz_sign
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCSolarisRidgeSign
-  name: Solaris Ridge sign
-  description: A large sign that reads 'Solaris Ridge -', the rest of it is scraped away.
+  name: panneau Solaris Ridge
+  description: Un grand panneau indiquant 'Solaris Ridge -', le reste est effacé.
   components:
   - type: Sprite
     state: red_sign
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCPrisonSign
-  name: UN Prison Docking sign
-  description: A large sign that reads 'UN Prison Docking -', the rest of it is obscured by claw marks.
+  name: panneau d'amarrage Prison de l'ONU
+  description: Un grand panneau indiquant 'Amarrage Prison de l'ONU -', le reste est obscurci par des marques de griffes.
   components:
   - type: Sprite
     state: prison_sign
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCShivaIceSign
-  name: Shiva's Ice landing sign
-  description: A large sign that reads 'Shiva's Ice L-nding -', bullet holes and torn metal obscure the rest of the signage.
+  name: panneau d'atterrissage Shiva's Ice
+  description: Un grand panneau indiquant 'Atterrissage Shiva's Ice -', des trous de balles et du métal déchiré obscurcissent le reste.
   components:
   - type: Sprite
     state: ice_sign
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCTrijentSign
-  name: Trijent landing sign
-  description: A large sign that reads 'Trijent mining col-', with the rest being obscured by what looks to be dried blood, and damage.
+  name: panneau d'atterrissage Trijent
+  description: Un grand panneau indiquant 'Colonie minière Trijent -', le reste étant obscurci par ce qui semble être du sang séché et des dégâts.
   components:
   - type: Sprite
     state: dam_sign
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCTrijentSign
   id: RMCTrijentSignAlt
-  description: A large sign that reads 'Trijent mining colony', with half the sign written in Japanese.
+  description: Un grand panneau indiquant 'Colonie minière Trijent', avec la moitié du panneau écrit en japonais.
   components:
   - type: Sprite
     state: dam_sign_2
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCSorokyneSign
-  name: Sorokyne landing sign
-  description: A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Don't eat the resin coated snow.
+  name: panneau d'atterrissage Sorokyne
+  description: Un grand panneau indiquant 'Sorokyne - СОРОКІНО - POP. 110' Le logo de la Compagnie est fièrement affiché dans le coin. Ne mangez pas la neige enrobée de résine.
   components:
   - type: Sprite
     state: sorokyne_1
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCSorokyneSign
   id: RMCSorokyneSignAlt
-  description: A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Someone has crudely written 'FUCK OFF' in teal paint across the majority of the sign.
+  description: Un grand panneau indiquant 'Sorokyne - СОРОКІНО - POP. 110' Le logo de la Compagnie est fièrement affiché dans le coin. Quelqu'un a grossièrement écrit 'FUCK OFF' en peinture cyan sur la majeure partie du panneau.
   components:
   - type: Sprite
     state: sorokyne
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCNewVaraderoSign
-  name: New Varadero landing sign
-  description: A large sign that reads 'New Varadero'. Its always sunny here!
+  name: panneau d'atterrissage New Varadero
+  description: Un grand panneau indiquant 'New Varadero'. Il fait toujours soleil ici !
   components:
   - type: Sprite
     state: new_varadero
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCFortBicepSign
-  name: Fort Bicep sign
-  description: A large sign that reads 'Fort Bicep, T-COMMS'.
+  name: panneau Fort Bicep
+  description: Un grand panneau indiquant 'Fort Bicep, T-COMMS'.
   components:
   - type: Sprite
     state: fort_biceps
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCHybrisaProsperaSign
-  name: Hybrisa Prospera welcome sign
-  description: A large sign that reads 'Welcome to Hybrisa Prospera', The Weston Yamada 'Wings' and logo adorn the sign, as well as some information about the colony.
+  name: panneau de bienvenue Hybrisa Prospera
+  description: Un grand panneau indiquant 'Bienvenue à Hybrisa Prospera', le logo et les 'Ailes' de Weston Yamada ornent le panneau, ainsi que des informations sur la colonie.
   components:
   - type: Sprite
     state: hybrisa_sign
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCHybrisaProsperaMedicalSign
-  name: Hybrisa Prospera - Emergency Medical Landing Zone one sign
-  description: A large sign that reads 'Emergency Medical - HBP - LZ - 01'.
+  name: panneau Hybrisa Prospera - Zone d'atterrissage d'urgence médicale 1
+  description: Un grand panneau indiquant 'Urgences Médicales - HBP - ZA - 01'.
   components:
   - type: Sprite
     state: hybrisamedical_sign
@@ -124,8 +124,8 @@
 - type: entity
   parent: RMCBaseLandingSign
   id: RMCHybrisaProsperaMiningSign
-  name: Hybrisa Prospera - Weston-Yamada Tartarus Mining - Landing Zone two sign
-  description: A large sign that reads 'WEYA - TMCC Mining - HBP - LZ - 01' The Tartarus Mining logo is adorns the sign.
+  name: panneau Hybrisa Prospera - Minage Tartarus Weston-Yamada - Zone d'atterrissage 2
+  description: Un grand panneau indiquant 'WEYA - TMCC Minage - HBP - ZA - 01' Le logo de Tartarus Mining orne le panneau.
   components:
   - type: Sprite
     state: hybrisamining_sign

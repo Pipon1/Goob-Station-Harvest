@@ -42,7 +42,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -53,7 +53,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -106,14 +106,14 @@
   name: Viper
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A sleek machine pistol designed by the Waffle Corporation. Boasting a selector switch that toggles between semi-auto and rock & roll, the Viper punches high above its weight class given its bulk and concealability. Feeds from .35 Auto pistol magazines. # Goobstation
+  description: Un pistolet-mitrailleur élégant conçu par la Waffle Corporation. Doté d'un sélecteur de tir basculant entre semi-auto et rafale, le Viper frappe bien au-dessus de sa catégorie de poids vu sa compacité et sa dissimulabilité. Utilise des chargeurs .35 Auto.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -124,7 +124,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -140,7 +140,7 @@
   name: Echis
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: A cyborg-mounted weapon system based on the Viper platform. Creates ammunition on the fly from an internal fabricator, which slowly self-charges. # Goobstation
+  description: Un système d'arme monté sur cyborg basé sur la plateforme Viper. Crée les munitions à la volée grâce à un fabricateur interne, qui se recharge lentement.
   components:
   - type: Gun
     fireRate: 5
@@ -176,7 +176,7 @@
   name: Cobra
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
-  description: An integrally suppressed, semi-automatic pistol that leaves no trace. Being subsonic, the rounds are near silent at the cost of damage. Feeds from 9.5mm pistol magazines. # Goobstation
+  description: Un pistolet semi-automatique à silencieux intégré ne laissant aucune trace. Étant subsonique, les balles sont quasi silencieuses au prix de dégâts réduits. Utilise des chargeurs 9,5mm.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -201,7 +201,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazinePistolCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -211,7 +211,7 @@
             - MagazinePistolCaselessRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:
@@ -227,7 +227,7 @@
   name: MK58
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolMk58
-  description: A bog standard semi-automatic pistol chambered in thirty-five. Slim, simple, and accurate in the right hands, it's one of NanoTrasen Small Arms' crown jewels and the most common sidearm in the free world. Feeds from .35 Auto pistol magazines. # Goobstation
+  description: Un pistolet semi-automatique standard chambré en 35. Mince, simple et précis entre de bonnes mains, c'est l'une des fiertés de NanoTrasen Small Arms et l'arme de poing la plus courante dans le monde libre. Utilise des chargeurs .35 Auto.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -253,7 +253,7 @@
   name: N1984
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolN1984
-  description: A ridiculously overengineered hand cannon that fires a revolver cartridge. While the firerate is measured in malfunctions per second, it's become a sort of status symbol among the NanoTrasen elite due to its sheer power and gaudy price tag. Feeds from .45 Magnum pistol magazines. # Goobstation
+  description: Un canon de poing ridiculement surconçu tirant une cartouche de revolver. Bien que la cadence de tir se mesure en dysfonctionnements par seconde, c'est devenu un symbole de statut parmi l'élite NanoTrasen grâce à sa puissance et son prix exorbitant. Utilise des chargeurs .45 Magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
@@ -279,7 +279,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineMagnum
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -289,7 +289,7 @@
             - MagazineMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:

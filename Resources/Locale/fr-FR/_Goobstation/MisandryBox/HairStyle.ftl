@@ -1,0 +1,2 @@
+role-timer-blacklisted-hair = Votre personnage ne doit pas avoir l'une des coiffures suivantes pour sélectionner ceci :
+role-timer-whitelisted-hair = Votre personnage doit avoir l'une des coiffures suivantes pour sélectionner ceci :

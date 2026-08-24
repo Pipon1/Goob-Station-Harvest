@@ -2,7 +2,7 @@
 
 - type: entity
   id: GrenadeBeanbagShotgun
-  name: "40mm beanbag shot"
+  name: "tir de balle en tissu 40mm"
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -23,8 +23,8 @@
 
 - type: entity
   id: GrenadeBirdshot
-  name: "40mm birdshot"
-  description: "For hunting alien birds of unusual size."
+  name: "chevrotine 40mm"
+  description: "Pour chasser des oiseaux extraterrestres de taille inhabituellement grande."
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -41,8 +41,8 @@
 
 - type: entity
   id: GrenadeSlug
-  name: "40mm slug"
-  description: "For hunting alien game the size of a mountain."
+  name: "balle slug 40mm"
+  description: "Pour chasser du gibier extraterrestre de la taille d'une montagne."
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -65,8 +65,8 @@
 
 - type: entity
   id: Grenade00Buckshot
-  name: "40mm 00-Buckshot"
-  description: "For when you're hunting alien game animals the size of a house."
+  name: "chevrotine 00 40mm"
+  description: "Pour quand vous chassez des animaux de gibier extraterrestres de la taille d'une maison."
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -83,9 +83,9 @@
 
 - type: entity
   id: Grenade0000Buckshot
-  name: "40mm 0000-Buckshot"
+  name: "chevrotine 0000 40mm"
   parent: BaseGrenade
-  description: "For when you're hunting alien game animals the size of a dropship."
+  description: "Pour quand vous chassez des animaux de gibier extraterrestres de la taille d'un dropship."
   components:
   - type: CartridgeAmmo
     proto: BulletGrenadeSpread0000Buckshot

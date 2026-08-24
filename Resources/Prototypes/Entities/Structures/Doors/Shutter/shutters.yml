@@ -3,9 +3,9 @@
 - type: entity
   id: BaseShutter
   parent: BaseStructure
-  name: shutter
+  name: volet
   abstract: true
-  description: One shudders to think about what might be behind this shutter.
+  description: On frissonne à l'idée de ce qui pourrait se cacher derrière ce volet.
   placement:
     mode: SnapgridCenter
   components:
@@ -157,8 +157,8 @@
 - type: entity
   id: ShuttersRadiation
   parent: [BaseDeltaPressureGlass, BaseShutter]
-  name: radiation shutters
-  description: Why did they make these shutters radioactive?
+  name: volets anti-radiations
+  description: Pourquoi ont-ils rendu ces volets radioactifs ??
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -193,8 +193,8 @@
 - type: entity
   id: ShuttersWindow
   parent: [BaseDeltaPressureGlass, BaseShutter]
-  name: window shutters
-  description: The Best (TM) place to see your friends explode!
+  name: volets de fenêtre
+  description: Le meilleur endroit (TM) pour voir vos amis exploser !
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_window.rsi
@@ -227,8 +227,8 @@
 - type: entity
   id: ShuttersFrame
   parent: BaseStructureDynamic
-  name: shutter frame
-  description: A frame for constructing a shutter.
+  name: cadre de volet
+  description: Un cadre pour construire un volet.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

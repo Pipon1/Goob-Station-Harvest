@@ -1,8 +1,8 @@
 - type: entity
   id: Turnstile
   parent: BaseStructure
-  name: turnstile
-  description: A mechanical door that permits one-way access and prevents tailgating.
+  name: tourniquet
+  description: Une porte mécanique qui permet un accès à sens unique et empêche quelqu'un de vous talonner.
   components:
   - type: Sprite
     sprite: Structures/Doors/turnstile.rsi

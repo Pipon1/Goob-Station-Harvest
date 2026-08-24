@@ -3,7 +3,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
   id: CartridgeHighCaliber
-  name: cartridge (.50 anti-materiel)
+  name: cartouche (.50 anti-matériel)
   components:
   - type: Tag
     tags:
@@ -24,7 +24,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
   id: CartridgeHighCaliberExplosive
-  name: cartridge (.50 high-explosive incendiary)
+  name: cartouche (.50 hautement explosif incendiaire)
   components:
   - type: Tag
     tags:

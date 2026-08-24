@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: sledgehammer
+  name: masse
   parent: BaseItem
   id: Sledgehammer
-  description: The perfect tool for wanton carnage.
+  description: L'outil parfait pour un carnage.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/sledgehammer.rsi
@@ -32,7 +32,7 @@
   id: Mjollnir
   parent: BaseItem
   name: Mjollnir
-  description: A weapon worthy of a god, able to strike with the force of a lightning bolt. It crackles with barely contained energy.
+  description: Une arme digne d'un dieu, capable de frapper avec la force d'un éclair. Elle crépite d'une énergie à peine contenue.
   components:
   - type: Wieldable
     useDelayOnWield: false # GoobStation Edit
@@ -84,8 +84,8 @@
 - type: entity
   id: SingularityHammer
   parent: BaseItem
-  name: Singularity Hammer
-  description: The pinnacle of close combat technology, the hammer harnesses the power of a miniaturized singularity to deal crushing blows.
+  name: Marteau de singularité
+  description: L'apogée de la technologie du combat rapproché, ce marteau exploite la puissance d'une singularité miniaturisée pour porter des coups dévastateurs.
   components:
   - type: Wieldable
     useDelayOnWield: false

@@ -7,7 +7,7 @@
   parent: BaseBoardEntity
   id: BaseBattlemap
   name: battlemap
-  description: A battlemap for your epic dungeon exploring to begin, pieces not included!
+  description: Une battlemap pour commencer votre exploration de donjon épique, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     state: icon
@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseBattlemap
   id: GrassBattlemap
-  name: grass battlemap
-  description: A battlemap for your epic dungeon exploring to begin, pieces not included!
+  name: battlemap herbe
+  description: Une battlemap herbe pour commencer votre exploration de donjon épique, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/Battlemaps/grassbm.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseBattlemap
   id: MoonBattlemap
-  name: moon battlemap
-  description: A battlemap for your epic moon exploring to begin, pieces not included!
+  name: battlemap lune
+  description: Une battlemap lune pour commencer votre exploration de lune épique, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/Battlemaps/moonbm.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseBattlemap
   id: SandBattlemap
-  name: sand battlemap
-  description: A battlemap for your epic beach episodes to begin, pieces not included!
+  name: battlemap sable
+  description: Une battlemap sable pour commencer vos épisodes de plage épiques, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/Battlemaps/sandbm.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseBattlemap
   id: SnowBattlemap
-  name: snow battlemap
-  description: A battlemap for your frigid exploring to begin, pieces not included! # if this isn't funny enough i can remove it
+  name: battlemap neige
+  description: Une battlemap neige pour commencer votre exploration frigorifique, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/Battlemaps/snowbm.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseBattlemap
   id: ShipBattlemap
-  name: ship battlemap
-  description: A battlemap for your epic space exploring to begin, pieces not included!
+  name: battlemap navire
+  description: Une battlemap navire pour commencer votre exploration de l'espace épique, les pièces ne sont pas incluses.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
@@ -84,7 +84,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *GrassBoard
-  name: grass battlemap
+  name: battlemap herbe
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *MoonBoard
-  name: grass battlemap
+  name: battlemap herbe
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *SandBoard
-  name: sand battlemap
+  name: battlemap sable
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *SnowBoard
-  name: snow battlemap
+  name: battlemap neige
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *ShipBoard
-  name: ship battlemap
+  name: battlemap navire
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

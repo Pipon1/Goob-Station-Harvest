@@ -40,10 +40,10 @@
     - GunCanAimShooter
 
 - type: entity
-  name: syringe gun
+  name: pistolet à seringues
   parent: [ BaseSyringeGun, BaseMedicalContraband ]
   id: SyringeGun
-  description: A gun that allows you to fire syringes to slowly inject their contents on a target.
+  description: Un pistolet qui permet de tirer des seringues pour injecter lentement leur contenu sur une cible.
   components:
   - type: Clothing
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -53,10 +53,10 @@
     quickEquip: false
 
 - type: entity
-  name: rapid syringe gun
+  name: pistolet à seringues rapide
   parent: [ BaseSyringeGun, BaseGrandTheftContraband ]
   id: RapidSyringeGun
-  description: A finely-tuned syringe gun featuring a faster fire rate and more room for ammo, made for the most experienced medical officers.
+  description: Un pistolet à seringues finement réglé avec une cadence de tir plus rapide et plus d'espace pour les munitions, conçu pour les officiers médicaux les plus expérimentés.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
@@ -85,10 +85,10 @@
     - GunCanAimShooter
 
 - type: entity
-  name: syringe pistol
+  name: pistolet seringue
   parent: [ BaseSyringeGun, BaseSyndicateContraband ]
   id: SyringePistol
-  description: An illegally modified syringe gun that pierces the skin better and can fit in pockets.
+  description: Un pistolet à seringues modifié illégalement qui perce mieux la peau et tient dans les poches.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi

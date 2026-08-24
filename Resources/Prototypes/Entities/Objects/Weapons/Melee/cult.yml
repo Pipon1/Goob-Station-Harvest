@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: ritual dagger
+  name: dague rituelle
   parent: BaseItem
   id: RitualDagger
-  description: A strange dagger used by sinister groups for rituals and sacrifices.
+  description: Une dague étrange utilisée par des groupes sinistres pour les rituels et les sacrifices.
   components:
   - type: Sharp
   - type: Sprite
@@ -30,10 +30,10 @@
     - Knife
 
 - type: entity
-  name: eldritch blade
+  name: lame eldritch
   parent: BaseItem
   id: EldritchBlade
-  description: A sword humming with unholy energy.
+  description: Une épée bourdonnant d'une énergie impie.
   components:
   - type: Sharp
   - type: Sprite
@@ -56,10 +56,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: unholy halberd
+  name: hallebarde impie
   parent: BaseItem
   id: UnholyHalberd
-  description: A poleaxe that seems to be linked to its wielder.
+  description: Une hallebarde qui semble liée à son porteur.
   components:
   - type: Tag
     tags:

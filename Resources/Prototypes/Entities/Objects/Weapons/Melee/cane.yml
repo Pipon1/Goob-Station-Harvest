@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: Cane
-  name: cane
-  description: A standard wooden cane. Can help disabled people move easier. # Goobstation
+  name: canne
+  description: Une canne en bois standard. Peut aider les personnes handicapées à se déplacer plus facilement. # Goobstation
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane.rsi
@@ -32,10 +32,10 @@
   - type: MovementImpairedCorrection # Goobstation
 
 - type: entity
-  name: cane blade
+  name: cane-épée
   parent: [BaseSword, BaseSyndicateContraband]
   id: CaneBlade
-  description: A sharp blade with a cane shaped hilt. Enchanted with fire powers by a fellow book lover. # Goobstation
+  description: Une lame tranchante avec une poignée en forme de canne. Enchantée avec des pouvoirs de feu par un autre amateur de livres. # Goobstation
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane_blade.rsi

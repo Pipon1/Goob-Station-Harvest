@@ -1,0 +1,54 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+job-description-technical-assistant = Apprenez les bases de la gestion de l'alimentation de la station et de la réparation de la coque.
+job-description-atmostech = Optimisez les systèmes atmosphériques de la station et synthétisez des gaz rares à utiliser ou vendre.
+job-description-bartender = Gérez le bar, servez des boissons et écoutez les histoires de l'équipage.
+job-description-botanist = Cultivez de la nourriture pour le chef, des plantes médicinales et d'autres végétaux pour vous occuper.
+job-description-borg = Mi-humain, mi-machine. Suivez vos lois, servez l'équipage et harcelez l'équipe scientifique pour des améliorations.
+job-description-brigmedic = Combattez en arrière-garde pour la vie de vos camarades ! Vous êtes le premier et dernier espoir de votre escouade. Qu'Hippocrate vous bénisse.
+job-description-cadet = Apprenez les bases de l'arrestation des criminels et de la gestion de la cellule. Écoutez vos supérieurs et demandez-leur de l'aide librement.
+job-description-captain = Maintenez la station en marche, déléguez le travail aux autres chefs et exercez votre autorité.
+job-description-cargotech = Gérez les réquisitions et livraisons, pilotez la navette cargo vers la station commerciale, et amassez des fortunes pour les claquer aux jeux.
+job-description-ce = Gérez le département ingénierie pour que l'alimentation, l'atmosphère et la coque soient en parfait état.
+job-description-centcomoff = Agissez comme ambassadeur de la dernière station spatiale dernier cri de la flotte Nanotrasen.
+job-description-chaplain = Prêchez la bonne parole de votre divinité et effectuez des guérisons spirituelles avec votre bible.
+job-description-chef = Nourrissez la station avec une variété de plats, débitez les animaux morts et animez le bar.
+job-description-chemist = Produisez des médicaments pour les médecins, recherchez des produits chimiques rares et fabriquez des armes de guerre en cas d'attaque.
+job-description-clown = Divertissez l'équipage avec des gags élaborés ou des blagues terribles.
+job-description-cmo = Gérez les ressources et le personnel médical pour garder l'équipage en vie.
+job-description-paramedic = Secourez les blessés graves partout dans la station, parfois à l'extérieur. Stabilisez-les, ramenez-les à l'infirmerie et repartez !
+job-description-detective = Enquêtez sur les scènes de crime avec des outils forensiques, trouvez les coupables et fumez quelques cigarettes.
+job-description-doctor = Diagnostiquez et soignez les membres d'équipage, assurez-vous que les morts ne pourrissent pas et que les cadavres sont à la morgue.
+job-description-engineer = Maintenez le moteur principal et les panneaux solaires actifs, optimisez le réseau électrique et effectuez des réparations d'urgence en combinaison.
+job-description-ertchaplain = Assurez-vous que les derniers droits de l'équipage de la station sont pris en charge.
+job-description-ertengineer = Assurez-vous que la station a de l'électricité et de l'air pur.
+job-description-ertjanitor = Assurez-vous que la station est correctement nettoyée — pour le moral.
+job-description-ertleader = Dirigez l'Équipe de Réponse d'Urgence contre les menaces aux actifs Nanotrasen.
+job-description-ertmedic = Assurez-vous que l'équipage de la station reste en vie et en bonne santé.
+job-description-ertsecurity = Éliminez toute menace active contre la station.
+job-description-hop = Gérez équitablement les accès via votre console ID, gérez le département service et gardez Ian en sécurité.
+job-description-hos = Gérez votre force de sécurité, maintenez l'ordre, réduisez la dissidence et protégez les autres chefs.
+job-description-intern = Apprenez les bases de l'administration des médicaments, des produits chimiques de base et de l'utilisation des outils médicaux.
+job-description-janitor = Gardez la station propre de tous les ordures et des risques de glissade, et aidez à résoudre les infestations de rats.
+job-description-lawyer = Assurez que chaque prisonnier ou criminel reçoit un jugement équitable et un procès si nécessaire.
+job-description-librarian = Gérez la bibliothèque, donnez des connaissances à tous ceux qui les recherchent, et rapportez les activités à bord de la station.
+job-description-mime = Divertissez l'équipage sans parler ou écrire, et engagez une légère rivalité avec le clown.
+job-description-musician = Divertissez l'équipage avec votre talent musical unique, et acquérez de nouveaux instruments pour expérimenter.
+job-description-passenger = Profitez de votre séjour à bord de la station sans obligations !
+job-description-psychologist = Fournissez un soutien émotionnel à l'équipage traumatisée. Actuellement disponible sur Box, Marathon et Oasis.
+job-description-qm = Gérez les fournitures de la station et le département du cargo, gardez les spécialistes de récupération au travail, assurez que toutes les commandes sont remplies, et gardez l'argent qui coule.
+job-description-rd = Gérez le département scientifique, déverrouillant des technologies, acquérant et recherchant des artefacts, et menant des expériences.
+job-description-research-assistant = Apprenez les bases de la recherche sur divers artefacts, anomalies et robotique.
+job-description-reporter = Divertissez et informez l'équipage avec votre journalisme vibrant grâce aux caméras sans fil, à la radio et aux informations. Actuellement disponible sur Bagel Station, Convex, Core, Train et Oasis.
+job-description-salvagespec = Utilisez l'aimant de récupération pour attirer les débris détachés et les astéroïdes à piller et enrichir la station, construisez un navire de récupération puis voyagez vers de nouvelles planètes, tout en combattant la faune spatiale en chemin.
+job-description-scientist = Recherchez des artefacts aliens, déverrouillez de nouvelles technologies, construisez des machines plus nouvelles et meilleures autour de la station, et rendez tout plus efficace.
+job-description-security = Attrapez les criminels et les ennemis de la station, appliquez la loi, et assurez que la station ne tombe pas dans le désordre.
+job-description-serviceworker = Apprenez les bases de la mixologie, de la cuisine et de la culture des plantes.
+job-description-station-ai = Suivez vos lois, servez l'équipage.
+job-description-visitor = Profitez de votre visite à la station.
+job-description-warden = Patrouiller dans le département de la sécurité, assurez que personne ne vole à l'armurerie, et assurez que tous les prisonniers sont traités et libérés quand leur temps est écoulé.
+
+# event-restricted jobs, Goobstation
+job-description-command-maid = Nettoyez le pont, les salles de commandement, et tout ce que le commandement vous dit de faire.
+job-description-security-clown = Faites le travail de la sécurité, mais n'oubliez pas de le faire avec votre épice de clown.
+job-description-party-maker = Donnez la plus grande fête jamais vue à cette station !

@@ -1,0 +1,5 @@
+game-ticker-get-ingame-info-text = La partie actuelle est : [color=white]#{$roundId}[/color]
+                                   Le nombre de joueurs actuel est : [color=white]{$playerCount}[/color]
+                                   La carte actuelle est : [color=white]{$mapName}[/color]
+                                   Le mode de jeu actuel est : [color=white]{$gmTitle}[/color]
+                                   >[color=yellow]{$desc}[/color]

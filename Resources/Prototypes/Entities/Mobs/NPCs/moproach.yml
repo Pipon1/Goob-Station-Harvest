@@ -1,8 +1,8 @@
 - type: entity
-  name: moproach
+  name: serpimite
   parent: MobMothroach
   id: MobMoproach
-  description: This little mothroach has mopshoes on its feet! How adorable!
+  description: Ce petit serpimite a des chaussures-serpillière aux pieds ! Comme c'est adorable !
   components:
   - type: GhostRole
     name: ghost-role-information-moproach-name

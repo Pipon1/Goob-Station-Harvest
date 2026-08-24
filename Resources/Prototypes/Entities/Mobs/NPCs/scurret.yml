@@ -190,7 +190,7 @@
 
 - type: entity
   name: scurret
-  description: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
+  description: Communément connu sous le nom de Wawa, provenant des terres humides de la planète Wawa, ces petites créatures constituent l'essentiel de la « main-d'œuvre fidèle » de la pizzeria Arnold.
   id: MobScurret
   parent: MobBaseScurret
   components:
@@ -222,7 +222,7 @@
 # feel free to hook them into random content.
 
 - type: entity
-  name: Emotional Support Scurret
+  name: Scurret de soutien émotionnel
   id: MobBaseEmotionalSupportScurret
   parent: MobBaseScurret
   abstract: true
@@ -244,7 +244,7 @@
 # Spawnable ESS have a ghost role, equipment, a random name and a random colour.
 
 - type: entity
-  name: Emotional Support Scurret
+  name: Scurret de soutien émotionnel
   id: MobEmotionalSupportScurret
   parent: [MobScurret, MobBaseEmotionalSupportScurret]
-  description: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnold's Pizza's "loyal workforce". This one is here as a temp.
+  description: Communément connu sous le nom de Wawa, provenant des terres humides de la planète Wawa, ces petites créatures constituent l'essentiel de la « main-d'œuvre fidèle » de la pizzeria Arnold. This one is here as a temp.

@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: raw gondola meat
+  name: viande de gondola crue
   parent: FoodMeatRawBase
   id: FoodMeatGondola
-  description: You monster.
+  description: Monstre.
   components:
   - type: Sprite
     state: plain
@@ -24,10 +24,10 @@
     defaultTarget: gondola steak
 
 - type: entity
-  name: gondola steak
+  name: steak de gondola
   parent: FoodMeatBase
   id: FoodMeatGondolaCooked
-  description: Cooked, tough gondola meat.
+  description: Viande de gondola cuite, dure.
   components:
   - type: Tag
     tags:
@@ -52,10 +52,10 @@
     node: gondola steak
 
 - type: entity
-  name: raw bingle meat
+  name: viande de bingle crue
   parent: FoodMeatRawBase
   id: FoodMeatBingle
-  description: Smells like shit.
+  description: Sent la merde.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Food/bingle.rsi
@@ -76,10 +76,10 @@
     defaultTarget: bingle steak
 
 - type: entity
-  name: bingle steak
+  name: steak de bingle
   parent: FoodMeatBase
   id: FoodMeatBingleCooked
-  description: Still smells like shit.
+  description: Sent toujours la merde.
   components:
   - type: Tag
     tags:
@@ -104,10 +104,10 @@
     node: bingle steak
 
 - type: entity
-  name: 'fried "chicken"'
+  name: '"poulet" frit'
   parent: FoodMeatBase
   id: FoodMeatVoxFried
-  description: A juicy hunk of chicken meat... I think...
+  description: Un morceau juteux de viande de poulet... je crois...
   components:
   - type: Tag
     tags:

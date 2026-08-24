@@ -1,0 +1,2 @@
+# essayé de faire en sorte que ce ne soit pas aussi générique que possible pour ne pas entrer en conflit avec le bordel upstream si jamais ça arrive yk
+suit-sensor-got-shocked = Les capteurs de la {$suit} changent rapidement !

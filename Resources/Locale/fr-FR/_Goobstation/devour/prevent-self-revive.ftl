@@ -1,0 +1,1 @@
+self-revive-fail = Impossible de se réanimer dans cet état !

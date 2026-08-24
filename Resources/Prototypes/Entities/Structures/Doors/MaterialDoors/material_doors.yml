@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseMaterialDoor
-  name: door
-  description: A door, where will it lead?
+  name: porte
+  description: Une porte, où mènera-t-elle ?
   components:
   - type: Anchorable
     flags:
@@ -80,7 +80,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: MetalDoor
-  name: metal door
+  name: porte en métal
   components:
   - type: Construction
     graph: DoorGraph
@@ -111,7 +111,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: PlasmaDoor
-  name: plasma door
+  name: porte en plasma
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/plasma_door.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: GoldDoor
-  name: gold door
+  name: porte en or
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/gold_door.rsi
@@ -165,7 +165,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: SilverDoor
-  name: silver door
+  name: porte en argent
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/silver_door.rsi
@@ -192,7 +192,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: BananiumDoor
-  name: bananium door
+  name: porte en bananium
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/bananium_door.rsi
@@ -227,7 +227,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: WoodDoor
-  name: wooden door
+  name: porte en bois
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/wood_door.rsi
@@ -263,7 +263,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: PaperDoor
-  name: paper door
+  name: porte en papier
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/paper_door.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: WebDoor
-  name: web door
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  name: porte en toile d'araignée
+  description: Une porte menant aux contrées des araignées... ou une pièce dans l'espace.
   components:
   - type: Sprite
     sprite: Structures/Doors/web_door.rsi
@@ -336,7 +336,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: CardDoor
-  name: cardboard door
+  name: porte en carton
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/card_door.rsi
@@ -377,8 +377,8 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: IronstoneDoor
-  name: ironstone door
-  description: A mysterious door made of rune-etched stone.
+  name: porte en pierre runique
+  description: Une porte mystérieuse faite de pierre gravée de runes.
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/ironstone_door.rsi
@@ -417,8 +417,8 @@
 - type: entity
   parent: IronstoneDoor
   id: EncrustedIronstoneDoor
-  name: encrusted ironstone door
-  description: A stone door covered in nacreous blobs of an unknown substance.
+  name: porte en pierre runique incrustée
+  description: Une porte en pierre couverte de globules nacrés d'une substance inconnue.
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/encrusted_ironstone_door.rsi

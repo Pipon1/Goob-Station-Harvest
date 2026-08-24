@@ -3,8 +3,8 @@
 - type: entity
   id: Memorial
   parent: BaseStructure
-  name: memorial
-  description: Commemorating something.
+  name: mémorial
+  description: Commémorant quelque chose.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Memorials/generic_memorial.rsi
@@ -34,11 +34,11 @@
 - type: entity
   id: SS13Memorial
   parent: BaseStructure
-  name: tomb of the unknown employee
+  name: tombe de l'employé inconnu
   description: |
-    Here rests an unknown employee
-    Unknown by name or rank
-    Whose acts will not be forgotten
+    Ici repose un employé inconnu
+    Inconnu par son nom ou son rang
+    Dont les actes ne seront pas oubliés
   components:
     - type: Sprite
       sprite: Structures/Furniture/Memorials/ss13_memorial.rsi
@@ -50,10 +50,10 @@
 - type: entity
   parent: Memorial
   id: Monolith
-  name: monolith
+  name: monolithe
   description: |
-    Holy shit modern art.
-    I bet it's worth a fortune.
+    Putain, de l'art moderne.
+    Je parie que ça vaut une fortune.
   components:
   - type: Sprite
     color: "#1a1a22" #yes, I bothered to get the actual color from 2001 a space odyssey

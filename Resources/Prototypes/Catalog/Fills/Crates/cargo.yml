@@ -3,8 +3,8 @@
 - type: entity
   parent: CratePirate
   id: CrateCargoLuxuryHardsuit
-  name: luxury mining hardsuit crate
-  description: Finally, a hardsuit Quartermasters could call their own. Centcomm has heard you, now stop asking.
+  name: caisse de combinaison minière de luxe
+  description: Enfin, une combinaison rigide que les Quartiers-maîtres peuvent appeler la leur. Centcomm vous a entendus, arrêtez de demander.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -14,8 +14,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateCargoParcelWrap
-  name: parcel wrap crate
-  description: All your parcel wrapping needs in one crate, containing three rolls of parcel wrap.
+  name: caisse de papier d'emballage
+  description: Tout ce dont vous avez besoin pour emballer vos colis dans une seule caisse, contenant trois rouleaux de papier d'emballage.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -27,8 +27,8 @@
 - type: entity
   parent: CratePrivateSecure
   id: CrateCargoGambling
-  name: the grand lottery $$$
-  description: A box containing treasure beyond your greatest imaginations!
+  name: la grande loterie $$$
+  description: Une boîte contenant des trésors au-delà de toute imagination !
   components:
   - type: EntityTableContainerFill
     containers:

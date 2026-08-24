@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerTechnologyDiskTerminal
-  name: tech disk terminal
-  description: A terminal used to print out technology disks.
+  name: terminal de disque technologique
+  description: Un terminal utilisé pour imprimer des disques technologiques.
   components:
   - type: Sprite
     noRot: true
