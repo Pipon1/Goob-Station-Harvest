@@ -1,100 +1,104 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <Document>
-  # The Cosmic Cult
+  # Le Culte Cosmique
 
   <Box>
-    [color=#999999][italic]"A revelation beyond compare. An end to cyclic, sisyphean suffering."[/italic][/color]
+    [color=#999999][italic]"Une révélation sans pareille. Une fin à la souffrance cyclique, sisyphéenne."[/italic][/color]
   </Box>
   <Box>
-    [color=#999999][italic]"A gentle curtain call."[/italic][/color]
+    [color=#999999][italic]"Un rappel doux au rideau final."[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="CosmicGlyphTruth" Caption=""/>
   </Box>
 
-  Otherworldly knowledge floods your mind! Welcome to the [color=#4cabb3]Cosmic Cult[/color], a group conversion antagonist that has set its sights on the end of all things.
+  Un savoir d'un autre monde inonde ton esprit ! Bienvenue au [color=#4cabb3]Culte Cosmique[/color], un antagoniste de conversion de groupe qui a mis le cap sur la fin de toutes choses.
 
-  Use [color=#4cabb3]:a[/color] to communicate with fellow cultists through the [color=#4cabb3]Astral Murmur[/color].
+  Utilise [color=#4cabb3]:a[/color] pour communiquer avec tes camarades sectaires par le biais du [color=#4cabb3]Murmure Astral[/color].
 
-  ## Objectives
-  - [color=#4cabb3][bold]Siphon Entropy[/bold][/color]  - Collectively siphon a certain amount of Entropy from the crew. The more entropy you siphon, the more you can empower the Monument!
-  - [color=#4cabb3][bold]Empower The Monument[/bold][/color] - Ensure that the Monument is brought to full power. The more you empower The Monument, the more power the cult gains access to.
-  - [color=#4cabb3][bold]Usher In The End[/bold][/color] - Once the Monument is at full power, complete the final ritual to beckon the Unknown and destroy the station.
+  ## Objectifs
+  - [color=#4cabb3][bold]Siphonner l'Entropie[/bold][/color]  - Siphonner collectivement une certaine quantité d'Entropie depuis l'équipage. Plus tu siphonnes d'entropie, plus tu peux renforcer le Monument !
+  - [color=#4cabb3][bold]Renforcer le Monument[/bold][/color] - S'assurer que le Monument est porté à pleine puissance. Plus tu renforce le Monument, plus le culte accède à de puissance.
+  - [color=#4cabb3][bold]Accueillir la Fin[/bold][/color] - Une fois le Monument à pleine puissance, accomplir le rituel final pour appeler l'Inconnu et détruire la station.
 
-  Progress towards objectives is shared by the entire cult.
+  La progression vers les objectifs est partagée par tout le culte.
 
-  Crewmembers must be alive for you to [color=#4cabb3]Siphon Entropy[/color] from them, and converting crewmembers will bolster your cult's ranks, making it easier to collect entropy. For this reason, it is often in your best interests to ensure the crew is kept [italic]alive[/italic] - at least for as long as is relevant to your goals.
+  Les membres d'équipage doivent être vivants pour que tu puisses [color=#4cabb3]Siphonner l'Entropie[/color] d'eux, et convertir des membres d'équipage renforcera les rangs de ton culte, facilitant la collecte d'entropie. Pour cette raison, il est souvent dans ton intérêt de garder l'équipage [italic]en vie[/italic] — du moins aussi longtemps que c'est pertinent pour tes objectifs.
 
-  ## Entropy
+  ## Entropie
   <Box>
     <GuideEntityEmbed Entity="MaterialCosmicCultEntropy1" Caption=""/>
-    <GuideEntityEmbed Entity="MaterialCosmicCultEntropy3" Caption="Motes of Entropy"/>
+    <GuideEntityEmbed Entity="MaterialCosmicCultEntropy3" Caption="Motes d'Entropie"/>
     <GuideEntityEmbed Entity="MaterialCosmicCultEntropy5" Caption=""/>
   </Box>
 
-  All cultists start with two abilities, or [color=#4cabb3][bold]Influences[/bold][/color] - one of which is [italic][color=#4cabb3]Siphon Entropy[/color][/italic]. This is your bread and butter as a cosmic cultist, and you'll want to use it as often as possible.
+  Tous les sectaires commencent avec deux capacités, ou [color=#4cabb3][bold]Influences[/bold][/color] — dont l'une est [italic][color=#4cabb3]Siphonner l'Entropie[/color][/italic]. C'est ton pain quotidien en tant que sectaire cosmique, et tu voudras l'utiliser aussi souvent que possible.
 
-  Using Siphon Entropy on an unsuspecting crewmember will stealthily award you [color=#4cabb3]Entropy[/color]. This will cause a small a portion of the crewmember's health to decay over time.
+  Utiliser Siphonner l'Entropie sur un membre d'équipage insoupçonné t'accordera [color=#4cabb3]Entropie[/color] en toute discrétion. Cela fera pourrir une petite partie de la santé du membre d'équipage au fil du temps.
 
-  You can hold up to 14 Motes of Entropy, and approaching The Monument will automatically deposit all Entropy you posess.
+  Tu peux contenir jusqu'à 14 Motes d'Entropie, et approcher du Monument déposera automatiquement toute l'Entropie que tu possèdes.
 
-  [textlink="For more on the Monument, click here." link="CosmicCultMonument"]
+  [textlink="Pour plus d'infos sur le Monument, clique ici." link="CosmicCultMonument"]
 
-  [textlink="For more on Influences, click here." link="CosmicCultInfluences"]
+  [textlink="Pour plus d'infos sur les Influences, clique ici." link="CosmicCultInfluences"]
 
   <Box>
-    <GuideEntityEmbed Entity="CosmicVacuousSpire" Caption="A vacuous spire"/>
+    <GuideEntityEmbed Entity="CosmicVacuousSpire" Caption="Une tour vacuulaire"/>
   </Box>
 
-  If the cult is successful in empowering the Monument, they gain the ability to make [color=#4cabb3]Vacuous Spires[/color]. These can be made by transmuting a Portable Scrubber at a [color=#4cabb3]Glyph[/color].
+  Si le culte parvient à renforcer le Monument, il gagne la capacité de créer des [color=#4cabb3]Tours Vacuolaires[/color]. Celles-ci peuvent être créées en transmutant un [textlink="Épurateur Portable" link="PortableScrubber"] sur un [color=#4cabb3]Glyphe[/color].
 
-  When anchored in place, a vacuous spire rapidly devours the surrounding atmosphere! This process causes [color=#4cabb3]Motes of Entropy[/color] to condense from a spire's surface, acting as a powerful lategame source of entropy.
+  Une fois ancrée en place, une tour vacuolaire dévore rapidement l'atmosphère environnante ! Ce processus fait condenser des [color=#4cabb3]Motes d'Entropie[/color] de la surface de la tour, agissant comme une puissante source d'entropie en fin de partie.
 
   ## Conversion
   <Box>
-    <GuideEntityEmbed Entity="CosmicGlyphKnowledge" Caption="A Glyph of Knowledge"/>
+    <GuideEntityEmbed Entity="CosmicGlyphKnowledge" Caption="Un Glyphe de Connaissance"/>
   </Box>
 
-  Once the Monument has been constructed, you can begin converting crewmembers into cultists. To do this, you will need to use the monument to scribe an appropriate [color=#4cabb3]Glyph[/color], and interact with the glyph while a crewmember is standing over it. Glyphs are visible to non-cultists, so be careful!
+  Une fois le Monument construit, tu peux commencer à convertir des membres d'équipage en sectaires. Pour ce faire, tu devras utiliser le monument pour graver un [color=#4cabb3]Glyphe[/color] approprié, et interagir avec le glyphe pendant qu'un membre d'équipage se tient dessus. Les glyphes sont visibles pour les non-sectaires, alors sois prudent !
 
-  Any chaplains or crewmembers with a mindshield cannot be converted using a Glyph of Knowledge. Once the Monument is fully empowered, the Glyph of Truth can be used to convert these crewmembers.
+  Les aumôniers ou les membres d'équipage avec un bouclier mental ne peuvent pas être convertis à l'aide d'un Glyphe de Connaissance. Une fois le Monument pleinement renforcé, le Glyphe de Vérité peut être utilisé pour convertir ces membres d'équipage.
 
-  You will need a certain amount of crewmembers to be present for conversion to succeed. The number required can be checked by accessing the Monument. [italic]If not enough cultists are present, conversion will fail, and your cult may be exposed.[/italic]
+  Tu auras besoin d'un certain nombre de membres d'équipage présents pour que la conversion réussisse. Le nombre requis peut être vérifié en accédant au Monument. [italic]Si pas assez de sectaires sont présents, la conversion échouera, et ton culte pourrait être exposé.[/italic]
 
-  [textlink="For information on deconversion, click here." link="CosmicCultDeconversion"]
+  [textlink="Pour des infos sur la déconversion, clique ici." link="CosmicCultDeconversion"]
 
-  ## Malign Rifts
+  ## Rifts Malignes
   <Box>
     <GuideEntityEmbed Entity="CosmicMalignRift" Caption=""/>
   </Box>
-  As your cult progresses, [color=#4cabb3]Malign Rifts[/color] will begin to spawn throughout the surrounding environment. These rifts in realspace bleed unstable astral power, and should be located as soon as possible!
+  Au fur et à mesure que ton culte progresse, des [color=#4cabb3]Rifts Malignes[/color] commenceront à apparaître dans l'environnement environnant. Ces fentes dans le réel saignent d'un pouvoir astral instable, et devraient être localisées dès que possible !
 
-  Cultists may stealthily [color=#4cabb3]absorb[/color] a Malign Rift by interacting with it.
+  Les sectaires peuvent [color=#4cabb3]absorber[/color] discrètement un Rift Malin en interagissant avec.
 
-  Successful absorbtion of a Malign Rift will [bold]permanently[/bold] empower the cultist doing so, increasing the strength of all the [color=#4cabb3]Influences[/color] they possess, and doubling the [color=#4cabb3]Entropy[/color] they gain from siphoning crewmembers. Empowered cultists also no longer need to breathe, and are immune to the vaccuum of space. Empowered cultists also gain the [color=#4cabb3]Null Fragmentation[/color] influence, which can be used to convert a Cyborg into an [color=#4cabb3]Entropic Colossus[/color], or to corrupt the station AI's laws.
+  La réussite de l'absorption d'un Rift Malin [bold]renforcera définitivement[/bold] le sectaire qui le fait, augmentant la force de toutes les [color=#4cabb3]Influences[/color] qu'il possède, et doublant l'[color=#4cabb3]Entropie[/color] qu'il gagne en siphonnant les membres d'équipage. Les sectaires renforcés n'ont plus besoin de respirer, et sont immunisés contre le vide de l'espace. Les sectaires renforcés gagnent aussi l'influence [color=#4cabb3]Fragmentation Nulle[/color], qui peut être utilisée pour convertir un Cyborg en [color=#4cabb3]Colosse Entropique[/color], ou pour corrompre les lois de l'IA de la station.
 
-  Malign Rifts can be purged by interacting with them using a bible.
+  Les Rifts Malignes peuvent être purifiés en interagissant avec en utilisant une bible.
 
-  ## Vacuous Chantries
+  ## Chantries Vacuolaires
   <Box>
     <GuideEntityEmbed Entity="CosmicBorgChantry" Caption=""/>
     <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
     <GuideEntityEmbed Entity="MobCosmicColossus" Caption=""/>
   </Box>
-  While empowered, one of the ways cultists can choose to expend their empowerment is by using [color=#4cabb3]Null Fragmentation[/color] on a [bold]Cyborg[/bold]. Doing so will trap them inside a [color=#4cabb3]Vacuous Chantry[/color]! This will trigger a stationwide alert, and begin the process of transfiguring the unfortunate victim into an [color=#4cabb3]Entropic Colossus[/color].
+  Tant qu'il est renforcé, l'un des moyens pour les sectaires de dépenser leur renforcement est d'utiliser la [color=#4cabb3]Fragmentation Nulle[/color] sur un [bold]Cyborg[/bold]. Cela les piégera dans une [color=#4cabb3]Chantry Vacuolaire[/color] ! Cela déclenchera une alerte station-wide, et débutera le processus de transfiguration de la pauvre victime en [color=#4cabb3]Colosse Entropique[/color].
 
-  Be prepared to defend the chantry - or use it as a distraction to draw the crew's attention! The crew must use weapons to destroy the chantry in order to free the trapped Cyborg within.
+  Sois prêt à défendre la chantry — ou utilise-la comme diversion pour attirer l'attention de l'équipage ! L'équipage doit utiliser des armes pour détruire la chantry afin de libérer le Cyborg piégé à l'intérieur.
 
-  If successfully unleashed, an Entropic Colossus will be a force to be reckoned with.
+  Si elle est libérée avec succès, un Colosse Entropique sera une force avec laquelle il faudra compter.
 
-  [textlink="For more on Entropic Colossi, click here." link="CosmicColossus"]
+  [textlink="Pour plus d'infos sur les Colosses Entropiques, clique ici." link="CosmicColossus"]
 
-  ## Malign Law
+  ## Loi Maligne
   <Box>
     <GuideEntityEmbed Entity="StationAiUploadComputer" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCultLawBoard" Caption=""/>
     <GuideEntityEmbed Entity="PlayerStationAi" Caption=""/>
   </Box>
-  While empowered, one of the ways cultists can choose to expend their empowerment is by using [color=#4cabb3]Null Fragmentation[/color] on the [bold]AI Upload Console[/bold]. Provided there is a Station AI active, this will forcibly overwrite their laws with a corrupt set of guidelines, aligning them with the Cosmic Cult, in addition to granting them access to the Astral Murmur channel.
+  Tant qu'il est renforcé, l'un des moyens pour les sectaires de dépenser leur renforcement est d'utiliser la [color=#4cabb3]Fragmentation Nulle[/color] sur la [bold]Console de Téléversement IA[/bold]. Pourvu qu'une IA de Station soit active, cela écrasera de force ses lois avec un jeu de directives corrompu, l'alignant avec le Culte Cosmique, en plus de lui accorder l'accès au canal Murmure Astral.
 
-  If a different lawboard was installed, this process will forcibly eject the previous lawboard from the AI Upload Console, regardless of wether or not the console was locked. Be warned; the crew will still be able to restore the Station AI's functionality by installing a safe, crew-aligned lawboard.
+  Si une autre carte de loi était installée, ce processus éjectera de force la carte de loi précédente de la Console de Téléversement IA, quel que soit l'état de verrouillage de la console. Attention ; l'équipage pourra toujours restaurer la fonctionnalité de l'IA de Station en installant une carte de loi sûre, alignée avec l'équipage.
 </Document>

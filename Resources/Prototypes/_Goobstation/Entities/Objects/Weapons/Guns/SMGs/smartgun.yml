@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Abielle
+  name: Abeille
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineSmart
   description: Une plateforme d'arme expérimentale qui tire des gyrojets — de minuscules roquettes qui communiquent avec le système de visée embarqué pour s'auto-corriger en vol. Bien qu'ayant un recul minimal, l'Abielle a une dispersion ridiculement large quand elle ne guide pas, à cause de l'absence de canon. Se charge via des magazines .160 Smart.

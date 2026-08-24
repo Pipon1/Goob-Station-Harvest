@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseStorageItem
   id: DrinkCanPack
-  name: 6pack
+  name: pack de 6
   components:
   - type: Sprite
     sprite: Objects/Misc/6pack.rsi

@@ -1,26 +1,29 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <Document>
-  # Deconversion
+  # Déconversion
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  When mounting an effort to thwart the [color=#4cabb3]Cosmic Cult[/color], there are several methods the crew might employ to ensure their survival and safety. One of these methods is [color=Yellow]Deconversion[/color].
+  Lors d'une tentative pour contrer le [color=#4cabb3]Culte Cosmique[/color], l'équipage peut employer plusieurs méthodes pour assurer sa survie et sa sécurité. L'une de ces méthodes est la [color=Yellow]Déconversion[/color].
 
-  To [color=Yellow]Deconvert[/color] a cosmic cultist, an [bold]Ardent Censer[/bold] must be used. Censers are fueled with Holy Water, which can be procured from:
-  - Usage of a Bible by a Chaplain or Mystagogue on most containers of water will bless the water, turning it into Holy Water.
+  Pour [color=Yellow]Déconvertir[/color] un sectaire cosmique, un [bold]Encensoir Ardent[/bold] doit être utilisé. Les encensoirs sont alimentés avec de l'Eau Bénite, qui peut être obtenue par :
+  - L'utilisation d'une Bible par un Aumônier ou un Mystagogue sur la plupart des contenants d'eau bénira l'eau, la transformant en Eau Bénite.
 
-  ## Suppression Methods
+  ## Méthodes de Suppression
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="MindShieldImplanter" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  Deconversion is but one method for dealing with an encroaching cult. Crew aboard the station may alternatively wish to invest in [color=Green]Mindshield[/color] implanters.
+  La déconversion n'est qu'une méthode pour faire face à un culte envahissant. Les membres d'équipage à bord de la station peuvent alternativement vouloir investir dans des [color=Green]implanteurs de bouclier mental[/color].
 
-  These state-of-the-art devices can prevent outside influences from brainwashing crewmembers, providing a powerful utility against the cult's influence.
+  Ces appareils à la pointe de la technologie peuvent empêcher les influences extérieures de laver le cerveau des membres d'équipage, fournissant un puissant outil contre l'influence du culte.
 
-  The [color=Yellow]Chaplain[/color] and [color=Yellow]Mystagogue[/color]'s noospheric attuning renders them immune to nearly all of the cosmic cult's powers.
-
+  L'accord noosphérique du [color=Yellow]Aumônier[/color] et du [color=Yellow]Mystagogue[/color] les rend immunisés contre presque tous les pouvoirs du culte cosmique.
 </Document>

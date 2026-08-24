@@ -1,33 +1,37 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <Document>
   # Influences
 
-  Culists begin with two powerful inflences, and will gradually unlock more as they progress the Monument through its three stages.
+  Les sectaires commencent avec deux puissantes influences, et en débloqueront progressivement plus au fur et à mesure qu'ils font progresser le Monument à travers ses trois stades.
 
-  Once the Monument reaches its second stage, any time a cultist uses an influence, they have a chance to generate a telltale [color=#4cabb3]Malign Echo[/color]. These will fade after a short time, but may alert outsiders to the presence of your cult prematurely!
+  Une fois le Monument atteint son second stade, chaque fois qu'un sectaire utilise une influence, il a une chance de générer un [color=#4cabb3]Écho Malin[/color] révélateur. Ceux-ci s'estomperont après un court moment, mais peuvent alerter les étrangers sur la présence de ton culte prématurément !
 
-  Using Siphon Entropy will never generate a Malign Echo.
+  Utiliser Siphonner l'Entropie ne génèrera jamais d'Écho Malin.
 
   <Box>
     <GuideEntityEmbed Entity="CosmicEchoVfx" Caption=""/>
   </Box>
 
-  ## Starting Influences
-  - [color=#4cabb3][bold]Siphon Entropy:[/bold][/color] Silently siphon entropy from your target, dealing some damage in the process.
-  - [color=#4cabb3][bold]Shunt Subjectivity:[/bold][/color] Shunt your target's mind out of their body and unto the cosmic dark, temporarily rendering their body mindless.
+  ## Influences de départ
+  - [color=#4cabb3][bold]Siphonner l'Entropie :[/bold][/color] Siphonne discrètement l'entropie de ta cible, lui infligeant quelques dégâts au passage.
+  - [color=#4cabb3][bold]Dérivation de Subjectivité :[/bold][/color] Déplace l'esprit de ta cible hors de son corps et vers le noir cosmique, rendant temporairement son corps sans esprit.
 
-  ## Special Influences
-  - [color=#4cabb3][bold]Null Fragmentation:[/bold][/color] Transfer malign empowerment into a digital system, such as an AI Upload Console or Cyborg, corrupting it in the process. Doing so will expend empowerment.
+  ## Influences Spéciales
+  - [color=#4cabb3][bold]Fragmentation Nulle :[/bold][/color] Transfère le renforcement malin dans un système numérique, comme une Console de Téléversement IA ou un Cyborg, le corrompant au passage. Cela consommera le renforcement.
 
-  ## Unlockable Active Influences
-  - [color=#4cabb3][bold]Abberant Lapse:[/bold][/color] Lapse your target's corporeal form, temporarily rendering it immutable, impassible, and frozen in place.
-  - [color=#4cabb3][bold]Null Glare:[/bold][/color] Emit a horrific pulse of cosmic light, slowing and disorienting everyone around you. Its effects are amplified against silicon-based entities.
-  - [color=#4cabb3][bold]Force Ingress:[/bold][/color] Use a concentrated blast of power to force a secure doorway open.
-  - [color=#4cabb3][bold]Astral Nova:[/bold][/color] Hurl a large and disruptive blast of astral energy.
-  - [color=#4cabb3][bold]Vacuous Imposition:[/bold][/color] You negate any incoming damage for a short time.
+  ## Influences Actives Débloquables
+  - [color=#4cabb3][bold]Lapse Aberrante :[/bold][/color] Fais lapse la forme corporelle de ta cible, la rendant temporairement immuable, impassable, et figée sur place.
+  - [color=#4cabb3][bold]Regard Nul :[/bold][/color] Émet une horripilante pulsation de lumière cosmique, ralentissant et désorientant tous ceux autour de toi. Ses effets sont amplifiés contre les entités à base de silicium.
+  - [color=#4cabb3][bold]Forcer l'Entrée :[/bold][/color] Utilise une explosion concentrée de puissance pour forcer l'ouverture d'une porte sécurisée.
+  - [color=#4cabb3][bold]Nova Astrale :[/bold][/color] Lance une grande et disruptive explosion d'énergie astrale.
+  - [color=#4cabb3][bold]Imposition Vacuolaire :[/bold][/color] Tu nies tous les dégâts entrants pour un court moment.
 
-  ## Unlockable Passive Influences
-  - [color=#4cabb3][bold]Eschew Metabolism:[/bold][/color] Your corporeal needs of hunger and thirst are sundered - you no longer need to eat or drink.
-  - [color=#4cabb3][bold]Unbound Step:[/bold][/color] You move relative only to the starless black - your movement is no longer affected by gravity.
-  - [color=#4cabb3][bold]Astral Stride:[/bold][/color] Astral energy invigorates your every move, subtly hastening your speed.
-  - [color=#4cabb3][bold]Vacuous Vitality:[/bold][/color] The starless emptiness of The Monument overwhelms your mind and body. Your corporeal form slowly regenerates while in its presence.
+  ## Influences Passives Débloquables
+  - [color=#4cabb3][bold]Échapper au Métabolisme :[/bold][/color] Tes besoins corporels de faim et soif sont rompus — tu n'as plus besoin de manger ou boire.
+  - [color=#4cabb3][bold]Pas Délivré :[/bold][/color] Tu te déplaces relativement seulement au noir sans étoiles — ton mouvement n'est plus affecté par la gravité.
+  - [color=#4cabb3][bold]Foulée Astrale :[/bold][/color] L'énergie astrale vivifie chacun de tes mouvements, accélérant subtilement ta vitesse.
+  - [color=#4cabb3][bold]Vitalité Vacuolaire :[/bold][/color] Le vide sans étoiles du Monument submerge ton esprit et ton corps. Ta forme corporelle se régénère lentement en sa présence.
 </Document>

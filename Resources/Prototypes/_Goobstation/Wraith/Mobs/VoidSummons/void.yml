@@ -209,7 +209,7 @@
     speedModifier: 2.5
 
 - type: entity
-  name: Chienhound du Vide
+  name: Molosse du Vide
   parent: MobCorgiNarsi
   id: MobVoidHound
   description: Vous ne devriez probablement pas regarder cette chose.

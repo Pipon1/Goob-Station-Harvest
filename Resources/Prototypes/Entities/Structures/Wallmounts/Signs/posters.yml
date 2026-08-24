@@ -90,7 +90,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRealExomorph
-  name: "Vrai ! Exomorphe"
+  name: "Vrai ! Xénomorphe"
   description: "Une affiche conspirationniste sur des formes de vie extraterrestres dangereuses."
   components:
   - type: Sprite
@@ -613,8 +613,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoAcid
-  name: "Avertissement exomorphe : Crachat acide !"
-  description: "Cette affiche vous avertit du crachat acide d'un exomorphe. Pas que de tels exomorphes existent vraiment... N'est-ce pas ?"
+  name: "Avertissement xénomorphe : Crachat acide !"
+  description: "Cette affiche vous avertit du crachat acide d'un xénomorphe. Pas que de tels xénomorphes existent vraiment... N'est-ce pas ?"
   components:
   - type: Sprite
     state: poster64_contraband
@@ -622,8 +622,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoRun
-  name: "Avertissement exomorphe : Fuyez !"
-  description: "Cette affiche vous avertit d'un exomorphe athlétique capable d'emporter quiconque se fait attraper ; alors ne vous faites pas attraper !"
+  name: "Avertissement xénomorphe : Fuyez !"
+  description: "Cette affiche vous avertit d'un xénomorphe athlétique capable d'emporter quiconque se fait attraper ; alors ne vous faites pas attraper !"
   components:
   - type: Sprite
     state: poster65_contraband
@@ -631,8 +631,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoChomp
-  name: "Avertissement exomorphe : Morsures dangereuses !"
-  description: "Cette affiche vous avertit des morsures létales que peuvent infliger les exomorphes. Ne devenez pas un en-cas extraterrestre !"
+  name: "Avertissement xénomorphe : Morsures dangereuses !"
+  description: "Cette affiche vous avertit des morsures létales que peuvent infliger les xénomorphes. Ne devenez pas un en-cas extraterrestre !"
   components:
   - type: Sprite
     state: poster66_contraband
@@ -858,7 +858,7 @@
   parent: PosterBase
   id: PosterLegitCohibaRobustoAd
   name: "Pub Cohiba Robusto"
-  description: "Cohiba Robusto, le cigare de classe."
+  description: "Cohiba Robusto, le cigare de la classe."
   components:
   - type: Sprite
     state: poster25_legit

@@ -57,7 +57,7 @@ barsign-prototype-description-combo-cafe = Réputé dans tout le système pour s
 
 ## The Ale Nath
 barsign-prototype-name-ale-nath = The Ale' Nath
-barsign-prototype-description-ale-nath = Bon, vous en avez assez bu EI NATH. Il est temps d'appeler un taxi.
+barsign-prototype-description-ale-nath = Bon, vous en avez bu EI NATH. Il est temps d'appeler un taxi.
 
 ## The Net
 barsign-prototype-name-the-net = The Net
@@ -88,7 +88,7 @@ barsign-prototype-name-lv426 = LV-426
 barsign-prototype-description-lv426 = Boire avec des masques fantaisie est clairement plus important qu'aller au medbay.
 
 ## The Wiggle Roomm
-barsign-prototype-name-wiggle-room = The Wiggle Roomm
+barsign-prototype-name-wiggle-room = The Wiggle Room
 barsign-prototype-description-wiggle-room = MoMMI a du groove.
 
 ## The Lightbulb

@@ -1,3 +1,7 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <Document>
   # Feroxi
 
@@ -25,5 +29,4 @@
   - Quand la soif tombe à "Assoiffé", ils commencent à s'asphyxier. Ayez de l'eau à portée de main !
   - Le sérum physiologique est trop salé ! Il vous hydrate beaucoup moins !
   - Vos poumons sont inamovibles car ils sont intégrés à vos branchies.
-
 </Document>

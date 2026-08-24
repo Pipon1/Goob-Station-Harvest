@@ -1,3 +1,7 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <Document>
   # Chitinide
 
@@ -5,21 +9,20 @@
     <GuideEntityEmbed Entity="MobChitinid" Caption=""/>
   </Box>
 
-  Une espèce hyménoptère industrieuse, les Chitinides sont forts et diligents. Grâce à l'évolution, ils ont développé une résistance aigüe aux radiations, mais pas sans effets secondaires.
+  Une espèce hyménoptère industrieuse, les Chitinides sont forts et diligents. Grâce à l'évolution, ils ont développé une résistance aiguë aux radiations, mais pas sans effets secondaires.
 
   ## Régime
   - Peut manger de la viande crue.
 
   ## Avantages
   - Subit 80 % de Radiations en moins, 10 % de Tranchants, Contondants et Perforants en moins.
-  - Leurs corps récupèrent naturellement des dégâts de radiation légers jusqu'à un certain point, une fois qu'ils accumulent assez de radiations ils doivent les purger de leur système sous forme d'un petit caillou [color=#ff0f0f]AVERTISSEMENT : La Chitine qu'ils expulsent est légèrement radioactive [/color].
+  - Leurs corps récupèrent naturellement des dégâts de radiation légers jusqu'à un certain point, une fois qu'ils accumulent assez de radiations ils doivent les purger de leur système sous forme d'un petit caillou [color=#ff0f0f]AVERTISSEMENT : La Chitine qu'ils expulsent est légèrement radioactive[/color].
   - Ils possèdent une bioluminescence.
 
   ## Inconvénients
   - Ils subissent 15 % de dégâts de Choc en plus à cause de leur biologie.
   - À cause de leurs carapaces dures, les seringues normales ne peuvent pas les percer, nécessitant des hypos pour contourner la dureté.
   - Grâce à leurs systèmes hyperactifs, ils ont faim 33 % plus vite.
-  - Le froid ne convient pas à leur biologie et rend leur mouvement lent plus il fait froid, le froid leur fait aussi plus de mal qu'aux autres, leur causant 25 % de dégâts en plus.
+  - Le froid ne convient pas à leur biologie et rend leur mouvement plus lent plus il fait froid, le froid leur fait aussi plus de mal qu'aux autres, leur causant 25 % de dégâts en plus.
   - Sang d'insecte.
-
 </Document>
