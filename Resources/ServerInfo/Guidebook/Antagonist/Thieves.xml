@@ -3,74 +3,73 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Thieves
+  # Voleurs
 
   <Box>
-    [color=#999999][italic]"Yoink! I'll be taking that! And that! Ooh, don't mind if I do!"[/italic][/color]
+    [color=#999999][italic]"Yoink ! Je prends ça ! Et ça ! Ooh, faites pas attention !"[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
   </Box>
 
-  Thieves are petty yet crafty [color=green]criminals[/color] who can't keep their hands to themselves. You were forcefully given a [bold]pacifism implant[/bold] after your last arrest, but you won't let that stop you from trying to add to your collection.
+  Les voleurs sont des [color=green]criminels[/color] mesquins mais rusés qui peuvent pas s'empêcher de fourrer leurs mains partout. On vous a forcément donné un [bold]implant pacifisme[/bold] après votre dernier arrestation, mais vous laisserez pas ça vous arrêter d'essayer d'ajouter à votre collection.
 
-  ## Art of the Steal
-  Unlike other antagonists, [bold]staying out of trouble is almost a requirement for you[/bold] because of your implant.
-  You can only run if [color=#cb0000]Security[/color] picks a fight with you, and because you work alone you don't have any friends to pull you out of danger.
+  ## Art du Vol
+  Contrairement aux autres antagonistes, [bold]rester hors d'ennuis est presque une obligation pour vous[/bold] à cause de votre implant.
+  Vous ne pouvez fuir que si la [color=#cb0000]Sécurité[/color] vous cherche des noises, et parce que vous bossez seul vous n'avez pas de potes pour vous sortir du pétrin.
 
-  But against all odds, you'll sucessfully swipe what you want using determination, sleight of hand, a few tools and your [color=cyan]pickpocketing skills.[/color]
+  Mais contre toute attente, vous volerez ce que vous voulez avec détermination, dextérité, quelques outils et vos [color=cyan]compétences pickpocket.[/color]
 
-  The pickpocketing skills you have give you a major advantage: [bold]the ability to take things from people without them even noticing.[/bold] With a little practice you can steal their wallet and keep up a conversation at the same time.
+  Les compétences pickpocket que vous avez vous donnent un gros avantage : [bold]la capacité de prendre des trucs aux gens sans qu'ils s'en rendent même compte.[/bold] Avec un peu d'entraînement vous pouvez leur piquer leur portefeuille et garder une conversation en même temps.
 
-  It is advised to get a pair of gloves as your fingerprints could still be traced back to the stolen goods if they're found.
+  Il est conseillé d'avoir une paire de gants car vos empreintes pourraient encore être tracées jusqu'aux biens volés s'ils sont trouvés.
 
 
+  ## Outils du Métier
+  Vous avez deux as de plus dans vos manches volées : votre [color=cyan]balise[/color] et votre [color=cyan]sacoche.[/color]
 
-  ## Tools of the Trade
-  You've got two more aces up your stolen sleeves: your [color=cyan]beacon[/color] and your [color=cyan]satchel.[/color]
+  Votre [color=cyan]balise[/color] fournit un retour sûr pour les bibelots qui seraient pas faciles à trimbaler sur la navette d'évac. Trouvez juste une partie isolée de la station pour déplier la balise, puis réglez ses coordonnées sur votre planque.
+  Tous les brillants à côté seront [bold]téléportés dans votre coffre quand le shift finit,[/bold] remplissant vos objectifs.
 
-  Your [color=cyan]beacon[/color] provides safe passage home for trinkets that may not be easy to carry with you on the evac shuttle. Simply find a secluded part of the station to unfold the beacon, then set its coordinates to your hideout.
-  Any shinies near it will be [bold]teleported to your vault when the shift ends,[/bold] fulfilling your objectives.
-
-  However, this will instantly out you if found and make it extremely easy for people to reclaim their "missing" possessions. [bold]Make sure to hide it well![/bold]
+  Cependant, ça vous grillera instantanément si trouvé et rendra extrêmement facile pour les gens de récupérer leurs biens "disparus". [bold]Assurez-vous de bien la planquer ![/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ThiefBeacon"/>
   </Box>
 
-  Your [color=cyan]satchel[/color] contains... well, whatever you remembered to pack. [bold]You can select two pre-made kits[/bold] to help you complete grander heists.
+  Votre [color=cyan]sacoche[/color] contient... ben, tout ce que vous vous souveniez d'emmener. [bold]Vous pouvez sélectionner deux kits pré-faits[/bold] pour vous aider à compléter de plus gros casses.
 
   <Box>
     <GuideEntityEmbed Entity="SatchelThief"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="Implanter" Caption="Anatomy"/>
-    <GuideEntityEmbed Entity="C4" Caption="Breacher"/>
-    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Chameleon"/>
-    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Communicator"/>
+    <GuideEntityEmbed Entity="Implanter" Caption="Anatomie"/>
+    <GuideEntityEmbed Entity="C4" Caption="Brêcheur"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Caméléon"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Communicateur"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Sleeper"/>
-    <GuideEntityEmbed Entity="Fulton" Caption="Smuggler"/>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Endormeur"/>
+    <GuideEntityEmbed Entity="Fulton" Caption="Contrebandier"/>
     <GuideEntityEmbed Entity="Telecrystal" Caption="Syndie"/>
   </Box>
 
-  ## Centerpiece of the Collection
-  Your kleptomania will take you places. One day, you'll feel like stealing a few figurines. Another day, you'll feel like stealing an industrial machine.
+  ## Pièce Maîtresse de la Collection
+  Votre kleptomanie vous mènera des endroits. Un jour, vous aurez envie de voler quelques figurines. Un autre jour, vous aurez envie de voler une machine industrielle.
 
-  No matter. They'll all be a part of your collection within a matter of time.
+  Peu importe. Elles feront toutes partie de votre collection en un rien de temps.
 
-  You can steal items by [bold]having them on your person[/bold] when you get to CentComm. Failing this, you can steal larger items by [bold]leaving them by your beacon.[/bold]
+  Vous pouvez voler des objets en les [bold]ayant sur vous[/bold] quand vous arrivez à CentCom. Sinon, vous pouvez voler des objets plus gros en les [bold]laissant près de votre balise.[/bold]
 
-  Some of the more [italic]animate[/italic] objectives may not cooperate with you. Make sure they're alive and with you or your beacon when the shift ends.
+  Certains objectifs plus [italic]animés[/italic] pourront pas coopérer avec vous. Assurez-vous qu'ils sont vivants et avec vous ou votre balise quand le shift finit.
 
-  Things that you may desire include but are not limited to:
+  Trucs que vous pourriez désirer incluent mais sans s'y limiter :
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>
-    <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID cards"/>
+    <GuideEntityEmbed Entity="PassengerIDCard" Caption="Cartes ID"/>
     <GuideEntityEmbed Entity="ChemDispenser" Caption="Structures"/>
-    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animals/Pets"/>
+    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animaux/Animaux de compagnie"/>
   </Box>
 
 </Document>

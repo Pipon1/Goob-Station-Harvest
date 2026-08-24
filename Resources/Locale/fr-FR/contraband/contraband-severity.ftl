@@ -58,7 +58,7 @@ contraband-examine-text-Magical =
         [reagent] [color=#b337b3]Ce réactif est une contrebande magique hautement illégale ![/color]
     }
 
-contraband-examine-text-avoid-carrying-around = [color=red][italic]Vous voulez probablement éviter de porter ceci visiblement sans une bonne raison.[/italic][/color]
+contraband-examine-text-avoid-carrying-around = [color=red][italic]Vous devriez probablement éviter de porter ceci visiblement sans une bonne raison.[/italic][/color]
 contraband-examine-text-in-the-clear = [color=green][italic]Vous devriez être en sécurité pour porter ceci visiblement.[/italic][/color]
 
 contraband-examinable-verb-text = Légalité

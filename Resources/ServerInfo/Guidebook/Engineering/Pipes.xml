@@ -3,27 +3,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Pipes
-  Pipes are used to distribute gasses from one place to another.
-  There are a wide variety of pipes available to construct:
+  # Tuyaux
+  Les tuyaux servent à distribuer les gaz d'un endroit à un autre.
+  Il y a une grande variété de tuyaux disponibles à construire :
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="straight"/>
-    <GuideEntityEmbed Entity="GasPipeHalf" Caption="half"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Caption="bend"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T junction"/>
-    <GuideEntityEmbed Entity="GasPipeFourway" Caption="fourway"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="droit"/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption="demi"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption="coude"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="jonction T"/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption="quatre voies"/>
   </Box>
 
-  Pipes will [color=#a4885c]automatically connect[/color] to other pipes when anchored (or wrenched) to the hull to form a [textlink="network of pipes." link="PipeNetworks"]
-  A network of pipes is commonly called a [textlink="pipenet" link="PipeNetworks"].
+  Les tuyaux se [color=#a4885c]connectent automatiquement[/color] aux autres tuyaux quand ancrés (ou cléyés) sur la coque pour former un [textlink="réseau de tuyaux." link="PipeNetworks"]
+  Un réseau de tuyaux est communément appelé un [textlink="pipenet" link="PipeNetworks"].
 
-  Pipes will [color=red]not connect[/color] to pipes that are already connected to a different pipe.
-  For example, building a bent pipe on top of a straight pipe to form a makeshift T-junction will not work.
+  Les tuyaux [color=red]ne se connecteront pas[/color] à des tuyaux déjà connectés à un autre tuyau différent.
+  Par exemple, construire un tuyau coudé sur un tuyau droit pour faire un T-junction bidouillé ne marchera pas.
 
-  However, two pipes can share a tile as long as one isn't obstructing the other's connection to another pipe.
-  For example, two bend pipes can be placed on the same tile, with one moving gas from north to east, and the other moving gas from west to south.
+  Par contre, deux tuyaux peuvent partager une tuile tant qu'un n'obstrue pas la connexion de l'autre à un autre tuyau.
+  Par exemple, deux tuyaux courbés peuvent être posés sur la même tuile, un déplaçant le gaz du nord à l'est, et l'autre de l'ouest au sud.
 
-  You can color pipes (and most equipment that handles gasses) using a spray painter.
-  This is commonly done to distinguish the air and waste components of the station's Distro pipenet.
+  Vous pouvez colorer les tuyaux (et la plupart des équipements qui gèrent les gaz) avec un pistolet peinture.
+  C'est couramment fait pour distinguer les composants air et déchet du pipenet Distro de la station.
 </Document>

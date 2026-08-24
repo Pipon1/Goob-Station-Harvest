@@ -3,36 +3,36 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-	# Atmospherics
-	Atmospherics is the engineering subdepartment responsible for maintaining the station's atmosphere, and ensuring that it is safe and breathable for the crew.
+	# Atmosphériques
+	L'[color=#f39f27]Atmosphériques[/color] est le sous-département d'ingénierie responsable de maintenir l'atmosphère de la station, et d'assurer qu'elle est sûre et respirable pour l'équipage.
 
-	Atmospherics is run by Atmospheric Technicians, who are overseen by the Chief Engineer.
+	L'Atmosphériques est géré par des Techniciens Atmosphériques, supervisés par l'Ingénieur en Chef.
 
 	<Box>
-		<GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
-		<GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+		<GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosien"/>
+		<GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="IC"/>
 	</Box>
 	<Box>
 		[color=#999999][italic][italic][/color]
 	</Box>
 
-	## Responsibilities
-	Generally, you'll be responding to [textlink="atmospheric upsets" link="AtmosphericUpsets"] throughout the station.
-	These can range from minor leaks to full-on [textlink="fires" link="Fires"] or [textlink="spacing" link="Spacing"] incidents.
+	## Responsabilités
+	Généralement, vous répondrez aux [textlink="problèmes atmosphériques" link="AtmosphericUpsets"] dans toute la station.
+	Cela va de fuites mineures à de vrais [textlink="incendies" link="Fires"] ou incidents de [textlink="dépressurisation" link="Spacing"].
 
-	People from other departments may also request [textlink="canned gasses" link="GasCanisters"] for their department duties, such as [textlink="plasma" link="Gasses"] for the [textlink="Research Department" link="Science"] or [textlink="carbon dioxide" link="Gasses"] for [textlink="Chemistry" link="Chemist"].
+	Les gens d'autres départements peuvent aussi demander des [textlink="gaz en bouteille" link="GasCanisters"] pour leurs tâches, comme du [textlink="plasma" link="Gasses"] pour le [textlink="Département Recherche" link="Science"] ou du [textlink="dioxyde de carbone" link="Gasses"] pour la [textlink="Chimie" link="Chemist"].
 
-	When there's no work to do, you may be expected to help regular Station Engineers with their tasks, and mentor new Station Engineers and Atmospheric Technicians.
-	In your downtime, you may seek to improve the station by setting up rooms with different atmospheres for [textlink="Voxes" link="Vox"] and other species, or by setting up production of [textlink="exotic gasses" link="Gasses"] for the station's needs.
-	
-	## Reference Sheet
-	- Standard atmospheric mix is [color=#a4885c]78% N2 and 22% O2 at 101.24kPa.[/color]
-	- Gas obeys real math. You can use the equation:
+	Quand y'a pas de boulot, on peut s'attendre à ce que vous aidiez les Ingénieurs de Station normaux dans leurs tâches, et que vous mentoriez les nouveaux Ingénieurs et Techniciens Atmosphériques.
+	Dans vos temps morts, vous pouvez chercher à améliorer la station en mettant en place des salles avec différentes atmosphères pour les [textlink="Vox" link="Vox"] et autres espèces, ou en mettant en place la production de [textlink="gaz exotiques" link="Gasses"] pour les besoins de la station.
+
+	## Aide-Mémoire
+	- Le mélange atmosphérique standard c'est [color=#a4885c]78% N2 et 22% O2 à 101.24 kPa.[/color]
+	- Le gaz obéit aux vraies maths. Vous pouvez utiliser l'équation :
 	<Box>
 		[color=cyan]PV = nRT[/color]
 	</Box>
 	<Box>
-		([color=#a4885c]Pressure kPa * Volume L = Moles * R * Temperature K[/color])
-	</Box> to derive information you might need to know about a gas. R is approximately 8.31446.
+		([color=#a4885c]Pression kPa * Volume L = Moles * R * Température K[/color])
+	</Box> pour dériver les infos dont vous pourriez avoir besoin sur un gaz. R est environ 8.31446.
 
 </Document>

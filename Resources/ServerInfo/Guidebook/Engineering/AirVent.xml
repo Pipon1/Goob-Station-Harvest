@@ -3,66 +3,65 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Air Vent
-  The air vent is a standard vent, found in all rooms that you want to pressurize with a breathable atmosphere.
-  Its primary job is to transfer gasses into the atmosphere it's exposed to until it reaches a set pressure.
+  # Ventilation
+  La ventilation est un évent standard, trouvé dans toutes les pièces qu'on veut pressuriser avec une atmosphère respirable.
+  Son boulot principal est de transférer des gaz dans l'atmosphère où il est exposé jusqu'à atteindre une pression définie.
 
   <Box>
     <GuideEntityEmbed Entity="GasVentPump"/>
   </Box>
 
-  The air vent requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  La ventilation nécessite du [textlink="courant" link="Power"] via un [textlink="câble BT" link="VoltageNetworks"] proche pour fonctionner.
 
-  The air vent can be welded with any welding tool to stop it from functioning.
+  La ventilation peut être soudée avec n'importe quel outil de soudure pour l'arrêter.
 
-  ## Default Operation
-  The default behavior of an air vent is to simply output gas to the exposed atmosphere at a pressure of [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color].
+  ## Opération par Défaut
+  Le comportement par défaut d'une ventilation est de simplement sortir du gaz dans l'atmosphère exposée à une pression de [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color].
 
-  The speed of the air vent scales with the difference between twice the connected [textlink="pipenet's" link="PipeNetworks"] pressure and the pressure of the exposed atmosphere.
-  To put it in a word equation:
+  La vitesse de la ventilation échelle avec la différence entre le double de la pression du [textlink="pipenet" link="PipeNetworks"] connecté et la pression de l'atmosphère exposée.
+  Pour le dire en équation :
   <Box>
-    [italic]Speed = 2 × Pipenet Pressure - Exposed Atmosphere Pressure[/italic]
+    [italic]Vitesse = 2 × Pression Pipenet - Pression Atmosphère Exposée[/italic]
   </Box>
 
-  For example, this means that an air vent will be unable to pump to 101.3 kPa if the gas inside the vent goes below half that.
+  Par exemple, ça veut dire qu'une ventilation sera incapable de pomper à 101.3 kPa si le gaz dans la ventilation descend en dessous de la moitié.
 
-  ## Pressure Lockout
-  Air vents will enter [color=red]pressure lockout[/color] when the pressure of the atmosphere it's exposed to is below [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color].
-  This is to prevent wasting useful gasses to space if a room is not sealed.
-  The lights on the air vent will turn [color=yellow]yellow[/color] to highlight this change.
+  ## Verrouillage Pression
+  Les ventilations entrent en [color=red]verrouillage pression[/color] quand la pression de l'atmosphère où elles sont exposées est en dessous de [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color].
+  C'est pour éviter de gâcher des gaz utiles dans l'espace si une pièce n'est pas scellée.
+  Les lumières sur la ventilation deviendront [color=yellow]jaunes[/color] pour signaler ce changement.
 
-  This can be [color=green]overridden[/color] by right-clicking on the vent and selecting 'Release pressure lock out', or setting the mode to Fill on a connected [textlink="air alarm" link="AirAlarms"].
+  Ça peut être [color=green]outrepassé[/color] en clic-droit sur la ventilation et en sélectionnant 'Relâcher verrouillage pression', ou en mettant le mode Remplissage sur une [textlink="alarme à air" link="AirAlarms"] connectée.
 
-  It is important to note that air vents in [color=red]pressure lockout[/color] still very slowly leak out gas.
-  The amount of gas they leak out is relative to the current pressure of the pipenet they're connected to.
+  Important de noter que les ventilations en [color=red]verrouillage pression[/color] fuient encore très lentement du gaz.
+  La quantité fuite est relative à la pression actuelle du pipenet auquel elles sont connectées.
 
-  ## Configuration Options
-  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air vents gain more functionality.
+  ## Options de Configuration
+  Quand [textlink="liée" link="Networking"] à une [textlink="alarme à air" link="AirAlarms"], les ventilations gagnent plus de fonctionnalités.
 
-  Air vents have two "vent direction" options: Releasing and Siphoning.
-  - Releasing simply releases gasses into the atmosphere from the connected pipenet.
-  - Siphoning sucks the air out of the atmosphere and into the connected pipenet. The lights on the air vent will turn [color=red]red[/color] to highlight this change.
+  Les ventilations ont deux options de "direction ventilation" : Rejet et Aspiration.
+  - Le Rejet relâche simplement des gaz dans l'atmosphère depuis le pipenet connecté.
+  - L'Aspiration aspire l'air de l'atmosphère vers le pipenet connecté. Les lumières sur la ventilation deviendront [color=red]rouges[/color] pour signaler ce changement.
 
-  ## Pressure Bounds
-  Air vents have a pressure bound system, which controls the pressure at which an air vent will pressurize an atmosphere, or draw from a connected pipenet. These limits are taken into account in both releasing and siphoning modes.
+  ## Bornes de Pression
+  Les ventilations ont un système de bornes de pression, qui contrôle la pression à laquelle une ventilation pressurisera une atmosphère, ou tirera d'un pipenet connecté. Ces limites sont prises en compte dans les deux modes rejet et aspiration.
 
-  The "PressureBound" setting has four options:
-  - ExternalBound makes the air vent respect the pressure limits defined in the External bound entry.
-  - InternalBound makes the air vent respect the pressure limits defined in the Internal bound entry.
-  - Both makes the air vent respect the pressure limits defined in both the External and Internal bound entries.
-  - NoBound makes the air vent respect no limit.
+  Le réglage "PressionLimite" a quatre options :
+  - BorneExterne fait que la ventilation respecte les limites de pression définies dans l'entrée Borne Externe.
+  - BorneInterne fait que la ventilation respecte les limites de pression définies dans l'entrée Borne Interne.
+  - LesDeux fait que la ventilation respecte les limites de pression définies dans les entrées Borne Externe et Borne Interne.
+  - PasDeBorne fait que la ventilation ne respecte aucune limite.
 
-  When the vent is in releasing mode:
-  - If the External bound pressure is set to 101.3 kPa, the air vent will not pressurize the atmosphere above 101.3 kPa.
-  - If the Internal bound pressure is set to 50 kPa, the air vent will not draw gas from the connected pipe if its pressure is below 50 kPa.
+  Quand la ventilation est en mode rejet :
+  - Si la pression Borne Externe est à 101.3 kPa, la ventilation ne pressurisera pas l'atmosphère au-dessus de 101.3 kPa.
+  - Si la pression Borne Interne est à 50 kPa, la ventilation ne tirera pas de gaz du tuyau connecté si sa pression est en dessous de 50 kPa.
 
-  When the vent is in siphoning mode:
-  - If the External bound pressure is set to 101.3 kPa, the air vent will siphon gasses until the atmosphere reaches 101.3 kPa.
-  - If the Internal bound pressure is set to 50 kPa, the air vent will not push gasses into the pipenet if its pressure is above 50 kPa.
+  Quand la ventilation est en mode aspiration :
+  - Si la pression Borne Externe est à 101.3 kPa, la ventilation aspirera les gaz jusqu'à ce que l'atmosphère atteigne 101.3 kPa.
+  - Si la pression Borne Interne est à 50 kPa, la ventilation ne poussera pas de gaz dans le pipenet si sa pression est au-dessus de 50 kPa.
 
-  If you're still confused about PressureBounds, here's a simple way to think about it:
-  - You can think of the External bound as the upper limit for the exposed atmosphere. "I will not pressurize the exposed atmosphere past this pressure, or draw from the atmosphere below this pressure."
-  - You can think of the Internal bound as the lower limit for the connected pipenet. "I will not draw from my source below this pressure, or push air into the pipenet above this pressure."
-  - The "Pressure bound" settings simply define which limits to respect or ignore.
-
+  Si vous êtes encore confus sur les BornesPression, voilà une façon simple d'y penser :
+  - Vous pouvez voir la Borne Externe comme la limite haute pour l'atmosphère exposée. "Je ne pressuriserai pas l'atmosphère exposée au-delà de cette pression, ni n'en tirerai en dessous de cette pression."
+  - Vous pouvez voir la Borne Interne comme la limite basse pour le pipenet connecté. "Je ne tirerai pas de ma source en dessous de cette pression, ni ne pousserai d'air dans le pipenet au-dessus de cette pression."
+  - Les réglages "Borne de pression" définissent simplement quelles limites respecter ou ignorer.
 </Document>

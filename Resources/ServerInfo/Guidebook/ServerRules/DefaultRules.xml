@@ -5,65 +5,65 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <!-- Rules directly linked to prototype\rules.yml - edit both to change names of files/textlinking or add additional rules-->
 
 <Document>
-# Goobstation Rules
+# Règles de Goobstation
 
-  - Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Some of our rules are zero tolerance rules, meaning that a violation will result in an indefinite ban without any warning. Game admins will treat you as if you have read the rules, even if you have not.
+  - Space Station 14 n'est pas comme la plupart des jeux. Beaucoup de règles sont conçues pour exiger du roleplay, et toutes ne sont pas intuitives. Prenez le temps de lire et comprendre les règles avant de jouer pour ne pas être surpris. Certaines de nos règles sont des règles à tolérance zéro, ce qui signifie qu'une violation entraînera un bannissement indéfini sans aucun avertissement. Les admins du jeu vous traiteront comme si vous aviez lu les règles, même si ce n'est pas le cas.
 
-  - Roleplay is king, and admins can disregard other rules to this end should it prove beneficial for the experience of the shift. Admins may choose to intervene in rounds when it is in the best interest of the playerbase.
+  - Le roleplay est roi, et les admins peuvent ignorer les autres règles à cette fin si cela s'avère bénéfique pour l'expérience de la shift. Les admins peuvent choisir d'intervenir dans les rounds quand c'est dans l'intérêt de la base de joueurs.
 
-## CORES RULES
+## RÈGLES FONDAMENTALES
 
-  - [textlink="0. The admins interests" link="Admins"]
-  - [textlink="1. Don't be a dick" link="RuleC1"]
-  - [textlink="2. Do not use information gained outside of in-character means" link="RuleC2"]
-  - [textlink="3. This is a sandbox roleplaying server" link="RuleC3"]
-  - [textlink="4. Lone antagonists are unbound by (most) rules" link="RuleC4"]
-  - [textlink="5. Players in vital job roles require a minimum amount of effort" link="RuleC5"]
-  - [textlink="6. In-game administration rulings are final" link="RuleC6"]
-  - [textlink="7. Only use English" link="RuleC7"]
-  - [textlink="8. Erotic/creepy stuff is not allowed." link="RuleC8"]
-  - [textlink="9. Players need to be the age of 16 or above" link="RuleC9"]
-  - [textlink="10. Losing is part of the game" link="RuleC10"]
-  - [textlink="11. Bigotry is not allowed" link="RuleC11"]
-  - [textlink="12. Use realistic character names, and do not use names of famous people" link="RuleC12"]
+  - [textlink="0. Les intérêts des admins" link="Admins"]
+  - [textlink="1. Sois pas un connard" link="RuleC1"]
+  - [textlink="2. N'utilise pas d'infos obtenues hors RP" link="RuleC2"]
+  - [textlink="3. C'est un serveur bac à sable RP" link="RuleC3"]
+  - [textlink="4. Les antagonistes solos ne sont pas liés par la plupart des règles" link="RuleC4"]
+  - [textlink="5. Les joueurs dans des rôles vitaux doivent fournir un minimum d'effort" link="RuleC5"]
+  - [textlink="6. Les décisions des admins en jeu sont finales" link="RuleC6"]
+  - [textlink="7. N'utilise que l'anglais" link="RuleC7"]
+  - [textlink="8. Pas de contenu érotique/flippant." link="RuleC8"]
+  - [textlink="9. Les joueurs doivent avoir 16 ans ou plus" link="RuleC9"]
+  - [textlink="10. Perdre fait partie du jeu" link="RuleC10"]
+  - [textlink="11. La bigoterie est interdite" link="RuleC11"]
+  - [textlink="12. Utilise des noms de perso réalistes, et pas de noms de gens célèbres" link="RuleC12"]
 
-## IN GAME & ROLEPLAY RULES
+## RÈGLES EN JEU & ROLEPLAY
 
-  Additional rules made for our roleplay servers (Sigma/Alpha/Beta(LRP) & Regalis/Aurum(MRP)) If roleplaying isn't your style, every other server still abides by only the Main Rules.
+  Règles supplémentaires pour nos serveurs RP (Sigma/Alpha/Beta(LRP) & Regalis/Aurum(MRP)) Si le RP n'est pas ton style, tous les autres serveurs respectent seulement les Règles Fondamentales.
 
-  Please note that a ban on the low roleplay servers may result in a ban on the medium roleplay servers, and vice versa.
+  Note qu'un ban sur les serveurs low RP peut entraîner un ban sur les serveurs medium RP, et vice versa.
 
 
   - [textlink="1. Roleplay" link="RuleR1"]
-  - [textlink="2. Escalation" link="RuleR2"]
-  - [textlink="3. Chain of Command" link="RuleR3"]
-  - [textlink="4. Do not metagame, obey the Metashield" link="RuleR4"]
-  - [textlink="5. Vigilantism(Validhunting)" link="RuleR5"]
-  - [textlink="6. Antagonism and roleplaying as an antagonist." link="RuleR6"]
-  - [textlink="7. Deal with the bad guys in proportion to their crime(s)" link="RuleR7"]
-  - [textlink="8. Do not powergame" link="RuleR8"]
-  - [textlink="9. Play as a coherent, believable character" link="RuleR9"]
-  - [textlink="10. Stay in your lane" link="RuleR10"]
-  - [textlink="11. Roleplay and Repetition" link="RuleR11"]
-  - [textlink="12. Blueshield Rules" link="RuleR12"]
-  - [textlink="13. Nanotrasen Representative Rules" link="RuleR13"]
-  - [textlink="14. Death Amnesia (NLR)" link="RuleR14"]
-  - [textlink="15. End of Round Griefing (MRP Only)" link="RuleR15"]
-  - [textlink="16. Atmospherics Technician" link="RuleR16"]
+  - [textlink="2. Escalade" link="RuleR2"]
+  - [textlink="3. Chaîne de commandement" link="RuleR3"]
+  - [textlink="4. Pas de métagaming, respecte le Metashield" link="RuleR4"]
+  - [textlink="5. Vigilantisme(Validhunting)" link="RuleR5"]
+  - [textlink="6. Antagonisme et rôle d'antagoniste." link="RuleR6"]
+  - [textlink="7. Gère les méchants proportionnellement à leurs crimes" link="RuleR7"]
+  - [textlink="8. Pas de powergaming" link="RuleR8"]
+  - [textlink="9. Joue un perso cohérent et crédible" link="RuleR9"]
+  - [textlink="10. Reste dans ta lane" link="RuleR10"]
+  - [textlink="11. Roleplay et Répétition" link="RuleR11"]
+  - [textlink="12. Règles Blueshield" link="RuleR12"]
+  - [textlink="13. Règles Représentant Nanotrasen" link="RuleR13"]
+  - [textlink="14. Amnésie de Mort (NLR)" link="RuleR14"]
+  - [textlink="15. Grief de Fin de Round (MRP seulement)" link="RuleR15"]
+  - [textlink="16. Technicien Atmosphérique" link="RuleR16"]
 
-  ## SILICON RULES
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+  ## RÈGLES SILICIUM
+  Tu n'es silicium que si le jeu te le dit clairement et explicitement. Pour les joueurs silicium, ces Règles Silicium remplacent toutes les règles roleplay en cas de conflit. Les Règles Silicium ne remplacent pas les règles fondamentales.
 
-  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
-  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
-  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
-  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
-  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
-  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
-  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
-  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
-  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+  - [textlink="1. Tes lois silicium sont des règles" link="RuleS1"]
+  - [textlink="2. Les lois doivent être priorisées par leur ordre" link="RuleS2"]
+  - [textlink="3. Les lois peuvent redéfinir les termes des autres lois" link="RuleS3"]
+  - [textlink="4. Tu ne peux pas demander ou autoriser un changement de loi" link="RuleS4"]
+  - [textlink="5. Tu es un agent libre si t'as pas de lois" link="RuleS5"]
+  - [textlink="6. Tu n'es pas obligé de suivre des ordres extrêmement déraisonnables" link="RuleS6"]
+  - [textlink="7. Tu dois rester cohérent dans ton interprétation des lois" link="RuleS7"]
+  - [textlink="8. Ton HUD détermine qui est crew" link="RuleS8"]
+  - [textlink="9. Le dommage désigne le dommage physique, priorisé par immediatez et probabilité" link="RuleS9"]
+  - [textlink="10. Tu peux décider comment résoudre les conflits entre ordres" link="RuleS10"]
 
-By accepting these rules, you consent to the server redialing you to other servers in our network.
+En acceptant ces règles, tu consens à ce que le serveur te redirige vers d'autres serveurs de notre réseau.
 </Document>

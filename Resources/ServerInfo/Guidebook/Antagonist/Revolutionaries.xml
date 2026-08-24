@@ -3,49 +3,48 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Revolutionaries
+  # Révolutionnaires
 
   <Box>
-    [color=#999999][italic]"Viva la revolución!!"[/italic][/color]
+    [color=#999999][italic]"Viva la revolución !!"[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
   </Box>
 
-  Revolutionaries are conversion antagonists sponsored by the [color=#ff0000]Syndicate[/color] who are tasked with taking control of the station. They have no fancy gimmicks or cheap tricks, they only have a cause and strength in numbers.
+  Les révolutionnaires sont des antagonistes de conversion soutenus par le [color=#ff0000]Syndicat[/color] chargés de prendre le contrôle de la station. Ils n'ont pas de gadgets fantaisistes ou tours bon marché, ils n'ont qu'une cause et la force du nombre.
 
 <Box>
-  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
+  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Manifeste Révolutionnaire"/>
 </Box>
 
-  [color=#5e9cff]Head Revolutionaries[/color] are chosen at the start of the shift and are tasked with taking over the station by killing, exiling or cuffing all of the Command staff. Head Revolutionaries will be given a [color=#a4885c]Revolutionary Manifesto[/color] to aid them.
-  Your objective is [bold]not to destroy the station[/bold], but [italic]to take it over[/italic], so try to minimize damage where possible.
+  Les [color=#5e9cff]Chefs Révolutionnaires[/color] sont choisis au début du shift et ont pour mission de prendre la station en tuant, exilant ou menottant tout le staff de Commandement. Les Chefs Révolutionnaires recevront un [color=#a4885c]Manifeste Révolutionnaire[/color] pour les aider.
+  Votre objectif est [bold]pas de détruire la station[/bold], mais [italic]de la prendre[/italic], alors essayez de minimiser les dégâts quand possible.
 
-  [bold]The revolution will fail[/bold] if all of the [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] die, and all [color=red]Revolutionaries[/color] will de-convert if this happens.
+  [bold]La révolution échouera[/bold] si tous les [bold][color=#5e9cff]Chefs Révolutionnaires[/color][/bold] meurent, et tous les [color=red]Révolutionnaires[/color] se déconvertiront si ça arrive.
 
-  ## Headrevs & Conversion
-  [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] are chosen at the start of the shift and begin with a [color=cyan]flash[/color] and a pair of [color=cyan]sunglasses[/color].
+  ## Chefs Rev' & Conversion
+  Les [bold][color=#5e9cff]Chefs Révolutionnaires[/color][/bold] sont choisis au début du shift et commencent avec un [color=cyan]flash[/color] et une paire de [color=cyan]lunettes de soleil[/color].
 
   <Box>
-  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
+  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Manifeste Révolutionnaire"/>
 </Box>
 
-  You can convert crew members by using a [color=#a4885c]Revolutionary Manifesto[/color] on them.
+  Vous pouvez convertir des membres d'équipage en utilisant un [color=#a4885c]Manifeste Révolutionnaire[/color] sur eux.
 
-  Beware! A [color=#a4885c]MindShield Implant[/color] will prevent the implanted person from being converted into a revolutionary. Assume all of [color=#a4885c]Security[/color] and [color=#a4885c]Command[/color] are implanted already.
+  Attention ! Un [color=#a4885c]Implant Bouclier Mental[/color] empêchera la personne implantée d'être convertie en révolutionnaire. Partez du principe que toute la [color=#a4885c]Sécurité[/color] et le [color=#a4885c]Commandement[/color] sont déjà implantés.
 <Box>
-  <GuideEntityEmbed Entity="MindShieldImplanter" Caption="MindShield Implanter"/>
+  <GuideEntityEmbed Entity="MindShieldImplanter" Caption="Implanteur Bouclier Mental"/>
 </Box>
-  Another obstacle in your way are those pesky [color=cyan]mindshield implanters[/color]. These will:
-  - Prevent the implanted person from being converted into a [color=red]Revolutionary[/color]
-  - De-convert Revolutionaries, and will make them no longer loyal to your cause
-  - [bold]Visibly be destroyed upon being implanted into a [color=#5e9cff]Head Revolutionary[/color][/bold], giving you away
+  Un autre obstacle sur votre chemin sont ces fichus [color=cyan]implanteurs bouclier mental[/color]. Ceux-ci :
+  - Empêchent la personne implantée d'être convertie en [color=red]Révolutionnaire[/color]
+  - Déconvertissent les Révolutionnaires, et les rendent plus loyaux à votre cause
+  - [bold]Sont visiblement détruits en étant implantés dans un [color=#5e9cff]Chef Révolutionnaire[/color][/bold], vous dévoilant
 
-  Assume all of [color=#cb0000]Security[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already, [bold]however they can be removed using an implant extractor, obtainable from the Medical department's MedFab.[/bold]
+  Partez du principe que toute la [color=#cb0000]Sécurité[/color] et le [color=#1b67a5]Commandement[/color] sont implantés avec des boucliers mentaux déjà, [bold]mais ils peuvent être retirés avec un extracteur d'implant, obtenable au MedFab du département Médical.[/bold]
 
 
-
-  ## Revolutionary
-  A [color=#ff0000]Revolutionary[/color] is the result of being converted by a [color=#5e9cff]Head Revolutionary[/color]. Revolutionaries are underlings of the Head Revolutionaries and should follow orders given by them and prioritize their well-being over anything else, because if they die, you will lose.
-  Keep in mind that you can't convert others as a regular revolutionary, only your boss can do that.
+  ## Révolutionnaire
+  Un [color=#ff0000]Révolutionnaire[/color] est le résultat d'être converti par un [color=#5e9cff]Chef Révolutionnaire[/color]. Les Révolutionnaires sont des subordonnées des Chefs Révolutionnaires et devraient suivre les ordres donnés par eux et prioriser leur bien-être avant tout, car s'ils meurent, vous perdez.
+  Gardez en tête que vous ne pouvez pas convertir d'autres en tant que révolutionnaire normal, seul votre chef peut le faire.
 </Document>

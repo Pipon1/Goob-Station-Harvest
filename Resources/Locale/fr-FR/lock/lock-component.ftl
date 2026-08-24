@@ -5,8 +5,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-lock-comp-on-examined-is-locked = {$entityName} semble être verrouillé(e).
-lock-comp-on-examined-is-unlocked = {$entityName} semble être déverrouillé(e).
+lock-comp-on-examined-is-locked = {CAPITALIZE(SUBJECT($entityName))} semble être verrouillé(e).
+lock-comp-on-examined-is-unlocked = {CAPITALIZE(SUBJECT($entityName))} semble être déverrouillé(e).
 lock-comp-do-lock-success = Vous verrouillez {$entityName}.
 lock-comp-do-unlock-success = Vous déverrouillez {$entityName}.
 lock-comp-has-user-access-fail = Accès refusé.

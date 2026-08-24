@@ -534,7 +534,7 @@
   id: TableWood
   parent: TableBase
   name: table en bois
-  description: N'approchez pas de feu sur ça. On dit qu'elle brûle facilement.
+  description: N'y approchez pas de flamme. On dit que ça brûle facilement.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -956,7 +956,7 @@
   id: TableCounterWood
   parent: CounterBase
   name: comptoir en bois
-  description: N'approchez pas de feu sur ça. On dit qu'il brûle facilement.
+  description: N'y approchez pas de flamme. On dit que ça brûle facilement.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi

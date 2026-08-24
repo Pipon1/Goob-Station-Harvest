@@ -3,11 +3,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gas Manipulation
-  Atmos has a wide variety of tools and equipment at their disposal for the manipulation of gasses throughout the station.
+  # Manipulation Gaz
+  Atmos a une grande variété d'outils et équipement pour la manipulation de gaz dans toute la station.
 
-  [bold]Warning: unanchoring (unwrenching) most devices containing gas will [color=red]leak gas[/color] into the atmosphere.[/bold]
-  You can safely unanchor [textlink="canisters" link="GasCanisters"], [textlink="portable scrubbers" link="PortableScrubber"], [textlink="condensers" link="GasCondensing"], and [textlink="thermomachines" link="Thermomachines"].
+  [bold]Avertissement : désancrer (dévisser) la plupart des appareils contenant du gaz va [color=red]fuir du gaz[/color] dans l'atmosphère.[/bold]
+  Vous pouvez désancrer sans danger les [textlink="bonbonnes" link="GasCanisters"], [textlink="épurateurs portatifs" link="PortableScrubber"], [textlink="condenseurs" link="GasCondensing"], et [textlink="thermomachines" link="Thermomachines"].
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
@@ -17,10 +17,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
   </Box>
   <Box>
-    ## Pipes
+    ## Tuyaux
   </Box>
   <Box>
-    [color=#999999][italic]Distributing gasses from one place to another[italic][/color]
+    [color=#999999][italic]Distribuer les gaz d'un endroit à un autre[italic][/color]
   </Box>
 
   <Box>
@@ -28,10 +28,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
   </Box>
   <Box>
-    ## Pumps
+    ## Pompes
   </Box>
   <Box>
-    [color=#999999][italic]Forcing the movement of gasses from one place to another[italic][/color]
+    [color=#999999][italic]Forcer le mouvement des gaz d'un endroit à un autre[italic][/color]
   </Box>
 
   <Box>
@@ -42,10 +42,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="PortableScrubber" Caption=""/>
   </Box>
   <Box>
-    ## Atmosphere Input and Output
+    ## Entrée et Sortie d'Atmosphère
   </Box>
   <Box>
-    [color=#999999][italic]Inserting and extracting gasses from a present (or non-present) atmosphere[italic][/color]
+    [color=#999999][italic]Insérer et extraire des gaz d'une atmosphère présente (ou pas)[italic][/color]
   </Box>
 
   <Box>
@@ -56,10 +56,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasPressureRegulator" Caption=""/>
   </Box>
   <Box>
-    ## Valves
+    ## Vannes
   </Box>
   <Box>
-    [color=#999999][italic]Controlling the flow of gas through pipes[italic][/color]
+    [color=#999999][italic]Contrôler le flux de gaz dans les tuyaux[italic][/color]
   </Box>
 
   <Box>
@@ -67,10 +67,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasFilter" Caption=""/>
   </Box>
   <Box>
-    ## Mixing and Filtering
+    ## Mélange et Filtrage
   </Box>
   <Box>
-    [color=#999999][italic]Manipulating the composition of gas[italic][/color]
+    [color=#999999][italic]Manipuler la composition du gaz[italic][/color]
   </Box>
 
   <Box>
@@ -82,10 +82,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasPort" Caption=""/>
   </Box>
   <Box>
-    ## Gas Canisters
+    ## Bonbonnes à Gaz
   </Box>
   <Box>
-    [color=#999999][italic]Storing and transporting gas for easy use by the crew[italic][/color]
+    [color=#999999][italic]Stocker et transporter du gaz pour usage facile par l'équipage[italic][/color]
   </Box>
 
   <Box>
@@ -95,19 +95,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="HeatExchanger" Caption=""/>
   </Box>
   <Box>
-    ## Thermomachines and Radiators
+    ## Thermomachines et Radiateurs
   </Box>
   <Box>
-    [color=#999999][italic]Manipulating the temperature of gasses in a pipenet or atmosphere[italic][/color]
+    [color=#999999][italic]Manipuler la température des gaz dans un pipenet ou atmosphère[italic][/color]
   </Box>
 
   <Box>
     <GuideEntityEmbed Entity="BaseGasCondenser" Caption=""/>
   </Box>
   <Box>
-    ## Gas Condensing
+    ## Condensation Gaz
   </Box>
   <Box>
-    [color=#999999][italic]Condensing gasses for further use[italic][/color]
+    [color=#999999][italic]Condenser des gaz pour usage ultérieur[italic][/color]
   </Box>
 </Document>

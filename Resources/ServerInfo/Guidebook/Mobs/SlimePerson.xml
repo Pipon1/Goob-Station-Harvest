@@ -3,27 +3,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Slime People
+  # Hommes-slime
 
   <Box>
     <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
   </Box>
 
-  They breathe nitrogen instead of oxygen, which is abundant in the station air, but harder to find compressed into gas tanks. They take significant damage if they are sprayed or splashed with water, but can
-  (and like other species, need to) drink it safely to stay hydrated.
-  They exhale nitrous oxide and are unaffected by it.
-  Their body processes only two toxins at a time compared to three.
+  Ils respirent de l'azote au lieu d'oxygène, qui est abondant dans l'air de la station, mais plus difficile à trouver compressé dans des bouteilles de gaz. Ils subissent des dégâts significatifs s'ils sont aspergés ou éclaboussés d'eau, mais peuvent
+  (et comme les autres espèces, ont besoin de) la boire sans danger pour rester hydratés.
+  Ils exhalent du protoxyde d'azote et ne sont pas affectés par celui-ci.
+  Leur corps ne traite que deux toxines à la fois comparé à trois.
 
-  Slimepeople have an [bold]internal 2x3 storage inventory[/bold] inside of their slime membrane. Anyone can see what's inside and take it out of you without asking,
-  so be careful.
+  Les Hommes-slime ont un [bold]inventaire de stockage interne 2x3[/bold] à l'intérieur de leur membrane gélatineuse. N'importe qui peut voir ce qu'il y a dedans et le sortir de vous sans demander,
+  donc faites attention.
 
-  Slimepeople have accelerated regeneration compared to other humanoids.
+  Les Hommes-slime ont une régénération accélérée comparée aux autres humanoïdes.
 
-  Slime people have no bones and their limbs come off easier.
+  Les Hommes-slime n'ont pas d'os et leurs membres se détachent plus facilement.
 
-  Slime Blood is technically a source of moderately filling food for other species, although drinking the blood of your coworkers is usually frowned upon.
-  They suffocate 80% slower, but take pressure damage 9% faster. This makes them by far the species most capable to survive in hard vacuum. For a while.
+  Le Sang-slime est techniquement une source de nourriture modérément rassasiante pour les autres espèces, bien que boire le sang de vos collègues soit généralement mal vu.
+  Ils s'asphyxient 80 % plus lentement, mais subissent des dégâts de pression 9 % plus vite. Cela en fait de loin l'espèce la plus capable de survivre dans le vide total. Pour un temps.
 
-  They take [color=#1e90ff]40% less Blunt damage and 20% less Poison damage[/color], but [color=#ffa500]50% more Cold damage, 15% more Slash damage and 15% more Piercing damage[/color].
+  Ils subissent [color=#1e90ff]40 % de dégâts Contondants en moins et 20 % de Poison en moins[/color], mais [color=#ffa500]50 % de Froid en plus, 15 % de Tranchants en plus et 15 % de Perforants en plus[/color].
 
 </Document>

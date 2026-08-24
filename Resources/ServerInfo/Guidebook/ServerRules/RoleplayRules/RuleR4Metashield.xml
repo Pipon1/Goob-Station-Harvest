@@ -3,105 +3,105 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Roleplay Rule 4 - Do not metagame, obey the Metashield
-  Something that is "shielded" cannot be known by your character during a round until the "revealing condition" happens. This also means that your character cannot do things based on "shielded" information. Knowing or acting on something that is shielded before the revealing condition is met is referred to as metagaming.
+  # Règle RP 4 - Pas de métagaming, respecte le Metashield
+  Un truc qui est "shielded" ne peut pas être connu par ton perso pendant un round tant que la "condition de révélation" n'arrive pas. Ça veut aussi dire que ton perso ne peut pas faire de trucs basés sur des infos "shielded". Savoir ou agir sur un truc shielded avant que la condition de révélation soit remplie, c'est du métagaming.
 
-  Revealing conditions reveal the shielded information for the round, not for a specific instance. This means that once a revealing condition is met in a round, the shield no longer applies in any case for the remainder of the round.
+  Les conditions de révélation révèlent l'info shielded pour le round, pas pour une instance spécifique. Ça veut dire qu'une fois qu'une condition de révélation est remplie dans un round, le shield ne s'applique plus dans aucun cas pour le reste du round.
 
-  ## Never Revealed IC
-  Some shields are never revealed IC. This means that your character can never act as if they know about that shielded thing.
+  ## Jamais Révélé RP
+  Certains shields ne sont jamais révélés RP. Ça veut dire que ton perso ne peut jamais agir comme s'il connaissait ce truc shielded.
 
-  The following are shielded:
-  - Current game mode and possible antags during the current game mode.
-  - Events from previous rounds.
-  - Events you experienced as a different character.
-  - All information related to the player of a character rather than the character itself. (See "Metafriending and Metagrudging" below.)
-  - All information gained while dead or a ghost.
-  - All information gained while in critical condition or unconscious.
-  - The fact that a round will end.
+  Les suivants sont shielded :
+  - Mode de jeu actuel et antags possibles pendant le mode de jeu actuel.
+  - Events des rounds précédents.
+  - Events que t'as vécus en tant que perso différent.
+  - Toutes les infos liées au joueur d'un perso plutôt qu'au perso lui-même. (Voir "Metafriending et Metagrudging" ci-dessous.)
+  - Toutes les infos gagnées en étant mort ou fantôme.
+  - Toutes les infos gagnées en état critique ou inconscient.
+  - Le fait qu'un round va finir.
 
-  This does not prevent knowing that a shift will end, but does prohibit things like preparing to kill people at central command when roleplay rules stop being enforced on LRP.
+  Ça n'empêche pas de savoir qu'une shift va finir, mais interdit des trucs comme se préparer à tuer des gens au Central Command quand les règles RP ne sont plus appliquées sur LRP.
 
-  ## Nuclear Operatives
+  ## Opérateurs Nucléaires
 
-  - Nuclear Operatives are rumoured but not proven. Have fun with this rumour.
+  - Les Opérateurs Nucléaires sont rumeurs mais pas prouvés. Amuse-toi avec cette rumeur.
 
   ## Changelings
 
-  - In the eyes of the public, changelings are an exterminated predatory lifeform, they could always come back, but they'd not be on our station, right?
+  - Aux yeux du public, les changelings sont une forme de vie prédatrice exterminée, ils pourraient toujours revenir, mais ils seraient pas sur notre station, non ?
 
-  ## Heretics
+  ## Hérétiques
 
-  - The chaplain is aware of the existence of heretics, but the chaplain is always spewing nonsense. What do they even mean?
+  - L'aumônier est au courant de l'existence des hérétiques, mais l'aumônier balance toujours des conneries. C'est quoi le sens ?
 
-  ## Cosmic Cult
+  ## Culte Cosmique
 
-  - The chaplain is saying words again! Why do they hire such weird people?
+  - L'aumônier redit des mots ! Pourquoi ils engagent des gens aussi bizarres ?
 
-  ## Devils
+  ## Diables
 
-  - The chaplain is now...talking about DEVILS? What is this nonsense? Devils are just a myth, right? They can't be real!
+  - L'aumônier est maintenant... en train de parler de DIABLES ? C'est quoi ces conneries ? Les diables c'est juste un mythe, non ? Ils peuvent pas être réels !
 
-  Knowledge about the abilities and consequences of a Devil deal are not shielded.
+  La connaissance des capacités et conséquences d'un pacte avec un Diable n'est pas shielded.
 
   ## Zombies
 
-  Zombies are known galaxy-wide, but not as real-life, instead, as fiction.
-  Nuclear Operatives and Syndicate Agents are aware of Romerol and what it can do, but there's no benefit to revealing it to the crew. People likely won't believe you anyway.
+  Les zombies sont connus dans toute la galaxie, mais pas comme vie réelle, plutôt comme fiction.
+  Les Opérateurs Nucléaires et Agents du Syndicat sont au courant du Romerol et de ce qu'il fait, mais y a aucun avantage à le révéler à l'équipage. Les gens te croiront probablement pas de toute façon.
 
-  ## Infections(Once the zombie virus is proven)
+  ## Infections(Une fois le virus zombie prouvé)
 
-  Such infections have been known to be extinct. But luckily advanced medicine has been able to cure the infection. The cure is not known to the public, but it is known to Chemists and Chief Medical Officers. The cure is not known to be a cure for the zombie virus, but it is known to be a cure for an infection that causes people to become zombies.
+  De telles infections étaient connues comme éteintes. Mais heureusement la médecine avancée a pu guérir l'infection. Le remède n'est pas connu du public, mais il est connu des Chimistes et Chefs Médicaux. Le remède n'est pas connu comme remède pour le virus zombie, mais il est connu comme remède pour une infection qui fait devenir les gens zombies.
 
   ## Deathsquad
 
-  Deathsquad is a sci-fi trope that is well known in the galaxy, but not as a real thing. It is a myth, a legend, and a story that people tell each other. The Deathsquad is not real, but some will argue that it is.
+  Deathsquad est un trope sci-fi bien connu dans la galaxie, mais pas comme truc réel. C'est un mythe, une légende, et une histoire que les gens se racontent. Le Deathsquad n'est pas réel, mais certains argueront que si.
 
-  ## Implanted implants
+  ## Implants implantés
 
-  Implants are not shielded by default, but the fact that they are not Nanotrasen (NT) implants is shielded.
+  Les implants ne sont pas shielded par défaut, mais le fait qu'ils ne soient pas des implants Nanotrasen (NT) est shielded.
 
-  ## Chameleon Items
+  ## Objets Caméléons
 
-  Chameleon items are shielded.
-  Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon is covered by this shield.
+  Les objets caméléons sont shielded.
+  Être suspicieux qu'un objet est faux ou volé n'est pas shielded, mais tester les objets ou les appeler caméléons est couvert par ce shield.
 
-  ## Stealth Items
+  ## Objets Furtifs
 
-  The fact that an item can be something other than what its visual appearance and examine description indicate is shielded.
-  Security may be aware of tampered items, but they are not aware of the specific item that is tamped. This means that security may not act on the fact that an item is tamped, but they may act on the fact that an item is suspicious.  (Example: Non-NT weapons on a persons is suspicious, how did they get it on station?)
-  This shield protects stealth items, including protecting them from being tested.
+  Le fait qu'un objet puisse être autre chose que ce que son apparence visuelle et sa description d'examen indiquent est shielded.
+  La sécu peut être au courant d'objets trafiqués, mais elle n'est pas au courant de l'objet spécifique qui est trafiqué. Ça veut dire que la sécu peut pas agir sur le fait qu'un objet est trafiqué, mais elle peut agir sur le fait qu'un objet est suspect. (Exemple : Armes non-NT sur une personne c'est suspect, comment ils l'ont eue sur la station ?)
+  Ce shield protège les objets furtifs, y compris de les tester.
 
 
-  ## Metafriending and Metagrudging
-  This section provides additional information on a concept that is prohibited by multiple metashield items that are never revealed IC. Giving a person or character preferential treatment based on something that your character should not know is considered metafriending. Treating a person or character negatively based on something that your character should not know is considered metagrudging.
+  ## Metafriending et Metagrudging
+  Cette section fournit des infos supplémentaires sur un concept interdit par plusieurs items metashield qui ne sont jamais révélés RP. Donner un traitement préférentiel à une personne ou perso basé sur un truc que ton perso ne devrait pas savoir, c'est du metafriending. Traiter une personne ou perso négativement basé sur un truc que ton perso ne devrait pas savoir, c'est du metagrudging.
 
-  ## Metafriending Examples
-  These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
-  - Giving a character additional access or a job because you are friends with the player who is playing that character.
-  - Trusting a character because you are friends with the player who is playing that character.
-  - Not fighting a character because you are friends with the player who is playing that character.
-  - Ignoring your objective to kill a character because your character and theirs became friends in a previous round.
+  ## Exemples de Metafriending
+  Ce sont tous des exemples de trucs interdits par au moins un item metashield jamais révélé RP.
+  - Donner un accès supplémentaire ou un job à un perso parce que t'es pote avec le joueur qui joue ce perso.
+  - Faire confiance à un perso parce que t'es pote avec le joueur qui joue ce perso.
+  - Ne pas combattre un perso parce que t'es pote avec le joueur qui joue ce perso.
+  - Ignorer ton objectif de tuer un perso parce que ton perso et le leur sont devenus potes dans un round précédent.
 
-  ## Metagrudging Examples
-  These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
-  - Not giving a character additional access or a job because you are mad at or don't like the player who is playing that character.
-  - Not trusting a character because you are mad at or don't like the player who is playing that character.
-  - Starting a fight with a character because of something that they did last round.
-  - Starting a fight with a character because they killed you while you were playing a different character.
-  - Targeting or harassing a character based on anything which that character did outside the current round.
-  - Targeting or harassing a character based on anything which the character's player did while not playing the character.
+  ## Exemples de Metagrudging
+  Ce sont tous des exemples de trucs interdits par au moins un item metashield jamais révélé RP.
+  - Ne pas donner un accès supplémentaire ou un job à un perso parce que t'es fâché contre ou n'aimes pas le joueur qui joue ce perso.
+  - Ne pas faire confiance à un perso parce que t'es fâché contre ou n'aimes pas le joueur qui joue ce perso.
+  - Commencer une baston avec un perso à cause d'un truc qu'ils ont fait le round dernier.
+  - Commencer une baston avec un perso parce qu'ils t'ont tué pendant que tu jouais un autre perso.
+  - Cibler ou harceler un perso basé sur n'importe quoi que ce perso a fait hors du round actuel.
+  - Cibler ou harceler un perso basé sur n'importe quoi que le joueur du perso a fait sans jouer le perso.
 
-  ## Explicitly Not Shielded
-  The following is a list of things that are explicitly not shielded. If something is not on this list, it doesn't mean that it is shielded, but if something is on it then it definitely is not shielded.
-  - The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station.
-  - Items that are of high value or are desired by the Syndicate, and therefore are likely targets of theft.
-  - The idea that any Syndicate agent or other bad actor has goals or objectives that they are attempting to accomplish.
-  - The number of goals or objectives that a Syndicate agent or other bad actor has.
-  - The fact that the Syndicate are enemies of Nanotrasen, and that they regularly attempt to send covert agents to spy on, sabotage, or attack Nanotrasen.
-  - A character's typical appearance. Though you should keep in mind that multiple characters can share the same name.
-  - The fact that the Syndicate have covert items capable of getting items to them, and that these items are known as uplinks.
-  - Wizards are not metashielded as the wizards federation is well rumoured about.
+  ## Explicitement Pas Shielded
+  La liste suivante contient des trucs explicitement pas shielded. Si un truc n'est pas sur cette liste, ça veut pas dire qu'il est shielded, mais s'il est dessus alors il est définitivement pas shielded.
+  - Le fait que le disque nucléaire doit être protégé et pourrait être utilisé par un méchant pour essayer de détruire la station.
+  - Les objets de haute valeur ou désirés par le Syndicat, et donc cibles probables de vol.
+  - L'idée que n'importe quel agent du Syndicat ou autre méchant a des buts ou objectifs qu'ils tentent d'accomplir.
+  - Le nombre de buts ou objectifs qu'un agent du Syndicat ou autre méchant a.
+  - Le fait que le Syndicat sont ennemis de Nanotrasen, et qu'ils envoient régulièrement des agents covertes pour espionner, saboter, ou attaquer Nanotrasen.
+  - L'apparence typique d'un perso. Garde en tête que plusieurs persos peuvent partager le même nom.
+  - Le fait que le Syndicat a des objets covertes capables de leur faire passer des objets, et que ces objets sont connus sous le nom d'uplinks.
+  - Les sorciers ne sont pas metashielded car la fédération des sorciers est bien rumeurée.
 
-  For revealing conditions check out [textlink="Antag revealing conditions" link="Conditions"]
+  Pour les conditions de révélation voir [textlink="Conditions de révélation antag" link="Conditions"]
 </Document>

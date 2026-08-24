@@ -3,22 +3,22 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Cloning
-If all else fails, patients will need to be cloned. This should only be used as a last resort, if recovery is impossible. This is most often the case when the body has started to rot, or if they have excessive amounts of damage.
+# Clonage
+Si tout échoue, les patients devront être clonés. Ça ne doit être utilisé qu'en dernier recours, si la récupération est impossible. C'est le plus souvent le cas quand le corps a commencé à pourrir, ou s'ils ont des dégâts excessifs.
 
-Cloning itself is relatively simple. (Assuming the network is set.) Just drag a body into the scanner, check the cloning console, and clone! If they've taken cellular damage, or have rotted for too long, the results can be... less than pleasant.
+Le clonage en lui-même est relativement simple. (En supposant que le réseau est configuré.) Glissez juste un corps dans le scanneur, checkez la console de clonage, et clonez ! S'ils ont pris des dégâts cellulaires, ou ont pourri trop longtemps, les résultats peuvent être... moins agréables.
 
-As a note: Cloning isn't always available, and it would be best not to rely on it. 
+Note : Le clonage n'est pas toujours dispo, et mieux vaut pas trop compter dessus.
 <Box>
-<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="cloning console"/>
+<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="console de clonage"/>
 <GuideEntityEmbed Entity="MedicalScanner"/>
 <GuideEntityEmbed Entity="CloningPod"/>
 <GuideEntityEmbed Entity="NetworkConfigurator"/>
 </Box>
-## Biomass
-Creating a clone requires biomass, which, gruesomely, involves recycling organic material. Be it crew members without a soul, station pets, or hostile creatures that have been 'taken care of', things can often be recycled.
+## Biomasse
+Créer un clone demande de la biomasse, ce qui, glauquement, implique de recycler de la matière organique. Que ce soit des membres d'équipage sans âme, des animaux de la station, ou des créatures hostiles qu'on a "gérées", les trucs peuvent souvent être recyclés.
 
-Dragging a body onto the biomass reclaimer (with your cursor) will mulch it for re-use. If it's a crew member, it's common practice to strip the body and return departmental gear before doing such.
+Glisser un corps sur le récupérateur de biomasse (avec votre curseur) le broiera pour réutilisation. Si c'est un membre d'équipage, la pratique courante c'est de déshabiller le corps et rendre l'équipement départemental avant de faire ça.
 <Box>
 <GuideEntityEmbed Entity="BiomassReclaimer"/>
 <GuideEntityEmbed Entity="MaterialBiomass"/>

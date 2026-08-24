@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAlert
-  name: atmospheric alerts computer
-  description: Used to access the station's atmospheric automated alert system.
+  name: ordinateur d'alertes atmosphériques
+  description: Permet d'accéder au système d'alertes atmosphériques automatisé de la station.
   components:
   - type: Computer
     board: AlertsComputerCircuitboard
@@ -58,8 +58,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAtmosMonitoring
-  name: atmospheric network monitor
-  description: Used to monitor the station's atmospheric networks.
+  name: moniteur réseau atmosphérique
+  description: Permet de surveiller les réseaux atmosphériques de la station.
   components:
   - type: Computer
     board: AtmosMonitoringComputerCircuitboard
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerEmergencyShuttle
-  name: emergency shuttle console
-  description: Handles authorization to early launch the shuttle.
+  name: console de navette d'urgence
+  description: Gère l'autorisation de lancement anticipé de la navette.
   components:
   - type: AccessReader
     access:
@@ -129,8 +129,8 @@
 - type: entity
   parent: BaseComputer
   id: BaseComputerShuttle
-  name: shuttle console
-  description: Used to pilot a shuttle.
+  name: console de navette
+  description: Utilisée pour piloter une navette.
   abstract: true
   components:
   - type: ShuttleConsole
@@ -181,8 +181,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttle
-  name: shuttle console
-  description: Used to pilot a shuttle.
+  name: console de navette
+  description: Utilisée pour piloter une navette.
   components:
   - type: Sprite
     layers:
@@ -202,8 +202,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
-  name: syndicate shuttle console
-  description: Used to pilot a syndicate shuttle.
+  name: console de navette du syndicat
+  description: Utilisée pour piloter une navette du syndicat.
   components:
   - type: Sprite
     layers:
@@ -234,8 +234,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleCargo
-  name: cargo shuttle console
-  description: Used to pilot the cargo shuttle.
+  name: console de navette cargo
+  description: Utilisée pour piloter la navette cargo.
   components:
   - type: Sprite
     layers:
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerIFF
-  name: IFF computer
-  description: Allows you to control the IFF characteristics of this vessel.
+  name: ordinateur IFF
+  description: Permet de contrôler les caractéristiques IFF de ce vaisseau.
   components:
   - type: IFFConsole
   - type: Sprite
@@ -297,9 +297,9 @@
 - type: entity
   parent: ComputerIFF
   id: ComputerIFFSyndicate
-  name: IFF computer
-  suffix: Syndicate
-  description: Allows you to control the IFF and stealth characteristics of this vessel.
+  name: ordinateur IFF
+  suffix: Syndicat
+  description: Permet de contrôler les caractéristiques IFF et de furtivité de ce vaisseau.
   components:
   - type: IFFConsole
     allowedFlags:
@@ -320,8 +320,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerPowerMonitoring
-  name: power monitoring computer
-  description: It monitors power levels across the station.
+  name: ordinateur de surveillance d'énergie
+  description: Il surveille les niveaux d'énergie dans toute la station.
   components:
   - type: Sprite
     layers:
@@ -362,8 +362,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMedicalRecords
-  name: medical records computer
-  description: This can be used to check medical records.
+  name: ordinateur dossiers médicaux
+  description: Permet de consulter les dossiers médicaux.
   components:
   - type: Sprite
     layers:
@@ -387,8 +387,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCriminalRecords
-  name: criminal records computer
-  description: This can be used to check criminal records. Only security can modify them.
+  name: ordinateur casier judiciaire
+  description: Permet de consulter les casiers judiciaires. Seule la sécurité peut les modifier.
   components:
   - type: CriminalRecordsConsole
   - type: UserInterface
@@ -426,8 +426,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
-  name: station records computer
-  description: This can be used to check station records.
+  name: ordinateur registres station
+  description: Permet de consulter les registres de la station.
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface
@@ -451,8 +451,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCrewMonitoring
-  name: crew monitoring console
-  description: Used to monitor active health sensors built into most of the crew's uniforms.
+  name: console de surveillance d'équipage
+  description: Permet de surveiller les capteurs de santé actifs intégrés à la plupart des uniformes de l'équipage.
   components:
   - type: Sprite
     layers:
@@ -490,8 +490,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerResearchAndDevelopment
-  name: R&D computer
-  description: A computer used to interface with R&D tools.
+  name: ordinateur R&D
+  description: Un ordinateur utilisé pour interfacer avec les outils de R&D.
   components:
   - type: Sprite
     layers:
@@ -538,8 +538,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAnalysisConsole
-  name: analysis console
-  description: A computer used to interface with the artifact analyzer.
+  name: console d'analyse
+  description: Un ordinateur utilisé pour interfacer avec l'analyseur d'artéfacts.
   components:
   - type: Sprite
     layers:
@@ -587,8 +587,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerId
-  name: ID card computer
-  description: Terminal for programming Nanotrasen employee ID cards to access parts of the station.
+  name: ordinateur carte d'identité
+  description: Terminal pour programmer les cartes d'identité des employés Nanotrasen afin d'accéder à certaines parties de la station.
   components:
   - type: IdCardConsole
     privilegedIdSlot:
@@ -650,8 +650,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: computerBodyScanner
-  name: body scanner computer
-  description: A body scanner.
+  name: ordinateur scanner corporel
+  description: Un scanner corporel.
   components:
   - type: ApcPowerReceiver
     powerLoad: 500
@@ -695,8 +695,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerComms
-  name: communications computer
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  name: ordinateur communications
+  description: Un ordinateur utilisé pour faire des annonces à l'échelle de la station via clavier, régler le niveau d'alerte approprié et appeler la navette d'urgence.
   components:
   - type: Sprite
     layers:
@@ -738,8 +738,8 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: syndicate communications computer
-  description: A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
+  name: ordinateur communications du syndicat
+  description: Un ordinateur capable de pirater à distance les systèmes de communications de la station. L'utiliser pour faire une annonce alertera la station de votre présence.
   components:
   - type: Sprite
     layers:
@@ -772,8 +772,8 @@
 - type: entity
   parent: ComputerComms
   id: WizardComputerComms
-  name: wizard communications computer
-  description: A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
+  name: ordinateur communications sorcier
+  description: Un ordinateur capable de projeter magiquement votre parole à la station. L'utiliser pour faire une annonce alertera la station de votre présence.
   components:
   - type: Sprite
     layers:
@@ -806,8 +806,8 @@
 - type: entity
   parent: ComputerComms
   id: CentcommComputerComms
-  name: central command communications computer
-  description: A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
+  name: ordinateur communications commandement central
+  description: Un ordinateur utilisé pour faire des annonces mondiales via clavier. Le cousin supérieur de l'ordinateur de communications régulier.
   components:
   - type: Sprite
     layers:
@@ -838,8 +838,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSolarControl
-  name: solar control computer
-  description: A controller for solar panel arrays.
+  name: ordinateur contrôle solaire
+  description: Un contrôleur pour réseaux de panneaux solaires.
   components:
   - type: Sprite
     layers:
@@ -879,8 +879,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRadar
-  name: mass scanner computer
-  description: A computer for detecting nearby bodies, displaying them by position and mass.
+  name: ordinateur scanner de masse
+  description: Un ordinateur pour détecter les corps proches, les affichant par position et masse.
   components:
   - type: Sprite
     layers:
@@ -913,8 +913,8 @@
 - type: entity
   id: ComputerCargoOrders
   parent: BaseComputerAiAccess
-  name: cargo request computer
-  description: Used to order supplies and approve requests.
+  name: ordinateur de commande du cargo
+  description: Utilisé pour commander des fournitures et approuver les demandes.
   components:
   - type: Sprite
     layers:
@@ -966,8 +966,8 @@
 - type: entity
   id: ComputerCargoOrdersEngineering
   parent: ComputerCargoOrders
-  name: engineering request computer
-  description: Used by the engineering department to order supplies.
+  name: ordinateur de commande d'ingénierie
+  description: Utilisé par le département d'ingénierie pour commander des fournitures.
   components:
   - type: Sprite
     layers:
@@ -999,8 +999,8 @@
 - type: entity
   id: ComputerCargoOrdersMedical
   parent: ComputerCargoOrders
-  name: medical request computer
-  description: Used by the medical department to order supplies.
+  name: ordinateur de commande médicale
+  description: Utilisé par le département médical pour commander des fournitures.
   components:
   - type: Sprite
     layers:
@@ -1032,8 +1032,8 @@
 - type: entity
   id: ComputerCargoOrdersScience
   parent: ComputerCargoOrders
-  name: science request computer
-  description: Used by the science department to order supplies.
+  name: ordinateur de commande de la science
+  description: Utilisé par le département scientifique pour commander des fournitures.
   components:
   - type: Sprite
     layers:
@@ -1065,8 +1065,8 @@
 - type: entity
   id: ComputerCargoOrdersSecurity
   parent: ComputerCargoOrders
-  name: security request computer
-  description: Used by the security department to order supplies.
+  name: ordinateur de commande de la sécurité
+  description: Utilisé par le département de sécurité pour commander des fournitures.
   components:
   - type: Sprite
     layers:
@@ -1098,8 +1098,8 @@
 - type: entity
   id: ComputerCargoOrdersService
   parent: ComputerCargoOrders
-  name: service request computer
-  description: Used by the service department to order supplies.
+  name: ordinateur de commande du service
+  description: Utilisé par le département de service pour commander des fournitures.
   components:
   - type: Sprite
     layers:
@@ -1131,8 +1131,8 @@
 - type: entity
   id: ComputerCargoBounty
   parent: BaseComputerAiAccess
-  name: cargo bounty computer
-  description: Used to manage currently active bounties.
+  name: ordinateur primes cargo
+  description: Utilisé pour gérer les primes actuellement actives.
   components:
   - type: Sprite
     layers:
@@ -1171,8 +1171,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerFundingAllocation
-  name: funding allocation computer
-  description: Terminal for controlling the distribution of funds and pay to departments.
+  name: ordinateur allocation fonds
+  description: Terminal pour contrôler la distribution des fonds et salaires aux départements.
   components:
   - type: Sprite
     layers:
@@ -1208,8 +1208,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCloningConsole
-  name: cloning console computer
-  description: The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
+  name: ordinateur console clonage
+  description: La pièce maîtresse du système de clonage, la plus grande réussite de la médecine. Il a beaucoup de ports et de fils.
   components:
   - type: CloningConsole
   - type: DeviceList
@@ -1261,8 +1261,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSalvageJobBoard
-  name: salvage job board
-  description: Console for accessing salvage jobs, if you're tough enough.
+  name: tableau boulots de récupération
+  description: Console pour accéder aux boulots de récupération, si vous êtes assez costaud.
   components:
   - type: Sprite
     layers:
@@ -1297,8 +1297,8 @@
 - type: entity
   id: ComputerSalvageExpedition
   parent: BaseComputerAiAccess
-  name: salvage expeditions computer
-  description: Used to accept salvage missions, if you're tough enough.
+  name: ordinateur expéditions récupération
+  description: Utilisé pour accepter des missions de récupération, si vous êtes assez costaud.
   components:
     - type: Sprite
       layers:
@@ -1350,8 +1350,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceCameraMonitor
-  name: camera monitor
-  description: A surveillance camera monitor. You're watching them. Maybe.
+  name: moniteur caméras
+  description: Un moniteur de caméras de surveillance. Vous les observez. Peut-être.
   components:
   - type: Sprite
     layers:
@@ -1389,8 +1389,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceWirelessCameraMonitor
-  name: wireless camera monitor
-  description: A wireless surveillance camera monitor. You're watching them. Maybe.
+  name: moniteur caméras sans fil
+  description: Un moniteur de caméras de surveillance sans fil. Vous les observez. Peut-être.
   components:
   - type: Sprite
     layers:
@@ -1430,8 +1430,8 @@
 - type: entity
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerSurveillanceWirelessXenoborgCameraMonitor
-  name: xenoborg camera monitor
-  description: A wireless xenoborg camera monitor. You're watching them. Maybe.
+  name: moniteur caméras xénoborg
+  description: Un moniteur de caméras xénoborg sans fil. Vous les observez. Peut-être.
   components:
   - type: Computer
     board: XenoborgCameraMonitorCircuitboard
@@ -1445,8 +1445,8 @@
 - type: entity
   id: ComputerPalletConsole
   parent: BaseComputerAiAccess
-  name: cargo sale computer
-  description: Used to sell goods loaded onto cargo pallets.
+  name: ordinateur vente cargo
+  description: Utilisé pour vendre des marchandises chargées sur des palettes cargo.
   components:
   - type: Sprite
     layers:
@@ -1485,8 +1485,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMassMedia
-  name: news manager console
-  description: Write your message to the world!
+  name: console gestion actualités
+  description: Écrivez votre message au monde !
   components:
   - type: Sprite
     layers:
@@ -1521,8 +1521,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSensorMonitoring
-  name: sensor monitoring computer
-  description: A flexible console for monitoring all kinds of sensors.
+  name: ordinateur surveillance capteurs
+  description: Une console flexible pour surveiller toutes sortes de capteurs.
   # Putting this as "DO NOT MAP" until the performance issues are fixed.
   # And it's more fleshed out.
   suffix: TESTING, DO NOT MAP
@@ -1569,8 +1569,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRoboticsControl
-  name: robotics control console
-  description: Used to remotely monitor the station's cyborgs.
+  name: console contrôle robotique
+  description: Utilisée pour surveiller à distance les cyborgs de la station.
   components:
   - type: Sprite
     layers:
@@ -1613,8 +1613,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerXenoborgsControl
-  name: xenoborgs control console
-  description: Used to remotely monitor all xenoborgs.
+  name: console contrôle xénoborgs
+  description: Utilisée pour surveiller à distance tous les xénoborgs.
   components:
   - type: Sprite
     layers:
@@ -1718,8 +1718,8 @@
 - type: entity
   id: StationAiFixerComputer
   parent: BaseComputer
-  name: AI restoration console
-  description: Used to repair damaged artifical intelligences.
+  name: console restauration IA
+  description: Utilisée pour réparer les intelligences artificielles endommagées.
   components:
   - type: Sprite
     layers:

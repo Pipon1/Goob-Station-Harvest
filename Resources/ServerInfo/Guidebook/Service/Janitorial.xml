@@ -3,11 +3,11 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Janitorial
+# Conciergerie
 
-You keep things clean, it's a rough job sometimes, but someone's gotta do it. This will walk you through the tools of the trade, and how they're used.
+Vous gardez les choses propres, c'est un job dur parfois, mais quelqu'un doit le faire. Ceci vous guidera à travers les outils du métier, et comment ils s'utilisent.
 
-## Basic Equipment
+## Équipement de Base
 <Box>
 <GuideEntityEmbed Entity="MopItem"/>
 <GuideEntityEmbed Entity="JanitorialTrolley"/>
@@ -22,54 +22,54 @@ You keep things clean, it's a rough job sometimes, but someone's gotta do it. Th
 <GuideEntityEmbed Entity="Mousetrap"/>
 </Box>
 
-## Additional Equipment
+## Équipement Supplémentaire
 <Box>
 <GuideEntityEmbed Entity="WetFloorSign"/>
-<GuideEntityEmbed Entity="Holoprojector" Caption="holosign projector"/>
+<GuideEntityEmbed Entity="Holoprojector" Caption="projecteur holo-panneau"/>
 <GuideEntityEmbed Entity="LightReplacer"/>
 <GuideEntityEmbed Entity="WireBrush"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="AdvMopItem" Caption="Advanced mop, ask in R&D"/>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="Serpillère avancée, demandez en R&D"/>
 </Box>
 
-## Fluid Acquisition and Disposal
+## Acquisition et Évacuation des Fluides
 <Box>
 <GuideEntityEmbed Entity="WaterTankFull"/>
 <GuideEntityEmbed Entity="Sink"/>
 <GuideEntityEmbed Entity="FloorDrain"/>
 </Box>
 
-## Tidying up.
-Now, onto the (figurative) meat and potatoes. We're here to clean, right? Lets keep it simple. The main tools you'll be putting to use are the trusty mop, a trash bag, space cleaner, and one of the three different buckets.
+## Ranger.
+Bon, passons au (littéral) cœur du sujet. On est là pour nettoyer, non ? Gardons ça simple. Les principaux outils que vous utiliserez sont la fidèle serpillère, un sac poubelle, du nettoyant spatial, et l'un des trois seaux différents.
 
-Mopping: Fill your cart up with water, then, find some puddles! Wet your mop, and wipe them up, the resulting water puddle will dry after a short time. Don't forget the wet floor signs!
-- To drain your cart, drag it (with your cursor) onto a floor drain. This will dump all the fluids inside! Floor drains can usually be found somewhere in medical, the kitchen freezer, and of course, the janitor closet.
+Serpillière : Remplissez votre chariot d'eau, puis trouvez des flaques ! Mouillez votre serpillère, et essuyez-les, la flaque d'eau résultante séchera après un court moment. N'oubliez pas les panneaux sol mouillé !
+- Pour vider votre chariot, glissez-le (avec votre curseur) sur une évacuation de sol. Cela videra tous les fluides à l'intérieur ! Les évacuations de sol se trouvent généralement quelque part en médical, le congélateur de cuisine, et bien sûr, le placard du concierge.
 
-Trash: Place it in the bag directly, or hold it in your hand. Click -near- trash to scoop -all- nearby junk up, or click on each piece individually. Using the bag on a disposal will empty it.
-- Cargo might want some of your trash, it might be worthwhile to check in from time to time!
+Poubelle : Mettez-la dans le sac directement, ou tenez-la en main. Clic -près- des déchets pour ramasser -tous- les trucs à proximité, ou cliquez sur chaque morceau individuellement. Utiliser le sac sur une poubelle le videra.
+- Le Cargo pourrait vouloir certains de vos déchets, ça peut valoir le coup de passer de temps en temps !
 
-Space Cleaner: This miracle spray can do two things, clean graffiti, and in a pinch, clean up puddles!
-- You might be able to get more of this from chemistry.
+Nettoyant Spatial : Ce spray miracle fait deux trucs, nettoyer les graffitis, et en un clin d'œil, nettoyer les flaques !
+- Vous pourriez peut-être en avoir plus de la chimie.
 
-Light Replacer: Just point at broken bulbs and click!
-- Replace enough broken ones, get a bulb for free!
+Remplaceur Ampoules : Visez juste les ampoules cassées et cliquez !
+- Remplacez assez de cassées, gagnez une ampoule gratos !
 
-Janitorial Keyring: Your trusty keys, hundreds of them on a single ring. If only you could remember which goes where...
-- At the start of the round, the keyring will spawn with a few randomized access levels. It could open cargo, it could open medical, who knows?
+Trousseau Concierge : Vos fidèles clés, des centaines sur un seul anneau. Si seulement vous pouviez vous rappeler laquelle ouvre quoi...
+- Au début du round, le trousseau apparaîtra avec quelques niveaux d'accès randomisés. Il pourrait ouvrir le cargo, il pourrait ouvrir le médical, qui sait ?
 
-## Dealing with footprints and trails.
-It gets a little tedious cleaning [italic]every[/italic] little footprint left behind by those pesky doctors.
-The solution? A little bit of elbow grease!
+## Gérer les traces et empreintes.
+Ça devient un peu chiant de nettoyer [italic]chaque[/italic] petite empreinte laissée par ces médecins pénibles.
+La solution ? Un peu d'huile de coude !
 
-There's two ways of going about this:
-- Using a mop on the floor near footprints will scrub the area of footprints and trails. [bold]Although slow, this has the benefit of not gunking up your mop.[/bold]
-- You can use a bar of soap or a damp rag for the same effect, albeit worse.
+Il y a deux façons de procéder :
+- Utiliser une serpillère sur le sol près des empreintes nettoiera la zone des empreintes et traces. [bold]Bien que lent, ça a l'avantage de pas encrasser votre serpillère.[/bold]
+- Vous pouvez utiliser un savon ou un chiffon humide pour le même effet, quoique moins bien.
 
-## Extra Duties
-A good janitor is always on the lookout for a bit more to do, and there are plenty of tools at your disposal. Keep an eye out for broken lights, help the chef take care of mice in the kitchen, and if you're feeling -really- generous, try to restock the vending machines and emergency closets around the station!
+## Tâches Supplémentaires
+Un bon concierge est toujours à l'affût d'un peu plus à faire, et il y a plein d'outils à votre disposition. Gardez l'œil ouvert pour les ampoules cassées, aidez le cuistot à gérer les souris en cuisine, et si vous vous sentez -vraiment- généreux, essayez de recharger les distributeurs et placards d'urgence dans la station !
 
-##Additional Information:
+## Infos Supplémentaires :
 <GuideReagentEmbed Reagent="SpaceCleaner"/>
 <GuideReagentEmbed Reagent="Ammonia"/>
 

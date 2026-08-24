@@ -3,27 +3,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Expanding and Repairing Stations
-  In Space Station 14, it is common for players to want to expand the station, or repair holes left by meteors or other damage.
+  # Étendre et Réparer la Station
+  Dans Space Station 14, c'est courant que les joueurs veuillent étendre la station, ou réparer les trous laissés par météores ou autres dégâts.
 
-  ## Lattice
-  Lattice is bare rodwork placed in empty space. It's used as a foundation for building and anchoring objects onto the station.
+  ## Treillis
+  Le treillis est de la ferraille nue placée dans l'espace vide. Il sert de fondation pour construire et ancrer des objets sur la station.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
     <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
   </Box>
 
-  You can create lattice by placing rods on empty space using [color=yellow][bold][keybind="Use"][/bold][/color]. Remember you can craft steel sheets into rods using the construction menu.
+  Vous pouvez créer du treillis en posant des barres sur l'espace vide avec [color=yellow][bold][keybind="Use"][/bold][/color]. Rappelez-vous que vous pouvez crafter des tôles d'acier en barres via le menu construction.
 
-  Lattice cannot hold pressure, and all gasses will leak out into space through it.
+  Le treillis ne peut pas tenir la pression, et tous les gaz fuiront dans l'espace à travers.
 
-  You can use wirecutters to remove lattice by using [color=yellow][bold][keybind="Use"][/bold][/color] on them.
+  Vous pouvez utiliser une pince coupante pour retirer le treillis en utilisant [color=yellow][bold][keybind="Use"][/bold][/color] dessus.
 
-  If the game is preventing you from placing lattice, it's because there is another separated grid too close to the grid you're trying to expand. You can use a wirecutter to remove the offending grid.
+  Si le jeu vous empêche de placer du treillis, c'est qu'il y a une autre grille séparée trop près de celle que vous essayez d'étendre. Vous pouvez utiliser une pince coupante pour retirer la grille gênante.
 
-  ## Hull Tiles
-  Hull tiles are solid foundation for the station, where all the other parts of the station rest upon.
+  ## Tuiles Coque
+  Les tuiles coque sont la fondation solide de la station, sur laquelle reposent toutes les autres parties de la station.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -32,12 +32,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Lattice can be made into hull tiles by using either steel or almost any type of floor tile on them by pressing [color=yellow][bold][keybind="Use"][/bold][/color].
-  This will convert the lattice into a hull tile, which can hold pressure and gasses.
+  Le treillis peut être transformé en tuiles coque en utilisant soit de l'acier, soit presque n'importe quel type de tuile de sol dessus en appuyant [color=yellow][bold][keybind="Use"][/bold][/color].
+  Ça convertira le treillis en tuile coque, qui peut tenir la pression et les gaz.
 
-  It is advised to use floor tiles to replace lattice instead of steel sheets, as you can craft 4 floor tiles from a single steel sheet.
+  Il est conseillé d'utiliser des tuiles de sol pour remplacer le treillis au lieu des tôles d'acier, car vous pouvez crafter 4 tuiles de sol d'une seule tôle d'acier.
 
-  You can use an RCD to deconstruct hull tiles into lattice.
+  Vous pouvez utiliser un RCD pour déconstruire des tuiles coque en treillis.
 
 
 </Document>

@@ -4,7 +4,7 @@
   name: évier
   id: SinkEmpty
   suffix: Empty
-  description: Les robinets ont été serrés au maximum possible mais gouttent encore.
+  description: Les robinets ont été serrés au maximum mais gouttent encore.
   placement:
     mode: SnapgridCenter
   components:

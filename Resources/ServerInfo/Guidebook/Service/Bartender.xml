@@ -3,13 +3,13 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Bartender
-The bartender has a pretty simple job: serve drinks. People will come up to you and request drinks, and your job is just to hand it to them.
+# Barman
+Le barman a un métier assez simple : servir des verres. Les gens viendront vers vous pour demander des boissons, et votre travail est juste de leur tendre.
 
-[textlink="Click here to see a complete list of drinks." link="Drinks"]
+[textlink="Cliquez ici pour voir une liste complète de boissons." link="Drinks"]
 
 <Box>
-The materials for these drinks can be found in various places:
+Les ingrédients pour ces boissons se trouvent en divers endroits :
 </Box>
 <Box>
 <GuideEntityEmbed Entity="BoozeDispenser"/>
@@ -18,15 +18,15 @@ The materials for these drinks can be found in various places:
 </Box>
 
 <Box>
-Don't forget containers to serve them in!
+N'oubliez pas les contenants pour les servir !
 </Box>
 <Box>
-<GuideEntityEmbed Entity="DrinkGlass" Caption="Glass"/>
+<GuideEntityEmbed Entity="DrinkGlass" Caption="Verre"/>
 <GuideEntityEmbed Entity="DrinkGlassCoupeShaped"/>
 <GuideEntityEmbed Entity="DrinkShotGlass"/>
 <GuideEntityEmbed Entity="DrinkShaker"/>
 <GuideEntityEmbed Entity="DrinkJigger"/>
 </Box>
 
-You can find a list of every drink that can be requested under the Reference Tables entry.
+Vous pouvez trouver une liste de chaque boisson demandable dans l'entrée Tables de Référence.
 </Document>

@@ -3,7 +3,7 @@
 - type: entity
   id: EngineeringTechFab
   parent: [BaseLatheLube]
-  name: engineering techfab
+  name: techfab d'ingénierie
   description: Imprime du matériel et des circuits pour le département d'ingénierie.
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   id: CargoTechFab
   parent: [BaseLatheLube]
-  name: cargo techfab
+  name: techfab du cargo
   description: Imprime du matériel et des circuits pour le département de cargaison.
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   id: ScienceTechFab
   parent: [BaseLatheLube]
-  name: techfab scientifique
+  name: techfab de la science
   description: Imprime de l'équipement et des circuits imprimés pour le département scientifique.
   components:
   - type: Sprite
@@ -232,7 +232,7 @@
 - type: entity
   id: ServiceTechFab
   parent: [BaseLatheLube]
-  name: techfab de service
+  name: techfab du service
   description: Imprime de l'équipement et des circuits imprimés pour le département de service.
   components:
   - type: Sprite
@@ -296,7 +296,7 @@
 - type: entity
   id: ERTTechFab
   parent: [BaseLatheLube]
-  name: ERT techfab
+  name: techfab ERT
   description: Munitions et équipement standard pour les déploiements de l'Équipe de Réponse d'Urgence. Rapide, basique, fiable.
   components:
     - type: Sprite

@@ -4,7 +4,7 @@
   id: CarpetBase
   parent: BaseStructure
   name: moquette
-  description: "Surface de marche élégante."
+  description: "Un revêtement de sol élégant."
   abstract: true
   components:
   - type: Sprite

@@ -13,17 +13,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   </Box>
 
 
-  The Construction Menu is how you build and craft objects in the game.
-  It can be accessed by pressing [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
+  Le Menu Construction c'est comment vous construisez et craftez des objets dans le jeu.
+  On y accède en appuyant sur [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
 
-  When placing objects that "snap" to the grid, you can hold [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] to place an entire line at a time, and [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] to place an entire grid at a time.
+  Quand vous placez des objets qui "snap" à la grille, vous pouvez maintenir [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] pour placer une ligne entière d'un coup, et [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] pour placer une grille entière d'un coup.
 
-  When crafting objects with a lot of ingredients, keep in mind you don't have to hold everything at once; you can simply place the ingredients on the floor, in your backpack or on a table near you, and they'll be used up during crafting like normal.
+  Quand vous craftez des objets avec beaucoup d'ingrédients, gardez en tête que vous n'avez pas à tout tenir en main ; vous pouvez juste poser les ingrédients par terre, dans votre sac ou sur une table à côté, et ils seront utilisés pendant le craft normalement.
 
-  When placing a "building ghost" somewhere in the world, press [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] to rotate the ghost clockwise.
-  If you are building a mirrorable component (think: Gas Mixers/Filters), you can press [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] to flip the ghost.
+  Quand vous placez un "fantôme de construction" quelque part, appuyez sur [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] pour faire pivoter le fantôme dans le sens horaire.
+  Si vous construisez un composant miroitable (genre : Mélangeurs/Filtres à gaz), vous pouvez appuyer sur [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] pour retourner le fantôme.
 
-  You can also use [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] and [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate an object clockwise or counterclockwise if it's already built, as long as it is unanchored (unwrenched).
+  Vous pouvez aussi utiliser [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] et [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] pour faire pivoter un objet déjà construit dans le sens horaire ou antihoraire, tant qu'il est non ancré (non-clé).
 
 
 

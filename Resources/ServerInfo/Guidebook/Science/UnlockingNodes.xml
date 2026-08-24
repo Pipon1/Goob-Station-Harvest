@@ -1,48 +1,48 @@
 <Document>
-  # Unlocking Nodes
+  # Déblocage des Nœuds
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  To activate and unlock nodes on an artifact, you should:
-  - Check a node on the [bold]Analysis Console[/bold] to check its triggers and effects.
-  - Perform the [bold]triggers[/bold] listed in the console. Some require direct interaction with the artifact, while others may only need the correct environment or a specific action performed nearby.
-  - Once a trigger is successfully performed, the artifact will respond with the message: [italic]"It begins to shift in strange ways..."[/italic]. The [bold]Node Scanner[/bold] will then indicate which specific nodes are being triggered.
+  Pour activer et débloquer des nœuds sur un artéfact, vous devriez :
+  - Vérifier un nœud sur la [bold]Console d’Analyse[/bold] pour voir ses déclencheurs et effets.
+  - Effectuer les [bold]déclencheurs[/bold] listés dans la console. Certains demandent une interaction directe avec l’artéfact, d’autres juste le bon environnement ou une action spécifique à proximité.
+  - Une fois un déclencheur réussi, l’artéfact répondra : [italic]"Il commence à changer d’une façon étrange..."[/italic]. Le [bold]Scanneur de Nœuds[/bold] indiquera alors quels nœuds spécifiques sont déclenchés.
 
-  Artifacts enter an unlocking state after the first trigger is met. During this state, any remaining triggers must be completed. The unlocking window initially lasts a few seconds and resets each time a new trigger is activated. This window grows longer with each additional node unlocked, giving more time to complete further triggers.
+  Les artéfacts entrent en état de déblocage après le premier déclencheur rempli. Pendant cet état, tous les déclencheurs restants doivent être complétés. La fenêtre de déblocage dure initialement quelques secondes et se réinitialise à chaque nouveau déclencheur activé. Cette fenêtre s’allonge avec chaque nœud supplémentaire débloqué, donnant plus de temps pour compléter les suivants.
 
-  Once all required triggers are completed successfully, the artifact will trigger it's effect and a popup will appear saying: [italic]"It slows down, visibly changed."[/italic], and the node will appear as [bold][color=plum]Active[/color][/bold] on the Console.
+  Une fois tous les déclencheurs requis complétés avec succès, l’artéfact déclenchera son effet et une pop-up apparaîtra : [italic]"Il ralentit, visiblement changé."[/italic], et le nœud apparaîtra comme [bold][color=plum]Actif[/color][/bold] sur la Console.
 
-  If an artifact fails to activate, it will stop resonating and display the message: [italic]"It slows down before uneventfully stopping."[/italic] After this, it enters a cooldown period before it can be activated again.
+  Si un artéfact échoue à s’activer, il arrêtera de résonner et affichera : [italic]"Il ralentit avant de s’arrêter sans événement."[/italic] Après ça, il entre en période de cooldown avant de pouvoir être réactivé.
 
-  The order of trigger activation [bold]does not matter[/bold] for individual nodes. [italic]However[/italic], some triggers affect multiple nodes. As a rule of thumb, start with a trigger that is unique to the node you want to unlock. Activating a trigger for a different node during this phase prevents the target node from unlocking until the artifact’s cooldown ends.
+  L’ordre d’activation des déclencheurs [bold]n’a pas d’importance[/bold] pour les nœuds individuels. [italic]Cependant[/italic], certains déclencheurs affectent plusieurs nœuds. En règle générale, commencez par un déclencheur unique au nœud que vous voulez débloquer. Activer un déclencheur pour un autre nœud pendant cette phase empêche le nœud cible de se débloquer jusqu’à la fin du cooldown de l’artéfact.
 
   <GuideReagentEmbed Reagent="Artifexium"/>
 
-  ## Active Nodes
-  Once unlocked, a node is considered active. Only the highest unlocked nodes in a tree’s layer are activatable, lower nodes in the same tree cannot be triggered anymore once a higher node has been activated.
+  ## Nœuds Actifs
+  Une fois débloqué, un nœud est considéré actif. Seuls les nœuds débloqués les plus hauts dans la couche d’un arbre sont activables, les nœuds plus bas dans le même arbre ne peuvent plus être déclenchés une fois qu’un nœud supérieur a été activé.
 
-  Artifacts often have multiple trees. Layer precedence applies within each tree, but different trees operate independently. This means nodes in different trees can be activated simultaneously as long as they are the highest unlocked nodes in their respective trees.
+  Les artéfacts ont souvent plusieurs arbres. La priorité des couches s’applique dans chaque arbre, mais les arbres différents opèrent indépendamment. Ça veut dire que des nœuds dans des arbres différents peuvent être activés simultanément tant qu’ils sont les plus hauts débloqués dans leurs arbres respectifs.
 
-  [bold]Manual activation triggers all unlocked nodes at once and consumes durability.[/bold]
+  [bold]L’activation manuelle déclenche tous les nœuds débloqués d’un coup et consomme de la durabilité.[/bold]
 
   <GuideReagentEmbed Reagent="ArtifactGlue"/>
 
-  ## Triggers
-  Examples include:
-  - Examining the artifact
-  - Playing an instrument
-  - Damaging or throwing it
-  - Exposing it to gases (plasma, tritium, etc.)
-  - Changing pressure or temperature
-  - Using tools (screwdriver, multitool, crowbar, wrench)
-  - Splashing reagents (blood, water, ammonia, etc.)
-  - Killing something nearby
+  ## Déclencheurs
+  Exemples :
+  - Examiner l’artéfact
+  - Jouer d’un instrument
+  - L’endommager ou le lancer
+  - L’exposer à des gaz (plasma, tritium, etc.)
+  - Changer la pression ou la température
+  - Utiliser des outils (tournevis, multitool, pied de biche, clé)
+  - Éclabousser des réactifs (sang, eau, ammoniaque, etc.)
+  - Tuer quelque chose à proximité
 
-  ## Effects
-  Effects can be:
-  - [color=green]Harmless:[/color] producing plants, animals, or junk
-  - [color=#00ccff]Helpful:[/color] charging batteries, creating instruments or money
-  - [color=red]Hazardous:[/color] anomalies, radiation, explosions, hostile fauna
+  ## Effets
+  Les effets peuvent être :
+  - [color=green]Inoffensifs :[/color] produire des plantes, animaux, ou bric-à-brac
+  - [color=#00ccff]Utiles :[/color] charger des batteries, créer des instruments ou du fric
+  - [color=red]Dangereux :[/color] anomalies, radiations, explosions, faune hostile
 </Document>

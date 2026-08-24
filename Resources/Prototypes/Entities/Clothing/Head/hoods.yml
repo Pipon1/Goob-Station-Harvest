@@ -49,7 +49,7 @@
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
   name: capuche biologique
-  suffix: Directeur médical
+  suffix: CMO
   description: Une capuche avancée pour les directeurs médicaux qui protège la tête et le visage des contaminants biologiques.
   components:
   - type: IdentityBlocker
@@ -382,7 +382,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: capuche de manteau d'hiver du directeur médical
+  name: capuche de manteau d'hiver du médecin-chef
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi

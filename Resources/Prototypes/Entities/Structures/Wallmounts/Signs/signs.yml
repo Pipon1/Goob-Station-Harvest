@@ -435,8 +435,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargo
-  name: panneau fret
-  description: Un panneau indiquant la zone de fret.
+  name: panneau cargo
+  description: Un panneau indiquant la zone de cargo.
   components:
   - type: Sprite
     state: cargo
@@ -444,8 +444,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargoDock
-  name: panneau quai de fret
-  description: Un panneau indiquant un quai de fret.
+  name: panneau quai de cargo
+  description: Un panneau indiquant un quai de cargo.
   components:
   - type: Sprite
     state: cargo_dock
@@ -527,7 +527,7 @@
   parent: BaseSign
   id: SignMaterials
   name: panneau matériaux
-  description: Un présage du coffre juteux d'acier, de verre et de plastique qui s'étend devant vous.
+  description: Une annonce du coffre rempli d'acier, de verre et de plastique qui se trouve devant vous.
   components:
   - type: Sprite
     state: mats

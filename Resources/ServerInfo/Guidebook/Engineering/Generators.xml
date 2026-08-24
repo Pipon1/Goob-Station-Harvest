@@ -3,20 +3,20 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Generators
-  Generators are devices that produce power for the station. They vary in size and power output, and each has its own unique quirks and requirements.
+  # Générateurs
+  Les générateurs sont des appareils qui produisent du courant pour la station. Ils varient en taille et puissance, et chacun a ses particularités et exigences.
 
-  Engineers are intended to setup low-tier generators like Solar Arrays and the AME at the start of the shift, to give enough time to setup higher-tier generators like the Singularity Engine for sustained power for the rest of the shift.
+  Les ingénieurs sont censés mettre en place les générateurs bas de gamme comme Réseaux Solaires et MAE au début du shift, pour avoir le temps de mettre en place les générateurs haut de gamme comme le Moteur Singularité pour du courant soutenu pour le reste du shift.
 
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
     <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
   </Box>
   <Box>
-    ## Singularity and Tesla Engine
+    ## Moteur Singularité et Tesla
   </Box>
   <Box>
-    [color=#999999][italic]Devices capable of infinite energy — and destructive potential[italic][/color]
+    [color=#999999][italic]Appareils capables d'énergie infinie — et de potentiel destructeur[italic][/color]
   </Box>
 
   <Box>
@@ -24,10 +24,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
   <Box>
-    ## Antimatter Engine
+    ## Moteur Antimatière
   </Box>
   <Box>
-    [color=#999999][italic]Short-term support generator for the station[italic][/color]
+    [color=#999999][italic]Générateur de soutien court terme pour la station[italic][/color]
   </Box>
 
   <Box>
@@ -36,10 +36,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
   </Box>
   <Box>
-    ## Thermo-electric Generator
+    ## Générateur Thermoélectrique
   </Box>
   <Box>
-    [color=#999999][italic]Advanced atmospherics generator that harnesses the energy of gasses[italic][/color]
+    [color=#999999][italic]Générateur atmos avancé qui exploite l'énergie des gaz[italic][/color]
   </Box>
 
   <Box>
@@ -48,10 +48,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
   </Box>
   <Box>
-    ## Solar Panels
+    ## Panneaux Solaires
   </Box>
   <Box>
-    [color=#999999][italic]Low-maintenance passive power source[italic][/color]
+    [color=#999999][italic]Source de courant passive peu d'entretien[italic][/color]
   </Box>
 
 
@@ -61,19 +61,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="" />
   </Box>
   <Box>
-    ## Portable Generators
+    ## Générateurs Portables
   </Box>
   <Box>
-    [color=#999999][italic]Portable generators for crew use and emergency power[italic][/color]
+    [color=#999999][italic]Générateurs portables pour usage équipage et courant d'urgence[italic][/color]
   </Box>
 
   <Box>
     <GuideEntityEmbed Entity="GeneratorRTG" Caption="" />
   </Box>
   <Box>
-    ## Radioisotope Thermoelectric Generator
+    ## Générateur Thermoélectrique à Radioisotopes
   </Box>
   <Box>
-    [color=#999999][italic]Zero-maintenance passive power source[italic][/color]
+    [color=#999999][italic]Source de courant passive zéro entretien[italic][/color]
   </Box>
 </Document>

@@ -41,6 +41,7 @@ criminal-records-console-wanted-reason = Raison de la recherche
 criminal-records-console-suspected-reason = Raison du soupçon
 criminal-records-console-search-reason = Raison de la recherche
 criminal-records-console-dangerous-reason = Raison du danger
+criminal-records-console-hostile-reason = Raison de l'hostilité
 
 criminal-records-console-reason = Raison
 criminal-records-console-reason-placeholder = Par exemple : {$placeholder}

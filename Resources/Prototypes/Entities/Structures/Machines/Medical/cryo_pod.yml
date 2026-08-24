@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseStructure, ConstructibleMachine] # Not a BaseMachinePowered since we don't want the anchorable component
   id: CryoPod
-  name: cryo pod
-  description: A special machine intended to create a safe environment for the use of chemicals that react in cold environments.
+  name: caisson cryogénique
+  description: Une machine spéciale conçue pour créer un environnement sûr pour l'utilisation de produits chimiques qui réagissent dans des environnements froids.
   components:
   - type: Sprite
     sprite: Structures/Machines/Medical/cryopod.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: BaseStructure
   id: CryoPodDestroyed
-  name: destroyed cryo pod
-  description: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
+  name: caisson cryogénique détruit
+  description: Un caisson cryogénique qui a connu des jours meilleurs. Il est totalement inopérant ; inutile pour quoi que ce soit d'autre que la ferraille.
   components:
   - type: Sprite
     sprite: Structures/Machines/Medical/cryopod.rsi

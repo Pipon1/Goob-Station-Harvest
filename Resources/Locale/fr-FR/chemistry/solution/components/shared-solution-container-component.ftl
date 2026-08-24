@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 shared-solution-container-component-on-examine-main-text = Il contient { $chemCount ->
-    [1] [color={$color}]{$desc}[/color].
+    [1] un liquide [color={$color}]{$desc}[/color].
    *[other] un mélange [color={$color}]{$desc}[/color].
     }
 examinable-solution-has-recognizable-chemicals = Vous pouvez reconnaître {$recognizedString} dans la solution.

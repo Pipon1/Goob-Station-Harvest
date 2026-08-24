@@ -9,29 +9,29 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="MobRodentiaDummy" Caption=""/>
   </Box>
 
-  Rodentia are a race of humanoid beings resembling rodents. Resourceful, evasive, sneaky, but fragile.
+  Les Rodentia sont une race d'êtres humanoïdes ressemblant à des rongeurs. Débrouillards, évasifs, sournois, mais fragiles.
 
-  ## Diet
+  ## Régime
 
-  - Can eat raw meat.
-  - Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
+  - Peut manger de la viande crue.
+  - Sera empoisonné par la Théobromine (Chocolat, Thé, Café) et l'Allicine (Oignon, Ail).
 
-  ## Benefits
+  ## Avantages
 
-  - Uses their claws to do some Slashing and Blunt damage.
-  - Can fit in duffelbags.
+  - Utilisent leurs griffes pour faire des dégâts Tranchants et Contondants.
+  - Peut rentrer dans des sacs de sport.
 
-  ## Special
+  ## Spécial
 
-  - Can Rummage in disposal chutes, which can sometimes dig up food.
-  - Can store small items in their cheeks. Having items in their mouth makes their speech unintelligible, and they will drop all items in their mouth if attacked, stunned, or shoved.
-  - Can "sneak" underneath tables, but not doors.
-  - Smaller than most other species.
+  - Peut Fouiller dans les goulottes d'évacuation, ce qui peut parfois déterrer de la nourriture.
+  - Peut stocker de petits objets dans leurs joues. Avoir des objets dans la bouche rend leur parole inintelligible, et ils lâcheront tous les objets dans leur bouche s'ils sont attaqués, étourdis, ou poussés.
+  - Peut "se faufiler" sous les tables, mais pas les portes.
+  - Plus petits que la plupart des autres espèces.
 
-  ## Drawbacks
+  ## Inconvénients
 
-  - Takes 15% more Blunt, Slash, and Piercing damage.
-  - Always triggers mousetraps, regardless of whether or not they are wearing shoes.
-  - Gets hungry 33% faster.
+  - Subit 15 % de Contondants, Tranchants, et Perforants en plus.
+  - Déclenche toujours les pièges à souris, peu importe s'ils portent des chaussures ou non.
+  - A faim 33 % plus vite.
 
 </Document>

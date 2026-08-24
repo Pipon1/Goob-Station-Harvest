@@ -3,7 +3,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Pyrotechnics
-These chemicals are flammable and causes hazardous effects when making them (Plasma gas and explosions). It is recommended to make these chemicals in a safe environment.
+# Pyrotechniques
+Ces produits chimiques sont inflammables et causent des effets dangereux lors de leur fabrication (gaz plasma et explosions). Il est recommandé de fabriquer ces produits chimiques dans un environnement sûr.
 <GuideReagentGroupEmbed Group="Pyrotechnic"/>
 </Document>

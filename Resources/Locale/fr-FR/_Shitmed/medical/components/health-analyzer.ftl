@@ -26,6 +26,9 @@ group-solution-name = {$solution}
 group-solution-unknown = Inconnu
 group-solution-contents = {$reagent} : {$quantity}
 
+solution-name-bloodstream = Circulation sanguine
+solution-name-stomach = Estomac
+
 condition-body-bleeding-Head = • La tête de {$entity} saigne.
 condition-body-bleeding-Chest = • Le torse de {$entity} saigne.
 condition-body-bleeding-Groin = • L'aine de {$entity} saigne.

@@ -3,7 +3,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gas Canisters
+  # Bonbonnes à Gaz
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>
@@ -15,20 +15,20 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasPort"/>
   </Box>
 
-  Gas canisters are a way to store gas in a portable container for easy transport.
-  They can store [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+  Les bonbonnes à gaz sont un moyen de stocker du gaz dans un conteneur portable pour transport facile.
+  Elles peuvent stocker [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] litres[/color] de gaz.
 
-  You can connect handheld tanks to a gas canister to refill them using the release valve on the canister.
-  The release valve also has a adjustable pressure regulator to control the pressure of the handheld tank connected.
+  Vous pouvez connecter des bonbonnes portatives à une bonbonne à gaz pour les remplir via la vanne de relâche sur la bonbonne.
+  La vanne de relâche a aussi un régulateur de pression ajustable pour contrôler la pression de la bonbonne portative connectée.
 
-  Opening the release valve on a canister with no handheld tank connected will release gas into the atmosphere, at the specified regulator pressure.
+  Ouvrir la vanne de relâche sur une bonbonne sans bonbonne portative connectée relâchera du gaz dans l'atmosphère, à la pression du régulateur spécifiée.
 
-  [bold]Be sure to close the release valve before you eject your handheld tank![/bold]
+  [bold]Assurez-vous de fermer la vanne de relâche avant d'éjecter votre bonbonne portative ![/bold]
 
-  ## Connector Ports
-  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipenet" link="PipeNetworks"] by anchoring (wrenching) the device on top of a connector.
-  When connected, gas will be free to move in and out of the canister to balance pressure, temperature, and composition.
+  ## Ports Connecteurs
+  Les bonbonnes à gaz et [textlink="épurateurs portatifs" link="PortableScrubber"] peuvent être connectés à un [textlink="pipenet" link="PipeNetworks"] en ancrant (cléyant) l'appareil sur un connecteur.
+  Une fois connecté, le gaz circulera librement dans et hors de la bonbonne pour équilibrer pression, température, et composition.
 
-  A pump can be used to insert or extract gas from a canister, useful for filling or emptying a canister entirely.
+  Une pompe peut être utilisée pour insérer ou extraire du gaz d'une bonbonne, utile pour remplir ou vider entièrement une bonbonne.
 
 </Document>

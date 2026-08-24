@@ -3,14 +3,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Chemist
-Now you've done it. You picked the one job where -math- is mandatory. Grab your beaker, pull up a chair, and get cracking, it's time to cook up some chems.
+# Chimiste
+Bravo, vous l'avez fait. Vous avez choisi le seul job où les -maths- sont obligatoires. Choppez votre bécher, tirez une chaise, et c'est parti, il faut cuisiner des chimiques.
 
-While chemists primarily make medications, there's a very wide variety of chemicals that can be made, all of which are showcased in the Chemicals entry of the Guidebook.
+Pendant que les chimistes font principalement des médocs, y'a une très grande variété de chimiques possibles, tous montrés dans l'entrée "Chimiques" du guidebook.
 
-[textlink="Click here to see a complete list of chemicals." link="Chemicals"]
+[textlink="Cliquez ici pour voir la liste complète des chimiques." link="Chemicals"]
 
-## Equipment:
+## Équipement :
 
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
@@ -26,25 +26,25 @@ While chemists primarily make medications, there's a very wide variety of chemic
     <GuideEntityEmbed Entity="PillCanister"/>
   </Box>
 
-## The Basics:
-Chemistry is fairly straightforward once you know what to expect. Here's a simple, step-by-step process on how to begin.
+## Les Bases :
+La chimie est assez simple une fois qu'on sait à quoi s'attendre. Voici un processus simple étape par étape pour commencer.
 
-- Grab a beaker, Pill Canister, and if desired, some Bottles.
-- Place the beaker in the Chemical Dispenser, and Pill Canister (or bottle) in the Chem Master.
-- Open the Chemical Dispenser UI, and make your mix. Recipes are in other sections of the guidebook.
-- Alt-click the dispenser to remove your beaker, and place it in the Chem Master.
-- Open the Chem Master UI. On the Input tab, move your mix into the buffer.
-- Move to the Output tab, customise your pill, and press the Create button.
-- Alt-click the Chem Master to get the pill bottle out. You may have to remove the beaker first.
-- Click on a table, crate, or another surface to empty the pill bottle if desired. Alternatively, store or empty it into another storage container.
+- Choppez un bécher, un Canister de Pilules, et si vous voulez, quelques Bouteilles.
+- Placez le bécher dans le Distributeur Chimique, et le Canister (ou bouteille) dans le Chem Master.
+- Ouvrez l'UI du Distributeur Chimique, et faites votre mélange. Les recettes sont dans d'autres sections du guidebook.
+- Alt-clic sur le distributeur pour retirer votre bécher, et mettez-le dans le Chem Master.
+- Ouvrez l'UI du Chem Master. Onglet Input, bougez votre mélange dans le buffer.
+- Allez à l'onglet Output, personnalisez votre pilule, et appuyez sur Créer.
+- Alt-clic sur le Chem Master pour sortir le flacon de pilules. Faut peut-être retirer le bécher d'abord.
+- Cliquez sur une table, caisse, ou autre surface pour vider le flacon si vous voulez. Sinon, stockez ou videz dans un autre conteneur.
 
-That's it, you've made your first set of pills! Consider checking with Medical Doctors and other crew to see what else may be requested, refilling the medical kits in medbay storage, or just experimenting!
+C'est tout, vous avez fait vos premières pilules ! Pensez à vérifier avec les Docteurs et l'équipage ce qui est demandé, remplir les kits médicaux dans le stock du medbay, ou juste expérimenter !
 
-You can also use the hand labeler to organize individual bottles or bags without using the Chem Master labeling system.
+Vous pouvez aussi utiliser l'étiqueteuse manuelle pour organiser bouteilles ou sacs individuels sans le système d'étiquetage du Chem Master.
 
-## Extra Content:
+## Contenu Bonus :
 
-Speaking of experimentation, there are a few more toy you can use when it comes to chemistry. This job requires a lot of trial and error, but it was worth mentioning that these things exist! It's up to you to figure out what to make with them.
+Parlant d'expérimentation, y'a quelques jouets en plus pour la chimie. Ce job demande beaucoup d'essais-erreurs, mais ça valait le coup de mentionner qu'ils existent ! À vous de voir quoi en faire.
 
   <Box>
     <GuideEntityEmbed Entity="ModularGrenade"/>

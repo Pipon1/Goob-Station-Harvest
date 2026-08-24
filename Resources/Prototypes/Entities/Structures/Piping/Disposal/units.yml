@@ -4,7 +4,7 @@
   abstract: true
   id: DisposalUnitBase
   parent: [ BaseMachinePowered, BaseAutomatedMachine ] # Goob: Automation
-  description: A pneumatic waste disposal unit.
+  description: Une unité d'évacuation pneumatique des déchets.
   placement:
     mode: SnapgridCenter
     snap:

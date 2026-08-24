@@ -77,7 +77,7 @@
   parent: [ClothingMaskGas, BaseSyndicateContraband]
   id: ClothingMaskGasSyndicate
   name: masque à gaz Syndicat
-  description: Un masque tactique ajusté qui peut être connecté à une alimentation en air.
+  description: Un masque tactique ajusté qui peut être connecté à une alimentation d'air.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassyndicate.rsi
@@ -159,7 +159,7 @@
   parent: [ClothingMaskGas, BaseCargoContraband]
   id: ClothingMaskGasExplorer
   name: masque à gaz explorateur
-  description: Un masque à gaz de qualité militaire qui peut être connecté à une alimentation en air.
+  description: Un masque à gaz de qualité militaire qui peut être connecté à une alimentation d'air.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gasexplorer.rsi
@@ -187,7 +187,7 @@
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreathMedical
   name: masque médical
-  description: Un masque stérile ajusté qui peut être connecté à une alimentation en air.
+  description: Un masque stérile ajusté qui peut être connecté à une alimentation d'air.
   components:
   - type: Item
     size: Tiny

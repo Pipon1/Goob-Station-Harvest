@@ -481,7 +481,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  name: casque de combinaison spatiale du directeur médical # Goob edit
+  name: casque de combinaison spatiale du médecin-chef # Goob edit
   description: Casque de combinaison spatiale médicale léger qui ne restreint pas vos mouvements de tête. # Goob edit
   components:
   - type: Sprite

@@ -3,53 +3,53 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-  # Xenoarchaeology
+  # Xénoarchéologie
 
-  Xenoarchaeology is a branch of Science focused on researching alien [bold]artifacts[/bold].
+  La xénoarchéologie est une branche de la Science centrée sur la recherche d'[bold]artéfacts[/bold] extraterrestres.
 
-  Unlocking their secrets grants research points and reveals strange, potentially useful, or dangerous effects.
+  Percer leurs secrets octroie des points de recherche et révèle des effets étranges, potentiellement utiles, ou dangereux.
 
-  At round start, Science usually has one or two artifacts in the lab. More can be:
-  - Ordered from [color=orange]Cargo[/color]
-  - Found by [color=orange]Salvage[/color]
-  - Assembled from [bold]fragments[/bold]
-  - Appear during certain station events
+  Au début du round, la Science a généralement un ou deux artéfacts au labo. On peut en avoir plus :
+  - Commandés depuis [color=orange]Cargo[/color]
+  - Trouvés par le [color=orange]Salvage[/color]
+  - Assemblés depuis des [bold]fragments[/bold]
+  - Apparaissent lors de certains événements de station
 
-  ## Artifacts
+  ## Artéfacts
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  Artifacts contain [bold]nodes[/bold] arranged in [bold]layers[/bold].
-  - Unlocking a node unlocks connected nodes on upper layers.
-  - Each node has [bold]triggers[/bold], actions that must be performed near the artifact to unlock a node.
-  - When a node is unlocked, its [bold]effect[/bold] will trigger, and the node becomes [bold][color=plum]Active[/color][/bold].
-  - Each node has [bold]durability[/bold]: the number of times it can be manually activated after being unlocked.
-  - Higher nodes are harder to reach but give more [bold]research points[/bold].
-  - Unlocking all nodes provides no special bonus, but every node yields research points.
+  Les artéfacts contiennent des [bold]nœuds[/bold] arrangés en [bold]couches[/bold].
+  - Débloquer un nœud débloque les nœuds connectés sur les couches supérieures.
+  - Chaque nœud a des [bold]déclencheurs[/bold], actions à effectuer près de l'artéfact pour débloquer un nœud.
+  - Quand un nœud est débloqué, son [bold]effet[/bold] se déclenche, et le nœud devient [bold][color=plum]Actif[/color][/bold].
+  - Chaque nœud a de la [bold]durabilité[/bold] : le nombre de fois qu'il peut être activé manuellement après déblocage.
+  - Les nœuds plus hauts sont plus durs à atteindre mais donnent plus de [bold]points de recherche[/bold].
+  - Débloquer tous les nœuds donne pas de bonus spécial, mais chaque nœud rapporte des points de recherche.
 
-  ## Equipment
+  ## Équipement
   <Box>
-    <GuideEntityEmbed Entity="MachineArtifactAnalyzer" Caption="Analyzer"/>
-    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
-    <GuideEntityEmbed Entity="NodeScanner" Caption="Node Scanner"/>
+    <GuideEntityEmbed Entity="MachineArtifactAnalyzer" Caption="Analyseur"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Console d'Analyse"/>
+    <GuideEntityEmbed Entity="NodeScanner" Caption="Scanneur de Nœuds"/>
   </Box>
-  - [bold]Artifact Analyzer:[/bold] Stationary device that scans artifacts, sending data to the Console.
-  - [bold][textlink="Analysis Console:" link="AnalysisConsole"][/bold] Stationary device that is used to display the node tree. Must be linked to an Analyzer with a multitool.
-  - [bold]Node Scanner:[/bold] Small hand-held device that can show the ID of the node currently being activated and whether the artifact is ready to trigger, letting scientist have minimal required knowledge for operating inside chamber near artifact and far without direct access to console.
+  - [bold]Analyseur d'Artéfacts :[/bold] Appareil fixe qui scanne les artéfacts, envoyant les données à la Console.
+  - [bold][textlink="Console d'Analyse :" link="AnalysisConsole"][/bold] Appareil fixe qui affiche l'arbre des nœuds. Doit être lié à un Analyseur avec un multitool.
+  - [bold]Scanneur de Nœuds :[/bold] Petit appareil portable qui peut montrer l'ID du nœud en cours d'activation et si l'artéfact est prêt à déclencher, permettant au scientifique d'avoir le minimum de connaissances requis pour opérer dans la chambre près de l'artéfact et loin sans accès direct à la console.
 
   <Box>
-    <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Artifact Container"/>
-    <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Handheld Container"/>
+    <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Conteneur d'Artéfact"/>
+    <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Conteneur Portatif"/>
   </Box>
-  - [bold]Artifact Containers:[/bold] Safely store and transports artifacts and prevent nodes from triggering.
+  - [bold]Conteneurs d'Artéfacts :[/bold] Stockent et transportent les artéfacts en sécurité et empêchent les nœuds de se déclencher.
   <Box>
-    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Crusher"/>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Broyeur"/>
   </Box>
-  - [bold]Artifact Crusher:[/bold] Crushes artifacts into fragments. Four fragments can be rebuilt into a new artifact.
+  - [bold]Broyeur d'Artéfacts :[/bold] Broie les artéfacts en fragments. Quatre fragments peuvent être reconstruits en un nouvel artéfact.
   <Box>
-    <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
+    <GuideEntityEmbed Entity="ArtifactFragment" Caption="Fragment d'Artéfact"/>
   </Box>
-  - [bold]Artifact Fragment:[/bold] Pieces of destroyed artifacts. Four fragments can be rebuilt into a new artifact using the craft menu.
+  - [bold]Fragment d'Artéfact :[/bold] Morceaux d'artéfacts détruits. Quatre fragments peuvent être reconstruits en un nouvel artéfact via le menu craft.
 </Document>

@@ -3,72 +3,72 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Important Character Creation Tips
-This is a guide for the parts of character creation that effect gameplay.
+# Conseils Importants pour la Création de Personnage
+Voici un guide pour les parties de la création qui affectent le gameplay.
 
-[textlink="For a guide on making cosmetic changes, click here." link="YourFirstCharacter"]
+[textlink="Pour un guide sur les changements cosmétiques, cliquez ici." link="YourFirstCharacter"]
 
-## Spawn Priority
-This affects where you spawn in upon joining the game after the round has already started.
+## Priorité d'Apparition
+Ça détermine où vous apparaissez en rejoignant une partie déjà commencée.
 
-Choosing "Arrivals" will spawn you on a separate station where you wait for a shuttle to arrive to ship you to the main station.
+Choisir "Arrivées" vous fait spawn sur une station annexe où vous attendez une navette pour aller à la station principale.
 
-Choosing "Cryosleep" will have you wake up in a cryosleep chamber already on the station.
+Choisir "Cryogénie" vous fait réveiller dans un caisson cryogénique déjà sur la station.
 
-Choosing "None" will either pick for you or choose the only spawn option available for the current station.
+Choisir "Aucun" laisse le jeu choisir pour vous ou prend l'unique option dispo pour la station actuelle.
 
-This is a mostly arbitrary choice. You can safely leave this on "None" and you won't suffer any real inconveniences.
+C'est un choix plutôt arbitraire. Vous pouvez laisser sur "Aucun" sans souci, c'est pas grave.
 
-## Jobs
-You can set your job preferences in the lobby. While these don't [color=#a4885c]guarantee[/color] your position, someone who wants the job will be [color=#a4885c]randomly[/color] selected at the start of the round.
-You are given a chance at being chosen for your high priority job first, then your medium priorities, then your low priorities.
-You also given an option to automatically be a passenger or to be sent back to the lobby if you don't get chosen for any of your preferred jobs.
+## Métiers
+Vous pouvez régler vos préférences de métier dans le lobby. Ça [color=#a4885c]ne garantit pas[/color] votre poste, quelqu'un qui veut le job sera [color=#a4885c]aléatoirement[/color] choisi au début du tour.
+Vous avez une chance d'être choisi pour votre job prioritaire haut, puis moyen, puis bas.
+Vous pouvez aussi choisir d'être passager auto ou de retourner au lobby si aucun de vos jobs préférés n'est dispo.
 
-Some jobs are locked until you've played long enough as other entry level jobs.
+Certains jobs sont verrouillés tant que vous n'avez pas assez joué d'autres jobs d'entrée.
 
-[textlink="For more infomation about jobs, click here." link="Jobs"]
+[textlink="Pour plus d'infos sur les jobs, cliquez ici." link="Jobs"]
 
-## Job Loadouts
-You may also choose [color=#a4885c]loadouts[/color] for each job. Loadouts are the clothing items and trinkets that you spawn with upon joining the game. Some loadout items are locked behind playtime restrictions.
-This may have various effects on gameplay, as some clothing items have [color=#a4885c]armor protection[/color] or [color=#a4885c]slow down your movement speed[/color]. This applies especially to Command and Security.
+## Équipements de Job
+Vous pouvez aussi choisir des [color=#a4885c]loadouts[/color] par job. Ce sont les vêtements et bibelots avec lesquels vous spawn. Certains items sont verrouillés derrière des restrictions de temps de jeu.
+Ça peut affecter le gameplay, certains vêtements ont de la [color=#a4885c]protection blindée[/color] ou [color=#a4885c]ralentissent votre vitesse[/color]. Surtout pour Commandement et Sécurité.
 
-You may also choose what bag you spawn in with.
-[color=#a4885c]Backpacks[/color] are medium sized but can carry large items easier. [color=#a4885c]Satchels[/color] have more total space than backpacks but have trouble carrying large items. [color=#a4885c]Duffel bags[/color] are large but incur a movement penalty.
+Vous choisissez aussi quel sac vous spawn avec.
+[color=#a4885c]Sac à dos[/color] = taille moyenne, porte gros items facile. [color=#a4885c]Sacoches[/color] = plus d'espace total mais galère avec gros items. [color=#a4885c]Sacs de voyage[/color] = grands mais pénalité de mouvement.
 
 ## Antags
-Turning on an [color=#a4885c]antagonist[/color] toggle will put you on the list of potentional antags at the start of the round. They do not guarantee your antagonist role, don't use this as an excuse to self-antag!
-Instead, like job priorities, a handful of players are chosen randomly from eligible players. If you are a command member or security officer, you cannot be chosen for an antag role.
+Activer le toggle [color=#a4885c]antagoniste[/color] vous met sur la liste des antags potentiels au début du tour. Ça ne garantit PAS votre rôle d'antag, servez-vous pas d'excuse pour self-antag !
+Comme les priorités de job, une poignée de joueurs sont choisis aléatoirement parmi les éligibles. Si vous êtes commandement ou officier de sécurité, vous ne pouvez pas être antag.
 
-[textlink="For more information about antagonists, click here." link="Antagonists"]
+[textlink="Pour plus d'infos sur les antagonistes, cliquez ici." link="Antagonists"]
 
-Joining multiple games or ghosting/disconnecting/commiting suicide upon not being chosen for an antag role is referred to as "antag-rolling" and it is against the rules.
-Plenty of people patiently wait for their turn to be antagonists, so [color=#a4885c]we kindly ask you to refrain from opting-in to an antagonist role if you aren't ready[/color].
+Rejoindre plusieurs parties ou ghost/déco/suicide parce qu'on a pas eu d'antag s'appelle "antag-rolling" et c'est contre les règles.
+Beaucoup de gens attendent patiemment leur tour d'être antag, donc [color=#a4885c]on vous demande gentiment de ne pas opter pour un rôle d'antag si vous n'êtes pas prêt[/color].
 
 ## Traits
-Speech traits alter your speech, sometimes to an extreme degree.
+Les traits de parole modifient votre façon de parler, parfois de façon extrême.
 
-They include:
-- Accentless (disables the accent of your selected species)
-- Cowboy accent (word replacement, partner)
-- Frontal lisp ("s" is replaced with "th")
-- Italian accent (Mamma-mia, word replacement)
-- Pathological liar (word replacement, changes words like "yes" to "no")
-- Pirate accent (Arrgh, word replacement)
-- Social anxiety (s-s-stutter)
-- Southern Drawl (replaces "-ing" with "-in'" and similar changes)
+Ils incluent :
+- Sans accent (désactive l'accent de votre espèce choisie)
+- Accent cowboy (remplacement de mots, partner)
+- Zézaiement frontal ("s" remplacé par "th")
+- Accent italien (Mamma-mia, remplacement de mots)
+- Menteur pathologique (remplacement de mots, change "oui" en "non")
+- Accent pirate (Arrgh, remplacement de mots)
+- Anxiété sociale (b-b-bégaiement)
+- Accent sudiste (remplace "-ant" par "-in'" et changements similaires)
 
-You should be comfortable with talking normally or with a minor accent such as Social anxiety or Southern drawl before taking heavy accents like Italian or Cowboy.
+Vous devriez être à l'aise pour parler normalement ou avec un accent mineur comme Anxiété sociale ou Accent sudiste avant de prendre des accents lourds comme Italien ou Cowboy.
 
-There are also disabilty traits. Familiarize yourself with the game and the game's flow before taking one of these, as some may become difficult for beginners to deal with.
+Il y a aussi des traits de handicap. Familiarisez-vous avec le jeu et son flux avant d'en prendre un, certains peuvent être compliqués pour les débutants.
 
-They include:
-- Blindness (severely limits your vision)
-- Lightweight drunk (you get drunk faster and you suffer more from the ill-effects of alcohol)
-- Muted (you cannot talk or whisper, but you can still communicate via emotes and pen and paper)
-- Narcolepsy (you randomly fall asleep at unpredictable and often inconvenient times)
-- Pacifist (you cannot hit, shoot, or throw sharp objects at people)
-- Paracusia (you sometimes hear noises that aren't real)
-- Short-sighted (somewhat limits your vision without prescription glasses)
-- Snoring (you make loud snoring sounds when asleep)
-- Unrevivable (you cannot be resuscitated when you meet your untimely demise)
+Ils incluent :
+- Cécité (limite sévèrement votre vision)
+- Ivrogne léger (vous saoulez plus vite et subissez plus les effets de l'alcool)
+- Muet (vous ne pouvez pas parler ou chuchoter, mais pouvez communiquer via émotes et papier/stylo)
+- Narcolepsie (vous vous endormez aléatoirement aux pires moments)
+- Pacifiste (vous ne pouvez pas frapper, tirer, ou lancer d'objets tranchants sur les gens)
+- Paracousie (vous entendez parfois des bruits qui n'existent pas)
+- Myope (limite un peu votre vision sans lunettes de prescription)
+- Ronflements (vous faites du bruit en dormant)
+- Irrévivable (vous ne pouvez pas être réanimé à votre mort prématurée)
 </Document>

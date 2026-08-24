@@ -3,25 +3,25 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Spacing
-  Spacing is the most common form of atmospheric upset that can occur on the station.
+  # Dépressurisation
+  La dépressurisation est la forme la plus courante de problème atmosphérique qui peut survenir sur la station.
 
-  While the damage that caused the spacing is often time-consuming to [textlink="fix" link="ExpandingRepairingStation"], the actual spacing problem can be quickly resolved by simply repressurizing the area.
+  Pendant que les dégâts ayant causé la dépressurisation prennent souvent du temps à [textlink="réparer" link="ExpandingRepairingStation"], le problème de dépressurisation lui-même peut être résolu rapidement en simplement repressurisant la zone.
 
-  Fixing spacing generally follows two simple steps:
+  Réparer une dépressurisation suit généralement deux étapes simples :
 
-  1. Identify the area that has been spaced and [textlink="seal the hole." link="ExpandingRepairingStation"]
+  1. Identifier la zone dépressurisée et [textlink="boucher le trou." link="ExpandingRepairingStation"]
 
-  - If you're having trouble finding the hole, you can carefully listen for the flow of air rushing by you, if air is currently leaking to space.
-  - Look for any holes underneath girders that may be hard to see.
+  - Si vous avez du mal à trouver le trou, vous pouvez écouter attentivement le flux d'air qui siffle près de vous, si l'air fuit actuellement vers l'espace.
+  - Cherchez les trous sous les poutres qui peuvent être difficiles à voir.
 
-  2. Repressurize the area.
+  2. Repressuriser la zone.
 
-  - [textlink="Air vents" link="AirVent"] enter pressure lockout in order not to lose more air to spacing, so you'll need to override the vents to repressurize the area. You can do this by setting the connected [textlink="air alarm" link="AirAlarms"] to fill, or by right-clicking on the vent and selecting 'Release pressure lock out' to manually override it temporarily.
+  - Les [textlink="ventes air" link="AirVent"] entrent en verrouillage pression pour ne pas perdre plus d'air vers l'espace, donc vous devrez forcer les ventes pour repressuriser la zone. Vous pouvez le faire en mettant l'[textlink="alarme air" link="AirAlarms"] connectée en remplissage, ou en clic-droit sur la vente et en sélectionnant 'Relâcher verrouillage pression' pour la forcer manuellement temporairement.
 
-  ## Things to Avoid
-  - Keep in mind that while you have an infinite supply of [textlink="mined gas" link="GasMiningAndStorage"], it is not quick enough to fill up multiple rooms at once. Setting [textlink="air alarms" link="AirAlarms"] to fill first [italic]before[/italic] fixing the root problem will often lead to wasted time and gas.
+  ## Choses à Éviter
+  - Gardez en tête que pendant que vous avez une réserve infinie de [textlink="gaz miné" link="GasMiningAndStorage"], elle n'est pas assez rapide pour remplir plusieurs pièces d'un coup. Mettre les [textlink="alarmes air" link="AirAlarms"] en remplissage [italic]avant[/italic] de régler le problème racine mènera souvent à du temps et du gaz gâchés.
 
-  - Leaving [textlink="air alarms" link="AirAlarms"] on the Fill mode unsupervised may lead to overpressuring a room, which can potentially harm crew if it gets out of hand.
+  - Laisser les [textlink="alarmes air" link="AirAlarms"] en mode Remplissage sans surveillance peut mener à une surgonflage d'une pièce, ce qui peut potentiellement blesser l'équipage si ça dégénère.
 
 </Document>

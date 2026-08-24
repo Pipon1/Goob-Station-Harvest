@@ -1,19 +1,8 @@
-# SPDX-FileCopyrightText: 2022 EmoGarbage404 <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Marat Gadzhiev <15rinkashikachi15@gmail.com>
-# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2024 Andrew <blackledgecreates@gmail.com>
-# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 icekot8 <93311212+icekot8@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 lzk <124214523+lzk228@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 ## UI
 cargo-console-menu-title = Console de commandes du cargo
-cargo-console-menu-flavor-left = Commandez encore plus de boîtes à pizza que d'habitude !
+cargo-console-menu-flavor-left = Commandez encore plus de pizzas que d'habitude !
 cargo-console-menu-flavor-right = v2.1
 cargo-console-menu-account-name-label = Compte :{" "}
 cargo-console-menu-account-name-none-text = Aucun
@@ -47,7 +36,7 @@ cargo-console-menu-account-action-transfer-limit-unlimited-notifier = [color=gol
 cargo-console-menu-account-action-select = [bold]Action du compte :[/bold]
 cargo-console-menu-account-action-amount = [bold]Montant :[/bold] $
 cargo-console-menu-account-action-button = Transférer
-cargo-console-menu-toggle-account-lock-button = Basculer la limite de transfert
+cargo-console-menu-toggle-account-lock-button = Retirer la limite de transfert
 cargo-console-menu-account-action-option-withdraw = Retirer des espèces
 cargo-console-menu-account-action-option-transfer = Transférer des fonds vers {$code}
 

@@ -1,7 +1,7 @@
-salvage-job-rank-title-0 = [color=gray]Scavenger[/color]
-salvage-job-rank-title-1 = [color=white]Scrapper[/color]
-salvage-job-rank-title-2 = [color=yellow]Specialist[/color]
-salvage-job-rank-title-MAX = [color=gold]Supreme Salvager[/color]
+salvage-job-rank-title-0 = [color=gray]Éboueur[/color]
+salvage-job-rank-title-1 = [color=white]Ferrailleur[/color]
+salvage-job-rank-title-2 = [color=yellow]Spécialiste[/color]
+salvage-job-rank-title-MAX = [color=gold]Récupérateur Suprême[/color]
 
 job-board-radio-announce = Rang de récupérateur augmenté à [bold]{$rank}[/bold] ! De nouvelles commandes peuvent être achetées en Cargaison.
 job-board-ui-window-title = Tableau des Missions

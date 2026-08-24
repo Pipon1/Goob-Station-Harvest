@@ -106,7 +106,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadMirror
   name: miroir frontal
-  description: Je doute que même le directeur médical sache comment utiliser ce truc.
+  description: Je doute que même le médecin-chef sache comment utiliser ce truc.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/head_mirror.rsi

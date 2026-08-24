@@ -1,14 +1,3 @@
-# SPDX-FileCopyrightText: 2024 Alzore <140123969+Blackern5000@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 CrigCrag <137215465+CrigCrag@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Zadeon <loldude9000@gmail.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 salvage-system-announcement-losing = L'aimant n'est plus en mesure de retenir les débris récupérables. Temps estimé avant la perte : {$timeLeft} secondes.
@@ -48,10 +37,10 @@ salvage-magnet-resources-count = {$count ->
 salvage-magnet-debris-ChunkDebris = Débris spatiaux
 
 # Asteroids
-dungeon-config-proto-BlobAsteroid = Astéroïdes en amas
-dungeon-config-proto-ClusterAsteroid = Astéroïdes en grappe
-dungeon-config-proto-SpindlyAsteroid = Astéroïdes en spirale
-dungeon-config-proto-SwissCheeseAsteroid = Aastéroïdes en fragments
+dungeon-config-proto-BlobAsteroid = Amas d'astéroïdes
+dungeon-config-proto-ClusterAsteroid = Groupe d'astéroïdes
+dungeon-config-proto-SpindlyAsteroid = Astéroïdes fins
+dungeon-config-proto-SwissCheeseAsteroid = Fragments d'astéroïdes
 
 # Wrecks
 salvage-map-wreck = Épave spatiale

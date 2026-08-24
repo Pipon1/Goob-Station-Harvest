@@ -9,20 +9,20 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="MobTajaran" Caption=""/>
   </Box>
 
-  Tajara are a species of omnivorous, bipedal humanoids with features strongly resembling Terran felines.
-  Their most distinguishing traits include a layer of fur, large ears atop their heads, and a tail that aids in balance.
-  They hail from the icy moon of [color=turquoise]Ahdomai[/color], only relatively recently making their debut on the galactic stage.
-  Originally a clan-centric society, Tajara endured centuries of dictatorial rule.
-  Following a civil war, their government fractured, and power returned to the clans, where it remains to this day.
+  Les Tajara sont une espèce d'humanoïdes bipèdes omnivores avec des traits ressemblant fortement aux félins terrestres.
+  Leurs traits les plus distinctifs incluent une couche de fourrure, de grandes oreilles au sommet de leur tête, et une queue qui aide à l'équilibre.
+  Ils viennent de la lune glacée d'[color=turquoise]Ahdomai[/color], ne faisant leur entrée sur la scène galactique que relativement récemment.
+  À l'origine une société centrée sur les clans, les Tajara ont enduré des siècles de dictature.
+  Après une guerre civile, leur gouvernement s'est fracturé, et le pouvoir est revenu aux clans, où il reste à ce jour.
 
-  ## Mechanics
+  ## Mécaniques
 
-  Due to their [color=yellow]small stature[/color], Tajara [color=#ec3a3a]take 15% more Brute damage[/color], but they can also [color=#1e90ff]fit into duffel bags[/color].
+  Du fait de leur [color=yellow]petite stature[/color], les Tajara [color=#ec3a3a]subissent 15 % de dégâts Contondants en plus[/color], mais ils peuvent aussi [color=#1e90ff]rentrer dans des sacs de sport[/color].
 
-  Their layer of fur gives them some [color=#1e90ff]resistance to Cold[/color], at the cost of [color=#ec3a3a]taking more Heat damage[/color]
+  Leur couche de fourrure leur donne une [color=#1e90ff]résistance au Froid[/color], au prix de [color=#ec3a3a]subir plus de dégâts de Chaleur[/color]
 
-  They use their claws for unarmed attacks, dealing [color=#ec3a3a]Slashing[/color] and [color=#ec3a3a]Piercing[/color] damage.
+  Ils utilisent leurs griffes pour les attaques à mains nues, infligeant des dégâts [color=#ec3a3a]Tranchants[/color] et [color=#ec3a3a]Perforants[/color].
 
-  Thanks to their innate agility, they [color=#1e90ff]take reduced damage from impacts or falls[/color], and their soft feet allow them to [color=#1e90ff]walk shoeless without making noise[/color].
+  Grâce à leur agilité innée, ils [color=#1e90ff]subissent des dégâts réduits des impacts ou chutes[/color], et leurs pieds doux leur permettent de [color=#1e90ff]marcher sans chaussures sans faire de bruit[/color].
 
 </Document>

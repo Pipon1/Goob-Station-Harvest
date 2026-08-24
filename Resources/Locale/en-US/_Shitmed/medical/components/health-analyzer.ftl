@@ -26,6 +26,9 @@ group-solution-name = {$solution}
 group-solution-unknown = Unknown
 group-solution-contents = {$reagent}: {$quantity}
 
+solution-name-bloodstream = Bloodstream
+solution-name-stomach = Stomach
+
 condition-body-bleeding-Head = • {$entity}'s head is bleeding.
 condition-body-bleeding-Chest = • {$entity}'s torso is bleeding.
 condition-body-bleeding-Groin = • {$entity}'s groin is bleeding.

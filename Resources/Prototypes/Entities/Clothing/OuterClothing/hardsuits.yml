@@ -488,7 +488,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitMedical
-  name: combinaison spatiale du directeur médical # Goob edit
+  name: combinaison spatiale du médecin-chef # Goob edit
   description: Une combinaison spéciale qui protège contre les environnements dangereux et à basse pression. Construite avec des matériaux légers pour une meilleure mobilité. # Goob edit
   components:
   - type: Sprite

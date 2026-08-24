@@ -3,17 +3,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Passive Vent
-  The passive vent is an extremely basic vent.
-  It serves as a direct connection between the pipenet it's connected to and the atmosphere it's exposed to.
+  # Évent Passif
+  L'évent passif est un évent extrêmement basique.
+  Il sert de connexion directe entre le pipenet auquel il est connecté et l'atmosphère où il est exposé.
   <Box>
     <GuideEntityEmbed Entity="GasPassiveVent"/>
   </Box>
-  Gasses are free to move between the passive vent and the atmosphere it's connected to.
-  The passive vent requires no [textlink="power" link="Power"] to function.
+  Les gaz circulent librement entre l'évent passif et l'atmosphère connectée.
+  L'évent passif ne nécessite pas de [textlink="courant" link="Power"] pour fonctionner.
 
-  This vent is commonly found in the station's [textlink="gas storage tanks" link="GasMiningAndStorage"] and connected to the station's wastenet.
-  It is a simple and reliable way to pull gasses from a gas miner, or to space unwanted gasses safely.
+  Cet évent est couramment trouvé dans les [textlink="réservoirs de stockage gaz" link="GasMiningAndStorage"] de la station et connecté au wastenet station.
+  C'est un moyen simple et fiable de tirer des gaz d'un mineur gaz, ou de spacer des gaz non désirés en sécurité.
 
-  The passive vent can be welded with any welding tool to stop it from functioning.
+  L'évent passif peut être soudé avec n'importe quel outil de soudure pour l'arrêter.
 </Document>

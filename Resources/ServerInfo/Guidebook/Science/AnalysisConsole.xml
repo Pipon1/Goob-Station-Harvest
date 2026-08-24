@@ -1,22 +1,22 @@
 <Document>
-  # Analysis Console
+  # Console d’Analyse
 
-  The Analysis Console is a device used to interface with artifacts. It can be used to check nodes, their triggers and effects, and extract points.
+  La Console d’Analyse est un appareil pour interagir avec les artéfacts. Elle permet de checker les nœuds, leurs déclencheurs et effets, et d’extraire des points.
 
   <Box>
-    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Analysis Console"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Console d’Analyse"/>
   </Box>
 
-  The console displays detailed information about each node in the artifact’s tree structure. This includes:
-  - [bold]ID:[/bold] Unique identifier for use with the Node Scanner.
-  - [bold]Class:[/bold] The layer name, nodes on the same layer share it.
-  - [bold]Status:[/bold]
-  - [italic][color=red]Locked[/color][/italic] by default.
-  - [italic][color=plum]Active[/color][/italic] when first triggered.
-  - [italic][color=lime]Unlocked[/color][/italic] if a deeper node is reached (prevents manual activations).
-  - [bold]Durability:[/bold] Number of manual activations available.
-  - [bold]Effect:[/bold] What happens when the node activates or is manually triggered.
-  - [bold]Triggers:[/bold] Required actions to unlock the node.
-  - [bold]Server:[/bold] Choose the research server where extracted points are sent.
-  - [bold]Extract Points:[/bold] Extracts points from nodes unlocked since the last extraction.
+  La console affiche des infos détaillées sur chaque nœud dans la structure en arbre de l’artéfact. Ça inclut :
+  - [bold]ID :[/bold] Identifiant unique pour le Scanneur de Nœuds.
+  - [bold]Classe :[/bold] Le nom de la couche, les nœuds sur la même couche la partagent.
+  - [bold]Statut :[/bold]
+  - [italic][color=red]Verrouillé[/color][/italic] par défaut.
+  - [italic][color=plum]Actif[/color][/italic] quand déclenché la première fois.
+  - [italic][color=lime]Débloqué[/color][/italic] si un nœud plus profond est atteint (empêche les activations manuelles).
+  - [bold]Durabilité :[/bold] Nombre d’activations manuelles dispo.
+  - [bold]Effet :[/bold] Ce qui se passe quand le nœud s’active ou est déclenché manuellement.
+  - [bold]Déclencheurs :[/bold] Actions requises pour débloquer le nœud.
+  - [bold]Serveur :[/bold] Choisissez le serveur de recherche où envoyer les points extraits.
+  - [bold]Extraire Points :[/bold] Extrait les points des nœuds débloqués depuis la dernière extraction.
 </Document>

@@ -3,25 +3,25 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Onis
+  # Oni
 
   <Box>
     <GuideEntityEmbed Entity="MobOni" Caption=""/>
   </Box>
 
-  Large, horned people that come in a variety of colors. Their accuracy with guns is terrible, but their physical strength brings them a lot of boons both in and out of combat.
+  De grands êtres à cornes qui existent en une variété de couleurs. Leur précision avec les armes à feu est terrible, mais leur force physique leur apporte beaucoup d'avantages dans et hors combat.
 
-  ## Diet
-  - Just about anything. Can even eat many things raw.
+  ## Régime
+  - À peu près n'importe quoi. Peut même manger beaucoup de choses crues.
 
-  ## Benefits
-  - They take [color=#1e90ff]15% less Blunt, Pierce and Slash.[/color].
-  - Does more damage in melee; 25% more Blunt, Slash, Pierce, Stamina, and Structural damage.
-  - Due to their big size, they can easily carry and pull any other species.
+  ## Avantages
+  - Ils subissent [color=#1e90ff]15 % de Contondants, Perforants et Tranchants en moins.[/color].
+  - Font plus de dégâts au corps-à-corps ; 25 % de Contondants, Tranchants, Perforants, Endurance, et Structurels en plus.
+  - Du fait de leur grande taille, ils peuvent facilement porter et tirer n'importe quelle autre espèce.
 
-  ## Drawbacks
-  - Oni are unable to fire any weapons with accuracy, with reports of bullets managing to fire even behind them
-  - They are harder to carry and pull.
-  - They are bigger than Humans, making them easier to hit.
+  ## Inconvénients
+  - Les Oni sont incapables de tirer avec précision n'importe quelle arme, avec des rapports de balles arrivant même à tirer derrière eux
+  - Ils sont plus difficiles à porter et tirer.
+  - Ils sont plus grands que les Humains, les rendant plus faciles à toucher.
 
 </Document>

@@ -96,7 +96,7 @@
 
 - type: entity
   name: trousse médicale de combat
-  description: "Pour les plus grandes armes d'entre nous."
+  description: "Pour les plus grands guerriers d'entre nous."
   parent: Medkit
   id: MedkitCombat
   components:

@@ -3,17 +3,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Passive Gate
-  The passive gate is a simple one-way valve that prevents gasses from flowing backwards.
+  # Vanne Passive
+  La vanne passive est une simple vanne à sens unique qui empêche les gaz de refluer.
   <Box>
     <GuideEntityEmbed Entity="GasPassiveGate"/>
   </Box>
 
-  The valve's input is on the side of the [color=red]red[/color] circle.
-  The valve also shows the current flow rate of the pipe when examined.
+  L'entrée de la vanne est du côté du cercle [color=red]rouge[/color].
+  La vanne affiche aussi le débit actuel du tuyau quand examinée.
 
-  It's useful in many applications, for example:
-  - Preventing a pure gas from getting contaminated via a mixed gas flowing back through the pipe.
-  - Preventing pressure or temperature changes across two [textlink="pipenets" link="PipeNetworks"] in the opposite direction.
-  - Quickly checking the flow rate on a pipenet without needing a [textlink="gas analyzer" link="AtmosTools"].
+  C'est utile dans plein d'applications, par exemple :
+  - Empêcher un gaz pur de se contaminer via un gaz mélangé qui reflue par le tuyau.
+  - Empêcher changements de pression ou température entre deux [textlink="pipenets" link="PipeNetworks"] dans le sens inverse.
+  - Vérifier vite le débit sur un pipenet sans avoir besoin d'un [textlink="analyseur gaz" link="AtmosTools"].
 </Document>

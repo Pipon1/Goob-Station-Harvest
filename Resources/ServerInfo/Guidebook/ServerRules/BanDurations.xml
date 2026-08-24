@@ -3,19 +3,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Ban Durations
+  # Durées de Ban
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  Les bans peuvent être contestés sur forum.ss14.io dans la section appels de ban.
 
-  ## Temporary
-  Temporary bans will be lifted automatically after a certain amount of time. If they are a game ban, they will tell you how much time is remaining when you try to connect.
+  ## Temporaire
+  Les bans temporaires sont levés automatiquement après un certain délai. S'il s'agit d'un ban jeu, ils t'indiqueront le temps restant quand tu essaieras de te connecter.
 
-  ## Indefinite
-  These bans will only be removed on a successful appeal on the forums. Any ban which doesn't tell you when it expires and doesn't specify otherwise can be presumed to be an indefinite ban.
+  ## Indéfini
+  Ces bans ne seront levés que sur un appel réussi sur le forum. Tout ban qui ne dit pas quand il expire et ne précise rien d'autre peut être considéré comme un ban indéfini.
 
   ## Voucher
-  This is an indefinite ban which may only be appealed both with a successful appeal and which require a voucher of good behavior from the administrative team of a well-known or at least decently active SS13/SS14 server in order for the appeal to be considered. Voucher bans typically cannot be appealed for at least six months after being issued. Without a voucher, a player can only attempt to appeal a voucher ban once, and only if the ban was inappropriately placed. Voucher bans are typically only placed as a result of an unsuccessful appeal of an indefinite game ban by players with a history of bans and of causing issues.
+  C'est un ban indéfini qui ne peut être contesté qu'avec un appel réussi ET qui nécessite un voucher de bonne conduite de l'équipe admin d'un serveur SS13/SS14 connu ou au moins assez actif pour que l'appel soit considéré. Les bans voucher ne peuvent généralement pas être contestés avant au moins six mois après leur émission. Sans voucher, un joueur ne peut tenter de contester un ban voucher qu'une seule fois, et seulement si le ban a été placé à tort. Les bans voucher sont généralement placés suite à un appel infructueux d'un ban jeu indéfini par des joueurs avec un historique de bans et de problèmes.
 
   ## Permanent
-  This is a ban that is only appealable if the ban was inappropriately placed, including if the ban should not have been permanent. If the result of the appeal is that the ban was appropriately placed, the ban may not be appealed again and will not be lifted. These bans are extremely rare, but are applied to players who continually cause problems even after a voucher ban or users who have completely unacceptable behavior may be permanently removed.
+  C'est un ban qui n'est contestable que s'il a été placé à tort, y compris s'il n'aurait pas dû être permanent. Si l'appel conclut que le ban était justifié, le ban ne pourra plus être contesté et ne sera pas levé. Ces bans sont extrêmement rares, mais s'appliquent aux joueurs qui continuent de causer des problèmes même après un ban voucher ou aux utilisateurs au comportement complètement inacceptable qui peuvent être supprimés définitivement.
 </Document>
