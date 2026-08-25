@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Mop Bucket
 - type: entity
-  name: mop bucket
+  name: seau de serpillère
   id: MopBucket
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: Holds water and the tears of the janitor.
+  description: Contient de l'eau et les larmes du concierge.
   components:
   - type: Clickable
   - type: Sprite
@@ -118,7 +118,7 @@
         - MachineMask
 
 - type: entity
-  name: mop bucket
+  name: seau de serpillère
   id: MopBucketFull
   parent: MopBucket
   suffix: full
@@ -138,9 +138,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: mop bucket cube
+  name: cube de seau de serpillère
   id: MopBucketCubeWrapped
-  description: Unwrap this to get a mop bucket cube.
+  description: Déballer ceci pour obtenir un cube de seau de serpillère.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -150,10 +150,10 @@
 
 # Janicart
 - type: entity
-  name: janitorial trolley
+  name: chariot de concierge
   id: JanitorialTrolley
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: This is the alpha and omega of sanitation.
+  description: C'est l'alpha et l'oméga de la salubrité.
   components:
     - type: Sprite
       noRot: true

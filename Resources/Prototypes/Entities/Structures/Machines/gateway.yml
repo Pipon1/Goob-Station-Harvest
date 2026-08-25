@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseGateway
-  name: gateway
-  description: A mysterious gateway built by unknown hands, it allows for faster than light travel to far-flung locations.
+  name: portail
+  description: Un portail mystérieux construit par des mains inconnues, il permet les voyages plus vite que la lumière vers des lieux lointains.
   components:
   - type: Sprite
     sprite: Structures/Machines/gateway.rsi

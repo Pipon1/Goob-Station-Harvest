@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatStandard
-  name: combat hardsuit
-  description: A purpose-built combat hardsuit designed to protect its user against all manner of enemy combatants in low pressure environments.
+  name: combinaison de combat
+  description: Une combinaison de combat spécialement conçue pour protéger son utilisateur contre toutes sortes de combattants ennemis dans des environnements à basse pression.
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitCombatStandard,BaseSecurityContraband]
   id: ClothingOuterHardsuitCombatOfficer
-  name: security combat hardsuit
-  description: A purpose-built combat hardsuit designed to protect its user against all manner of enemy combatants in low pressure environments. This one has station security markings.
+  name: combinaison de combat sécurité
+  description: Une combinaison de combat spécialement conçue pour protéger son utilisateur contre toutes sortes de combattants ennemis dans des environnements à basse pression. Celle-ci porte les insignes de la sécurité de la station.
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Hardsuits/Combat/officer.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase,BaseSecurityContraband]
   id: ClothingOuterHardsuitCombatMedical
-  name: medical combat hardsuit
-  description: A purpose-built combat hardsuit designed to allow its user greater mobility for superior support of friendly units in active combat zones.
+  name: combinaison de combat médical
+  description: Une combinaison de combat spécialement conçue pour offrir à son utilisateur une plus grande mobilité pour un soutien supérieur des unités amies dans des zones de combat actives.
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Hardsuits/Combat/medical.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase,BaseSecurityContraband]
   id: ClothingOuterHardsuitCombatRiot
-  name: riot combat hardsuit
-  description: A purpose-built combat hardsuit designed for crowd control against armed combatants in low pressure environments.
+  name: combinaison de combat anti-émeute
+  description: Une combinaison de combat spécialement conçue pour le contrôle des foules contre des combattants armés dans des environnements à basse pression.
   components:
   - type: Sprite
     sprite: _DV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi

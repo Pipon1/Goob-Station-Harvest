@@ -1,0 +1,12 @@
+advertisement-cigs-deluxe-1 = FILTRES KING ROYAL !!
+advertisement-cigs-deluxe-2 = ALLUMEZ LES LUCKY STRIKES !!
+advertisement-cigs-deluxe-3 = SATISFACTION NANOTRASEN !
+advertisement-cigs-deluxe-4 = PLAISIR PALL MALL !!
+advertisement-cigs-deluxe-5 = PROCUREZ-VOUS VOS NANOLBORO BLEUES !!
+advertisement-cigs-deluxe-6 = FILTRES CHAMEAU SPATIAL ARRIVÉS !!
+advertisement-cigs-deluxe-7 = PROFITEZ DU GOÛT KROMBACH !!
+advertisement-cigs-deluxe-8 = ESSAYEZ FINESSE EXECUTIVE !!
+advertisement-cigs-deluxe-9 = QUALITÉ CHESTERFILLED !!
+advertisement-cigs-deluxe-10 = DOUCEUR OLD GOLD !!
+advertisement-cigs-deluxe-11 = FRAÎCHEUR N&T !!
+advertisement-cigs-deluxe-12 = FAITES-LEUR SAVOIR QUE VOUS ÊTES RICHE !!

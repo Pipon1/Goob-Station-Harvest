@@ -2,9 +2,9 @@
 
 - type: entity
   id: BoozeDispenserEmpty
-  name: booze dispenser
+  name: distributeur d'alcool
   suffix: Empty
-  description: A booze dispenser with a single slot for a container to be filled.
+  description: Un distributeur d'alcool avec un seul emplacement pour un conteneur à remplir.
   parent: ReagentDispenserBase
   components:
   - type: Rotatable

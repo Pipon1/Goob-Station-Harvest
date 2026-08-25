@@ -1,0 +1,1 @@
+item-switch-failed-no-power = Pas assez d'énergie !

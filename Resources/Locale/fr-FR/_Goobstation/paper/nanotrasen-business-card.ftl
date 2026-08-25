@@ -1,0 +1,1 @@
+nanotrasen-business-card-base = {"           "} Le diable est dans les détails.

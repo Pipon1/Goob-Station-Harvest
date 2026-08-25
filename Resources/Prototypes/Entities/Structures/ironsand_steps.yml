@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFloorDecoration
   id: IronsandStep
-  name: ironsand step
-  description: Takes your ironsand up a level.
+  name: marche de sablés de fer
+  description: Fait passer votre sable de fer au niveau supérieur.
   components:
   - type: Sprite
     sprite: Structures/ironsand_steps.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: IronsandStep
   id: IronsandStepConvexCorner
-  name: ironsand step convex corner
+  name: angle convexe de marche de sable de fer
   components:
   - type: Sprite
     state: corner_convex
@@ -46,7 +46,7 @@
 - type: entity
   parent: IronsandStep
   id: IronsandStepConcaveCorner
-  name: ironsand step concave corner
+  name: angle concave de marche de sable de fer
   components:
   - type: Sprite
     state: corner_concave

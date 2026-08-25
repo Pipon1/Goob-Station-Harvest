@@ -3,8 +3,8 @@
 - type: entity
   id: LockerBooze
   parent: LockerBase
-  name: booze storage
-  description: This is where the bartender keeps the booze.
+  name: rangement d'alcool
+  description: C'est là que le barman garde l'alcool.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -30,7 +30,7 @@
 - type: entity
   id: LockerSteel
   parent: LockerBaseSecure
-  name: secure closet
+  name: casier sécurisé
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -42,7 +42,7 @@
 - type: entity
   id: LockerQuarterMaster
   parent: LockerBaseSecure
-  name: quartermaster's locker
+  name: casier de quartier-maître
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -55,8 +55,8 @@
 - type: entity
   id: LockerSalvageSpecialist
   parent: LockerBase
-  name: salvage specialist's locker # Lavaland Change
-  description: Contains equipment useful for space exploration. # Lavaland Change
+  name: casier de spécialiste récupération
+  description: Contient de l'équipement utile pour l'exploration spatiale.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -72,8 +72,8 @@
 - type: entity
   id: LockerShaftMiner
   parent: LockerBase
-  name: shaft miner's locker
-  description: Contains equipment useful for planet exploration.
+  name: casier de mineur
+  description: Contient de l'équipement utile pour l'exploration planétaire.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -88,7 +88,7 @@
 - type: entity
   id: LockerCaptain
   parent: LockerBaseSecure
-  name: captain's locker
+  name: casier du capitaine
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -101,7 +101,7 @@
 - type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
-  name: head of personnel's locker
+  name: casier de chef du personnel
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -115,7 +115,7 @@
 - type: entity
   id: LockerChiefEngineer
   parent: LockerBaseSecure
-  name: chief engineer's locker
+  name: casier de chef ingénieur
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -129,7 +129,7 @@
 - type: entity
   id: LockerElectricalSupplies
   parent: LockerBase
-  name: electrical supplies locker
+  name: casier de fournitures électriques
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -143,7 +143,7 @@
 - type: entity
   id: LockerWeldingSupplies
   parent: LockerBase
-  name: welding supplies locker
+  name: casier de fournitures de soudure
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -157,7 +157,7 @@
 - type: entity
   id: LockerAtmospherics
   parent: LockerBase
-  name: atmospheric technician's locker
+  name: casier de technicien atmosphérique
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -171,7 +171,7 @@
 - type: entity
   id: LockerEngineer
   parent: LockerBase
-  name: engineer's locker
+  name: casier d'ingénieur
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -185,8 +185,8 @@
 - type: entity
   parent: LockerBase
   id: LockerEvacRepair
-  name: emergency shuttle emergency locker
-  description: It's emergencies all the way down.
+  name: casier d'urgence navette secours
+  description: C'est des urgences jusqu'au bout.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -200,7 +200,7 @@
 - type: entity
   id: LockerFreezerBase
   parent: LockerBase
-  name: freezer
+  name: congélateur
   suffix: No Access
   components:
   - type: Appearance
@@ -222,7 +222,7 @@
 - type: entity
   id: LockerFreezer
   parent: LockerFreezerBase
-  name: freezer
+  name: congélateur
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -232,7 +232,7 @@
 - type: entity
   id: LockerBotanist
   parent: LockerBase
-  name: botanist's locker
+  name: casier de botaniste
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -246,8 +246,8 @@
 - type: entity
   id: LockerMedicine
   parent: LockerBase
-  name: medicine locker
-  description: Filled to the brim with medical junk.
+  name: casier de médicaments
+  description: Rempli à ras bord de matériel médical.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -261,7 +261,7 @@
 - type: entity
   id: LockerMedical
   parent: LockerBase
-  name: medical doctor's locker
+  name: casier de médecin
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -275,7 +275,7 @@
 - type: entity
   id: LockerParamedic
   parent: LockerBase
-  name: paramedic's locker
+  name: casier d'urgentiste
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -290,7 +290,7 @@
 - type: entity
   id: LockerChemistry
   parent: LockerBase
-  name: chemical locker
+  name: casier de chimiste
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -304,7 +304,7 @@
 - type: entity
   id: LockerChiefMedicalOfficer
   parent: LockerBaseSecure
-  name: chief medical officer's locker
+  name: casier de médecin-chef
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -318,7 +318,7 @@
 - type: entity
   id: LockerResearchDirector
   parent: LockerBase
-  name: research director's locker
+  name: casier de directeur de recherche
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -331,7 +331,7 @@
 - type: entity
   id: LockerScientist
   parent: LockerBase
-  name: scientist's locker
+  name: casier de scientifique
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -345,7 +345,7 @@
 - type: entity
   id: LockerHeadOfSecurity
   parent: LockerBaseSecure
-  name: head of security's locker
+  name: casier de chef de la sécurité
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -359,7 +359,7 @@
 - type: entity
   id: LockerWarden
   parent: LockerBaseSecure
-  name: warden's locker
+  name: casier de gardien
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -373,7 +373,7 @@
 - type: entity
   id: LockerBrigmedic
   parent: LockerBaseSecure
-  name: brigmedic locker
+  name: casier de médecin du brig
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -387,7 +387,7 @@
 - type: entity
   id: LockerSecurity
   parent: LockerBaseSecure
-  name: security officer's locker
+  name: casier d'agent de sécurité
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -400,7 +400,7 @@
 - type: entity
   id: GunSafe
   parent: LockerBaseSecure
-  name: gun safe
+  name: coffre-fort d'armes
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -453,8 +453,8 @@
 - type: entity
   parent: [ GenpopBase , LockerBaseSecure ]
   id: LockerPrisoner
-  name: prisoner closet
-  description: It's a secure locker for an inmate's personal belongings during their time in prison.
+  name: casier de prisonnier
+  description: C'est un casier sécurisé pour les effets personnels d'un détenu pendant son temps en prison.
   suffix: 1
   components:
   - type: Fixtures
@@ -539,8 +539,8 @@
 - type: entity
   id: LockerDetective
   parent: LockerBooze
-  name: detective's cabinet
-  description: Usually cold and empty... like your heart.
+  name: armoire de détective
+  description: Habituellement froid et vide... comme votre cœur.
   components:
   - type: AccessReader
     access: [["Detective"]]
@@ -548,8 +548,8 @@
 - type: entity
   id: LockerEvidence
   parent: LockerSecurity
-  name: evidence locker
-  description: To store bags of bullet casings and detainee belongings.
+  name: casier de preuves
+  description: Pour stocker les sacs de douilles et les effets des détenus.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -557,10 +557,10 @@
 # Syndicate
 - type: entity
   id: LockerSyndicatePersonal
-  name: blood-red locker
+  name: casier rouge sang
   parent: LockerBaseSecure
-  description: It's a personal storage unit with a blood-red design.
-  suffix: "Locked"
+  description: C'est une unité de stockage personnelle avec un design rouge sang.
+  suffix: "Verrouillé"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -573,10 +573,10 @@
 # Bluespace
 - type: entity
   id: LockerBluespaceStation
-  name: bluespace locker
-  suffix: once to station
+  name: casier bluespace
+  suffix: une fois vers station
   parent: LockerSyndicatePersonal
-  description: Advanced locker technology.
+  description: Technologie de casier avancée.
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker
@@ -600,7 +600,7 @@
 # Clown
 - type: entity
   id: LockerClown
-  name: clown locker
+  name: casier de clown
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -618,7 +618,7 @@
 # Mime
 - type: entity
   id: LockerMime
-  name: mime locker
+  name: casier de mime
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -632,7 +632,7 @@
 # Representative
 - type: entity
   id: LockerRepresentative
-  name: representative locker
+  name: casier de représentant
   parent: LockerBaseSecure
   components:
   - type: Appearance

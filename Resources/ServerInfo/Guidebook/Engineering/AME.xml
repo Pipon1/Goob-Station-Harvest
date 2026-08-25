@@ -3,28 +3,28 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Antimatter Engine (AME)
-  The Antimatter Engine is a short-term support generator for the station, providing a sizable chunk of power for a limited time.
+  # Moteur Antimatière (MAE)
+  Le Moteur Antimatière est un générateur de soutien à court terme pour la station, fournissant un gros morceau de courant pour un temps limité.
 
-  It's mainly used to assist engineers in starting up bigger engines like the [textlink="Singularity Engine" link="SingularityEngine"] or [textlink="Tesla Engine" link="TeslaEngine"], by supplementing the station's [textlink="batteries" link="PowerStorage"] with partial power to extend their runtime.
+  Il sert principalement à aider les ingénieurs à démarrer de plus gros moteurs comme le [textlink="Moteur Singularité" link="SingularityEngine"] ou [textlink="Moteur Tesla" link="TeslaEngine"], en complétant les [textlink="batteries" link="PowerStorage"] de la station avec du courant partiel pour étendre leur autonomie.
 
   ## Construction
-  <Box>Required parts:</Box>
+  <Box>Pièces requises :</Box>
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmePartFlatpack"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
-  The AME Controller is the part of the AME that outputs power to the station's grid through an [textlink="HV connection" link="VoltageNetworks"].
-  Because of this, you'll want to start your AME construction with the controller on top of an [color=orange]HV wire[/color].
+  Le Contrôleur MAE est la partie du MAE qui sort le courant vers le réseau de la station via une [textlink="connexion HT" link="VoltageNetworks"].
+  Du coup, vous voudrez commencer votre construction MAE avec le contrôleur sur un [color=orange]fil HT[/color].
 
-  Most stations have exposed [color=orange]HV wiring[/color] or designated spots to wrench an AME controller, so that it connects to the grid.
+  La plupart des stations ont du [color=orange]câblage HT[/color] exposé ou des spots dédiés pour y cléyer un contrôleur MAE, pour qu'il se connecte au réseau.
 
-  AME shielding is the physical structure that makes the antimatter engine. It's made by converting AME flatpacks into shielding using a multitool.
+  Le blindage MAE est la structure physique qui fait le moteur antimatière. Il est fait en convertissant des flatpacks MAE en blindage avec un multitool.
 
-  To construct an AME, start putting down a 3x3 or larger square of AME flatpacks in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all eight sides.
-  The greater amount of center pieces, the more cores your AME will have, and the more power it will be able to output safely.
+  Pour construire un MAE, commencez par poser un carré 3x3 ou plus grand de flatpacks MAE en prépa pour la construction, en vous assurant de maximiser le nombre de pièces "centre" entourées sur les huit côtés.
+  Plus y'a de pièces centre, plus votre MAE aura de cœurs, et plus il pourra sortir de courant en sécurité.
 
   <Box>
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
@@ -42,7 +42,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
 
-  Once this is done, you can use a multitool to convert each AME flatpack into shielding, which should form a finished AME configuration.
+  Une fois fait, vous pouvez utiliser un multitool pour convertir chaque flatpack MAE en blindage, ce qui devrait former une config MAE finie.
 
   <GuideEntityEmbed Entity="AmeController" Caption=""/>
   <Box>
@@ -61,20 +61,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
   </Box>
   <Box>
-    [color=#999999][italic]An example of a one core setup[italic][/color]
+    [color=#999999][italic]Exemple d'une config à un cœur[italic][/color]
   </Box>
 
-  ## Operation
-  To start the AME, insert a fuel jar into the AME controller, and set the safe injection rate.
+  ## Opération
+  Pour démarrer le MAE, insérez un bocal carburant dans le contrôleur MAE, et réglez le taux d'injection sûr.
 
-  The safe injection rate is the point where the AME can safely run without overheating, while maximizing power output.
+  Le taux d'injection sûr est le point où le MAE peut tourner en sécurité sans surchauffer, en maximisant la puissance.
 
-  This rate is always twice the core count.
+  Ce taux est toujours le double du nombre de cœurs.
 
-  For example, an AME with one core will have a safe injection rate of 2. With two cores, the safe injection rate would be 4, and so on.
+  Par exemple, un MAE avec un cœur aura un taux d'injection sûr de 2. Avec deux cœurs, 4, et ainsi de suite.
 
-  Any more than this ratio will eventually result in the engine [color=#ff0000]overheating[/color] and, shortly afterwards, [color=#ff0000]exploding[/color].
+  N'importe quoi au-dessus de ce ratio finira par faire [color=#ff0000]surchauffer[/color] le moteur et, peu après, [color=#ff0000]exploser[/color].
 
-  The AME controller will [textlink="report" link="InspectingPower"] on both the amount of power it is providing to the grid, and the theoretical maximum power it could provide if demanded.
-
+  Le contrôleur MAE [textlink="rapportera" link="InspectingPower"] à la fois le courant qu'il fournit au réseau, et le courant max théorique qu'il pourrait fournir si demandé.
 </Document>

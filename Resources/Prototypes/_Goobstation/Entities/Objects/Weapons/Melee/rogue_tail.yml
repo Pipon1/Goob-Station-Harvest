@@ -1,8 +1,8 @@
 - type: entity
-  name: rogue king's tail
+  name: queue du roi des renégats
   parent: BaseSword
   id: RogueTailWeapon
-  description: The severed tail of the ancient Rogue Xeno King, a brutal trophy prized by only the boldest hunters. Grants its wielder the power to dash forward in relentless bursts.
+  description: La queue tranchée de l'ancien Roi Xéno Renégat, un trophée brutal prisé des chasseurs les plus audacieux. Accorde à son porteur le pouvoir d'élancer vers l'avant en rafales implacables.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Melee/rogue_tail.rsi

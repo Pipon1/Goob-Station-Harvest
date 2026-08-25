@@ -4,9 +4,9 @@ SPDX-License-Identifier: MIT
 
 <Document>
 
-# Core Medications
+# Médocs de Base
 
-These medications are almost always useful to medbay in one way or another.
+Ces médocs sont presque toujours utiles au medbay d'une façon ou d'une autre.
 
 <GuideReagentEmbed Reagent="Bicaridine"/>
 <GuideReagentEmbed Reagent="Kelotane"/>
@@ -17,9 +17,9 @@ These medications are almost always useful to medbay in one way or another.
 <GuideReagentEmbed Reagent="DexalinPlus"/>
 <GuideReagentEmbed Reagent="Iron"/>
 
-# Specialty Medications
+# Médocs Spécialisés
 
-These medications tend to have specific use cases.
+Ces médocs ont tendance à avoir des cas d'usage précis.
 
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Epinephrine"/>
@@ -31,9 +31,9 @@ These medications tend to have specific use cases.
 <GuideReagentEmbed Reagent="Ambuzol"/>
 <GuideReagentEmbed Reagent="Oculine"/>
 
-# All Medications
+# Tous les Médocs
 
-This is a list of -all- medications available, including ones previously listed.
+Voici la liste de -tous- les médocs dispo, incluant ceux déjà listés.
 
 <GuideReagentGroupEmbed Group="Medicine"/>
 

@@ -4,7 +4,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: Des mobs sans corps physiques.
   components:
   - type: Sprite
     noRot: true
@@ -37,8 +37,8 @@
   - BaseMob
   id: MobObserverBase
   abstract: true
-  name: observer
-  description: Boo!
+  name: observeur
+  description: Bouh !
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
 # Goobstation
 - type: entity
   id: ActionGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: Interface du scanner de masse
+  description: Afficher une interface du scanner de masse.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: Bouh !
+  description: Effrayez les membres de votre équipage par ennui !
   components:
   - type: Action
     icon: Interface/Actions/scream.png
@@ -145,8 +145,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: (Dés)activer l'éclairage
+  description: Basculez le rendu de la lumière pour mieux observer les zones sombres.
   components:
   - type: Action
     icon: Interface/VerbIcons/light.svg.192dpi.png
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: (Dés)activer le champ de vision
+  description: Bascule le champ de vision pour voir ce que les joueurs voient.
   components:
   - type: Action
     icon: Interface/VerbIcons/vv.svg.192dpi.png
@@ -173,8 +173,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: (Dés)activer les fantômes
+  description: Activez/Désactivez la visibilité des autres fantômes.
   components:
   - type: Action
     icon: { sprite: Mobs/Ghosts/ghost_human.rsi, state: icon }
@@ -187,8 +187,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: (Dés)activer l'écoute des fantômes
+  description: Basculez entre entendre tous les messages et entendre uniquement les messages radio et proches.
   components:
   - type: Action
     icon:

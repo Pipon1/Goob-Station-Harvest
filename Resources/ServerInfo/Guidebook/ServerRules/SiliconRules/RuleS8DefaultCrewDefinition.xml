@@ -3,23 +3,23 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Silicon Rule 8 - Your HUD determines who is crew
-  Unless a law redefines the definition of crew, then anyone who the HUD indicates to you has a job, including passengers, is a crewmember. You cannot do something that causes someone to not be considered crew, but you can allow someone else to do something that causes someone to not be crew.
+  # Règle Silicium 8 - Ton HUD détermine qui est crew
+  À moins qu'une loi ne redéfinisse la définition de crew, alors toute personne que ton HUD t'indique avoir un job, y compris les passagers, est un membre du crew. Tu ne peux pas faire un truc qui cause à quelqu'un de ne plus être considéré crew, mais tu peux permettre à quelqu'un d'autre de faire un truc qui cause à quelqu'un d'être plus crew.
 
-  Under the default cyborg lawset you cannot harm any crew without an order from the AI, regardless of the harm they may bring to others.
+  Sous le lawset cyborg par défaut tu ne peux faire de mal à aucun crew sans ordre de l'IA, peu importe le mal qu'ils pourraient apporter aux autres.
 
-  Crew is ANYONE with a job icon including:
+  Crew c'est N'IMPORTE QUI avec une icône de job incluant :
   - Changelings
-  - Nuclear Operatives
-  - Heretics
+  - Opérateurs Nucléaires
+  - Hérétiques
   - Zombies
-  Note: This list is not exhaustive and includes ANY being bearing a job icon
+  Note : Cette liste n'est pas exhaustive et inclut TOUT être portant une icône de job
 
-  Not Crew:
-  - A captain who has lost their ID and icon
-  - An invisible person who due to being invisible has no icon
+  Pas Crew :
+  - Un capitaine qui a perdu son ID et son icône
+  - Une personne invisible qui du coup n'a pas d'icône
 
-  Icons that are not job icons:
-  - Empty grey square, such as those on syndicate IDs
-  - A question mark that indicates lack of ID
+  Icônes qui ne sont pas des icônes de job :
+  - Carré gris vide, comme ceux sur les IDs du Syndicat
+  - Un point d'interrogation qui indique l'absence d'ID
 </Document>

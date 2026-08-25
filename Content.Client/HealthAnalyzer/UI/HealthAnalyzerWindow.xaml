@@ -14,21 +14,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
             Margin="8 10 8 10">
             <Button
                 Name="BodyButton"
-                Text="Body"
+                Text="Corps"
                 MinWidth="130"
                 MinHeight="30"
                 HorizontalExpand="True"
                 StyleClasses="OpenRight"/>
             <Button
                 Name="OrgansButton"
-                Text="Organs"
+                Text="Organes"
                 MinWidth="130"
                 MinHeight="30"
                 HorizontalExpand="True"
                 StyleClasses="OpenBoth"/>
             <Button
                 Name="ChemicalsButton"
-                Text="Chemicals"
+                Text="Substances"
                 MinWidth="130"
                 MinHeight="30"
                 HorizontalExpand="True"
@@ -296,7 +296,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                     Orientation="Vertical">
                     <RichTextLabel
                         Name="ConditionsLabel"
-                        Text="Conditions"
+                        Text="Affections"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Center"
                         HorizontalExpand="True"/>

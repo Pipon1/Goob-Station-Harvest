@@ -116,7 +116,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: Cellule d'énergie
         startingItem: PowerCellSmall
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -208,9 +208,9 @@
 
 - type: entity
   name: Svalinn # Goobstation
-  parent: [BaseWeaponCustomCellSmall, BaseSecurityContraband] # goob edit - svalinn buff fix
+  parent: [BaseWeaponCustomCellSmall, BaseSecurityContraband]
   id: WeaponLaserSvalinn
-  description: A cheap and modular laser pistol often carried by civilians. Takes standard power cells, with higher capacity ones amplifying the capacity and power of the resulting beam. # Goobstation
+  description: Un pistolet laser bon marché et modulaire souvent porté par les civils. Accepte les cellules d'énergie standard, les plus hautes capacités amplifiant la puissance du faisceau.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
@@ -248,7 +248,7 @@
   - type: ItemSlots # goob edit - let svalinns use potato batteries
     slots:
       gun_magazine:
-        name: Magazine
+        name: Cellule d'énergie
         startingItem: PowerCellMedium
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -259,10 +259,10 @@
             - PotatoBattery
 
 - type: entity
-  name: retro laser blaster
+  name: blaster laser rétro
   parent: [BaseWeaponBatterySmall, BaseMajorContraband]
   id: WeaponLaserGun
-  description: A laser pistol from another time. Its design is pretty rare in the current era, but it's compatible with modern rechargers. # Goobstation
+  description: Un pistolet laser d'une autre époque. Son design est rare de nos jours, mais il est compatible avec les rechargers modernes.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -295,10 +295,10 @@
     - LaserWeapon
 
 - type: entity
-  name: makeshift laser pistol
+  name: pistolet laser bricolé
   parent: [BaseWeaponBatterySmall, BaseMinorContraband]
   id: WeaponMakeshiftLaser
-  description: Better pray it won't burn your hands off.
+  description: Priez pour qu'il ne vous brûle pas les mains.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
@@ -796,7 +796,7 @@
   name: Taser # Goobstation
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponTaser
-  description: A handheld stun weapon that fires two electrified darts at the target. Formerly used by NanoTrasen security, though it's mostly been phased out. # Goobstation
+  description: Une arme à impulsion électrique portable qui tire deux fléchettes électrifiées sur la cible. Anciennement utilisée par la sécurité de NanoTrasen, bien qu'elle ait été principalement abandonnée.
   components:
   - type: Tag
     tags:
@@ -837,7 +837,7 @@
   parent: [ BaseCentcommContraband, WeaponTaser ]
   id: WeaponTaserSuper
   suffix: ADMEME
-  description: A low-capacity, energy-based stun gun used by elite security teams to disable even the toughest of targets.
+  description: Un pistolet paralysant à faible capacité et à énergie, utilisé par les équipes d'élite de sécurité pour neutraliser même les cibles les plus résistantes.
   components:
   - type: Gun
     fireRate: 0.5
@@ -850,10 +850,10 @@
     fireCost: 200
 
 - type: entity
-  name: antique laser pistol
+  name: pistolet laser antique
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
-  description: A premium laser pistol from another age, customised with a mahogany grip and sleek chrome filigree. The chamber glows with menacing spikes of energy. There are clown and captain stick figures scratched into the side plate. The clown is dead. The captain is striking a heroic pose. # Goobstation
+  description: Un pistolet laser premium d'une autre époque, personnalisé avec une poignée en acajou et des filigranes chromés élégants. La chambre brille de pointes d'énergie menaçantes. Des hommes-bâtons clown et capitaine sont griffonnés sur la plaque latérale. Le clown est mort. Le capitaine fait une pose héroïque.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -894,10 +894,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: advanced laser pistol # Goobstation
+  name: pistolet laser avancé
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponAdvancedLaser
-  description: An experimental laser pistol fitted with a self-charging nuclear battery. # Goobstation
+  description: Un pistolet laser expérimental équipé d'une batterie nucléaire à auto-recharge.
   components:
   - type: Item
     #size: Normal # Goob we want the L shaped size
@@ -941,10 +941,10 @@
     - LaserWeapon
 
 - type: entity
-  name: C.H.I.M.P. handcannon
+  name: C.H.I.M.P. pistolet canon
   parent: [BaseWeaponBatterySmall, BaseScienceContraband]
   id: WeaponPistolCHIMP
-  description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
+  description: Ce n'est pas parce que c'est un petit C.H.I.M.P. qu'il ne peut pas frapper comme un A.P.E.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
@@ -995,10 +995,10 @@
 
 
 - type: entity
-  name: experimental C.H.I.M.P. handcannon
+  name: C.H.I.M.P. pistolet canon expérimental
   parent: [WeaponPistolCHIMP, BaseSyndicateContraband]
   id: WeaponPistolCHIMPUpgraded
-  description: This C.H.I.M.P. seems to have a greater punch than usual...
+  description: Ce C.H.I.M.P. semble avoir une frappe plus puissante que d'habitude...
   components:
   - type: BatteryWeaponFireModes
     fireModes:
@@ -1014,10 +1014,10 @@
       fireCost: 100
 
 - type: entity
-  name: eye of a behonker
+  name: œil d'un behonker
   parent: BaseWeaponBatterySmall
   id: WeaponBehonkerLaser
-  description: The eye of a behonker, it fires a laser when squeezed.
+  description: L'œil d'un behonker, il tire un laser quand on le presse.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
@@ -1041,10 +1041,10 @@
     - LaserWeapon
 
 - type: entity
-  name: Energy Shotgun # Goobstation
-  parent: [BaseWeaponBattery, BaseGunWieldable, BaseGrandTheftContraband] # Goobstation
+  name: Fusil à pompe énergétique
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseGrandTheftContraband]
   id: WeaponEnergyShotgun
-  description: A one-of-a-kind energy weapon that fires a barrage of red-hot plasma rather than a laser beam. Comes with a fire selector between narrow, wide, and disabling, making it a diverse weapon in the right hands. # Goobstation
+  description: Une arme énergétique unique en son genre qui tire une salve de plasma brûlant plutôt qu'un faisceau laser. Livrée avec un sélecteur de tir entre étroit, large et paralysant, ce qui en fait une arme polyvalente entre les bonnes mains.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
@@ -1206,12 +1206,12 @@
 - type: entity
   parent: [WeaponAdvancedLaser, BaseXenoborgContraband]
   id: WeaponLaserGunXenoborg
-  name: xenoborg laser gun
+  name: pistolet laser xenoborg
 
 - type: entity
   parent: [WeaponLaserCannon, BaseXenoborgContraband]
   id: WeaponLaserCannonXenoborg
-  name: xenoborg laser cannon
+  name: canon laser xenoborg
   components:
   - type: BatterySelfRecharger
     autoRechargeRate: 30

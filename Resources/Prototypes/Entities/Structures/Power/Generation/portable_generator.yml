@@ -128,10 +128,10 @@
         enabled: false
 
 - type: entity
-  name: P.A.C.M.A.N.-type portable generator
+  name: générateur portable de type P.A.C.M.A.N.
   description: |-
-    A flexible backup generator for powering a variety of equipment.
-    Runs off solid plasma sheets and is rated for up to 30 kW.
+    Un générateur de secours polyvalent pour alimenter une variété d'équipements.
+    Fonctionne avec des plaques de plasma solide et est évalué jusqu'à 30 kW.
   parent: PortableGeneratorSwitchableBase
   id: PortableGeneratorPacman
   suffix: Plasma, 30 kW
@@ -189,10 +189,10 @@
       supplyRampTolerance: 1500
 
 - type: entity
-  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+  name: générateur portable de type S.U.P.E.R.P.A.C.M.A.N.
   description: |-
-    An advanced generator for powering departments.
-    Runs off uranium sheets and is rated for up to 50 kW.
+    Un générateur avancé pour alimenter les départements.
+    Fonctionne avec des plaques d'uranium et est évalué jusqu'à 50 kW.
   parent: PortableGeneratorSwitchableBase
   id: PortableGeneratorSuperPacman
   suffix: Uranium, 50 kW
@@ -245,11 +245,11 @@
       supplyRampTolerance: 2500
 
 - type: entity
-  name: J.R.P.A.C.M.A.N.-type portable generator
+  name: générateur portable de type J.R.P.A.C.M.A.N.
   description: |-
-    A small generator capable of powering individual rooms, in case of emergencies.
-    Runs off welding fuel and is rated for up to 8 kW.
-    Rated ages 3 and up.
+    Un petit générateur capable d'alimenter des pièces individuelles en cas d'urgence.
+    Fonctionne avec du carburant à souder et est évalué jusqu'à 8 kW.
+    Recommandé à partir de 3 ans.
   parent: PortableGeneratorBase
   id: PortableGeneratorJrPacman
   suffix: Welding Fuel, 8 kW

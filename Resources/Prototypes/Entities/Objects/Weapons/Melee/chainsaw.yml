@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: chainsaw
+  name: tronçonneuse
   parent: BaseItem
   id: Chainsaw
-  description: A very large chainsaw. Usually you use this for cutting down trees... usually.
+  description: Une très grande tronçonneuse. Habituellement utilisée pour abattre des arbres... habituellement.
   components:
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier

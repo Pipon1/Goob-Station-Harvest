@@ -1,7 +1,7 @@
 - type: entity
   id: OreBoxAshwood
-  name: ashwood ore box
-  description: An even larger storage container for holding unprocessed ores.
+  name: conteneur à minerais en bois cendré
+  description: Un conteneur de stockage encore plus grand pour stocker des minerais non traités.
   parent: OreBox
   components:
   - type: Sprite

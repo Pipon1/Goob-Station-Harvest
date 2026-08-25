@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalAI
-  name: personal ai device
-  description: Your electronic pal who's fun to be with!
+  name: IA personnelle
+  description: Ton pote électronique avec qui s'amuser !
   components:
   - type: Instrument
     allowPercussion: false
@@ -161,8 +161,8 @@
 - type: entity
   parent: [ PersonalAI, BaseSyndicateContraband]
   id: SyndicatePersonalAI
-  name: syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  name: IA personnelle du syndicat
+  description: Ton pote du Syndicat avec qui s'amuser !
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: PersonalAI
   id: GoldenPersonalAI
-  name: golden personal ai device
-  description: Your electronic pal who's fun to be with! Special golden edition!
+  name: IA personnelle dorée
+  description: Ton pote électronique avec qui s'amuser ! Édition spéciale dorée !
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: PersonalAI
   id: PotatoAI
-  name: potato artificial intelligence
-  description: It's a potato. You forced it to be sentient, you monster.
+  name: intelligence artificielle de patate
+  description: C'est une pomme de terre. Vous l'avez forcée à devenir consciente, monstre.
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -248,14 +248,14 @@
 - type: entity
   parent: ActionIntrinsicStore
   id: ActionPAIOpenShop
-  name: Software Catalog
-  description: Install new software to assist your owner.
+  name: Catalogue de logiciels
+  description: Installe de nouveaux logiciels pour aider ton propriétaire.
 
 - type: entity
   parent: BaseMentalAction
   id: ActionPAIMassScanner
-  name: Mass Scanner
-  description: View a mass scanner interface.
+  name: Scanner de masse
+  description: Voir une interface de scanner de masse.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -267,8 +267,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionPAIPlayMidi
-  name: Play MIDI
-  description: Open your portable MIDI interface to soothe your owner.
+  name: Jouer des MIDI
+  description: Ouvre ton interface MIDI portable pour apaiser ton propriétaire.
   components:
   - type: Action
     icon: Interface/Actions/pai-midi.png
@@ -280,8 +280,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionPAIOpenMap
-  name: Open Map
-  description: Open your map interface and guide your owner.
+  name: Ouvrir la carte
+  description: Ouvre ton interface carte et guide ton propriétaire.
   components:
   - type: Action
     icon: { sprite: Interface/Actions/pai-map.rsi, state: icon }

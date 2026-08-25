@@ -2,6 +2,7 @@ using System.Globalization;
 using Content.Goobstation.Shared.Sandevistan;
 using Content.Shared.Alert.Components;
 using Robust.Client.Player;
+using Robust.Shared.Localization;
 
 namespace Content.Goobstation.Client.Sandevistan;
 
@@ -29,7 +30,7 @@ public sealed class SandevistanAlertSystem : EntitySystem
         args.Amount = (int) ent.Comp.CurrentLoad;
     }
 
-    private ILocValue FormatSandeLoadDesc(LocArgs args)
+    private ILocValue FormatSandeLoadDesc(LocArgs args, LocContext ctx)
     {
         if (!(_player.LocalEntity is { } player && TryComp<SandevistanUserComponent>(player, out var sandeusercomp)))
             return new LocValueString("");

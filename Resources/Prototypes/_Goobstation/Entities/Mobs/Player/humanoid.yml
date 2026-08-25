@@ -30,8 +30,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: Lost Salvager
-      description: Lost crew from Frontier Sector
+      name: Récupérateur perdu
+      description: Équipage perdu du Secteur Frontier
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short

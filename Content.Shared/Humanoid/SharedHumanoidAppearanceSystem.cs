@@ -120,6 +120,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         var identity = ("user", Identity.Entity(uid, EntityManager));
         var species = ("species", GetSpeciesRepresentation(component.Species).ToLower());
         var age = ("age", GetAgeRepresentation(component.Species, component.Age));
+        var gender = ("gender", component.Sex.ToString().ToLower());
 
         // WWDP EDIT
         string locale = "humanoid-appearance-component-examine";
@@ -128,7 +129,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             locale += "-selfaware";
 
         // Goob Sanitize Text
-        args.PushText(Loc.GetString(locale, identity, age, species),
+        args.PushText(Loc.GetString(locale, identity, age, species, gender),
             100); // priority for examine
         // WWDP EDIT END
     }

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesClothwrap
-  name: cloth footwraps
-  description: A roll of treated canvas used for wrapping feet or paws.
+  name: bandelettes de pied en tissu
+  description: Un rouleau de toile traitée pour envelopper les pieds ou les pattes.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Misc/clothwrap.rsi

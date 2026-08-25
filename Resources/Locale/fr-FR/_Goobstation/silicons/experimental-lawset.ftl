@@ -1,0 +1,3 @@
+experimental-law-provider-start = Lancement des tests unitaires pour les lois de l'IA de station à l'aide d'un plateau de lois expérimental. Les points de recherche seront acquis dans : [bold]{$timeLeft}[/bold] secondes.
+experimental-law-provider-success = Test réussi d'un ensemble de lois expérimentales. Acquis [bold]{$amount}[/bold] points de recherche.
+experimental-law-provider-fail = Échec du test unitaire du nouvel ensemble de lois industrielles, car elles ont été écrasées par un nouveau plateau de lois.

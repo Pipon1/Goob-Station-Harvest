@@ -25,8 +25,8 @@
 - type: entity
   id: EnergySpeedloaderLethal
   parent: [ BaseEnergySpeedloader, BaseCentcommContraband ]
-  name: energy speedloader (lethal)
-  description: A rather volatile powercell utilizing phoron to charge lethal bolts over time. Phoron will make us all rich.
+  name: chargeur rapide d'énergie (létal)
+  description: Une pile d'énergie plutôt volatile utilisant du phoron pour charger des boulons létaux au fil du temps. Le phoron nous rendra tous riches.
   components:
   - type: BatteryAmmoProvider
     proto: BulletEnergyGunMagnum
@@ -39,8 +39,8 @@
 - type: entity
   id: EnergySpeedloaderDisabler
   parent: [ BaseEnergySpeedloader, BaseCentcommContraband ]
-  name: energy speedloader (disabler)
-  description: A rather volatile powercell utilizing phoron to charge disabling bolts over time. Phoron will make us all rich.
+  name: chargeur rapide d'énergie (neutralisant)
+  description: Une pile d'énergie plutôt volatile utilisant du phoron pour charger des boulons neutralisants au fil du temps. Le phoron nous rendra tous riches.
   components:
   - type: Sprite
     state: icon-disabling
@@ -55,8 +55,8 @@
 - type: entity
   id: EnergySpeedloaderPulse
   parent: [ BaseEnergySpeedloader, BaseCentcommContraband ]
-  name: energy speedloader (pulse)
-  description: A rather volatile powercell utilizing phoron to charge destructive energy pulses over time. Phoron will make us all rich.
+  name: chargeur rapide d'énergie (impulsion)
+  description: Une pile d'énergie plutôt volatile utilisant du phoron pour charger des pulsations d'énergie destructrices au fil du temps. Le phoron nous rendra tous riches.
   components:
   - type: BatteryAmmoProvider
     proto: LightPulse

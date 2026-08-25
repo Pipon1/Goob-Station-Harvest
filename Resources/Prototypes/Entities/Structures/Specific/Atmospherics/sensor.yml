@@ -40,8 +40,8 @@
 
 - type: entity
   id: AirSensor
-  name: air sensor
-  description: Air sensor. It senses air.
+  name: capteur d'air
+  description: Capteur d'air. Il détecte l'air.
   parent: AirSensorBase
   placement:
     mode: SnapgridCenter
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseItem
   id: AirSensorAssembly
-  name: air sensor assembly
-  description: Air sensor assembly. An assembly of air sensors?
+  name: assemblage de capteur d'air
+  description: Assemblage de capteur d'air. Un assemblage de capteurs d'air ?
   components:
   - type: Item
     size: Small

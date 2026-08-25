@@ -1,6 +1,6 @@
 - type: entity
-  name: tower-cap ashwood log
-  description: It's better than bad, it's good!
+  name: bûche de bois de tower-cap cendré
+  description: C'est pas juste pas mauvais, c'est bon !
   id: AshwoodLog
   parent: ProduceBase
   components:

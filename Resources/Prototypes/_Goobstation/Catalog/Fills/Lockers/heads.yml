@@ -20,7 +20,7 @@
 
 - type: entity
   id: LockerNanorepFilled
-  suffix: Filled
+  suffix: Rempli
   parent: LockerNanorep
   components:
   - type: EntityTableContainerFill
@@ -47,7 +47,7 @@
 
 - type: entity
   id: LockerBlueshieldOfficerFilled
-  suffix: Filled
+  suffix: Rempli
   parent: LockerBlueshieldOfficer
   components:
   - type: EntityTableContainerFill

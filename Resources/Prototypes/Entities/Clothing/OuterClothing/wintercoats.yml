@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterWinterCoat
-  name: winter coat
-  description: A heavy jacket made from 'synthetic' animal furs.
+  name: manteau d'hiver
+  description: "Une lourde veste fabriquée à partir de fourrures animales « synthétiques »."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, ClothingOuterWinterCoat ]
   id: ClothingOuterWinterCoatToggleable
-  name: winter coat with hood
+  name: manteau d'hiver avec capuche
   categories: [ HideSpawnMenu ]
   components:
   - type: ToggleableClothing # Goobstation - Modsuits change
@@ -68,7 +68,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterAtmos
-  name: atmospherics winter coat
+  name: manteau d'hiver atmosphérique
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatatmos.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterBar
-  name: bartender winter coat
+  name: manteau d'hiver du barman
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatbar.rsi
@@ -94,7 +94,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterCap
-  name: captain's winter coat
+  name: manteau d'hiver du capitaine
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcap.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCargo
-  name: cargo winter coat
+  name: manteau d'hiver de cargo
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcargo.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterCE
-  name: chief engineer's winter coat
+  name: manteau d'hiver du chef ingénieur
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatce.rsi
@@ -133,7 +133,7 @@
 - type: entity
   parent: [ ClothingOuterWinterCoatToggleable, BaseCentcommContraband ]
   id: ClothingOuterWinterCentcom
-  name: CentComm winter coat
+  name: manteau d'hiver de CentComm
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterChef
-  name: chef's freezer coat
-  description: A coat specifically designed for work inside cold storage, sorely needed by cold-blooded lizard chefs.
+  name: manteau de congélateur du chef
+  description: Un manteau spécialement conçu pour travailler à l'intérieur d'une pièce frigorifique, absolument nécessaire pour les chefs lézards à sang froid.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchef.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterChem
-  name: chemistry winter coat
+  name: manteau d'hiver de chimiste
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatchem.rsi
@@ -177,7 +177,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterCMO
-  name: chief medical officer's winter coat
+  name: manteau d'hiver du médecin-chef
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcmo.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterClown
-  name: clown winter coat
+  name: manteau d'hiver du clown
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterEngi
-  name: engineering winter coat
+  name: manteau d'hiver d'ingénierie
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatengi.rsi
@@ -220,7 +220,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterGen
-  name: genetics winter coat
+  name: manteau d'hiver de généticien
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatgen.rsi
@@ -240,7 +240,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterHoP
-  name: head of personnel's winter coat
+  name: manteau d'hiver du chef du personnel
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathop.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterWinterCoatToggleable, BaseSecurityCommandContraband]
   id: ClothingOuterWinterHoS
-  name: head of security's armored winter coat
-  description: A sturdy, utilitarian winter coat designed to protect a head of security from any brig-bound threats and hypothermic events.
+  name: manteau d'hiver blindé du chef de la sécurité
+  description: Un manteau d'hiver robuste et utilitaire conçu pour protéger un chef de la sécurité de toute menace liée au brig et des événements hypothermiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseSecurityCommandContraband]
   id: ClothingOuterWinterHoSUnarmored
-  name: head of security's winter coat
-  description: A sturdy coat, a warm coat, but not an armored coat.
+  name: manteau d'hiver du chef de la sécurité
+  description: Un manteau robuste, un manteau chaud, mais pas un manteau blindé.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathos.rsi
@@ -297,7 +297,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHydro
-  name: hydroponics winter coat
+  name: manteau d'hiver de botaniste
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathydro.rsi
@@ -310,7 +310,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterJani
-  name: janitorial winter coat
+  name: manteau d'hiver de concierge
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatjani.rsi
@@ -330,7 +330,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMed
-  name: medical winter coat
+  name: manteau d'hiver de médecin
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmed.rsi
@@ -350,7 +350,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMime
-  name: mime winter coat
+  name: manteau d'hiver du mime
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatmime.rsi
@@ -363,7 +363,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterMiner
-  name: mining winter coat
+  name: manteau d'hiver de mineur
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatminer.rsi
@@ -376,7 +376,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterPara
-  name: paramedic winter coat
+  name: manteau d'hiver d'urgentiste
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatparamed.rsi
@@ -396,7 +396,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterQM
-  name: quartermaster's winter coat
+  name: manteau d'hiver du quartier-maître
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatqm.rsi
@@ -410,7 +410,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
   id: ClothingOuterWinterRD
-  name: research director's winter coat
+  name: manteau d'hiver du directeur de la recherche
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrd.rsi
@@ -430,7 +430,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterRobo
-  name: robotics winter coat
+  name: manteau d'hiver de roboticien
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrobo.rsi
@@ -444,7 +444,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSci
-  name: science winter coat
+  name: manteau d'hiver de scientifique
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatsci.rsi
@@ -464,7 +464,7 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseSecurityContraband]
   id: ClothingOuterWinterSec
-  name: security winter coat
+  name: manteau d'hiver de securité
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatsec.rsi
@@ -477,7 +477,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterViro
-  name: virology winter coat
+  name: manteau d'hiver de virologue
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatviro.rsi
@@ -498,8 +498,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterWinterCoatToggleable, BaseWardenContraband]
   id: ClothingOuterWinterWarden
-  name: warden's armored winter coat
-  description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
+  name: manteau d'hiver blindé du gardien
+  description: Un manteau d'hiver robuste et utilitaire conçu pour protéger un gardien de toute menace liée au cachot et des événements hypothermiques.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
@@ -528,8 +528,8 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseSecurityContraband]
   id: ClothingOuterWinterWardenUnarmored
-  name: warden's winter coat
-  description: A sturdy coat, a warm coat, but not an armored coat.
+  name: manteau d'hiver du gardien
+  description: Un manteau robuste, un manteau chaud, mais pas un manteau blindé.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatwarden.rsi
@@ -542,8 +542,8 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseSyndicateContraband]
   id: ClothingOuterWinterSyndieCap
-  name: syndicate's winter coat
-  description: "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  name: manteau d'hiver du Syndicat
+  description: "Le manteau d'hiver du Syndicat est fabriqué dans un tissu durable, avec des motifs dorés et de la laine grossière."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecap.rsi
@@ -557,8 +557,8 @@
 - type: entity
   parent: [ BaseSyndicateContraband, ClothingOuterWinterWarden ]
   id: ClothingOuterWinterSyndieCapArmored
-  name: syndicate's armored winter coat
-  description: "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  name: manteau d'hiver blindé du Syndicat
+  description: "Le manteau d'hiver blindé du Syndicat est fabriqué dans un tissu durable, avec des motifs dorés et de la laine grossière."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
@@ -572,8 +572,8 @@
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseSyndicateContraband]
   id: ClothingOuterWinterSyndie
-  name: syndicate's winter coat
-  description: Insulated winter coat, looks like a merch from "Syndieland".
+  name: manteau d'hiver du Syndicat
+  description: "Manteau d'hiver isolé, ressemble à un truc qu'on trouverait à « Syndieland »."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi
@@ -586,8 +586,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterMusician
-  name: musician's winter coat
-  description: An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
+  name: manteau d'hiver du musicien
+  description: "Un smoking spatial surdimensionné et plastique qui fera que les gens vous demanderont « vous me connaissez ? »"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
@@ -597,8 +597,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterWeb
-  name: web winter coat
-  description: Feels like the inside of a cocoon, not that this would make you less afraid of being in one.
+  name: manteau d'hiver web
+  description: Cela ressemble à l'intérieur d'un cocon, pas que cela vous rendrait moins effrayé d'en être dans un.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatweb.rsi
@@ -630,7 +630,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorBlack
-  name: black winter coat
+  name: manteau d'hiver noir
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -662,7 +662,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorPurple
-  name: purple winter coat
+  name: manteau d'hiver violet
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -694,7 +694,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorRed
-  name: red winter coat
+  name: manteau d'hiver rouge
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -726,7 +726,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorBlue
-  name: blue winter coat
+  name: manteau d'hiver bleu
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -758,7 +758,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorBrown
-  name: brown winter coat
+  name: manteau d'hiver marron
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -790,7 +790,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorGray
-  name: gray winter coat
+  name: manteau d'hiver gris
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -822,7 +822,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorGreen
-  name: green winter coat
+  name: manteau d'hiver vert
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -854,7 +854,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorLightBrown
-  name: light brown winter coat
+  name: manteau d'hiver marron clair
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -886,7 +886,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorOrange
-  name: orange winter coat
+  name: manteau d'hiver orange
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -918,7 +918,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorWhite
-  name: white winter coat
+  name: manteau d'hiver blanc
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
@@ -950,7 +950,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterColorYellow
-  name: yellow winter coat
+  name: manteau d'hiver jaune
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi

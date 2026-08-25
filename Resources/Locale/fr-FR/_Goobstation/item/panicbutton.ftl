@@ -1,0 +1,1 @@
+panic-button-distress = Signal de détresse de sécurité activé. Renforts immédiats demandés : {$position}.

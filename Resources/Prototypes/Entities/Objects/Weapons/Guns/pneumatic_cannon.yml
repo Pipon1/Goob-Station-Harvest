@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: improvised pneumatic cannon
+  name: canon pneumatique artisanal
   parent: [BaseStorageItem, BaseMinorContraband]
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: Fabriqué artisanalement avec un tuyau, des attaches câbles et un canon pneumatique. N'accepte pas les réservoirs sans assez de gaz.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -69,9 +69,9 @@
 - type: entity
   parent: BaseStorageItem
   id: LauncherCreamPie
-  name: pie cannon
+  name: canon à tarte
   suffix: Empty
-  description: Load cream pie for optimal results.
+  description: Chargez une tarte à la crème pour des résultats optimaux.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -110,10 +110,10 @@
         ents: []
 
 - type: entity
-  name: experimental pie cannon
+  name: canon à tarte expérimental
   parent: BaseWeaponBattery
   id: BorgLauncherCreamPie
-  description: Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
+  description: Livrez une généreuse portion de crème directement à l'équipage ! Cuit automatiquement des tartes au fil du temps.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi

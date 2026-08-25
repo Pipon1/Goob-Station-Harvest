@@ -1,8 +1,8 @@
 - type: entity
-  name: Legion
+  name: Légion
   id: LavalandBossMegaLegion
   parent: LavalandMobBase
-  description: One of many.
+  description: L'une parmi tant d'autres.
   components:
   - type: EmitSoundOnSpawn
     sound:

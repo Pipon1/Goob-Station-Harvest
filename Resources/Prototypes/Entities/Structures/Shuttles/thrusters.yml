@@ -3,8 +3,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: thruster
-  description: A thruster that allows a shuttle to move.
+  name: propulseur
+  description: Un propulseur qui permet à une navette de se déplacer.
   abstract: true
   components:
     - type: Fixtures
@@ -64,7 +64,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: propulseur
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -120,7 +120,7 @@
 
 - type: entity
   id: ThrusterLarge
-  name: large thruster
+  name: gros propulseur
   parent: [ BaseThruster]
   placement:
     mode: AlignTileAny
@@ -220,7 +220,7 @@
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
   name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  description: Augmente la rotation angulaire potentielle de la navette.
   components:
   - type: Thruster
     thrusterType: Angular
@@ -320,8 +320,8 @@
 - type: entity
   id: RustedThruster
   parent: BaseStructureDynamic
-  name: rusted thruster
-  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+  name: propulseur rouillé
+  description: Un propulseur irréparable, usé par le temps et l'usage. Ne sert qu'à être mis au rebut.
   components:
     - type: Fixtures
       fixtures:
@@ -367,9 +367,9 @@
 - type: entity
   id: ThrusterShuttleEvac # Can't be unanchored and hard to destroy
   parent: BaseStructure
-  name: thruster
-  description: A thruster that allows a shuttle to move.
-  suffix: Evac shuttle, unanchorable
+  name: propulseur
+  description: Un propulseur qui permet à une navette de se déplacer.
+  suffix: Navette d'évacuation, inamovible
   components:
     - type: Fixtures
       fixtures:

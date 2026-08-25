@@ -3,31 +3,31 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Air Scrubber
-  The air scrubber is essential in maintaining an atmosphere free of waste gasses emitted by breathing creatures and atmospheric upsets.
-  Its primary job is to scrub unwanted gasses from the atmosphere it's exposed to.
+  # Épurateur d'Air
+  L'épurateur d'air est essentiel pour maintenir une atmosphère sans gaz déchets émis par les créatures respirantes et les perturbations atmosphériques.
+  Son boulot principal est d'épurifier les gaz non désirés de l'atmosphère où il est exposé.
   <Box>
     <GuideEntityEmbed Entity="GasVentScrubber"/>
   </Box>
-  The air scrubber requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  L'épurateur d'air nécessite du [textlink="courant" link="Power"] via un [textlink="câble BT" link="VoltageNetworks"] proche pour fonctionner.
 
-  The default behavior of an air scrubber is to scrub all gasses except Nitrogen and Oxygen from the atmosphere it's exposed to. It will continue this behavior unless directed by a [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"].
+  Le comportement par défaut d'un épurateur d'air est d'épurifier tous les gaz sauf Azote et Oxygène de l'atmosphère où il est exposé. Il continuera ce comportement sauf si dirigé par une [textlink="liée" link="Networking"] [textlink="alarme à air" link="AirAlarms"].
 
-  The scrubber can be welded with any welding tool to stop it from functioning.
+  L'épurateur peut être soudé avec n'importe quel outil de soudure pour l'arrêter.
 
-  ## Configuration Options
-  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air scrubbers gain more functionality.
+  ## Options de Configuration
+  Quand [textlink="lié" link="Networking"] à une [textlink="alarme à air" link="AirAlarms"], les épurateurs d'air gagnent plus de fonctionnalités.
 
-  The target gasses for scrubbing can be defined in the "Gas filters" dropdown. Keep in mind this resets if you change [textlink="air alarm" link="AirAlarms"] modes.
+  Les gaz cibles pour l'épuration peuvent être définis dans le menu déroulant "Filtres à gaz". Gardez en tête que ça se reset si vous changez de [textlink="mode d'alarme à air" link="AirAlarms"].
 
-  Air scrubbers have two "direction" options: Scrubbing and Siphoning.
-  - Scrubbing scrubs gasses as defined in the gas filters.
-  - Siphoning ignores all gas filters, and sucks all gasses out of the atmosphere.
+  Les épurateurs d'air ont deux options de "direction" : Épuration et Aspiration.
+  - L'Épuration épure les gaz comme définis dans les filtres à gaz.
+  - L'Aspiration ignore tous les filtres à gaz, et aspire tous les gaz de l'atmosphère.
 
-  Both of these modes are limited by the Rate setting, which defines the rate (in litres) at which the scrubber sucks gasses from its exposed atmosphere.
+  Ces deux modes sont limités par le réglage Débit, qui définit le débit (en litres) auquel l'épurateur aspire les gaz de son atmosphère exposée.
 
-  Air scrubbers also have a "WideNet" setting, which expands the radius of the scrubber's operating range. Normally, the scrubber scrubs the atmosphere on the single tile it's exposed to.
-  In WideNet mode, the scrubber scrubs gas from the 4 tiles surrounding the scrubber, as shown:
+  Les épurateurs d'air ont aussi un réglage "WideNet", qui étend le rayon de portée de l'épurateur. Normalement, l'épurateur épure l'atmosphère sur la tuile unique où il est exposé.
+  En mode WideNet, l'épurateur épure le gaz des 4 tuiles autour de l'épurateur, comme montré :
 
   <Box>
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
@@ -41,10 +41,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
   </Box>
 
-  This effectively multiplies its total speed, as air scrubbers will now preform their scrubbing work on 5 tiles at once.
+  Ceci multiplie efficacement sa vitesse totale, car les épurateurs d'air font maintenant leur boulot sur 5 tuiles à la fois.
 
-  Scrubbers [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"] in auto mode will automatically enable WideNet mode under the [textlink="air alarm's" link="AirAlarms"] "Filtering (Wide)" mode when a high concentration of unwanted gasses is detected in the atmosphere.
+  Les épurateurs [textlink="liés" link="Networking"] à une [textlink="alarme à air" link="AirAlarms"] en mode auto activeront automatiquement le mode WideNet sous le mode "Filtration (Large)" de l'[textlink="alarme à air" link="AirAlarms"] quand une haute concentration de gaz non désirés est détectée dans l'atmosphère.
 
-  WideNet is extremely useful in quickly scrubbing large amounts of tritium from plasma burn chambers.
-
+  WideNet est super utile pour épurer rapidement de grandes quantités de tritium des chambres de combustion plasma.
 </Document>

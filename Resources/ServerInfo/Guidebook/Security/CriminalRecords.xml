@@ -3,42 +3,42 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Criminal Records
-  The criminal records console is accessible in every station's security department, it serves the purpose of tracking and managing the criminal history and status of anybody part of the crew manifest.
+  # Casier Judiciaire
+  La console casier judiciaire est accessible dans le département sécurité de chaque station, elle sert à tracer et gérer l'historique criminel et le statut de n'importe qui faisant partie du manifeste d'équipage.
 
   <Box>
   <GuideEntityEmbed Entity="ComputerCriminalRecords"/>
   </Box>
 
-  Anyone can open the console's UI, but only those with Security access can modify anything.
+  N'importe qui peut ouvrir l'UI de la console, mais seuls ceux avec accès Sécurité peuvent modifier quoi que ce soit.
 
-  The UI is composed by the following elements:
-  - A search bar that has a filter next to it that lets you filter the crewmembers by their names, fingerprints or DNA.
+  L'UI est composée des éléments suivants :
+  - Une barre de recherche avec un filtre à côté qui permet de filtrer les membres d'équipage par leurs noms, empreintes ou ADN.
 
-  - A list of all the crewmembers in the manifest, selecting one of the entries will make the criminal records of a crewmember appear. The list is filtered by the search bar so make sure it's empty if you want an overall overview!
+  - Une liste de tous les membres d'équipage du manifeste, en sélectionnant une entrée, le casier judiciaire du membre apparaît. La liste est filtrée par la barre de recherche donc assurez-vous qu'elle est vide si vous voulez une vue d'ensemble !
 
-  - The criminal records themselves
+  - Le casier judiciaire lui-même
 
-  - The filter button below the crew list can be used to show only wanted, detained, or paroled crew.
-  In the record section you can:
-    - See security-related information about a crewmember like their name, fingerprints and DNA.
+  - Le bouton filtre sous la liste d'équipe peut être utilisé pour afficher seulement les recherchés, détenus, ou relâchés sous condition.
+  Dans la section casier, vous pouvez :
+    - Voir les infos liées à la sécurité sur un membre d'équipage comme son nom, empreintes et ADN.
 
-    - Change the security status between [color=gray]None[/color], [color=yellow]Wanted[/color] and [color=red]Detained[/color]. When setting it to Wanted you will be asked to write a reason.
+    - Changer le statut sécurité entre [color=gray]Aucun[/color], [color=yellow]Recherché[/color] et [color=red]Détenu[/color]. En le mettant à Recherché, on vous demandera d'écrire une raison.
 
-    - If they are wanted, you can see the reason given below the status dropdown.
+    - S'ils sont recherchés, vous pouvez voir la raison donnée sous le menu déroulant statut.
 
-    - Once someone has been arrested, update their status on the console so everyone knows they no longer need to be captured.
+    - Une fois quelqu'un arrêté, mettez à jour son statut sur la console pour que tout le monde sache qu'il n'a plus besoin d'être capturé.
 
-    - After they've done their time, release them and update their status to None so nobody thinks they are an escaped convict.
+    - Après qu'ils aient fait leur temps, relâchez-les et mettez leur statut à Aucun pour que personne ne croit qu'ils sont des évadés.
 
-    - Open the Crime History window to check or modify it.
+    - Ouvrir la fenêtre Historique Criminel pour le checker ou le modifier.
 
-  The Crime History window lists someone's crimes and can be modified in multiple ways:
-    - Automatically, just by setting someone's status to arrested. The reason will be added to "ARRESTED:" so it's easy to see the automated entries.
+  La fenêtre Historique Criminel liste les crimes de quelqu'un et peut être modifiée de plusieurs façons :
+    - Automatiquement, juste en mettant le statut de quelqu'un à arrêté. La raison sera ajoutée à "ARRÊTÉ:" pour voir facilement les entrées automatiques.
 
-    - Adding a new line by clicking "Add" and writing something in the input box. When adding a record, remember to mention their crime and sentence, the console will automatically insert the shift's time so you don't need to!
+    - Ajouter une nouvelle ligne en cliquant "Ajouter" et en écrivant quelque chose dans la boîte. En ajoutant un dossier, n'oubliez pas de mentionner leur crime et peine, la console insérera automatiquement l'heure du shift donc pas besoin !
 
-    - Select a line of unwanted history and click "Delete" to remove it. Excellent for keeping records clean from the clown's stolen ID antics.
+    - Sélectionner une ligne d'historique non désiré et cliquer "Supprimer" pour la virer. Excellent pour garder les dossiers propres des conneries de vol de carte d'accès du clown.
 
-  Now you can be the desk jockey you've always wanted to be.
+  Maintenant vous pouvez être le bureaucrate de bureau que vous avez toujours voulu être.
 </Document>

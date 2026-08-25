@@ -19,8 +19,8 @@
 - type: entity
   parent: [ BaseItem, BaseSportsBall ]
   id: Basketball
-  name: basketball
-  description: Where dah courts at?
+  name: ballon de basket
+  description: Où sont les terrains ?
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/basketball.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: [ BaseItem, BaseSportsBall ]
   id: Football
-  name: football
-  description: Otherwise known as a handegg.
+  name: ballon de football américain
+  description: Autrement connu comme un œuf à la main.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/football.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ BaseItem, BaseSportsBall ]
   id: TennisBall
-  name: tennis ball
-  description: A fuzzy orb of endless betrayal.
+  name: balle de tennis
+  description: Un orbe poilue de trahison sans fin.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/tennisball.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: [ BaseItem, BaseSportsBall ]
   id: BeachBall
-  name: beach ball
-  description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
+  name: ballon de plage
+  description: Le simple ballon de plage est l'un des produits les plus populaires de Nanotrasen. 'Pourquoi faisons-nous des ballons de plage ? Parce que nous pouvons ! (TM)' - Nanotrasen
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/beach_ball.rsi
@@ -137,7 +137,7 @@
   parent: BeachBall
   id: EvilBeachBall
   suffix: EVIL/ADMEME
-  description: Someone's drawn ">:3c" on the side of this beach ball in indelible ink.
+  description: Quelqu'un a dessiné ">:3c" sur le côté de ce ballon de plage avec de l'encre indélébile.
   components:
   - type: Fixtures
     fixtures:

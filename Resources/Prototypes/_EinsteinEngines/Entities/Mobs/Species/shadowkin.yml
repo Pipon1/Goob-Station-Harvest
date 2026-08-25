@@ -5,7 +5,7 @@
   parent:
   - BaseMobSpeciesOrganic
   id: MobShadowkinBase
-  name: Urist McShadow
+  name: Urist McOmbre
   abstract: true
   components:
   - type: LanguageKnowledge # Einstein Engines - Language
@@ -228,7 +228,7 @@
   parent: MobHumanDummy
   id: MobShadowkinDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy shadowkin meant to be used in character setup.
+  description: Un Ombrekin factice destiné à être utilisé lors de la création du personnage.
   components:
     - type: HumanoidAppearance
       species: Shadowkin

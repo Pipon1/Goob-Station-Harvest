@@ -3,8 +3,8 @@
 - type: entity
   id: BaseCurtains
   parent: BaseStructure
-  name: curtains
-  description: Hides what others shouldn't see.
+  name: rideaux
+  description: Cache ce que les autres ne devraient pas voir.
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -65,7 +65,7 @@
   id: HospitalCurtains
   parent: BaseCurtains
   suffix: Hospital
-  description: Contains less than 1% mercury.
+  description: Contient moins de 1 % de mercure.
   components:
   - type: Sprite
     snapCardinals: true

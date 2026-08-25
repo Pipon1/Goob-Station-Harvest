@@ -15,9 +15,9 @@
 - type: entity
   id: Stairs
   parent: BaseFloorDecoration
-  name: stairs
-  suffix: Steel
-  description: The greatest invention since rocket-propelled grenades.
+  name: escaliers
+  suffix: Acier
+  description: La plus grande invention depuis les lance-grenades à propulsion par fusée.
   components:
   - type: Anchorable
     flags:
@@ -52,7 +52,7 @@
 - type: entity
   id: StairStage
   parent: Stairs
-  suffix: Steel, stage
+  suffix: Acier, scène
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -62,7 +62,7 @@
 - type: entity
   id: StairWhite
   parent: Stairs
-  suffix: White
+  suffix: Blancs
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -72,7 +72,7 @@
 - type: entity
   id: StairStageWhite
   parent: Stairs
-  suffix: White, stage
+  suffix: Blancs, scène
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -82,7 +82,7 @@
 - type: entity
   id: StairDark
   parent: Stairs
-  suffix: Dark
+  suffix: Noirs
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -92,7 +92,7 @@
 - type: entity
   id: StairStageDark
   parent: Stairs
-  suffix: Dark, stage
+  suffix: Noirs, scène
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -102,7 +102,7 @@
 - type: entity
   id: StairWood
   parent: Stairs
-  suffix: Wood
+  suffix: Bois
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -112,7 +112,7 @@
 - type: entity
   id: StairStageWood
   parent: Stairs
-  suffix: Wood, stage
+  suffix: Bois, scène
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi

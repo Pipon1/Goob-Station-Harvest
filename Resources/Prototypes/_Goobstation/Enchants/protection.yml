@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseProtEnchant
   id: EnchantProtBlast
-  name: Blast Protection
+  name: Protection contre les Explosions
   components:
   - type: Enchant
     incompatible:
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseProtEnchant
   id: EnchantProtFire
-  name: Fire Protection
+  name: Protection contre le Feu
   components:
   - type: Enchant
     maxLevel: 4

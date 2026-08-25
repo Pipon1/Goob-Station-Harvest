@@ -2,7 +2,7 @@
 
 - type: entity
   id: XenoWardingTower
-  name: xeno warding tower
+  name: tour de protection xéno
   placement:
     mode: SnapgridCenter
     snap:
@@ -55,8 +55,8 @@
 - type: entity
   parent: XenoWardingTower
   id: CarpStatue
-  name: carp statue
-  description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
+  name: statue de carpe
+  description: Une statue de l'une des braves carpes qui nous a menés là où nous sommes aujourd'hui. Fabriquée avec de vraies dents !
   components:
   - type: Sprite
     noRot: true
@@ -88,7 +88,7 @@
   parent: CarpStatue
   id: CarpStatueEmpty
   suffix: Empty
-  description: A lump of precious metals, soon to be a brilliant carp statue.
+  description: Un bloc de métaux précieux, bientôt une brillante statue de carpe.
   components:
   - type: Sprite
     layers:
@@ -100,7 +100,7 @@
   parent: CarpStatue
   id: CarpStatueEyes
   suffix: Eyes
-  description: A statue of one of the brave carp that got us where we are today. This one needs a dentist...
+  description: Une statue de l'une des braves carpes qui nous a menés là où nous sommes aujourd'hui. Celle-ci a besoin d'un dentiste...
   components:
   - type: Sprite
     layers:

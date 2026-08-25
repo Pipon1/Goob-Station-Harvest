@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: bow
+  name: arc
   parent: [BaseItem, BaseMinorContraband]
   id: BaseBow
-  description: The original rooty tooty point and shooty.
+  description: L'original. Pointez, tirez, relâchez.
   abstract: true
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
   - type: ItemSlots
     slots:
       projectiles:
-        name: Projectiles
+        name: Flèches
         startingItem: null
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:
@@ -55,7 +55,7 @@
 - type: entity
   id: BowImprovised
   parent: BaseBow
-  name: improvised shortbow
+  name: arc court improvisé
   components:
   - type: Sprite
     layers:

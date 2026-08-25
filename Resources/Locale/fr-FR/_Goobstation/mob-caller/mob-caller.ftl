@@ -1,0 +1,1 @@
+mob-caller-occluded = [color=red]Ne fonctionne pas car non exposé à l'espace.[/color]

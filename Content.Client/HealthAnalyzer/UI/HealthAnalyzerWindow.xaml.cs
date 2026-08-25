@@ -513,9 +513,16 @@ namespace Content.Client.HealthAnalyzer.UI
             TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             foreach (var (ent, data) in solutions)
             {
+                // Harvest: localize bloodstream and stomach to display in health scanner
+                string displayName = data.Name ?? Loc.GetString("group-solution-unknown");
+                if (displayName == "bloodstream")
+                    displayName = Loc.GetString("solution-name-bloodstream");
+                else if (displayName == "stomach")
+                    displayName = Loc.GetString("solution-name-stomach");
+
                 var groupTitleText = $"{Loc.GetString(
                     "group-solution-name",
-                    ("solution", data.Name ?? Loc.GetString("group-solution-unknown"))
+                    ("solution", displayName)
                 )}";
 
                 var groupContainer = new BoxContainer

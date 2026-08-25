@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieRed
-  name: red-tie
-  description: A neosilk clip-on red tie.
+  name: cravate rouge
+  description: Une cravate rouge à clip en néosoie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/redtie.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieDet
-  name: detective's tie
-  description: A loosely tied necktie, a perfect accessory for the over-worked detective.
+  name: cravate de détective
+  description: Une cravate nouée lâchement, l'accessoire parfait pour le détective surmené.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/dettie.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingNeckTieBase
   id: ClothingNeckTieSci
-  name: scientist's tie
-  description: Why do we all have to wear these ridiculous ties?
+  name: cravate de scientifique
+  description: Pourquoi devons-nous tous porter ces cravates ridicules ?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/scitie.rsi

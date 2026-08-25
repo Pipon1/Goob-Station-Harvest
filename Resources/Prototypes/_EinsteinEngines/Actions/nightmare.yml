@@ -1,7 +1,7 @@
 - type: entity
   id: ActionLightEater
-  name: Light Eater
-  description: Ash or disable every light that you hit with your arm blade.
+  name: Dévoreur de lumière
+  description: Brûlez ou désactivez chaque lumière que vous frappez avec votre lame de bras.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMagazinePistolCaselessRifle
   id: MagazinePistolCaselessRiflePoison
-  name: pistol magazine (.25 caseless toxin)
-  description: 10-round magazine for the Cobra pistol. Intended to hold poisonous ammunition.
+  name: chargeur pistolet (.25 sans étui toxique)
+  description: Chargeur de 10 coups pour le pistolet Cobra. Destiné à contenir des munitions toxiques.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePoison
@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseMagazinePistolCaselessRifle
   id: MagazinePistolCaselessRifleTranquilizer
-  name: pistol magazine (.25 caseless tranq)
-  description: 10-round magazine for the Cobra pistol. Intended to hold tranquilizer ammunition.
+  name: chargeur pistolet (.25 sans étui tranquillisant)
+  description: Chargeur de 10 coups pour le pistolet Cobra. Destiné à contenir des munitions tranquillisantes.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleTranquilizer

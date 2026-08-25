@@ -3,8 +3,8 @@
 - type: entity
   id: CigPackBlueshield
   parent: [BaseCentcommContraband, CigPackSyndicate] # Don't tell them
-  name: blueshield cigarette packet
-  description: High-grade cigarettes for a high-grade bodyguard. Infused with a slow-affecting medication to help soothe you.
+  name: paquet de cigarettes blueshield
+  description: Cigarettes haut de gamme pour un garde du corps haut de gamme. Infusées d'un médicament à action lente pour vous apaiser.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Smokeables/Cigarettes/Packs/blueshield.rsi
@@ -14,8 +14,8 @@
 - type: entity
   id: CigPackMedical
   parent: [CigPackBase]
-  name: Chemlab cigarette packet
-  description: Made for and by big pharma. contains 10 super absorbant cigerattes.
+  name: paquet de cigarettes Chemlab
+  description: Fabriquées par et pour Big Pharma. Contient 10 cigarettes super absorbantes.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/Smokeables/Cigarettes/Packs/chem.rsi

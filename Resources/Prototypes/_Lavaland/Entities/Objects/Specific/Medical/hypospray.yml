@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: survival medipen
+  name: medipen de survie
   parent: ChemicalMedipen
   id: SurvivalMedipen
-  description: A cocktail of powerful healing chemicals. Slowly heals damage and stabilizes body temperature. You can overdose on these if you use more than one in quick succession.
+  description: Un mélange de puissants produits chimiques curatifs. Soigne lentement les dégâts et stabilise la température corporelle. Vous pouvez faire une overdose si vous en utilisez plus d'un en succession rapide.
   components:
   - type: Sprite
     sprite: /Textures/_Lavaland/Objects/Specific/Medical/medipen.rsi
@@ -30,10 +30,10 @@
 
 # doesn't get any better than this
 - type: entity
-  name: luxury medipen
+  name: medipen de luxe
   parent: ChemicalMedipen
   id: LuxuryMedipen
-  description: Contains powerful chemicals used to aid in exploration of harsh environments. Chemicals relatively harmful and not as effective when used outside of low pressure.
+  description: Contient de puissants produits chimiques utilisés pour aider à l'exploration d'environnements hostiles. Produits chimiques relativement nocifs et moins efficaces lorsqu'ils sont utilisés hors de basse pression.
   components:
   - type: Sprite
     sprite: /Textures/_Lavaland/Objects/Specific/Medical/luxmedipen.rsi

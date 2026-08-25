@@ -3,8 +3,8 @@
 - type: entity
   id: Vaccinator
   parent: BaseMachinePowered
-  name: vaccinator
-  description: A machine that creates vaccines.
+  name: vaccinateur
+  description: Une machine qui crée des vaccins.
   placement:
     mode: SnapgridCenter
   components:
@@ -26,7 +26,7 @@
   - type: ItemSlots
     slots:
       disease_swab_slot:
-        name: Swab
+        name: Écouvillon
         whitelist:
           components:
           - DiseaseSwab

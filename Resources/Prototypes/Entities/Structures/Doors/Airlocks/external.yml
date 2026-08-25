@@ -4,7 +4,7 @@
   parent: AirlockRCDResistant
   id: AirlockExternal
   suffix: External
-  description: It opens, it closes, it might crush you, and there might be only space behind it.
+  description: Ça s'ouvre, ça se ferme, et ça vous écrase peut-être, et il n'y a sans doute que l'espace derrière.
   components:
   - type: Door
     crushDamage:

@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: fireaxe
+  name: hache de pompier
   parent: [BaseItem, BaseEngineeringContraband]
   id: FireAxe
-  description: Truly, the weapon of a madman. Who would think to fight fire with an axe?
+  description: Vraiment, l'arme d'un fou. Qui penserait à combattre le feu avec une hache ?
   components:
   - type: Tag
     tags:
@@ -69,9 +69,9 @@
 
 - type: entity
   id: FireAxeFlaming
-  name: fire axe
+  name: hache incendiaire
   parent: [BaseSyndicateContraband, FireAxe]
-  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
+  description: Pourquoi combattre le feu avec une hache quand on peut combattre avec feu et hache ? Maintenant avec une poignée caoutchoutée robuste !
   components:
   - type: MeleeWeapon
     # Goobstation - fire axe buff

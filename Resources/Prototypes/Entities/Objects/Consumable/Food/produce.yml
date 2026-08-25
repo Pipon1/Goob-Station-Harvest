@@ -47,8 +47,8 @@
 # Subclasses
 
 - type: entity
-  name: wheat bushel
-  description: Sigh... wheat... a-grain?
+  name: gerbe de blé
+  description: Céréale basique.
   id: WheatBushel
   parent: ProduceBaseRuminant
   components:
@@ -70,8 +70,8 @@
     - Ruminant
 
 - type: entity
-  name: meatwheat bushel
-  description: Some blood-drenched wheat stalks. You can crush them into what passes for meat if you squint hard enough.
+  name: gerbe de bléviande
+  description: Quelques tiges de blé ensanglantées. Vous pouvez les écraser en ce qui passe pour de la viande si vous plissez suffisamment les yeux.
   id: MeatwheatBushel
   parent: ProduceBaseRuminant
   components:
@@ -94,8 +94,8 @@
     seedId: meatwheat
 
 - type: entity
-  name: oat bushel
-  description: Eat oats, do squats.
+  name: gerbe d'avoine
+  description: Mangez de l'avoine, faites des squats.
   id: OatBushel
   parent: ProduceBaseRuminant
   components:
@@ -118,8 +118,8 @@
         Quantity: 5
 
 - type: entity
-  name: sugarcane
-  description: Sickly sweet.
+  name: canne à sucre
+  description: Maladivement sucré.
   id: Sugarcane
   parent: ProduceBaseRuminant
   components:
@@ -137,8 +137,8 @@
     seedId: sugarcane
 
 - type: entity
-  name: papercane roll
-  description: Why do we even need to grow paper?
+  name: rouleau de canne à papier
+  description: Pourquoi avons-nous même besoin de faire pousser du papier?
   id: Papercane
   parent: ProduceBase
   components:
@@ -157,7 +157,7 @@
   parent: FoodProduceBase
   id: FoodLaughinPeaPod
   name: laughin' pea pod
-  description: The clown's favorite plant.
+  description: La plante préférée du clown.
   components:
   - type: FlavorProfile
     flavors:
@@ -190,8 +190,8 @@
     - Ruminant
 
 - type: entity
-  name: tower-cap log
-  description: It's better than bad, it's good!
+  name: bûche de tower cap
+  description: C'est mieux que mauvais, c'est bon !
   id: Log
   parent: ProduceBase
   components:
@@ -209,8 +209,8 @@
   - type: Log
 
 - type: entity
-  name: steel-cap log
-  description: Steel doesn't grow on trees! It grows on mushrooms, of course.
+  name: bûche de steel cap
+  description: L'acier ne pousse pas sur les arbres ! Ça pousse sur les champignons, bien sûr.
   id: SteelLog
   parent: ProduceBase
   components:
@@ -230,8 +230,8 @@
     spawnCount: 1
 
 - type: entity
-  name: nettle
-  description: Stingy little prick.
+  name: ortie
+  description: Petite écharde piquante.
   id: Nettle
   parent: ProduceBaseRuminant
   components:
@@ -261,8 +261,8 @@
     grindableSolutionName: food
 
 - type: entity
-  name: death nettle
-  description: This nettle's out for blood.
+  name: ortie mortelle
+  description: Cette ortie veut votre mort.
   id: DeathNettle
   parent: [ProduceBase, BaseMajorContraband]
   components:
@@ -327,10 +327,10 @@
         Blunt: 5 # The nettle will "wilt" after 5 hits.
 
 - type: entity
-  name: banana
+  name: banane
   parent: FoodProduceBase
   id: FoodBanana
-  description: Rich in potassium.
+  description: Riche en potassium.
   components:
   - type: FlavorProfile
     flavors:
@@ -387,10 +387,10 @@
   #Goobstation End
 
 - type: entity
-  name: mimana
+  name: mimane
   parent: FoodProduceBase
   id: FoodMimana
-  description: Mime's favorite.
+  description: Favori des mimes.
   components:
   - type: FlavorProfile
     flavors:
@@ -436,7 +436,7 @@
 - type: entity
   parent: BaseItem
   id: TrashBananaPeel
-  name: banana peel
+  name: peau de banane
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -502,7 +502,7 @@
 - type: entity
   parent: TrashBananaPeel
   id: TrashBakedBananaPeel
-  name: baked banana peel
+  name: peau de banane cuite
   components:
   - type: Clothing
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -527,7 +527,7 @@
 - type: entity
   parent: TrashBananaPeel
   id: TrashMimanaPeel
-  name: mimana peel
+  name: peau de mimane
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/mimana.rsi
@@ -547,7 +547,7 @@
 - type: entity
   parent: TrashBananaPeel
   id: TrashBananiumPeel
-  name: bananium peel
+  name: peau de bananium
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -561,10 +561,10 @@
     equippedPrefix: peel
 
 - type: entity
-  name: carrot
+  name: carotte
   parent: FoodProduceBase
   id: FoodCarrot
-  description: It's good for the eyes!
+  description: C'est bon pour les yeux !
   components:
   - type: FlavorProfile
     flavors:
@@ -603,10 +603,10 @@
       Taco: Carrot
 
 - type: entity
-  name: cabbage
+  name: chou
   parent: FoodProduceBase
   id: FoodCabbage
-  description: Ewwwwwwwwww. Cabbage.
+  description: Beuuuuuuuuurk. Du chou.
   components:
   - type: FlavorProfile
     flavors:
@@ -635,10 +635,10 @@
       Taco: Cabbage
 
 - type: entity
-  name: garlic
+  name: ail
   parent: FoodProduceBase
   id: FoodGarlic
-  description: Delicious, but with a potentially overwhelming odor.
+  description: Délicieux, mais avec une odeur potentiellement écrasante.
   components:
   - type: FlavorProfile
     flavors:
@@ -667,10 +667,10 @@
       Taco: Garlic
 
 - type: entity
-  name: lemon
+  name: citron
   parent: FoodProduceBase
   id: FoodLemon
-  description: When life gives you lemons, be grateful they aren't limes.
+  description: Lorsque la vie vous donne des citrons, soyez reconnaissant qu'ils ne soient pas des verts.
   components:
   - type: FlavorProfile
     flavors:
@@ -705,10 +705,10 @@
       Taco: Lemon
 
 - type: entity
-  name: lemoon
+  name: citrune
   parent: FoodProduceBase
   id: FoodLemoon
-  description: People says Moon is made out of cheese, but Moon is actually made out of milk and laurel!
+  description: Les gens disent que la Lune est faite de fromage, mais elle est en fait faite de lait et de laurier !
   components:
   - type: FlavorProfile
     flavors:
@@ -742,10 +742,10 @@
       Taco: Lemoon
 
 - type: entity
-  name: lime
+  name: citron vert
   parent: FoodLemon
   id: FoodLime
-  description: Cures Space Scurvy, allows you to act like a Space Pirate.
+  description: Guérit le scorbut de l'espace, vous permet d'agir comme un pirate de l'espace.
   components:
   - type: FlavorProfile
     flavors:
@@ -774,7 +774,7 @@
   name: orange
   parent: FoodLemon
   id: FoodOrange
-  description: Healthy, very orange.
+  description: Sain, très orange.
   components:
   - type: FlavorProfile
     flavors:
@@ -799,10 +799,10 @@
       Taco: Orange
 
 - type: entity
-  name: extradimensional orange
+  name: orange extra-dimensionnelle
   parent: FoodProduceBase
   id: FoodExtradimensionalOrange
-  description: You can hardly wrap your head around this thing.
+  description: Vous avez du mal à comprendre cette chose.
   components:
   - type: FlavorProfile
     flavors:
@@ -838,7 +838,7 @@
     - Fruit
 
 - type: entity
-  name: pineapple
+  name: ananas
   parent: FoodProduceBase
   id: FoodPineapple
   description: Mmm, tropical.
@@ -876,10 +876,10 @@
     - Fruit
 
 - type: entity
-  name: potato
+  name: pomme de terre
   parent: FoodProduceBase
   id: FoodPotato
-  description: The space Irish starved to death after their potato crops died. Sadly they were unable to fish for space carp due to it being the queen's space. Bringing this up to any space IRA member will drive them insane with anger.
+  description: Les irlandais de l'espace sont morts de faim après que leurs récoltes de pommes de terre aient péri. Tristement, ils étaient incapables de pêcher la carpe de l'espace étant donné que c'était l'espace de la reine. En parler à un membre de l'IRA de l'espace le rendra fou de colère.
   components:
   - type: FlavorProfile
     flavors:
@@ -915,10 +915,10 @@
 
 
 - type: entity
-  name: tomato
+  name: tomate
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodTomato
-  description: I say to-mah-to, you say tom-mae-to.
+  description: Je dis to-ma-to, tu dis to-may-to.
   components:
   - type: FlavorProfile
     flavors:
@@ -977,10 +977,10 @@
       Taco: Tomato
 
 - type: entity
-  name: blue tomato
+  name: tomate bleue
   parent: FoodTomato
   id: FoodBlueTomato
-  description: This one is blue.
+  description: Celle-ci est bleue.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1028,10 +1028,10 @@
       Taco: BlueTomato
 
 - type: entity
-  name: blood tomato
+  name: tomate sanguine
   parent: FoodTomato
   id: FoodBloodTomato
-  description: Wait, that's not ketchup...
+  description: Attendez, ce n'est pas du ketchup...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1078,10 +1078,10 @@
       Taco: BloodTomato
 
 - type: entity
-  name: eggplant
+  name: aubergine
   parent: FoodProduceBase
   id: FoodEggplant
-  description: Maybe there's a chicken inside?
+  description: Retenez vous de faire quelconque blague avec ce légume.
   components:
   - type: FlavorProfile
     flavors:
@@ -1107,10 +1107,10 @@
     - Vegetable
 
 - type: entity
-  name: apple
+  name: pomme
   parent: FoodProduceBase
   id: FoodApple
-  description: It's a little piece of Eden.
+  description: Un petit morceau d'Eden.
   components:
   - type: FlavorProfile
     flavors:
@@ -1144,10 +1144,10 @@
       Taco: Apple
 
 - type: entity
-  name: golden apple
+  name: pomme dorée
   parent: FoodProduceBase
   id: FoodGoldenApple
-  description: It should be shaped like a cube, shouldn't it?
+  description: Elle devrait être en forme de cube, non ?
   components:
   - type: FlavorProfile
     flavors:
@@ -1186,10 +1186,10 @@
       Taco: GoldenApple
 
 - type: entity
-  name: cocoa pod
+  name: gousse de cacao
   parent: FoodProduceBase
   id: FoodCocoaPod
-  description: You can never have too much chocolate!
+  description: On ne peut jamais avoir trop de chocolat !
   components:
   - type: FlavorProfile
     flavors:
@@ -1219,10 +1219,10 @@
     - Fruit
 
 - type: entity
-  name: ear of corn
+  name: épi de maïs
   parent: FoodProduceBase
   id: FoodCorn
-  description: Needs some butter! And some cooking...
+  description: Besoin de beurre ! Et d'un peu de cuisson...
   components:
   - type: FlavorProfile
     flavors:
@@ -1266,10 +1266,10 @@
       Skewer: CornSkewer
 
 - type: entity
-  name: corn cob
+  name: épi de maïs
   parent: BaseItem
   id: FoodCornTrash
-  description: Not a dang kernel left.
+  description: Plus un seul grain ne reste.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/corn.rsi
@@ -1288,10 +1288,10 @@
           Quantity: 10
 
 - type: entity
-  name: onion
+  name: oignon
   parent: FoodProduceBase
   id: FoodOnion
-  description: Nothing to cry over.
+  description: Rien de quoi pleurer.
   components:
   - type: FlavorProfile
     flavors:
@@ -1321,10 +1321,10 @@
     - Vegetable
 
 - type: entity
-  name: red onion
+  name: oignon rouge
   parent: FoodProduceBase
   id: FoodOnionRed
-  description: Purple despite the name.
+  description: Pourpre malgré le nom.
   components:
   - type: FlavorProfile
     flavors:
@@ -1354,10 +1354,10 @@
     - Vegetable
 
 - type: entity
-  name: chanterelle cluster
+  name: grappe de chanterelles
   parent: FoodProduceBase
   id: FoodMushroom
-  description: "Cantharellus Cibarius: These jolly yellow little shrooms sure look tasty!"
+  description: "Cantharellus Cibarius : Ces petits champignons jaunes joyeux ont vraiment l'air délicieux !"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1399,7 +1399,7 @@
     - Slice
 
 - type: entity
-  name: pineapple slice
+  name: tranche d'ananas
   parent: ProduceSliceBase
   id: FoodPineappleSlice
   description: Mmm, tropical.
@@ -1424,10 +1424,10 @@
       Taco: PineappleSlice
 
 - type: entity
-  name: onion slice
+  name: tranche d'oignon
   parent: ProduceSliceBase
   id: FoodOnionSlice
-  description: Nothing to cry over.
+  description: Rien de quoi pleurer.
   components:
   - type: FlavorProfile
     flavors:
@@ -1455,10 +1455,10 @@
       Taco: OnionSlice
 
 - type: entity
-  name: red onion slice
+  name: tranche d'oignon rouge
   parent: ProduceSliceBase
   id: FoodOnionRedSlice
-  description: Purple despite the name.
+  description: Pourpre malgré le nom.
   components:
   - type: FlavorProfile
     flavors:
@@ -1486,10 +1486,10 @@
       Taco: OnionRedSlice
 
 - type: entity
-  name: chili pepper
+  name: piment
   parent: FoodProduceBase
   id: FoodChiliPepper
-  description: Spicy, best not touch your eyes.
+  description: Épicé, mieux vaut ne pas toucher vos yeux.
   components:
   - type: FlavorProfile
     flavors:
@@ -1521,10 +1521,10 @@
       Skewer: ChiliPepperSkewer
 
 - type: entity
-  name: chilly pepper
+  name: piment chilly
   parent: FoodProduceBase
   id: FoodChillyPepper
-  description: Icy hot.
+  description: Glacé brûlant.
   components:
   - type: FlavorProfile
     flavors:
@@ -1554,10 +1554,10 @@
       Skewer: ChillyPepperSkewer
 
 - type: entity
-  name: aloe
+  name: aloès
   parent: FoodProduceBase
   id: FoodAloe
-  description: A fragrant plant with soothing properties.
+  description: Une plante parfumée aux propriétés apaisantes.
   components:
   - type: FlavorProfile
     flavors:
@@ -1588,10 +1588,10 @@
       Burger: Aloe
 
 - type: entity
-  name: poppy
+  name: coquelicot
   parent: FoodProduceBase
   id: FoodPoppy
-  description: A flower with extracts often used in the production of medicine.
+  description: Une fleur dont les extraits sont souvent utilisés dans la production de médicaments.
   components:
   - type: Clothing
     slots:
@@ -1627,10 +1627,10 @@
       Burger: Poppy
 
 - type: entity
-  name: lily
+  name: lys
   parent: FoodProduceBase
   id: FoodLily
-  description: A beautiful orange flower containing topical medicine.
+  description: Une belle fleur orange contenant un médicament topique.
   components:
   - type: FlavorProfile
     flavors:
@@ -1662,7 +1662,7 @@
   name: lingzhi
   parent: FoodProduceBase
   id: FoodLingzhi
-  description: A potent medicinal mushroom. Don't go overboard.
+  description: Champignon médicinal puissant. N'en faites pas trop.
   components:
   - type: FlavorProfile
     flavors:
@@ -1691,10 +1691,10 @@
       Burger: Lingzhi
 
 - type: entity
-  name: ambrosia vulgaris
+  name: ambroisie vulgaire
   parent: FoodProduceBase
   id: FoodAmbrosiaVulgaris
-  description: A medicinal plant. May make you feel a little funny.
+  description: Une plante médicinale. Peut vous donner un peu la chair de poule.
   components:
   - type: FlavorProfile
     flavors:
@@ -1734,10 +1734,10 @@
       Burger: AmbrosiaVulgarisBurger
 
 - type: entity
-  name: ambrosia deus
+  name: ambroisie des dieux
   parent: FoodProduceBase
   id: FoodAmbrosiaDeus
-  description: An extremely sought-after medicinal plant. May have some funky side effects.
+  description: Une plante médicinale extrêmement recherchée. Peut avoir certains effets secondaires étranges.
   components:
   - type: FlavorProfile
     flavors:
@@ -1775,10 +1775,10 @@
       Burger: AmbrosiaDeusBurger
 
 - type: entity
-  name: galaxythistle
+  name: chardon galactique
   parent: FoodProduceBase
   id: FoodGalaxythistle
-  description: A medicinal plant used for its antitoxin.
+  description: Une plante médicinale utilisée pour son antitoxine.
   components:
   - type: FlavorProfile
     flavors:
@@ -1808,10 +1808,10 @@
       Burger: GalaxythistleBurger
 
 - type: entity
-  name: glasstle
+  name: chardon de verre
   parent: FoodProduceBase
   id: FoodGlasstle
-  description: A fragile crystal plant with lot of spiky thorns.
+  description: Une plante cristalline fragile avec de nombreuses épines pointues.
   components:
   - type: Item
     size: Small
@@ -1878,10 +1878,10 @@
       Burger: GlasstleBurger
 
 - type: entity
-  name: fly amanita
+  name: amanite tue-mouches
   parent: FoodProduceBase
   id: FoodFlyAmanita
-  description: A delicious-looking mushroom like you see in those cartoons.
+  description: Un champignon délicieux d'apparence comme on en voit dans ces dessins animés.
   components:
   - type: FlavorProfile
     flavors:
@@ -1916,7 +1916,7 @@
   name: gatfruit
   parent: [ FoodProduceBase, BaseSyndicateContraband ]
   id: FoodGatfruit
-  description: A delicious, gun-shaped fruit with a thick wooden stem.
+  description: Un délicieux fruit en forme de pistolet avec une épaisse tige en bois.
   components:
   - type: FlavorProfile
     flavors:
@@ -1953,7 +1953,7 @@
   name: capfruit
   parent: FoodProduceBase
   id: FoodRealCapfruit
-  description: A soft but smooth gun-shaped fruit.
+  description: Un fruit mou mais lisse en forme de pistolet.
   components:
   - type: FlavorProfile
     flavors:
@@ -2005,8 +2005,8 @@
     - id: RevolverCapGunFake
 
 - type: entity
-  name: rice bushel
-  description: Can be ground into rice, perfect for pudding or sake.
+  name: gerbe de riz
+  description: Peut être moulue en riz, parfaite pour le pudding ou le saké.
   id: RiceBushel
   parent: ProduceBaseRuminant
   components:
@@ -2024,8 +2024,8 @@
     seedId: rice
 
 - type: entity
-  name: soybeans
-  description: For those who can't stand seeing good old meat.
+  name: soja
+  description: Pour ceux qui ne peuvent pas supporter de voir de la bonne vieille viande.
   id: FoodSoybeans
   parent: ProduceBaseRuminant
   components:
@@ -2054,8 +2054,8 @@
       Burger: SoybeansBurger
 
 - type: entity
-  name: spaceman's trumpet
-  description: A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
+  name: trompette de l'astronaute
+  description: Une fleur vive qui sent légèrement l'herbe coupée. Toucher la fleur semble tacher la peau quelque temps après le contact, pourtant la plupart des autres surfaces semblent ne pas être affectées par ce phénomène.
   id: FoodSpacemansTrumpet
   parent: FoodProduceBase
   components:
@@ -2088,8 +2088,8 @@
       Burger: SpacemansTrumpetBurger
 
 - type: entity
-  name: koibean
-  description: These beans seem a little bit fishy.
+  name: harikoi
+  description: Ces haricots sentent le poisson.
   id: FoodKoibean
   parent: ProduceBaseRuminant
   components:
@@ -2120,10 +2120,10 @@
       Burger: KoibeanBurger
 
 - type: entity
-  name: watermelon
+  name: pastèque
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodWatermelon
-  description: Round green object that you can slice and eat.
+  description: Objet rond et vert que vous pouvez trancher et manger.
   components:
   - type: Item
     size: Small
@@ -2183,10 +2183,10 @@
     - Fruit
 
 - type: entity
-  name: watermelon slice
+  name: tranche de pastèque
   parent: ProduceSliceBase
   id: FoodWatermelonSlice
-  description: Juicy green and red slice.
+  description: Tranche juteuse verte et rouge.
   components:
   - type: Item
     size: Tiny
@@ -2222,10 +2222,10 @@
       Skewer: WatermelonSliceSkewer
 
 - type: entity
-  name: holymelon
+  name: pastèque sainte
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodHolymelon
-  description: The water within this melon has been blessed by some deity that's particularly fond of watermelon.
+  description: L'eau à l'intérieur de ce melon a été bénie par une déité particulièrement friande de pastèque.
   components:
   - type: Item
     size: Small
@@ -2286,10 +2286,10 @@
     - Fruit
 
 - type: entity
-  name: holymelon slice
+  name: tranche de pastèque sainte
   parent: ProduceSliceBase
   id: FoodHolymelonSlice
-  description: Juicy golden and red slice.
+  description: Tranche juteuse dorée et rouge.
   components:
   - type: Item
     size: Tiny
@@ -2321,10 +2321,10 @@
     - Slice
 
 - type: entity
-  name: grapes
+  name: raisins
   parent: FoodProduceBase
   id: FoodGrape
-  description: The food of emperors, Space France inhabitants (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
+  description: La nourriture des empereurs, des habitants de France de l'espace (souvent sous forme de vin) et des soccer moms. Un jour, cela pourrait être utilisé dans la production de vin pour le barman s'il vient à manquer.
   components:
   - type: FlavorProfile
     flavors:
@@ -2354,10 +2354,10 @@
     - Fruit
 
 - type: entity
-  name: berries
+  name: baies
   parent: FoodProduceBase
   id: FoodBerries
-  description: A handful of various types of berries.
+  description: Une poignée de différents types de baies.
   components:
   - type: FlavorProfile
     flavors:
@@ -2391,10 +2391,10 @@
       Burger: BerriesBurger
 
 - type: entity
-  name: bungo fruit
+  name: fruit bungo
   parent: FoodProduceBase
   id: FoodBungo
-  description: The humble bungo fruit.
+  description: Le modeste fruit bungo.
   components:
   - type: FlavorProfile
     flavors:
@@ -2433,7 +2433,7 @@
       Burger: Bungo
 
 - type: entity
-  name: bungo pit
+  name: noyau de bungo
   parent: FoodInjectableBase
   id: FoodBungoPit
   components:
@@ -2463,8 +2463,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodPeaPod
-  name: pea pod
-  description: A duck's favorite treat!
+  name: gousse de pois
+  description: Friandise préférée des canards !
   components:
   - type: FlavorProfile
     flavors:
@@ -2495,8 +2495,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodWorldPeas
-  name: cluster of world peas
-  description: It's rumored to bring peace to any who consume it.
+  name: grappe de world peas
+  description: On raconte qu'elle apporte la paix à quiconque la consomme.
   components:
   - type: FlavorProfile
     flavors:
@@ -2523,10 +2523,10 @@
     - Vegetable
 
 - type: entity
-  name: pumpkin
+  name: citrouille
   parent: FoodProduceBase
   id: FoodPumpkin
-  description: A large, orange... berry. Seriously.
+  description: Une grosse baie orange. Sérieusement !
   components:
   - type: Item
     size: Small
@@ -2573,10 +2573,10 @@
     - Vegetable
 
 - type: entity
-  name: blue pumpkin
+  name: citrouille bleue
   parent: FoodProduceBase
   id: FoodBluePumpkin
-  description: A large, blue... berry. Seriously.
+  description: Une grosse baie bleue. Sérieusement !
   components:
   - type: Item
     size: Small
@@ -2624,8 +2624,8 @@
     - Fruit
 
 - type: entity
-  name: cotton boll
-  description: Moth people's favorite snack, and just as fluffy as them.
+  name: coton en boule
+  description: Encas préféré des mites humanoïdes, et aussi doux qu'elles.
   id: CottonBol
   parent: FoodProduceBase
   components:
@@ -2656,8 +2656,8 @@
       CottonBurger: CottonBol
 
 - type: entity
-  name: pyrotton boll
-  description: This will probably set you on fire.
+  name: boulle de pyrotton
+  description: Ceci va probablement vous mettre le feu.
   id: PyrottonBol
   parent: FoodProduceBase
   components:
@@ -2692,10 +2692,10 @@
       CottonBurger: PyrottonBol
 
 - type: entity
-  name: cherry
+  name: cerise
   parent: FoodProduceBase
   id: FoodCherry
-  description: Juicy red cherry with a pit inside.
+  description: Cerise rouge juteuse avec un noyau à l'intérieur.
   components:
   - type: FlavorProfile
     flavors:
@@ -2734,7 +2734,7 @@
       Burger: Cherry
 
 - type: entity
-  name: cherry pit
+  name: noyau de cerise
   parent: FoodInjectableBase
   id: TrashCherryPit
   components:
@@ -2764,8 +2764,8 @@
   - type: BadFood
 
 - type: entity
-  name: anomaly berry
-  description: A strange blue fruit. Something about it doesn't seem right.
+  name: baie d'anomalie
+  description: Un étrange fruit bleu. Quelque chose à son sujet ne semble pas correct.
   parent: FoodProduceBase
   id: FoodAnomalyBerry
   components:
@@ -2802,8 +2802,8 @@
       Burger: AnomalyBerryBurger
 
 - type: entity
-  name: bloonion bulb
-  description: A strange floating bulb.. Nothing worth crying over.
+  name: bulbe de balloignon
+  description: Un étrange bulbe flottant.. Rien qui mérite de pleurer.
   parent: BaseStructureDynamic
   id: FoodBloonion
   components:

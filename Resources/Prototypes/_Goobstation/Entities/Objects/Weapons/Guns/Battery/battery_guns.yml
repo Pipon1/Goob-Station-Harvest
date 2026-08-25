@@ -20,7 +20,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: PowerCellSmall
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -90,10 +90,10 @@
       collection: MetalThud # Goobstation ^
 
 - type: entity
-  name: Miniature Energy Crossbow
+  name: arbalète énergétique miniature
   parent: [ BaseWeaponBatterySmall, BaseSyndicateContraband ]
   id: MiniatureEnergyCrossbow
-  description: A signature design from Donk Co., this crossbow fires a thin dart loaded with sedatives and depressants designed to pierce even the heaviest of armor.
+  description: Un design signature de Donk Co., cette arbalète tire un fin projectile chargé de sédatifs et de dépresseurs conçus pour percer même les armures les plus lourdes.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/miniature_ebow.rsi
@@ -125,10 +125,10 @@
     resetOnHandSelected: false
 
 - type: entity
-  name: plasma rifle
+  name: fusil à plasma
   parent: BaseWeaponBattery
   id: WeaponPlasmaRifle
-  description: It may or may not explode in your face.
+  description: Il peut ou non exploser dans votre visage.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
@@ -170,17 +170,17 @@
 - type: entity
   parent: WeaponPlasmaRifle
   id: WeaponPlasmaRifleEmpty
-  suffix: Empty
+  suffix: Vide
   components:
   - type: Battery
     maxCharge: 600
     startingCharge: 0
 
 - type: entity
-  name: EG-4 Equalizer
+  name: EG-4 Égalisateur
   parent: [ BaseWeaponCustomCellSmall, BaseCentcommContraband ]
   id: WeaponEnergyRevolver
-  description: In the face of death, everyone is equal. The right arm of the Blueshield corps, the Equalizer is a modular energy revolver platform designed for lethal and non-lethal target neutralization. Takes energy speedloaders.
+  description: Face à la mort, tous sont égaux. Le bras droit du corps des Boucliers Bleus, l'Égalisateur est une plateforme de revolver énergétique modulaire conçue pour la neutralisation létale et non-létale des cibles. Accepte les chargeurs rapides énergétiques.
   components:
   - type: Item
     heldPrefix: lethal
@@ -220,7 +220,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: EnergySpeedloaderLethal
         insertSound: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
@@ -232,7 +232,7 @@
   name: advanced disabler
   parent: [ WeaponDisablerPractice, BaseCentcommContraband ]
   id: WeaponDisablerAdvanced
-  description: A self-defense weapon for corporate execs with money to burn. Slim, sturdy, and self-recharging for your convenience.
+  description: Une arme de défense personnelle pour les cadres d'entreprise avec de l'argent à brûler. Fine, robuste et à recharge automatique pour votre commodité.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Objects/Weapons/Guns/Battery/ccdisabler.rsi
@@ -256,10 +256,10 @@
     autoRechargeRate: 40
 
 - type: entity
-  name: syndicate disabler
+  name: paralyseur du syndicat
   parent: [ WeaponDisablerPractice, BaseSyndicateContraband ]
   id: WeaponDisablerSyndicate
-  description: A sleek disabler designed from a reverse-engineered NanoTrasen prototype. While it lacks stopping power, it makes up for it with a self-recharging cell.
+  description: Un paralyseur élégant conçu à partir d'un prototype Nanotrasen rétro-ingénierisé. Bien qu'il manque de puissance d'arrêt, il compense par une cellule auto-régénérante.
   components:
     - type: Gun
       fireRate: 3
@@ -297,7 +297,7 @@
   name: advanced pulse carbine
   parent: WeaponPulseCarbine
   id: WeaponPulseCarbineAdvanced
-  description: A state-of-the-art laser carbine that fires a rapidly pulsing beam. Expensive, though favoured by the Emergency Response corps due to its ability to self-recharge.
+  description: Une carabine laser de pointe qui tire un faisceau à impulsions rapides. Coûteuse, mais appréciée par le corps de réponse d'urgence pour sa capacité à se recharger automatiquement.
   components:
   - type: Tag
     tags:
@@ -306,10 +306,10 @@
     autoRechargeRate: 80
 
 - type: entity
-  name: CR-2 Hera
+  name: CR-2 Héra
   parent: [ BaseWeaponCustomCell, BaseGunWieldable, BaseSecurityContraband ]
   id: WeaponEnergyRifle
-  description: A versatile plasma assault rifle, iterated off of the now defunct energy gun. Loads from energy rifle magazines.
+  description: Un fusil d'assaut à plasma polyvalent, itéré à partir du pistolet énergétique désormais obsolète. Se charge via des magazines de fusil énergétique.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/energy_rifle.rsi
@@ -347,7 +347,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: EnergyMagRifleLethal
         insertSound: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
@@ -356,10 +356,10 @@
             - EnergyMagAmmo
 
 - type: entity
-  name: DT-12 Lawbringer
+  name: DT-12 Porta-Loi
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponEnergyGunLawbringer
-  description: Sometimes rank is a function of firepower. A versatile energy gun with a myriad of firing modes designed for the Head of Security. Self-recharges after a 40 second delay.
+  description: Parfois le grade dépend de la puissance de feu. Un pistolet énergétique polyvalent avec une myriade de modes de tir conçus pour le Chef de la Sécurité. Se recharge automatiquement après 40 secondes.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
@@ -450,9 +450,9 @@
     autoRechargePauseTime: 40
 
 - type: entity
-  name: Ion Rifle
+  name: fusil à ions
   id: WeaponEnergyIonRifle
-  description: A rifle that fires ion bolts designed to degrade mechanical targets. Ideal against combat mechs and silicons, though useless against pretty much everything else.
+  description: Un fusil tirant des boulons ioniques conçus pour dégrader les cibles mécaniques. Idéal contre les méchs de combat et les siliciens, mais inutile contre à peu près tout le reste.
   parent: [BaseWeaponBattery, BaseSecurityContraband]
   components:
   - type: Sprite

@@ -4,7 +4,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: shittle gun
+  name: canon de navette
   abstract: true
   components:
   - type: Appearance
@@ -42,8 +42,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-400c "Svalinn machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  name: LSE-400c « Mitrailleuse Svalinn »
+  description: Unité laser stationnaire de base. Efficace contre les cibles vivantes et l'électronique. Utilise des cellules d'énergie ordinaires pour tirer et possède un taux de tir extrêmement élevé.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -102,8 +102,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-1200c "Perforator"
-  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+  name: LSE-1200c « Perforateur »
+  description: Unité laser stationnaire avancée. Anéantit l'électronique et est extrêmement dangereuse pour la santé ! Utilise la cage d'énergie pour tirer.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -162,8 +162,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-320g "Friendship"
-  description: A small stationary grenade launcher that holds 2 grenades.
+  name: EXP-320g « Amitié »
+  description: Un petit lance-grenades stationnaire qui contient 2 grenades.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -216,8 +216,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-2100g "Duster"
-  description: A powerful stationary grenade launcher. A cartridge is required for use.
+  name: EXP-2100g « Duster »
+  description: Un puissant lance-grenades stationnaire. Une cartouche est nécessaire pour l'utiliser.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -277,8 +277,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
-  name: pirate ship cannon
-  description: Kaboom!
+  name: canon de navire pirate
+  description: Kaboum !
   components:
   - type: ContainerContainer
     containers:
@@ -314,8 +314,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: PTK-800 "Matter Dematerializer"
-  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
+  name: PTK-800 « Dématérialiseur de matière »
+  description: Tourelle de minage stationnaire de récupération. Accumule progressivement des charges par elle-même, extrêmement efficace pour l'excavation d'astéroïdes.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -382,8 +382,8 @@
 - type: entity
   parent: ShuttleGunBase
   id: ShuttleGunKineticOld
-  name: xenomorphic dematerializer
-  description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
+  name: dématérialiseur xénomorphe
+  description: Un ancien canon de navire, utilisant des systèmes biomécaniques pour stocker et libérer de l'énergie. Bien qu'unique dans sa conception, il est devenu obsolète en raison de sa vitesse de chargement et de tir inférieure comparée aux constructions mécaniques.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi

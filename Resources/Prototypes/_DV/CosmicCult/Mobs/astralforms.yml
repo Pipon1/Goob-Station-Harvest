@@ -2,8 +2,8 @@
 - type: entity
   parent: [ Incorporeal, BaseMob ]
   id: MobCosmicAstralProjection
-  name: astral projection
-  description: Neither here nor there.
+  name: projection astrale
+  description: Ni ici ni là.
   components:
   - type: ActionGrant
     actions:
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ BaseSimpleMob ]
   id: MobCosmicAstralAscended
-  name: astral ascended
+  name: ascendant astral
   description: Transcendant, ascendant.
   components:
   - type: Puller

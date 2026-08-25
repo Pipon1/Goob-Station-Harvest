@@ -3,8 +3,8 @@
 - type: entity
   id: SingularityBeacon
   parent: [BaseMachinePowered, BaseSyndicateAnchoredContraband]
-  name: singularity beacon
-  description: A syndicate device that attracts the singularity. If it's loose and you're seeing this, run.
+  name: balise de singularité
+  description: Un appareil du Syndicat qui attire la singularité. Si elle s'est échappée et vous voyez ceci, courez.
   components:
   - type: Sprite
     sprite: Objects/Devices/singularity_beacon.rsi

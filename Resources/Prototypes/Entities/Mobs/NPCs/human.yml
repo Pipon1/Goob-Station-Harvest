@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: civilian
+  name: civil
   parent: BaseMobHuman
   id: MobCivilian
-  description: A miserable pile of secrets.
+  description: Un misérable tas de secrets.
   components:
   - type: InputMover
   - type: MobMover
@@ -16,7 +16,7 @@
   - type: PartialAbsorbable # Goobstation - changelings
 
 - type: entity
-  name: salvager
+  name: récupérateur
   parent: BaseMobHuman
   id: MobSalvager
   components:
@@ -37,7 +37,7 @@
   name: spirate
   parent: BaseMobHuman
   id: MobSpirate
-  description: Yarr!
+  description: Yarr !
   components:
   - type: NpcFactionMember
     factions:
@@ -53,7 +53,7 @@
   - type: PartialAbsorbable # Goobstation - changelings
 
 - type: entity
-  name: syndicate footsoldier
+  name: soldat du Syndicat
   parent: BaseMobHuman
   id: MobSyndicateFootsoldier
   components:
@@ -71,7 +71,7 @@
     - type: PartialAbsorbable # Goobstation - changelings
 
 - type: entity
-  name: syndicate shuttle pilot
+  name: pilote de navette du Syndicat
   parent: MobSyndicateFootsoldier
   id: MobSyndicateFootsoldierPilot
 
@@ -80,8 +80,8 @@
   suffix: Dead
   save: false # mobs are currently not saveable.
   id: SalvageHumanCorpse
-  name: unidentified corpse
-  description: I think they're dead.
+  name: cadavre non identifié
+  description: Je pense qu'il est mort.
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
@@ -99,8 +99,8 @@
 - type: entity
   parent: MobHuman
   id: MobCluwne
-  name: person
-  description: A polymorphed unfortunate.
+  name: personne
+  description: Un malheureux polymorphé.
   components:
   - type: Cluwne
   - type: Speech

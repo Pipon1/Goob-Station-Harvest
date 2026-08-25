@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: pen
+  name: stylo
   parent: [BaseItem, StorePresetUplink] # Goob - Pen ooplinkz
   id: Pen
-  description: A dark ink pen.
+  description: Un stylo à encre noire.
   components:
   - type: Sprite
     sprite: Objects/Misc/pens.rsi
@@ -83,10 +83,10 @@
 #TODO: I want the luxury pen to write a cool font like Merriweather in the future.
 
 - type: entity
-  name: luxury pen
+  name: stylo de luxe
   parent: Pen
   id: LuxuryPen
-  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  description: Un stylo chic et cher que vous ne méritez de posséder que si vous êtes qualifié pour gérer d'immenses quantités de paperasse.
   components:
   - type: Sprite
     state: luxury_pen
@@ -121,10 +121,10 @@
         Piercing: 20 # Goobstation - ow
 
 - type: entity
-  name: Cybersun pen
+  name: stylo Cybersun
   parent: [BaseAdvancedPen, BaseSyndicateContraband]
   id: CyberPen
-  description: A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write. So powerful, it's even able to rewrite officially stamped documents should the need arise.
+  description: Un stylo haute technologie tout droit sorti du service juridique de Cybersun, capable de réfracter de la lumière dure à des angles impossibles à travers sa pointe en diamant pour écrire. Si puissant qu'il peut même réécrire des documents officiellement tamponnés si nécessaire.
   components:
   - type: Sprite
     state: overpriced_pen
@@ -134,10 +134,10 @@
     price: 500
 
 - type: entity
-  name: CentComm pen
+  name: stylo CentComm
   parent: [BaseAdvancedPen, BaseCentcommContraband]
   id: PenCentcom
-  description: In an attempt to keep up with the "power" of the cybersun bureaucracy, NT made a replica of cyber pen, in their corporate style.
+  description: Dans une tentative de rivaliser avec la "puissance" de la bureaucratie de Cybersun, NT a fait une réplique de cyber stylo, dans son style corporatif.
   components:
   - type: Sprite
     state: pen_centcom
@@ -145,28 +145,28 @@
     heldPrefix: pen_centcom
 
 - type: entity
-  name: captain's fountain pen
+  name: stylo-plume du capitaine
   parent: PenEmbeddable
   id: PenCap
-  description: A luxurious fountain pen for the captain of the station.
+  description: Un stylo-plume luxueux pour le capitaine de la station.
   components:
   - type: Sprite
     state: pen_cap
 
 - type: entity
-  name: HoP's fountain pen
+  name: stylo-plume du chef du personnel
   parent: PenEmbeddable
   id: PenHop
-  description: A luxurious fountain pen for the HoP of the station.
+  description: Un stylo-plume luxueux pour le chef du personnel de la station.
   components:
   - type: Sprite
     state: pen_hop
 
 - type: entity
-  name: wizard's magical pen
+  name: stylo magique du sorcier
   parent: [ PenEmbeddable, BaseMagicalContraband ]
   id: PenWiz
-  description: A luxurious fountain pen. Seems to have a magical crystal eraser.
+  description: Un stylo-plume luxueux. Il semble avoir une gomme en cristal magique.
   components:
   - type: Sprite
     state: pen_wizard

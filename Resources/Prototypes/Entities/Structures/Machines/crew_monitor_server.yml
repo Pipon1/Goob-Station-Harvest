@@ -3,8 +3,8 @@
 - type: entity
   id: CrewMonitoringServer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: crew monitoring server
-  description: Receives and relays the status of all active suit sensors on the station.
+  name: serveur de surveillance d'équipage
+  description: Reçoit et relaie l'état de tous les capteurs de combinaison actifs sur la station.
   components:
     - type: Sprite
       sprite: Structures/Machines/server.rsi

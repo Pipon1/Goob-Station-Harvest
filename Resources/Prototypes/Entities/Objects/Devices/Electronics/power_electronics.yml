@@ -3,8 +3,8 @@
 - type: entity
   id: APCElectronics
   parent: BaseElectronics
-  name: APC electronics
-  description: Circuit used in APC construction.
+  name: circuit d'APC
+  description: Circuit utilisé dans la construction d'APC.
   components:
     - type: ApcElectronics
     - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   id: WallmountSubstationElectronics
   parent: BaseElectronics
-  name: wallmount substation electronics
-  description: Circuit used to construct a wallmount substation.
+  name: circuit de sous-station murale
+  description: Circuit utilisé pour construire une sous-station murale.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseElectronics
   id: WallmountGeneratorElectronics
-  name: wallmount generator electronics
-  description: Circuit used to construct a wallmount generator.
+  name: circuit de générateur mural
+  description: Circuit utilisé pour construire un générateur mural.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -59,8 +59,8 @@
 - type: entity
   id: WallmountGeneratorAPUElectronics
   parent: BaseElectronics
-  name: wallmount APU electronics
-  description: Circuit used to construct a wallmount APU.
+  name: circuit d'APU mural
+  description: Circuit utilisé pour construire un APU mural.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseElectronics
   id: SolarTrackerElectronics
-  name: solar tracker electronics
-  description: Advanced circuit board used to track the nearest star.
+  name: circuit de suivi solaire
+  description: Carte de circuit avancée utilisée pour suivre l'étoile la plus proche.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

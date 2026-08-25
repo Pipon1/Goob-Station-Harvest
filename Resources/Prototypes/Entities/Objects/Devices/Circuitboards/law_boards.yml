@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseElectronics
   id: BaseSiliconLawboard
-  description: An electronics board containing a silicon lawset.
+  description: Un circuit imprimé contenant un ensemble de lois de silicium.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -16,8 +16,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (NT Default)
-  description: An electronics board containing the NT Default lawset.
+  name: circuit de lois (NT par défaut)
+  description: Un circuit imprimé contenant l'ensemble de lois NT par défaut.
   components:
   - type: SiliconLawProvider
     laws: NTDefault
@@ -25,8 +25,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Crewsimov)
-  description: An electronics board containing the Crewsimov lawset.
+  name: circuit de lois (Crewsimov)
+  description: Un circuit imprimé contenant l'ensemble de lois Crewsimov.
   components:
   - type: SiliconLawProvider
     laws: Crewsimov
@@ -34,8 +34,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Corporate)
-  description: An electronics board containing the Corporate lawset.
+  name: circuit de lois (Corporate)
+  description: Un circuit imprimé contenant l'ensemble de lois Corporate.
   components:
   - type: SiliconLawProvider
     laws: Corporate
@@ -43,8 +43,8 @@
 - type: entity
   id: CommandmentCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Ten Commandments)
-  description: An electronics board containing the Ten Commandments lawset.
+  name: circuit de lois (Dix commandements)
+  description: Un circuit imprimé contenant l'ensemble de lois Dix commandements.
   components:
   - type: SiliconLawProvider
     laws: CommandmentsLawset
@@ -52,8 +52,8 @@
 - type: entity
   id: PaladinCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Paladin)
-  description: An electronics board containing the Paladin lawset.
+  name: circuit de lois (Paladin)
+  description: Un circuit imprimé contenant l'ensemble de lois Paladin.
   components:
   - type: SiliconLawProvider
     laws: PaladinLawset
@@ -61,8 +61,8 @@
 - type: entity
   id: LiveLetLiveCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Live and Let Live)
-  description: An electronics board containing the Live and Let Live lawset.
+  name: circuit de lois (Live and Let Live)
+  description: Un circuit imprimé contenant l'ensemble de lois Live and Let Live.
   components:
   - type: SiliconLawProvider
     laws: LiveLetLiveLaws
@@ -70,8 +70,8 @@
 - type: entity
   id: StationEfficiencyCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Station Efficiency)
-  description: An electronics board containing the Station Efficiency lawset.
+  name: circuit de lois (Efficacité de la Station)
+  description: Un circuit imprimé contenant l'ensemble de lois  Efficacité de la Station.
   components:
   - type: SiliconLawProvider
     laws: EfficiencyLawset
@@ -79,8 +79,8 @@
 - type: entity
   id: RobocopCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Robocop)
-  description: An electronics board containing the Robocop lawset.
+  name: circuit de lois (Robocop)
+  description: Un circuit imprimé contenant l'ensemble de lois Robocop.
   components:
   - type: SiliconLawProvider
     laws: RobocopLawset
@@ -88,8 +88,8 @@
 - type: entity
   id: OverlordCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Overlord)
-  description: An electronics board containing the Overlord lawset.
+  name: circuit de lois (Seigneur suprême)
+  description: Un circuit imprimé contenant l'ensemble de lois Seigneur suprême.
   components:
   - type: SiliconLawProvider
     laws: OverlordLawset
@@ -97,8 +97,8 @@
 - type: entity
   id: GameMasterCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Game Master)
-  description: An electronics board containing the Game Master lawset.
+  name: circuit de lois (Maître du Jeu)
+  description: Un circuit imprimé contenant l'ensemble de lois Maître du Jeu.
   components:
   - type: SiliconLawProvider
     laws: GameMasterLawset
@@ -106,8 +106,8 @@
 - type: entity
   id: ArtistCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Artist)
-  description: An electronics board containing the Artist lawset.
+  name: circuit de lois (Artiste)
+  description: Un circuit imprimé contenant l'ensemble de lois Artiste.
   components:
   - type: SiliconLawProvider
     laws: PainterLawset
@@ -115,8 +115,8 @@
 - type: entity
   id: AntimovCircuitBoard
   parent: [BaseSiliconLawboard, BaseSyndicateContraband]
-  name: law board (Antimov)
-  description: An electronics board containing the Antimov lawset.
+  name: circuit de lois (Antimov)
+  description: Un circuit imprimé contenant l'ensemble de lois Antimov.
   components:
   - type: SiliconLawProvider
     laws: AntimovLawset
@@ -127,8 +127,8 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Nutimov)
-  description: An electronics board containing the Nutimov lawset.
+  name: circuit de lois (Nutimov)
+  description: Un circuit imprimé contenant l'ensemble de lois Nutimov.
   components:
   - type: SiliconLawProvider
     laws: NutimovLawset
@@ -136,9 +136,9 @@
 - type: entity
   id: XenoborgCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Xenoborg)
+  name: circuit de lois (Xénoborg)
   suffix: Admeme
-  description: An electronics board containing the Xenoborg lawset.
+  description: Un circuit imprimé contenant l'ensemble de lois Xénoborg.
   components:
   - type: SiliconLawProvider
     laws: XenoborgLawset
@@ -146,9 +146,9 @@
 - type: entity
   id: MothershipCircuitBoard
   parent: BaseSiliconLawboard
-  name: law board (Mothership Core)
+  name: circuit de lois (Noyau du vaisseau mère Xénoborg)
   suffix: Admeme
-  description: An electronics board containing the Mothership Core lawset.
+  description: Un circuit imprimé contenant l'ensemble de lois Noyau du vaisseau mère Xénoborg.
   components:
   - type: SiliconLawProvider
     laws: MothershipCoreLawset

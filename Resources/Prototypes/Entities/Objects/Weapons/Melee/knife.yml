@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseKnife
   id: KitchenKnife
-  name: kitchen knife
-  description: A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
+  name: couteau de cuisine
+  description: Un couteau de chef polyvalent fabriqué par la Guilde Marchande Asters. Garanti de rester tranchant pendant des années.
   components:
   - type: Tag
     tags:
@@ -98,10 +98,10 @@
         Slash: 10
 
 - type: entity
-  name: butcher's cleaver
+  name: couperet de boucher
   parent: BaseKnife
   id: ButchCleaver
-  description: A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
+  description: Une immense lame utilisée pour couper et hacher la viande. Cela inclut les clowns et les sous-produits de clowns.
   components:
   - type: Tag
     tags:
@@ -143,10 +143,10 @@
     speed: 0.5
 
 - type: entity
-  name: combat knife
+  name: couteau de combat
   parent: [BaseKnife, BaseSecurityContraband]
   id: CombatKnife
-  description: A deadly knife intended for melee confrontations.
+  description: Un couteau mortel conçu pour les confrontations au corps à corps.
   components:
   - type: Tag
     tags:
@@ -200,10 +200,10 @@
         friction: 0.2
 
 - type: entity
-  name: survival knife
+  name: couteau de survie
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: SurvivalKnife
-  description: Weapon of first and last resort for combatting space carp.
+  description: L'arme de premier et dernier recours pour combattre les carpes spatiales.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/survival_knife.rsi
@@ -215,10 +215,10 @@
       sprite: Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
-  name: kukri knife
+  name: couteau kukri
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: KukriKnife
-  description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
+  description: Les professionnels ont des standards. Soyez poli. Soyez efficace. Ayez un plan pour tuer tous ceux que vous rencontrez.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: [ClothingHeadHatGreyFlatcap, BaseMinorContraband]
   id: BladedFlatcapGrey
-  name: grey flatcap
-  description: Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
+  name: casquette plate grise
+  description: À la mode pour la classe ouvrière et le vieux monsieur Jenkins. Elle a des éclats de verre cachés dans la visière.
   suffix: Bladed
   components:
   - type: Construction
@@ -263,8 +263,8 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedFlatcapBrown
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
+  name: casquette plate marron
+  description: "\"Abruti de clown, t'as fait croire que j'étais méchant !\" Elle a des éclats de verre cachés dans la visière."
   components:
   - type: Construction
     graph: BladedFlatcapBrown
@@ -274,10 +274,10 @@
     sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  name: shiv
+  name: surin
   parent: [BaseKnife, BaseMinorContraband]
   id: Shiv
-  description: A crude weapon fashioned from a piece of cloth and a glass shard.
+  description: Une arme rudimentaire façonnée à partir d'un morceau de tissu et d'un éclat de verre.
   components:
   - type: Tag
     tags:
@@ -316,10 +316,10 @@
   - type: UndetectableContraband #Goobstation-Contraband detector
 
 - type: entity
-  name: reinforced shiv
+  name: surin renforcé
   parent: Shiv
   id: ReinforcedShiv
-  description: A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
+  description: Une arme rudimentaire façonnée à partir d'un morceau de tissu et d'un éclat de verre renforcé.
   components:
   - type: Construction
     graph: ReinforcedShiv
@@ -335,10 +335,10 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: plasma shiv
+  name: surin plasma
   parent: Shiv
   id: PlasmaShiv
-  description: A crude weapon fashioned from a piece of cloth and a plasma glass shard.
+  description: Une arme rudimentaire façonnée à partir d'un morceau de tissu et d'un éclat de verre plasma.
   components:
   - type: Construction
     graph: PlasmaShiv
@@ -354,10 +354,10 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: uranium shiv
+  name: surin uranium
   parent: Shiv
   id: UraniumShiv
-  description: A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!
+  description: Une arme rudimentaire façonnée à partir d'un morceau de tissu et d'un éclat de verre uranium. Viole la convention de Genève !
   components:
   - type: Construction
     graph: UraniumShiv
@@ -374,10 +374,10 @@
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
-  name: throwing knife
+  name: couteau de lancer
   parent: [BaseKnife, BaseSyndicateContraband]
   id: ThrowingKnife
-  description: This blood-red knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.
+  description: Ce couteau rouge sang est très aérodynamique et facile à lancer, mais bonne chance pour essayer de se battre au corps à corps.
   components:
   - type: Tag
     tags:
@@ -426,10 +426,10 @@
         friction: 0.2
 
 - type: entity
-  name: utility knife
+  name: cutter
   parent: BaseItem
   id: UtilityKnife
-  description: A knife with a retractable, tiny blade. Useful as a box cutter and letter opener, among other things.
+  description: Un couteau avec une minuscule lame rétractable. Utile comme coupe-boîte et ouvre-lettre, entre autres choses.
   components:
   - type: Appearance
   - type: ComponentToggler

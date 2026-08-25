@@ -24,7 +24,7 @@
   id: Kudzu
   name: kudzu
   parent: BaseKudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: Une plante dangereuse qui pousse rapidement. POURQUOI TU T'ARRÊTES À LA REGARDER ?!
   components:
     # Goobstation - Kudzu uses the "kudzu" layer so Diona can see through it.
     # normalDrawDepth: Overdoors (10), seeOverDrawDepth: HighFloorObjects (-5)
@@ -123,9 +123,9 @@
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: floral carpet
+  name: tapis floral
   suffix: Friendly, Floral Anomaly
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  description: Un tapis coloré de fleurs s'étendant dans toutes les directions. Vous n'êtes pas sûr de devoir l'enlever ou le laisser.
   parent: Kudzu
   components:
     # Goobstation - Flower carpet uses the "kudzu" layer. Both depths are
@@ -187,7 +187,7 @@
   id: FleshKudzu
   name: tendons
   parent: BaseKudzu
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: Un amas en croissance rapide de tendons charnus. POURQUOI TU T'ARRÊTES À LA REGARDER ?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -284,7 +284,7 @@
       - Ruminant
 
 - type: entity
-  name: dark haze
+  name: brume sombre
   id: ShadowKudzu
   parent: [ BaseKudzu, BaseShadow ]
   components:
@@ -324,7 +324,7 @@
           data: { state: spookysmoke_static }
 
 - type: entity
-  name: haze
+  name: brume
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:

@@ -6,7 +6,7 @@
   abstract: true
   parent: FoodInjectableBase
   id: FoodNoodlesBase
-  description: Now that's a nice pasta!
+  description: Là c'est des belles pâtes !
   components:
   - type: Item
     shape:
@@ -26,8 +26,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesBoiled
-  name: boiled spaghetti
-  description: A plain dish of noodles, this needs more ingredients.
+  name: spaghetti bouilli
+  description: Un plat ordinaire de pâtes, ça a besoin de plus d'ingrédients.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -42,7 +42,7 @@
   parent: FoodNoodlesBase
   id: FoodNoodles
   name: spaghetti
-  description: Spaghetti and crushed tomatoes. Just like your abusive father used to make!
+  description: Des spaghettis et des tomates écrasées. Tout comme votre père abusif avait l'habitude de faire !
   components:
   - type: Item
     storedOffset: 0,-4
@@ -61,7 +61,7 @@
   parent: FoodNoodlesBase
   id: FoodNoodlesCopy
   name: copypasta
-  description: You probably shouldn't try this, you always hear people talking about how bad it is...
+  description: Vous ne devriez probablement pas essayer ça, vous entendez toujours les gens parler de sa mauvaise qualité...
   components:
   - type: Item
     size: Normal
@@ -90,8 +90,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesMeatball
-  name: spaghetti and meatballs
-  description: Now that's a nice-a meatball!
+  name: spaghetti et boulettes
+  description: Là c'est une bella bouletta !
   components:
   - type: Item
     storedOffset: 0,-4
@@ -119,7 +119,7 @@
   parent: FoodNoodlesBase
   id: FoodNoodlesSpesslaw
   name: spesslaw
-  description: A lawyer's favourite.
+  description: Les préférés d'un avocat.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -144,7 +144,7 @@
   name: chow mein
   parent: FoodNoodlesBase
   id: FoodNoodlesChowmein
-  description: A nice mix of noodles and fried vegetables.
+  description: Un agréable mélange de pâtes et de légumes frits.
   components:
   - type: FlavorProfile
     flavors:
@@ -168,8 +168,8 @@
 - type: entity
   parent: FoodNoodlesBase
   id: FoodNoodlesButter
-  name: butter noodles
-  description: Noodles covered in savory butter. Simple and slippery, but delicious.
+  name: pâtes au beurre
+  description: Des pâtes nappées de beurre savoureux. Simple et glissant, mais délicieux.
   components:
   - type: Item
     storedOffset: 0,-4

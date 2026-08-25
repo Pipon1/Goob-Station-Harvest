@@ -1,0 +1,2 @@
+paralyzed-no-stand = Vous êtes paralysé à partir de la taille, vous ne pouvez pas vous lever !
+social-anxiety-hugged = À cause de leur anxiété sociale, { $user } commence à faire une crise de panique !

@@ -6,8 +6,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkVisualizerTestCut
-  name: solution container vis cut-out
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: récipient de solution découpe vis
+  description: Un pichet isolé en acier inoxydable. Le meilleur ami de tout le monde le matin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -34,8 +34,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkVisualizerTestNot
-  name: solution container vis cut-not
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: récipient de solution découpe vis
+  description: Un pichet isolé en acier inoxydable. Le meilleur ami de tout le monde le matin.
   components:
   - type: SolutionContainerManager
     solutions:

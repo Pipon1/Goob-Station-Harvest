@@ -3,8 +3,8 @@
 - type: entity
   parent: [ DrinkBaseMaterialStrongPlastic, DrinkBase, DrinkVisualsAll ]
   id: Jug
-  name: jug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  name: bidon
+  description: Utilisée pour contenir une très grande quantité de produits chimiques ou de solutions. Il est extrêmement déconseillé de la boire cul sec.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/jug.rsi

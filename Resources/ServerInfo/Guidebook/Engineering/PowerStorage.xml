@@ -3,22 +3,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Power Storage
-  Because of [textlink="Power Ramping" link="Ramping"], it is important to have power storage devices to help flatten out spikes and dips in power usage, as well as to provide power in the event of a power deficit.
+  # Stockage Courant
+  À cause de la [textlink="Montée en Charge Courant" link="Ramping"], il est important d'avoir des appareils de stockage courant pour aplatir les pics et creux d'usage courant, ainsi que pour fournir du courant en cas de déficit.
 
-  Each transformer for its respective power level ([color=orange]HV[/color], [color=yellow]MV[/color], and [color=green]LV[/color]) has an attached small battery to handle minor spikes and dips; however, this is not viable in the case of a large grid deficit.
+  Chaque transformateur pour son niveau de courant respectif ([color=orange]HT[/color], [color=yellow]MT[/color], et [color=green]BT[/color]) a une petite batterie attachée pour gérer les pics et creux mineurs ; par contre, ça ne suffit pas en cas de gros déficit réseau.
 
   ## SMES
 
-  The Superconducting Magnetic Energy Storage (SMES) unit is a device that can store a large amount of power and release it quickly.
+  L'unité de Stockage Énergétique Magnétique Supraconducteur (SEMS) est un appareil qui peut stocker beaucoup de courant et le relâcher vite.
 
   <Box>
     <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
 
-  In order to charge the SMES unit, [color=orange]HV[/color] power must be provided to a cable terminal pointing at the SMES unit. The SMES will draw power from the terminal and send power out from underneath.
+  Pour charger l'unité SEMS, du courant [color=orange]HT[/color] doit être fourni à un terminal câble pointant vers l'unité SEMS. Le SEMS tirera du courant du terminal et en sortira par en-dessous.
 
-  The terminal will ensure that the [color=orange]HV input[/color] and [color=orange]HV output[/color] do not connect.
+  Le terminal assurera que l'[color=orange]entrée HT[/color] et la [color=orange]sortie HT[/color] ne se connectent pas.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -26,29 +26,29 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
 
     <Box>
-      <GuideEntityEmbed Entity="CableHV" Caption="Output"/>
+      <GuideEntityEmbed Entity="CableHV" Caption="Sortie"/>
       <GuideEntityEmbed Entity="SMESBasic" Caption="" Margin="0"/>
       <GuideEntityEmbed Entity="CableTerminal" Caption="" Margin="0" Rotation="270"/>
-      <GuideEntityEmbed Entity="CableHV" Caption="Input"/>
+      <GuideEntityEmbed Entity="CableHV" Caption="Entrée"/>
     </Box>
   </Box>
 
-  SMESes can store [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] of energy and can output a maximum [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] of power.
+  Les SEMS peuvent stocker [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] d'énergie et sortir au max [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] de courant.
 
-  If the battery is full, the SMES will pass through the power it receives from the input cable to the output cable. In the event of a power deficit, the SMES will ramp up to supplement the power draw.
+  Si la batterie est pleine, le SEMS laissera passer le courant qu'il reçoit du câble entrée vers le câble sortie. En cas de déficit courant, le SEMS montera en charge pour compléter la demande.
 
-  ## Advanced SMES
-  The Advanced SMES unit is a more advanced version of the SMES unit that can store even more power.
+  ## SEMS Avancé
+  L'unité SEMS Avancée est une version plus avancée du SEMS qui peut stocker encore plus de courant.
 
   <Box>
     <GuideEntityEmbed Entity="SMESAdvanced"/>
   </Box>
 
-  They're primarily used in station SMES arrays to store large amounts of power for the station's power grid.
-  They help to buy engineers time to setup power at roundstart or to provide power in the event of a power deficit for extended periods of time.
+  Elles sont principalement utilisées dans les arrays SEMS de station pour stocker de grosses quantités de courant pour le réseau électrique station.
+  Elles aident à acheter du temps aux ingénieurs pour mettre en place le courant au début ou fournir du courant en cas de déficit prolongé.
 
-  Advanced SMESes can store [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] of energy and can output a maximum [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] of power.
+  Les SEMS Avancés peuvent stocker [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] d'énergie et sortir au max [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color] de courant.
 
-  Keep in mind that these aren't a magic solution to power deficits and they can't store infinite energy.
-  A station load will drain these battries quickly if there is no power source partially supporting them.
+  Gardez en tête que ce ne sont pas des solutions magiques aux déficits courant et elles peuvent pas stocker l'énergie infinie.
+  Une charge station videra ces batteries vite s'il n'y a pas de source courant les supportant partiellement.
 </Document>

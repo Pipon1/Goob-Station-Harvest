@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseItem
   id: BaseCrowbar
-  name: crowbar
-  description: A multipurpose tool used for many tasks, such as prying doors or bludgeoning interdimensional invaders.
+  name: pied-de-biche
+  description: Un outil polyvalent utilisé pour de nombreuses tâches, comme forcer des portes ou matraquer des envahisseurs interdimensionnels.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup

@@ -1,8 +1,8 @@
 - type: entity
   id: MachineGCSLowCircuitboard
   parent: BaseMachineCircuitboard
-  name: low-power gunnery control server board
-  description: A machine board for a GCS.
+  name: circuit de serveur de contrôle de tir à faible puissance
+  description: Un circuit imprimé pour un SCT.
   components:
   - type: Sprite
     state: security
@@ -16,8 +16,8 @@
 - type: entity
   id: MachineGCSMediumCircuitboard
   parent: BaseMachineCircuitboard
-  name: medium-power gunnery control server board
-  description: A machine board for a GCS.
+  name: circuit de serveur de contrôle de tir à puissance moyenne
+  description: Un circuit imprimé pour un SCT.
   components:
   - type: Sprite
     state: security
@@ -31,8 +31,8 @@
 - type: entity
   id: MachineGCSHighCircuitboard
   parent: BaseMachineCircuitboard
-  name: high-power gunnery control server board
-  description: A machine board for a GCS.
+  name: circuit de serveur de contrôle de tir à haute puissance
+  description: Un circuit imprimé pour un SCT.
   components:
   - type: Sprite
     state: security
@@ -46,8 +46,8 @@
 - type: entity
   id: MachineGCSUltraCircuitboard
   parent: BaseMachineCircuitboard
-  name: ultra-high-power gunnery control server board
-  description: A machine board for a GCS.
+  name: circuit de serveur de contrôle de tir à puissance ultra-élevée
+  description: Un circuit imprimé pour un SCT.
   components:
   - type: Sprite
     state: security

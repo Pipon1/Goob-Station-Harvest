@@ -75,8 +75,8 @@
   abstract: true
   id: BaseSubstation
   parent: [ CoreSubstation, BaseMachine, ConstructibleMachine ]
-  name: substation
-  description: Reduces the voltage of electricity put into it.
+  name: sous-station
+  description: Réduit la tension de l'électricité qui y est injectée.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,8 +152,8 @@
   id: BaseSubstationWall
   parent: CoreSubstation
   categories: [ HideSpawnMenu ]
-  name: wallmount substation
-  description: A substation designed for compact shuttles and spaces.
+  name: sous-station murale
+  description: Une sous-station conçue pour les navettes et espaces compacts.
   placement:
     mode: SnapgridCenter
   components:
@@ -263,8 +263,8 @@
 - type: entity
   id: BaseSubstationWallFrame
   categories: [ HideSpawnMenu ]
-  name: wallmount substation frame
-  description: A substation frame for construction.
+  name: cadre sous-station murale
+  description: Un cadre de sous-station pour la construction.
   placement:
     mode: SnapgridCenter
   components:

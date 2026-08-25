@@ -25,8 +25,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, DrinkBase]
   id: DrinkFlaskOld
-  name: old flask
-  description: A decrepit old flask, its lid seems to be missing.
+  name: vieille flasque
+  description: Une vieille flasque décrépit, son couvercle semble être manquant.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -40,8 +40,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkShinyFlask
-  name: shiny flask
-  description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
+  name: flasque brillante
+  description: Une flasque métallique brillante. Il semble avoir un symbole grec gravé dessus.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -50,8 +50,8 @@
   parent: FlaskBase
   id: DrinkMREFlask
   suffix: Full
-  name: MRE flask
-  description: An old military flask, filled with the finest contents for soldiers.
+  name: flasque MRE
+  description: Une vieille flasque militaire, remplie des meilleurs contenus pour les soldats.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mreflask.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkDetFlask
-  name: inspector's flask
-  description: A metal flask with a leather band and golden badge belonging to the inspector.
+  name: flasque de l'inspecteur
+  description: Une flasque métallique avec une bande de cuir et un insigne doré appartenant à l'inspecteur.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkHosFlask
-  name: hos's flask
-  description: A metal flask, fit for a hard working HoS.
+  name: flasque du chef de la sécurité
+  description: Une flasque métallique, adaptée à un chef de sécurité travailleur.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hosflask.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlask
-  name: captain's flask
-  description: A metal flask belonging to the captain.
+  name: flasque du capitaine
+  description: Une flasque métallique appartenant au capitaine.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: flask
-  description: A reusable metal flask. Classier than drinking straight from a bottle.
+  name: flasque
+  description: Une flasque métallique réutilisable. Plus classe que de boire directement à la bouteille.
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkLithiumFlask
-  name: lithium flask
-  description: A flask with a Lithium Atom symbol on it.
+  name: flasque de lithium
+  description: Une flasque avec un symbole d'atome de lithium dessus.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkVacuumFlask
-  name: vacuum flask
-  description: Keeping your drinks at the perfect temperature since 1892.
+  name: flasque isolante
+  description: Garder vos boissons à la température parfaite depuis 1892.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi

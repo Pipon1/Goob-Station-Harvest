@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2024 starch <starchpersonal@gmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Dignitary
@@ -22,6 +17,7 @@ job-description-outercommander = An external observer who audits Central Command
 # Generic Nanotrasen
 
 job-description-nct = Teach the newbies how to perform their company assigned tasks properly, and stay out of trouble.
+job-description-bs = Act as a bodyguard and advisor for Command and CentCom VIPs.
 
 # Syndicate
 

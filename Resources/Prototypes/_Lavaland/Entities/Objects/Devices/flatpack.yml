@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GatewayFlatpackLavaland
-  name: lavaland gateway flatpack # "lavaland" only in name since that's what it's used for, to be clear to players
-  description: A flatpack used to bluespace in a gateway for travel to Lavaland.
+  name: flatpack de passerelle lavaland # "lavaland" only in name since that's what it's used for, to be clear to players
+  description: Un flatpack utilisé pour amener une passerelle via bluespace pour voyager vers Lavaland.
   components:
   - type: Flatpack
     entity: GatewayLavalandStation

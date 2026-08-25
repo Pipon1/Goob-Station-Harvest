@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BoxFolderNuclearCodes
-  name: nuclear code folder
+  name: dossier de codes nucléaires
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: BoxBase
   id: BoxFolderBaseEmpty
-  name: folder
-  description: A folder filled with top secret paperwork.
+  name: dossier
+  description: Un dossier rempli de documents top secret.
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -260,8 +260,8 @@
   parent: BoxFolderBaseEmpty
   id: BoxFolderCentComEmpty
   categories: [ DoNotMap ]
-  name: CentComm folder
-  description: CentComm's miserable little pile of secrets!
+  name: dossier CentComm
+  description: La misérable petite pile de secrets de CentComm !
   components:
   - type: Sprite
     layers:
@@ -281,8 +281,8 @@
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderClipboardEmpty
-  name: clipboard
-  description: The weapon of choice for those on the front lines of bureaucracy.
+  name: porte-bloc
+  description: L'arme de choix pour ceux qui sont sur la ligne de front de la bureaucratie.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderPlasticClipboardEmpty
-  name: plastic clipboard
-  description: A cheap clipboard made of blue plastic. For those who aren't yet ready to wield the bureaucratic might of a proper wooden clipboard.
+  name: porte-bloc en plastique
+  description: Un porte-bloc bon marché en plastique bleu. Pour ceux qui ne sont pas encore prêts à manier la puissance bureaucratique d'un véritable porte-bloc en bois.
   components:
   - type: Sprite
     sprite: Objects/Misc/plastic_clipboard.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderCentComClipboardEmpty
-  name: CentComm clipboard
-  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
+  name: porte-bloc CentComm
+  description: Un porte-bloc luxueux gainé de velours vert. Souvent vu porté par des officiels de CentComm, rarement vu utilisé réellement.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: [BoxFolderClipboardEmpty, BaseGrandTheftContraband]
   id: BoxFolderQmClipboard
-  name: requisition digi-board
-  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
+  name: digi-tablette de réquisition
+  description: Une tablette électrique volumineuse, remplie d'ordres d'expédition et de détails financiers. Avec tant de documents compromettants, vous devriez la garder en sécurité.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi

@@ -35,7 +35,7 @@
   id: MobGoliath
   parent: [ BaseMobAsteroid, MobBloodstream ]
   name: goliath
-  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+  description: Une bête massive qui utilise de longues tentacules pour capturer sa proie, la menacer n'est conseillé sous aucune condition.
   components:
   - type: Body # Shitmed Change
     prototype: Goliath
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseAction
   id: ActionGoliathTentacle
-  name: "[color=red]Tentacle Slam[/color]"
-  description: Use your tentacles to grab and stun a target player!
+  name: "[color=red]Coup de tentacule[/color]"
+  description: Utilisez vos tentacules pour saisir et étourdir un joueur !
   components:
   - type: Action
     raiseOnUser: true
@@ -145,7 +145,7 @@
 
 - type: entity
   id: GoliathTentacle
-  name: tentacle
+  name: tentacule
   components:
   - type: Transform
     anchored: True
@@ -180,7 +180,7 @@
 - type: entity
   id: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: tentacule
   abstract: true
   components:
   - type: Transform
@@ -198,7 +198,7 @@
   id: EffectGoliathTentacleSpawn
   parent: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: tentacule
   components:
     - type: Sprite
       state: goliath_tentacle_spawn
@@ -219,7 +219,7 @@
   id: MobHivelord
   parent: [ BaseMobAsteroid, FlyingMobBase ]
   name: hivelord
-  description: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+  description: Une créature vraiment alien, c'est une masse de matière organique inconnue, en constante fluctuation. En attaquant, des morceaux de celui-ci se séparent et attaquent en tandem avec l'original.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -279,8 +279,8 @@
 - type: entity
   id: MobHivelordBrood
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: hivelord brood
-  description: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+  name: progéniture d'hivelord
+  description: Un fragment de l'hivelord original, se rassemblant derrière son créateur. Un seul n'est pas une grande menace, mais...
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -332,8 +332,8 @@
 - type: entity
   id: FoodHivelordRemains
   parent: FoodBase
-  name: hivelord remains
-  description: All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
+  name: restes d'hivelord
+  description: Tout ce qui reste d'un hivelord, il semble que c'est ce qui lui permet de se briser des morceaux sans être blessé... ses propriétés de guérison deviendront bientôt inertes s'il ne sont pas utilisées rapidement. Essayez de ne pas penser à ce que vous mangez.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -365,8 +365,8 @@
 - type: entity
   id: FoodHivelordRemainsInert
   parent: BaseItem
-  name: inert hivelord remains
-  description: All that remains of a hivelord... Now all is truly lost.
+  name: restes inertes d'hivelord
+  description: Tout ce qui reste d'un hivelord... Maintenant tout est vraiment perdu.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/rorocore.rsi
@@ -386,8 +386,8 @@
 - type: entity
   id: MobBasilisk
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: basilisk
-  description: A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside.
+  name: basilic
+  description: Une bête territoriale, couverte d'une coquille épaisse qui absorbe l'énergie. Son regard fait geler les victimes de l'intérieur.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/basilisk.rsi

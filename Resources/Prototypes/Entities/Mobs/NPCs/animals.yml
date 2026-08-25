@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: bat
+  name: chauve-souris
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobBat
-  description: Some cultures find them terrifying, others crunchy on the teeth.
+  description: Certaines cultures les trouvent terrifiantes, d'autres les trouvent délicieuses.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -95,10 +95,10 @@
     deactivateSound: null
 
 - type: entity
-  name: bee
+  name: abeille
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobBee
-  description: Nice to have, but you can't build a civilization on a foundation of honey alone.
+  description: Agréable à avoir, mais vous ne pouvez pas construire une civilisation sur une base de miel tout seul.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -181,11 +181,11 @@
         recursive: false
 
 - type: entity
-  name: bee
+  name: abeille
   suffix: Angry
   parent: [ MobBee, MobCombat ]
   id: MobAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: Comme c'est gentil une abeille. Oh non, elle semble en colère et veut ma pizza.
   components:
   - type: CombatMode
   - type: MeleeWeapon
@@ -212,10 +212,10 @@
 
 
 - type: entity
-  name: chicken
+  name: poule
   parent: SimpleMobBase
   id: MobChicken
-  description: Comes before an egg, and IS a dinosaur!
+  description: Vient avant l'œuf, et C'EST un dinosaure !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -369,10 +369,10 @@
     lifetime: 21
 
 - type: entity
-  name: cockroach
+  name: cafard
   parent: SimpleMobBase
   id: MobCockroach
-  description: This station is just crawling with bugs.
+  description: Cette station fourmille d'insectes.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -481,11 +481,11 @@
         Piercing: 0
 
 - type: entity
-  name: glockroach
+  name: cafaristolet
   parent: MobCockroach
   suffix: Admeme
   id: MobGlockroach
-  description: This station is just crawling with bu- OH GOD THAT COCKROACH HAS A GUN!!!
+  description: Cette station fourmille d'ins- OH MON DIEU CE CAFARD A UN PISTOLET !!!
   components:
   - type: Sprite
     layers:
@@ -514,10 +514,10 @@
   - type: VentCrawler # goobstation - Ventcrawl
 
 - type: entity
-  name: mothroach
+  name: mitard
   parent: MobCockroach
   id: MobMothroach
-  description: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches.
+  description: C'est le produit adorable de multiples tentatives de mélange génétique entre les mites humanoïdes et les cafards.
   components:
   - type: GhostRole
     makeSentient: true
@@ -698,10 +698,10 @@
 # The white duck is more akin to a pekin or call duck.
 
 - type: entity
-  name: mallard duck #Quack
+  name: canard colvert #Quack
   parent: SimpleMobBase
   id: MobDuckMallard
-  description: An adorable mallard duck, it's fluffy and soft!
+  description: Un adorable canard colvert, il est tout doux !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -778,10 +778,10 @@
     - Passive
 
 - type: entity
-  name: white duck #Quack
+  name: canard blanc #Quack
   parent: MobDuckMallard
   id: MobDuckWhite
-  description: An adorable white duck, it's fluffy and soft!
+  description: Un adorable canard blanc, il est tout doux !
   components:
   - type: Sprite
     layers:
@@ -797,10 +797,10 @@
         Base: dead-1
 
 - type: entity
-  name: brown duck #Quack
+  name: canard marron #Quack
   parent: MobDuckMallard
   id: MobDuckBrown
-  description: An adorable brown duck, it's fluffy and soft!
+  description: Un adorable canard marron, il est tout doux !
   components:
   - type: Sprite
     layers:
@@ -833,10 +833,10 @@
       lifetime: 21
 
 - type: entity
-  name: butterfly
+  name: papillon
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobButterfly
-  description: Despite popular misconceptions, it's not actually made of butter.
+  description: Contrairement aux idées reçues, ce n'est pas réellement fait de beurre.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -910,10 +910,10 @@
   - type: ZombieImmune
 
 - type: entity
-  name: cow
+  name: vache
   parent: SimpleMobBase
   id: MobCow
-  description: Moo.
+  description: Meuh.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -995,10 +995,10 @@
     - FoodRecipes
 
 - type: entity
-  name: crab
+  name: crabe
   parent: SimpleMobBase
   id: MobCrab
-  description: A folk legend goes around that his claw snaps spacemen out of existence over distasteful remarks. Be polite and tolerant for your own safety.
+  description: Une légende folklorique dit que sa pince fait disparaître les cosmonautes de l'existence pour des remarques de mauvais goût. Soyez poli et respectueux pour votre propre sécurité.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Sprite
@@ -1070,10 +1070,10 @@
     prototype: AnimalHemocyanin
 
 - type: entity
-  name: goat
+  name: chèvre
   parent: SimpleMobBase
   id: MobGoat
-  description: Her spine consists of long sharp segments, no wonder she is so grumpy.
+  description: Sa colonne vertébrale est constituée de longs segments pointus, pas étonnant qu'elle soit de si mauvaise humeur.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1174,10 +1174,10 @@
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
-  name: goose
+  name: oie
   parent: SimpleMobBase
   id: MobGoose
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: Son estomac et son esprit sont une énigme au-delà de la compréhension humaine.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1225,10 +1225,10 @@
     - Passive
 
 - type: entity
-  name: gorilla
+  name: gorille
   parent: [ SimpleMobBase, MobCombat ]
   id: MobGorilla
-  description: Smashes, roars, looks cool. Don't stand near one.
+  description: Écrase, rugit, a l'air cool. Ne vous tenez pas près d'un.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1309,13 +1309,13 @@
       100: 0.5
 
 - type: entity
-  name: kangaroo
+  name: kangourou
   parent:
   - SimpleMobBase
   - MobCombat
   - StripableInventoryBase
   id: MobKangaroo
-  description: A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
+  description: Un grand marsupial herbivore. Il a de puissantes pattes arrière, avec des ongles qui ressemblent à de longues griffes.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3.5
@@ -1397,7 +1397,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: boxing kangaroo
+  name: kangourou de boxe
   parent: MobKangaroo
   id: MobBoxingKangaroo
   components:
@@ -1408,10 +1408,10 @@
     - SimpleHostile
 
 - type: entity
-  name: genetic ancestor
+  name: ancêtre génétique
   id: MobBaseAncestor
   parent: [SimpleMobBase, StripableInventoryBase, BaseMobDisgust] # Goob edit
-  description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
+  description: L'ancêtre génétique bipède de... Euh... Quelque chose. Ouais, il y a définitivement quelque chose sur la station qui descends de ce truc.
   abstract: true
   components:
   - type: Blindable # monkeys can be blind while sleeping!
@@ -1582,10 +1582,10 @@
   - type: DiseaseCarrier # Goobstation
 
 - type: entity
-  name: monkey
+  name: singe
   id: MobMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: La nouvelle église des néo-darwinistes croit que CHAQUE animal a évolué à partir d'un singe. Ça a le goût du porc, et les tuer est à la fois amusant et relaxant.
   components:
   - type: NameIdentifier
     group: Monkey
@@ -1626,10 +1626,10 @@
       path: /Audio/Animals/monkey_scream.ogg
 
 - type: entity
-  name: monkey
+  name: singe
   id: MobBaseSyndicateMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: La nouvelle église des néo-darwinistes croit que CHAQUE animal a évolué à partir d'un singe. Ça a le goût du porc, et les tuer est à la fois amusant et relaxant.
   suffix: syndicate base
   components:
   - type: NameIdentifier
@@ -1686,7 +1686,7 @@
   name: kobold
   id: MobBaseKobold
   parent: MobBaseAncestor
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: Cousins de la race sentiente des hommes-lézards, les kobolds se fondent dans leur habitat naturel et sont aussi méchants que les singes ; prêts à vous arracher les cheveux et à vous poignarder à mort.
   abstract: true
   components:
   - type: NameIdentifier
@@ -1812,7 +1812,7 @@
   name: kobold
   id: MobKobold
   parent: MobBaseKobold
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: Cousins de la race sentiente des hommes-lézards, les kobolds se fondent dans leur habitat naturel et sont aussi méchants que les singes ; prêts à vous arracher les cheveux et à vous poignarder à mort.
   components:
   - type: Clumsy
     gunShootFailDamage:
@@ -1859,19 +1859,19 @@
   - type: NukeOperative
 
 - type: entity
-  name: guidebook monkey
+  name: singe guide
   parent: MobMonkey
   categories: [ HideSpawnMenu ]
   id: MobGuidebookMonkey
-  description: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
+  description: Un singe à espérer utile dont le seul but dans la vie est pour que vous cliquiez dessus. Est-ce que ça compte comme recevoir un tutoriel d'un singe ?
   components:
     - type: GuidebookControlsTest
 
 - type: entity
-  name: mouse
+  name: souris
   parent: SimpleMobBase
   id: MobMouse
-  description: Squeak!
+  description: Scouic !
   components:
   - type: VentCrawler # goobstation - Ventcrawl
     enterDelay: 0.5
@@ -2138,8 +2138,8 @@
   suffix: Dead
   save: false
   id: MobMouseDead
-  name: mouse
-  description: Squeak!
+  name: souris
+  description: Scouic !
   components:
   - type: Damageable
     damage:
@@ -2224,8 +2224,8 @@
     heldPrefix: 2
 
 - type: entity
-  name: cancer mouse
-  description: Toxic. Squeak!
+  name: souris du cancer
+  description: Toxique. Scouic !
   parent: MobMouse
   id: MobMouseCancer
   components:
@@ -2269,10 +2269,10 @@
     damageModifierSet: Zombie
 
 - type: entity
-  name: lizard #Weh
+  name: lézard #Weh
   parent: SimpleMobBase
   id: MobLizard
-  description: A harmless dragon.
+  description: Un dragon sans danger.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
@@ -2328,10 +2328,10 @@
 
 
 - type: entity
-  name: slug
+  name: limace
   parent: SimpleMobBase
   id: MobSlug
-  description: And they called this a lizard?
+  description: Et ils ont appelé ça un lézard ?
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: MovementSpeedModifier
@@ -2379,10 +2379,10 @@
         Quantity: 50
 
 - type: entity
-  name: frog
+  name: grenouille
   parent: SimpleMobBase
   id: MobFrog
-  description: Hop hop hop. Lookin' moist.
+  description: Hop hop hop. Ça a l'air humide et délicieux.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: MovementSpeedModifier
@@ -2454,9 +2454,9 @@
 - type: entity
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobParrotBase
-  name: parrot
+  name: perroquet
   abstract: true
-  description: Infiltrates your domain, spies on you, and somehow still a cool pet.
+  description: S'infiltre dans votre domaine, vous espionne, et c'est quand même un animal de compagnie cool.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
@@ -2545,10 +2545,10 @@
   - type: ParrotAccent # regular parrots have a parrotaccent. Polly is special and does not
 
 - type: entity
-  name: penguin
+  name: pingouin
   parent: SimpleMobBase
   id: MobPenguin
-  description: Their lives are constant pain due to their inner-body knees.
+  description: Leur vie est une douleur constante à cause de leurs genoux internes.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2614,10 +2614,10 @@
 
 # TODO: Make grenade penguin voice activated like the rest of the stealth items.
 - type: entity
-  name: grenade penguin
+  name: grenade pingouin
   parent: [ MobPenguin, MobCombat, BaseSyndicateContraband ]
   id: MobGrenadePenguin
-  description: A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
+  description: Un petit pingouin avec une grenade attachée autour du cou. Récolté par le Syndicat sur des planètes gelées de merde.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -2690,10 +2690,10 @@
 
   # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
 - type: entity
-  name: snake
+  name: serpent
   parent: SimpleMobBase
   id: MobSnake
-  description: Hissss! Bites aren't poisonous.
+  description: Sssss ! Ses morsures ne sont pas venimeuses.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Sprite
@@ -2876,10 +2876,10 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: tarantula
+  name: tarantule
   parent: MobSpiderBase
   id: MobGiantSpider
-  description: Widely recognized to be the literal worst thing in existence.
+  description: Largement reconnu comme étant littéralement la pire chose qui existe.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2919,10 +2919,10 @@
   id: MobGiantSpiderAngry
 
 - type: entity
-  name: clown spider
+  name: araignée clown
   parent: MobSpiderAngryBase
   id: MobClownSpider
-  description: Combines the two most terrifying things in existence, spiders and clowns.
+  description: Combine les deux choses les plus terrifiantes qui existent, les araignées et les clowns.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -2968,7 +2968,7 @@
         - ReagentId: Laughter
           Quantity: 150
 - type: entity
-  name: wizard spider
+  name: araignée sorcier
   parent: MobGiantSpider
   id: MobGiantSpiderWizard
   description: This spider looks a little magical
@@ -2981,10 +2981,10 @@
     - Universal
 
 - type: entity
-  name: possum
+  name: opossum
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPossum
-  description: '"O Possum! My Possum!" -- Walt Whitman, 1865'
+  description: '"Ô Possum! Mon Possum!" -- Walt Whitman, 1865'
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3039,7 +3039,7 @@
     - TauCetiBasic
 
 - type: entity
-  name: possum
+  name: opossum
   parent: MobPossum
   suffix: Old sprite
   id: MobPossumOld
@@ -3060,10 +3060,10 @@
         Base: possum_dead_old
 
 - type: entity
-  name: raccoon
+  name: raton-laveur
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobRaccoon
-  description: Trash panda!
+  description: Panda des poubelles !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3119,10 +3119,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: fox
+  name: renard
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFox
-  description: They're a fox.
+  description: Auteur célèbre connu pour son roman.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3211,7 +3211,7 @@
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCorgiBase
   name: corgi
-  description: Finally, a space corgi!
+  description: Enfin, un corgi spatial !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3290,10 +3290,10 @@
     - VimPilot
 
 - type: entity
-  name: corrupted corgi
+  name: corgi corrompu
   parent: [ MobCorgi, MobCombat ]
   id: MobCorgiNarsi
-  description: Ian! No!
+  description: Ian ! Non !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3355,10 +3355,10 @@
         Heat : 1 #per second, scales with temperature & other constants
 
 - type: entity
-  name: corgi puppy
+  name: chiot corgi
   parent: MobCorgi
   id: MobCorgiPuppy
-  description: A little corgi! Aww...
+  description: Un petit corgi ! Aww...
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: Sprite
@@ -3383,10 +3383,10 @@
       gender: epicene
 
 - type: entity
-  name: cat
+  name: chat
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCat
-  description: Feline pet, very funny.
+  description: Animal domestique félin, très drôle.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3460,10 +3460,10 @@
     baseSprintSpeed: 4
 
 - type: entity
-  name: calico cat
+  name: chat calico
   id: MobCatCalico
   parent: MobCat
-  description: Feline pet, very funny.
+  description: Animal domestique félin, très drôle.
   components:
   - type: Sprite
     layers:
@@ -3479,10 +3479,10 @@
         Base: cat2_dead
 
 - type: entity
-  name: syndicat
+  name: syndichat
   id: MobCatSyndy
   parent: MobCatSpace
-  description: Explosive kitten.
+  description: Chat explosif.
   components:
   - type: Sprite
     layers:
@@ -3538,10 +3538,10 @@
     - TauCetiBasic # Needs to understand your nukie ops.
 
 - type: entity
-  name: space cat
+  name: chat de l'espace
   id: MobCatSpace
   parent: MobCat
-  description: Feline pet, prepared for the worst.
+  description: Animal domestique félin, préparé pour le pire.
   components:
   - type: Sprite
     layers:
@@ -3577,10 +3577,10 @@
     minSaturation: 5.0
 
 - type: entity
-  name: caracal cat
+  name: caracal
   id: MobCatCaracal
   parent: MobCat
-  description: Hilarious.
+  description: Hilarant.
   components:
   - type: Sprite
     sprite: Mobs/Pets/caracal.rsi
@@ -3597,10 +3597,10 @@
         Base: caracal_dead
 
 - type: entity
-  name: kitten
+  name: chaton
   parent: MobCat
   id: MobCatKitten
-  description: Small and fluffy.
+  description: Petit et tout mignon.
   components:
   - type: Sprite
     layers:
@@ -3630,10 +3630,10 @@
       25: Dead
 
 - type: entity
-  name: sloth
+  name: paresseux
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobSloth
-  description: Very slow animal. For people with low energy.
+  description: Animal très lent. Pour les personnes à faible énergie.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 0.5
@@ -3693,10 +3693,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: ferret
+  name: furet
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFerret
-  description: Just a silly little guy!
+  description: Juste un petit gars mignon !
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3756,7 +3756,7 @@
   name: hamster
   parent: [ SimpleMobBase, MobCombat, StripableInventoryBase]
   id: MobHamster
-  description: A cute, fluffy, robust hamster.
+  description: Un hamster mignon, doux et robuste.
   components:
   - type: VentCrawler # goobstation - Ventcrawl
   - type: GhostRole
@@ -3916,10 +3916,10 @@
         recursive: false
 
 - type: entity
-  name: pig
+  name: cochon
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPig
-  description: Oink.
+  description: Groin.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3991,10 +3991,10 @@
       task: RuminantCompound
 
 - type: entity
-  name: diona nymph
+  name: nymphe diona
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobDionaNymph
-  description: It's like a cat, only.... branch-ier.
+  description: C'est comme un chat, mais plus branché.
   components:
   # Goobstation - Diona nymphs can also see through kudzu.
   - type: SeeOverLayer
@@ -4098,10 +4098,10 @@
     accent: nymph
 
 - type: entity
-  name: reindeer buck
+  name: renne mâle
   parent: [ SimpleMobBase, MobCombat ]
   id: MobReindeerBuck
-  description: You think it can pull a sleigh?
+  description: Vous pensez que ça peut tirer un traîneau ?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -4169,7 +4169,7 @@
     - TauCetiBasic
 
 - type: entity
-  name: reindeer doe
+  name: renne femelle
   parent: MobReindeerBuck
   id: MobReindeerDoe
   components:
@@ -4203,8 +4203,8 @@
 - type: entity
   parent: MobCorgiBase
   id: MobCorgiSmart
-  name: smart corgi
-  description: An unusually smart dog.
+  name: corgi intelligent
+  description: Un chien inhabituellement intelligent.
   components:
   # Use corgi sprite, need to add handcuff layer
   - type: Sprite

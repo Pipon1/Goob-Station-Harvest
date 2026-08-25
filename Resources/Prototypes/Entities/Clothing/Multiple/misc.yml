@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: ClothingMultipleHeadphones
-  name: headphones
-  description: Quality headphones from Drunk Masters, with good sound insulation.
+  name: casque audio
+  description: Un casque audio de qualité de Drunk Masters, avec une bonne isolation sonore.
   components:
   - type: Sprite
     sprite: Clothing/Multiple/headphones.rsi

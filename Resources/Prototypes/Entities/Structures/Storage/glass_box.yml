@@ -31,8 +31,8 @@
 - type: entity
   parent: [BaseGlassBox, BaseItemCabinetGlass]
   id: GlassBox
-  name: glass box
-  description: A sturdy showcase for an expensive exhibit.
+  name: boîte en verre
+  description: Une vitrine solide pour un objet d'exposition très cher.
   abstract: true # TODO: Temporarily abstract. Remove it after item scaling in cabinets is implemented.
   components:
   - type: Sprite
@@ -165,8 +165,8 @@
 - type: entity
   parent: BaseGlassBox
   id: GlassBoxFrame
-  name: glass box frame
-  description: A glassless sturdy showcase for an expensive exhibit.
+  name: cadre de boîte en verre
+  description: Une vitrine solide sans verre pour un objet d'exposition très cher.
   suffix: Frame
   components:
   - type: Sprite
@@ -207,8 +207,8 @@
 - type: entity
   parent: GlassBoxFrame
   id: GlassBoxBroken
-  name: broken glass box
-  description: A broken showcase for a stolen expensive exhibit.
+  name: boîte en verre cassée
+  description: Une vitrine cassée pour un objet d'exposition volé.
   suffix: Broken
   components:
   - type: Sprite

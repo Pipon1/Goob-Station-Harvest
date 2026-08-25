@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: regenerating pie cannon
+  name: canon à tarte auto-régénérant
   parent: BaseStorageItem
   id: LauncherCreamPieRegenerating
-  description: A self-regenerating pie cannon.
-  suffix: Regenerating
+  description: Un canon à tarte auto-régénérant.
+  suffix: Régénérant
   components:
   - type: PacifismAllowedGun
   - type: Sprite
@@ -41,11 +41,11 @@
 # Lollypop stuff
 
 - type: entity
-  name: tricordrazine lollypop dispenser
+  name: distributeur de sucettes tricordrazine
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingTricordazine
-  description: Utilizes a in-built fabricator to generate tricordrazine lollypops from energy.
-  suffix: Regenerating, DO NOT MAP
+  description: Utilise un fabricateur intégré pour générer des sucettes à la tricordrazine à partir d'énergie.
+  suffix: Régénérant, NE PAS PLACER
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
@@ -58,11 +58,11 @@
     count: 3
 
 - type: entity
-  name: omnizine lollypop dispenser
+  name: distributeur de sucettes omnizine
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingOmnizine
-  description: Utilizes a in-built fabricator to generate omnizine lollypops from energy.
-  suffix: Regenerating, DO NOT MAP
+  description: Utilise un fabricateur intégré pour générer des sucettes à l'omnizine à partir d'énergie.
+  suffix: Régénérant, NE PAS PLACER
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
@@ -75,11 +75,11 @@
     count: 2
 
 - type: entity
-  name: weh! lollypop dispenser
+  name: distributeur de sucettes Weh!
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingWeh
-  description: Utilizes a in-built fabricator to generate Weh! lollypops from energy. Weh!
-  suffix: Regenerating, DO NOT MAP
+  description: Utilise un fabricateur intégré pour générer des sucettes Weh! à partir d'énergie. Weh!
+  suffix: Régénérant, NE PAS PLACER
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
@@ -92,11 +92,11 @@
     count: 3
 
 - type: entity
-  name: mystery lollypop dispenser
+  name: distributeur de sucettes mystère
   parent: LauncherLollypopRegenerating
   id: LauncherLollypopRegeneratingMystery
-  description: Utilizes a in-built fabricator to generate randomized lollypops from energy.
-  suffix: Regenerating, DO NOT MAP
+  description: Utilise un fabricateur intégré pour générer des sucettes aléatoires à partir d'énergie.
+  suffix: Régénérant, NE PAS PLACER
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
@@ -109,11 +109,11 @@
     count: 3
 
 - type: entity
-  name: lollypop dispenser
+  name: distributeur de sucettes
   parent: BaseStorageItem
   id: LauncherLollypopRegenerating
-  description: Utilizes a in-built fabricator to generate lollypops from energy.
-  suffix: Regenerating, DO NOT MAP
+  description: Utilise un fabricateur intégré pour générer des sucettes à partir d'énergie.
+  suffix: Régénérant, NE PAS PLACER
   categories: [ DoNotMap ]
   components:
   - type: PacifismAllowedGun
@@ -149,9 +149,9 @@
 - type: entity
   parent: LauncherCreamPieRegenerating
   id: SantaCannonRegenerating
-  name: Santa's merry pneumatic cannon
-  suffix: DO NOT MAP
-  description: The only thing you'll need to spread christmas cheer!
+  name: canon pneumatique joyeux du Père Noël
+  suffix: NE PAS PLACER
+  description: La seule chose dont vous aurez besoin pour répandre la joie de Noël !
   components:
   - type: BasicEntityAmmoProvider
     proto: PresentRandomUnsafe

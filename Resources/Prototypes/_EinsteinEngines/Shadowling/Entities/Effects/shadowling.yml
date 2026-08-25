@@ -1,6 +1,6 @@
 - type: entity
   id: ShadowlingGlareEffect
-  name: shadowling glare effect
+  name: effet du regard de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.35
@@ -21,7 +21,7 @@
 
 - type: entity
   id: ShadowlingShadowWalkInEffect
-  name: shadowling shadow walk in effect
+  name: effet d'entrée de marche dans l'ombre
   components:
   - type: TimedDespawn
     lifetime: 0.5
@@ -40,7 +40,7 @@
 
 - type: entity
   id: ShadowlingShadowWalkOutEffect
-  name: shadowling shadow walk out effect
+  name: effet de sortie de marche dans l'ombre
   components:
   - type: TimedDespawn
     lifetime: 0.5
@@ -59,7 +59,7 @@
 
 - type: entity
   id: ShadowlingCollectiveMindEffect
-  name: shadowling collective mind effect
+  name: effet d'esprit collectif de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.35
@@ -80,7 +80,7 @@
 
 - type: entity
   id: ShadowlingRapidRehatchEffect
-  name: shadowling rapid rehatch effect
+  name: effet de rééclosion rapide de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.85
@@ -101,7 +101,7 @@
 
 - type: entity
   id: ShadowlingIcyVeinsEffect
-  name: shadowling icy veins effect
+  name: effet de veines glacées de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.85
@@ -122,7 +122,7 @@
 
 - type: entity
   id: ShadowlingNullChargeEffect
-  name: shadowling null charge effect
+  name: effet de charge annihilante de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.85
@@ -143,7 +143,7 @@
 
 - type: entity
   id: ShadowlingSonicScreechEffect
-  name: shadowling sonic screech effect
+  name: effet de cri sonique de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 1.2
@@ -165,7 +165,7 @@
 
 - type: entity
   id: ShadowlingBlackRecuperationEffect # plays on Thralls
-  name: shadowling black recuperation effect
+  name: effet de récupération noire de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 0.85
@@ -186,7 +186,7 @@
 
 - type: entity
   id: ShadowlingAscendingEffect
-  name: shadowling ascending effect
+  name: effet d'ascension de l'ombrelin
   components:
   - type: TimedDespawn
     lifetime: 8.02

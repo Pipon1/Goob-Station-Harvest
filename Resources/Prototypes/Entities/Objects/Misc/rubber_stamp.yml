@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: generic rubber stamp
+  name: tampon en caoutchouc générique
   parent: BaseItem
   id: RubberStampBase
-  description: A rubber stamp for stamping important documents.
+  description: Un tampon en caoutchouc pour tamponner des documents importants.
   abstract: true
   components:
   - type: Stamp
@@ -25,7 +25,7 @@
     stealGroup: Stamp
 
 - type: entity
-  name: alternate rubber stamp
+  name: tampon en caoutchouc alternatif
   parent: RubberStampBase
   id: RubberStampBaseAlt
   abstract: true
@@ -40,7 +40,7 @@
         maxDistance: 5
 
 - type: entity
-  name: captain's rubber stamp
+  name: tampon en caoutchouc du capitaine
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCaptain
   categories: [ DoNotMap ]
@@ -54,7 +54,7 @@
     state: stamp-cap
 
 - type: entity
-  name: CentComm rubber stamp
+  name: tampon en caoutchouc CentComm
   parent: RubberStampBase
   id: RubberStampCentcom
   categories: [ DoNotMap ]
@@ -68,7 +68,7 @@
     state: stamp-centcom
 
 - type: entity
-  name: chaplain's rubber stamp
+  name: tampon en caoutchouc du chapelain
   parent: RubberStampBase
   id: RubberStampChaplain
   categories: [ DoNotMap ]
@@ -82,7 +82,7 @@
     state: stamp-chaplain
 
 - type: entity
-  name: lawyer's rubber stamp
+  name: tampon en caoutchouc de l'avocat
   parent: RubberStampBase
   id: RubberStampLawyer
   categories: [ DoNotMap ]
@@ -96,7 +96,7 @@
     state: stamp-lawyer
 
 - type: entity
-  name: clown's rubber stamp
+  name: tampon en caoutchouc du clown
   parent: RubberStampBase
   id: RubberStampClown
   categories: [ DoNotMap ]
@@ -110,7 +110,7 @@
     state: stamp-clown
 
 - type: entity
-  name: chief engineer's rubber stamp
+  name: tampon en caoutchouc du chef ingénieur
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCE
   categories: [ DoNotMap ]
@@ -124,7 +124,7 @@
     state: stamp-ce
 
 - type: entity
-  name: chief medical officer's rubber stamp
+  name: tampon en caoutchouc du médecin-chef
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampCMO
   categories: [ DoNotMap ]
@@ -138,7 +138,7 @@
     state: stamp-cmo
 
 - type: entity
-  name: head of personnel's rubber stamp
+  name: tampon en caoutchouc du chef du personnel
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampHop
   categories: [ DoNotMap ]
@@ -152,7 +152,7 @@
     state: stamp-hop
 
 - type: entity
-  name: head of security's rubber stamp
+  name: tampon en caoutchouc du chef de la sécurité
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampHos
   categories: [ DoNotMap ]
@@ -166,7 +166,7 @@
     state: stamp-hos
 
 - type: entity
-  name: mime's rubber stamp
+  name: tampon en caoutchouc du mime
   parent: RubberStampBase
   id: RubberStampMime
   categories: [ DoNotMap ]
@@ -181,7 +181,7 @@
     state: stamp-mime
 
 - type: entity
-  name: quartermaster's rubber stamp
+  name: tampon en caoutchouc du quartier-maître
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampQm
   categories: [ DoNotMap ]
@@ -195,7 +195,7 @@
     state: stamp-qm
 
 - type: entity
-  name: research director's rubber stamp
+  name: tampon en caoutchouc du directeur de la recherche
   parent: [RubberStampBase, BaseCommandContraband]
   id: RubberStampRd
   categories: [ DoNotMap ]
@@ -209,7 +209,7 @@
     state: stamp-rd
 
 - type: entity
-  name: trader's rubber stamp
+  name: tampon en caoutchouc du commerçant
   parent: RubberStampBase
   id: RubberStampTrader
   components:
@@ -221,7 +221,7 @@
     state: stamp-trader
 
 - type: entity
-  name: syndicate rubber stamp
+  name: tampon en caoutchouc du syndicat
   parent: [RubberStampBase, BaseSyndicateContraband]
   id: RubberStampSyndicate
   categories: [ DoNotMap ]
@@ -237,7 +237,7 @@
     price: 1000
 
 - type: entity
-  name: warden's rubber stamp
+  name: tampon en caoutchouc du gardien
   parent: [RubberStampBase, BaseSecurityContraband]
   id: RubberStampWarden
   categories: [ DoNotMap ]
@@ -250,7 +250,7 @@
     state: stamp-warden
 
 - type: entity
-  name: APPROVED rubber stamp
+  name: tampon en caoutchouc APPROUVÉ
   parent: RubberStampBaseAlt
   id: RubberStampApproved
   components:
@@ -263,7 +263,7 @@
     state: stamp-ok
 
 - type: entity
-  name: DENIED rubber stamp
+  name: tampon en caoutchouc REFUSÉ
   parent: RubberStampBaseAlt
   id: RubberStampDenied
   components:
@@ -276,7 +276,7 @@
     state: stamp-deny
 
 - type: entity
-  name: detective's rubber stamp
+  name: tampon en caoutchouc du détective
   parent: [RubberStampBase, BaseSecurityContraband]
   id: RubberStampDetective
   categories: [ DoNotMap ]
@@ -289,10 +289,10 @@
     state: stamp-detective
 
 - type: entity
-  name: greytide's rubber stamp
+  name: tampon en caoutchouc greytide
   parent: RubberStampBase
   id: RubberStampGreytide
-  description: A rubber stamp for stamping important documents. The tide washes over you, just looking at it...
+  description: Un tampon en caoutchouc pour tamponner des documents importants. La marée te submerge rien qu'en le regardant...
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-greytide
@@ -302,11 +302,11 @@
     state: stamp-greytide
 
 - type: entity
-  name: psychologist's rubber stamp
+  name: tampon en caoutchouc du psychologue
   parent: RubberStampBase
   id: RubberStampPsychologist
   categories: [ DoNotMap ]
-  description: A rubber stamp for stamping important documents. Prescribe those treatments!
+  description: Un tampon en caoutchouc pour tamponner des documents importants. Prescrivez ces traitements !
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-psychologist
@@ -316,10 +316,10 @@
     state: stamp-psychologist
 
 - type: entity
-  name: wizard's rubber stamp
+  name: tampon en caoutchouc du sorcier
   parent: [RubberStampBase, BaseMagicalContraband]
   id: RubberStampWizard
-  description: A chaotic wizard stamp for serving unchaotic paperwork, how ironic.
+  description: Un tampon de sorcier chaotique pour la paperasse non chaotique, quelle ironie.
   categories: [ DoNotMap ]
   components:
   - type: Stamp

@@ -1,85 +1,84 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-trait-blindness-name = Blindness
-trait-blindness-desc = You are legally blind, and can't see clearly past a few meters in front of you.
+trait-blindness-name = Cécité
+trait-blindness-desc = Vous êtes légalement aveugle et ne pouvez pas voir clairement au-delà de quelques mètres devant vous.
 
-trait-poor-vision-name = Short-sighted
-trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
+trait-poor-vision-name = Myopie
+trait-poor-vision-desc = Vos yeux ne sont plus ce qu'ils étaient, vous avez du mal à voir les choses au loin sans lunettes correctrices.
 
-trait-narcolepsy-name = Narcolepsy
-trait-narcolepsy-desc = You fall asleep randomly.
+trait-narcolepsy-name = Narcolepsie
+trait-narcolepsy-desc = Vous vous endormez de façon aléatoire.
 
-trait-pacifist-name = Pacifist
-trait-pacifist-desc = You cannot attack or hurt any living beings.
+trait-pacifist-name = Pacifiste
+trait-pacifist-desc = Vous ne pouvez pas attaquer ni blesser aucun être vivant.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} yeux sont vitreux et dans le vague. Il ne semble pas que {SUBJECT($target)} puisse vous voir clairement, si tant est qu'il vous voie.[/color]
 
-trait-lightweight-name = Petite nature
-trait-lightweight-desc = Vous tenez mal l'alcool.
+trait-lightweight-name = Faible tolérance à l'alcool
+trait-lightweight-desc = L'alcool a un effet plus fort sur vous.
 
-trait-monochromacy-name = Monochromacy
-trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
+trait-monochromacy-name = Monochromie
+trait-monochromacy-desc = Vous êtes totalement daltonien, tout ce que vous percevez va du noir au blanc.
 
-trait-muted-name = Muted
-trait-muted-desc = You can't speak.
+trait-muted-name = Mutisme
+trait-muted-desc = Vous ne pouvez pas parler.
 
-trait-paracusia-name = Paracusia
-trait-paracusia-desc = You hear sounds that aren't really there.
+trait-paracusia-name = Paracousie
+trait-paracusia-desc = Vous entendez des sons qui n'existent pas vraiment.
 
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
+trait-unrevivable-name = Irrécupérable
+trait-unrevivable-desc = Vous ne pouvez pas être réanimé par défibrillateur.
 
-trait-pirate-accent-name = Pirate accent
-trait-pirate-accent-desc = You can't stop speaking like a pirate!
+trait-pirate-accent-name = Accent de pirate
+trait-pirate-accent-desc = Vous ne pouvez pas vous empêcher de parler comme un pirate !
 
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have.
+trait-accentless-name = Sans accent
+trait-accentless-desc = Vous n'avez pas l'accent que votre espèce aurait normalement.
 
-trait-frontal-lisp-name = Frontal lisp
-trait-frontal-lisp-desc = You thpeak with a lithp.
+trait-frontal-lisp-name = Zézaiement
+trait-frontal-lisp-desc = Vouze zézayez en parlant.
 
-trait-socialanxiety-name = Stutter
-trait-socialanxiety-desc = You speak with a stutter.
+trait-socialanxiety-name = Bégaiement
+trait-socialanxiety-desc = Vous parlez en bégayant.
 
-trait-southern-name = Southern drawl
-trait-southern-desc = You have a different way of speakin'.
+trait-southern-name = Accent du sud
+trait-southern-desc = Vous avez une façon bien particulière de causer.
 
-trait-snoring-name = Snoring
-trait-snoring-desc = You will snore while sleeping.
+trait-snoring-name = Ronflement
+trait-snoring-desc = Vous ronflez pendant votre sommeil.
 
-trait-liar-name = Pathological liar
-trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+trait-liar-name = Menteur pathologique
+trait-liar-desc = Vous avez du mal à vous résoudre à dire la vérité. Parfois vous mentez quand même.
 
-trait-cowboy-name = Cowboy accent
-trait-cowboy-desc = You speak with a distinct cowboy accent!
+trait-cowboy-name = Accent de cowboy
+trait-cowboy-desc = Vous parlez avec un accent de cowboy bien marqué !
 
-trait-german-name = German accent
-trait-german-desc = You seem to come from space Germany.
+trait-german-name = Accent allemand
+trait-german-desc = Vous semblez venir de l'Allemagne spatiale.
 
-trait-italian-name = Italian accent
-trait-italian-desc = Mamma mia! You seem to have lived in space Italy!
+trait-italian-name = Accent italien
+trait-italian-desc = Mamma mia ! Vous semblez avoir vécu en Italie spatiale !
 
-trait-french-name = French accent
-trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+trait-french-name = Accent français
+trait-french-desc = Votre accent a un certain «je ne sais quoi».
 
-trait-spanish-name = Spanish accent
+trait-spanish-name = Accent espagnol
 trait-spanish-desc = Hola señor, donde esta la biblioteca.
 
-trait-dementia-name = Dementia
-trait-dementia-desc = I-... uh, what was this one about again? Oh thats right! You forget a lot sometimes
+trait-dementia-name = Démence
+trait-dementia-desc = Je-... euh, c'était quoi déjà ? Ah oui ! Vous oubliez beaucoup de choses parfois.
 
-trait-painnumbness-name = Numb
-trait-painnumbness-desc = You lack any sense of feeling pain, being unaware of how hurt you may be.
+trait-painnumbness-name = Insensibilité à la douleur
+trait-painnumbness-desc = Vous n'avez aucune sensation de douleur et n'avez pas conscience de vos blessures.
 
-trait-hemophilia-name = Hemophilia
-trait-hemophilia-desc = Your body fails to make blood clots.
+trait-newyork-name = Accent new-yorkais
+trait-newyork-desc = Vous parlez avec un fort accent new-yorkais. J'essaie d'marcher là, bordel !
 
-trait-impaired-mobility-name = Impaired Mobility
-trait-impaired-mobility-desc = You have difficulty moving without a mobility aid.
+trait-british-name = Accent britannique
+trait-british-desc = Vous parlez correctement, contrairement à ces foutus amerloques.
 
-# Goobstation?
-trait-newyork-name = New York accent
-trait-newyork-desc = You speak with a thick New York accent. I'm fuckin' walkin' 'ere!
+trait-hemophilia-name = Hémophilie
+trait-hemophilia-desc = Votre corps ne forme pas de caillots sanguins.
 
-trait-british-name = British accent
-trait-british-desc = You speak proper, unlike those bloody yanks.
+trait-impaired-mobility-name = Mobilité réduite
+trait-impaired-mobility-desc = Vous avez des difficultés à vous déplacer sans aide à la mobilité.

@@ -2,7 +2,7 @@
 - type: entity
   parent: DefibrillatorSyndicate
   id: DefibrillatorSyndicateUnpowered
-  suffix: Always Powered
+  suffix: Toujours alimenté
   components:
   - type: ItemSlots
     slots:

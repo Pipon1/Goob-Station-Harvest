@@ -3,7 +3,7 @@
 - type: entity
   abstract: true
   id: ArcadeBase
-  description: An arcade cabinet.
+  description: Une borne d'arcade.
   name: arcade
   parent: BaseComputer
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: space villain arcade
+  name: arcade space villain
   parent: ArcadeBase
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 
 - type: entity
   id: BlockGameArcade
-  description: An arcade cabinet with a strangely familiar game.
+  description: Une borne d'arcade avec un jeu étrangement familier.
   name: NT block game
   parent: ArcadeBase
   components:

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: BackgammonBoard
-  name: backgammon board
-  description: Old fashioned game of dice and pieces.
+  name: plateau de backgammon
+  description: Jeu de dés et de pièces à l'ancienne.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/backgammon.rsi

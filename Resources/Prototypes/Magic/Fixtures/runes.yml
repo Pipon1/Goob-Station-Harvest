@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseRune
   id: CollideRune
-  name: "collision rune"
+  name: "rune de collision"
   abstract: true
   components:
     - type: Fixtures
@@ -36,7 +36,7 @@
 - type: entity
   parent: CollideRune
   id: ActivateRune
-  name: "activation rune"
+  name: "rune d'activation"
   abstract: true
   components:
     - type: TriggerOnActivate
@@ -44,7 +44,7 @@
 - type: entity
   parent: CollideRune
   id: CollideTimerRune
-  name: "collision timed rune"
+  name: "rune de collision temporisée"
   abstract: true
   components:
     - type: TriggerOnTimedCollide
@@ -53,7 +53,7 @@
 - type: entity
   parent: CollideRune
   id: ExplosionRune
-  name: "explosion rune"
+  name: "rune d'explosion"
   components:
     - type: TriggerOnCollide
       fixtureID: rune
@@ -73,7 +73,7 @@
 - type: entity
   parent: CollideRune
   id: StunRune
-  name: "stun rune"
+  name: "rune d'étourdissement"
   components:
     - type: TriggerOnCollide
       fixtureID: rune
@@ -92,7 +92,7 @@
 - type: entity
   parent: CollideRune
   id: IgniteRune
-  name: "ignite rune"
+  name: "rune d'allumage"
   components:
     - type: TriggerOnCollide
       fixtureID: ignition
@@ -120,7 +120,7 @@
 - type: entity
   parent: CollideTimerRune
   id: ExplosionTimedRune
-  name: "explosion timed rune"
+  name: "rune d'explosion temporisée"
   components:
     - type: ExplodeOnTrigger
     - type: Explosive
@@ -132,7 +132,7 @@
 - type: entity
   parent: ActivateRune
   id: ExplosionActivateRune
-  name: "explosion activated rune"
+  name: "rune d'explosion activée"
   components:
     - type: ExplodeOnTrigger
     - type: Explosive
@@ -144,7 +144,7 @@
 - type: entity
   parent: ActivateRune
   id: FlashRune
-  name: "flash rune"
+  name: "rune éclair"
   components:
     - type: FlashOnTrigger
     - type: DeleteOnTrigger
@@ -152,6 +152,6 @@
 - type: entity
   parent: CollideTimerRune
   id: FlashRuneTimer
-  name: "flash timed rune"
+  name: "rune éclair temporisée"
   components:
     - type: FlashOnTrigger

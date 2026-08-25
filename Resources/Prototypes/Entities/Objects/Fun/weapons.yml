@@ -14,8 +14,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: FoamCrossbow
-  name: foam crossbow
-  description: Aiming this at Security may get you filled with lead.
+  name: arbalète en mousse
+  description: Viser la sécurité avec ça pourrait vous remplir de plomb.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_crossbow.rsi
@@ -43,10 +43,10 @@
         ents: []
 
 - type: entity
-  name: Foam Force Astro Ace
+  name: Fusil en mousse Astro Ace
   parent: [ BaseToyGun, BaseWeaponShotgun, BaseGunWieldable ]
   id: WeaponRifleFoam
-  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
+  description: Un fusil en mousse de qualité supérieure. Son plastique semble costaud, et ses mécanismes sont solides.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_rifle.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: RevolverCapGun
-  name: cap gun
-  description: Looks almost like the real thing! Ages 8 and up.
+  name: pistolet à bouchon
+  description: Presque comme le vrai truc ! À partir de 8 ans.
   components:
   - type: Sprite
     sprite: Objects/Fun/capgun.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: [ BaseItem, BaseToyGun ]
   id: WeaponStickyHand
-  name: sticky hand
-  description: They're saying you're reaching. They're saying it's a stretch. You'll show them all, and you'll stick it to them.
+  name: main collante
+  description: Ils disent que vous tentez de les atteindre. Ils disent que c'est un étirement. Vous allez leur montrer tous et vous allez vous coller à eux.
   components:
   - type: GrapplingGun
     cycleSound: /Audio/Misc/woosh.ogg
@@ -176,8 +176,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: FoamBlade
-  name: foamblade
-  description: It says "Sternside Changs number 1 fan" on it.
+  name: lame en mousse
+  description: Il dit "Sternside Changs number 1 fan" dessus.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_blade.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: FoamCutlass
-  name: foam cutlass
-  description: Cosplay as a pirate and force your friends to walk the plank.
+  name: sabre en mousse
+  description: Cosplayez en tant que pirate et forcez vos amis à marcher sur la planche.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: ToySword
-  name: toy sword
-  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
+  name: épée jouet
+  description: Nouvelle épée en plastique Sandy-Cat ! Vient avec un son réaliste et des couleurs complètes ! Ressemble presque au vrai !
   components:
   # <Goobstation>
   - type: Tag
@@ -295,8 +295,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: CardSword
-  name: cardboard sword
-  description: A cardboard tube fashioned into the shape of a sword.
+  name: épée en carton
+  description: Un tube de carton fabriqué en forme d'épée.
   components:
   - type: Sprite
     sprite: Objects/Fun/card_sword.rsi
@@ -326,8 +326,8 @@
 - type: entity
   parent: [ BaseItem, BaseToySword ]
   id: ToyHammer
-  name: rubber hammer
-  description: A brightly colored hammer made of rubber.
+  name: marteau en caoutchouc
+  description: Un marteau vivement coloré fait de caoutchouc.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_hammer.rsi

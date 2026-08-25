@@ -6,7 +6,7 @@
   - Incorporeal
   - BaseMob
   name: revenant
-  description: A spooky ghostie.
+  description: Un fantôme flippant.
   components:
   - type: Emag
     emagType: All

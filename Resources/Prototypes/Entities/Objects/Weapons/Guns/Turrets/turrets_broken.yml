@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructure
   id: WeaponTurretSyndicateBroken
-  name: ballistic turret (broken)
-  description: A ballistic machine gun auto-turret.
+  name: tourelle balistique (cassée)
+  description: Une tourelle automatique mitrailleuse balistique.
   components:
   - type: Clickable
   - type: InteractionOutline

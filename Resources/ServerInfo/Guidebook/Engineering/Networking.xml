@@ -3,14 +3,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Networking
-  On the station, devices need to communicate to each other to preform their functions.
-  [textlink="Air alarms" link="AirAlarms"] need to talk to their respective devices, [textlink="doors" link="Airlocks"] need to be linked to form proper airlocks, and much more.
+  # Réseau
+  Sur la station, les appareils doivent communiquer entre eux pour remplir leurs fonctions.
+  Les [textlink="alarmes à air" link="AirAlarms"] doivent parler à leurs appareils respectifs, les [textlink="portes" link="Airlocks"] doivent être liées pour former des SAS corrects, et bien plus.
 
-  This is done through two systems, the Link system and the List system.
+  Ça se fait via deux systèmes, le système Liaison et le système Liste.
 
-  You can use either the Multitool or Network Configurator to interact with these systems.
-  You can switch between the different systems using [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] or by hovering your cursor over the device and using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+  Vous pouvez utiliser soit le Multitool, soit le Configurateur Réseau pour interagir avec ces systèmes.
+  Vous pouvez basculer entre les différents systèmes avec [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] ou en survolant l'appareil avec votre curseur et utilisant [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -21,12 +21,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
   </Box>
 
-  Some devices will require access to link devices to them.
-  For example, you need Atmospherics access to link devices to an [textlink="air alarm" link="AirAlarms"].
-  For doors, you'll need the access level of the door you're linking to.
+  Certains appareils requièrent un accès pour lier des appareils à eux.
+  Par exemple, il vous faut l'accès Atmosphériques pour lier des appareils à une [textlink="alarme à air" link="AirAlarms"].
+  Pour les portes, il vous faudra le niveau d'accès de la porte que vous liez.
 
-  ## Link System
-  The link system is used for explicitly linking two devices, such as linking a door to another door.
+  ## Système Liaison
+  Le système liaison sert à lier explicitement deux appareils, comme lier une porte à une autre porte.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockExternal"/>
@@ -35,13 +35,13 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="SignalButton"/>
   </Box>
 
-  Under the link system, devices have [bold]ports[/bold] that are capable of either sending or receiving signals.
+  Sous le système liaison, les appareils ont des [bold]ports[/bold] capables d'envoyer ou recevoir des signaux.
 
-  Hovering over a port using your cursor will show a tooltip that tells you what the port does.
-  For example, output ports will state the conditions under which they will invoke a signal, and input ports will state what the device will do if it receives a signal.
+  Survoler un port avec votre curseur montrera une infobulle disant ce que le port fait.
+  Par exemple, les ports sortie diront les conditions sous lesquelles ils invoqueront un signal, et les ports entrée diront ce que l'appareil fera s'il reçoit un signal.
 
-  ## List System
-  The list system is used for linking multiple devices to a single primary device, such as linking multiple atmospherics devices to an air alarm.
+  ## Système Liste
+  Le système liste sert à lier plusieurs appareils à un appareil principal unique, comme lier plusieurs appareils atmosphériques à une alarme à air.
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
@@ -51,18 +51,18 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
   </Box>
 
-  Each device has its own unique address, which is used to identify it in the list system. When you link a device to a primary device, you are adding the device's address to a list of devices that the primary device will communicate with.
+  Chaque appareil a sa propre adresse unique, utilisée pour l'identifier dans le système liste. Quand vous liez un appareil à un appareil principal, vous ajoutez l'adresse de l'appareil à une liste d'appareils avec lesquels l'appareil principal communiquera.
 
-  You can save a device's address to your tool by interacting with the device using [color=yellow][bold][keybind="Use"][/bold][/color].
+  Vous pouvez sauvegarder l'adresse d'un appareil sur votre outil en interagissant avec l'appareil avec [color=yellow][bold][keybind="Use"][/bold][/color].
 
-  Once you have a list of devices saved to your tool, you can link them to a primary device by interacting with the primary device using [color=yellow][bold][keybind="Use"][/bold][/color], which will bring up a UI.
+  Une fois que vous avez une liste d'appareils sauvegardés sur votre outil, vous pouvez les lier à un appareil principal en interagissant avec l'appareil principal avec [color=yellow][bold][keybind="Use"][/bold][/color], ce qui ouvrira une UI.
 
-  The UI has multiple options:
-  - Set: Overwrites the current list of linked devices with the devices saved on the tool.
-  - Add: Adds the devices saved on the tool to the current list of linked devices.
-  - Clear: Removes all linked devices from the air alarm.
-  - Copy: Copies the list of currently linked devices to the tool.
-  - Show: Draws a line between the primary device and all linked devices. This is useful for visualizing the area the air alarm covers.
+  L'UI a plusieurs options :
+  - Définir : Écrasera la liste actuelle d'appareils liés avec les appareils sauvegardés sur l'outil.
+  - Ajouter : Ajoute les appareils sauvegardés sur l'outil à la liste actuelle d'appareils liés.
+  - Vider : Retire tous les appareils liés de l'alarme à air.
+  - Copier : Copie la liste des appareils actuellement liés sur l'outil.
+  - Montrer : Dessine une ligne entre l'appareil principal et tous les appareils liés. Utile pour visualiser la zone que l'alarme à air couvre.
 
-  If you need to clear your tool, you can press [color=yellow][bold][keybind="Use"][/bold][/color] on the tool or use [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] to bring up a list of saved devices, and then press the "Clear" button.
+  Si vous devez vider votre outil, vous pouvez appuyer [color=yellow][bold][keybind="Use"][/bold][/color] sur l'outil ou utiliser [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] pour ouvrir une liste des appareils sauvegardés, et appuyer le bouton "Vider".
 </Document>

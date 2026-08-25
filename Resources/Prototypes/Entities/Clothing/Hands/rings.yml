@@ -3,8 +3,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRing
-  name: gold ring
-  description: A precious ring.
+  name: bague en or
+  description: Une bague précieuse.
   components:
   - type: Sprite
     layers:
@@ -14,8 +14,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRing
-  name: silver ring
-  description: Looks slightly less valuable than a gold one.
+  name: bague en argent
+  description: Semble légèrement moins précieux qu'un en or.
   components:
   - type: Sprite
     layers:
@@ -24,8 +24,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRingDiamond
-  name: gold diamond ring
-  description: Made from ethically mined space diamonds.
+  name: bague or et diamant
+  description: Fabriquée à partir de diamants spatiaux extraits de manière éthique.
   components:
   - type: Sprite
     layers:
@@ -39,8 +39,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRingDiamond
-  name: silver diamond ring
-  description: Made from ethically mined space diamonds.
+  name: bague argent et diamant
+  description: Fabriquée à partir de diamants spatiaux extraits de manière éthique.
   components:
   - type: Sprite
     layers:
@@ -53,8 +53,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRingGem
-  name: gold gem ring
-  description: Shiny and valuable!
+  name: bague or et pierre précieuse
+  description: Brillante et précieuse !
   components:
   - type: Sprite
     layers:
@@ -73,8 +73,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRingGem
-  name: silver gem ring
-  description: Shiny and not quite as valuable!
+  name: bague argent et pierre précieuse
+  description: Brillante et pas tout à fait aussi précieuse !
   components:
   - type: Sprite
     layers:

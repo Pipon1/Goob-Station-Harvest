@@ -2,7 +2,7 @@
 # Implanters
 
 - type: entity
-  name: implanter
+  name: implanteur
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -22,7 +22,7 @@
       - Unimplantable
     currentMode: Draw
     implanterSlot:
-      name: Implant
+      name: implant
       locked: True
       priority: 0
       whitelist:
@@ -97,8 +97,8 @@
 - type: entity
   id: Implanter
   parent: BaseImplanter
-  name: implant extractor
-  description: "A dual-purpose syringe designed for the removal of specific subdermal implants. Once an implant is extracted, it is stored within and can be re-administered.\nWARNING: Operator error, such as selecting a non-present implant type, causes severe genetic trauma to the operator."
+  name: extracteur d'implants
+  description: "Une seringue à double usage conçue pour l'extraction d'implants sous-dermiques spécifiques. Une fois un implant extraits, il est stocké à l'intérieur et peut être ré-administré.\nAVERTISSEMENT : Une erreur de l'opérateur, telle que la sélection d'un type d'absent, provoque un traumatisme génétique sévère pour l'opérateur."
   components:
   - type: Tag
     tags:
@@ -119,7 +119,7 @@
 - type: entity
   id: BaseImplantOnlyImplanter
   parent: Implanter
-  description: A disposable syringe exclusively designed for the injection of subdermal implants.
+  description: Une seringue jetable exclusivement conçue pour l'injection d'implants sous-dermiques.
   abstract: true
   components:
   - type: Sprite
@@ -138,8 +138,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
   parent: [BaseImplantOnlyImplanter, BaseSyndicateContraband]
-  name: syndicate implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants. Make sure to scrub it with soap to remove residual DNA after use!
+  name: implanteur du syndicat
+  description: Une seringue jetable compacte exclusivement conçue pour l'injection d'implants sous-dermiques. Assurez-vous de la frotter avec du savon pour éliminer l'ADN résiduel après utilisation !
   abstract: true
   components:
   - type: Item
@@ -171,7 +171,7 @@
 
 - type: entity
   id: SadTromboneImplanter
-  name: sad trombone implanter
+  name: implanteur de trombone triste
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -179,7 +179,7 @@
 
 - type: entity
   id: LightImplanter
-  name: light implanter
+  name: implanteur de lumière
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -187,7 +187,7 @@
 
 - type: entity
   id: BikeHornImplanter
-  name: bike horn implanter
+  name: implanteur de klaxon de vélo
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -197,7 +197,7 @@
 
 - type: entity
   id: TrackingImplanter
-  name: tracking implanter
+  name: implanteur de suivi
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -207,7 +207,7 @@
 
 - type: entity
   id: StorageImplanter
-  name: storage implanter
+  name: implanteur de stockage
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -215,7 +215,7 @@
 
 - type: entity
   id: FreedomImplanter
-  name: freedom implanter
+  name: implanteur de liberté
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -223,7 +223,7 @@
 
 - type: entity
   id: RadioImplanter
-  name: syndicate radio implanter
+  name: implanteur de radio du syndicat
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -231,7 +231,7 @@
 
 - type: entity
   id: UplinkImplanter
-  name: uplink implanter
+  name: implanteur d'uplink
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -239,7 +239,7 @@
 
 - type: entity
   id: EmpImplanter
-  name: EMP implanter
+  name: implanteur EMP
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -247,7 +247,7 @@
 
 - type: entity
   id: ScramImplanter
-  name: scram implanter
+  name: implanteur SCRAM
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -255,7 +255,7 @@
 
 - type: entity
   id: DnaScramblerImplanter
-  name: DNA scrambler implanter
+  name: implanteur de brouillage d'ADN
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -263,7 +263,7 @@
 
 - type: entity
   id: ChameleonControllerImplanter
-  name: chameleon controller implanter
+  name: implanteur de contrôleur de caméléon
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -271,7 +271,7 @@
 
 - type: entity
   id: VoiceMaskImplanter
-  name: voice mask implanter
+  name: implanteur de masque vocal
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -281,7 +281,7 @@
 
 - type: entity
   id: MicroBombImplanter
-  name: micro-bomb implanter
+  name: implanteur de micro-bombe
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -289,7 +289,7 @@
 
 - type: entity
   id: MacroBombImplanter
-  name: macro-bomb implanter
+  name: implanteur de macro-bombe
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -297,7 +297,7 @@
 
 - type: entity
   id: DeathRattleImplanter
-  name: death rattle implanter
+  name: implanteur de râle de mort
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -305,7 +305,7 @@
 
 - type: entity
   id: DeathAcidifierImplanter
-  name: death acidifier implanter
+  name: implanteur d'acidificateur de mort
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -313,7 +313,7 @@
 
 - type: entity
   id: FakeMindShieldImplanter
-  name: fake mindshield implanter
+  name: implanteur de faux bouclier mental
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -333,7 +333,7 @@
 
 - type: entity
   id: RadioImplanterCentcomm
-  name: centcomm radio implanter
+  name: implanteur de radio du commandement central
   parent: BaseImplantOnlyImplanterCentcomm # Goobstation
   components:
   - type: Implanter
@@ -341,7 +341,7 @@
 
 - type: entity
   id: DeathRattleImplanterCentcomm
-  name: centcomm death rattle implanter
+  name: implanteur de râle de mort du commandement central
   parent: BaseImplantOnlyImplanterCentcomm # Goobstation
   components:
   - type: Implanter

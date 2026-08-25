@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseAction
   id: ActionForceWall
-  name: Force Wall # Goob edit
-  description: Create a magical barrier that only you can pass through. # Goob edit
+  name: Mur de force # Goob edit
+  description: Créez une barrière magique que seul vous pouvez traverser. # Goob edit
   components:
   - type: Action
     raiseOnUser: true # Goobstation

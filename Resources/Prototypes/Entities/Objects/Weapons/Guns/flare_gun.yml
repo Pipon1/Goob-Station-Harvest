@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: flare gun
+  name: pistolet à fusée lumineuse
   parent: BaseItem
   id: WeaponFlareGun
-  description: A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
+  description: Un pistolet compact à un coup tirant des cartouches de fusil à pompe. Dispose d'une sécurité empêchant l'insertion de cartouches létales.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/flaregun.rsi #GoobStation resprite
@@ -20,7 +20,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: ShellShotgunFlare
         priority: 1
         whitelist:
@@ -77,10 +77,10 @@
   # Goobstation edit end
 
 - type: entity
-  name: security shell gun
+  name: pistolet à cartouches de sécurité
   parent: [WeaponFlareGun, BaseSecurityContraband]
   id: WeaponFlareGunSecurity
-  description: A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
+  description: Un pistolet à fusée modifié, à l'origine conçu pour être utilisé par la sécurité afin de tirer des cartouches de fusil à pompe non-létales, mais qui peut aussi tirer des cartouches létales sans risque.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/flaregun_security.rsi #GoobStation resprite
@@ -93,7 +93,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: Chambre
         priority: 1
         whitelist:
           tags:

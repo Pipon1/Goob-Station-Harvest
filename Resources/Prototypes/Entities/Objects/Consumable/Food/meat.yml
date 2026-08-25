@@ -87,8 +87,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeat
-  name: raw meat
-  description: A slab of raw meat.
+  name: viande crue
+  description: Un morceau de viande crue.
   components:
   - type: Sprite
     state: plain
@@ -124,8 +124,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatHuman
-  name: raw human meat
-  description: Gross.
+  name: viande humaine crue
+  description: Beurk.
   components:
   - type: Sprite
     state: plain
@@ -150,8 +150,8 @@
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodMeatFish
-  name: raw carp fillet
-  description: Your last words being "Wow, exotic!" are not worth it. The taste itself though? Maybe.
+  name: filet de carpe cru
+  description: Vos derniers mots étant "Wow, exotique !" ne vaudraient pas le coup. Le goût lui-même ? Peut-être.
   components:
   - type: FlavorProfile
     flavors:
@@ -185,8 +185,8 @@
   # bacon is cured so not raw = cant rot
   parent: FoodMeatBase
   id: FoodMeatBacon
-  name: raw bacon
-  description: A raw piece of bacon.
+  name: bacon cru
+  description: Un morceau de bacon cru.
   components:
   - type: Tag
     tags:
@@ -221,8 +221,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatBear
-  name: raw bear meat
-  description: A very manly slab of raw bear meat.
+  name: viande d'ours crue
+  description: Un morceau très viril de viande d'ours crue.
   components:
   - type: Sprite
     state: bear
@@ -254,8 +254,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatPenguin
-  name: raw penguin meat
-  description: A slab of raw penguin meat. Can be used as a substitute for fish in recipes.
+  name: viande de pingouin crue
+  description: Un morceau de viande de pingouin crue. Peut être utilisé comme substitut de poisson dans les recettes.
   components:
   - type: Sprite
     state: bird
@@ -284,8 +284,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatChicken
-  name: raw chicken meat
-  description: A slab of raw chicken. Remember to wash your hands!
+  name: viande de poulet crue
+  description: Un morceau de poulet cru. N'oubliez pas de vous laver les mains !
   components:
   - type: Sprite
     state: bird
@@ -317,8 +317,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatDuck
-  name: raw duck meat
-  description: A slab of raw duck. Remember to wash your hands!
+  name: viande de canard crue
+  description: Un morceau de canard cru. N'oubliez pas de vous laver les mains !
   components:
   - type: Sprite
     state: bird
@@ -346,11 +346,11 @@
       - state: generic-pink-inhand-right
 
 - type: entity
-  name: prime-cut corgi meat
+  name: viande de corgi de première qualité
   # can't rot since that would be very bad for syndies
   parent: [FoodMeatBase, BaseGrandTheftContraband]
   id: FoodMeatCorgi
-  description: The tainted gift of an evil crime. The meat may be delicious, but at what cost?
+  description: Le cadeau empoisonné d'un crime horrible. La viande peut être délicieuse, mais à quel prix ?
   components:
   - type: Tag
     tags:
@@ -379,8 +379,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatCrab
-  name: raw crab meat
-  description: A pile of raw crab meat.
+  name: viande de crabe crue
+  description: Un tas de viande de crabe crue.
   components:
   - type: Item
     storedOffset: -1,2
@@ -405,8 +405,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatGoliath
-  name: raw goliath meat
-  description: A slab of goliath meat. It's not very edible now, but it cooks great in lava.
+  name: viande de goliath crue
+  description: Un morceau de viande de goliath crue. Ce n'est pas très comestible maintenant, mais ça cuit très bien dans la lave.
   components:
   - type: Sprite
     state: goliath
@@ -435,8 +435,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragon
-  name: dragon flesh
-  description: The dense meat of the space-era apex predator is oozing with its mythical ichor. Ironically, best eaten raw.
+  name: chair de dragon
+  description: La chair dense du prédateur apex de l'ère spatiale suinte de son ichor mythique. Ironiquement, mieux vaut la manger crue.
   components:
   - type: Tag
     tags:
@@ -476,8 +476,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatRat
-  name: raw rat meat
-  description: Prime meat from maintenance!
+  name: viande de rat crue
+  description: Viande de choix venant de la maintenance !
   components:
   - type: Sprite
     state: plain
@@ -503,8 +503,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatLizard
-  name: raw lizard meat
-  description: Delicious dino damage.
+  name: viande de lézard crue
+  description: Des dégâts de dinosaure délicieux.
   components:
   - type: Sprite
     state: lizard
@@ -534,10 +534,10 @@
         color: "#6EFF41"
 
 - type: entity
-  name: raw plant meat
+  name: viande végétale crue
   parent: FoodMeatBase
   id: FoodMeatPlant
-  description: All the joys of healthy eating with all the fun of cannibalism.
+  description: Toutes les joies d'une alimentation saine avec tout le fun du cannibalisme.
   components:
   - type: Sprite
     state: plant
@@ -545,8 +545,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatRotten
-  name: rotten meat
-  description: Halfway to becoming fertilizer for your garden.
+  name: viande pourrie
+  description: À mi-chemin de devenir de l'engrais pour votre jardin.
   components:
   - type: Tag
     tags:
@@ -577,8 +577,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatSpider
-  name: raw spider meat
-  description: A slab of spider meat. That's so Kafkaesque.
+  name: viande d'araignée crue
+  description: Un morceau de viande d'araignée. C'est tellement kafkaïen.
   components:
   - type: Sprite
     state: spider
@@ -600,8 +600,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderLeg
-  name: raw spider leg
-  description: A still twitching leg of a giant spider... you don't really want to eat this, do you?
+  name: patte d'araignée crue
+  description: Une patte d'araignée géante qui gigote encore... vous ne voulez vraiment pas manger ça, hein ?
   components:
   - type: Sprite
     state: spiderleg
@@ -628,8 +628,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatWheat
-  name: meatwheat clump
-  description: This doesn't look like meat, but your standards aren't that high to begin with.
+  name: boule de bléviande
+  description: Cela ne ressemble pas à de la viande, mais vos standards ne sont pas très élevées pour commencer.
   components:
   - type: FlavorProfile
     flavors:
@@ -657,8 +657,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSnake
-  name: raw snake meat
-  description: A long piece of snake meat, hopefully not poisonous.
+  name: viande de serpent crue
+  description: Un long morceau de viande de serpent, peut-être pas venimeux ?
   components:
   - type: Tag
     tags:
@@ -686,8 +686,8 @@
   # not raw since acid kills bacteria or something, same as xeno
   parent: FoodMeatBase
   id: FoodMeatXeno
-  name: raw xeno meat
-  description: A slab of xeno meat, dripping with acid.
+  name: viande xéno crue
+  description: Un morceau de viande xéno, dégoulinant d'acide.
   components:
   - type: FlavorProfile
     flavors:
@@ -719,11 +719,11 @@
         color: "#6EFF41"
 
 - type: entity
-  name: raw rouny meat
+  name: viande de rouny crue
   # not raw since rouny best
   parent: FoodMeatBase
   id: FoodMeatRouny
-  description: A slab of meat from an innocent red friend.
+  description: Un morceau de viande provenant d'un ami rouge innocent.
   components:
   - type: FlavorProfile
     flavors:
@@ -756,8 +756,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatTomato
-  name: killer tomato meat
-  description: A slice from a huge tomato.
+  name: viande de tomate tueuse
+  description: Une tranche d'une énorme tomate.
   components:
   - type: Sprite
     state: tomato
@@ -778,7 +778,7 @@
   parent: FoodMeatBase
   id: FoodMeatSalami
   name: salami
-  description: A large tube of salami. Best not to ask what went into it.
+  description: Un grand tube de salami. Mieux vaut ne pas demander ce qu'il contient.
   components:
   - type: Item
     storedOffset: 0,1
@@ -805,8 +805,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatClown
-  name: meat clown
-  description: A delicious, round piece of meat clown. How horrifying.
+  name: clown de viande
+  description: Un délicieux morceau rond de viande de clown. Quelle horreur.
   components:
   - type: Item
     storedOffset: 0,3
@@ -826,8 +826,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatMeatball
-  name: meatball
-  description: A raw ball of meat. Meat ball.
+  name: boulette de viande
+  description: Une boule crue de viande. Boule de viande.
   components:
   - type: Item
     size: Tiny
@@ -849,8 +849,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPatty
-  name: meat patty
-  description: A flat slab of ground meat. Ready for grillin'.
+  name: steak haché
+  description: Une plaque plate de viande hachée. Prêt pour la grillade.
   components:
   - type: Tag
     tags:
@@ -873,8 +873,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSlime
-  name: slimeball
-  description: A gelatinous shaping of slime jelly.
+  name: boule de slime
+  description: Une mise en forme gélatineuse de gelée de slime.
   components:
   - type: FlavorProfile
     flavors:
@@ -901,8 +901,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatSnail
-  name: raw snail meat
-  description: Improved with salt.
+  name: viande d'escargot crue
+  description: Amélioré avec du sel.
   components:
   - type: Sprite
     state: snail
@@ -930,8 +930,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatAnomaly
-  name: anomalous meat mass
-  description: An impossibly dense slab of meat. Just looking at it makes you uncomfortable.
+  name: masse de viande anormale
+  description: Un morceau de viande d'une densité impossible. Le simple fait de la regarder vous met mal à l'aise.
   components:
   - type: Sprite
     state: anomalymeat
@@ -971,8 +971,8 @@
 - type: entity
   parent: FoodBase
   id: MaterialSmileExtract
-  name: smile extract
-  description: It's a real panacea. But at what cost?
+  name: extrait de smile
+  description: C'est une véritable panacée. Mais à quel prix ?
   components:
   - type: Item
     size: Tiny
@@ -1006,7 +1006,7 @@
   parent: FoodMeatBase
   id: FoodMeatCooked
   name: steak
-  description: A cooked slab of meat. Smells primal.
+  description: Un morceau de viande cuit. Vous rappelle votre passé de chasseur-cueilleur.
   components:
   - type: Tag
     tags:
@@ -1046,7 +1046,7 @@
   parent: FoodMeatBase
   id: FoodMeatBaconCooked
   name: bacon
-  description: A delicious piece of cooked bacon.
+  description: Un délicieux morceau de bacon cuit.
   components:
   - type: Tag
     tags:
@@ -1089,8 +1089,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCooked
-  name: cooked bear
-  description: A well-cooked slab of bear meat. Tough, but tasty with the right sides.
+  name: ours cuit
+  description: Un morceau de viande d'ours bien cuit. Dur, mais savoureux avec les bons accompagnements.
   components:
   - type: Tag
     tags:
@@ -1125,8 +1125,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCooked
-  name: penguin filet
-  description: A cooked filet of penguin. Can be used as a substitute for fish in recipes.
+  name: filet de pingouin
+  description: Un filet de pingouin cuit. Peut être utilisé comme substitut de poisson dans les recettes.
   components:
   - type: Tag
     tags:
@@ -1166,8 +1166,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCooked
-  name: cooked chicken
-  description: A cooked piece of chicken. Best used in other recipes.
+  name: poulet cuit
+  description: Un morceau de poulet cuit. Idéal pour être utilisé dans d'autres recettes.
   components:
   - type: Tag
     tags:
@@ -1205,10 +1205,10 @@
         color: "#F7E3A3"
 
 - type: entity
-  name: fried chicken
+  name: poulet frit
   parent: FoodMeatBase
   id: FoodMeatChickenFried
-  description: A juicy hunk of chicken meat, fried to perfection.
+  description: Un morceau juteux de viande de poulet, frit à la perfection.
   components:
   - type: Tag
     tags:
@@ -1247,8 +1247,8 @@
 - type: entity
   parent: FoodMeatChickenFried
   id: FoodMeatChickenFriedVox
-  name: mystery fried chicken
-  description: “Eleven secret herbs and… oh no. That’s not chicken."
+  name: poulet frit mystérieux
+  description: "Onze herbes secrètes et… oh non. Ce n'est pas du poulet."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1264,8 +1264,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCooked
-  name: cooked duck
-  description: A cooked piece of duck. Best used in other recipes.
+  name: canard cuit
+  description: Un morceau de canard cuit. Idéal pour être utilisé dans d'autres recettes.
   components:
   - type: Tag
     tags:
@@ -1305,8 +1305,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCrabCooked
-  name: cooked crab
-  description: Some deliciously cooked crab meat.
+  name: crabe cuit
+  description: De la viande de crabe délicieusement cuite.
   components:
   - type: FlavorProfile
     flavors:
@@ -1344,8 +1344,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatGoliathCooked
-  name: goliath steak
-  description: A delicious, lava cooked steak.
+  name: steak de goliath
+  description: Un steak délicieux, cuit à la lave.
   components:
   - type: Tag
     tags:
@@ -1379,10 +1379,10 @@
       - state: plain-cooked-inhand-right
 
 - type: entity
-  name: rouny steak
+  name: steak de rouny
   parent: FoodMeatBase
   id: FoodMeatRounyCooked
-  description: Some kill to survive. You on the other hand, kill for fun.
+  description: Certains tuent pour survivre. Toi, tu tues pour le plaisir.
   components:
   - type: FlavorProfile
     flavors:
@@ -1421,8 +1421,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCooked
-  name: lizard steak
-  description: Cooked, tough lizard meat.
+  name: steak de lézard
+  description: Viande de lézard cuite et coriace.
   components:
   - type: Tag
     tags:
@@ -1461,8 +1461,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderlegCooked
-  name: boiled spider leg
-  description: A giant spider's leg that's still twitching after being cooked. Gross!
+  name: patte d'araignée bouillie
+  description: Une patte d'araignée géante qui tremble encore après avoir été cuite. Beurk !
   components:
   - type: Tag
     tags:
@@ -1496,8 +1496,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatMeatballCooked
-  name: meatball
-  description: A cooked meatball. Perfect to add to other dishes... except fruity ones.
+  name: boulette de viande
+  description: Une boulette de viande cuite. Parfaite pour être ajoutée à d'autres plats... sauf ceux avec des fruits.
   components:
   - type: Tag
     tags:
@@ -1530,8 +1530,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPattyCooked
-  name: cooked meat patty
-  description: A cooked meat patty.
+  name: steak haché cuit
+  description: Un steak haché cuit.
   components:
   - type: Tag
     tags:
@@ -1564,8 +1564,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSnailCooked
-  name: boiled snail
-  description: Improved with salt.
+  name: escargot bouilli
+  description: Amélioré avec du sel.
   components:
   - type: Tag
     tags:
@@ -1602,8 +1602,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatAnomalyCooked
-  name: anomalous steak
-  description: A gigantic mass of cooked meat. A meal for a dinner party, or someone REALLY hungry.
+  name: steak anormal
+  description: Une énorme masse de viande cuite. Un repas pour une soirée, ou quelqu'un qui a vraiment faim.
   components:
   - type: Tag
     tags:
@@ -1640,8 +1640,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCooked
-  name: dragon steak
-  description: Pouring ketchup on this is considered a capital crime on most stations.
+  name: steak de dragon
+  description: Verser du ketchup dessus est considéré comme un crime capital sur la plupart des stations.
   components:
   - type: Tag
     tags:
@@ -1682,8 +1682,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutlet
-  name: raw cutlet
-  description: A raw meat cutlet.
+  name: escalope crue
+  description: Une escalope de viande crue.
   components:
   - type: Tag
     tags:
@@ -1717,8 +1717,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutlet
-  name: raw bear cutlet
-  description: A very manly cutlet of raw bear meat.
+  name: escalope d'ours crue
+  description: Une très virile escalope de viande d'ours crue.
   components:
   - type: Tag
     tags:
@@ -1757,8 +1757,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutlet
-  name: raw penguin cutlet
-  description: A cutlet of raw penguin meat. Can be used as a substitute for fish in recipes.
+  name: escalope de pingouin crue
+  description: Une escalope de viande de pingouin crue. Peut être utilisée comme substitut de poisson dans les recettes.
   components:
   - type: Tag
     tags:
@@ -1795,8 +1795,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutlet
-  name: raw chicken cutlet
-  description: A cutlet of raw chicken. Remember to wash your hands!
+  name: escalope de poulet crue
+  description: Une escalope de poulet cru. N'oubliez pas de vous laver les mains !
   components:
   - type: Tag
     tags:
@@ -1831,8 +1831,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutlet
-  name: raw duck cutlet
-  description: A cutlet of raw duck. Remember to wash your hands!
+  name: escalope de canard crue
+  description: Une escalope de canard cru. N'oubliez pas de vous laver les mains !
   components:
   - type: Tag
     tags:
@@ -1867,8 +1867,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutlet
-  name: raw lizard cutlet
-  description: Delicious dino cutlet.
+  name: escalope de lézard crue
+  description: Une délicieuse escalope de dinosaure crue.
   components:
   - type: Tag
     tags:
@@ -1908,8 +1908,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutlet
-  name: raw spider cutlet
-  description: A cutlet of raw spider meat. So Kafkaesque.
+  name: escalope d'araignée crue
+  description: Une escalope de viande d'araignée crue. Très kafkaïen.
   components:
   - type: Tag
     tags:
@@ -1945,8 +1945,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutlet
-  name: raw xeno cutlet
-  description: A slab of raw xeno meat, dripping with acid.
+  name: escalope xéno crue
+  description: Une tranche de viande xéno crue, dégoulinant d'acide.
   components:
   - type: FlavorProfile
     flavors:
@@ -1984,8 +1984,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatTomatoCutlet
-  name: raw killer tomato cutlet
-  description: A cutlet from a slab of tomato.
+  name: tranche de tomate tueuse crue
+  description: Une escalope provenant d'une tranche de tomate.
   components:
   - type: Item
     size: Tiny
@@ -2005,8 +2005,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSalamiSlice
-  name: salami slice
-  description: A slice of cured salami.
+  name: tranche de salami
+  description: Une tranche de salami séché.
   components:
   - type: Item
     size: Tiny
@@ -2032,8 +2032,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutlet
-  name: raw dragon cutlet
-  description: A raw dragon meat cutlet.
+  name: escalope de dragon crue
+  description: Une escalope de viande de dragon crue.
   components:
   - type: Tag
     tags:
@@ -2072,8 +2072,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutletCooked
-  name: cutlet
-  description: A cooked meat cutlet. Needs some seasoning.
+  name: escalope
+  description: Une escalope de viande cuite. Besoin d'assaisonnement.
   components:
   - type: Tag
     tags:
@@ -2113,8 +2113,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutletCooked
-  name: bear cutlet
-  description: A very manly cutlet of cooked bear meat.
+  name: escalope d'ours
+  description: Une escalope très virile d'ours cuite.
   components:
   - type: Tag
     tags:
@@ -2157,8 +2157,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutletCooked
-  name: penguin cutlet
-  description: A cutlet of cooked penguin meat.
+  name: escalope de pingouin
+  description: Une escalope de pingouin cuite.
   components:
   - type: Tag
     tags:
@@ -2199,8 +2199,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutletCooked
-  name: chicken cutlet
-  description: A cutlet of cooked chicken. Remember to wash your hands!
+  name: escalope de poulet
+  description: Une escalope de poulet cuite. N'oubliez pas de vous laver les mains !
   components:
   - type: Tag
     tags:
@@ -2241,8 +2241,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutletCooked
-  name: duck cutlet
-  description: A cutlet of cooked duck. Remember to wash your hands!
+  name: escalope de canard
+  description: Une escalope de canard cuite. N'oubliez pas de vous laver les mains !
   components:
   - type: Tag
     tags:
@@ -2283,8 +2283,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutletCooked
-  name: lizard cutlet
-  description: Delicious cooked dino cutlet.
+  name: escalope de lézard
+  description: Une escalope de dinosaure délicieusement cuite.
   components:
   - type: Tag
     tags:
@@ -2326,8 +2326,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutletCooked
-  name: spider cutlet
-  description: A cutlet of cooked spider meat. Finally edible.
+  name: escalope d'araignée
+  description: Une escalope d'araignée cuite. Finalement comestible.
   components:
   - type: Tag
     tags:
@@ -2367,8 +2367,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutletCooked
-  name: xeno cutlet
-  description: A cutlet of cooked xeno, dripping with... tastiness?
+  name: escalope xéno
+  description: Une escalope de xéno, dégoulinant de... succulence ?
   components:
   - type: Tag
     tags:
@@ -2409,8 +2409,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutletCooked
-  name: dragon cutlet
-  description: It's a meal for kings!
+  name: escalope de dragon
+  description: C'est un repas pour les rois !
   components:
   - type: Tag
     tags:

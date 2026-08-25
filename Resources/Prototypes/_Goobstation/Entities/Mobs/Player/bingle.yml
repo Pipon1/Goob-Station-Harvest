@@ -165,7 +165,7 @@
   name: turkle
   id: MobTurkle
   parent: MobBingle
-  description: A bingle from foreign lands lost to time. Seems very proud of their homeland.
+  description: Un bingle venu de contrées lointaines perdues dans le temps. Semble très fier de sa patrie.
   components:
   - type: Bingle
     upgradedID: MobTurkleUpgraded

@@ -83,7 +83,7 @@
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: A fully automatic, bullpup shotgun for when you have three seconds to turn eight people into pasta sauce. Kicks like a mule on steroids. Feeds from 12 Gauge drum magazines. # Goobstation
+  description: Un fusil à pompe entièrement automatique, bullpup, pour quand vous avez trois secondes pour transformer huit personnes en sauce tomate. Recul comme une mule sous stéroïdes. Utilise des chargeurs tambour calibre 12.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/bulldog.rsi #GoobStation resprite
@@ -144,10 +144,10 @@
     - oni-cannot-shoot-guns-3
 
 - type: entity
-  name: double-barreled shotgun
+  name: fusil à canon scié
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderContraband]
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses 12 Gauge shotgun shells.
+  description: Un classique immortel. Utilise des cartouches calibre 12.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi #GoobStation resprite
@@ -166,7 +166,7 @@
     deconstructionTarget: null
 
 - type: entity
-  name: double-barreled shotgun
+  name: double-canon scié
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
   suffix: Non-Lethal
@@ -178,7 +178,7 @@
   name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium, semi-automatic shotgun platform designed for law enforcement and counter-terrorism use. Reliable as a pump action, even in extreme conditions. Loads 7 rounds of 12 Gauge. # Goobstation
+  description: Une plateforme de fusil à pompe semi-automatique haut de gamme conçue pour les forces de l'ordre et l'antiterrorisme. Fiable comme un fusil à pompe, même dans des conditions extrêmes. Charge 7 coups calibre 12.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/enforcer.rsi #GoobStation resprite
@@ -205,7 +205,7 @@
   name: Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: An old and faithful pump action, the Kammerer is cheap, light, and would probably still function if you left it in the burn chamber for a week. Popular for civilian use, and loved by NanoTrasen for its minuscule price tag. Loads 7 rounds of 12 Gauge. # Goobstation
+  description: Un vieux et fidèle fusil à pompe, le Kammerer est bon marché, léger, et fonctionnerait probablement encore si vous le laissiez dans la chambre de combustion une semaine. Populaire pour l'usage civil, et adoré par NanoTrasen pour son prix minuscule. Charge 7 coups calibre 12.
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/pump.rsi #GoobStation resprite
@@ -225,10 +225,10 @@
     autoCycle: false
 
 - type: entity
-  name: sawn-off shotgun
+  name: fusil à canon scié
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: Groovy! Uses 12 Gauge shotgun shells. # Goob edit
+  description: Groovy ! Utilise des cartouches calibre 12.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/sawn.rsi #GoobStation resprite
@@ -251,7 +251,7 @@
     deconstructionTarget: null
 
 - type: entity
-  name: sawn-off shotgun
+  name: fusil à canon scié vide
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
   suffix: Empty
@@ -264,10 +264,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol
+  name: pistolet artisanal
   parent: [BaseWeaponShotgun, BaseMinorContraband]
   id: WeaponShotgunHandmade
-  description: Looks unreliable. Uses 12 Gauge shotgun shells. # Goob edit
+  description: A l'air peu fiable. Utilise des cartouches calibre 12.
   components:
   - type: Item
     size: Small
@@ -291,11 +291,11 @@
     price: 0
 
 - type: entity
-  name: blunderbuss
+  name: tromblon
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range.
+  description: Mortel à courte portée.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/blunderbuss.rsi #GoobStation resprite
@@ -308,10 +308,10 @@
     price: 0
 
 - type: entity
-  name: improvised shotgun
+  name: fusil artisanal
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunImprovised
-  description: A shitty, hand-made shotgun that uses 12 Gauge shotgun shells. It can only hold one round in the chamber. # Goob edit
+  description: Un fusil à pompe pourri, fait main, qui utilise des cartouches calibre 12. Il ne peut contenir qu'une seule cartouche dans la chambre.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi #GoobStation resprite
@@ -335,7 +335,7 @@
     - ImprovisedShotgun
 
 - type: entity
-  name: improvised shotgun
+  name: fusil artisanal chargé
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded
@@ -347,7 +347,7 @@
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHushpup
   name: Hushpup
-  description: An obscure modification of the Enforcer, fitted with an experimental muffler. Great for those with a strict moral code. Uses .50 shotgun shells.
+  description: Une modification obscure de l'Enforcer, équipée d'un silencieux expérimental. Idéal pour ceux avec un code moral strict. Utilise des cartouches .50.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/hushpup.rsi #GoobStation resprite

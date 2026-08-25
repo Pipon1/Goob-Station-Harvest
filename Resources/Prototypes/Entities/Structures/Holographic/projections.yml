@@ -2,8 +2,8 @@
 
 - type: entity
   id: HolosignWetFloor
-  name: wet floor sign
-  description: The words flicker as if they mean nothing.
+  name: panneau sol glissant
+  description: Les mots scintillent comme s'ils ne voulaient rien dire.
   placement:
     mode: SnapgridCenter
   components:
@@ -35,7 +35,7 @@
   id: HoloFan
   parent: BaseHolosign # DeltaV - don't include TimedDespawn
   name: holofan
-  description: A barrier of hard light that blocks air, but nothing else.
+  description: Une barrière de lumière dure qui bloque l'air, mais rien d'autre.
   components:
   - type: Sprite
     sprite: Structures/Holo/holofan.rsi
@@ -57,8 +57,8 @@
 - type: entity
   id: HoloPeel
   parent: HolosignWetFloor
-  name: holopeel
-  description: A banana peel made of slippery hard light, watch your step!
+  name: holopeau
+  description: Une peau de banane faite de lumière dure glissante, attention où vous marchez !
   components:
   - type: Sprite
     sprite: Structures/Holo/peel.rsi
@@ -95,8 +95,8 @@
 - type: entity
   id: HolosignSecurity
   parent: HolosignWetFloor
-  name: holographic barrier
-  description: A barrier of hard light that blocks movement, but pretty weak.
+  name: barrière holographique
+  description: Une barrière de lumière dure qui bloque les mouvements, mais plutôt faible.
   components:
     - type: Physics
       bodyType: Static
@@ -126,8 +126,8 @@
 - type: entity
   id: HolosignForcefield
   parent: HolosignWetFloor
-  name: holographic force field
-  description: A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
+  name: champ de force holographique
+  description: Un puissant champ de confinement temporel qui ne laisse rien passer, pas même une bobine Tesla ou une singularité.
   components:
   - type: Physics
     bodyType: Static

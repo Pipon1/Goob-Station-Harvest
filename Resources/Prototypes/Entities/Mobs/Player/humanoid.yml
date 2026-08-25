@@ -72,7 +72,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerDeathSquad
-  name: Death Squad Operative
+  name: Opératif de l'Escadron de la mort
   suffix: ERTRole, Death Squad
   components:
     - type: Sprite
@@ -116,7 +116,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
+  name: Chef ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -149,7 +149,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderEVA
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
+  name: Chef ERT
   suffix: ERTRole, EVA
   components:
     - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplain
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT chaplain
+  name: Chapelain ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -219,7 +219,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplainEVA
   parent: RandomHumanoidSpawnerERTChaplain
-  name: ERT chaplain
+  name: Chapelain ERT
   suffix: ERTRole, EVA
   components:
     - type: Sprite
@@ -241,7 +241,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitor
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT janitor
+  name: Concierge ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -293,7 +293,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineer
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT engineer
+  name: Ingénieur ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -365,7 +365,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurity
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT security
+  name: Agent de sécurité ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -398,7 +398,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityEVA
   parent: RandomHumanoidSpawnerERTSecurity
-  name: ERT security
+  name: Agent de sécurité ERT
   suffix: ERTRole, EVA
   components:
     - type: Sprite
@@ -427,7 +427,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityArmedRifle
   parent: RandomHumanoidSpawnerERTSecurityEVA
-  name: ERT security rifleman
+  name: Fusilier de sécurité ERT
   suffix: ERTRole, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
@@ -448,7 +448,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedGrenade
-  name: ERT security grenadier
+  name: Grenadier de sécurité ERT
   suffix: ERTRole, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
@@ -469,7 +469,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedVanguard
-  name: ERT security vanguard
+  name: Avant-garde de sécurité ERT
   suffix: ERTRole, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
@@ -490,7 +490,7 @@
 - type: entity
   parent: RandomHumanoidSpawnerERTSecurityEVA
   id: RandomHumanoidSpawnerERTSecurityArmedShotgun
-  name: ERT security breacher
+  name: Brêcheur de sécurité ERT
   suffix: ERTRole, Armed, EVA
   components:
   - type: RandomHumanoidSpawner
@@ -513,7 +513,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedical
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT medic
+  name: Médecin ERT
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -588,7 +588,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNUnit
-  name: CBURN Agent
+  name: Agent CBURN
   suffix: ERTRole
   components:
     - type: Sprite
@@ -622,7 +622,7 @@
 ## Central Command
 
 - type: entity
-  name: CentComm official
+  name: Officiel CentComm
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -652,7 +652,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: syndicate agent
+  name: agent du Syndicat
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -674,7 +674,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNukeOp
-  name: Nuclear Operative
+  name: Opératif Nucléaire
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi

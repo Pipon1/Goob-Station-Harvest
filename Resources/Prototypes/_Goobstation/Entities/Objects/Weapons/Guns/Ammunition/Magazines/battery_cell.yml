@@ -63,10 +63,10 @@
     - MilitaryPowerCell
 # basic smg power cell
 - type: entity
-  name: SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers.
+  name: cellule d'énergie PM/SMG
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG.
   id: PowerCellIRSMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
   - type: Sprite
@@ -76,10 +76,10 @@
     fireCost: 50
 # x-ray smg power cell
 - type: entity
-  name: x-ray SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers that fires x-rays.
+  name: cellule d'énergie PM/SMG rayons X
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG qui tire des rayons X.
   id: PowerCellXraySMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
   - type: Sprite
@@ -89,10 +89,10 @@
     fireCost: 50
 # overclocked smg power cell
 - type: entity
-  name: overclocked SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers that has been overclocked.
+  name: cellule d'énergie PM/SMG overclockée
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG qui a été overclockée.
   id: PowerCellOverchargedSMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
   - type: Sprite
@@ -102,10 +102,10 @@
     fireCost: 100
 # bluespace smg power cell
 - type: entity
-  name: bluespace SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers that fires beams of calibrated bluespace particles that bypass few inches of armor.
+  name: cellule d'énergie PM/SMG bluespace
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG qui tire des faisceaux de particules de bluespace calibrées traversant quelques centimètres de blindage.
   id: PowerCellBluespaceSMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
   - type: Battery
@@ -118,10 +118,10 @@
     fireCost: 50
 # pulse smg power cell
 - type: entity
-  name: pulse SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers that fires pulse beams.
+  name: cellule d'énergie PM/SMG pulsée
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG qui tire des faisceaux pulsés.
   id: PowerCellPulseSMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
     - type: Sprite
@@ -131,10 +131,10 @@
       fireCost: 50
 # ion smg power cell
 - type: entity
-  name: ion SMG power cell
-  description: A militarized power cell compatible with SMG scale lasers that fires ion beams.
+  name: cellule d'énergie PM/SMG ionique
+  description: Une pile d'énergie militarisée compatible avec les lasers d'échelle PM/SMG qui tire des faisceaux d'ions.
   id: PowerCellIonSMG
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSMG
   components:
   - type: Sprite
@@ -177,10 +177,10 @@
       Zinc: 10
 # basic sniper power cell
 - type: entity
-  name: sniper power cell
-  description: A militarized power cell compatible with laser snipers.
+  name: cellule d'énergie fusil de précision
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser.
   id: PowerCellIRSniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
   - type: Sprite
@@ -190,10 +190,10 @@
     fireCost: 100
 # x-ray sniper power cell
 - type: entity
-  name: x-ray sniper power cell
-  description: A militarized power cell compatible with laser snipers that fires x-rays.
+  name: cellule d'énergie fusil de précision rayons X
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser qui tire des rayons X.
   id: PowerCellXraySniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
   - type: Sprite
@@ -203,10 +203,10 @@
     fireCost: 100
 # overclocked sniper power cell
 - type: entity
-  name: overclocked sniper power cell
-  description: A militarized power cell compatible with laser snipers that has been overclocked.
+  name: cellule d'énergie fusil de précision overclockée
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser qui a été overclockée.
   id: PowerCellOverchargedSniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
   - type: Sprite
@@ -216,10 +216,10 @@
     fireCost: 200
 # bluespace sniper power cell
 - type: entity
-  name: bluespace sniper power cell
-  description: A militarized power cell compatible with laser snipers that fires beams of calibrated bluespace particles that bypass few inches of armor.
+  name: cellule d'énergie fusil de précision bluespace
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser qui tire des faisceaux de particules de bluespace calibrées traversant quelques centimètres de blindage.
   id: PowerCellBluespaceSniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
   - type: Battery
@@ -232,10 +232,10 @@
     fireCost: 100
 # pulse sniper power cell
 - type: entity
-  name: pulse sniper power cell
-  description: A militarized power cell compatible with laser snipers that fires pulse beams.
+  name: cellule d'énergie fusil de précision pulsée
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser qui tire des faisceaux pulsés.
   id: PowerCellPulseSniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
     - type: Sprite
@@ -245,10 +245,10 @@
       fireCost: 100
 # ion sniper power cell
 - type: entity
-  name: ion sniper power cell
-  description: A militarized power cell compatible with laser snipers that fires ion beams.
+  name: cellule d'énergie fusil de précision ionique
+  description: Une pile d'énergie militarisée compatible avec les fusils de précision laser qui tire des faisceaux d'ions.
   id: PowerCellIonSniper
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellSniper
   components:
   - type: Sprite
@@ -288,10 +288,10 @@
       Zinc: 5
 # basic revolver power cell
 - type: entity
-  name: revolver power cell
-  description: A militarized power cell compatible with laser revolvers.
+  name: cellule d'énergie revolver
+  description: Une pile d'énergie militarisée compatible avec les revolvers laser.
   id: PowerCellIRRevolver
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellRevolver
   components:
   - type: Sprite
@@ -314,10 +314,10 @@
     fireCost: 62.5
 # x-ray revolver power cell
 - type: entity
-  name: x-ray revolver power cell
-  description: A militarized power cell compatible with laser revolvers that fires x-rays.
+  name: cellule d'énergie revolver rayons X
+  description: Une pile d'énergie militarisée compatible avec les revolvers laser qui tire des rayons X.
   id: PowerCellXrayRevolver
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellRevolver
   components:
   - type: Sprite
@@ -340,10 +340,10 @@
     fireCost: 62.5
 # overclocked revolver power cell
 - type: entity
-  name: overclocked revolver power cell
-  description: A militarized power cell compatible with laser revolvers that has been overclocked.
+  name: cellule d'énergie revolver overclockée
+  description: Une pile d'énergie militarisée compatible avec les revolvers laser qui a été overclockée.
   id: PowerCellOverchargedRevolver
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellRevolver
   components:
   - type: Sprite
@@ -366,10 +366,10 @@
     fireCost: 125
 # bluespace revolver power cell
 - type: entity
-  name: bluespace revolver power cell
-  description: A militarized power cell compatible with laser revolvers that fires beams of calibrated bluespace particles that bypass few inches of armor.
+  name: cellule d'énergie revolver bluespace
+  description: Une pile d'énergie militarisée compatible avec les revolvers laser qui tire des faisceaux de particules de bluespace calibrées traversant quelques centimètres de blindage.
   id: PowerCellBluespaceRevolver
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellRevolver
   components:
   - type: Sprite
@@ -395,10 +395,10 @@
     fireCost: 62.5
 # ion revolver power cell
 - type: entity
-  name: ion revolver power cell
-  description: A militarized power cell compatible with laser revolvers that fires ion beams.
+  name: cellule d'énergie revolver ionique
+  description: Une pile d'énergie militarisée compatible avec les revolvers laser qui tire des faisceaux d'ions.
   id: PowerCellIonRevolver
-  suffix: Full
+  suffix: Pleine
   parent: BaseMilitaryPowerCellRevolver
   components:
   - type: Sprite
@@ -426,8 +426,8 @@
 - type: entity
   id: MilitaryPowerCellLMG
   parent: BaseMilitaryPowerCell
-  name: LMG battery
-  description: A car battery compatible with laser LMG, attachable to charge provider backpack.
+  name: batterie FM/LMG
+  description: Une batterie de voiture compatible avec les FM/LMG laser, attachable au sac fournisseur d'énergie.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Ammunition/Magazine/energy_cell_lmg.rsi
@@ -467,8 +467,8 @@
 - type: entity
   id: MilitaryPowerCellBluespaceLMG
   parent: BaseMilitaryPowerCell
-  name: bluespace LMG battery
-  description: Highly advanced bluespace battery firing energized bluespace photonic particles calibrated to easily bypass few inches of armor.
+  name: batterie FM/LMG bluespace
+  description: Batterie bluespace hautement avancée tirant des particules phototoniques de bluespace énergisées calibrées pour contourner facilement quelques centimètres de blindage.
   components:
     - type: Sprite
       sprite: _Goobstation/Objects/Weapons/Guns/Ammunition/Magazine/energy_cell_lmg_bluespace.rsi

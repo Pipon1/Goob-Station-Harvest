@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McSling
+  name: Urist McOmbrelin
   parent: BaseMobSpeciesOrganic
   id: BaseMobShadowling
   categories: [HideSpawnMenu]

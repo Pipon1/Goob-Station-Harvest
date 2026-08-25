@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ParchisBoard
-  name: parchís board
-  description: Cross and circle board game famous for destroying countless friendships.
+  name: plateau de parchís
+  description: Jeu de plateau en croix et en cercle célèbre pour détruire d'innombrables amitiés.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/parchis.rsi

@@ -3,8 +3,8 @@
 - type: entity
   id: NFEnergyPickaxe
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
-  name: energy pickaxe
-  description: A holographic mining tool with blades comprised of hard light that also serves a deadly melee weapon. Rock and stone!
+  name: pioche énergétique
+  description: Un outil minier holographique à lames de lumière dure qui sert également d'arme de mêlée mortelle. Rock and stone !
   components:
   - type: ItemToggleSize
     activatedSize: Huge

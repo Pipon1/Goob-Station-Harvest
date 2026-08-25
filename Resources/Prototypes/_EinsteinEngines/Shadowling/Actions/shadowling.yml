@@ -5,8 +5,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHatch
-  name: Hatch
-  description: Engages the hatching progress, there is no going back after this and you will be vulnrable for a while.
+  name: Éclore
+  description: Lance le processus d'éclosion, il n'y a pas de retour en arrière après cela et vous serez vulnérable pendant un moment.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseAction
   id: ActionEnthrall
-  name: Enthrall
-  description: Shatters their will, forging a thrall, not strong enough to effect mindshielded individuals or enslaved AI.
+  name: Asservir
+  description: Brise leur volonté, forgeant un serviteur. Pas assez puissant pour affecter les individus dotés d'un bouclier mental ou les IA asservies.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseAction
   id: ActionGlare
-  name: Glare
-  description: A dark glare that stuns, silences, and slows a single target.
+  name: Regard Obscur
+  description: Un regard ténébreux qui étourdit, fait taire et ralentit une cible unique.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseAction
   id: ActionVeil
-  name: Veil
-  description: A pulse of darkness that destroys electrical lights in a large area.
+  name: Voile
+  description: Une impulsion d'obscurité qui détruit les lumières électriques dans une large zone.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -79,8 +79,8 @@
 
 - type: entity
   id: ActionRapidRehatch
-  name: Rapid Re-Hatch
-  description: Shed your broken flesh, and rise whole once more.
+  name: Rééclosion Rapide
+  description: Dépouillez votre chair brisée et renaissez entier.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseAction
   id: ActionShadowWalk
-  name: Shadow Walk
-  description: Step into the void, moving unseen and unhindered.
+  name: Marche dans l'Ombre
+  description: Entrez dans le vide, vous déplaçant sans être vu ni entravé.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -110,8 +110,8 @@
 
 - type: entity
   id: ActionIcyVeins
-  name: Icy Veins
-  description: Disarms and freezes nearby creatures in an area around you.
+  name: Veines Glacées
+  description: Désarme et gèle les créatures à proximité dans une zone autour de vous.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDestroyEngines
-  name: Destroy Engines
-  description: Destroy the engines of the evacuation shuttle. Delays the shuttle by 10 minutes.
+  name: Détruire les Moteurs
+  description: Détruisez les moteurs de la navette d'évacuation. Retarde la navette de 10 minutes.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -140,8 +140,8 @@
 
 - type: entity
   id: ActionCollectiveMind
-  name: Collective Mind
-  description: Harvest the minds of your Thralls, and gain various abilities.
+  name: Esprit Collectif
+  description: Récoltez les esprits de vos Serviteurs et gagnez diverses capacités.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBlindnessSmoke
-  name: Blindness Smoke
-  description: Heal your kind, and blind anyone who dares enter your mist.
+  name: Fumée Aveuglante
+  description: Soignez les vôtres et aveugle quiconque ose pénétrer dans votre brume.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -172,8 +172,8 @@
 
 - type: entity
   id: ActionNullCharge
-  name: Null Charge
-  description: Stand near an APC and overload it with a surge of nullifying force.
+  name: Charge Annihilante
+  description: Placez-vous près d'un APC et surchargez-le avec une décharge de force annihilante.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -188,8 +188,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSonicScreech
-  name: Sonic Screech
-  description: Release a violent scream that disorients all who hear it.
+  name: Cri Sonique
+  description: Poussez un cri violent qui désoriente tous ceux qui l'entendent.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -204,8 +204,8 @@
 
 - type: entity
   id: ActionBlackRecuperation
-  name: Black Recuperation
-  description: Bring back a dead Thrall to life, or empower a living one. You'll reduce your resistance to light by using it.
+  name: Récupération Noire
+  description: Ramenez un Serviteur mort à la vie, ou renforcez un Serviteur vivant. Votre résistance à la lumière sera réduite en l'utilisant.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseAction
   id: ActionEmpoweredEnthrall
-  name: Empowered Enthrall
-  description: Shatters their will, forging a Thrall. Faster and stronger, enough to bypass mindshields.
+  name: Asservissement Renforcé
+  description: Brise leur volonté, forgeant un Serviteur. Plus rapide et plus puissant, suffisant pour contourner les boucliers mentaux.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -244,7 +244,7 @@
   parent: BaseAction
   id: ActionNoxImperii
   name: Nox Imperii
-  description: Become immune to that which you fear the most. Light.
+  description: Devenez immunisé à ce que vous craignez le plus. La lumière.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -259,8 +259,8 @@
 
 - type: entity
   id: ActionAscendance
-  name: Ascendance
-  description: Forge your ascension egg and walk the path of a god, your thralls will need to defend the egg for a long time; be prepared.
+  name: Ascension
+  description: Forgez votre œuf d'ascension et suivez le chemin d'un dieu. Vos serviteurs devront défendre l'œuf pendant longtemps ; préparez-vous.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseAction
   id: ActionAnnihilate
-  name: Annihilate
-  description: Blow them to bits of flesh.
+  name: Annihiler
+  description: Réduisez-les en lambeaux de chair.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -294,8 +294,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHypnosis
-  name: Hypnosis
-  description: Make anyone a Thrall, at a moment's notice.
+  name: Hypnose
+  description: Faites de n'importe qui un Serviteur, en un instant.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -314,8 +314,8 @@
 - type: entity
   parent: BaseAction
   id: ActionPlaneShift
-  name: Plane Shift
-  description: Phase through anything, whenever you desire.
+  name: Décalage Planaire
+  description: Traversez n'importe quoi, à volonté.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -331,8 +331,8 @@
 - type: entity
   parent: BaseAction
   id: ActionLightningStorm
-  name: Lightning Storm
-  description: Spawn a ball of wrath, electrocuting everyone near you.
+  name: Tempête Foudroyante
+  description: Invoquez une boule de courroux qui électrocute tous ceux près de vous.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -347,8 +347,8 @@
 - type: entity
   parent: BaseAction
   id: ActionAscendantBroadcast
-  name: Ascendant Broadcast
-  description: Send a very hard to miss message to everyone.
+  name: Diffusion Ascendante
+  description: Envoyez un message impossible à manquer à tout le monde.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

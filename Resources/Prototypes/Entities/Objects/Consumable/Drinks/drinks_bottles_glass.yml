@@ -76,7 +76,7 @@
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkAbsintheBottleFull
   name: Jailbreaker Verte
-  description: One sip of this and you just know you're gonna have a good time.
+  description: Une gorgée de ça et vous savez que vous allez passer du bon temps.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -92,8 +92,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkBlueCuracaoBottleFull
-  name: Miss Blue Curaçao
-  description: A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
+  name: Curaçao Miss Blue
+  description: Une boisson fruitée, exceptionnellement azur. N'autorise pas le buveur à utiliser la cinquième magie.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -116,8 +116,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkBottleOfNothingFull
-  name: bottle of nothing
-  description: A bottle filled with nothing.
+  name: bouteille de rien
+  description: Une bouteille remplie de rien.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -133,8 +133,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkChampagneBottleFull
-  name: champagne bottle
-  description: Only people devoid of imagination can't find an excuse for champagne.
+  name: bouteille de champagne
+  description: Seules les personnes dénuées d'imagination ne peuvent pas trouver d'excuse pour le champagne.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -154,8 +154,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkCognacBottleFull
-  name: cognac bottle
-  description: A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
+  name: bouteille de cognac
+  description: Une boisson sucrée et fortement alcoolisée, fabriquée après de nombreuses distillations et des années de vieillissement. Vous pourriez tout aussi bien ne pas crier « SHITCURITÉ » cette fois.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGrenadineBottleFull
-  name: Briar Rose grenadine syrup bottle
-  description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+  name: bouteille de sirop de grenadine Briar Rose
+  description: Sucré et acidulé, un sirop de bar utilisé pour ajouter de la couleur ou de la saveur aux boissons.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -195,8 +195,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGinBottleFull
-  name: Griffeater gin
-  description: A bottle of high quality gin, produced in the New London Space Station.
+  name: gin Griffeater
+  description: Une bouteille de gin de haute qualité, produite à la Station Spatiale New London.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -212,8 +212,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGildlagerBottleFull
-  name: Gildlager bottle
-  description: 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+  name: bouteille de Gildlager
+  description: Schnapps à la cannelle à 100 degrés, fabriqué pour les filles adolescentes alcooliques en vacances de printemps.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -229,8 +229,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkCoffeeLiqueurBottleFull
-  name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  name: bouteille de liqueur de café
+  description: Le grand goût du café sans aucun des avantages.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -246,8 +246,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkMelonLiquorBottleFull
-  name: Emeraldine melon liquor
-  description: A bottle of 46 proof Emeraldine melon liquor. Sweet and light.
+  name: alcool de melon Émeraudine
+  description: Une bouteille d'alcool de melon Émeraudine à 46 degrés. Sucré et léger.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -270,8 +270,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkPatronBottleFull
-  name: Wrapp Artiste Patrón bottle
-  description: Silver laced tequila, served in space night clubs across the galaxy.
+  name: bouteille Wrapp Artiste Patrón
+  description: Tequila argentée, servie dans les boîtes de nuit spatiales à travers la galaxie.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -287,8 +287,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkPoisonWinebottleFull
-  name: Warlock's Velvet bottle
-  description: What a delightful packaging for a surely high quality wine! The vintage must be amazing!
+  name: bouteille Warlock's Velvet
+  description: Quel emballage délicieux pour un vin de sûrement haute qualité ! Le millésime doit être incroyable !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -306,8 +306,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkRumBottleFull
-  name: Captain Pete's Cuban spiced rum
-  description: This isn't just rum, oh no. It's practically GRIFF in a bottle.
+  name: rhum épicé cubain du Capitaine Pete
+  description: Ce n'est pas juste du rhum, oh non. C'est pratiquement du GRIFF en bouteille.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -323,8 +323,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkTequilaBottleFull
-  name: Caccavo Guaranteed Quality tequila bottle
-  description: Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
+  name: bouteille de tequila Caccavo Garantie Qualité
+  description: Fabriquée à partir de distillats de pétrole premium, de thalidomide pur et d'autres ingrédients de fine qualité !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -340,8 +340,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkVermouthBottleFull
-  name: Goldeneye vermouth bottle
-  description: Sweet, sweet dryness!
+  name: bouteille de vermouth Goldeneye
+  description: Douce, douce sécheresse !
   components:
   - type: SolutionContainerManager
     solutions:
@@ -357,8 +357,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkVodkaBottleFull
-  name: vodka bottle
-  description: Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
+  name: bouteille de vodka
+  description: Aah, la vodka. Le meilleur choix de boisson ET de carburant par les Russes du monde entier.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -374,8 +374,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkWhiskeyBottleFull
-  name: Uncle Git's Special Reserve
-  description: A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+  name: Réserve spéciale de l'Oncle Git
+  description: Un whisky single-malt premium, doucement vieilli dans les tunnels d'un abri nucléaire. LES RÈGLES DU WHISKY DE TUNNEL.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -391,8 +391,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkWineBottleFull
-  name: Doublebearded Bearded Special wine bottle
-  description: A faint aura of unease and asspainery surrounds the bottle.
+  name: bouteille de vin Doublebearded Bearded Special
+  description: Une légère aura de malaise et de mal au cul entoure la bouteille.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -414,8 +414,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkBeerGrowler # todo Needs to be renamed DrinkBeerBottleFullGrowler
-  name: beer growler  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water. XL growler bottle.
+  name: growler de bière  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+  description: Une boisson alcoolisée fabriquée à partir de grains maltés, de houblon, de levure et d'eau. Bouteille de growler XL.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -440,8 +440,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkAleBottleFullGrowler
-  name: Magm-Ale growler
-  description: A true dorf's drink of choice. XL growler bottle.
+  name: growler de Magm-Ale
+  description: La boisson préférée d'un vrai nain. Bouteille de growler XL.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -465,8 +465,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkBeerBottleFull
-  name: beer bottle # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water.
+  name: bouteille de bière # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+  description: Une boisson alcoolisée fabriquée à partir de grains maltés, de houblon, de levure et d'eau.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -489,8 +489,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkAleBottleFull
-  name: Magm-Ale bottle
-  description: A true dorf's drink of choice.
+  name: bouteille de Magm-Ale
+  description: La boisson préférée d'un vrai nain.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -510,8 +510,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassSmallBaseFull]
   id: DrinkSakeBottleFull
-  name: small sake bottle
-  description: The regret of the next morning seems to be nipping on the bottle too.
+  name: petite bouteille de saké
+  description: Le regret du lendemain matin semble aussi croquer la bouteille.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,0 +1,15 @@
+names-regal-rat-kingdom-dataset-1 = Peste
+names-regal-rat-kingdom-dataset-2 = Ammoniaque
+names-regal-rat-kingdom-dataset-3 = Maintenance
+names-regal-rat-kingdom-dataset-4 = Déchets
+names-regal-rat-kingdom-dataset-5 = Ordures
+names-regal-rat-kingdom-dataset-6 = Rat
+names-regal-rat-kingdom-dataset-7 = Vermine
+names-regal-rat-kingdom-dataset-8 = Fromage
+names-regal-rat-kingdom-dataset-9 = Grignoteur
+names-regal-rat-kingdom-dataset-10 = Grand
+names-regal-rat-kingdom-dataset-11 = Crasse
+names-regal-rat-kingdom-dataset-12 = Égout
+names-regal-rat-kingdom-dataset-13 = Élimination
+names-regal-rat-kingdom-dataset-14 = Service
+names-regal-rat-kingdom-dataset-15 = Le

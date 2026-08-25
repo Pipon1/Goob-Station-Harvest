@@ -4,7 +4,7 @@
   id: TableBase
   parent: BaseStructure
   name: table
-  description: A square piece of metal standing on four metal legs.
+  description: Un morceau de métal carré sur quatre pieds en métal.
   abstract: true
   components:
   - type: Animateable
@@ -50,7 +50,7 @@
 - type: entity
   id: CounterBase
   parent: TableBase
-  name: counter
+  name: comptoir
   abstract: true
   components:
   - type: Fixtures

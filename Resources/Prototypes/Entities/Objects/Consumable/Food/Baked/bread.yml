@@ -50,10 +50,10 @@
 # Custom Bread Example
 
 - type: entity
-  name: volcanic loaf
+  name: pain volcanique
   parent: FoodBreadBase
   id: FoodBreadVolcanic
-  description: A dark loaf. Resembles pumice.
+  description: Un pain foncé. Ressemble à de la pierre ponce.
   components:
   - type: Sprite
     layers:
@@ -65,10 +65,10 @@
     slice: FoodBreadVolcanicSlice
 
 - type: entity
-  name: volcanic slice
+  name: tranche volcanique
   parent: FoodBreadSliceBase
   id: FoodBreadVolcanicSlice
-  description: A slice of dark loaf. Resembles pumice.
+  description: Une tranche de pain foncé. Ressemble à de la pierre ponce.
   components:
   - type: Sprite
     layers:
@@ -80,10 +80,10 @@
 # Bread
 
 - type: entity
-  name: banana bread
+  name: pain à la banane
   parent: FoodBreadBase
   id: FoodBreadBanana
-  description: A heavenly and filling treat.
+  description: Une gourmandise divine et rassasiante.
   components:
   - type: FlavorProfile
     flavors:
@@ -101,10 +101,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: banana bread slice
+  name: tranche de pain à la banane
   parent: FoodBreadSliceBase
   id: FoodBreadBananaSlice
-  description: A slice of delicious banana bread.
+  description: Une tranche de délicieux pain à la banane.
   components:
   - type: FlavorProfile
     flavors:
@@ -122,8 +122,8 @@
 - type: entity
   parent: FoodBreadBase
   id: FoodBreadCotton
-  name: cotton bread
-  description: Bread, but for moff.
+  name: pain en coton
+  description: Du pain, mais pour les moffs.
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
           Quantity: 10
 
 - type: entity
-  name: cotton bread slice
+  name: tranche de pain en coton
   parent: FoodBreadSliceBase
   id: FoodBreadCottonSlice
-  description: A slice of (maybe) delicious cotton bread.
+  description: Une tranche de pain en coton (peut-être) délicieux.
   components:
   - type: FlavorProfile
     flavors:
@@ -181,10 +181,10 @@
           Quantity: 2
 
 - type: entity
-  name: cornbread
+  name: pain de maïs
   parent: FoodBreadBase
   id: FoodBreadCorn
-  description: Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread.
+  description: Un bon pain de maïs campagnard, du genre revolver au poing et yeehaw à tout va.
   components:
   - type: FlavorProfile
     flavors:
@@ -205,10 +205,10 @@
 # Tastes like bread, banana, nut.
 
 - type: entity
-  name: cornbread slice
+  name: tranche de pain de maïs
   parent: FoodBreadSliceBase
   id: FoodBreadCornSlice
-  description: A slice of cornbread.
+  description: Une tranche de pain de maïs.
   components:
   - type: FlavorProfile
     flavors:
@@ -226,10 +226,10 @@
           Quantity: 3
 
 - type: entity
-  name: cream cheese bread
+  name: pain au fromage à la crème
   parent: FoodBreadBase
   id: FoodBreadCreamcheese
-  description: Yum yum yum!
+  description: Miam miam miam !
   components:
   - type: FlavorProfile
     flavors:
@@ -253,10 +253,10 @@
 # Tastes like bread, cheese.
 
 - type: entity
-  name: cream cheese bread slice
+  name: tranche de pain au fromage à la crème
   parent: FoodBreadSliceBase
   id: FoodBreadCreamcheeseSlice
-  description: A slice of yum!
+  description: Une tranche de miam !
   components:
   - type: FlavorProfile
     flavors:
@@ -277,10 +277,10 @@
           Quantity: 1.2
 
 - type: entity
-  name: meat bread
+  name: pain de viande
   parent: FoodBreadBase
   id: FoodBreadMeat
-  description: The culinary base of every self-respecting eloquen/tg/entleman.
+  description: La base culinaire de tout gentleman éloquent qui se respecte.
   components:
   - type: FlavorProfile
     flavors:
@@ -307,10 +307,10 @@
 # Tastes like bread, meat.
 
 - type: entity
-  name: meat bread slice
+  name: tranche de pain de viande
   parent: FoodBreadSliceBase
   id: FoodBreadMeatSlice
-  description: A slice of delicious meatbread.
+  description: Une tranche de délicieux pain de viande.
   components:
   - type: FlavorProfile
     flavors:
@@ -335,10 +335,10 @@
     - Slice
 
 - type: entity
-  name: mimana bread
+  name: pain mimana
   parent: FoodBreadBase
   id: FoodBreadMimana
-  description: Best eaten in silence.
+  description: Meilleur mangé en silence.
   components:
   - type: FlavorProfile
     flavors:
@@ -365,10 +365,10 @@
 # Tastes like bread, cheese.
 
 - type: entity
-  name: mimana bread slice
+  name: tranche de pain mimana
   parent: FoodBreadSliceBase
   id: FoodBreadMimanaSlice
-  description: A slice of silence!
+  description: Une tranche de silence !
   components:
   - type: FlavorProfile
     flavors:
@@ -392,10 +392,10 @@
           Quantity: 1
 
 - type: entity
-  name: bread
+  name: pain
   parent: FoodBreadBase
   id: FoodBreadPlain
-  description: Some plain old earthen bread.
+  description: Un simple vieux pain de terre.
   components:
   - type: Sprite
     layers:
@@ -404,20 +404,20 @@
     slice: FoodBreadPlainSlice
 
 - type: entity
-  name: bread slice
+  name: tranche de pain
   parent: FoodBreadSliceBase
   id: FoodBreadPlainSlice
-  description: A slice of home.
+  description: Une tranche de chez-soi.
   components:
   - type: Sprite
     layers:
     - state: plain-slice
 
 - type: entity
-  name: sausage bread
+  name: pain à la saucisse
   parent: FoodBreadBase
   id: FoodBreadSausage
-  description: Dont think too much about it.
+  description: N'y pensez pas trop.
   components:
   - type: FlavorProfile
     flavors:
@@ -445,10 +445,10 @@
     - Bread
 
 - type: entity
-  name: sausage bread slice
+  name: tranche de pain à la saucisse
   parent: FoodBreadSliceBase
   id: FoodBreadSausageSlice
-  description: Dont think too much about it.
+  description: N'y pensez pas trop.
   components:
   - type: FlavorProfile
     flavors:
@@ -475,10 +475,10 @@
     - Slice
 
 - type: entity
-  name: spider meat bread
+  name: pain de viande d'araignée
   parent: FoodBreadBase
   id: FoodBreadMeatSpider
-  description: Reassuringly green meatloaf made from spider meat.
+  description: Un pain de viande vert rassurant fait à partir de viande d'araignée.
   components:
   - type: FlavorProfile
     flavors:
@@ -505,10 +505,10 @@
 # Tastes like bread, cobwebs.
 
 - type: entity
-  name: spider meat bread slice
+  name: tranche de pain de viande d'araignée
   parent: FoodBreadSliceBase
   id: FoodBreadMeatSpiderSlice
-  description: A slice of meatloaf made from an animal that most likely still wants you dead.
+  description: Une tranche de pain de viande fait à partir d'un animal qui veut probablement toujours votre mort.
   components:
   - type: FlavorProfile
     flavors:
@@ -533,10 +533,10 @@
     - Slice
 
 - type: entity
-  name: tofu bread
+  name: pain de tofu
   parent: FoodBreadBase
   id: FoodBreadTofu
-  description: Like meatbread but for vegetarians. Brag to your crewmates about how much better it is.
+  description: Comme le pain de viande mais pour les végétariens. Vantez-vous auprès de vos coéquipiers de combien c'est meilleur.
   components:
   - type: FlavorProfile
     flavors:
@@ -559,10 +559,10 @@
 # Tastes like bread, tofu.
 
 - type: entity
-  name: tofu bread slice
+  name: tranche de pain de tofu
   parent: FoodBreadSliceBase
   id: FoodBreadTofuSlice
-  description: A slice of delicious tofu bread.
+  description: Une tranche de délicieux pain de tofu.
   components:
   - type: FlavorProfile
     flavors:
@@ -582,10 +582,10 @@
           Quantity: 2.4
 
 - type: entity
-  name: xeno meat bread
+  name: pain de viande de xéno
   parent: FoodBreadBase
   id: FoodBreadMeatXeno
-  description: A fitting, and filling, end to xeno scum.
+  description: Une fin appropriée, et rassasiante, pour la vermine xéno.
   components:
   - type: FlavorProfile
     flavors:
@@ -612,10 +612,10 @@
 # Tastes like bread, acid.
 
 - type: entity
-  name: xeno meat bread slice
+  name: tranche de pain de viande de xéno
   parent: FoodBreadSliceBase
   id: FoodBreadMeatXenoSlice
-  description: A slice of xeno scum.
+  description: Une tranche de vermine xéno.
   components:
   - type: FlavorProfile
     flavors:
@@ -645,7 +645,7 @@
   parent: FoodBreadBase
   id: FoodBreadBaguette
   name: baguette
-  description: Bon appétit!
+  description: Bon appétit !
   components:
   - type: Sprite
     state: baguette
@@ -698,8 +698,8 @@
 - type: entity
   parent: FoodBreadBaguette
   id: FoodBreadBaguetteCotton
-  name: cotton baguette
-  description: Bon azzétit!
+  name: baguette en coton
+  description: Bon azzétit !
   components:
   - type: Sprite
     state: baguette-cotton
@@ -742,7 +742,7 @@
   name: crostini
   parent: FoodBreadSliceBase
   id: FoodBreadBaguetteSlice
-  description: Bon ap-pétite!
+  description: Bon ap-pétit !
   components:
   - type: Sprite
     state: crostini
@@ -763,8 +763,8 @@
 - type: entity
   parent: FoodBreadBaguetteSlice
   id: FoodBreadBaguetteCottonSlice
-  name: cotton crostini
-  description: Bon az-zétite!
+  name: crostini en coton
+  description: Bon az-zétit !
   components:
   - type: Sprite
     state: crostini-cotton
@@ -792,10 +792,10 @@
           Quantity: 0.1
 
 - type: entity
-  name: buttered toast
+  name: toast beurré
   parent: FoodBreadSliceBase
   id: FoodBreadButteredToast
-  description: Crunchy.
+  description: Croustillant.
   components:
   - type: FlavorProfile
     flavors:
@@ -815,10 +815,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: french toast
+  name: pain perdu
   parent: FoodBreadSliceBase
   id: FoodBreadFrenchToast
-  description: A slice of bread soaked in a beaten egg mixture.
+  description: Une tranche de pain trempée dans un mélange d'œufs battus.
   components:
   - type: FlavorProfile
     flavors:
@@ -838,10 +838,10 @@
 # Tastes like bread, butter.
 
 - type: entity
-  name: garlic bread
+  name: pain à l'ail
   parent: FoodBreadSliceBase
   id: FoodBreadGarlicSlice
-  description: Alas, it is limited.
+  description: Hélas, c'est limité.
   components:
   - type: FlavorProfile
     flavors:
@@ -862,10 +862,10 @@
 # Tastes like garlic, Italy.
 
 - type: entity
-  name: jelly toast
+  name: toast à la gelée
   parent: FoodBreadSliceBase
   id: FoodBreadJellySlice
-  description: As if science are gonna give up their slimes for toast!
+  description: Comme si la science allait renoncer à ses slimes pour du pain grillé !
   components:
   - type: FlavorProfile
     flavors:
@@ -886,10 +886,10 @@
 # Tastes like garlic, Italy.
 
 - type: entity
-  name: moldy bread slice
+  name: tranche de pain moisi
   parent: FoodBreadSliceBase
   id: FoodBreadMoldySlice
-  description: Entire stations have been ripped apart over arguing whether this is still good to eat.
+  description: Des stations entières ont été déchirées par des disputes sur le fait que ce soit encore bon à manger.
   components:
   - type: Sprite
     layers:
@@ -909,10 +909,10 @@
 # Tastes like decaying fungus.
 
 - type: entity
-  name: two slice
+  name: double tranche
   parent: FoodBreadSliceBase
   id: FoodBreadTwoSlice
-  description: Classy.
+  description: Classe.
   components:
   - type: Sprite
     layers:
@@ -931,10 +931,10 @@
 # Tastes like decaying fungus.
 
 - type: entity
-  name: bread dog
+  name: chien de pain
   id: MobBreadDog
   parent: EdibleBase
-  description: It's a bread. It's a dog. It's a... breaddog?
+  description: C'est du pain. C'est un chien. C'est un... chien-pain ?
   components:
   - type: FlavorProfile
     flavors:
@@ -1017,7 +1017,7 @@
   parent: FoodBreadBase
   id: FoodBreadNutriBatard
   name: nutri-bâtard
-  description: bon 'pétite!
+  description: bon 'pétit !
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/bread.rsi
@@ -1039,8 +1039,8 @@
 - type: entity
   parent: FoodBreadNutriBatard
   id: FoodBreadCottonNutriBatard
-  name: cotton nutri-bâtard
-  description: bon 'pétite!
+  name: nutri-bâtard en coton
+  description: bon 'pétit !
   components:
   - type: Edible
     requiresSpecialDigestion: true

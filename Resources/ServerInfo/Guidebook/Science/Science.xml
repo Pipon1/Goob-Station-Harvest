@@ -4,14 +4,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
 <Document>
 # Science
-[color=#c96dbf]Science[/color], often called Research and Development, is a job consisting of generating research points to unlock new technologies and using said technologies to produce new items at lathes to help out the station.
+La [color=#c96dbf]Science[/color], souvent appelée Recherche et Développement, est un job consistant à générer des points de recherche pour débloquer de nouvelles technologies et les utiliser pour produire de nouveaux items aux lathe pour aider la station.
 
 ## Personnel
-[color=#c96dbf]Science[/color]'s staff is made up of Research Assistants and Scientists. [color=#c96dbf]Science[/color] is run by the Research Director.
+Le staff de la [color=#c96dbf]Science[/color] est composé d'Assistants de Recherche et de Scientifiques. La [color=#c96dbf]Science[/color] est gérée par le Directeur de la Recherche.
 
   <Box>
-   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
-   <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientifique"/>
+   <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="DR"/>
   </Box>
 
 ## Technologies
@@ -19,31 +19,31 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
     <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
   </Box>
-The most important thing inside your department is the R&D server, which stores unlocked technologies, and the R&D computer, which allows you to unlock [color=#a4885c]technologies[/color].
+Le truc le plus important dans votre département c'est le serveur R&D, qui stocke les technologies débloquées, et la console R&D, qui permet de débloquer des [color=#a4885c]technologies[/color].
 
-Each technology costs [color=#a4885c]Research Points[/color] and unlocks recipes at lathes. Some technologies will also have prerequisites you have to unlock before you can research them.
+Chaque technologie coûte des [color=#a4885c]Points de Recherche[/color] et débloque des recettes aux lathe. Certaines technologies ont aussi des prérequis à débloquer avant de pouvoir les rechercher.
 
-[textlink="Click here to see a list of technologies." link="Technologies"].
+[textlink="Cliquez ici pour voir la liste des technologies." link="Technologies"].
 
 ## Disciplines
-Technologies are spread over 4 different Disciplines:
+Les technologies sont réparties sur 4 Disciplines différentes :
   <Box>
-    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
-    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
-    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
+    <GuideEntityEmbed Entity="Wrench" Caption="Industriel"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Expérimental"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Services Civils"/>
     <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
   </Box>
 
-<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Utilisez la console R&D la plus proche pour voir quel type de recherche est bloqué derrière chaque arbre de Discipline.
 
-## Tiers
-Each Discipline tree has up to 3 tiers of technologies. At the start the only tier that is open and available for you is tier 1.
+## Niveaux
+Chaque arbre de Discipline a jusqu'à 3 niveaux de technologies. Au début, seul le niveau 1 est ouvert et dispo pour vous.
 
-In order to progress further, you have to research up to [color=brown]75%[/color] of the current tier to move to the next one. So in order to unlock T2 researches you need to research 75% of T1.
+Pour progresser, faut rechercher jusqu'à [color=brown]75 %[/color] du niveau actuel pour passer au suivant. Donc pour débloquer les recherches T2, faut rechercher 75 % du T1.
 
-Now [color=green]Tier 3[/color] is where it gets interesting. If you research a T3 tech, you [color=brown]lock out[/color] T3 techs from other Discipline trees. That is, unless you can find some other way around it... you should probably ask your [color=purple]Research Director[/color].
+Maintenant le [color=green]Niveau 3[/color] c'est là que ça devient intéressant. Si vous recherchez une tech T3, vous [color=brown]verrouillez[/color] les techs T3 des autres arbres de Discipline. Sauf si vous trouvez un autre moyen... demandez probablement à votre [color=purple]Directeur de la Recherche[/color].
 
-## Lathes
+## Lathe
   <Box>
     <GuideEntityEmbed Entity="Protolathe"/>
     <GuideEntityEmbed Entity="CircuitImprinter"/>
@@ -53,6 +53,6 @@ Now [color=green]Tier 3[/color] is where it gets interesting. If you research a 
     <GuideEntityEmbed Entity="MedicalTechFab"/>
     <GuideEntityEmbed Entity="SecurityTechFab"/>
   </Box>
-At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Cargo or Salvage.
+À un lathe, vous pouvez choisir un serveur pour qu'il imprime les recettes que vous avez débloquées. Les recettes demandent divers matériaux (acier, verre, plastique, or, plasma) qu'on peut choper à Cargo ou au Salvage.
 
 </Document>

@@ -3,8 +3,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorFuelChamber
-  name: PA fuel chamber
-  description: Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds.
+  name: chambre de carburant PA
+  description: Formellement connu sous le nom de Chambre d'Accélération EM. C'est là que les particules Alpha sont accélérées à des vitesses extrêmes.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/fuel_chamber.rsi
@@ -18,9 +18,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorFuelChamberUnfinished
-  name: PA fuel chamber
+  name: chambre de carburant PA
   suffix: Unfinished
-  description: Formally known as the EM Acceleration Chamber. This is where the Alpha particles are accelerated to radical speeds. It looks unfinished.
+  description: Formellement connu sous le nom de Chambre d'Accélération EM. C'est là que les particules Alpha sont accélérées à des vitesses extrêmes. Il semble inachevé.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/fuel_chamber.rsi

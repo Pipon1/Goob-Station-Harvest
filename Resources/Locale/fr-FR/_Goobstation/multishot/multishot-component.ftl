@@ -1,0 +1,1 @@
+multishot-component-examine = Cette arme peut être maniée à deux mains, ce qui lui fait rater { $chance }% du temps.

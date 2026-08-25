@@ -1,0 +1,1 @@
+nuke-component-disarm-fail = Peu importe comment vous bidouilliez les fils, rien ne se passe !

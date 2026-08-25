@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseGrenade
   id: CartridgeStickyGrenade
-  name: sticky grenade round
-  description: Sticks to whatever it hits, then explodes after 3 seconds.
+  name: cartouche grenade collante
+  description: Colle à ce qu'elle touche, puis explose après 3 secondes.
   categories: [ HideSpawnMenu ]
   components:
   - type: CartridgeAmmo

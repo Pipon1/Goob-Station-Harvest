@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+#
+# SPDX-License-Identifier: MIT
+
+bodyburn-text-others = {CAPITALIZE(THE($name))} brûle et tombe en cendres !
+bodyburn-vox-text-others = {CAPITALIZE(THE($name))} s'est transformé en vox grillé !

@@ -1,8 +1,8 @@
 - type: entity
   parent: ExGrenade
   id: StickyGrenade
-  name: sticky grenade
-  description: A grenade that sticks to whatever it's thrown at, then explodes after 3 seconds.
+  name: grenade collante
+  description: Une grenade qui colle à ce qu'on lui lance, puis explose après 3 secondes.
   components:
   - type: EmbeddableProjectile
     removalTime: 1.5
@@ -22,8 +22,8 @@
 - type: entity
   parent: [ ScatteringGrenadeBase, TimerGrenadeBase, BaseSyndicateContraband ]
   id: KudzuGrenade
-  name: kudzu grenade
-  description: A diona's favorite grenade.
+  name: grenade kudzu
+  description: La grenade préférée des diona.
   components:
   - type: Sprite
     sprite: _Trauma/Objects/Weapons/Grenades/kudzugrenade.rsi

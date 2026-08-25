@@ -3,6 +3,7 @@
 using Robust.Shared.Containers;
 using Robust.Shared.Enums;
 using Robust.Shared.GameStates;
+using Robust.Shared.Localization;
 
 namespace Content.Shared.IdentityManagement.Components;
 
@@ -69,16 +70,7 @@ public sealed class IdentityRepresentation
     /// </summary>
     public string ToStringUnknown()
     {
-        var genderString = TrueGender switch
-        {
-            Gender.Female => Loc.GetString("identity-gender-feminine"),
-            Gender.Male => Loc.GetString("identity-gender-masculine"),
-            Gender.Epicene or Gender.Neuter or _ => Loc.GetString("identity-gender-person")
-        };
-
-        // i.e. 'young assistant man' or 'old cargo technician person' or 'middle-aged captain'
-        return PresumedJob is null
-            ? $"{AgeString} {genderString}"
-            : $"{AgeString} {PresumedJob} {genderString}";
+        var jobArg = PresumedJob ?? "";
+        return Loc.GetString("identity-unknown-examine", ("age", AgeString), ("job", jobArg), ("gender", TrueGender.ToString().ToLower()));
     }
 }

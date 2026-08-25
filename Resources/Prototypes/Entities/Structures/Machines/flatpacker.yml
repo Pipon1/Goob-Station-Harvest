@@ -4,7 +4,7 @@
   id: MachineFlatpacker
   parent: [ BaseMachinePowered, ConstructibleMachine]
   name: Flatpacker 1001
-  description: An industrial machine used for expediting machine construction across the station.
+  description: Une machine industrielle utilisée pour accélérer la construction de machines à travers la station.
   components:
   - type: Sprite
     sprite: Structures/Machines/flatpacker.rsi

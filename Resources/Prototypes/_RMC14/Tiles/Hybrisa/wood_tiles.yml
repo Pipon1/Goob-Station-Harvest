@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorHybrisaWoodBase
-  name: tiles-cm-wood
+  name: tiles-cm-bois
   footstepSounds:
     collection: FootstepWood
   barestepSounds:

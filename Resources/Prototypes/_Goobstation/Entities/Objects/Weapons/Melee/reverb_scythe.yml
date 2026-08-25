@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: resonant scythe
-  description: The answer seems to be here… But the fruit isnt sweet enough just yet.
+  name: faux résonnante
+  description: La réponse semble être ici… Mais le fruit n'est pas encore assez mûr.
   parent: BaseItem
   id: ReverbScythe
   components:

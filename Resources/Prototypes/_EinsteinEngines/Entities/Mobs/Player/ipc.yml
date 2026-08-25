@@ -3,8 +3,8 @@
 - type: entity
   id: MobIPC
   parent: PlayerSiliconHumanoidBase
-  name: Urist McPositronic
-  description: A positronic brain in a metal body.
+  name: Urist McPositronique
+  description: Un cerveau positronique dans un corps de métal.
   components:
   - type: LanguageKnowledge # Einstein Engines - Languages
     speaks:
@@ -174,11 +174,11 @@
     - IPCDrinkBlacklist # Goobstation - Energycrit: Don't let self antagging IPCs steal power from other ipcs.
 - type: entity
   save: false
-  name: Urist McPositronic
+  name: Urist McPositronique
   parent: MobHumanDummy
   id: MobIPCDummy
   categories: [ HideSpawnMenu ] # Goobstation
-  description: A dummy IPC meant to be used in character setup.
+  description: Un IPC factice destiné à être utilisé lors de la création du personnage.
   components:
   - type: HumanoidAppearance
     species: IPC

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: AutodocUpgradeKitBluespace
-  name: autodoc bluespace upgrade kit
-  description: An upgrade kit with all the parts needed to upgrade an Autodoc. This one allows it to operate through clothing.
+  name: kit de mise à niveau bluespace d'autodoc
+  description: Un kit de mise à niveau avec toutes les pièces nécessaires pour améliorer un autodoc. Celui-ci permet de l'utiliser à travers les vêtements.
   components:
   - type: Sprite
     sprite: _DV/Objects/Tools/lathe_upgrade_kit.rsi

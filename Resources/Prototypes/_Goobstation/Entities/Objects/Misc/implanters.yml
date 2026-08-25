@@ -3,8 +3,8 @@
 - type: entity
   id: BaseFastDrawImplanter
   parent: BaseImplanter
-  name: fast draw implanter
-  description: A syringe with tools for quick implant removal. It has small gold stars on its body.
+  name: implanteur rapide
+  description: Une seringue avec des outils pour un retrait rapide d'implant. Elle a de petites étoiles dorées sur son corps.
   abstract: true
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterCentcomm
   parent: [ BaseImplantOnlyImplanter, BaseCentcommContraband ]
-  name: centcomm implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants. The insertion needle is coated with an analgesic.
+  name: implanteur CentComm
+  description: Une seringue jetable compacte conçue exclusivement pour l'injection d'implants sous-dermiques. L'aiguille d'insertion est enduite d'analgésique.
   abstract: true
   components:
   - type: Item
@@ -203,7 +203,7 @@
 
 - type: entity
   id: VaporizeImplanter
-  suffix: Vaporize, DO NOT MAP
+  suffix: Vaporiser, NE PAS PLACER
   parent: BaseImplantOnlyImplanterCentcomm
   components:
   - type: Implanter
@@ -211,7 +211,7 @@
 
 - type: entity
   id: ShiftImplanter
-  suffix: Shift, DO NOT MAP
+  suffix: Déplacement, NE PAS PLACER
   parent: BaseImplantOnlyImplanterCentcomm
   components:
   - type: Implanter
@@ -219,7 +219,7 @@
 
 - type: entity
   id: BlinkImplanter
-  suffix: Blink, DO NOT MAP
+  suffix: Clignotement, NE PAS PLACER
   parent: BaseImplantOnlyImplanterCentcomm
   components:
   - type: Implanter
@@ -227,7 +227,7 @@
 
 - type: entity
   id: StopTimeImplanter
-  suffix: Time Stop, DO NOT MAP
+  suffix: Arrêt du Temps, NE PAS PLACER
   parent: BaseImplantOnlyImplanterCentcomm
   components:
   - type: Implanter
@@ -235,7 +235,7 @@
 
 - type: entity
   id: NaniteMenderImplanter
-  suffix: Nanite Mender, DO NOT MAP
+  suffix: Réparateur Nanite, NE PAS PLACER
   parent: BaseImplantOnlyImplanterCentcomm
   components:
   - type: Implanter
@@ -247,7 +247,7 @@
   abstract: true
   id: BaseAntagImplantOnlyImplanter
   parent: BaseImplantOnlyImplanterCentcomm
-  name: antag implanter
+  name: implanteur d'antagoniste
 
 - type: entity
   id: AntagImplanterChangeling

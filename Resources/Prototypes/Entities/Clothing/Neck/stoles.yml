@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckStoleChaplain
-  name: chaplain stole
-  description: An elegantly designed stole, with a vibrant gold plus on either end.
+  name: étole de chapelain
+  description: Une étole au design élégant, ornée d'une croix dorée éclatante à chaque extrémité.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Stoles/chaplain.rsi

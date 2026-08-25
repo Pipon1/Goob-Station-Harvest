@@ -2,8 +2,8 @@
 
 - type: entity
   id: IceCrust
-  name: ice crust
-  description: It's cold and slippery.
+  name: croûte de glace
+  description: C'est froid et glissant.
   placement:
     mode: SnapgridCenter
     snap:

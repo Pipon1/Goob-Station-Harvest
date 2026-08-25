@@ -5,7 +5,7 @@
   parent: [SimpleMobBase, BaseItem]
   abstract: true
   name: fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  description: Créature aquatique de la mer infinie... ou des toilettes.
   components:
   - type: Fish
     difficulty: 0.029
@@ -48,8 +48,8 @@
   id: BaseFishRare
   parent: BaseFish
   abstract: true
-  name: rare fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  name: poisson rare
+  description: Créature aquatique de la mer infinie... ou des toilettes.
   components:
   - type: Fish
     difficulty: 0.038
@@ -59,8 +59,8 @@
 - type: entity
   id: FishAlien
   parent: BaseFishRare
-  name: alien fish
-  description: Looks pretty... Abductory.
+  name: poisson alien
+  description: Il a l'air... alien.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -71,8 +71,8 @@
 - type: entity
   id: FishAngler
   parent: BaseFish
-  name: angler fish
-  description: Scariest thing in existence, after bingles.
+  name: poisson-lanterne
+  description: La chose la plus terrifiante qui existe, après bingles.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -83,8 +83,8 @@
 - type: entity
   id: FishBass
   parent: BaseFish
-  name: bass fish
-  description: Probably the most normal fish in existence. Unless you use it as bass guitar.
+  name: poisson perche
+  description: Probablement le poisson le plus normal qui existe. À moins que vous ne l'utilisiez comme guitare basse.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -95,7 +95,7 @@
 - type: entity
   id: FishBingle
   parent: BaseFishRare
-  name: bingle fish
+  name: poisson bingle
   description: bingle
   components:
   - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   id: FishBlob
   parent: BaseFish
-  name: blob fish
-  description: Unfortuantly, this is not a 5th level bio-hazard threat.
+  name: poisson blob
+  description: Malheureusement, ce n'est pas une menace biohazard de niveau 5.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -119,8 +119,8 @@
 - type: entity
   id: FishBlueFintuna
   parent: BaseFish
-  name: blue fintuna
-  description: It's looking straight to you...
+  name: thon à ailerons bleus
+  description: Il vous regarde droit dans les yeux...
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -131,8 +131,8 @@
 - type: entity
   id: FishBoyFisher
   parent: BaseFishRare
-  name: boy fisher
-  description: You like kissing fish, don't you?
+  name: poisson pêcheur
+  description: Vous aimez embrasser les poissons, n'est-ce pas ?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -143,8 +143,8 @@
 - type: entity
   id: FishCat
   parent: BaseFish
-  name: cat fish
-  description: Ironically this looks nothing like a cat. And it doesn't meow.
+  name: poisson-chat
+  description: Ironiquement, ça ne ressemble pas du tout à un chat. Et ça ne miaule pas.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -155,8 +155,8 @@
 - type: entity
   id: FishTropicalClown
   parent: BaseFish
-  name: clown clown fish
-  description: That is almost certanly some kind of joke.
+  name: poisson-clown clown
+  description: C'est presque certainement une sorte de blague.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -172,8 +172,8 @@
 - type: entity
   id: FishNukeDisk
   parent: BaseFishRare
-  name: nuke disk fish
-  description: Erm, Actually, it's a bad idea trying to fit a fish inside a nuclear explosion device.
+  name: poisson disque nucléaire
+  description: Erm, en fait, c'est une mauvaise idée d'essayer de mettre un poisson dans un dispositif d'explosion nucléaire.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -184,8 +184,8 @@
 - type: entity
   id: FishGib
   parent: BaseFishRare
-  name: gib stick fish
-  description: "My face when i open a present and get gibstick:"
+  name: poisson bâton de gibiers
+  description: "Ma tête quand j'ouvre un cadeau et que je reçois un gibstick:"
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -196,8 +196,8 @@
 - type: entity
   id: FishMutant
   parent: BaseFishRare
-  name: mutant fish
-  description: Anomalous fish that looks like it ate some nuclear waste.
+  name: poisson mutant
+  description: Un poisson anormal qui semble avoir mangé des déchets nucléaires.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -208,8 +208,8 @@
 - type: entity
   id: FishNuker
   parent: BaseFishRare
-  name: nuclear operative fish
-  description: Predator of the nuke disk fish.
+  name: poisson opératif nucléaire
+  description: Prédateur du poisson disque nucléaire.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -220,8 +220,8 @@
 - type: entity
   id: FishPuffer
   parent: BaseFish
-  name: puffer fish
-  description: It is poisonous... in many ways.
+  name: poisson-globe
+  description: Il est vénéneux... de bien des façons.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -232,8 +232,8 @@
 - type: entity
   id: FishSilver
   parent: BaseFish
-  name: silver fish
-  description: Actually contains silver.
+  name: poisson argenté
+  description: Contient réellement de l'argent.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -244,8 +244,8 @@
 - type: entity
   id: FishTropicalSun
   parent: BaseFish
-  name: tropical sun fish
-  description: It probably looked at the sun for too long...?
+  name: poisson soleil tropical
+  description: Il a probablement regardé le soleil trop longtemps... ?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -256,8 +256,8 @@
 - type: entity
   id: FishToxic
   parent: BaseFishRare
-  name: toxic waste fish
-  description: "Looking at this fish, you understand how much it was a bad idea to allow nuclear waste to be dumped into rivers."
+  name: poisson déchets toxiques
+  description: "En regardant ce poisson, vous comprenez à quel point c'était une mauvaise idée d'autoriser le déversement de déchets nucléaires dans les rivières."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -268,8 +268,8 @@
 - type: entity
   id: FishTropical
   parent: BaseFish
-  name: clown fish
-  description: This fish is always searching for something... Or maybe someone?
+  name: poisson-clown
+  description: Ce poisson cherche toujours quelque chose... Ou peut-être quelqu'un ?
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -285,8 +285,8 @@
 - type: entity
   id: FishIan
   parent: BaseFishRare
-  name: ian fish
-  description: Water-born ian from the sea.
+  name: poisson ian
+  description: Ian aquatique de la mer.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi

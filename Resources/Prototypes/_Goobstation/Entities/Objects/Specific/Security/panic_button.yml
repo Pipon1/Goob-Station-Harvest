@@ -1,7 +1,7 @@
 - type: entity
   id: PanicButton
-  name: distress signaller
-  description: A small device with a small red button on the top. Press it to send a distress signal over the security channel.
+  name: signaleur de détresse
+  description: Un petit appareil avec un petit bouton rouge sur le dessus. Appuyez dessus pour envoyer un signal de détresse sur le canal de sécurité.
   parent: [BaseItem, BaseSecurityContraband]
   components:
   - type: Sprite

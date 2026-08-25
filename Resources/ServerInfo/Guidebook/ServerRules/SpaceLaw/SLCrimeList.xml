@@ -3,34 +3,34 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Space Law: Crime Listing
-  Crime codes are colored by linked crime groups, which are collections of non-stackable crimes. Suffixes are also included in the Quick Crime Guide to identify linked crimes.
+  # Loi Spatiale : Liste des Crimes
+  Les codes de crime sont colorés par groupes de crimes liés, qui sont des collections de crimes non-cumulatifs. Les suffixes sont aussi inclus dans le Guide Rapide des Crimes pour identifier les crimes liés.
 
-  ## Quick Crime Guide
+  ## Guide Rapide des Crimes
   <Table Columns="6">
     <ColorBox>
       <Box>
-        I Degree
+        I Degré
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        II Degree
+        II Degré
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        III Degree
+        III Degré
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        IV Degree
+        IV Degré
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        V Degree
+        V Degré
       </Box>
     </ColorBox>
     <ColorBox>
@@ -40,27 +40,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Disturbance
+        Trouble à l'Ordre Public
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Animal Cruelty
+        Cruauté envers les Animaux
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Assault/Battery
+        Menaces/Voies de Fait
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted Murder
+        Tentative de Meurtre
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Murder
+        Meurtre de Masse
       </Box>
     </ColorBox>
     <ColorBox>
@@ -70,27 +70,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty Theft
+        Vol Simple
       </Box>
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Damage/Destruction of Property
+        Dégradation/Destruction de Propriété
       </Box>
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Arrest
+        Évasion
       </Box>
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Unlawful Control/Kidnapping/Hostage Taking
+        Enlèvement/Séquestration/Prise d'Otages
       </Box>
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Prevention of Revival
+        Entrave à la Résurrection
       </Box>
     </ColorBox>
     <ColorBox>
@@ -100,27 +100,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession/Use of Illegal Substances
+        Possession/Usage de Substances Illégales
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Endangerment
+        Mise en Danger
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Grand Theft
+        Vol Qualifié
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Murder
+        Meurtre
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Refusal of Mental Shielding
+        Refus du Blindage Mental
       </Box>
     </ColorBox>
     <ColorBox>
@@ -130,17 +130,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Trespass
+        Intrusion
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Failure to Comply
+        Non-Obéissance
       </Box>
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Manslaughter
+        Coup Mortel Involontaire
       </Box>
     </ColorBox>
     <ColorBox>
@@ -149,7 +149,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Terrorism
+        Terrorisme
       </Box>
     </ColorBox>
     <ColorBox>
@@ -159,17 +159,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Vandalism
+        Vandalisme
       </Box>
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession of Restricted Gear
+        Possession d'Équipement Restreint
       </Box>
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Destruction
+        Destruction de Masse
       </Box>
     </ColorBox>
     <ColorBox>
@@ -191,12 +191,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Rioting
+        Émeute
       </Box>
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession of Restricted Weaponry
+        Possession d'Armes Restreintes
       </Box>
     </ColorBox>
     <ColorBox>
@@ -222,7 +222,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Secure Trespass
+        Intrusion en Zone Sécurisée
       </Box>
     </ColorBox>
     <ColorBox>
@@ -248,7 +248,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Custody
+        Violation de Garde à Vue
       </Box>
     </ColorBox>
     <ColorBox>
@@ -266,31 +266,31 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
   </Table>
 
-  # Sentencing
+  # Condamnation
 
-  - All sentencing is to be handled by the Warden, if no Warden is available the HoS is to take over that duty, if there's no HoS it falls onto the highest ranking command member.
+  - Toute condamnation doit être gérée par le Geôlier, si aucun Geôlier n'est disponible le Chef de la Sécurité doit prendre ce rôle, s'il n'y a pas de Chef de la Sécurité cela incombe au membre du commandement le plus gradé.
 
-  - Use common sense and humanity when issuing punishments. You should not always seek out the highest punishment you can; maximum time should be understood as the maximum time allowed to imprison somebody for the appropriate crime. If the warden believes the prisoner can serve less, they may allow it. You do not always need to demote someone. Always take into account the severity and only charge for what is needed for someone to learn their lesson.
+  - Faites preuve de bon sens et d'humanité quand vous émettez des punitions. Vous ne devriez pas toujours chercher la punition la plus élevée possible ; la peine maximale doit être comprise comme le temps maximum autorisé pour emprisonner quelqu'un pour le crime approprié. Si le geôlier pense que le prisonnier peut purger moins, il peut l'autoriser. Vous n'avez pas toujours besoin de rétrograder quelqu'un. Prenez toujours en compte la sévérité et n'inculpez que ce qui est nécessaire pour que la personne retienne la leçon.
 
-  - Accessory, Attempting, And Intention: If someone intentionally, knowingly and substantially assists someone in enacting a crime they can be charged with the relevant crimes, such as an engineer giving someone tools, who says they are going to break into an area. Same goes for a clear and solid attempt at a crime, or a person who shows clear intent to act out a crime, such as a syndicate nuclear operative arming a nuke but getting arrested before it goes off, they can still be charged with terrorism. Does not apply to crimes that have an attempted listing already, like attempted murder.
+  - Complicité, Tentative, Et Intention : Si quelqu'un aide intentionnellement, sciemment et substantiellement une autre personne à commettre un crime, il peut être inculpé des crimes pertinents, comme un ingénieur qui donne des outils à quelqu'un qui dit qu'il va s'introduire dans une zone. Même chose pour une tentative claire et solide de crime, ou une personne qui montre une intention claire de commettre un crime, comme un opérateur nucléaire du syndicat qui arme une bombe mais se fait arrêter avant qu'elle n'explose, il peut quand même être inculpé de terrorisme. Ne s'applique pas aux crimes qui ont déjà une liste de tentatives, comme la tentative de meurtre.
 
-  - Stackable Crimes: Crimes are to be considered 'stackable' in the sense that if you charge someone with two or more different crimes, you should combine the times you would give them for each crime.
+  - Crimes Cumulatifs : Les crimes sont considérés comme « cumulatifs » au sens où si vous inculpez quelqu'un de deux crimes différents ou plus, vous devriez combiner les temps que vous leur donneriez pour chaque crime.
 
-  [bold]Any total brig time that adds up to above 10 minutes will be shortened to meet this limit.[/bold]
+  [bold]Tout temps de prison total qui s'élève à plus de 10 minutes sera raccourci pour respecter cette limite.[/bold]
 
-  [bold]Perma may be given to exceptionally problematic crewmembers within reason, even if the maximum crime does not allow for perma.[/bold]
+  [bold]La perpétuité peut être donnée aux membres d'équipage exceptionnellement problématiques dans la raison, même si le crime maximum ne permet pas la perpétuité.[/bold]
 
-  ## I Degree
-  - For minor crimes, fix the issue then warn the person to not attempt the crime again, if they still proceed to do it at a later date, a brig time may be better.
+  ## I Degré
+  - Pour les crimes mineurs, réglez le problème puis avertissez la personne de ne pas retenter le crime plus tard, si elle continue de le faire à une date ultérieure, un temps de prison peut être préférable.
   <Table Columns="5">
     <ColorBox>
       <Box>
-        Offense
+        Infraction
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Max Time
+        Temps Max
       </Box>
     </ColorBox>
     <ColorBox>
@@ -310,7 +310,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Disturbance
+        Trouble à l'Ordre Public
       </Box>
     </ColorBox>
     <ColorBox>
@@ -320,12 +320,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause a public disturbance.
+        Causer un trouble à l'ordre public.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Sometimes referred to as hooliganism. The catch-all for obnoxious crewmates. Covers things such as public nudity, needless insults, obstructing authorities, threatening, and inciting crime or violence.
+        Parfois appelé hooliganisme. Le fourre-tout pour les coéquipiers odieux. Couvre des trucs comme la nudité en public, les insultes gratuites, l'obstruction des autorités, les menaces, et l'incitation au crime ou à la violence.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -335,7 +335,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty Theft
+        Vol Simple
       </Box>
     </ColorBox>
     <ColorBox>
@@ -345,12 +345,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take non-vital or inexpensive property of another individual, organization, or common property, without consent.
+        Prendre une propriété non-vitale ou peu coûteuse d'un autre individu, organisation, ou propriété commune, sans consentement.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Petty theft refers to the replaceability and importance of the item stolen.
+        Le vol simple se réfère au caractère remplaçable et à l'importance de l'objet volé.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -360,7 +360,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession/Use of Illegal Substances
+        Possession/Usage de Substances Illégales
       </Box>
     </ColorBox>
     <ColorBox>
@@ -370,12 +370,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To make, hold, or abuse restricted drugs or chemicals.
+        Fabriquer, détenir, ou abuser de drogues ou produits chimiques restreints.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This is to be followed in accordance with Standard Operating Procedure. If anything questionable is not brought up in SOP the captain or highest standing command staff may publicly restrict it.
+        Ceci doit être suivi conformément à la Procédure Opérationnelle Standard. Si quelque chose de questionnable n'est pas évoqué dans la POS le Capitaine ou le membre du commandement le plus haut placé peut le restreindre publiquement.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -385,7 +385,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Trespass
+        Intrusion
       </Box>
     </ColorBox>
     <ColorBox>
@@ -395,12 +395,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To enter a non-secured area without permission.
+        Entrer dans une zone non-sécurisée sans permission.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        It's best to just remove them from the area unless this is a repeated crime.
+        Il vaut mieux juste les virer de la zone à moins que ce soit un crime répété.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -410,7 +410,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Vandalism
+        Vandalisme
       </Box>
     </ColorBox>
     <ColorBox>
@@ -420,12 +420,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To intentionally deface or superficially damage public or private property.
+        Dégrader ou endommager superficiellement et intentionnellement une propriété publique ou privée.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.
+        Faire des graffitis, casser des verres de bar, et fissurer des fenêtres internes c'est du vandalisme, casser une fenêtre donnant sur l'espace ou des zones sécurisées n'en est pas.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -435,16 +435,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
   </Table>
 
-  ## II Degree
-  - Depending on the situation you may want to issue a warning instead of a detaining.
+  ## II Degré
+  - Selon la situation vous pourriez vouloir émettre un avertissement au lieu d'une détention.
   <Table Columns="5">
     <ColorBox>
       <Box>
-        Offense
+        Infraction
       </Box>
     </ColorBox><ColorBox>
       <Box>
-        Max Time
+        Temps Max
       </Box>
     </ColorBox>
     <ColorBox>
@@ -464,7 +464,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Animal Cruelty
+        Cruauté envers les Animaux
       </Box>
     </ColorBox><ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
@@ -473,12 +473,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To inflict unnecessary suffering or harm on a non-sapient being with malicious intent.
+        Infliger de la souffrance ou du tort inutile à un être non-sentient avec une intention malveillante.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This doesn't include legitimate and authorized animal testing and usually doesn't extend to vermin or creatures that could pose a threat to the station.
+        Ceci n'inclut pas les tests animaux légitimes et autorisés et ne s'étend généralement pas aux nuisibles ou créatures qui pourraient poser une menace à la station.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -488,7 +488,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Damage/Destruction of Property
+        Dégradation/Destruction de Propriété
       </Box>
     </ColorBox>
     <ColorBox>
@@ -498,12 +498,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To maliciously damage or deface public or private property or equipment
+        Endommager ou dégrader malicieusement une propriété ou équipement public ou privé
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Step up from vandalism but a step down from mass destruction.
+        Un cran au-dessus du vandalisme mais un cran en-dessous de la destruction de masse.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -513,7 +513,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Endangerment
+        Mise en Danger
       </Box>
     </ColorBox>
     <ColorBox>
@@ -523,12 +523,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To recklessly or maliciously put yourself or others in danger, either through direct action, or failure to act.
+        Mettre en danger soi-même ou les autres par imprudence ou malveillance, que ce soit par action directe ou par omission.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Covers industrial accidents, industrial negligence, industrial sabotage, self-experimentation, or even medical malpractice.
+        Couvre les accidents industriels, la négligence industrielle, le sabotage industriel, l'auto-expérimentation, ou même la faute médicale.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -538,7 +538,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Failure to Comply
+        Non-Obéissance
       </Box>
     </ColorBox>
     <ColorBox>
@@ -548,12 +548,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To resist reasonable orders given by an authority. This extends to warrants and authorized searches.
+        Résister à des ordres raisonnables donnés par une autorité. Cela s'étend aux mandats et perquisitions autorisées.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        The order has to be reasonable and the person has to receive a good amount of warning before the arrest is issued.
+        L'ordre doit être raisonnable et la personne doit recevoir un bon nombre d'avertissements avant que l'arrestation ne soit émise.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -563,7 +563,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession of Restricted Gear
+        Possession d'Équipement Restreint
       </Box>
     </ColorBox>
     <ColorBox>
@@ -573,12 +573,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To hold or use non-lethal items or objects that are restricted or illegal.
+        Détenir ou utiliser des objets non-létaux qui sont restreints ou illégaux.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This is mostly for syndicate contraband; EMAGs, syndicate gas masks, bloodred hardsuits, hijacked PDAs, or implants, however can sometimes extend to things the individual shouldn't possess like kevlar vests and security gear.
+        C'est surtout pour la contrebande du syndicat ; EMAGs, masques à gaz du syndicat, hardsuits sanglants, PDAs détournés, ou implants, mais ça peut parfois s'étendre à des trucs que l'individu ne devrait pas posséder comme des gilets pare-balles et de l'équipement de sécurité.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -588,7 +588,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Rioting
+        Émeute
       </Box>
     </ColorBox>
     <ColorBox>
@@ -598,12 +598,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take part in a large group of personnel creating an unlawful public disturbance.
+        Participer à un grand groupe de personnel créant un trouble illégal à l'ordre public.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Crimes like damage of property or battery are expected to be thrown on top of this charge. Leaders of a riot can be charged with all crimes that happen under their lead.
+        Des crimes comme dégradation de propriété ou voies de fait sont censés être ajoutés par-dessus cette charge. Les meneurs d'une émeute peuvent être inculpés de tous les crimes qui arrivent sous leur direction.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -613,18 +613,18 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
   </Table>
 
-  ## III Degree
-  - Assault and Manslaughter are linked crimes, and cannot be stacked against a suspect.
-  - It is recommended to not use maximum sentences for those being compliant.
+  ## III Degré
+  - Les Voies de Fait et le Coup Mortel Involontaire sont des crimes liés, et ne peuvent pas être cumulés contre un suspect.
+  - Il est recommandé de ne pas utiliser les peines maximales pour那些 qui coopèrent.
   <Table Columns="5">
     <ColorBox>
       <Box>
-        Offense
+        Infraction
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Max Time
+        Temps Max
       </Box>
     </ColorBox>
     <ColorBox>
@@ -644,7 +644,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Assault/Battery
+        Menaces/Voies de Fait
       </Box>
     </ColorBox>
     <ColorBox>
@@ -654,12 +654,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To threaten to or to use physical force against someone without the intent to kill.
+        Menacer ou utiliser la force physique contre quelqu'un sans l'intention de tuer.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted murder and battery are different.
+        La tentative de meurtre et les voies de fait sont différentes.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -669,7 +669,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Arrest
+        Évasion
       </Box>
     </ColorBox>
     <ColorBox>
@@ -679,12 +679,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To intentionally resist and flee arrest or detainment by an authorized staff.
+        Résister et fuir intentionnellement une arrestation ou détention par un personnel autorisé.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        This only applies if the person is actively being physically arrested. Includes people uncuffing or assisting others out of an arrest. Breach of custody is a separate crime.
+        Ceci ne s'applique que si la personne est en train d'être physiquement arrêtée. Inclut les gens qui retirent les menottes ou aident d'autres à s'échapper d'une arrestation. La violation de garde à vue est un crime séparé.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -694,7 +694,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Grand Theft
+        Vol Qualifié
       </Box>
     </ColorBox>
     <ColorBox>
@@ -704,12 +704,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To take critical or unreplaceable property of another individual or organization without consent.
+        Prendre une propriété critique ou irremplaçable d'un autre individu ou organisation sans consentement.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        The theft of an irreplaceable item. Examples of such items would be the Quarter Masters Digiboard, or the Chief Engineers advanced mag boots; however this may include the Captains ID.
+        Le vol d'un objet irremplaçable. Exemples : le Digiboard du Quartermaster, ou les mag boots avancées du Chef Ingénieur ; ceci peut cependant inclure la Carte d'Identité du Capitaine.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -719,7 +719,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Manslaughter
+        Coup Mortel Involontaire
       </Box>
     </ColorBox>
     <ColorBox>
@@ -729,12 +729,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To incidentally kill a sapient being without intent.
+        Tuer involontairement un être sentient sans intention.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Includes manslaughter in self-defense and negligent manslaughter.
+        Inclut le coup mortel involontaire en légitime défense et par négligence.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -744,7 +744,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#59563a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Destruction
+        Destruction de Masse
       </Box>
     </ColorBox>
     <ColorBox>
@@ -754,12 +754,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To cause massive damage to an area or major station system.
+        Causer des dégâts massifs à une zone ou un système majeur de la station.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Deadly bombings or massive damage to station departments and functions may fall under mass destruction.
+        Les bombardements mortels ou dégâts massifs aux départements et fonctions de la station peuvent tomber sous la destruction de masse.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -769,7 +769,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Possession of Restricted Weaponry
+        Possession d'Armes Restreintes
       </Box>
     </ColorBox>
     <ColorBox>
@@ -779,12 +779,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To hold or use a weapon that is unlawful or contraband.
+        Détenir ou utiliser une arme qui est illégale ou de contrebande.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Everything from guns without a permit, deadly blades, explosives, syndicate firearms to explosive implants.
+        De tout : armes à feu sans permis, lames mortelles, explosifs, armes du syndicat à implants explosifs.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -794,7 +794,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#4d2e2e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Secure Trespass
+        Intrusion en Zone Sécurisée
       </Box>
     </ColorBox>
     <ColorBox>
@@ -804,12 +804,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        TTo enter a secured area without permission
+        Entrer dans une zone sécurisée sans permission
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Secure trespass generally refers to all command areas; but may also include engineering, atmospherics, telecomms, vault, AI, security and armory.
+        L'intrusion en zone sécurisée concerne généralement toutes les zones de commandement ; mais peut aussi inclure l'ingénierie, l'atmos, les télécoms, le coffre-fort, l'IA, la sécurité et l'armurerie.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -819,7 +819,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#3b4354">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Breach of Custody
+        Violation de Garde à Vue
       </Box>
     </ColorBox>
     <ColorBox>
@@ -829,12 +829,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To break out of a cell or custody with the intention of escaping.
+        S'évader d'une cellule ou de la garde à vue avec l'intention de s'enfuir.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Additional time may be added to any escapee. While rare, this charge can be bumped to permanent brig if the suspect has repeatedly attempted to break out; Includes crew breaking others out.
+        Du temps supplémentaire peut être ajouté à tout évadé. Bien que rare, cette charge peut être augmentée à la perpétuité si le suspect a tenté à plusieurs reprises de s'échapper ; Inclut les équipiers qui font sortir d'autres personnes.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -844,19 +844,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
   </Table>
 
-  ## IV Degree
-  - Particularly violent offenders may be placed in perma. (Attacking officers in an attempt to escape prison)
-  - Attempted murder and murder are linked crimes and cannot be stacked together.
-  - Attempted murderers should be granted a more lenient sentence than a murderer.
+  ## IV Degré
+  - Les contrevenants particulièrement violents peuvent être mis en perpète. (Attaquer des officiers pour tenter de s'échapper de prison)
+  - La tentative de meurtre et le meurtre sont des crimes liés et ne peuvent pas être cumulés ensemble.
+  - Les tentatives de meurtre devraient recevoir une peine plus clémente qu'un meurtre.
   <Table Columns="5">
     <ColorBox>
       <Box>
-        Offense
+        Infraction
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Max Time
+        Temps Max
       </Box>
     </ColorBox>
     <ColorBox>
@@ -876,7 +876,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Attempted Murder
+        Tentative de Meurtre
       </Box>
     </ColorBox>
     <ColorBox>
@@ -886,12 +886,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To make an attempt to use physical force against someone with the clear intent to kill.
+        Faire une tentative d'utiliser la force physique contre quelqu'un avec une intention claire de tuer.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Undeniable proof that there was an attempt on somebody elses life. Purposely causing a member of crew to fall into a critical state is attempted murder.
+        Preuve indéniable qu'il y a eu une tentative sur la vie de quelqu'un. Mettre délibérément un membre d'équipage en état critique est une tentative de meurtre.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -901,7 +901,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Unlawful Control/Kidnapping/Hostage Taking
+        Enlèvement/Séquestration/Prise d'Otages
       </Box>
     </ColorBox>
     <ColorBox>
@@ -911,12 +911,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To unlawfully restrain, transport, control or confine a sapient being against that individual’s will.
+        Restreindre, transporter, contrôler ou confiner illégalement un être sentient contre sa volonté.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Usually refers to forced cuffing, or trapping of a crew member; Locking a person in a room or locker could fall under kidnapping.
+        Concerne généralement le menottage forcé, ou l'enfermement d'un membre d'équipage ; Enfermer une personne dans une pièce ou un casier peut tomber sous l'enlèvement.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -926,7 +926,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Murder
+        Meurtre
       </Box>
     </ColorBox>
     <ColorBox>
@@ -936,12 +936,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To kill a sapient being with malicious intent
+        Tuer un être sentient avec une intention malveillante
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To purposely cause another member of crew to die.
+        Causer délibérément la mort d'un autre membre d'équipage.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -951,17 +951,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
   </Table>
 
-  ## V Degree
-  - [bold]All executions are to be confirmed and overseen by the Captain. A prisoner may request a specific execution method, if reasonable. Otherwise the most humane method is prefered. Refer to Standard Operating Procedure to further understand any guidelines applied to execution.[/bold]
+  ## V Degré
+  - [bold]Toutes les exécutions doivent être confirmées et supervisées par le Capitaine. Un prisonnier peut demander une méthode d'exécution spécifique, si raisonnable. Sinon la méthode la plus humaine est préférée. Référez-vous à la Procédure Opérationnelle Standard pour mieux comprendre les directives appliquées à l'exécution.[/bold]
   <Table Columns="5">
     <ColorBox>
       <Box>
-        Offense
+        Infraction
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Max Time
+        Temps Max
       </Box>
     </ColorBox>
     <ColorBox>
@@ -981,22 +981,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mass Murder
+        Meurtre de Masse
       </Box>
     </ColorBox>
   <ColorBox>
     <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-      Death
+      Mort
     </Box>
   </ColorBox>
     <ColorBox >
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To kill three or more sapient beings with malicious intent.
+        Tuer trois ou plus d'êtres sentients avec une intention malveillante.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone. If the implant fails execution is heavily recommended.
+        S'applique si le suspect est excessivement non-coopératif ou si l'implant échoue à fonctionner à cause de l'état mental du prisonnier déjà trop loin. Si l'implant échoue l'exécution est fortement recommandée.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -1006,22 +1006,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2f3832">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Prevention of Revival
+        Entrave à la Résurrection
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Death
+        Mort
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To render a body unresurrectable.
+        Rendre un corps impossible à ressusciter.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Gibbing, hiding or disallowing medical to revive another member of crew may fall under prevention of revival.
+        Gibber, cacher ou empêcher les médecins de ressusciter un autre membre d'équipage peut tomber sous l'entrave à la résurrection.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -1031,22 +1031,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#2e422e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Refusal of Mental Shielding
+        Refus du Blindage Mental
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Death
+        Mort
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To refuse to comply with a reasonable Mind Shielding procedure.
+        Refuser de se conformer à une procédure de Blindage Mental raisonnable.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone. If the implant fails the maximum punishment is upped to Expedited Execution. Captains approval is not required.
+        S'applique si le suspect est excessivement non-coopératif ou si l'implant échoue à fonctionner à cause de l'état mental du prisonnier déjà trop loin. Si l'implant échoue la punition maximale passe à l'Exécution Expédiée. L'approbation du Capitaine n'est pas requise.
       </Box>
     </ColorBox>
     <ColorBox>
@@ -1056,22 +1056,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </ColorBox>
     <ColorBox Color="#453a59">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Terrorism
+        Terrorisme
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Death
+        Mort
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To engage in maliciously destructive actions which threaten to destroy, or successfully destroy a vessel or habitat.
+        S'engager dans des actions malicieusement destructrices qui menacent de détruire, ou détruisent avec succès un vaisseau ou un habitat.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Multiple cases of extreme sabotage of station systems or setting off self-destruction systems. Plasma flooding or loosing may fall under this.
+        Multiples cas de sabotage extrême de systèmes de la station ou déclenchement de systèmes d'auto-destruction. L'inondation au plasma ou le lâcher peuvent tomber sous ceci.
       </Box>
     </ColorBox>
     <ColorBox>

@@ -1,0 +1,1 @@
+antag-gain-remove-clumsy = Votre entraînement vous a permis de surmonter votre nature de clown, vous permettant de manier des armes sans vous blesser !

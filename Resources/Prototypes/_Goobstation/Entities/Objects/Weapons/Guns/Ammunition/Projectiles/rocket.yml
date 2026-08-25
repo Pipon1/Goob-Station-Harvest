@@ -4,7 +4,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: BulletRocketLAW
-  name: 84mm HEAT rocket
+  name: roquette HEAT de 84mm
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/aprocket.rsi
@@ -35,7 +35,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: BulletRocketShmel
-  name: 93mm thermobaric rocket
+  name: roquette thermobarique de 93mm
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/thermobaricrocket.rsi

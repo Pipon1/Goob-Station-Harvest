@@ -1,0 +1,18 @@
+station-report-text =
+    {"["}color=#1b67a5]░░██░░ [head=2]Document Officiel[/head]
+    ▀████▀ [head=3]Objet : Rapport de Station[/head]
+    ▄█▀▀█▄ [head=3]Examinateur : Représentant NanoTrasen[/head]
+    {"["}/color]──────────────────────────────────────────
+    • [color=#9fed58][bold]Rapport Général[/bold][/color]
+    >[mono][/mono]
+    • [color=#ff5c5c][bold]Rapport Département Sécurité[/bold][/color]
+    >[mono][/mono]
+    • [color=#d28150][bold]Rapport Département Logistique[/bold][/color]
+    >[mono][/mono]
+    • [color=#f2e052][bold]Rapport Département Ingénierie[/bold][/color]
+    >[mono][/mono]
+    • [color=#5b97bc][bold]Rapport Département Médical[/bold][/color]
+    >[mono][/mono]
+    • [color=#c96dbf][bold]Rapport Département Recherche[/bold][/color]
+    >[mono][/mono]
+    Signé par : [color=Green]Nom du Représentant NanoTrasen ici[/color]

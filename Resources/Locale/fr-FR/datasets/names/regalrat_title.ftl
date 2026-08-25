@@ -1,0 +1,17 @@
+names-regal-rat-title-dataset-1 = Roi
+names-regal-rat-title-dataset-2 = Seigneur
+names-regal-rat-title-dataset-3 = Prince
+names-regal-rat-title-dataset-4 = Empereur
+names-regal-rat-title-dataset-5 = Suprême
+names-regal-rat-title-dataset-6 = Seigneur suprême
+names-regal-rat-title-dataset-7 = Maître
+names-regal-rat-title-dataset-8 = Shogun
+names-regal-rat-title-dataset-9 = Boyard
+names-regal-rat-title-dataset-10 = Tsar
+names-regal-rat-title-dataset-11 = Fan #vs
+names-regal-rat-title-dataset-12 = Amateur
+names-regal-rat-title-dataset-13 = Président
+names-regal-rat-title-dataset-14 = Maire
+names-regal-rat-title-dataset-15 = Patron
+names-regal-rat-title-dataset-16 = Prophète
+names-regal-rat-title-dataset-17 = Fromage

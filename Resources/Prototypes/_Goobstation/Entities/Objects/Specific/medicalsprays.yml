@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity # Not very specific anymore but whatever
-  name: styptic powder spray bottle
+  name: bouteille spray de poudre styptique
   id: SprayBottleStypticPowder
-  suffix: Filled, Styptic powder
+  suffix: Remplie, Poudre styptique
   parent: SprayBottleBase # Can't parent actual spray bottles because solution fill visuals. todo goob.
   components:
   - type: Sprite
@@ -22,9 +22,9 @@
           Quantity: 100
 
 - type: entity
-  name: silver sulfadiazine spray bottle
+  name: bouteille spray de sulfadiazine d'argent
   id: SprayBottleSilverSulfadiazine
-  suffix: Filled, Silver sulfadiazine
+  suffix: Remplie, Sulfadiazine d'argent
   parent: SprayBottleBase # Can't parent actual spray bottles because solution fill visuals. todo goob.
   components:
   - type: Sprite

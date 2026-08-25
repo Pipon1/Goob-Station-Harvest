@@ -1,11 +1,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: watcher
+  name: observateur
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   abstract: true
-  description: It's like it's staring right through you.
+  description: C'est comme s'il vous regardait droit à travers.
   components:
   - type: WeatherImmune # Lavaland change
   - type: NpcFactionMember
@@ -104,7 +104,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: icewing watcher
+  name: observateur à ailes gelées
   components:
   - type: Sprite
     layers:
@@ -130,7 +130,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: magmawing watcher
+  name: observateur à ailes magma
   components:
   - type: Sprite
     layers:
@@ -156,9 +156,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: pride watcher
+  name: observateur des fiertés
   suffix: Admeme
-  description: This rare subspecies only appears in June.
+  description: Cette sous-espèce rare n'apparaît qu'en juin.
   components:
   - type: Sprite
     layers:

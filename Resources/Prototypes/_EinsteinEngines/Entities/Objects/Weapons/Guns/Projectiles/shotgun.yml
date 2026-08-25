@@ -2,7 +2,7 @@
 
 - type: entity
   id: PelletShotgunBirdshot
-  name: pellet (.50 birdshot)
+  name: bille (.50 chevrotine fine)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   id: PelletShotgun00Buckshot
-  name: pellet (.50 00-Buckshot)
+  name: bille (.50 chevrotine 00)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -52,7 +52,7 @@
 
 - type: entity
   id: PelletShotgun0000Buckshot
-  name: pellet (.50 0000-Buckshot)
+  name: bille (.50 chevrotine 0000)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:

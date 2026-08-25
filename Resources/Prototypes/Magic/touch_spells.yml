@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseSmiteAction
   id: ActionCluwne
-  name: Cluwne's Curse
-  description: Turns someone into a Cluwne!
+  name: Malédiction du Cluwne
+  description: Transforme quelqu'un en Cluwne !
   components:
   - type: Action
     useDelay: 120
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseSmiteAction
   id: ActionSlippery
-  name: Slippery Slope
-  description: Make someone slippery.
+  name: Pente glissante
+  description: Rend quelqu'un glissant.
   components:
   - type: Action
     useDelay: 60

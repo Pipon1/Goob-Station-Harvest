@@ -4,7 +4,7 @@
 
 - type: entity
   id: BaseHydrakinOrgan
-  name: hydrakin organ
+  name: organe hydrakin
   parent: [BaseItem]
   abstract: true
   components:
@@ -27,7 +27,7 @@
 - type: entity
   id: OrganHydrakinStomach
   parent: [ BaseHydrakinOrgan, OrganHumanStomach ]
-  name: hydrakin stomach
+  name: estomac hydrakin
   components:
   - type: Sprite
     state: stomach
@@ -52,7 +52,7 @@
 - type: entity
   id: OrganHydrakinBrain
   parent: [ BaseHydrakinOrgan, OrganHumanBrain ]
-  name: hydrakin brain
+  name: cerveau hydrakin
   components:
   - type: Sprite
     state: brain
@@ -63,7 +63,7 @@
 - type: entity
   id: OrganHydrakinLiver
   parent: BaseHydrakinOrgan
-  name: hydrakin liver
+  name: foie hydrakin
   components:
   - type: Sprite
     layers:
@@ -85,7 +85,7 @@
 - type: entity
   id: OrganHydrakinHeart
   parent: [ BaseHydrakinOrgan , OrganHumanHeart ]
-  name: hydrakin heart
+  name: cœur hydrakin
   components:
   - type: Metabolizer
     metabolizerTypes: [ Hydrakin ]
@@ -93,8 +93,8 @@
 - type: entity
   id: OrganHydrakinLungs
   parent: BaseHydrakinOrgan
-  name: hydrakin lungs
-  description: "Hydrakin lungs, capable of processing any gas without negative effects."
+  name: poumons hydrakin
+  description: "Poumons hydrakin, capables de traiter n'importe quel gaz sans effets négatifs."
   components:
   - type: Sprite
     layers:

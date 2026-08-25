@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltStorageWaistbag
-  name: leather waist bag
-  description: A leather waist bag meant for carrying small items.
+  name: besace en cuir
+  description: Une besace en cuir destinée à transporter de petits articles.
   components:
   - type: Sprite
     sprite: Clothing/Belt/waistbag_leather.rsi

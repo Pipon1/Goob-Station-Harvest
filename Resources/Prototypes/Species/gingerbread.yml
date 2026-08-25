@@ -2,7 +2,7 @@
 
 - type: species
   id: Gingerbread
-  name: Gingerbread
+  name: species-name-gingerbread #Harvest change: fixes french translation console spam, was: Gingerbread
   roundStart: false
   prototype: MobGingerbread
   sprites: MobGingerbreadSprites

@@ -8,10 +8,10 @@
 # Large Plate
 
 - type: entity
-  name: large plate
+  name: grande assiette
   parent: BaseItem
   id: FoodPlate
-  description: A large plate, excellent for bread.
+  description: Une grande assiette, excellente pour le pain.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -67,10 +67,10 @@
         Blunt: 5
 
 - type: entity
-  name: broken plate
+  name: assiette cassée
   parent: BaseItem
   id: FoodPlateTrash
-  description: A broken plate. Useless.
+  description: Une assiette cassée. Inutile.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -87,10 +87,10 @@
 # Small Plate
 
 - type: entity
-  name: small plate
+  name: petite assiette
   parent: FoodPlate
   id: FoodPlateSmall
-  description: A small plate. Delicate.
+  description: Une petite assiette. Délicate.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlatePlastic
-  name: large plastic plate
-  description: A large blue plastic plate, excellent for a birthday cake.
+  name: grande assiette en plastique
+  description: Une grande assiette en plastique bleu, excellente pour un gâteau d'anniversaire.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlateSmallPlastic
-  name: small plastic plate
-  description: A blue plastic plate, excellent for slices of birthday cake.
+  name: petite assiette en plastique
+  description: Une assiette en plastique bleu, excellente pour des tranches de gâteau d'anniversaire.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -184,10 +184,10 @@
 # Pie Tin
 
 - type: entity
-  name: pie tin
+  name: moule à tarte
   parent: BaseItem
   id: FoodPlateTin
-  description: A cheap foil tin for pies.
+  description: Un moule en feuille d'aluminium bon marché pour les tartes.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: BaseItem
   id: FoodPlateMuffinTin
-  name: muffin tin
-  description: A cheap foil tin for muffins.
+  name: moule à muffins
+  description: Un moule en feuille d'aluminium bon marché pour les muffins.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi

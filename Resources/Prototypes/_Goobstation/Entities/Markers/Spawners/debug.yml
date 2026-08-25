@@ -4,7 +4,7 @@
   name: Operative Spawner
   id: SpawnMobHumanLoneNuclearOperative
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -19,7 +19,7 @@
   name: Operative Suit Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -34,7 +34,7 @@
   name: Operative Suit Elite Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitElite
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
   name: Operative Suit Jugg Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitJugg
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -64,7 +64,7 @@
   name: Operative Suit Commander Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitCommander
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -79,7 +79,7 @@
   name: Operative Suit Stealth Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitStealth
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -94,7 +94,7 @@
   name: Operative Suit Medic Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitMedic
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -109,7 +109,7 @@
   name: Operative Suit Dread Spawner
   id: SpawnMobHumanLoneNuclearOperativeSuitDread
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -124,7 +124,7 @@
   name: Security Officer Suit Spawner
   id: SpawnMobHumanSecurityOfficerSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -136,10 +136,10 @@
     - MobHumanSecurityOfficerSuit
 
 - type: entity
-  name: Head of Security ModSuit Spawner
+  name: Générateur de ModSuit du Chef de la Sécurité
   id: SpawnMobHumanHosModSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -154,7 +154,7 @@
   name: Security Officer ModSuit Spawner
   id: SpawnMobHumanSecurityOfficerModSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -166,10 +166,10 @@
     - MobHumanSecurityOfficerModSuit
 
 - type: entity
-  name: Head of Security Suit Spawner
+  name: Générateur de Combinaison du Chef de la Sécurité
   id: SpawnMobHumanHoSSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -184,7 +184,7 @@
   name: Warden Suit Spawner
   id: SpawnMobHumanWardenSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -199,7 +199,7 @@
   name: Brigmedic Suit Spawner
   id: SpawnMobHumanBrigmedicSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -214,7 +214,7 @@
   name: Security Officer Bulletproof Armor Spawner
   id: SpawnMobHumanSecurityOfficerBulletproofArmorHelmet
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -229,7 +229,7 @@
   name: Security Officer Riot Armor Spawner
   id: SpawnMobHumanSecurityOfficerRiotArmorHelmet
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -244,7 +244,7 @@
   name: Security Officer Reflective Armor Spawner
   id: SpawnMobHumanSecurityOfficerReflectiveArmorHelmet
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -259,7 +259,7 @@
   name: Security Officer Basic Armor Spawner
   id: SpawnMobHumanSecurityOfficerBasicArmorHelmet
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -271,10 +271,10 @@
     - MobHumanSecurityOfficerBasicArmorHelmet
 
 - type: entity
-  name: Head of Security Spawner
+  name: Générateur du Chef de la Sécurité
   id: SpawnMobHumanHos
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -289,7 +289,7 @@
   name: Brigmedic Spawner
   id: SpawnMobHumanBrigmedic
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -304,7 +304,7 @@
   name: Warden Spawner
   id: SpawnMobHumanWarden
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -319,7 +319,7 @@
   name: Blueshield Officer Base Spawner
   id: SpawnMobHumanBSOBase
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -334,7 +334,7 @@
   name: Blueshield Officer Suit Spawner
   id: SpawnMobHumanBSOSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -349,7 +349,7 @@
   name: Blueshield Officer ModSuit Spawner
   id: SpawnMobHumanBSOModSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -364,7 +364,7 @@
   name: Wizard Spawner
   id: SpawnMobHumanWizardDebug
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -379,7 +379,7 @@
   name: Wizard Suit Spawner
   id: SpawnMobHumanWizardDebugSuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -394,7 +394,7 @@
   name: Changeling Armor Spawner
   id: SpawnMobHumanChangelingArmor
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -409,7 +409,7 @@
   name: Space Ninja Armor Spawner
   id: SpawnMobHumanNinjaArmor
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -424,7 +424,7 @@
   name: Heretic Armor Spawner
   id: SpawnHumanHereticArmor
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -439,7 +439,7 @@
   name: Captain Armor Spawner Hardsuit
   id: SpawnMobHumanCaptainHardsuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -454,7 +454,7 @@
   name: Captain Armor Spawner Modsuit
   id: SpawnMobHumanCaptainModsuit
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:
@@ -469,7 +469,7 @@
   name: Captain Armor Spawner
   id: SpawnMobHumanCaptainDebug
   parent: MarkerBase
-  suffix: DEBUG
+  suffix: DÉBOGAGE
   components:
   - type: Sprite
     layers:

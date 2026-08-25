@@ -9,8 +9,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxDonut
-  name: donut box
-  description: Mmm, Donuts.
+  name: boîte de beignets
+  description: Mmm, des beignets.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donut.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodContainerEgg
-  name: egg carton
-  description: Don't drop 'em!
+  name: boîte à œufs
+  description: Ne les fais pas tomber !
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/egg.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxPizza
-  name: pizza box
-  description: A box for pizza. It keeps in the heat, the smell, and the memories of the best five minutes of your life.
+  name: boîte à pizza
+  description: Une boîte pour pizza. Elle garde la chaleur, l'odeur, et les souvenirs des cinq meilleures minutes de votre vie.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/pizza.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxNugget
-  name: chicken nuggets
-  description: You suddenly have an urge to trade on the intergalactic stock market.
+  name: nuggets de poulet
+  description: Vous avez soudain envie de trader sur le marché boursier intergalactique.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/nuggets.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxDonkpocket
-  name: box of donk-pockets
-  description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
+  name: boîte de donk-pockets
+  description: "Instructions : Chauffer au micro-ondes. Le produit refroidira s'il n'est pas mangé dans les sept minutes."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
@@ -381,7 +381,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketSpicy
-  name: box of spicy-flavoured donk-pockets
+  name: boîte de donk-pockets au goût épicé
   components:
   - type: Sprite
     state: spicy-box
@@ -394,7 +394,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketTeriyaki
-  name: box of teriyaki-flavoured donk-pockets
+  name: boîte de donk-pockets au goût teriyaki
   components:
   - type: Sprite
     state: teriyaki-box
@@ -407,7 +407,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketPizza
-  name: box of pizza-flavoured donk-pockets
+  name: boîte de donk-pockets au goût pizza
   components:
   - type: Sprite
     state: pizza-box
@@ -420,7 +420,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketStonk
-  name: box of limited edition stonk-pockets
+  name: boîte de donk-pockets stonk édition limitée
   components:
   - type: Sprite
     state: stonk-box
@@ -433,7 +433,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketCarp
-  name: box of carp-pockets
+  name: boîte de donk-pockets carpe
   components:
   - type: Sprite
     state: carp-box
@@ -446,7 +446,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketBerry
-  name: box of berry-flavoured donk-pockets
+  name: boîte de donk-pockets au goût de baie
   components:
   - type: Sprite
     state: berry-box
@@ -459,7 +459,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketHonk
-  name: box of banana-flavoured donk-pockets
+  name: boîte de donk-pockets au goût de banane
   components:
   - type: Sprite
     state: banana-box
@@ -472,8 +472,8 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketDink
-  name: box of dink-pockets
-  description: Net Zero carbohydrates! No need for heating!
+  name: boîte de dink-pockets
+  description: Zéro glucides nets ! Pas besoin de chauffer !
   components:
   - type: Sprite
     state: dink-box
@@ -486,7 +486,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketMoth
-  name: box of moth-pockets
+  name: boîte de mite-pockets
   components:
   - type: Sprite
     state: moth-box
@@ -501,7 +501,7 @@
   parent: [ BoxCardboard, BaseBagOpenClose ]
   name: happy honk meal
   suffix: Toy Safe
-  description: The toy is more edible than the food.
+  description: Le jouet est plus comestible que la nourriture.
   components:
   - type: Sprite
     sprite: Objects/Storage/Happyhonk/clown.rsi
@@ -531,7 +531,7 @@
 - type: entity
   id: HappyHonkMime
   parent: HappyHonk
-  description: A limited mime edition of the happy honk meal.
+  description: Une édition limitée mime du happy honk meal.
   suffix: Toy Safe
   components:
   - type: Tag
@@ -546,8 +546,8 @@
 - type: entity
   id: HappyHonkNukie
   parent: [HappyHonk, BaseSyndicateContraband]
-  name: robust nukie meal
-  description: A sus meal with a potentially explosive surprise.
+  name: repas robuste nukie
+  description: Un repas douteux avec une surprise potentiellement explosive.
   suffix: Toy Unsafe
   components:
   - type: Sprite
@@ -563,7 +563,7 @@
   parent: HappyHonkNukie
   id: HappyHonkNukieSnacks
   suffix: Toy Unsafe, Snacks
-  name: syndicate snack box
+  name: boîte de snacks du Syndicat
   components:
   - type: Storage
     grid:
@@ -596,8 +596,8 @@
 - type: entity
   id: HappyHonkCluwne
   parent: HappyHonk
-  name: woeful cluwne meal
-  description: Nothing good can come of this.
+  name: repas cluwne lamentable
+  description: Rien de bon ne peut venir de ceci.
   components:
   - type: Tag
     tags:
@@ -637,7 +637,7 @@
   id: FoodMealHappyHonkBigBite
   parent: HappyHonk
   name: Happy Honk Big Bite Meal
-  description: Someone paid good money to get this fast food meal shipped out this way. It smells fresh, somehow.
+  description: Quelqu'un a payé cher pour obtenir ce repas rapide expédié de cette façon. Il sent bon, étrangement.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -653,8 +653,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxCloth
-  name: box of FlutterSoft-brand cloth
-  description: Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
+  name: boîte de tissu FlutterSoft
+  description: Les fibres sont le repas le plus important de la journée pour les mites ! Ne sautez pas cela ou n'utilisez pas de tissus de mauvaise qualité d'un casier, achetez plutôt du tissu FlutterSoft de haute qualité.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi

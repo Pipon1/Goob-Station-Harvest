@@ -4,8 +4,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckPinBase
   abstract: true
-  name: pin
-  description: Be nothing do crime.
+  name: badge
+  description: Ne soyez rien, commettez des crimes.
   components:
   - type: Item
     size: Tiny
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckLGBTPin
-  name: LGBT pin
-  description: Be gay do crime.
+  name: badge LGBT
+  description: Soyez gay, commettez des crimes.
   components:
   - type: Sprite
     state: lgbt
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAllyPin
-  name: straight ally pin
-  description: Be ally do crime.
+  name: badge allié hétéro
+  description: Soyez un allié, commettez des crimes.
   components:
   - type: Sprite
     state: ally
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAromanticPin
-  name: aromantic pin
-  description: Be aro do crime.
+  name: badge aromantique
+  description: Soyez aro, commettez des crimes.
   components:
   - type: Sprite
     state: aro
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAroacePin
-  name: aroace pin
-  description: Be aroace do crime.
+  name: badge aroace
+  description: Soyez aroace, commettez des crimes.
   components:
   - type: Sprite
     state: aroace
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckAsexualPin
-  name: asexual pin
-  description: Be ace do crime.
+  name: badge asexuel
+  description: Soyez asexuel, commettez des crimes.
   components:
   - type: Sprite
     state: asex
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckBisexualPin
-  name: bisexual pin
-  description: Be bi do crime.
+  name: badge bi
+  description: Soyez bi, commettez des crimes.
   components:
   - type: Sprite
     state: bi
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGayPin
-  name: gay pin
-  description: Be gay~ do crime.
+  name: badge gay
+  description: Soyez gay~, commettez des crimes.
   components:
   - type: Sprite
     state: gay
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckIntersexPin
-  name: intersex pin
-  description: Be intersex do crime.
+  name: badge intersexe
+  description: Soyez intersexe, commettez des crimes.
   components:
   - type: Sprite
     state: inter
@@ -141,8 +141,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckLesbianPin
-  name: lesbian pin
-  description: Be lesbian do crime.
+  name: badge lesbienne
+  description: Soyez lesbienne, commettez des crimes.
   components:
   - type: Sprite
     state: les
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckNonBinaryPin
-  name: non-binary pin
-  description: "01100010 01100101 00100000 01100101 01101110 01100010 01111001 00100000 01100100 01101111 00100000 01100011 01110010 01101001 01101101 01100101"
+  name: badge non-binaire
+  description: "01010011 01101111 01111001 01100101 01111010 00100000 01100101 01101110 01100010 01111001 00101100 00100000 01100011 01101111 01101101 01101101 01100101 01110100 01110100 01100101 01111010 00100000 01100100 01100101 01110011 00100000 01100011 01110010 01101001 01101101 01100101 01110011 00101110"
   components:
   - type: Sprite
     state: non
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckPansexualPin
-  name: pansexual pin
-  description: Be pan do crime.
+  name: badge pansexuel
+  description: Soyez pan, commettez des crimes.
   components:
   - type: Sprite
     state: pan
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckPluralPin
-  name: plural pin
-  description: Be plural, do crimes.
+  name: badge pluriel
+  description: Soyez pluriel, commettez des crimes.
   components:
   - type: Sprite
     state: plural
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckOmnisexualPin
-  name: omnisexual pin
-  description: Be omni do crime.
+  name: badge omnisexuel
+  description: Soyez omni, commettez des crimes.
   components:
   - type: Sprite
     state: omni
@@ -206,8 +206,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGenderqueerPin
-  name: genderqueer pin
-  description: be crime, do gender
+  name: badge genderqueer
+  description: Soyez crime, commettez des genres.
   components:
   - type: Sprite
     state: gender
@@ -219,8 +219,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckGenderfluidPin
-  name: genderfluid pin
-  description: be gender, be fluid
+  name: badge genderfluid
+  description: Soyez genre, soyez fluide.
   components:
   - type: Sprite
     state: fluid
@@ -232,8 +232,8 @@
 - type: entity
   parent: ClothingGenderPinBase
   id: ClothingNeckTransPin
-  name: transgender pin
-  description: Be trans do crime.
+  name: badge transgenre
+  description: Soyez trans, commettez des crimes.
   components:
   - type: Sprite
     state: trans
@@ -245,8 +245,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAutismPin
-  name: neurodivergent pin
-  description: Be neurodivergent, do crime.
+  name: badge neurodivergent
+  description: Soyez neurodivergent, commettez des crimes.
   components:
   - type: Sprite
     state: autism
@@ -256,8 +256,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckGoldAutismPin
-  name: autism pin
-  description: Be autistic, do crime.
+  name: badge autisme
+  description: Soyez autiste, commettez des crimes.
   components:
   - type: Sprite
     state: goldautism
@@ -267,8 +267,8 @@
 - type: entity
   parent: BaseItem
   id: SprayFlowerPin
-  name: flower pin
-  description: A cute flower pin. Something seems off with it...
+  name: pin fleur
+  description: Un joli pin en forme de fleur. Quelque chose semble étrange avec celui-ci...
   components:
   - type: Item
     size: Tiny

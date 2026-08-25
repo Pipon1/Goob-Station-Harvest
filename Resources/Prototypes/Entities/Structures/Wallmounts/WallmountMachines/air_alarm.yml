@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: alarme atmosphérique
+  description: Une alarme atmosphérique. Elle alarme sur... l'air ?
   components:
   - type: StationAiWhitelist
   - type: Electrified
@@ -115,8 +115,8 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: assemblage d'alarme atmosphérique
+  description: Une alarme atmosphérique. Elle ne semble pas prête d'alarmer l'air de sitôt.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors.rsi
@@ -158,8 +158,8 @@
 - type: entity
   id: AirAlarmXeno
   parent: AirAlarm
-  name: air alarm
-  description: An alien air alarm. Hopefully they didn't breathe poison.
+  name: alarme atmosphérique
+  description: Une alarme atmosphérique extraterrestre. Espérons qu'ils n'ont pas respiré de poison.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -175,8 +175,8 @@
 - type: entity
   id: AirAlarmAssemblyXeno
   parent: AirAlarmAssembly
-  name: air alarm assembly
-  description: An alien air alarm. Why are the wires pulsating?...
+  name: assemblage d'alarme atmosphérique
+  description: Une alarme atmosphérique extraterrestre. Pourquoi les fils pulsent-ils ?...
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

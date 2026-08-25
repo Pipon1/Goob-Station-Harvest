@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: ClothingUniformJumpsuitSalvageSpecialist
   id: ClothingUniformJumpsuitMilitarySalvageSpecialist
-  name: salvage specialist's jumpsuit
+  name: uniforme du spécialiste de la récupération
   suffix: Military
   components:
   - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMilitaryColorBlackAlt
-  name: black jumpsuit
-  description: A generic black jumpsuit with no rank markings.
+  name: uniforme noire
+  description: Un uniforme noir générique sans marques de grade.
   suffix: Military, Alt
   components:
   - type: Sprite
@@ -86,8 +86,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitMilitarySecurity
-  name: security jumpsuit
-  description: A jumpsuit made of strong material, providing robust protection.
+  name: uniforme d'agent de sécurité
+  description: Un uniforme fait de matériau résistant, offrant une protection robuste.
   suffix: Military
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitMilitarySecuritySeniorOfficer
-  name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  name: uniforme d'officier senior
+  description: Un signe de compétence et de prestige au sein du département de sécurité.
   suffix: Military
   components:
   - type: Sprite
@@ -196,8 +196,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMilitaryMailCarrier
-  name: mail carrier's jumpsuit
-  description: Enemy of K9s everywhere.
+  name: uniforme de facteur
+  description: Ennemi des unités K9 partout.
   suffix: Military
   components:
   - type: Sprite
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingUniformJumpsuitScientist
   id: ClothingUniformJumpsuitMilitarySeniorResearcher
-  name: senior researcher jumpsuit
-  description: A sign of skill and prestige within the science department.
+  name: uniforme de chercheur senior
+  description: Un signe de compétence et de prestige au sein du département scientifique.
   suffix: Military
   components:
   - type: Sprite

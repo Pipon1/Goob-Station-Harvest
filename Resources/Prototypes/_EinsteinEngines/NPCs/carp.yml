@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: space goldfish
+  name: poisson rouge spatial
   parent: BaseMobCarp
   id: MobCarpGoldfish
-  description: A domesticated variety of space carp, much smaller but no less aggressive.
+  description: Une variété domestiquée de carpe spatiale, beaucoup plus petite mais tout aussi agressive.
   components:
     - type: HTN
       rootTask:

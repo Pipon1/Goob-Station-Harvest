@@ -3,22 +3,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Medical
-This is the department where people go to when they're hurt, it's up to the folks working here to fix them.
+# Médical
+C'est le département où les gens vont quand ils sont blessés, c'est à l'équipe d'ici de les réparer.
 
 ## Personnel
-[color=#5b97bc]Medical[/color]'s staff is made up of Medical Interns, Medical Doctors, Paramedics and Chemists. [color=#5b97bc]Medical[/color] is run by the Chief Medical Officer.
+Le staff de [color=#5b97bc]Médical[/color] est composé d'Internes, Docteurs, Paramédics et Chimistes. [color=#5b97bc]Médical[/color] est dirigé par le Directeur Médical (CMO).
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Doctor"/>
-    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramedic"/>
-    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chemist"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Docteur"/>
+    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramédic"/>
+    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chimiste"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="DMC"/>
   </Box>
-  
-Right now, medbay is divided into two different sets of care:
 
-## Medical Treatment
+Maintenant, medbay est divisé en deux types de soins :
+
+## Traitement Médical
   <Box>
     <GuideEntityEmbed Entity="Brutepack"/>
     <GuideEntityEmbed Entity="Bloodpack"/>
@@ -26,7 +26,7 @@ Right now, medbay is divided into two different sets of care:
     <GuideEntityEmbed Entity="Gauze"/>
     <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
   </Box>
-## Chemical Production
+## Production Chimique
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
     <GuideEntityEmbed Entity="LargeBeaker"/>

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ObraDinnClock
-  name: clock of the insurance evaluator
-  description: an old heirloom that seems to be ticking backwards
+  name: montre de l'évaluateur d'assurances
+  description: un vieil héritage qui semble tic-tacquer à l'envers
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Security/Obradinnclock.rsi

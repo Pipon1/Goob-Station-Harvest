@@ -4,8 +4,8 @@
 - type: entity
   parent: ReagentContainerBase
   id: FoodBowlBig
-  name: bowl
-  description: A simple bowl, used for soups and salads.
+  name: bol
+  description: Un bol simple, utilisé pour les soupes et les salades.
   components:
   - type: Item
     shape:
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseItem
   id: FoodBowlBigTrash
-  name: broken bowl
-  description: A simple bowl, broken and useless.
+  name: bol cassé
+  description: Un bol simple, cassé et inutile.
   components:
   - type: Item
     shape:
@@ -99,10 +99,10 @@
     price: 0
 
 - type: entity
-  name: bowl
+  name: bol
   parent: FoodBowlBig
   id: FoodBowlFancy
-  description: A fancy bowl, used for SPECIAL soups and salads.
+  description: Un bol élégant, utilisé pour les SOUPES et salades SPÉCIALES.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/bowl.rsi

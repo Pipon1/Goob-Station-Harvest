@@ -4,7 +4,7 @@
   id: Cigarette
   parent: BaseCigar
   name: cigarette
-  description: A roll of tobacco and nicotine.
+  description: Un rouleau de tabac et de nicotine.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -31,7 +31,7 @@
   parent: BaseCigar
   name: cigarette
   suffix: Soaked
-  description: A roll of tobacco and nicotine soaked in some chemical.
+  description: Un rouleau de tabac et de nicotine imbibé d'un produit chimique.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -100,7 +100,7 @@
 - type: entity
   id: CigaretteOmnizine
   parent: SoakedCigarette
-  name: Hot Dog Water Flavor Explosion
+  name: Explosion de Saveur Eau de Hot-dog
   components:
   - type: SolutionContainerManager
     solutions:
@@ -115,7 +115,7 @@
 - type: entity
   id: CigaretteIron
   parent: SoakedCigarette
-  name: Rusty Orange Baja Blast
+  name: Baja Blast Orange Rouillée
   components:
   - type: SolutionContainerManager
     solutions:
@@ -130,7 +130,7 @@
 - type: entity
   id: CigaretteTricordrazine
   parent: SoakedCigarette
-  name: Licorice Allsorts
+  name: Mélange de réglisses
   components:
   - type: SolutionContainerManager
     solutions:
@@ -145,7 +145,7 @@
 - type: entity
   id: CigaretteDylovene
   parent: SoakedCigarette
-  name: Urinal Cake Dissolver
+  name: Dissolvant de Gâteau Urinoir
   components:
   - type: SolutionContainerManager
     solutions:
@@ -160,7 +160,7 @@
 - type: entity
   id: CigaretteDermaline
   parent: SoakedCigarette
-  name: Aloe Peanut Butter Medley
+  name: Mélange Aloe Vera Beurre de Cacahouète
   components:
   - type: SolutionContainerManager
     solutions:
@@ -190,7 +190,7 @@
 - type: entity
   id: CigaretteNutriment
   parent: SoakedCigarette
-  name: Grandma's Christmas Fruitcake
+  name: Gâteau de Noël aux Fruits de Mamie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -205,7 +205,7 @@
 - type: entity
   id: CigaretteBicaridine
   parent: SoakedCigarette
-  name: Wet Dog Enhanced Cigarette
+  name: Cigarette Améliorée du Chien Mouillé
   components:
   - type: SolutionContainerManager
     solutions:
@@ -220,7 +220,7 @@
 - type: entity
   id: CigaretteDexalin
   parent: SoakedCigarette
-  name: Rocky Mountain Musk
+  name: Musc des Rocheuses
   components:
   - type: SolutionContainerManager
     solutions:
@@ -235,7 +235,7 @@
 - type: entity
   id: CigaretteSaline
   parent: SoakedCigarette
-  name: North Atlantic Cruise
+  name: Croisière sur l'Atlantique Nord
   components:
   - type: SolutionContainerManager
     solutions:
@@ -250,7 +250,7 @@
 - type: entity
   id: CigaretteBbqSauce
   parent: SoakedCigarette
-  name: Spicy Wood Aroma
+  name: Arôme de Bois Épicé
   components:
   - type: SolutionContainerManager
     solutions:
@@ -265,7 +265,7 @@
 - type: entity
   id: CigaretteFrezon
   parent: SoakedCigarette
-  name: Atmospheric Adventure
+  name: Aventure Atmosphérique
   components:
   - type: SolutionContainerManager
     solutions:
@@ -310,7 +310,7 @@
 - type: entity
   id: CigaretteHaloperidol
   parent: SoakedCigarette
-  name: Warm Bovine Extract
+  name: Extrait de Bovin Chaud
   components:
   - type: SolutionContainerManager
     solutions:
@@ -355,7 +355,7 @@
 - type: entity
   id: CigaretteSodiumPolyacrylate
   parent: SoakedCigarette
-  name: Unhealthy Habits
+  name: Mauvaises Habitudes
   components:
   - type: SolutionContainerManager
     solutions:
@@ -370,7 +370,7 @@
 - type: entity
   id: CigaretteMold
   parent: SoakedCigarette
-  name: Beneath The Sink Experience
+  name: Sous l'Évier Éxperience
   components:
   - type: SolutionContainerManager
     solutions:
@@ -400,7 +400,7 @@
 - type: entity
   id: CigaretteWeldingFuel
   parent: SoakedCigarette
-  name: Plasma Sauce
+  name: Sauce Plasma
   components:
   - type: SolutionContainerManager
     solutions:
@@ -415,7 +415,7 @@
 - type: entity
   id: CigaretteRobustHarvest
   parent: SoakedCigarette
-  name: Hippie Romance Novel
+  name: Nouvelle de Romance hippie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -445,7 +445,7 @@
 - type: entity
   id: CigaretteBanana
   parent: SoakedCigarette
-  name: Pun Pun's Tropical Getaway
+  name: Vacances aux tropiques de Pun Pun
   components:
   - type: SolutionContainerManager
     solutions:
@@ -460,7 +460,7 @@
 - type: entity
   id: CigaretteBlackPepper
   parent: SoakedCigarette
-  name: English Spice
+  name: Épice Anglaise
   components:
   - type: SolutionContainerManager
     solutions:

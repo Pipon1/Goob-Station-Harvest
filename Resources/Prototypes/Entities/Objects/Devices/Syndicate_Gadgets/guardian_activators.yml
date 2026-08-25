@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: holoparasite injector
+  name: injecteur holoparasite
   id: HoloparasiteInjector
   parent: [BaseItem, BaseSyndicateContraband]
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  description: Une œuvre d'art complexe de machinerie portable permettant à l'utilisateur d'accueillir un gardien holoparasite.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -13,19 +13,19 @@
     guardianProto: MobHoloparasiteGuardian
 
 - type: entity
-  name: holoclown injector
+  name: injecteur holoclown
   parent: HoloparasiteInjector
   id: HoloClownInjector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  description: Une œuvre d'art complexe de machinerie portable permettant à l'utilisateur d'accueillir un gardien holoclown.
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: lampe magique
   id: MagicalLamp
   parent: [ArabianLamp, BaseMagicalContraband] # Goob edit
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: La fédération des sorciers a dû couper dans le budget après le scandale de la marchandise des djinns.
   components:
   - type: GuardianCreator
     guardianProto: MobIfritGuardian
@@ -33,10 +33,10 @@
     access: [ [ "Wizard" ] ]
 
 - type: entity
-  name: holoparasite box
+  name: boîte à holoparasite
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloparasite
-  description: A box containing a holoparasite injector.
+  description: Une boîte contenant un injecteur holoparasite.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -51,10 +51,10 @@
       - state: holo
 
 - type: entity
-  name: holoclown box
+  name: boîte à holoclown
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloclown
-  description: A box containing a holoclown injector.
+  description: Une boîte contenant un injecteur holoclown.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -3,57 +3,57 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Command
-The heads of each department come together to form the [color=#1b67a5]Command[/color] department, a force to be reckoned with and the handlers of the station. They usually have access to special equipment and their own rooms. They are often wanted dead.
+# Commandement
+Les chefs de chaque département forment ensemble le département [color=#1b67a5]Commandement[/color], une force à ne pas sous-estimer qui gère la station. Ils ont généralement accès à de l'équipement spécial et leurs propres bureaux. Ils sont souvent recherchés morts.
 
 ## Personnel
-[color=#1b67a5]Command[/color] is made up of the heads of each department, being the [color=#9fed58]Head of Personnel[/color], the [color=#cb0000]Head of Security[/color], the [color=#5b97bc]Chief Medical Officer[/color], the [color=#f39f27]Chief Engineer[/color], the [color=#c96dbf]Research Director[/color], the [color=#b18644]Quartermaster[/color] and above all else, the [color=#1b67a5]Captain[/color].
+Le [color=#1b67a5]Commandement[/color] est composé des chefs de département : le [color=#9fed58]Chef du Personnel[/color], le [color=#cb0000]Chef de la Sécurité[/color], le [color=#5b97bc]Directeur Médical[/color], l'[color=#f39f27]Ingénieur en Chef[/color], le [color=#c96dbf]Directeur de la Recherche[/color], le [color=#b18644]Quartier-Maître[/color] et avant tout, le [color=#1b67a5]Capitaine[/color].
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Captain"/>
+    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Capitaine"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
-    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="HoS"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="CdP"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="CdS"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="DMC"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
-    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="IC"/>
+    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="DR"/>
     <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
   </Box>
 
-## Taking Charge
-Congratulations on your promotion! Besides all the extra paperwork, your new [color=#a4885c]responsibilities[/color] include running your department, making changes and choosing priorities, keeping personnel and equipment safe as well as slacking off while your cronies do all the work.
+## Prendre le Commandement
+Félicitations pour votre promo ! En plus de toute la paperasse en plus, vos nouvelles [color=#a4885c]responsabilités[/color] incluent : gérer votre département, faire des changements et choisir les priorités, garder le personnel et l'équipement en sécurité, et glander pendant que vos potes font tout le boulot.
 
-Don't forget, you still have a job! Your fancy tools don't earn you a day off, you still have to fill in for any staffing shortages, helping out struggling workers and teaching the newbies.
+N'oubliez pas, vous avez encore un job ! Vos beaux outils ne vous donnent pas jour de congé, vous devez encore combler les manques de personnel, aider les travailleurs en galère et former les nouveaux.
 
-You might get away with just sitting around and letting people resent you, but it's wiser to get active and work alongside them.
-Remember to move your workers around to have them do what they like doing or what they do best.
+Vous pourriez vous en tirer en restant assis à laisser les gens vous détester, mais c'est plus malin d'être actif et de bosser avec eux.
+Souvenez-vous de déplacer vos ouvriers pour qu'ils fassent ce qu'ils aiment ou ce qu'ils font le mieux.
 
-## Your Locker
+## Votre Casiers
 
-To deal with your new soul-crushing tasks, every head is given special items to lead your subordinates. Most of your new shiny tools can be found in your [color=#a4885c]locker[/color].
+Pour gérer vos nouvelles tâches qui écrasent l'âme, chaque chef reçoit des items spéciaux pour mener ses subordonnés. La plupart de vos nouveaux jouets brillants sont dans votre [color=#a4885c]casier[/color].
   <Box>
     <GuideEntityEmbed Entity="LockerCaptain"/>
   </Box>
 
-Your [color=#a4885c]remote[/color] is very simple but profoundly underestimated. A small but mighty force, your remote can open and close [color=#a4885c]airlocks[/color], spin the [color=#a4885c]bolts[/color] to lock them, or toggle [color=#a4885c]emergency access[/color]. It can do this from a distance.
+Votre [color=#a4885c]télécommande[/color] est simple mais profondément sous-estimée. Une force petite mais puissante, elle peut ouvrir/fermer les [color=#a4885c]sas[/color], verrouiller les [color=#a4885c]boulons[/color], ou basculer l'[color=#a4885c]accès d'urgence[/color]. Tout ça à distance.
   <Box>
     <GuideEntityEmbed Entity="DoorRemoteCommand"/>
   </Box>
-The remote influences where people move around. Heads can lock personnel out of dangerous areas or let people in to grab something really quickly.
+La télécommande influence où les gens se déplacent. Les chefs peuvent bloquer le personnel hors des zones dangereuses ou laisser entrer les gens pour récupérer un truc vite fait.
 
-You also have access to your very own [color=#1b67a5]Command[/color] channel, like every other department. However, yours is particularly special as the people who can hear you have [color=#a4885c]entire departments[/color] at their fingertips.
-Use this to communicate with other heads and be a representative of what your workers want or need.
+Vous avez aussi accès à votre propre canal [color=#1b67a5]Commandement[/color], comme tout département. Mais le vôtre est spécial car ceux qui vous entendent ont [color=#a4885c]des départements entiers[/color] à portée de main.
+Utilisez-le pour communiquer avec les autres chefs et représenter ce que vos ouvriers veulent ou ont besoin.
 
-The [color=#1b67a5]Captain[/color] and the [color=#9fed58]Head of Personnel[/color] get access to the lucrative [color=#a4885c]master encryption key[/color], letting them tune into every radio channel on the station. This is extremely valuable, as you can coordinate between departments yourself.
-[color=#a4885c]Don't waste this vital advantage![/color]
+Le [color=#1b67a5]Capitaine[/color] et le [color=#9fed58]Chef du Personnel[/color] ont accès à la lucrative [color=#a4885c]clé de chiffrement maître[/color], leur permettant d'écouter tous les canaux radio de la station. C'est extrêmement précieux, vous pouvez coordonner entre départements vous-même.
+[color=#a4885c]Gâchez pas cet avantage vital ![/color]
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
     <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
   </Box>
 
-To make the swamp of paperwork (that will definitely overwhelm you) even harder to deal with, you have generously been given a [color=#a4885c]stamp[/color] in your locker. Use this to sign paperwork. After you stamp it, it can't be edited. Look it over first.
+Pour rendre le marécage de paperasse (qui vous submergera sûrement) encore plus dur à gérer, on vous a généreusement donné un [color=#a4885c]tampon[/color] dans votre casier. Utilisez-le pour signer la paperasse. Une fois tamponné, c'est plus modifiable. Relisez avant.
   <Box>
     <GuideEntityEmbed Entity="RubberStampCaptain"/>
   </Box>

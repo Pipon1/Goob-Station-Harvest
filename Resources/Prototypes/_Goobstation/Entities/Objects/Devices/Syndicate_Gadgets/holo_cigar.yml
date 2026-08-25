@@ -3,8 +3,8 @@
 - type: entity
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: HoloCigar
-  name: holo-cigar
-  description: A sleek electronic cigar imported straight from Sol. You feel badass merely glimpsing it...
+  name: holo-cigare
+  description: Un élégant cigare électronique importé directement de Sol. Vous vous sentez cool rien qu'en l'apercevant...
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/holocigar.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: HoloCigar
   id: HoloCigarWestern
-  name: western holo-cigar
-  description: A sleek electronic cigar imported straight from Sol. You feel badass merely glimpsing it...
+  name: holo-cigare western
+  description: Un élégant cigare électronique importé directement de Sol. Vous vous sentez cool rien qu'en l'apercevant...
   components:
   - type: HoloCigar
     music:

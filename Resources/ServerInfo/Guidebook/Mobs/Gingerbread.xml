@@ -3,16 +3,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gingerbread
+  # Pain d'épice
 
   <Box>
     <GuideEntityEmbed Entity="MobGingerbread" Caption=""/>
   </Box>
 
-  Gingerbreads are a species of sentient confectionary. They have sugar for blood, and can be butchered for cookies. Being made of dough, they weigh half as much as species made of flesh.
+  Les Pains d'épice sont une espèce de confiserie sensiente. Ils ont du sucre pour sang, et peuvent être boucher pour faire des biscuits. Étant faits de pâte, ils pèsent la moitié des espèces faites de chair.
 
-  ## Damage stats
+  ## Stats de dégâts
 
-  Gingerbreads take 3x less fire damage than Humans, do not take Asphyxiation (though they still breathe and are uncomfortable without oxygen), Bloodloss (though again, are uncomfortable without sugar) and Cold damage (though are slowed down by cold), but take 1.5x more Blunt damage and take a lot of Heat damage from being exposed to water externally.
+  Les Pains d'épice subissent 3x moins de dégâts de feu que les Humains, ne subissent pas d'Asphyxie (bien qu'ils respirent encore et sont mal à l'aise sans oxygène), pas de Perte de sang (bien qu'encore une fois, sont mal à l'aise sans sucre) et pas de dégâts de Froid (bien que ralentis par le froid), mais subissent 1,5x plus de dégâts Contondants et subissent beaucoup de dégâts de Chaleur en étant exposés à l'eau extérieurement.
 
 </Document>

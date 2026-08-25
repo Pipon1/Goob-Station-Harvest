@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentcom
-  name: central commander's cloak
-  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
+  name: cape du commandant central
+  description: Une cape verte pompeuse et d'élite avec une belle bordure dorée, taillée spécialement pour le Commandant central. Elle est si lourde que la bordure dorée pourrait être véritable.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/centcomcloakformal.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCap
-  name: captain's cloak
-  description: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
+  name: cape de capitaine
+  description: Une cape bleue pompeuse et confortable avec une belle bordure dorée. Bien qu'elle ne soit pas particulièrement précieuse comparée à vos autres possessions, elle est assurément élégante.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/cap.rsi # Goob Station - cloak resprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHos
-  name: head of security's cloak
-  description: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
+  name: cape du chef de la sécurité
+  description: Une exquise cape sombre et rouge qui convient à ceux capables d'affirmer leur domination sur les malfaiteurs. Essayez donc d'être civil dans vos poursuites !
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/hos.rsi # Goob Station - cloak resprite
@@ -36,8 +36,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakWhiteCe # Goobstation This is so fucking stupid i blame the guys who approved this for not catching a rename of an internal ID, like why.
-  name: chief engineer's white cloak
-  description: A white cloak with orange adornments, given to those who proved themselves to master the precise art of engineering.
+  name: cape blanche de l'ingénieur en chef
+  description: Une cape blanche ornée de décorations orange, offerte à ceux qui ont prouvé leur maîtrise de l'art précis de l'ingénierie.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/ChiefEngineer/whitece.rsi # Goob Station - cloak resprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakGreenCe
-  name: chief engineer's green cloak
-  description: A green cloak with yellow and blue adornments, given to those who proved themselves to master the precise art of engineering.
+  name: cape verte de l'ingénieur en chef
+  description: Une cape verte ornée de décorations jaunes et bleues, offerte à ceux qui ont prouvé leur maîtrise de l'art précis de l'ingénierie.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/ChiefEngineer/greence.rsi # Goob Station - cloak resprite
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingCloakCmo
-  name: chief medical officer's cloak
-  description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
+  name: cape du médecin-chef
+  description: Une cape bleue stérile avec une croix verte, dégageant un sentiment de devoir et une volonté d'aider les autres.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/cmo.rsi # Goob Station - cloak resprite
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakRd
-  name: research director's cloak
-  description: A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
+  name: cape du directeur de la recherche
+  description: Une cape blanche avec des rayures violettes, montrant votre statut d'arbitre des technologies de pointe.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/rd.rsi # Goob Station - cloak resprite
@@ -80,8 +80,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakQm
-  name: quartermaster's cloak
-  description: A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
+  name: cape du quartier-maître
+  description: Une solide cape marron avec une bande réfléchissante. Bien qu'elle ne soit pas aussi élégante que les autres, elle montre vos compétences en gestion.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/qm.rsi # Goob Station - cloak resprite
@@ -91,8 +91,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHop
-  name: head of personnel's cloak
-  description: A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
+  name: cape du chef du personnel
+  description: Une cape bleue avec des épaules rouges et des boutons dorés, prouvant que vous êtes le gardien de tout sas de la station.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Neck/Cloaks/hop.rsi # Goob Station - cloak resprite
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakHerald
-  name: herald's cloak
-  description: An evil-looking red cloak with spikes on its shoulders.
+  name: cape du héraut
+  description: Une cape rouge à l'apparence maléfique avec des pointes sur les épaules.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/herald.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakNanotrasen
-  name: nanotrasen cloak
-  description: A stately blue cloak to represent NanoTrasen.
+  name: cape de NanoTrasen
+  description: Une cape bleue majestueuse représentant NanoTrasen.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCapFormal
-  name: captain's formal cloak
-  description: A lavish and decorated cloak for special occasions.
+  name: cape de cérémonie du capitaine
+  description: Une cape luxueuse et décorée pour les occasions spéciales.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/capcloakformal.rsi
@@ -131,7 +131,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
-  name: weh cloak
+  name: cape weh
   description: Weh!
   components:
   - type: Sprite
@@ -142,8 +142,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakSalvagerSupreme
-  name: supereme salvager's cloak
-  description: Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?
+  name: cape du récupérateur suprême
+  description: Portée par les récupérateurs les plus talentueux, pour celui qui a maîtrisé l'espace et fait de l'astéroïde minier son domaine. On ne distribue pas ce genre de choses à n'importe qui, vous savez ?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/miner.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakTrans
-  name: vampire cloak
-  description: Worn by high ranking vampires of the transylvanian society of vampires.
+  name: cape de vampire
+  description: Portée par les vampires de haut rang de la société transylvanienne des vampires.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/trans.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGoliathCloak
-  name: goliath cloak
-  description: A cloak made from the hide of resilient fauna from a distant planet. #Goobstation
+  name: cape de goliath
+  description: Une cape fabriquée à partir de la peau d'une faune résistante provenant d'une planète lointaine. #Goobstation
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPirateCap
-  name: pirate captain cloak
-  description: A rather fetching black pirate cloak, complete with skull motif.
+  name: cape de capitaine pirate
+  description: Une cape de pirate noire plutôt élégante, ornée d'un motif de crâne.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/piratecap.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakMoth
-  name: moth cloak
-  description: A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy edges. The raincoat is fastened around the neck with straps, and has a hood in the shape of a moths head.
+  name: cape de mite
+  description: Une cape en forme d'ailes de mite est un élément de garde-robe inhabituel et original qui peut attirer l'attention des autres. Elle est faite d'un tissu fin imitant les ailes d'une mite, avec des bords doux et duveteux. La cape s'attache autour du cou avec des sangles et possède une capuche en forme de tête de mite.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/moth.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakVoid
-  name: void cloak
-  description: A cloak of darkness. For those who have gone to the dark side of the force.
+  name: cape du vide
+  description: Une cape d'obscurité. Pour ceux qui ont rejoint le côté obscur de la Force.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/void.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAce
-  name: pilot's cloak
-  description: Cloak awarded to Nanotrasen's finest space aces.
+  name: cape de pilote
+  description: Cape décernée aux meilleurs as de l'espace de Nanotrasen.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ace.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAro
-  name: werewolf cloak
-  description: This cloak lets others know you're a lone wolf.
+  name: cape de loup-garou
+  description: Cette cape permet aux autres de savoir que vous êtes un loup solitaire.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/aro.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAroace
-  name: aeropilot's cloak # thank you happyman442 this was the best name idea ever
+  name: cape d'aéropilote # thank you happyman442 this was the best name idea ever
   description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
   components:
   - type: Sprite
@@ -266,8 +266,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBi
-  name: poison cloak
-  description: The purple color is a clear indicator you are poisonous.
+  name: cape empoisonnée
+  description: La couleur violette indique clairement que vous êtes toxique.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/bi.rsi
@@ -275,8 +275,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakIntersex
-  name: cyclops cloak
-  description: The circle on this cloak represents a cyclops' eye.
+  name: cape de cyclope
+  description: Le cercle sur cette cape représente l'œil d'un cyclope.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/intersex.rsi
@@ -284,8 +284,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakLesbian
-  name: poet cloak
-  description: This cloak belonged to an ancient poet, you forgot which one.
+  name: cape de poète
+  description: Cette cape appartenait à un ancien poète, vous avez oublié lequel.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/les.rsi
@@ -293,8 +293,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGay
-  name: multi-level marketing cloak
-  description: This cloak is highly sought after in the Nanotrasen Marketing Offices.
+  name: cape de marketing multiniveau
+  description: Cette cape est très recherchée dans les bureaux de marketing de Nanotrasen.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/gay.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakEnby
-  name: treasure hunter cloak
-  description: This cloak belonged to a greedy treasure hunter.
+  name: cape de chasseur de trésors
+  description: Cette cape appartenait à un chasseur de trésors avide.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/enby.rsi
@@ -311,8 +311,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPan
-  name: chef's cloak
-  description: Meant to be worn alongside a frying pan.
+  name: cape de chef cuisinier
+  description: Destinée à être portée avec une poêle à frire.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/pan.rsi

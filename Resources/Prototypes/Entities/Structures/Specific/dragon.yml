@@ -2,8 +2,8 @@
 
 - type: entity
   id: CarpRift
-  name: carp rift
-  description: A rift akin to the ones space carp use to travel long distances.
+  name: faille de carpe
+  description: Une faille semblable à celles que les carpes spatiales utilisent pour voyager sur de longues distances.
   placement:
     mode: SnapgridCenter
   components:
@@ -30,7 +30,7 @@
     netsync: false
   - type: NavMapBeacon
     color: "#ff0000"
-    text: carp rift
+    text: faille de carpe
     # only show after making the announcement at 50%
     enabled: false
   - type: Damageable

@@ -3,24 +3,24 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gas Mining and Storage
-  Gasses are often permanently used. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station needs to be able to produce more gas to replace what is lost.
-  It also needs to store this gas in a safe and efficient manner.
+  # Minage et Stockage Gaz
+  Les gaz sont souvent consommés définitivement. Qu'ils soient perdus dans l'[textlink="espace" link="Spacing"] ou utilisés en chambre de combustion, la station doit pouvoir produire plus de gaz pour remplacer ce qui est perdu.
+  Il faut aussi stocker ce gaz de façon sûre et efficace.
 
-  ## Gas Miners
-  Gas miners are used to replenish the station's gas supply. They are found in the gas storage tanks in Atmospherics.
+  ## Mineurs de Gaz
+  Les mineurs de gaz servent à reconstituer la réserve de gaz de la station. Ils sont dans les réservoirs de stockage gaz en Atmosphériques.
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
     <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
   </Box>
 
-  Gas miners constantly produce room temperature gas and push it into the exposed atmosphere. They require no power to function, and never stop working unless they have reached the defined [bold]cutoff pressure[/bold].
+  Les mineurs de gaz produisent constamment du gaz à température ambiante et le poussent dans l'atmosphère exposée. Ils ne nécessitent pas de courant pour fonctionner, et ne s'arrêtent jamais sauf s'ils ont atteint la [bold]pression de coupure[/bold] définie.
 
-  You can see more information about the gas miners by inspecting them using [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Try inspecting the gas miners presented above.
+  Vous pouvez voir plus d'infos sur les mineurs de gaz en les inspectant avec [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  Essayez d'inspecter les mineurs de gaz ci-dessus.
 
-  Gas miners come in tiers, with the larger versions having a higher pressure cutoff than the smaller versions.
+  Les mineurs de gaz existent en paliers, les versions plus grandes ayant une pression de coupure plus haute que les plus petites.
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
@@ -28,10 +28,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
   </Box>
 
-  If gas miners are ever unanchored from the station, they can be reanchored using a regular wrench.
+  Si les mineurs de gaz sont jamais désancrés de la station, ils peuvent être réancrés avec une clé normale.
 
-  ## Gas Storage
-  Gas storage tanks are used to store gas produced by the gas miners, and to make it available to other processes. They are found in Atmospherics.
+  ## Stockage Gaz
+  Les réservoirs de stockage gaz stockent le gaz produit par les mineurs de gaz, et le rendent dispo pour d'autres processus. Ils sont en Atmosphériques.
 
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -56,15 +56,15 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   </Box>
 
   <Box>
-    [color=#999999][italic]An example of a small gas holding tank[italic][/color]
+    [color=#999999][italic]Exemple d'un petit réservoir de stockage gaz[italic][/color]
   </Box>
 
-  Various atmos processes insert and remove gasses from the gas storage tanks.
-  For example:
-  - The gas miner provides fresh gasses to the gas storage tanks, if there is room.
-  - The recyclernet injects reclaimed gasses into the gas storage tanks for reuse.
-  - Setups like the distronet and burn chamber remove gasses from the gas storage tanks.
+  Divers processus atmos insèrent et retirent des gaz des réservoirs de stockage gaz.
+  Par exemple :
+  - Le mineur de gaz fournit des gaz frais aux réservoirs, s'il y a de la place.
+  - Le réseau recyclage injecte des gaz récupérés dans les réservoirs pour réutilisation.
+  - Des setups comme le réseau distro et chambre de combustion retirent des gaz des réservoirs.
 
-  Gas storage tanks are designed to be able to be measured using a [textlink="Gas Analyzer" link="AtmosTools"].
-  Because the outflow vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] to measure the gas content of the [textlink="pump's" link="Pumps"] input, which is drawing from the gas storage tank.
+  Les réservoirs de stockage gaz sont conçus pour être mesurables avec un [textlink="Analyseur Gaz" link="AtmosTools"].
+  Comme l'évent de sortie est un [textlink="évent passif" link="PassiveVent"], vous pouvez utiliser un [textlink="analyseur gaz" link="AtmosTools"] pour mesurer le contenu gaz de l'entrée de la [textlink="pompe" link="Pumps"], qui tire du réservoir de stockage gaz.
 </Document>

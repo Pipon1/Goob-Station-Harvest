@@ -1,0 +1,3 @@
+xenoborgs-no-more-threat-mothership-core-alive-announcement = Les capteurs longue portée indiquent que tous les xénoborgs ont été détruits. Le cœur du vaisseau-mère dérive toujours dans l'espace.
+xenoborgs-no-more-threat-mothership-core-dead-announcement = Les capteurs longue portée indiquent que tous les xénoborgs ont été détruits ainsi que le cœur du vaisseau-mère.
+mothership-destroyed-announcement = Les capteurs longue portée indiquent que le cœur du vaisseau-mère a été détruit.

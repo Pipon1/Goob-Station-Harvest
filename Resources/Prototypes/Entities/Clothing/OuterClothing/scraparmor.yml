@@ -2,10 +2,10 @@
 # Listed from first step of crafting to the final armor
 
 - type: entity
-  name: wired apron
+  name: tablier câblé
   parent: BaseItem
   id: WiredApronBase
-  description: An apron threaded with cabling. It looks incomplete.
+  description: Un tablier parcouru de câbles. Il semble incomplet.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
@@ -18,10 +18,10 @@
     node: wiredapron
 
 - type: entity
-  name: steel-covered apron
+  name: tablier recouvert d'acier
   parent: BaseItem
   id: SteelApronBase
-  description: An apron with steel plating haphazardly affixed by spare cabling. In it's current state, it would fall apart immediately if worn.
+  description: Un tablier avec des plaques d'acier fixées de manière hasardeuse par des câbles de récupération. Dans son état actuel, il tomberait immédiatement en morceaux s'il était porté.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
@@ -34,10 +34,10 @@
     node: steelapron
 
 - type: entity
-  name: welded steel apron
+  name: tablier en acier soudé
   parent: BaseItem
   id: WeldedSteelApronBase
-  description: An apron affixed with welded steel plating attached to spare cabling. The armor is no longer in danger of falling apart, but requires additional work to be worn securely.
+  description: Un tablier équipé de plaques d'acier soudées fixées à des câbles de récupération. L'armure ne risque plus de tomber en morceaux, mais nécessite encore du travail supplémentaire pour être portée en toute sécurité.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterArmorScrap
-  name: scrap armor
-  description: A tider's gleaming plate mail. Bail up, or you're a dead man.
+  name: armure de récupération
+  description: Une armure de tider faite de plaques étincelante. Rendez-vous, ou vous êtes un homme mort.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi

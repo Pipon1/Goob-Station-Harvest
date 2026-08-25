@@ -285,12 +285,12 @@ ui-options-function-editor-copy-object = Copier
 
 ui-options-function-show-debug-console = Ouvrir la console
 ui-options-function-show-debug-monitors = Afficher les moniteurs de débogage
+ui-options-function-inspect-entity = Inspecter l'entité
 ui-options-function-inspect-entity-tooltip = Ouvrir une fenêtre ViewVariables pour l'entité sur laquelle votre souris plane actuellement.
 ui-options-function-inspect-server-component = Inspecter le composant serveur
 ui-options-function-inspect-server-component-tooltip = Ouvrir une fenêtre ViewVariables avec le composant serveur défini par la commande « quickinspect » pour l'entité sur laquelle votre souris plane actuellement.
 ui-options-function-inspect-client-component = Inspecter le composant client
 ui-options-function-inspect-client-component-tooltip = Ouvrir une fenêtre ViewVariables avec le composant client défini par la commande « quickinspect » pour l'entité sur laquelle votre souris plane actuellement.
-ui-options-function-inspect-entity = Inspecter l'entité
 ui-options-function-hide-ui = Masquer l'interface
 
 ui-options-function-hotbar1 = Emplacement barre d'actions 1

@@ -1,8 +1,8 @@
 - type: entity
   parent: CrayonInedible
   id: CrayonRainbowLarge
-  name: plasmic rainbow crayon
-  description: A colourful crayon. Now infinite! (almost)
+  name: crayon arc-en-ciel plasmatique
+  description: Un crayon coloré. Maintenant infini ! (presque)
   components:
   - type: Sprite
     state: rainbow

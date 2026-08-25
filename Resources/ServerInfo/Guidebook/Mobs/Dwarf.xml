@@ -3,16 +3,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Dwarves
+  # Nains
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respects, however,
-  They are not poisoned by alcohol and instead are even slightly healed by it.
-  Their mining instincts allow them to feel nearby ore in 3 tile radius.
-  They are slightly smaller than humans, though are also slightly heavier.
-  They suffocate two times faster.
+  Les Nains sont similaires aux humains à la plupart des égards, cependant,
+  Ils ne sont pas empoisonnés par l'alcool et sont même légèrement soignés par celui-ci.
+  Leurs instincts de mineur leur permettent de sentir le minerai proche dans un rayon de 3 cases.
+  Ils sont légèrement plus petits que les humains, bien qu'ils soient aussi légèrement plus lourds.
+  Ils s'asphyxient deux fois plus vite.
 
 </Document>

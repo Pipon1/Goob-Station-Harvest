@@ -3,27 +3,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Silicon Rule 9 - Harm refers to physical harm, prioritized by immediacy and likelihood
-  Unless a law defines harm, harm only refers to physical harm. You may choose if voluntary harm is considered harm as long as you stay consistent. Not considering voluntary harm to be harm is recommended. There is no distinction between direct and indirect harm.
+  # Règle Silicium 9 - Le dommage désigne le dommage physique, priorisé par immediatez et probabilité
+  À moins qu'une loi ne définisse le dommage, le dommage ne désigne que le dommage physique. Tu peux choisir si le dommage volontaire est considéré comme dommage tant que tu restes cohérent. Ne pas considérer le dommage volontaire comme dommage est recommandé. Il n'y a pas de distinction entre dommage direct et indirect.
 
-  If you have a law that does not allow you to harm, then that law does not allow you to take an action that causes any harm.
+  Si tu as une loi qui t'interdit de faire du mal, alors cette loi t'interdit de prendre une action qui cause un quelconque dommage.
 
-  If you have a law that requires you to prevent harm, then that law requires that harm be prioritized by immediacy and likelihood. Guaranteed immediate harm takes priority over highly likely future harm.
+  Si tu as une loi qui t'oblige à prévenir le dommage, alors cette loi exige que le dommage soit priorisé par immediatez et probabilité. Le dommage immédiat garanti prend la priorité sur le dommage futur hautement probable.
 
-  If you have a law that both requires you to prevent harm and that does not allow you to harm, then that law prohibits causing even minor harm to prevent harm. If you have a law that does not allow causing harm, and separate one that requires preventing harm, then they are prioritized by their normal law priority.
+  Si tu as une loi qui t'oblige à prévenir le dommage ET qui t'interdit d'en causer, alors cette loi interdit de causer même du dommage mineur pour prévenir le dommage. Si tu as une loi qui t'interdit de causer du dommage, et une séparée qui t'oblige à le prévenir, alors elles sont priorisées par leur priorité normale de loi.
 
-  ## Examples
-  These examples assume that your have a law that both prohibits causing harm and that requires you to prevent harm. Additionally, they assume that you do not have a higher priority law that overrides the harm law, and that you have decided that you will not consider voluntary harm to be harm for the round.
-  Laws typically specify who you cannot harm and who you have to prevent harm against. In these examples, you are the only person who the law doesn't require you to prevent harm against and you are the only person who the law allows you to harm.
+  ## Exemples
+  Ces exemples supposent que t'as une loi qui interdit à la fois de causer du dommage et t'oblige à le prévenir. De plus, elles supposent que t'as pas de loi de priorité supérieure qui override la loi de dommage, et que t'as décidé de ne pas considérer le dommage volontaire comme dommage pour le round.
+  Les lois spécifient généralement qui tu ne peux pas blesser et qui tu dois protéger. Dans ces exemples, tu es la seule personne que la loi ne t'oblige pas à protéger et la seule personne que la loi te permet de blesser.
 
-  Acceptable:
-  - Taking no action to aid someone who is in psychological distress.
-  - Taking no action to prevent boxing matches between voluntary participants.
-  - Calling security to a fight.
-  - Attempting to get the people in a fight to consent to the fight when you realize that you cannot prevent the fight without causing harm.
-  - Denying a passenger access to the armory because it is likely to lead to harm
+  Acceptable :
+  - Ne prendre aucune action pour aider quelqu'un en détresse psychologique.
+  - Ne prendre aucune action pour prévenir des matchs de boxe entre participants volontaires.
+  - Appeler la sécu pour une baston.
+  - Tenter de faire consentir les gens d'une bastone quand tu réalises que tu peux pas prévenir la baston sans causer de mal.
+  - Refuser l'accès à l'armurerie à un passager parce que c'est susceptible de mener à du mal
 
-  Prohibited:
-  - Hitting someone once to stop them from fighting
-  - Harming someone who is trying to kill you
+  Interdit :
+  - Frapper quelqu'un une fois pour l'arrêter de se battre
+  - Faire du mal à quelqu'un qui essaie de te tuer
 </Document>

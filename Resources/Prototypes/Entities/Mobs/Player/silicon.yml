@@ -152,8 +152,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: intellicard
-  description: A storage device for AIs.
+  name: intellicarte
+  description: Un dispositif de stockage pour les IAs.
   parent:
   - BaseItem
   - AiHolder
@@ -194,8 +194,8 @@
 # Empty AI core
 - type: entity
   id: PlayerStationAiEmpty
-  name: AI core
-  description: The latest in Artificial Intelligences.
+  name: noyau IA
+  description: Le top en matière d'Intelligences Artificielles.
   parent:
   - BaseStructure
   - AiHolder
@@ -361,8 +361,8 @@
 - type: entity
   parent: BaseStructure
   id: PlayerStationAiAssembly
-  name: AI core assembly
-  description: An unfinished computer core for housing an artifical intelligence.
+  name: assemblage du noyau IA
+  description: Un noyau informatique inachevé pour loger une intelligence artificielle.
   components:
   - type: Anchorable
     flags:
@@ -542,8 +542,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: AI eye
-  description: The AI's viewer.
+  name: Œil IA
+  description: Le visualiseur de l'IA.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: MovementSpeedModifier # Goobstation
@@ -573,8 +573,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: AI hologram
-  description: A holographic representation of an AI.
+  name: hologramme IA
+  description: Une représentation holographique d'une IA.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform

@@ -1,0 +1,1 @@
+condemned-start = Le sol se fissure et se brise autour de {$target} alors qu'une force impie approche !

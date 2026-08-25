@@ -4,7 +4,7 @@
   id: PotatoAIChip
   name: supercompact AI chip
   parent: BaseItem
-  description: This high-tech AI chip requires a voltage of exactly 1.1V to function correctly.
+  description: Cette puce IA haute technologie nécessite une tension de exactement 1.1V pour fonctionner correctement.
   components:
     - type: Sprite
       sprite: Objects/Misc/potatoai_chip.rsi

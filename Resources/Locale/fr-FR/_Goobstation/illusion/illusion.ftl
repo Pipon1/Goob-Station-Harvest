@@ -1,0 +1,1 @@
+illusion-comp-death-message = {$ent} disparaît dans les airs ! C'était un leurre !

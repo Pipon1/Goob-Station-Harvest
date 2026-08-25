@@ -1,0 +1,10 @@
+ent-MobMothroachMustard = papilloncafard à la moutarde
+    .desc = Un résultat délicieux des chefs du monde croisant viande et sauce.
+ent-MobMothroachLeopard = papilloncafard léopard
+    .desc = Un résultat charmant de nombreuses tentatives de croiser des insectes avec des prédateurs.
+ent-MobMothroachCecropia = papilloncafard cécropie
+    .desc = Un résultat charmant de nombreuses tentatives de croiser un genre de la famille des orties avec des cafards.
+ent-MobMothroachLunar = papilloncafard lunaire
+    .desc = Quelqu'un a laissé le papillon sous le clair de lune.
+ent-FoodBurgerMustard = burger de papilloncafard
+    .desc = La dernière lampe qu'il a vue était celle à l'intérieur du micro-ondes.

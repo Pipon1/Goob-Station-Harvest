@@ -3,27 +3,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Do not Powergame
+  # Pas de Powergame
 
-  You must have an In-Character justification for your actions. The Research Director does not need a gun when the station is code-green. The Head of Security does not need All Access at shift start when no threat is identified.
+  Tu dois avoir une justification RP pour tes actions. Le Directeur de la Recherche n'a pas besoin d'une arme quand la station est code-vert. Le Chef de la Sécu n'a pas besoin de All Access au début de la shift quand aucune menace n'est identifiée.
 
-  ## Examples
+  ## Exemples
 
- Acceptable:
- - Command carrying non-lethals when there is a plausible threat
- - Command carrying lethals when there is a confirmed threat
- - Command carrying (non-)lethals they start with in their rooms at any time
- - Captain hiding the spare ID in a properly secure location
- - Increasing security (such as bolting doors, adding walls, etc) during Red or Blue alert
- - Several minutes into the round, Captain promotes Warden to HoS because there isn’t one on station
- - General situations where a character is reacting to information during a round in a way that makes logical sense
+ Acceptable :
+  - Command portant des non-létaux quand il y a une menace plausible
+  - Command portant des létaux quand il y a une menace confirmée
+  - Command portant des (non-)létaux avec lesquels ils spawn dans leurs chambres à tout moment
+  - Capitaine cachant le Spare ID dans un endroit correctement sécurisé
+  - Augmenter la sécu (genre verrouiller des portes, ajouter des murs, etc) pendant alerte Rouge ou Bleue
+  - Plusieurs minutes dans le round, Capitaine promeut Gardien en HoS parce qu'il n'y en a pas un sur la station
+  - Situations générales où un perso réagit à des infos pendant un round de façon qui a du sens logique
 
-  Not Acceptable:
-  - Roundstart Captain granting all heads AA
-  - Roundstart HoP takes Ian to ATS because “He’s a high profile target”
-  - Creating duplicates of high-value or unique items to hand off to others
-  - Using low-effort roleplay to skirt the metashield
-  - Bolting doors to areas to increase their security before a threat is confirmed that makes that security inefficient
-  - Setting the alert level to Blue or Red when the situation does not have a need for the severity implied (this includes maintaining these levels far past when said threats have been confirmed as no longer in play)
-  - General situations where a character is preemptively preparing for situations that have yet to happen in ways that logically do not make sense
+  Pas Acceptable :
+  - Capitaine roundstart donne AA à tous les chefs
+  - HoP roundstart prend Ian pour l'ATS parce que "C'est une cible de haut profil"
+  - Créer des duplicatas d'objets haute valeur ou uniques pour les filer à d'autres
+  - Utiliser du RP low-effort pour contourner le metashield
+  - Verrouiller des portes de zones pour augmenter leur sécu avant qu'une menace soit confirmée qui rendrait cette sécu inefficace
+  - Mettre le niveau d'alerte à Bleu ou Rouge quand la situation n'a pas besoin de la sévérité impliquée (ça inclut maintenir ces niveaux bien après que les dites menaces ont été confirmées comme n'étant plus en jeu)
+  - Situations générales où un perso se prépare préventivement pour des situations qui n'ont pas encore eu lieu de façon qui n'a pas de sens logique
 </Document>

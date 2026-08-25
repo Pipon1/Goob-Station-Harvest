@@ -3,8 +3,8 @@
 - type: entity
   id: CarpetBase
   parent: BaseStructure
-  name: carpet
-  description: "Fancy walking surface."
+  name: moquette
+  description: "Un revêtement de sol élégant."
   abstract: true
   components:
   - type: Sprite
@@ -350,7 +350,7 @@
 - type: entity
   id: CarpetChapel
   parent: BaseStructure
-  name: "chapel's carpet"
+  name: moquette de la chapelle
   components:
   - type: Sprite
     sprite: Structures/Furniture/Carpets/chapel_carpet.rsi
@@ -382,8 +382,8 @@
 - type: entity
   id: CarpetCard
   parent: BaseStructure
-  name: cardboard "carpet"
-  description: "Even lino is better."
+  name: "moquette en carton"
+  description: "Même le lino est mieux."
   components:
   - type: Sprite
     drawdepth: FloorTiles

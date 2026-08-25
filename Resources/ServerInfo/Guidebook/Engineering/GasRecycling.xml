@@ -1,25 +1,25 @@
 <Document>
-  # Gas Recycling
-  Gas recycler is a machine that converts waste gasses into breathable ones.
+  # Recyclage Gaz
+  Le recycleur de gaz est une machine qui convertit les gaz déchets en gaz respirables.
 
   <Box>
     <GuideEntityEmbed Entity="GasRecycler"/>
   </Box>
-  Specificaly it can recycle Carbon Dioxide and Nitrous Oxide into Oxygen and Nitrogen.
+  Spécifiquement, il peut recycler Dioxyde de Carbone et Protoxyde d'Azote en Oxygène et Azote.
 
-  The machine has a two [textlink="pipenet" link="PipeNetworks"] connections, for gas input and output.
+  La machine a deux connexions [textlink="pipenet" link="PipeNetworks"], pour entrée et sortie gaz.
 
-  For recycler to work, tha gas needs to be pressurized to [color=#a4885c]3000 kPa[/color] heated to [color=#a4885c]573,15K[/color], and the pressure at the inlet needs to be higher than outlet.
-  If these conditions are not met, the gases will just pass through without getting recycled (as will unrecyclable gases).
+  Pour que le recycleur marche, le gaz doit être pressurisé à [color=#a4885c]3000 kPa[/color] chauffé à [color=#a4885c]573,15K[/color], et la pression à l'entrée doit être plus haute qu'à la sortie.
+  Si ces conditions ne sont pas remplies, les gaz passeront juste sans être recyclés (ainsi que les gaz non-recyclables).
 
   <Box>
-    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="Gas recycler circuit board"/>
+    <GuideEntityEmbed Entity="GasRecyclerMachineCircuitboard" Caption="Circuit imprimé recycleur gaz"/>
   </Box>
 
-  The machine can be constructed using a circuit board, which can be made at a circuit imprinter.
-  It first needs to be researched by [textlink="science" link="Science"] though.
+  La machine peut être construite avec un circuit imprimé, fabriqué à l'imprimeur de circuits.
+  Il faut d'abord le rechercher par la [textlink="Science" link="Science"] par contre.
 
-  Gas recycling can be used as an alternative to gas miners, or as a backup to build a redundancy in the atmospheric system.
-  [color=#a4885c]Just don't forget to cool the gas before releasing it into the station![/color]
+  Le recyclage gaz peut servir d'alternative aux mineurs de gaz, ou de backup pour créer une redondance dans le système atmosphérique.
+  [color=#a4885c]N'oubliez pas de refroidir le gaz avant de le relâcher dans la station ![/color]
 
 </Document>

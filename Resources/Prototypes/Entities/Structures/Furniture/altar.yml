@@ -3,8 +3,8 @@
 - type: entity
   id: AltarBase
   parent: BaseStructure
-  name: altar
-  description: Altar of the Gods.
+  name: autel
+  description: Autel des Dieux.
   abstract: true
   components:
   - type: Anchorable
@@ -32,7 +32,7 @@
 - type: entity
   id: AltarNanotrasen
   parent: AltarBase
-  name: nanotrasen altar
+  name: autel Nanotrasen
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -51,7 +51,7 @@
 - type: entity
   id: AltarChaos
   parent: AltarNanotrasen
-  name: chaos altar
+  name: autel du chaos
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -74,7 +74,7 @@
 - type: entity
   id: AltarDruid
   parent: AltarNanotrasen
-  name: druid altar
+  name: autel druide
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -93,7 +93,7 @@
 - type: entity
   id: AltarToolbox
   parent: AltarNanotrasen
-  name: toolbox altar
+  name: autel caisse à outils
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -112,7 +112,7 @@
 - type: entity
   id: AltarSpaceChristian
   parent: AltarNanotrasen
-  name: space-Christian altar
+  name: autel space-chrétien
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -138,7 +138,7 @@
 - type: entity
   id: AltarSatana
   parent: AltarNanotrasen
-  name: satanic altar
+  name: autel satanique
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -157,7 +157,7 @@
 - type: entity
   id: AltarTechnology
   parent: AltarNanotrasen
-  name: technology altar
+  name: autel technologique
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -183,7 +183,7 @@
 - type: entity
   id: AltarConvertFestival
   parent: AltarBase
-  name: festival altar
+  name: autel de festival
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -198,7 +198,7 @@
 - type: entity
   id: AltarConvertMaint
   parent: AltarConvertFestival
-  name: maint altar
+  name: autel de maintenance
   components:
   - type: Sprite
     sprite: _ShitChap/Structures/convertaltar.rsi
@@ -223,7 +223,7 @@
 - type: entity
   id: AltarConvertBlue
   parent: AltarConvertFestival
-  name: blue altar
+  name: autel bleu
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -249,7 +249,7 @@
 - type: entity
   id: AltarConvertBurden
   parent: AltarConvertFestival
-  name: burden altar
+  name: autel du fardeau
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -268,7 +268,7 @@
 - type: entity
   id: AltarConvert
   parent: AltarConvertFestival
-  name: convert altar
+  name: autel de conversion
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -290,7 +290,7 @@
 - type: entity
   id: AltarConvertOrange
   parent: AltarConvertFestival
-  name: orange altar
+  name: autel orange
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -309,7 +309,7 @@
 - type: entity
   id: AltarConvertRed
   parent: AltarConvertFestival
-  name: red altar
+  name: autel rouge
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -328,7 +328,7 @@
 - type: entity
   id: AltarConvertWhite
   parent: AltarConvertFestival
-  name: white altar
+  name: autel blanc
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -347,7 +347,7 @@
 - type: entity
   id: AltarConvertYellow
   parent: AltarConvertFestival
-  name: yellow altar
+  name: autel jaune
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -366,7 +366,7 @@
 - type: entity
   id: AltarHeaven
   parent: AltarBase
-  name: heaven altar
+  name: autel du paradis
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/heaven.rsi
@@ -392,7 +392,7 @@
 - type: entity
   id: AltarFangs
   parent: AltarHeaven
-  name: fanged altar
+  name: autel à crocs
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/fangs.rsi
@@ -409,8 +409,8 @@
 - type: entity
   id: AltarBananium
   parent: AltarBase
-  name: honkmother altar
-  description: A bananium altar dedicated to the honkmother.
+  name: autel de la honkmother
+  description: Un autel en bananium dédié à la honkmother.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/bananium.rsi

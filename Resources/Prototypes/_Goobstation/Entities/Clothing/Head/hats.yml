@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretEliteNavyOfficer
-  name: elite navy officer's beret
-  description: A navy blue beret with the silver shield of the Nanotrasen security forces.
+  name: béret d'officier de marine d'élite
+  description: Un béret bleu marine avec le bouclier argenté des forces de sécurité Nanotrasen.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/navy_officer_beret.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretNavyOfficer
-  name: navy officer's beret
-  description: A black beret with the silver shield of the Nanotrasen security forces.
+  name: béret d'officier de marine
+  description: Un béret noir avec le bouclier argenté des forces de sécurité Nanotrasen.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/officer_beret.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretNavyCaptain
-  name: navy captain's beret
-  description: A starch white beret.
+  name: béret de capitaine de marine
+  description: Un béret blanc empesé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/navy_captain_beret.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretBlueshield
-  name: blueshield's armored beret
-  description: A durable beret woven out of durathread. Provides protection, too.
+  name: béret blindé du blueshield
+  description: Un béret durable tissé en fil durathread. Offre aussi une protection.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/blueshield_beret.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCowboyBlueshield
-  name: blueshield's armored cowboy hat
-  description: Sheriff's back in town, kids.
+  name: chapeau de cowboy blindé du blueshield
+  description: Le shérif est de retour en ville, les enfants.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/cowboyhatbso.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingHeadHatArmoredCC, ClothingHeadBase, BaseFoldable, BaseCentcommContraband]
   id: ClothingHeadHatUshankaBlueshield
-  name: blueshield's armored ushanka
-  description: Perfect for saving heads in Siberia, da?
+  name: chapka blindée du blueshield
+  description: Parfait pour sauver des têtes en Sibérie, da ?
   components:
   - type: Clothing
     sprite: _Goobstation/Clothing/Head/Hats/blueshield_ushanka.rsi
@@ -149,8 +149,8 @@
 - type: entity # todo <mailfix>
   parent: ClothingHeadBase
   id: ClothingHeadMailCarrier
-  name: mail carrier's hat
-  description: Smells like a good pension.
+  name: casquette de facteur
+  description: Sent la bonne retraite.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/mailman.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatPropeller
-  name: propeller hat
-  description: Aw gee willickers!
+  name: chapeau à hélice
+  description: Ah, zut alors !
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/propeller.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatImam
-  name: imam head wrap
-  description: Praise Allah.
+  name: couvre-chef d'imam
+  description: Louange à Allah.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/imam.rsi
@@ -202,8 +202,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTrainer
-  name: NCT's hat
-  description: A hat issued to Nanotrasen Career Trainers. Makes you feel stylish.
+  name: casquette de formateur NCT
+  description: Une casquette émise aux formateurs de carrière Nanotrasen. Vous donne un air stylé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/trainer.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBeretTrainer
-  name: NCT's beret
-  description: A beret issued to Nanotrasen Career Trainers. Makes you feel stylish.
+  name: béret de formateur NCT
+  description: Un béret émis aux formateurs de carrière Nanotrasen. Vous donne un air stylé.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/trainer_beret.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: ClothingHeadHatBeretHoS
   id: ClothingHeadHatBeretHeadOfSecurityAdvanced
-  name: head of security's parade beret
-  description: A particularly gilded beret, designed for the Head of Security.
+  name: béret de parade du chef de la sécurité
+  description: Un béret particulièrement doré, conçu pour le chef de la sécurité.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/hos-expi.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSeniorBotanist
-  name: botanical beret
-  description: A green beret featuring a small blue flower given to experienced botanists.
+  name: béret botanique
+  description: Un béret vert orné d'une petite fleur bleue, remis aux botanistes expérimentés.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/beret_botany.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadSanabi
-  name: brigadier general hat
-  description: Smells like steel.
+  name: chapeau de général de brigade
+  description: Sent l'acier.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/sanabi.rsi
@@ -261,9 +261,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadLehmin
-  name: top CMO headgear
+  name: chapeau du CMO principal
   suffix: ADMIN
-  description: Chemistry. Adminning. Something else.
+  description: Chimie. Administration. Autre chose.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/lehmin.rsi
@@ -273,8 +273,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseJanitorContraband ]
   id: ClothingHeadHatJanitorCap
-  name: janitorial cap
-  description: An extravagant purple cap for only the BEST of janitorial workers.
+  name: casquette de concierge
+  description: Une casquette violette extravagante pour les MEILLEURS concierges.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/janitor_cap.rsi
@@ -293,9 +293,9 @@
 - type: entity
   parent: ClothingHeadHatCapcap
   id: ClothingHeadHatCapcapSenior
-  name: cap cap senior
-  description: A grand, stylish cap worn by the Seniors Captains. Shows the station who's in charge.
-  suffix: DO NOT MAP
+  name: casquette de cap senior
+  description: Une grande casquette élégante portée par les capitaines seniors. Montre à la station qui commande.
+  suffix: NE PAS PLACER
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/cap_senior.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTinfoilHat
-  name: tinfoil hat
-  description: A high tech helmet crafted from aluminum foil.
+  name: chapeau en papier d'aluminium
+  description: Un casque haute technologie confectionné en papier d'aluminium.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/tinfoil_hat.rsi
@@ -325,8 +325,8 @@
 - type: entity
   parent: ClothingHeadHatCentcomcap
   id: ClothingHeadHatOuterCommandcap
-  name: outer command cap
-  description: Purple gilded cap with Terra-Gov insignia.
+  name: casquette de commandement extérieur
+  description: Casquette dorée violette avec l'insigne de Terra-Gov.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/outcommcap.rsi
@@ -336,8 +336,8 @@
 - type: entity
   parent: ClothingHeadHatCentcomcap
   id: ClothingHeadHatGoldCentcom
-  name: golden Centcom cap
-  description: A gold-and-white gilded cap worn by the highest-ranking members of Central Command.
+  name: casquette Centcomm dorée
+  description: Une casquette dorée blanche portée par les membres les plus haut gradés du commandement central.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/golden_centcom.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: ClothingHeadHatCentcomcap
   id: ClothingHeadHatCowboyCentcom
-  name: centcom cowboy hat
-  description: A black and green cowboy hat with a gold band, worn by 'southerner' Central Command officers.
+  name: chapeau de cowboy Centcomm
+  description: Un chapeau de cowboy noir et vert avec une bande dorée, porté par les officiers du commandment central "sudistes".
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/cowboyhat_centcom.rsi

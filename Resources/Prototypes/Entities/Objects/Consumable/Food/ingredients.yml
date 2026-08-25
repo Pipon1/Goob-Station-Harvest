@@ -82,8 +82,8 @@
 - type: entity
   parent: [ReagentPacketBase, ItemHeftyBase]
   id: ReagentContainerFlour
-  name: flour bag
-  description: A big bag of flour. Good for baking!
+  name: sac de farine
+  description: Un grand sac de farine. Idéal pour la pâtisserie !
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ReagentPacketBase, ItemHeftyBase]
   id: ReagentContainerFlourSmall
-  name: flour pack
-  description: A pack of flour. Good for baking!
+  name: paquet de farine
+  description: Un paquet de farine. Idéal pour la pâtisserie !
   components:
   - type: Sprite
     state: flour-small
@@ -123,8 +123,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCornmeal
-  name: cornmeal bag
-  description: A big bag of cornmeal. Good for cooking!
+  name: sac de semoule de maïs
+  description: Un grand sac de semoule de maïs. Bon pour la cuisine !
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -147,8 +147,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCornmealSmall
-  name: cornmeal pack
-  description: A pack of cornmeal. Good for cooking!
+  name: paquet de semoule de maïs
+  description: Un paquet de semoule de maïs. Bon pour la cuisine !
   components:
   - type: Sprite
     state: cornmeal
@@ -163,8 +163,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerRice
-  name: rice bag
-  description: A big bag of rice. Good for cooking!
+  name: sac de riz
+  description: Un grand sac de riz. Bon pour la cuisine !
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -187,8 +187,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerRiceSmall
-  name: rice pack
-  description: A pack of rice. Good for cooking!
+  name: paquet de riz
+  description: Un paquet de riz. Bon pour la cuisine !
   components:
   - type: Sprite
     state: rice-small
@@ -203,8 +203,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSugar
-  name: sugar bag
-  description: A big bag of tasty spacey sugar.
+  name: sac de sucre
+  description: Un grand sac de sucre spatial savoureux.
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -227,8 +227,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSugarSmall
-  name: sugar pack
-  description: A pack of tasty spacey sugar.
+  name: paquet de sucre
+  description: Un paquet de sucre spatial savoureux.
   components:
   - type: Sprite
     state: sugar-small
@@ -245,8 +245,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerOliveoil
-  name: olive oil
-  description: Olive oil. From space olives presumably.
+  name: huile d'olive
+  description: Huile d'olive. Probablement provenant d'olives de l'espace.
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -273,7 +273,7 @@
   parent: ReagentPacketBase
   id: ReagentContainerMayo
   name: mayonnaise
-  description: Bottle of mayonnaise.
+  description: Bouteille de mayonnaise.
   components:
   - type: Appearance
   - type: GenericVisualizer
@@ -318,7 +318,7 @@
   abstract: true
   parent: FoodBase
   id: FoodBakingBase
-  description: Used in various recipes.
+  description: Utilisé dans diverses recettes.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDough
-  name: dough
-  description: A piece of dough.
+  name: pâte
+  description: Un morceau de pâte.
   components:
   - type: Item
     size: Normal
@@ -353,8 +353,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughSlice
-  name: dough slice
-  description: A slice of dough. Can be cooked into a bun.
+  name: tranche de pâte
+  description: Une tranche de pâte. Peut être cuite en un petit pain.
   components:
   - type: Item
     size: Tiny
@@ -380,8 +380,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughRope
-  name: dough rope
-  description: A thin noodle of dough. Can be cooked into a bagel.
+  name: corde de pâte
+  description: Une fine nouille de pâte. Peut être cuit en un beignet.
   components:
   - type: Item
     storedRotation: -45
@@ -404,8 +404,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCornmeal
-  name: cornmeal dough
-  description: A piece of cornmeal dough.
+  name: pâte de semoule de maïs
+  description: Un morceau de pâte de semoule de maïs.
   components:
   - type: Item
     size: Normal
@@ -422,8 +422,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCornmealSlice
-  name: cornmeal dough slice
-  description: A slice of cornmeal dough.
+  name: tranche de pâte de semoule de maïs
+  description: Une tranche de pâte de semoule de maïs.
   components:
   - type: Item
     size: Tiny
@@ -440,8 +440,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughTortilla
-  name: tortilla dough
-  description: A piece of tortilla dough.
+  name: pâte à tortilla
+  description: Un morceau de pâte à tortilla.
   components:
   - type: Item
     size: Normal
@@ -458,8 +458,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughTortillaSlice
-  name: tortilla dough slice
-  description: A slice of tortilla dough.
+  name: tranche de pâte à tortilla
+  description: Une tranche de pâte à tortilla.
   components:
   - type: Item
     size: Tiny
@@ -479,8 +479,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughTortillaFlat
-  name: flattened tortilla dough
-  description: A flattened slice of tortilla dough, cook this to get a taco shell.
+  name: pâte à tortilla aplatie
+  description: Une tranche de pâte à tortilla aplatie, faites-la cuire pour obtenir une coquille de taco.
   components:
   - type: Item
     size: Tiny
@@ -497,8 +497,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCotton
-  name: cotton dough
-  description: A piece of fabric dough.
+  name: pâte de coton
+  description: Un morceau de pâte de tissu.
   components:
   - type: Item
     size: Normal
@@ -530,8 +530,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCottonSlice
-  name: cotton dough slice
-  description: A slice of cotton dough.
+  name: tranche de pâte de coton
+  description: Une tranche de pâte de coton.
   components:
   - type: Item
     size: Tiny
@@ -561,8 +561,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCottonRope
-  name: cotton dough rope
-  description: A thin noodle of cotton dough. Can be cooked into a cotton bagel.
+  name: corde de pâte de coton
+  description: Une fine nouille de pâte de coton. Peut être cuit en un beignet de coton.
   components:
   - type: Item
     storedRotation: -45
@@ -589,19 +589,19 @@
      - ClothMade
 
 - type: entity
-  name: raw pastry base
+  name: pâte à pâtisserie crue
   parent: FoodBakingBase
   id: FoodDoughPastryBaseRaw
-  description: Must be cooked before use.
+  description: Doit être cuite avant utilisation.
   components:
   - type: Sprite
     state: dough-pastry
 
 - type: entity
-  name: pastry base
+  name: pâte à pâtisserie
   parent: FoodBakingBase
   id: FoodDoughPastryBase
-  description: A base for any self-respecting pastry.
+  description: Une base pour toute pâtisserie qui se respecte.
   components:
   - type: Sprite
     state: dough-pastry-baked
@@ -609,8 +609,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughPie
-  name: pie dough
-  description: Cook it to get a pie.
+  name: pâte à tarte
+  description: Faite-la cuire pour obtenir une tarte.
   components:
   - type: Item
     size: Normal
@@ -620,8 +620,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughFlat
-  name: flat dough
-  description: A flattened dough.
+  name: pâte plate
+  description: Une pâte aplatie.
   components:
   - type: Item
     size: Normal
@@ -639,8 +639,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughCottonFlat
-  name: flat cotton dough
-  description: A flattened cotton dough.
+  name: pâte de coton plate
+  description: Une pâte de coton aplatie.
   components:
   - type: Item
     size: Normal
@@ -658,8 +658,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodDoughPizzaBaked
-  name: pizza bread
-  description: Add ingredients to make a pizza.
+  name: pain à pizza
+  description: Ajoutez des ingrédients pour faire une pizza.
   components:
   - type: Item
     size: Normal
@@ -671,8 +671,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodCakeBatter
-  name: cake batter
-  description: Cook it to get a cake.
+  name: pâte à gâteau
+  description: Faite-la cuire pour obtenir un gâteau.
   components:
   - type: Item
     size: Normal
@@ -685,8 +685,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodButter
-  name: stick of butter
-  description: A stick of delicious, golden, fatty goodness.
+  name: plaquette de beurre
+  description: Une plaquette de délicieux beurre doré et gras.
   components:
   - type: Item
     shape:
@@ -730,8 +730,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodButterSlice
-  name: butter slice
-  description: A pat of delicious, golden, fatty goodness.
+  name: noix de beurre
+  description: Une noix de délicieux beurre doré et gras.
   components:
   - type: Item
     size: Tiny
@@ -749,10 +749,10 @@
     - Slice
 
 - type: entity
-  name: stick of cannabis butter
+  name: plaquette de beurre de cannabis
   parent: FoodButter
   id: FoodCannabisButter
-  description: Add this to your favorite baked goods for an irie time.
+  description: Ajoutez ceci à vos produits de boulangerie préférés pour un moment marrant.
   components:
   - type: Sprite
     state: butter
@@ -770,10 +770,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: cheese wheel
+  name: meule de fromage
   parent: FoodBakingBase
   id: FoodCheese
-  description: A big wheel of delicious Cheddar.
+  description: Une grande meule de délicieux cheddar.
   components:
   - type: Item
     size: Normal
@@ -789,8 +789,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodCheeseSlice
-  name: cheese wedge
-  description: A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far.
+  name: quart de fromage
+  description: Un quart de délicieux cheddar. La meule de fromage dont il provient ne peut pas être loin.
   components:
   - type: FlavorProfile
     flavors:
@@ -823,8 +823,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodChevre
-  name: chèvre log
-  description: A soft log of creamy Chèvre.
+  name: bûche de chèvre
+  description: Une molle bûche de chèvre crémeux.
   components:
   - type: Item
     shape:
@@ -852,8 +852,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodChevreSlice
-  name: chèvre disk
-  description: A small disk of creamy Chèvre. An ideal adornment for French side dishes.
+  name: rond de chèvre
+  description: Un petit rond de chèvre crémeux. Un ajout idéal pour les plats d'accompagnement français.
   components:
   - type: Item
     size: Tiny
@@ -880,7 +880,7 @@
   parent: FoodBakingBase
   id: FoodTofu
   name: tofu
-  description: Solid white block with a subtle flavor.
+  description: Bloc blanc solide avec un goût subtil.
   components:
   - type: Item
     size: Normal
@@ -905,8 +905,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodTofuSlice
-  name: tofu slice
-  description: A slice of tofu. Ingredient of various vegetarian dishes.
+  name: tranche de tofu
+  description: Une tranche de tofu. Ingrédient de divers plats végétariens.
   components:
   - type: Item
     size: Tiny
@@ -929,10 +929,10 @@
     - Slice
 
 - type: entity
-  name: burned mess
+  name: gâchis brûlé
   parent: FoodBakingBase
   id: FoodBadRecipe
-  description: Someone should be demoted from cook for this.
+  description: Quelqu'un devrait être rétrogradé de son poste en cuisine pour ça.
   components:
   - type: FlavorProfile
     flavors:
@@ -953,10 +953,10 @@
     - Trash
 
 - type: entity
-  name: cocoa beans
+  name: fèves de cacao
   parent: FoodProduceBase
   id: FoodCocoaBeans
-  description: You can never have too much chocolate!
+  description: On ne peut jamais avoir trop de chocolat !
   components:
   - type: FlavorProfile
     flavors:
@@ -984,8 +984,8 @@
 - type: entity
   parent: FoodBakingBase
   id: FoodCroissantRaw
-  name: raw croissant
-  description: Buttery, flaky goodness waiting to happen.
+  name: croissant cru
+  description: Délice beurré et feuilleté en attente de se réaliser.
   components:
   - type: Item
     shape:
@@ -1008,8 +1008,8 @@
 - type: entity
   parent: FoodCroissantRaw
   id: FoodCroissantRawCotton
-  name: raw cotton croissant
-  description: Buttery, flaky, fibery goodness waiting to happen.
+  name: croissant cru en coton
+  description: Délice beurré, feuilleté et fibreux en attente de se réaliser.
   components:
   - type: Item
     shape:

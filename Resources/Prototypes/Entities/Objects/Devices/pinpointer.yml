@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: pinpointer
-  description: A handheld tracking device. While typically far more capable, this one has been configured to lock onto certain signals. Keep upright to retain accuracy.
+  name: localisateur
+  description: Un dispositif de suivi portable. Bien qu'il soit généralement bien plus capable, celui-ci a été configuré pour verrouiller certains signaux. Gardez-le droit pour préserver la précision.
   parent: BaseItem
   id: PinpointerBase
   abstract: true
@@ -42,7 +42,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: pinpointer
+  name: localisateur
   id: PinpointerNuclear
   parent: [ PinpointerBase, BaseCommandContraband ]
   components:
@@ -53,8 +53,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: syndicate pinpointer
-  description: Produced specifically for nuclear operative missions, get that disk!
+  name: localisateur du syndicat
+  description: Produit spécifiquement pour les missions nucléaires, obtenez ce disque !
   id: PinpointerSyndicateNuclear
   parent: [ PinpointerBase, BaseSyndicateContraband ]
   components:
@@ -75,8 +75,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: universal pinpointer
-  description: A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+  name: localisateur universel
+  description: Un dispositif de suivi portable qui verrouille n'importe quelle entité physique lorsqu'il est éteint. Gardez-le droit pour préserver la précision.
   id: PinpointerUniversal
   parent: PinpointerBase
   components:
@@ -96,8 +96,8 @@
 
 - type: entity
   parent: PinpointerBase
-  name: research server pinpointer  # Goob edit
-  description: A handheld tracking device that leads to the direction of any nearby research server.
+  name: localisateur de serveur de recherche  # Goob edit
+  description: Un dispositif de suivi portable qui indique la direction du serveur de recherche le plus proche.
   id: PinpointerStation
   #suffix: Station # Goob edit
   components:
@@ -120,8 +120,8 @@
 - type: entity
   parent: [ PinpointerBase, BaseXenoborgContraband ]
   id: PinpointerMothership
-  name: core pinpointer
-  description: A handheld tracking device that leads to the direction of the Mothership core.
+  name: localisateur de noyau xénoborg
+  description: Un dispositif de suivi portable qui indique la direction du noyau du vaisseau mère xénoborg.
   components:
   - type: Sprite
     layers:
@@ -142,8 +142,8 @@
 - type: entity
   parent: BaseItem
   id: PinpointerMothershipPiece
-  name: piece of core pinpointer
-  description: A piece of a core pinpointer. You need four pieces to repair it.
+  name: morceau de localisateur de noyau xénoborg
+  description: Un morceau de localisateur de noyau du vaisseau mère xénoborg. Vous avez besoin de quatre morceaux pour le réparer.
   components:
   - type: Sprite
     sprite: Objects/Devices/pinpointer.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: PinpointerMothership
   id: PinpointerMothershipRepaired
-  name: repaired core pinpointer
-  description: A handheld tracking device that leads to the direction of the Mothership core. This one has seen better days.
+  name: localisateur de noyau xénoborg réparé
+  description: Un dispositif de suivi portable qui indique la direction du noyau du vaisseau mère xénoborg. Celui-ci a vu de meilleurs jours.
   components:
   - type: Sprite
     layers:

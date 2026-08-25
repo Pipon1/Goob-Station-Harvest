@@ -1,12 +1,12 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Antelope # Saiga-12 reference (saiga is a genus of antelopes)
+  name: Antilope # Saiga-12 reference (saiga is a genus of antelopes)
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunAntelope
-  description: A mag-fed shotgun designed for neutralizing threats and keeping criminals at bay with overwhelming force. Feeds from 12 Gauge drum magazines.
-  suffix: DO NOT MAP # This should be made obtainable at some point.
+  description: Un fusil à pompe à magasin conçu pour neutraliser les menaces et tenir les criminels à distance avec une force écrasante. Se charge via des magazines tambour calibre 12.
+  suffix: NE PAS PLACER # This should be made obtainable at some point.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/antelope.rsi
@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineShotgun
         priority: 2
         whitelist:
@@ -47,7 +47,7 @@
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
       gun_chamber:
-        name: Chamber
+        name: Chambre
         startingItem: ShellShotgun
         priority: 1
         whitelist:
@@ -77,7 +77,7 @@
   name: Bojevic
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunCombat
-  description: For when you need to repel targets that are behind two plasteel walls, a fridge, and a car door. Pump action and fun as hell to shoot, though not as much for your shoulder. Loads 5 rounds of 8 Gauge.
+  description: Pour quand vous devez repousser des cibles derrière deux murs en plastacier, un frigo et une portière de voiture. Action par pompe et un bonheur à tirer, quoique moins pour votre épaule. Charge 5 cartouches de calibre 8.
   components:
   - type: Item
     size: Large
@@ -113,7 +113,7 @@
   name: NZ CSG-242
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunHeavy
-  description: A portable human rights violation. Burst fire, high explosive, and will literally push you back six feet when fired. Feeds from 2 Gauge drum magazines. Holy shit.
+  description: Une violation portable des droits de l'homme. Tir en rafale, haute explosive, et vous repoussera littéralement de deux mètres quand on tire. Se charge via des magazines tambour calibre 2. Putain de merde.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/magshot_icon_48x.rsi
@@ -157,7 +157,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Chargeur
         startingItem: MagazineShotgunHeavy
         priority: 2
         whitelist:

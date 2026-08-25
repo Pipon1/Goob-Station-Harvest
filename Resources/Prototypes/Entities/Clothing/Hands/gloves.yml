@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesBoxingRed
-  name: red boxing gloves
-  description: Red gloves for competitive boxing.
+  name: gants de boxe rouges
+  description: Des gants rouges pour la boxe de compétition.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingBlue
-  name: blue boxing gloves
-  description: Blue gloves for competitive boxing.
+  name: gants de boxe bleus
+  description: Des gants bleus pour la boxe de compétition.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingblue.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingGreen
-  name: green boxing gloves
-  description: Green gloves for competitive boxing.
+  name: gants de boxe verts
+  description: Des gants verts pour la boxe de compétition.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxinggreen.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingYellow
-  name: yellow boxing gloves
-  description: Yellow gloves for competitive boxing.
+  name: gants de boxe jaunes
+  description: Des gants jaunes pour la boxe de compétition.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingyellow.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseCommandContraband]
   id: ClothingHandsGlovesCaptain
-  name: captain gloves
-  description: Regal blue gloves, with a nice gold trim. Swanky.
+  name: gants de capitaine
+  description: Des gants bleus royaux, avec une belle garniture dorée. Chic.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/captain.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesHop
-  name: papercut-proof gloves
-  description: Perfect for dealing with paperwork and matters with bureaucracy.
+  name: gants anti-coupures papier
+  description: Parfait pour traiter la paperasse et les questions de bureaucratie.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/hop.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLatex
-  name: latex gloves
-  description: Thin sterile latex gloves. Basic PPE for any doctor.
+  name: gants en latex
+  description: Des gants en latex minces et stériles. L'équipement de protection individuelle basique pour tout médecin.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/latex.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNitrile
-  name: nitrile gloves
-  description: High-quality nitrile gloves. Expensive medical PPE.
+  name: gants en nitrile
+  description: Des gants en nitrile de haute qualité. Un équipement de protection individuelle médical coûteux.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/nitrile.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLeather
-  name: botanist's leather gloves
-  description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
+  name: gants en cuir du botaniste
+  description: Ces gants en cuir protègent contre les épines, les barbes, les piquants, les pics et autres objets nuisibles d'origine florale. Ils sont aussi assez chauds.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -196,7 +196,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesPowerglove
   name: power gloves
-  description: Now I'm playin' with power! Wait... they're turned off. #Use "Now I'm playin' with power! BAM!" for when they're turned on
+  description: "« Now I'm playin' with power! » Attendez... ils sont éteints." #Use "Now I'm playin' with power! BAM!" for when they're turned on
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/powerglove.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesRobohands
-  name: robohands gloves
-  description: Beep boop borp!
+  name: gants robohands
+  description: Bip boup borp !
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/robohands.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseToggleClothing, BaseHighlyIllegalContraband]
   id: ClothingHandsGlovesSpaceNinja
-  name: space ninja gloves
-  description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
+  name: gants de ninja spatial
+  description: Ces gants noirs améliorés aux nano-technologies isolent de l'électricité et offrent une résistance au feu.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/spaceninja.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: [ClothingHandsGlovesColorBlack, BaseSecurityEngineeringCargoContraband] #goob, was parented to BaseSecurityEngineeringContraband
   id: ClothingHandsGlovesCombat
-  name: combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: gants de combat
+  description: Ces gants tactiques sont ignifuges et résistants aux chocs électriques.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/combat.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
-  name: tactical maid gloves
-  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals.
+  name: gants de maid tactiques
+  description: Des gants de maid tactiques, toute maid qui se respecte devrait être capable d'éliminer discrètement ses objectifs.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: [ BaseSecurityCargoContraband, ClothingHandsGlovesCombat ]
   id: ClothingHandsMercGlovesCombat
-  name: mercenary combat gloves
-  description: High-quality combat gloves to protect hands from mechanical damage during combat.
+  name: gants de combat de mercenaire
+  description: Des gants de combat de haute qualité pour protéger les mains des dommages mécaniques au combat.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercbattle.rsi
@@ -340,8 +340,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesFingerless
-  name: fingerless gloves
-  description: Plain black gloves without fingertips for the hard working.
+  name: gants sans doigts
+  description: Des gants noirs ordinaires sans embouts pour les travailleurs acharnés.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerless.rsi
@@ -358,8 +358,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessInsulated
-  name: fingerless insulated gloves
-  description: Insulated gloves resistant to shocks, or at least they used to.
+  name: gants sans doigts isolants
+  description: Des gants isolants résistants aux chocs, ou du moins ils l'étaient avant.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
@@ -405,17 +405,17 @@
 - type: entity
   parent: ClothingHandsGlovesColorWhite
   id: ClothingHandsGlovesCluwne
-  name: cluwne hands
+  name: mains de cluwne
   suffix: Unremoveable
-  description:  A cursed pair of cluwne hands.
+  description: Une paire de mains de cluwne maudites.
   components:
   - type: Unremoveable
 
 - type: entity
   parent: [ ClothingHandsButcherable, BaseMagicalContraband ] # goob edit - it's now magical contra
   id: ClothingHandsGlovesNorthStar
-  name: gloves of the north star
-  description: Just looking at these fills you with an urge to beat the shit out of people.
+  name: gants de l'étoile du nord
+  description: Rien qu'en les regardant, vous avez une envie de tabasser des gens.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/northstar.rsi
@@ -456,8 +456,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseSecurityContraband]
   id: ClothingHandsGlovesForensic
-  name: forensic gloves
-  description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
+  name: gants judiciaires
+  description: Ne laisse pas de fibres ou d'empreintes digitales. Si vous travaillez sans eux, vous êtes UN HORRIBLE DÉTECTIVE.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/forensic.rsi
@@ -472,8 +472,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesJanitor
-  name: rubber gloves
-  description: High-quality rubber gloves, squeaky to do some cleaning!
+  name: gants en caoutchouc
+  description: Des gants en caoutchouc de haute qualité, qui crissent quand on les utilise pour nettoyer !
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/janitor.rsi

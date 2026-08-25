@@ -3,8 +3,8 @@
 - type: entity
   id: StationAnchorBase
   abstract: true
-  name: station anchor
-  description: Prevents stations from moving.
+  name: ancrage de station
+  description: Empêche les stations de bouger.
   suffix: On
   placement:
     mode: AlignTileAny
@@ -54,7 +54,7 @@
 - type: entity
   id: StationAnchorIndestructible
   parent: StationAnchorBase
-  suffix: Indestructible, Unpowered
+  suffix: Indestructible, Non alimenté
 
 - type: entity
   id: StationAnchor
@@ -122,7 +122,7 @@
 - type: entity
   parent: StationAnchor
   id: StationAnchorOff
-  suffix: Off
+  suffix: Désactivé
   components:
   - type: StationAnchor
     switchedOn: false

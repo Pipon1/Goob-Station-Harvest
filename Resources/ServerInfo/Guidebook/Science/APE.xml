@@ -5,21 +5,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <Document>
 # A.P.E.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+L'Émetteur de Particules Anomales est une machine pour interagir avec les anomalies. C'est le moyen principal de manipuler les stats d'une anomalie.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can shoot four different kinds of anomalous particles: Delta, Epsilon, Sigma and Zeta. Each particle type has certain effects:
+L'A.P.E. peut tirer quatre types de particules anomales : Delta, Epsilon, Sigma et Zêta. Chaque type a certains effets :
 
-- [color=crimson]Danger:[/color] Increases the severity of an anomaly.
-- [color=plum]Unstable:[/color] Increases the instability of an anomaly.
-- [color=goldenrod]Containment:[/color] Increases anomaly stability at the cost of its health - if an anomaly is struck by too many containment particles, it will collapse, leaving behind an anomaly core.
-- [color=#6b75fa]Transformation:[/color] Increases anomaly severity with a chance of changing its behavior.
+- [color=crimson]Danger :[/color] Augmente la sévérité d'une anomalie.
+- [color=plum]Instable :[/color] Augmente l'instabilité d'une anomalie.
+- [color=goldenrod]Contenement :[/color] Augmente la stabilité de l'anomalie au coût de sa santé - si une anomalie est frappée par trop de particules de contenement, elle s'effondre, laissant un noyau d'anomalie.
+- [color=#6b75fa]Transformation :[/color] Augmente la sévérité de l'anomalie avec une chance de changer son comportement.
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+Le type de particule correspondant à chaque effet est unique et s'apprend en scannant l'anomalie.
 
-The A.P.E. can also be locked by anyone with science access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+L'A.P.E. peut aussi être verrouillé par quiconque a l'accès science, ce qui empêche sa déconstruction, sa mise en marche/arrêt, ou le changement de type de particule.
 
 </Document>

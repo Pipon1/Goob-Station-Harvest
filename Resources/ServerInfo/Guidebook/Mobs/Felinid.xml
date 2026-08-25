@@ -3,26 +3,26 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Felinid
+  # Féline
 
   <Box>
     <GuideEntityEmbed Entity="MobFelinid" Caption=""/>
   </Box>
-  
-  Felinids are a mutation of humans, sporting their signature ears and tail from your favourite japanese cartoons.
-  They have a keen sixth sense to landing and [color=#1e90ff]take 80% less damage from falling or high speed impacts.[/color]
-  They will also be slowed down less when injured
-  
-  They will slash with their claws instead of using their fists, dealing [color=#ec3a3a]Slashing[/color] and [color=#ec3a3a]Piercing[/color] damage.
-  
-  ## Ew, Hairballs
+
+  Les Féline sont une mutation d'humains, arborant leurs oreilles et queue signature de vos dessins animés japonais préférés.
+  Ils ont un sixième sens aigu pour les atterrissages et [color=#1e90ff]subissent 80 % de dégâts en moins des chutes ou impacts à grande vitesse.[/color]
+  Ils seront aussi moins ralenti quand blessés
+
+  Ils griffent avec leurs griffes au lieu d'utiliser leurs poings, infligeant des dégâts [color=#ec3a3a]Tranchants[/color] et [color=#ec3a3a]Perforants[/color].
+
+  ## Berk, Boules de poils
   <Box>
     <GuideEntityEmbed Entity="Hairball" Caption=""/>
 	<GuideEntityEmbed Entity="MobMouse" Caption=""/>
   </Box>
-  
-  They are also capable of eating live rats, which will allow them to cough up a disgusting hairball.
-  Be careful when touching them, as they can [color=#ffa500]cause you to throwup when held.[/color]
-  Felinids will use this to their advantage to gross out adversaries
-  
+
+  Ils sont aussi capables de manger des rats vivants, ce qui leur permet de recracher une boule de poils dégoûtante.
+  Faites attention en les touchant, car ils peuvent [color=#ffa500]vous faire vomir quand on les tient.[/color]
+  Les Féline utiliseront cela à leur avantage pour dégoûter les adversaires
+
 </Document>

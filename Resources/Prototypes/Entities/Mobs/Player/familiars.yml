@@ -4,7 +4,7 @@
   name: Remilia
   parent: MobBat
   id: MobBatRemilia
-  description: The chaplain's familiar. Likes fruit.
+  description: Le familier du chapelain. Aime les fruits.
   components:
   - type: GhostRole
     makeSentient: true
@@ -45,7 +45,7 @@
   name: Cerberus
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: This pupper is not wholesome.
+  description: Ce toutou n'est pas mimi.
   components:
   - type: GhostRole
     makeSentient: true

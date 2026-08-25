@@ -3,9 +3,9 @@
 - type: entity
   id: OrganVoxLungs
   parent: OrganHumanLungs
-  description: "The blue, anaerobic lungs of a vox, they intake nitrogen to breathe. Any form of gaseous oxygen is lethally toxic if breathed in."
+  description: "Les poumons bleus et anaérobies d'un vox, ils absorbent l'azote pour respirer. Toute forme d'oxygène gazeux est mortellement toxique s'il est inhalé."
   suffix: "vox"
-  name: vox lungs # Shitmed
+  name: poumons de vox # Shitmed
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: OrganHumanStomach
   id: OrganVoxStomach
-  name: stomach
-  description: "A stomach that smells of ammonia."
+  name: estomac
+  description: "Un estomac qui sent l'ammoniaque."
   components:
   - type: Metabolizer #Skreeeee!
     metabolizerTypes: [Vox]
@@ -37,8 +37,8 @@
 - type: entity
   parent: OrganHumanLiver
   id: OrganVoxLiver
-  name: liver
-  description: "Smells flammable."
+  name: foie
+  description: "Sent inflammable."
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -48,8 +48,8 @@
 - type: entity
   parent: OrganHumanHeart
   id: OrganVoxHeart
-  name: heart
-  description: "The strange heart of a vox."
+  name: cœur
+  description: "Le cœur étrange d'un vox."
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -59,8 +59,8 @@
 - type: entity
   parent: OrganHumanKidneys
   id: OrganVoxKidneys
-  name: kidney
-  description: "Smells flammable."
+  name: reins
+  description: "Sent inflammable."
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -70,7 +70,7 @@
 - type: entity
   id: OrganVoxEyes
   parent: OrganHumanEyes
-  name: eyes
+  name: yeux
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -81,8 +81,8 @@
 - type: entity
   id: OrganVoxTongueA
   parent: OrganHumanTongue
-  name: tongue
-  description: "A fleshy muscle mostly used for screaming."
+  name: langue
+  description: "Un muscle charnu principalement utilisé pour crier."
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -92,8 +92,8 @@
 - type: entity
   id: OrganVoxTongueB
   parent: OrganHumanTongue
-  name: tongue
-  description: "A fleshy muscle mostly used for screaming."
+  name: langue
+  description: "Un muscle charnu principalement utilisé pour crier."
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi

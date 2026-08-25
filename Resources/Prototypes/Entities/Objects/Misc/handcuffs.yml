@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: handcuffs
-  description: Used to detain criminals and other assholes.
+  name: menottes
+  description: Utilisé pour détenir des criminels et autres connards.
   id: Handcuffs
   parent: [BaseItem, BaseSecurityCommandContraband]
   components:
@@ -45,8 +45,8 @@
     delay: 3
 
 - type: entity
-  name: makeshift handcuffs
-  description: Homemade handcuffs crafted from spare cables.
+  name: menottes artisanales
+  description: Menottes artisanales fabriquées à partir de câbles en rab'.
   id: Cablecuffs
   parent: Handcuffs
   components:
@@ -84,8 +84,8 @@
     color: forestgreen
 
 - type: entity
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
+  name: serre-câbles
+  description: Serre-câbles en plastique résistants et à usage unique, idéaux pour retenir les prisonniers turbulents.
   id: Zipties
   parent: Handcuffs
   components:
@@ -127,8 +127,8 @@
       Plastic: 25
 
 - type: entity
-  name: broken zipties
-  description: These zipties look like they tried to manage the wrong cables.
+  name: serre-câbles cassés
+  description: Ces serre-câbles semblent avoir essayé de gérer les mauvais câbles.
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
@@ -137,8 +137,8 @@
     state: cuff-broken
 
 - type: entity
-  name: broken cables
-  description: These cables are broken in several places and don't seem very useful.
+  name: câbles cassés
+  description: Ces câbles sont cassés en plusieurs endroits et ne semblent pas très utiles.
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
@@ -158,8 +158,8 @@
 - type: entity
   parent: Handcuffs
   id: ClothingOuterStraightjacket
-  name: straitjacket
-  description: Used to restrain those who may cause harm to themselves or others.
+  name: camisole de force
+  description: Utilisée pour maîtriser ceux qui pourraient se faire du mal ou en faire aux autres.
   components:
   - type: Item
     size: Normal

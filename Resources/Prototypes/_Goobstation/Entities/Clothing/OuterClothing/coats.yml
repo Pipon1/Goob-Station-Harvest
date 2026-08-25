@@ -3,8 +3,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseSecurityCommandContraband]
   id: ClothingOuterArmorHoSExperimental
-  name: head of security's experimental armored trenchcoat
-  description: A greatcoat enhanced with an experimental bluespace assisted alloy for some extra protection and style for those with a commanding presence.
+  name: trench-coat blindé expérimental du chef de la sécurité
+  description: Un pardessus amélioré avec un alliage assisté par bluespace expérimental pour une protection et un style supplémentaires pour ceux qui imposent le respect.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Armor/hos_experimental_jacket.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterCoatZeusJacket
-  name: zeus jacket
-  description: Gives you an urge to hurl the nearest pedestrian at a flying helicopter.
+  name: veste de zeus
+  description: Vous donne l'envie de jeter le piéton le plus proche sur un hélicoptère volant.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Misc/mercer_jacket.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDavidsJacket
-  name: EMT jacket
-  description: A bright yellow signal jacket, beloved by paramedics of the end of the 21st century.
+  name: veste SAMU
+  description: Une veste signal jaune vif, chérie par les ambulanciers de la fin du 21e siècle.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/david_jacket.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingOuterDavidsJacket, BaseMajorContraband]
   id: ClothingOuterDavidsJacketValid
-  name: edgerunner jacket
-  description: You're right on the edge. Show 'em you got this.
+  name: veste edgerunner
+  description: Vous êtes juste sur le fil. Montrez-leur que vous maîtrisez.
   components:
   - type: Clothing
     clothingVisuals:
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterStorageBase, BaseWardenContraband]
   id: ClothingOuterCoatWardenBlue
-  name: warden's blue jacket
-  description: A sturdy, utilitarian jacket for those familiar with the brig.
+  name: veste bleue du gardien
+  description: Une veste robuste et utilitaire pour ceux qui connaissent bien le brig.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/wardenblue.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDPurple
-  name: research director's experimental lab coat
-  description: Woven with experimental technology... this labcoat seems no more protective than your usual one. At least it looks nice.
+  name: blouse expérimentale du directeur de recherche
+  description: Tissée avec une technologie expérimentale... cette blouse ne semble pas plus protectrice que l'habituelle. Au moins elle est belle.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/rdaltcoat.rsi
@@ -114,14 +114,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDPurpleOpened
-  name: research director's experimental lab coat
+  name: blouse expérimentale du directeur de recherche
 
 #hop longcoat
 - type: entity
   parent: [ClothingOuterStorageBase, BaseCommandContraband]
   id: ClothingOuterCoatHoPLong
-  name: hop's longcoat
-  description: A smart longcoat for the Head of Personnel.
+  name: long manteau du chef du personnel
+  description: Un élégant long manteau pour le chef du personnel.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/hoplongcoat.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase, BaseCentcommContraband ]
   id: ClothingOuterArmoredJacketOuterCommand
-  name: outer command jacket
-  description: A purple jacket with very fancy elements. There is a Terra-Gov insignia on the back.
+  name: veste de commandement extérieur
+  description: Une veste violette avec des éléments très élaborés. Il y a un insigne Terra-Gov au dos.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/outcommjacket.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase, BaseCentcommContraband ]
   id: ClothingOuterArmoredJacketCentralCommand
-  name: central command jacket
-  description: A formal green coat-like jacket accented with gilded shoulder armor and a high collar.
+  name: veste du commandement central
+  description: Une veste formelle verte type manteau avec une armure d'épaule dorée et un col montant.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/centcommjacket.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase, BaseCentcommContraband ]
   id: ClothingOuterJacketCentralCommandIke
-  name: central command ike jacket
-  description: A utilitarian green-and-black jacket featuring a sharp, military-inspired design, worn within Central Command.
+  name: veste ike du commandement central
+  description: Une veste utilitaire vert et noir avec un design militaire acéré, portée au sein du commandement central.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Coats/centcom_ike.rsi

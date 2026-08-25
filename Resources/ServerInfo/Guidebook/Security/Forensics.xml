@@ -3,48 +3,48 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Forensics
+  # Médecine Légale
 
-  There are a lot of tools to help you gather and examine the evidence at your disposal
+  Y'a plein d'outils pour vous aider à rassembler et examiner les preuves à votre disposition
 
   # LogProbe
 
-  This little add-on to your PDA is incredibly useful, just install the cartridge and your PDA will acquire the ability to scan anything with access (like airlocks) and see who has used them recently.
+  Ce petit add-on pour votre PDA est incroyablement utile, installez la cartouche et votre PDA pourra scanner tout ce qui a un accès (comme les sas) et voir qui les a utilisés récemment.
 
-  You can normally find it inside the detective locker. After inserting it on your PDA, go to the programs tab and the log probe application should be there, to use the application you just have to interact with anything that requires access with your PDA while the application is open and the information will be instantly displayed in it.
+  Vous le trouverez normalement dans le casier détective. Après l'avoir inséré dans votre PDA, allez dans l'onglet programmes et l'application log probe devrait être là. Pour l'utiliser, interagissez avec n'importe quoi nécessitant un accès avec votre PDA pendant que l'application est ouverte et les infos s'afficheront instantanément.
 
-  It should be noted that the name shown in the application is not to be trusted 100% of the time since it gets the name from the identification card of whoever used the thing we are scanning, so if for example someone opened an airlock with no card the application would display "Unknown" as the name.
+  Noter que le nom affiché dans l'application n'est pas fiable à 100% car il récupère le nom de la carte d'identité de qui a utilisé le truc scanné, donc si quelqu'un a ouvert un sas sans carte, l'application affichera "Inconnu" comme nom.
 
   <Box>
     <GuideEntityEmbed Entity="LockerDetective"/>
     <GuideEntityEmbed Entity="LogProbeCartridge"/>
   </Box>
 
-  # DNA and Fingerprints
+  # ADN et Empreintes
 
-  ## How to get someone’s DNA?
+  ## Comment avoir l'ADN de quelqu'un ?
 
-  You can scan blood puddles, vomit, glasses, bottles, cans and other liquid containers using the [color=#a4885c]forensic scanner[/color] to get DNA of any person.
+  Vous pouvez scanner des flaques de sang, vomi, verres, bouteilles, canettes et autres contenants liquides avec le [color=#a4885c]scanner médico-légal[/color] pour avoir l'ADN de n'importe qui.
   <Box>
     <GuideEntityEmbed Entity="ForensicScanner"/>
   </Box>
-  So be careful before fighting with someone.
+  Donc faites gaffe avant de vous bastonner avec quelqu'un.
 
-   That same forensic scanner can also get fingerprint information about who touched pretty much any object. If the possible perpetrator was using gloves, then your scanner will print out which fibers were left on the crime scene.
+   Ce même scanner médico-légal peut aussi récupérer des infos d'empreintes sur qui a touché à peu près n'importe quel objet. Si le coupable potentiel portait des gants, votre scanner affichera quelles fibres ont été laissées sur la scène de crime.
 
-  ## I got DNA. How do I recognize whose it is?
+  ## J'ai l'ADN. Comment je sais à qui il est ?
 
-  You can print the forensic information of the object you scanned so you never miss it. Now with the paper containing DNA you can simply find a [color=#a4885c]Station Records Computer[/color] and look for a person whose DNA matches. Same applies to finding whose fingerprint it is.
+  Vous pouvez imprimer les infos médico-légales de l'objet scanné pour jamais les perdre. Maintenant avec le papier contenant l'ADN, trouvez juste un [color=#a4885c]Ordi Archives Station[/color] et cherchez une personne dont l'ADN matche. Pareil pour trouver à qui sont les empreintes.
 
-  ## Taking Fingerprints
-  It is also possible to take someone's fingerprints while on scene if you make them take off their gloves and apply a forensic pad to their fingers. No need to run back to [color=#a4885c]Station Records Computer[/color] to check if the butler did it!
+  ## Prendre des Empreintes
+  C'est aussi possible de prendre les empreintes de quelqu'un sur place si vous lui faites enlever ses gants et appliquez un tampon médico-légal sur ses doigts. Pas besoin de retourner à l'[color=#a4885c]Ordi Archives Station[/color] pour checker si c'est le majordome qui l'a fait !
 
   <GuideEntityEmbed Entity="ForensicPad"/>
 
-  ## Fibers
-  Whenever people wearing gloves touch anything on the station, they are bound to leave behind some fibers. This complicates things, but nothing is unsolvable for a real detective.
+  ## Fibres
+  Quand des gens avec gants touchent quoi que ce soit sur la station, ils laissent inévitablement des fibres derrière eux. Ça complique les choses, mais rien n'est insoluble pour un vrai détective.
 
-  There are up to [color=red]26[/color] different types of fibers possible. Can that stop you from solving the case?
+  Y'a jusqu'à [color=red]26[/color] types de fibres différents possibles. Ça peut vous arrêter de résoudre l'affaire ?
 
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>

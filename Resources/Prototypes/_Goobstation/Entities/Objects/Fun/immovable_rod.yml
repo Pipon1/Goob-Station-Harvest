@@ -3,7 +3,7 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodSkibidi
-  name: immovable Skibidi
+  name: Skibidi inamovible
   description: skibidi dob dob yes yes
   components:
   - type: Sprite

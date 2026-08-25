@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseStructureDynamic, ConstructibleMachine]
   id: SmartFridge
-  name: SmartFridge
-  description: A refrigerated storage unit for keeping items cold and fresh.
+  name: frigo intelligent
+  description: Une unité de stockage réfrigérée pour garder les objets au froid et au frais.
   components:
   - type: StationAiWhitelist
   - type: Vocalizer

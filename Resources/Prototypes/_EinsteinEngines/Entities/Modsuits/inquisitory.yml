@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitInquisitory
-  name: Inquisitory modsuit control unit
-  description: The main controller for a Inquisitory modsuit.
+  name: unité de contrôle de combimod Inquisitoire
+  description: "Le contrôleur principal d'une combimod Inquisitoire."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/NanoTrasen/Modsuits/inquisitory.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsInquisitory
-  name: Inquisitory modsuit gauntlets
-  description: A pair of gauntlets made for the Inquisitory modsuit.
+  name: gantelets de combimod Inquisitoire
+  description: Une paire de gantelets conçus pour la combimod Inquisitoire.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetInquisitory
-  name: Inquisitory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Inquisitory modsuit. It includes a built-in HUD.
+  name: casque de combimod Inquisitoire
+  description: Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Inquisitoire. Il inclut un HUD intégré.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateInquisitory
-  name: Inquisitory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Inquisitory modsuit. It incorporates powered servos to reduce the equipment load.
+  name: plastron de combimod Inquisitoire
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Inquisitoire. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsInquisitory
-  name: Inquisitory modsuit boots
-  description: A state-of-the-art pair of magboots for the Inquisitory modsuit.
+  name: bottes de combimod Inquisitoire
+  description: Une paire de magbottes à la pointe de la technologie pour la combimod Inquisitoire.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -168,7 +168,7 @@
 - type: entity
   id: SuitStorageInquisitory
   parent: SuitStorageBase
-  suffix: Inquisitory Modsuit
+  suffix: Combimod Inquisitoire
   components:
     - type: StorageFill
       contents:

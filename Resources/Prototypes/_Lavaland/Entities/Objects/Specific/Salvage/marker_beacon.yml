@@ -1,8 +1,8 @@
 - type: entity
   id: MarkerBeacon
   parent: BaseItem
-  name: marker beacon
-  description: Shines you the way through the darkness. Useful to not get lost on vast landscapes.
+  name: balise de repérage
+  description: Vous Illumine le chemin à travers l'obscurité. Utile pour ne pas se perdre dans les vastes étendues.
   suffix: Unanchored
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseAmmoProvider # this is for cycling swabs out and not spawning 30 entities, trust
   id: BoxMarkerBeacons
-  name: marker beacon dispenser
-  description: Dispenses 30 marker beacons, extremely useful for space and planet exploration.
+  name: distributeur de balises de repérage
+  description: Distribue 30 balises de repérage, extrêmement utile pour l'exploration spatiale et planétaire.
   components:
   - type: Sprite
     layers:

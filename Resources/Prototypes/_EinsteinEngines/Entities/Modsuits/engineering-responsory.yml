@@ -4,8 +4,8 @@
 - type: entity
   parent: [ ClothingModsuitStandard, BaseCentcommContraband ]
   id: ClothingModsuitResponsoryEngineering
-  name: Engineering Responsory modsuit control unit
-  description: The main controller for a Engineering Responsory modsuit.
+  name: "unité de contrôle de combimod Responsory d'Ingénierie"
+  description: "Le contrôleur principal d'une combimod Responsory d'Ingénierie."
   components:
     - type: Sprite
       sprite: _EinsteinEngines/Clothing/NanoTrasen/Modsuits/engineering-responsory.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsResponsoryEngineering
-  name: Engineering Responsory modsuit gauntlets
-  description: A pair of gauntlets made for the Engineering Responsory modsuit.
+  name: "gantelets de combimod Responsory d'Ingénierie"
+  description: "Une paire de gantelets conçus pour la combimod Responsory d'Ingénierie."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -61,8 +61,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetResponsoryEngineering
-  name: Engineering Responsory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Engineering Responsory modsuit. It includes a built-in HUD.
+  name: "casque de combimod Responsory d'Ingénierie"
+  description: "Un casque à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory d'Ingénierie. Il inclut un HUD intégré."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateResponsoryEngineering
-  name: Engineering Responsory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Engineering Responsory modsuit. It incorporates powered servos to reduce the equipment load.
+  name: "plastron de combimod Responsory d'Ingénierie"
+  description: "Un plastron à la pointe de la technologie conçu par NanoTrasen pour la combimod Responsory d'Ingénierie. Il intègre des servos motorisés pour réduire la charge de l'équipement."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsResponsoryEngineering
-  name: Engineering Responsory modsuit boots
-  description: A state-of-the-art pair of magboots for the Engineering Responsory modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: "bottes de combimod Responsory d'Ingénierie"
+  description: "Une paire de magbottes à la pointe de la technologie pour la combimod Responsory d'Ingénierie. Tant que la combinaison est alimentée, celles-ci ne ralentiront pas le porteur."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -178,7 +178,7 @@
 - type: entity
   id: SuitStorageResponsoryEngineering
   parent: SuitStorageBase
-  suffix: Engineering Responsory Modsuit
+  suffix: "Combimod Responsory d'Ingénierie"
   components:
     - type: StorageFill
       contents:

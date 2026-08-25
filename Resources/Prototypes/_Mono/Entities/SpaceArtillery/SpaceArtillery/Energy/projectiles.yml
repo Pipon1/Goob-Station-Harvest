@@ -2,7 +2,7 @@
 
 - type: entity
   id: ShipMediumPlasmaProjectile
-  name: plasma projectile
+  name: projectile de plasma
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -40,7 +40,7 @@
 
 - type: entity
   id: ShipRubiconProjectile
-  name: EMP projectile
+  name: projectile EMP
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   id: ShipDymereProjectile
-  name: Ionized Gas Projectile
+  name: projectile de gaz ionisé
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

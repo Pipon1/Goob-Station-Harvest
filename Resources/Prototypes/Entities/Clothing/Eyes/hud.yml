@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
-  name: diagnostic hud
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: ath de diagnostique
+  description: Un affichage tête-haute capable d'analyser l'intégrité et le statut de la robotique et des combinaisons exosquelettiques. Fait de sea-borg-ium.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diag.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedical
-  name: medical hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+  name: ath médical
+  description: Un affichage tête-haute qui scanne les humanoides en vue et fournit des données précises sur leur état de santé.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesHudSecurity
-  name: security hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  name: ath de sécurité
+  description: Un affichage tête-haute qui scanne les humanoides en vue et fournit des données précises sur leur statut d'identification et leurs antécédents de sécurité.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesHudCommand
-  name: administration hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
+  name: ath administratif
+  description: Un affichage tête-haute qui scanne les humanoides en vue et fournit des données précises sur leur statut d'identification.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/command.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudBeer
-  name: beer goggles
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+  name: lunettes de bière
+  description: Une paire de lunettes de soleil équipées d'un appareil pour scanner les boissons, tout en fournissant une compréhension innée de la viscosité des liquides en mouvement.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beergoggles.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudFriedOnion
-  name: fried onion goggles
+  name: lunettes d'oignon frit
   description: Filler
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudOnionBeer
-  name: thungerst goggles
+  name: lunettes thungerst
   description: Filler
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnion
-  name: medonion hud
+  name: ath médoignon
   description: Filler
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnionBeer
-  name: medthungerst hud
+  name: ath médthunger
   description: Filler
   components:
   - type: Sprite
@@ -171,7 +171,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseSecurityCommandContraband]
   id: ClothingEyesHudMedSec
-  name: medsec hud
+  name: ath médséc
   description: An eye display that looks like a mixture of medical and security huds.
   components:
   - type: Sprite
@@ -188,7 +188,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudMultiversal
-  name: multiversal hud
+  name: ath multiversel
   description: Filler
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudOmni
-  name: omni hud
+  name: omni ath
   description: Filler
   components:
   - type: Sprite
@@ -222,8 +222,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseSyndicateContraband] # Goob edit
   id: ClothingEyesHudSyndicate
-  name: syndicate visor
-  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  name: visière du Syndicat
+  description: L'affichage tête-haute professionnel du Syndicat, conçu pour une meilleure détection des humanoides et leur élimination ultérieure.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/synd.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: [ClothingEyesHudSyndicate, ShowMedicalIcons] # Goob edit
   id: ClothingEyesHudSyndicateAgent
-  name: syndicate medical visor
-  description: The Syndicate Corpsman's professional heads-up display, designed for quick diagnosis of their team's status.
+  name: visière médicale du Syndicat
+  description: L'affichage tête-haute professionnel du brancardier du Syndicat, conçu pour un diagnostic rapide du statut de son équipe.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: [ClothingEyesHudMedical, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudMedical
-  name: medical hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
+  name: cache-oeil médical
+  description: Un cache-œil qui scanne les humanoides en vue et fournit des données précises sur leur état de santé. Pour les vrais patriotes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medpatch.rsi
@@ -281,13 +281,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudMedical, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudMedicalFlipped
-  name: medical hud eyepatch
+  name: cache-oeil ath médical
 
 - type: entity
   parent: [ClothingEyesHudSecurity, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudSecurity
-  name: security hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records. For true patriots.
+  name: cache-œil de sécurité
+  description: Un cache-œil qui scanne les humanoides en vue et fournit des données précises sur leur statut d'identification et leurs antécédents de sécurité. Pour les vrais patriotes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
@@ -302,13 +302,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudSecurity,  ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudSecurityFlipped
-  name: security hud eyepatch
+  name: ath de sécurité
 
 - type: entity
   parent: [ClothingEyesHudBeer, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudBeer
-  name: beer hud eyepatch
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion. For true patriots.
+  name: cache-œil de bière
+  description: Un cache-œil de soleil équipé d'un appareil pour scanner les réactifs, tout en fournissant une compréhension innée de la viscosité des liquides en mouvement. Pour les vrais patriotes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beerpatch.rsi
@@ -318,13 +318,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudBeer, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudBeerFlipped
-  name: beer hud eyepatch
+  name: cache-œil de bière
 
 - type: entity
   parent: [ClothingEyesHudDiagnostic, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudDiag
-  name: diagnostic hud eyepatch
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: cache-œil de diagnostique
+  description: Un cache-œil capable d'analyser l'intégrité et le statut de la robotique et des combinaisons exosquelettiques. Fait de sea-borg-ium. Pour les vrais patriotes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diagpatch.rsi
@@ -334,4 +334,4 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudDiagFlipped
-  name: diagnostic hud eyepatch
+  name: cache-œil de diagnostique

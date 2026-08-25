@@ -2,7 +2,7 @@
   id: ProjectileRudeBuster
   parent: BaseBullet
   name: rude buster
-  description: Strong magical projectile, that focuses all of the user's will into a single powerful blow.
+  description: Projectile magique puissant, qui concentre toute la volonté de l'utilisateur en un seul coup dévastateur.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

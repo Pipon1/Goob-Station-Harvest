@@ -3,19 +3,18 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Signal Valve
-  The signal valve is a valve that can be controlled via [textlink="signals." link="Networking"]
+  # Vanne Signal
+  La vanne signal est une vanne contrôlable via [textlink="signaux." link="Networking"]
   <Box>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
   </Box>
 
-  The signal valve is similar to the manual valve. Gas can flow unrestricted in both directions and it can be operated manually.
+  La vanne signal est similaire à la vanne manuelle. Le gaz peut circuler librement dans les deux sens et elle peut être actionnée manuellement.
 
-  The signal valve has 3 [textlink="signal" link="Networking"] inputs, which can open, close, or toggle the valve.
+  La vanne signal a 3 entrées de [textlink="signal" link="Networking"], qui peuvent ouvrir, fermer, ou basculer la vanne.
 
-  Signal valves can be used in a variety of applications, for example:
-  - Remote control of valves in hazardous areas or areas inaccessible to crew
-  - Convenient control over a valve in a hard-to-reach area
-  - Automation with other [textlink="signal-enabled" link="Networking"] machines and equipment such as [textlink="air alarms" link="AirAlarms"] and remote signalers
-
+  Les vannes signal peuvent servir dans plein d'applications, par exemple :
+  - Contrôle à distance de vannes dans zones dangereuses ou inaccessibles à l'équipage
+  - Contrôle pratique d'une vanne dans un endroit difficile d'accès
+  - Automatisation avec d'autres machines et équipements [textlink="à signaux" link="Networking"] comme les [textlink="alarmes air" link="AirAlarms"] et télécommandes à signaux
 </Document>

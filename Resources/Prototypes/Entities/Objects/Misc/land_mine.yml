@@ -66,7 +66,7 @@
 
 - type: entity
   id: LandMineKickUnarmed
-  name: kick mine
+  name: mine coup de pied
   parent: BaseLandMine
   components:
   - type: GhostKickOnTrigger
@@ -84,8 +84,8 @@
   - type: Armable
 
 - type: entity
-  name: modular mine
-  description: This bad boy could be packing any number of dangers. Or a bike horn.
+  name: mine modulaire
+  description: Ce truc peut contenir un nombre quelconque de dangers. Ou un klaxon de vélo.
   parent: BaseLandMine
   id: LandMineModularUnarmed
   components:
@@ -105,7 +105,7 @@
   - type: Armable
 
 - type: entity
-  name: explosive mine
+  name: mine explosive
   parent: BaseLandMine
   id: LandMineExplosiveUnarmed
   components:

@@ -1,7 +1,7 @@
 - type: entity
   id: ChemistryBottleFormaldehyde
   suffix: formaldehyde
-  name: embalming fluid bottle
+  name: bouteille de fluide d'embaumement
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -17,8 +17,8 @@
 - type: entity
   id: CrateMorgue
   parent: CrateMedical
-  name: morgue supplies
-  description: Contains 1x bible, 1x syringe, 2x "embalming fluid bottle", 10x body bag, 1x coffin.
+  name: fournitures de morgue
+  description: Contient 1x bible, 1x seringue, 2x "bouteille de fluide d'embaumement", 10x sac mortuaire, 1x cercueil.
   components:
   - type: StorageFill
     contents:

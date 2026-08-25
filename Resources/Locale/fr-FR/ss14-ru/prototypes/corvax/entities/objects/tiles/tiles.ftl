@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+ent-FloorTileItemWoodParquet = parquet en bois
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodBlack = plancher en bois noir
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodDark = plancher en bois foncé
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodLight = plancher en bois blanc
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodRed = plancher en bois rouge
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodLargeBlack = grand plancher en bois noir
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodLargeDark = grand plancher en bois foncé
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodLargeLight = grand plancher en bois blanc
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodLargeRed = grand plancher en bois rouge
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodParquetBlack = parquet en bois noir
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodParquetDark = parquet en bois foncé
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodParquetLight = parquet en bois blanc
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodParquetRed = parquet en bois rouge
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodChess = plancher en bois à damier
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodChessBlack = plancher en bois à damier noir
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodChessDark = plancher en bois à damier foncé
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodChessLight = plancher en bois à damier blanc
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemWoodChessRed = plancher en bois à damier rouge
+    .desc = { ent-FloorTileItemBase.desc }
+    

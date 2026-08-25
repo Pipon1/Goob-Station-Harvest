@@ -2,7 +2,7 @@
   parent: MobSiliconBase
   id: MobPlantbot
   name: plantbot
-  description: A botanist's best friend!
+  description: "Le meilleur ami d'un botaniste !"
   components:
   - type: Plantbot
   - type: Sprite

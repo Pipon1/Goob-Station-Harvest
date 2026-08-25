@@ -3,14 +3,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Shuttle-craft
+  # Navette
 
-  Shuttle construction is straightforward, albeit rather expensive and hard to pull off within an hour.
+  La construction de navette est simple, quoique plutôt chère et difficile à accomplir en une heure.
 
-  It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+  C'est une bonne activité si vous avez beaucoup de temps libre et envie d'un petit défi.
 
-  ## Getting started
-  <Box>Required parts:</Box>
+  ## Commencer
+  <Box>Pièces requises :</Box>
   <Box>
   <GuideEntityEmbed Entity="Thruster"/>
   <GuideEntityEmbed Entity="Gyroscope"/>
@@ -25,10 +25,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  <Box>Optional parts:</Box>
+  <Box>Pièces optionnelles :</Box>
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="LightTube" Caption="lighting"/>
+  <GuideEntityEmbed Entity="LightTube" Caption="éclairage"/>
   <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
@@ -37,8 +37,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <GuideEntityEmbed Entity="NuclearBomb"/>
   </Box>
 
-  ## Foundation
-  For this step you'll need steel sheets, metal rods, and floor tiles (optional).
+  ## Fondation
+  Pour cette étape, vous aurez besoin de tôles d'acier, de tiges métalliques, et de dalles de sol (optionnel).
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -50,32 +50,32 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Head out into space with steel sheets and metal rods in hand and click on the edge of the station to place lattice.
+  Sortez dans l'espace avec des tôles d'acier et des tiges métalliques en main et cliquez sur le bord de la station pour placer du treillis.
 
-  Place a line of lattice about 3-4 tiles away from the station, then start building a platform with lattice.
+  Placez une ligne de treillis à environ 3-4 dalles de la station, puis commencez à construire une plateforme avec du treillis.
 
-  Keep doing this until you have a platform that is at least 3x3 in size, which is connected to the station via a single lattice line.
+  Continuez jusqu'à avoir une plateforme d'au moins 3x3, connectée à la station par une seule ligne de treillis.
 
-  Once you're finished constructing the base of your shuttle, you can use wirecutters to snip the connecting lattice that joins your new ship and the station.
+  Une fois la base de votre navette finie, vous pouvez utiliser des coupe-câbles pour couper le treillis reliant votre nouveau vaisseau et la station.
 
-  This platform is considered a different grid from the station and thus will not have any gravity or be held in place by a station anchor — it can move around freely.
+  Cette plateforme est considérée comme une grille différente de la station et n'aura donc aucune gravité ni ne sera maintenue en place par une ancre de station — elle peut bouger librement.
 
-  You can expand your lattice platform further by clicking just off the edge with some rods in hand.
+  Vous pouvez agrandir votre plateforme de treillis en cliquant juste au bord avec des tiges en main.
 
-  ## Docking Ports
-  Shuttle airlocks serve as docking ports, where ships can dock to stations safely.
+  ## Ports d'Amarrage
+  Les sas de navette servent de ports d'amarrage, où les vaisseaux peuvent s'amarrer aux stations en sécurité.
 
-  The orientation of docking ports is important, as it determines on which face the shuttle will dock.
+  L'orientation des ports d'amarrage est importante, car elle détermine sur quelle face la navette s'amarrera.
 
-  The little numb on the bottom of the docking port determines the direction of the docking port.
+  La petite bosse sous le port d'amarrage détermine la direction du port.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockShuttle"/>
     <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   </Box>
 
-  ## Directional Control
-  From there, once you have the shape you want, bring out and install thrusters at the edges.
+  ## Contrôle Directionnel
+  Ensuite, une fois que vous avez la forme voulue, sortez et installez des propulseurs aux bords.
 
   <Box>
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="0"/>
@@ -84,28 +84,28 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="270"/>
   </Box>
 
-  It's a good idea to install four thrusters, one on each side of the platform, to ensure you can move in any direction.
+  C'est une bonne idée d'installer quatre propulseurs, un sur chaque côté de la plateforme, pour pouvoir bouger dans n'importe quelle direction.
 
-  They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle.
-  You can rotate thrusters—even anchored ones—using either [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] or [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate clockwise or counterclockwise.
+  Ils doivent pointer vers l'extérieur dans l'espace pour fonctionner et ne tireront pas s'il y a une dalle devant la buse.
+  Vous pouvez faire pivoter les propulseurs — même ancrés — en utilisant soit [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] soit [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] pour pivoter dans le sens horaire ou antihoraire.
 
-  Thrusters can be disabled or enabled using [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand or [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+  Les propulseurs peuvent être désactivés ou activés en utilisant [color=yellow][bold][keybind="Use"][/bold][/color] à mains nues ou [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
 
-  ## Rotational Control
-  Now that you have directional control, you'll need to install a gyroscope to control your rotation.
+  ## Contrôle Rotationnel
+  Maintenant que vous avez le contrôle directionnel, il vous faut installer un gyroscope pour contrôler votre rotation.
 
   <Box>
     <GuideEntityEmbed Entity="Gyroscope"/>
   </Box>
-  The placement of the gyroscope is not as important as the thrusters, but it should be somewhere convenient for you to access and power.
+  Le placement du gyroscope n'est pas aussi critique que les propulseurs, mais il devrait être quelque part de pratique pour vous y accéder et l'alimenter.
 
-  Note for large mass objects, you may need more than one gyroscope to rotate effectively.
+  Notez que pour les objets de grande masse, vous pourriez avoir besoin de plus d'un gyroscope pour tourner efficacement.
 
-  ## Power
-  Now that you have all the systems in place, you'll need to power them.
+  ## Courant
+  Maintenant que tous les systèmes sont en place, il faut les alimenter.
 
-  For small shuttles, a J.R.P.A.C.M.A.N.-type portable generator is a good choice. It provides straight LV power, so you don't have to worry about transformers.
-  Fuel for the generator is also commonly found in maintenance tunnels.
+  Pour les petites navettes, un générateur portable type J.R.P.A.C.M.A.N. est un bon choix. Il fournit du courant BT direct, donc pas besoin de s'embêter avec des transformateurs.
+  Le carburant pour le générateur se trouve aussi souvent dans les tunnels de maintenance.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -116,9 +116,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
   </Box>
 
-  Some stations, however, provide much better generators and compact solutions like the Shuttle APU or the static generator.
-  These output HV and will have to be stepped down to MV and LV.
-  Luckily, these stations also usually provide wallmount substation boards for this purpose.
+  Certaines stations fournissent cependant de bien meilleurs générateurs et solutions compactes comme l'APU Navette ou le générateur statique.
+  Ceux-ci sortent du HT et devront être abaissés en MT et BT.
+  Heureusement, ces stations fournissent aussi généralement des cartes de sous-station murale pour ça.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -132,9 +132,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
   </Box>
 
-  ## Piloting
-  Finally, install the shuttle computer wherever it is convenient and ensure all your thrusters and gyroscopes are receiving power (remember to wire the MV and LV networks!).
-  If they are, congratulations! You should have a functional shuttle!
+  ## Pilotage
+  Finalement, installez l'ordinateur de navette où c'est pratique et assurez-vous que tous vos propulseurs et gyroscopes reçoivent du courant (n'oubliez pas de câbler les réseaux MT et BT !).
+  S'ils le sont, félicitations ! Vous devriez avoir une navette fonctionnelle !
 
-  Making it livable and good-looking is left as an exercise to the reader.
+  La rendre habitable et belle est laissé en exercice au lecteur.
 </Document>

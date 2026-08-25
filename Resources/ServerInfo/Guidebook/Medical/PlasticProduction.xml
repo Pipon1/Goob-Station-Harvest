@@ -1,29 +1,33 @@
-﻿<Document>
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
 
-  # Plastic Sheet Production
+<Document>
+
+  # Production de Feuilles de Plastique
 
   <GuideEntityEmbed Entity="SheetPlastic"/>
 
-  Plastic sheets are versatile synthetic materials used in a wide variety of recipes. While not inherently complex to produce, they require high temperatures and multiple reagents to synthesize correctly.
+  Les feuilles de plastique sont des matériaux synthétiques polyvalents utilisés dans une grande variété de recettes. Bien que pas inhéremment complexe à produire, elles requièrent des températures élevées et plusieurs réactifs pour être synthétisées correctement.
 
-  ## Recipe
+  ## Recette
 
-  To produce [bold]10 Plastic Sheets[/bold], combine the following in a chemical mixer and heat to at least [bold]374 Kelvin[/bold]:
+  Pour produire [bold]10 Feuilles de Plastique[/bold], combinez les suivants dans un mélangeur chimique et chauffez à au moins [bold]374 Kelvin[/bold] :
 
-  — 10 units of [bold]Oil[/bold]
+  — 10 unités de [bold]Huile[/bold]
 
-  — 6 units of [bold]Ash[/bold]
+  — 6 unités de [bold]Cendres[/bold]
 
-  — 4 units of [bold]Sulfuric Acid[/bold]
+  — 4 unités de [bold]Acide Sulfurique[/bold]
 
-  ## Components
+  ## Composants
 
   <GuideReagentEmbed Reagent="Oil"/>
   <GuideReagentEmbed Reagent="Ash"/>
   <GuideReagentEmbed Reagent="SulfuricAcid"/>
 
-  ## Output
+  ## Sortie
 
-  Once complete, Plastic will appear on top of the beaker or ChemMaster. Transfer it to storage or fabrication systems as needed.
+  Une fois terminé, le Plastique apparaîtra au-dessus du bécher ou du ChemMaster. Transférez-le vers le stockage ou les systèmes de fabrication selon besoin.
 
 </Document>

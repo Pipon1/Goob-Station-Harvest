@@ -42,8 +42,8 @@
 - type: entity
   parent: UtensilBase
   id: Fork
-  name: fork
-  description: An eating utensil, perfect for stabbing.
+  name: fourchette
+  description: Ustensile de repas, parfait pour poignarder.
   components:
   - type: Tag
     tags:
@@ -67,8 +67,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: ForkPlastic
-  name: plastic fork
-  description: An eating utensil, perfect for stabbing.
+  name: fourchette en plastique
+  description: Ustensile de repas, parfait pour poignarder.
   components:
   - type: Sprite
     state: plastic_fork
@@ -81,8 +81,8 @@
 - type: entity
   parent: UtensilBase
   id: Spoon
-  name: spoon
-  description: There is no spoon.
+  name: cuillère
+  description: "\"There is no spoon\"."
   components:
   - type: Tag
     tags:
@@ -112,8 +112,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: SpoonPlastic
-  name: plastic spoon
-  description: There is no spoon.
+  name: cuillère en plastique
+  description: "\"There is no spoon\"."
   components:
   - type: Sprite
     state: plastic_spoon
@@ -133,8 +133,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: KnifePlastic
-  name: plastic knife
-  description: That's not a knife. This is a knife.
+  name: couteau en plastique
+  description: "\"That's not a knife. This is a knife.\"."
   components:
   - type: Sprite
     state: plastic_knife
@@ -161,8 +161,8 @@
 - type: entity
   parent: UtensilBase
   id: BarSpoon
-  name: bar spoon
-  description: Your personal helper to mix drinks and changes lives.
+  name: cuillère de bar
+  description: Votre assistant personnel pour mélanger les boissons et qui change des vies.
   components:
   - type: Tag
     tags:

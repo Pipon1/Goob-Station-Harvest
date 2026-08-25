@@ -3,8 +3,8 @@
 - type: entity
   parent: MagazineLightRifleBox # It goes in a saw, its funny.
   id: MagazineFoamBox
-  name: "L6 SAW magazine box (foam dart)"
-  description: Box containing a 100-round belt of linked... foam darts?
+  name: Boîte-chargeur de L6 SAW (fléchettes en mousse)
+  description: Boîte contenant une bande de 100 cartouches reliées de calibre... fléchette en mousse ?
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true

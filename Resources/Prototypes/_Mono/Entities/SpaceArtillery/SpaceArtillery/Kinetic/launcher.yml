@@ -2,9 +2,9 @@
 
 - type: entity
   id: WeaponShuttleKineticL85
-  name: L85 20mm autocannon
+  name: autocanon L85 20mm
   parent: BallisticArtillery
-  description: A cheap and light 20mm autocannon. Can be remotely activated, or linked up to a GCS.
+  description: Un autocanon 20mm bon marché et léger. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 200
@@ -59,9 +59,9 @@
 
 - type: entity
   id: WeaponShuttleKineticDravon
-  name: ADBP-7 DRAVON 57mm Autocannon
+  name: autocanon ADBP-7 DRAVON 57mm
   parent: BallisticArtillery
-  description: A single-barrel autocannon made by Aetherion Dynamics. High fire rate, but relatively low impact. Can be remotely activated, or linked up to a GCS.
+  description: Un autocanon monocanon fabriqué par Aetherion Dynamics. Cadence de tir élevée, mais impact relativement faible. Peut être activé à distance ou relié à un GCS.
   components:
   - type: StaticPrice
     price: 650
@@ -108,9 +108,9 @@
 
 - type: entity
   id: WeaponShuttleKineticAK570
-  name: AK570 90mm heavy autocannon
+  name: autocanon lourd AK570 90mm
   parent: BallisticArtillery
-  description: A dual barrel, heavy autocannon. Can be remotely activated, or linked up to a GCS.
+  description: Un autocanon lourd à double canon. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 725
@@ -162,9 +162,9 @@
 
 - type: entity
   id: WeaponShuttleKineticTarnyx
-  name: ADBX-31 TARNYX 150mm EMP Cannon
+  name: canon EMP ADBX-31 TARNYX 150mm
   parent: BallisticArtilleryUnanchorable
-  description: A heavy EMP Cannon made by Aetherion Dynamics. It can disable massive parts of an enemy ship, making it effective in asymmetric combat. Can be remotely activated, or linked up to a GCS.
+  description: Un canon EMP lourd fabriqué par Aetherion Dynamics. Il peut désactiver de vastes parties d'un vaisseau ennemi, le rendant efficace dans le combat asymétrique. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 3714
@@ -211,9 +211,9 @@
 
 - type: entity
   id: WeaponShuttleKineticCyrexa
-  name: CYREXA 220mm cannon
+  name: canon CYREXA 220mm
   parent: BallisticArtilleryUnanchorable
-  description: A dual barrel, main-battery cannon firing 220mm auto shells with slight reduction in brute strength. Can be remotely activated, or linked up to a GCS.
+  description: Un canon de batterie principale à double canon tirant des obus automatiques de 220mm avec une légère réduction de la force brute. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 13500
@@ -277,9 +277,9 @@
 
 - type: entity
   id: WeaponShuttleKineticHades
-  name: HADES 305mm cannon
+  name: canon HADES 305mm
   parent: BallisticArtilleryUnanchorable
-  description: One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.
+  description: L'une des plus grandes armes cinétiques chimiques du secteur. Sa puissance n'est égalée que par les moteurs de masse comme le M381.
   components:
   - type: ApcPowerReceiver
     powerLoad: 13500
@@ -343,9 +343,9 @@
 
 - type: entity
   id: WeaponShuttleKineticCharon
-  name: M381 CHARON mass driver
+  name: lanceur de masse M381 CHARON
   parent: BallisticArtilleryUnanchorable
-  description: A heavy linear accelerator, capable of devastating targets with kinetic energy. Can be remotely activated, or linked up to a GCS.
+  description: Un accélérateur linéaire lourd, capable de dévaster des cibles avec de l'énergie cinétique. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 1350
@@ -420,9 +420,9 @@
 
 - type: entity
   id: WeaponShuttleKineticBofors
-  name: Bofors 255mm cannon
+  name: canon Bofors 255mm
   parent: BallisticArtilleryUnanchorable
-  description: A single barrelled, heavy artillery cannon. Can be remotely activated, or linked up to a GCS.
+  description: Un canon d'artillerie lourd à canon unique. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 2300
@@ -482,9 +482,9 @@
 
 - type: entity
   id: WeaponShuttleKineticKargil
-  name: Kargil 203mm cannon
+  name: canon Kargil 203mm
   parent: BallisticArtilleryUnanchorable
-  description: A single barrelled, medium-heavy artillery cannon. Can be remotely activated, or linked up to a GCS.
+  description: Un canon d'artillerie mi-lourd à canon unique. Peut être activé à distance ou relié à un GCS.
   components:
   - type: ApcPowerReceiver
     powerLoad: 2200

@@ -1,8 +1,8 @@
 - type: entity
-  name: fruiting cacti
+  name: fruit de cactus
   parent: FoodProduceBase
   id: FoodMealCactusFruit
-  description: A cactus fruit covered in a thick, reddish skin. And some ash.
+  description: Un fruit de cactus recouvert d'une peau épaisse, rougeâtre. Et un peu de cendre.
   components:
   - type: Edible
   - type: FlavorProfile

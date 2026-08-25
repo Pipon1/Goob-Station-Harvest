@@ -91,10 +91,10 @@
       Paper: 25
 
 - type: entity
-  name: paper
+  name: papier
   parent: BasePaper
   id: Paper
-  description: 'A piece of white paper.'
+  description: 'Une feuille de papier blanc.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -124,10 +124,10 @@
   - type: StationAiWhitelist
 
 - type: entity
-  name: paper scrap
+  name: débris de papier
   parent: BasePaper
   id: PaperScrap
-  description: 'A crumpled up piece of white paper.'
+  description: 'Une feuille de papier blanc froissée.'
   components:
   - type: Tag
     tags:
@@ -140,10 +140,10 @@
     - state: scrap
 
 - type: entity
-  name: office paper
+  name: papier de bureau
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: 'Une feuille de papier de bureau ordinaire.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -152,10 +152,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: impression de l'analyseur d'artefacts
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: The readout of a device forgotten to time.
+  description: Le compte rendu d'une machine oubliée.
   components:
   - type: Sprite
     layers:
@@ -179,10 +179,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
+  name: pensées du capitaine
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
+  description: "Une page du journal du capitaine. En lavande luxueuse."
   components:
   - type: Sprite
     layers:
@@ -205,10 +205,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: cargo invoice
+  name: facture de cargo
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: 'Une unité de bureaucratie.'
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   id: PaperNanoTaskItem
   parent: Paper
-  name: NanoTask item
-  description: A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
+  name: objet NanoTâche
+  description: Un objet NanoTâche imprimé. Peut être inséré dans votre PDA pour l'ajouter à vos tâches.
   components:
   - type: Tag
     tags:
@@ -275,8 +275,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: manifeste de prime
+  description: Une étiquette en papier désignant une caisse contenant une prime. La vente d'une caisse avec cette étiquette remplira la prime.
   components:
   - type: Sprite
     layers:
@@ -316,8 +316,8 @@
 - type: entity
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
-  name: salvage job shipment label
-  description: A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
+  name: étiquette d'expédition de prime de récupération
+  description: Une étiquette en papier désignant une caisse contenant une expédition pour effectuer une prime de récupération. La vente d'une caisse avec cette étiquette remplira la prime.
   components:
   - type: Sprite
     layers:
@@ -349,10 +349,10 @@
     price: 0
 
 - type: entity
-  name: character sheet
+  name: feuille de personnage
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: 'Une feuille pour vos personnages de Carps et Crypts.'
   components:
   - type: Paper
     contentSize: 10000
@@ -390,7 +390,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: codes d'authentification nucléaire
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -405,8 +405,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: syndicate codeword
-  description: A leaked codeword to possibly get in touch with the Syndicate.
+  name: mot de code du syndicat
+  description: Un mot de code divulgué permettant éventuellement de prendre contact avec le Syndicat.
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -414,8 +414,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: syndicate codewords registry
-  description: A registry of all active Syndicate codewords.
+  name: registre des mots de code du syndicat
+  description: Un registre de tous les mots de code du syndicat actifs.
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -423,10 +423,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: envelope
+  name: enveloppe
   parent: BaseItem
   id: Envelope
-  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
+  description: 'Une petite enveloppe pour tenir les regards indiscrets éloignés de vos documents sensibles.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

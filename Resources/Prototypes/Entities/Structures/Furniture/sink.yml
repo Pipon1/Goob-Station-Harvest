@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: sink
+  name: évier
   id: SinkEmpty
   suffix: Empty
-  description: The faucets have been tightened to the maximum possible torque but are still known to drip.
+  description: Les robinets ont été serrés au maximum mais gouttent encore.
   placement:
     mode: SnapgridCenter
   components:
@@ -73,7 +73,7 @@
 
 
 - type: entity
-  name: sink
+  name: évier
   id: Sink
   parent: SinkEmpty
   suffix: Water
@@ -88,7 +88,7 @@
           Quantity: 9999999
 
 - type: entity
-  name: wide sink
+  name: évier large
   id: SinkWide
   parent: Sink
   components:
@@ -107,7 +107,7 @@
 #Stemless Sink
 
 - type: entity
-  name: sink
+  name: évier sans pied
   id: SinkStemless
   parent: SinkEmpty
   components:
@@ -120,7 +120,7 @@
         visible: false
 
 - type: entity
-  name: sink
+  name: évier sans pied
   id: SinkStemlessWater
   parent: SinkStemless
   suffix: Water

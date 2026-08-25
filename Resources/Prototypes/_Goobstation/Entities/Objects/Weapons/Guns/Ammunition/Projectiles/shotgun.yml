@@ -5,7 +5,7 @@
 
 - type: entity
   id: HighCaliberPelletShotgun
-  name: pellet (8 Gauge carpshot)
+  name: plomb (8 Gauge carpshot)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   id: HighCaliberPelletShotgunIncendiary
-  name: pellet (8 Gauge incendiary)
+  name: plomb (8 Gauge incendiaire)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
@@ -61,7 +61,7 @@
 
 - type: entity
   id: HighCaliberPelletShotgunPractice
-  name: pellet (8 Gauge practice)
+  name: plomb (8 Gauge entraînement)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -87,7 +87,7 @@
 
 - type: entity
   id: HighCaliberPelletShotgunUranium
-  name: pellet (8 Gauge uranium)
+  name: plomb (8 Gauge uranium)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -114,7 +114,7 @@
 
 - type: entity
   id: PelletShotgunSlugHighCaliber
-  name: pellet (8 Gauge slug)
+  name: plomb (8 Gauge slug)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -128,7 +128,7 @@
 
 - type: entity
   id: BulletSlugEnsnaring
-  name: bullet (8 Gauge ensnaring slug)
+  name: balle (8 Gauge slug ralentissant)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -152,7 +152,7 @@
 
 - type: entity
   id: BulletSlugEMP
-  name: bullet (8 Gauge EMP slug)
+  name: balle (8 Gauge slug EMP)
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -179,7 +179,7 @@
 
 - type: entity
   id: BulletSlugFlash
-  name: bullet (8 Gauge flash slug)
+  name: balle (8 Gauge slug flash)
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -206,7 +206,7 @@
 
 - type: entity
   id: BulletSlugBeanbagHighCaliber
-  name: beanbag (8 Gauge)
+  name: sachet (8 Gauge)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -222,7 +222,7 @@
 
 - type: entity
   id: BulletShotgunHeavySlugSarin
-  name: bullet (8 Gauge Sarin)
+  name: balle (8 Gauge Sarin)
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -247,7 +247,7 @@
 # Pellet
 - type: entity
   id: BulletPelletHeavyHighExplosive
-  name: pellet (2 gauge)
+  name: plomb (2 gauge)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   components:
@@ -268,7 +268,7 @@
 # Basically copies explosive grenades, I did not parent directly because animation caused the shrapnel to spawn with an error texture.
 - type: entity
   id: BulletShrapnelHeavyHighExplosive
-  name: explosive shrapnel
+  name: shrapnel explosif
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   components:
@@ -360,7 +360,7 @@
 # MP-APERS
 - type: entity
   id: HighCaliberPelletGrenade
-  name: pellet (MP-APERS)
+  name: plomb (MP-APERS)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:

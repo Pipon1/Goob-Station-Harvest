@@ -3,8 +3,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodCottonBun
-  name: cotton bun
-  description: A cotton hamburger bun. Soft, round and convenient to hold.
+  name: petit pain en coton
+  description: Un bun pour hamburger en coton. Doux, rond et pratique à tenir.
   components:
   - type: Edible
     requiresSpecialDigestion: true
@@ -38,8 +38,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodCottonBunBottom
-  name: cotton bottom bun
-  description: It's time for moths to experience the burger tower.
+  name: bun de coton du bas
+  description: C'est le moment que les mites découvrent la tour de burger.
   components:
   - type: Item
     size: Normal #patch until there is an adequate resizing system in place
@@ -82,8 +82,8 @@
 - type: entity
   parent: FoodBreadSliceBase
   id: FoodCottonBunTop
-  name: cotton top bun
-  description: The perfect finish for your fibrous burger tower.
+  name: bun de coton du haut
+  description: La finition parfaite pour votre tour de burger fibreuse.
   components:
   - type: Edible
     requiresSpecialDigestion: true

@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: pickaxe
+  name: pioche
   parent: BaseItem
   id: Pickaxe
-  description: Notched to perfection, for jamming it into rocks.
+  description: Crantée à la perfection, pour l'enfoncer dans les rochers.
   components:
   - type: Tag
     tags:
@@ -45,10 +45,10 @@
       Wood: 125
 
 - type: entity
-  name: mining drill
+  name: foreuse minière
   parent: BaseItem
   id: MiningDrill
-  description: Powerful tool used to quickly drill through rocks.
+  description: Outil puissant utilisé pour percer rapidement les rochers.
   components:
   - type: Item
     storedRotation: -90
@@ -78,10 +78,10 @@
       Plastic: 25
 
 - type: entity
-  name: diamond tipped mining drill
+  name: foreuse minière à pointe de diamant
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: A significantly more efficient mining drill tipped with diamond.
+  description: Une foreuse minière nettement plus efficace, dotée d'une pointe en diamant.
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi

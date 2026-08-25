@@ -3,8 +3,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseSecurityContraband, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesMedSec
-  name: medical security glasses
-  description: Sunglasses with a medical and security hud
+  name: lunettes de sécurité médicales
+  description: Lunettes de soleil avec un HUD médical et sécurité.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/medsecglasses.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesPrescriptionGlasses
-  name: prescription glasses
-  description: Your insurance doesn't cover these. Don't lose them.
+  name: lunettes de vue
+  description: Votre assurance ne les couvre pas. Ne les perdez pas.
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesBroken
-  name: broken glasses
-  description: My glasses! I can't see without my glasses!
+  name: lunettes cassées
+  description: Mes lunettes ! Je n'y vois rien sans mes lunettes !
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/brokenglasses.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: [ClothingEyesBase, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesDiag
-  name: diagnostic glasses
-  description: Sunglasses with a diagnostic hud.
+  name: lunettes de diagnostic
+  description: Lunettes de soleil avec un HUD de diagnostic.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/diagglasses.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesMed
-  name: medical glasses
-  description: Sunglasses with a medical hud.
+  name: lunettes médicales
+  description: Lunettes de soleil avec un HUD médical.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/medglasses.rsi
@@ -109,9 +109,9 @@
 - type: entity
   parent: [ClothingEyesHudOmni, BaseCentcommContraband]
   id: ClothingEyesGlassesDeathsquad
-  suffix: DO NOT MAP
-  name: central commander shades
-  description: Pride. Hubris. Wrath. It's not a sin if you're right.
+  suffix: NE PAS PLACER
+  name: lunettes du commandant central
+  description: Fierté. Hubris. Colère. Ce n'est pas un péché si vous avez raison.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/deathsquad.rsi
@@ -142,9 +142,9 @@
 - type: entity
   parent: [ClothingEyesHudOmni, BaseCentcommContraband]
   id: ClothingEyesGlassesCentComm
-  suffix: DO NOT MAP
-  name: central command shades
-  description: A pair of shades designed for central command personnel. It's nothing personal. # *teleports behind you*, Nothing personnel, kid.
+  suffix: NE PAS PLACER
+  name: lunettes du commandement central
+  description: Une paire de lunettes conçue pour le personnel du commandement central. Ce n'est pas personnel. # *téléportation derrière toi*, Rien de personnel, gamin.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/centcommglasses.rsi
@@ -166,9 +166,9 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseCentcommContraband]
   id: ClothingEyesGlassesCentCommNoThermal
-  suffix: No thermals, DO NOT MAP
-  name: central command shades
-  description: A pair of shades designed for central command personnel. Comes with more features than you could imagine.
+  suffix: Sans thermiques, NE PAS PLACER
+  name: lunettes du commandement central
+  description: Une paire de lunettes conçue pour le personnel du commandement central. Avec plus de fonctionnalités que vous ne pourriez l'imaginer.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/centcommglasses.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowHealthRelatedIcons, BaseCentcommContraband, ClothingEyesGlassesSunglasses]
   id: ClothingEyesGlassesBSO
-  name: blueshield officer glasses
-  description: Sunglasses with a medical, job and diagnostic hud.
+  name: lunettes de l'agent blueshield
+  description: Lunettes de soleil avec un HUD médical, professionnel et de diagnostic.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/bsoglasses.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: [ClothingEyesBase, ClothingEyesGlassesSunglasses, ShowHealthRelatedIcons]
   id: ClothingEyesGlassesMedDiag
-  name: meddiag glasses
-  description: Sunglasses with a medical and diagnostic hud.
+  name: lunettes médidiag
+  description: Lunettes de soleil avec un HUD médical et de diagnostic.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/meddiagglasses.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityCommandContraband]
   id: ClothingEyesGlassesSecurityAdvanced
-  name: advanced security goggles
-  description: A set of goggles that provide flash protection, a security HUD, and basic thermal vision.
+  name: lunettes de sécurité avancées
+  description: Un ensemble de lunettes offrant une protection anti-flash, un HUD de sécurité, et une vision thermique basique.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/hos-expi.rsi
@@ -248,7 +248,7 @@
 - type: entity
   parent: [ClothingEyesGlassesSecurity, BaseSecurityContraband]
   id: ClothingEyesGlassesSecurityContraDetect
-  name: contraband detector security glasses
-  description: A set of glasses that provide flash protection, a security HUD, and a built in contraband detector.
+  name: lunettes de sécurité détecteur de contrebande
+  description: Un ensemble de lunettes offrant une protection anti-flash, un HUD de sécurité, et un détecteur de contrebande intégré.
   components:
   - type: ShowContrabandIcons

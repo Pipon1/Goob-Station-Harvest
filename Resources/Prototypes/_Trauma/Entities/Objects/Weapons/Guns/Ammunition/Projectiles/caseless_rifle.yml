@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseBullet
   id: BulletCaselessRifleTranquilizer
-  name: bullet (.25 caseless tranq)
+  name: balle (.25 sans étui tranquillisant)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseBullet
   id: BulletCaselessRiflePoison
-  name: bullet (.25 caseless toxin)
+  name: balle (.25 sans étui toxique)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

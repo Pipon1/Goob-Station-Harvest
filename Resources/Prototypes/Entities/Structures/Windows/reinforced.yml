@@ -2,7 +2,7 @@
 
 - type: entity
   id: ReinforcedWindow
-  name: reinforced window
+  name: vitre renforcée
   parent: [BaseDeltaPressureReinforcedGlass, Window]
   components:
   - type: Sprite
@@ -70,8 +70,8 @@
 - type: entity
   id: WindowReinforcedDirectional
   parent: [BaseDeltaPressureReinforcedGlassQuarter, WindowDirectional]
-  name: directional reinforced window
-  description: Don't smudge up the glass down there.
+  name: vitre directionnelle renforcée
+  description: Ne salissez pas la vitre là-dessous.
   placement:
     mode: SnapgridCenter
     snap:

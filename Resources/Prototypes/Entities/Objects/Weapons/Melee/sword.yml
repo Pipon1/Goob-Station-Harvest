@@ -31,10 +31,10 @@
 
 #Shortswords
 - type: entity
-  name: cutlass
+  name: sabre
   parent: [ BaseSword, BaseMajorContraband ]
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: Une lame méchamment courbée, souvent vue dans les mains des pirates de l'espace.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -55,10 +55,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: machete
+  name: machette
   parent: [ BaseSword, BaseMajorContraband ]
   id: Machete
-  description: A large, vicious looking blade.
+  description: Une grande lame à l'allure méchante.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/machete.rsi
@@ -80,10 +80,10 @@
 
 #Longswords
 - type: entity
-  name: captain's sabre
+  name: sabre du capitaine
   parent: [ BaseSword, BaseCommandContraband ]
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: Une arme cérémonielle appartenant au capitaine de la station.
   components:
   # Goobstation edit start
   - type: EmitSoundOnLand
@@ -127,7 +127,7 @@
   name: katana
   parent: [ BaseSword, BaseMajorContraband ]
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: Un objet d'artisanat ancien réalisé avec du plasteel pas si ancien.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/katana.rsi
@@ -153,10 +153,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: katana laser
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: Une katana imprégnée d'une forte énergie.
   components:
   - type: Contraband
     severity: HighlyIllegal
@@ -195,7 +195,7 @@
   name: claymore
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
-  description: An ancient war blade.
+  description: Une ancienne lame de guerre.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -226,7 +226,7 @@
   name: throngler
   parent: [ BaseSword, BaseMajorContraband ]
   id: Throngler
-  description: If Security dares take it from you, just remind them that they are indeed mortal.
+  description: Si la Sécurité ose vous le prendre, rappelez-leur simplement qu'ils sont bel et bien mortels.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

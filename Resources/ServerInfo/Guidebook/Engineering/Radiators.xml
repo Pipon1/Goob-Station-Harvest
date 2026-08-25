@@ -3,30 +3,29 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Radiators
-  Radiators are a device that enables the exchange of heat energy between a [textlink="pipenet" link="PipeNetworks"] and the environment.
+  # Radiateurs
+  Les radiateurs sont un appareil qui permet l'échange d'énergie thermique entre un [textlink="pipenet" link="PipeNetworks"] et l'environnement.
 
   <Box>
     <GuideEntityEmbed Entity="HeatExchanger"/>
   </Box>
 
-  Radiators are completely passive: they do not require power to function.
-  They will always equalize the temperature of the gas in the [textlink="pipenet" link="PipeNetworks"] with the environment.
+  Les radiateurs sont complètement passifs : ils ne nécessitent pas de courant pour fonctionner.
+  Ils égaleront toujours la température du gaz dans le [textlink="pipenet" link="PipeNetworks"] avec l'environnement.
 
-  Radiators have two methods of transferring heat: convection and radiation.
-  - Convection is the transfer of heat through the movement of gas.
-  - Radiation is the transfer of heat through electromagnetic waves.
+  Les radiateurs ont deux méthodes de transfert de chaleur : convection et radiation.
+  - La convection est le transfert de chaleur via le mouvement du gaz.
+  - La radiation est le transfert de chaleur via ondes électromagnétiques.
 
-  If a radiator is in a vacuum, it will only be able to transfer heat through radiation.
-  If it is in an atmosphere, it will be able to transfer heat through both convection and radiation.
+  Si un radiateur est dans le vide, il ne pourra transférer la chaleur que par radiation.
+  S'il est dans une atmosphère, il pourra transférer par convection et radiation.
 
-  Under convection, you can only get as cold or as hot as the atmosphere or [textlink="pipenet" link="PipeNetworks"] you're exchanging heat with (given the temperature of the gas in the [textlink="pipenet" link="PipeNetworks"] or atmosphere stays the same).
+  Sous convection, vous ne pouvez aller aussi froid ou chaud que l'atmosphère ou [textlink="pipenet" link="PipeNetworks"] avec lequel vous échangez (donnée la température du gaz dans le [textlink="pipenet" link="PipeNetworks"] ou atmosphère reste la même).
 
-  If you're exchanging heat with space, you can only get as cold as space.
-  To increase the efficiency of radiation, you can build radiators on lattice, which will allow the radiator to radiate more heat, compared to being directly attached to hull tile.
+  Si vous échangez avec l'espace, vous ne pouvez aller aussi froid que l'espace.
+  Pour augmenter l'efficacité de la radiation, vous pouvez construire des radiateurs sur treillis, ce qui permettra au radiateur de radiater plus de chaleur, comparé à être direct sur tuile coque.
 
-  Gas will flow naturally through the radiator via differences in pressure, but you can use a gas pump to increase the flow rate.
+  Le gaz circulera naturellement à travers le radiateur via différences de pression, mais vous pouvez utiliser une pompe gaz pour augmenter le débit.
 
-  Increasing the flow rate of gas through the radiator will increase the rate of heat exchange.
-
-  </Document>
+  Augmenter le débit de gaz à travers le radiateur augmentera le taux d'échange thermique.
+</Document>

@@ -2,7 +2,7 @@
 
 - type: entity
   id: ClothingShoesBootsCombatFilled
-  suffix: Filled, Combat Knife
+  suffix: Rempli, Couteau de combat
   parent:
   - ClothingShoesBootsCombat
   - ClothingShoesBootsSecFilled
@@ -52,7 +52,7 @@
 - type: entity
   parent: ClothingShoesBootsMerc
   id: ClothingShoesBootsMercFilled
-  suffix: Filled
+  suffix: Rempli
   components:
   - type: ContainerFill
     containers:
@@ -62,7 +62,7 @@
 - type: entity
   id: ClothingShoesBootsSyndieFilled
   parent: ClothingShoesBootsCombat
-  suffix: Filled, Throwing Knife
+  suffix: Rempli, Couteau de lancer
   components:
   - type: ContainerFill
     containers:

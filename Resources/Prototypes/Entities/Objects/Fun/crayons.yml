@@ -7,7 +7,7 @@
   parent: BaseItem
   id: CrayonInedible
   name: crayon
-  description: A colourful crayon. A forbidden flavor.
+  description: Un crayon coloré. Une saveur interdite.
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi
@@ -36,7 +36,7 @@
   abstract: true
   parent: CrayonInedible
   id: Crayon
-  description: A colourful crayon. Looks tasty. Mmmm...
+  description: Un crayon coloré. Ça a l'air délicieux. Mmmm...
   components:
   - type: Edible
   - type: FlavorProfile
@@ -57,7 +57,7 @@
 - type: entity
   parent: Crayon
   id: CrayonMime
-  name: mime crayon
+  name: crayon mime
   components:
   - type: Sprite
     state: mime
@@ -76,7 +76,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRainbow
-  name: rainbow crayon
+  name: crayon arc-en-ciel
   components:
   - type: Sprite
     state: rainbow
@@ -92,7 +92,7 @@
   parent: CrayonRainbow
   id: CrayonInfinite # should not be player available to prevent decal spam
   categories: [ DoNotMap ]
-  name: infinite crayon
+  name: crayon infini
   components:
   - type: Crayon
     deleteEmpty: false
@@ -102,8 +102,8 @@
 - type: entity
   parent: CrayonInedible
   id: CrayonBorg
-  name: electric crayon
-  description: Supposedly the most delicious crayon type in all the universes; unfortunately, you cannot eat.
+  name: crayon électrique
+  description: Supposé être le type de crayon le plus délicieux de tous les univers ; malheureusement, vous ne pouvez pas manger.
   components:
   - type: Sprite
     state: electric
@@ -121,7 +121,7 @@
 - type: entity
   parent: Crayon
   id: CrayonWhite
-  name: white crayon
+  name: crayon blanc
   components:
   - type: Sprite
     state: white
@@ -140,7 +140,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlack
-  name: black crayon
+  name: crayon noir
   components:
   - type: Sprite
     state: black
@@ -159,7 +159,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRed
-  name: red crayon
+  name: crayon rouge
   components:
   - type: Sprite
     state: red
@@ -178,7 +178,7 @@
 - type: entity
   parent: Crayon
   id: CrayonOrange
-  name: orange crayon
+  name: crayon orange
   components:
   - type: Sprite
     state: orange
@@ -197,7 +197,7 @@
 - type: entity
   parent: Crayon
   id: CrayonYellow
-  name: yellow crayon
+  name: crayon jaune
   components:
   - type: Sprite
     state: yellow
@@ -216,7 +216,7 @@
 - type: entity
   parent: Crayon
   id: CrayonGreen
-  name: green crayon
+  name: crayon vert
   components:
   - type: Sprite
     state: green
@@ -235,7 +235,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlue
-  name: blue crayon
+  name: crayon bleu
   components:
   - type: Sprite
     state: blue
@@ -254,7 +254,7 @@
 - type: entity
   parent: Crayon
   id: CrayonPurple
-  name: purple crayon
+  name: crayon violet
   components:
   - type: Sprite
     state: purple
@@ -273,8 +273,8 @@
 - type: entity
   parent: BoxCardboard
   id: CrayonBox
-  name: crayon box
-  description: It's a box of crayons.
+  name: boîte de crayons
+  description: C'est une boîte de crayons.
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi

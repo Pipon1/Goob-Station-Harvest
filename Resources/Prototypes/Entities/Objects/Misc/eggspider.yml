@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: EggSpider
-  name: egg spider
-  description: Is it a gemstone? Is it an egg? It looks expensive.
+  name: œuf d'araignée
+  description: Est-ce une pierre précieuse ? Est-ce un œuf ? Ça paraît cher.
   components:
   - type: Sprite
     sprite: Objects/Misc/eggspider.rsi
