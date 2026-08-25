@@ -2,7 +2,6 @@ using System.Globalization;
 using Content.Goobstation.Shared.Sandevistan;
 using Content.Shared.Alert.Components;
 using Robust.Client.Player;
-using Robust.Shared.Localization;
 
 namespace Content.Goobstation.Client.Sandevistan;
 
@@ -19,7 +18,9 @@ public sealed class SandevistanAlertSystem : EntitySystem
 
         SubscribeLocalEvent<SandevistanUserComponent, GetGenericAlertCounterAmountEvent>(OnGetCounterAmount);
 
-        _loc.AddFunction(new CultureInfo("en-US"), "SANDE_LOAD_DESC", FormatSandeLoadDesc);
+        var culture = new CultureInfo("fr-FR");
+        _loc.LoadCulture(culture);
+        _loc.AddFunction(culture, "SANDE_LOAD_DESC", FormatSandeLoadDesc);
     }
 
     private void OnGetCounterAmount(Entity<SandevistanUserComponent> ent, ref GetGenericAlertCounterAmountEvent args)
@@ -30,7 +31,7 @@ public sealed class SandevistanAlertSystem : EntitySystem
         args.Amount = (int) ent.Comp.CurrentLoad;
     }
 
-    private ILocValue FormatSandeLoadDesc(LocArgs args, LocContext ctx)
+    private ILocValue FormatSandeLoadDesc(LocArgs args)
     {
         if (!(_player.LocalEntity is { } player && TryComp<SandevistanUserComponent>(player, out var sandeusercomp)))
             return new LocValueString("");
