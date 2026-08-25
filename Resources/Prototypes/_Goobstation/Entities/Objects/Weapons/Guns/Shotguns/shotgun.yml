@@ -5,7 +5,7 @@
   description: Un design entièrement original de NanoTrasen, légalement distinct de toute autre arme sur le marché. Se charge depuis des chargeurs tambour de calibre 12.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/bulldog.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -14,7 +14,7 @@
   - type: Item
     size: Large
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    sprite: _Goobstation/Objects/Weapons/Guns/Shotguns/bulldog.rsi
     quickEquip: false
     slots:
     - Back

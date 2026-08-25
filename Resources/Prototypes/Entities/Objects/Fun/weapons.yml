@@ -225,6 +225,11 @@
   name: épée jouet
   description: Nouvelle épée en plastique Sandy-Cat ! Vient avec un son réaliste et des couleurs complètes ! Ressemble presque au vrai !
   components:
+  # <Goobstation>
+  - type: Tag
+    tags:
+    - ToySword
+  # </Goobstation>
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
     layers:
