@@ -128,8 +128,8 @@ comp-hands-examine-empty-selfaware = Vous ne tenez rien dans les mains.
 comp-hands-examine-selfaware = Vous tenez { $items }.
 
 humanoid-appearance-component-examine-selfaware = Vous êtes { $age ->
-    [jeune] { INDEFINITE($species) } { $age } { $species }
-    [vieux] { INDEFINITE($species) } { $age } { $species }
-    [moyen] { INDEFINITE($species) } { $species } d'âge moyen
+    [jeune] { FR_INDEFINITE($species) } { $age } { $species }
+    [vieux] { FR_INDEFINITE($species) } { $age } { $species }
+    [moyen] { FR_INDEFINITE($species) } { $species } d'âge moyen
    *[other] { $age } { $species }
 }.

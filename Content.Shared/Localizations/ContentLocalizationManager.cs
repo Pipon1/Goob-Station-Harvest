@@ -3,6 +3,9 @@
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Robust.Shared.Enums;
+using Robust.Shared.GameObjects;
+using Robust.Shared.GameObjects.Components.Localization;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.Localizations
@@ -10,6 +13,7 @@ namespace Content.Shared.Localizations
     public sealed class ContentLocalizationManager
     {
         [Dependency] private readonly ILocalizationManager _loc = default!;
+        [Dependency] private readonly IEntityManager _entMan = default!;
 
         // If you want to change your codebase's language, do it here.
         private const string Culture = "fr-FR"; // French-Localization
@@ -42,11 +46,12 @@ namespace Content.Shared.Localizations
             // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
             _loc.AddFunction(culture, "ENERGYWATTHOURS", FormatEnergyWattHours);
             _loc.AddFunction(culture, "UNITS", FormatUnits);
-            _loc.AddFunction(culture, "TOSTRING", (args, ctx) => FormatToString(culture, args, ctx));
+            _loc.AddFunction(culture, "TOSTRING", args => FormatToString(culture, args));
             _loc.AddFunction(culture, "LOC", FormatLoc);
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
+            _loc.AddFunction(culture, "FR_INDEFINITE", FuncFrIndefinite);
 
 
             /*
@@ -58,11 +63,20 @@ namespace Content.Shared.Localizations
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
-            _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
+            _loc.AddFunction(cultureEn, "PRESSURE", FormatPressure);
+            _loc.AddFunction(cultureEn, "POWERWATTS", FormatPowerWatts);
+            _loc.AddFunction(cultureEn, "POWERJOULES", FormatPowerJoules);
+            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
+            _loc.AddFunction(cultureEn, "ENERGYWATTHOURS", FormatEnergyWattHours);
+            _loc.AddFunction(cultureEn, "UNITS", FormatUnits);
+            _loc.AddFunction(cultureEn, "TOSTRING", args => FormatToString(culture, args));
             _loc.AddFunction(cultureEn, "LOC", FormatLoc);
+            _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
+            _loc.AddFunction(cultureEn, "NATURALPERCENT", FormatNaturalPercent);
+            _loc.AddFunction(cultureEn, "PLAYTIME", FormatPlaytime);
         }
 
-        private ILocValue FormatMany(LocArgs args, LocContext ctx)
+        private ILocValue FormatMany(LocArgs args)
         {
             var count = ((LocValueNumber) args.Args[1]).Value;
 
@@ -72,11 +86,11 @@ namespace Content.Shared.Localizations
             }
             else
             {
-                return (LocValueString) FormatMakePlural(args, ctx);
+                return (LocValueString) FormatMakePlural(args);
             }
         }
 
-        private ILocValue FormatNaturalPercent(LocArgs args, LocContext ctx)
+        private ILocValue FormatNaturalPercent(LocArgs args)
         {
             var number = ((LocValueNumber) args.Args[0]).Value * 100;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
@@ -85,7 +99,7 @@ namespace Content.Shared.Localizations
             return new LocValueString(string.Format(formatter, "{0:N}", number).TrimEnd('0').TrimEnd(char.Parse(formatter.NumberDecimalSeparator)) + "%");
         }
 
-        private ILocValue FormatNaturalFixed(LocArgs args, LocContext ctx)
+        private ILocValue FormatNaturalFixed(LocArgs args)
         {
             var number = ((LocValueNumber) args.Args[0]).Value;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
@@ -96,7 +110,7 @@ namespace Content.Shared.Localizations
 
         private static readonly Regex PluralEsRule = new("^.*(s|sh|ch|x|z)$");
 
-        private ILocValue FormatMakePlural(LocArgs args, LocContext ctx)
+        private ILocValue FormatMakePlural(LocArgs args)
         {
             var text = ((LocValueString) args.Args[0]).Value;
             var split = text.Split(" ", 1);
@@ -165,14 +179,14 @@ namespace Content.Shared.Localizations
             return Loc.GetString($"zzzz-fmt-playtime", ("hours", hours), ("minutes", minutes));
         }
 
-        private static ILocValue FormatLoc(LocArgs args, LocContext ctx)
+        private static ILocValue FormatLoc(LocArgs args)
         {
             var id = ((LocValueString) args.Args[0]).Value;
 
             return new LocValueString(Loc.GetString(id, args.Options.Select(x => (x.Key, x.Value.Value!)).ToArray()));
         }
 
-        private static ILocValue FormatToString(CultureInfo culture, LocArgs args, LocContext ctx)
+        private static ILocValue FormatToString(CultureInfo culture, LocArgs args)
         {
             var arg = args.Args[0];
             var fmt = ((LocValueString) args.Args[1]).Value;
@@ -186,7 +200,6 @@ namespace Content.Shared.Localizations
 
         private static ILocValue FormatUnitsGeneric(
             LocArgs args,
-            LocContext ctx,
             string mode,
             Func<double, double>? transformValue = null)
         {
@@ -206,29 +219,29 @@ namespace Content.Shared.Localizations
             return new LocValueString(Loc.GetString(mode, ("divided", pressure), ("places", places)));
         }
 
-        private static ILocValue FormatPressure(LocArgs args, LocContext ctx)
+        private static ILocValue FormatPressure(LocArgs args)
         {
-            return FormatUnitsGeneric(args, ctx, "zzzz-fmt-pressure");
+            return FormatUnitsGeneric(args, "zzzz-fmt-pressure");
         }
 
-        private static ILocValue FormatPowerWatts(LocArgs args, LocContext ctx)
+        private static ILocValue FormatPowerWatts(LocArgs args)
         {
-            return FormatUnitsGeneric(args, ctx, "zzzz-fmt-power-watts");
+            return FormatUnitsGeneric(args, "zzzz-fmt-power-watts");
         }
 
-        private static ILocValue FormatPowerJoules(LocArgs args, LocContext ctx)
+        private static ILocValue FormatPowerJoules(LocArgs args)
         {
-            return FormatUnitsGeneric(args, ctx, "zzzz-fmt-power-joules");
+            return FormatUnitsGeneric(args, "zzzz-fmt-power-joules");
         }
 
-        private static ILocValue FormatEnergyWattHours(LocArgs args, LocContext ctx)
+        private static ILocValue FormatEnergyWattHours(LocArgs args)
         {
             const double joulesToWattHours = 1.0 / 3600;
 
-            return FormatUnitsGeneric(args, ctx, "zzzz-fmt-energy-watt-hours", joules => joules * joulesToWattHours);
+            return FormatUnitsGeneric(args, "zzzz-fmt-energy-watt-hours", joules => joules * joulesToWattHours);
         }
 
-        private static ILocValue FormatUnits(LocArgs args, LocContext ctx)
+        private static ILocValue FormatUnits(LocArgs args)
         {
             if (!Units.Types.TryGetValue(((LocValueString) args.Args[0]).Value, out var ut))
                 throw new ArgumentException($"Unknown unit type {((LocValueString) args.Args[0]).Value}");
@@ -268,7 +281,7 @@ namespace Content.Shared.Localizations
             return new LocValueString(res);
         }
 
-        private static ILocValue FormatPlaytime(LocArgs args, LocContext ctx)
+        private static ILocValue FormatPlaytime(LocArgs args)
         {
             var time = TimeSpan.Zero;
             if (args.Args is { Count: > 0 } && args.Args[0].Value is TimeSpan timeArg)
@@ -276,6 +289,29 @@ namespace Content.Shared.Localizations
                 time = timeArg;
             }
             return new LocValueString(FormatPlaytime(time));
+        }
+
+        private ILocValue FuncFrIndefinite(LocArgs args)
+        {
+            ILocValue val = args.Args[0];
+            if (val.Value == null)
+                return new LocValueString("un");
+
+            string? input;
+            if (val.Value is EntityUid entity && _entMan.TryGetComponent(entity, out GrammarComponent? grammar))
+            {
+                if (grammar.Gender == Gender.Female)
+                    return new LocValueString("une");
+                else
+                    return new LocValueString("un");
+            }
+            else
+            {
+                input = val.Format(new LocContext());
+            }
+
+            // Fallback to masculine for non-entities or if no grammar component
+            return new LocValueString("un");
         }
     }
 }

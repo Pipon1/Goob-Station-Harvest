@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 story-template-generic =
- C'est un { INDEFINITE($bookGenre) } {$bookGenre} à propos { INDEFINITE($char1Adj) } {$char1Adj} {$char1Type} et { INDEFINITE($char2Adj) } {$char2Adj} {$char2Type}. À cause de {$event}, ils {$actionTrait} {$action} { INDEFINITE($char3Type) } {$char3Type} {$location}.
+ C'est { FR_INDEFINITE($bookGenre) } {$bookGenre} à propos { FR_INDEFINITE($char1Adj) } {$char1Adj} {$char1Type} et { FR_INDEFINITE($char2Adj) } {$char2Adj} {$char2Type}. À cause de {$event}, ils {$actionTrait} {$action} { FR_INDEFINITE($char3Type) } {$char3Type} {$location}.
 
  Le {$element} est {$elementTrait}.

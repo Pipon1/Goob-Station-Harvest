@@ -7,7 +7,7 @@
 flatpack-unpack-no-room = Pas de place pour déballer !
 flatpack-examine = Utilisez un [color=yellow]multioutil[/color] pour déballer ceci.
 flatpack-entity-name = Flatpack de {$name}
-flatpack-entity-description = Un flatpack utilisé pour construire {INDEFINITE($name)} {$name}.
+flatpack-entity-description = Un flatpack utilisé pour construire {FR_INDEFINITE($name)} {$name}.
 
 flatpacker-item-slot-name = Emplacement carte machine
 flatpacker-ui-title = Flatpacker 1001

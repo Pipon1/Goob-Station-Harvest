@@ -1,7 +1,7 @@
 automation-filter-examine-empty = [color=red]Ce filtre n'est pas encore configuré.[/color]
 automation-filter-examine-string = Ce filtre est défini sur '{$name}'
 stack-filter-examine = Ce filtre est défini sur un minimum de [color=green]{$size}[/color] objets dans une pile.
-combined-filter-examine = Ce filtre est défini sur {INDEFINITE($gate)} [color=green]{$gate}[/color] comparaison avec ses entrées.
+combined-filter-examine = Ce filtre est défini sur {FR_INDEFINITE($gate)} [color=green]{$gate}[/color] comparaison avec ses entrées.
 pressure-filter-examine = Ce filtre est défini entre [color=green]{$min}[/color] kPa et [color=green]{$max}[/color] kPa.
 
 label-filter-window-title = Modifier le filtre d'étiquette

@@ -3,6 +3,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-gift-packin-contains = Ce cadeau semble contenir {INDEFINITE($name)} {$name}.
+gift-packin-contains = Ce cadeau semble contenir {FR_INDEFINITE($name)} {$name}.
 christmas-tree-got-gift = Après quelques fouilles, vous trouvez un cadeau à votre nom !
 christmas-tree-no-gift = Il n'y a pas de cadeau sous le sapin pour vous...
