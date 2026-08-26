@@ -5,5 +5,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-cream-pied-component-on-hit-by-message =  Vous avez reçu {INDEFINITE($thrown)} {$thrown} dans la figure !
-cream-pied-component-on-hit-by-message-others = {CAPITALIZE(THE($owner))} a reçu {INDEFINITE($thrown)} {$thrown} dans la figure !
+cream-pied-component-on-hit-by-message =  Vous avez reçu {FR_INDEFINITE($thrown)} {$thrown} dans la figure !
+cream-pied-component-on-hit-by-message-others = {CAPITALIZE(THE($owner))} a reçu {FR_INDEFINITE($thrown)} {$thrown} dans la figure !

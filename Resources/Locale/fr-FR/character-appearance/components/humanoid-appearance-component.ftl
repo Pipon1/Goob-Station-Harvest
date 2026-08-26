@@ -18,9 +18,9 @@ humanoid-appearance-component-examine = { $gender ->
         }
    *[other]
         { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } { $age ->
-            [jeune] { INDEFINITE($species) } { $age } { $species }
-            [vieux] { INDEFINITE($species) } { $age } { $species }
-            [moyen] { INDEFINITE($species) } { $species } d'âge moyen
-           *[other] { INDEFINITE($species) } { $age } { $species }
+            [jeune] { FR_INDEFINITE($species) } { $age } { $species }
+            [vieux] { FR_INDEFINITE($species) } { $age } { $species }
+            [moyen] { FR_INDEFINITE($species) } { $species } d'âge moyen
+           *[other] { FR_INDEFINITE($species) } { $age } { $species }
         }
 }.
