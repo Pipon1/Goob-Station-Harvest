@@ -41,7 +41,7 @@ entity-effect-guidebook-spawn-entity =
         [1] Crée
         *[other] créer
     } { $amount ->
-        [1] {INDEFINITE($entname)}
+        [1] {FR_INDEFINITE($entname)}
         *[other] {$amount} {MAKEPLURAL($entname)}
     }
 

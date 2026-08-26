@@ -5,9 +5,9 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-logic-gate-examine = Il s'agit actuellement d'une porte {INDEFINITE($gate)} {$gate}.
+logic-gate-examine = Il s'agit actuellement d'une porte {FR_INDEFINITE($gate)} {$gate}.
 
-logic-gate-cycle = Basculé sur une porte {INDEFINITE($gate)} {$gate}
+logic-gate-cycle = Basculé sur une porte {FR_INDEFINITE($gate)} {$gate}
 
 power-sensor-examine = Il vérifie actuellement la batterie { $output ->
     [true] de sortie
