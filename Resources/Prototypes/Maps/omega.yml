@@ -4,7 +4,7 @@
   id: Omega
   mapName: 'Omega'
   mapPath: /Maps/_Goobstation/omega.yml # Goobstation
-  minPlayers: 7
+  minPlayers: 0 #Harvest: for ultralowpop preround selection (was 7)
   maxPlayers: 35
   stations:
     Omega:
