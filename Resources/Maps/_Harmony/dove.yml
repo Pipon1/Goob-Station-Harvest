@@ -15139,23 +15139,6 @@ entities:
     - type: Transform
       pos: 19.5,-51.5
       parent: 2
-- proto: BookSOP
-  entities:
-  - uid: 1374
-    components:
-    - type: Transform
-      pos: 16.29082,8.527951
-      parent: 2
-  - uid: 1375
-    components:
-    - type: Transform
-      pos: 35.71162,6.5129857
-      parent: 2
-  - uid: 1376
-    components:
-    - type: Transform
-      pos: 18.697824,21.01631
-      parent: 2
 - proto: BookSpaceLaw
   entities:
   - uid: 1377
@@ -47378,13 +47361,6 @@ entities:
     - type: Transform
       pos: 48.64854,13.724667
       parent: 2
-- proto: ClothingHeadPyjamaNanotrasenBlue
-  entities:
-  - uid: 7672
-    components:
-    - type: Transform
-      pos: -11.229697,17.260975
-      parent: 2
 - proto: ClothingHeadPyjamaSyndicateRed
   entities:
   - uid: 7673
@@ -47917,32 +47893,6 @@ entities:
     components:
     - type: Transform
       pos: -66.524704,21.429388
-      parent: 2
-- proto: ClothingUniformJumpsuitPyjamaNanotrasenBlue
-  entities:
-  - uid: 7749
-    components:
-    - type: Transform
-      pos: -20.732977,17.686012
-      parent: 2
-  - uid: 7750
-    components:
-    - type: Transform
-      pos: -11.243393,17.613045
-      parent: 2
-- proto: ClothingUniformTurtleneckColorGrey
-  entities:
-  - uid: 7751
-    components:
-    - type: Transform
-      pos: 16.613945,-45.272114
-      parent: 2
-- proto: ClothingUniformTurtleneckSkirtColorGrey
-  entities:
-  - uid: 7752
-    components:
-    - type: Transform
-      pos: 17.749361,-45.668224
       parent: 2
 - proto: CluwneHorn
   entities:
@@ -102451,7 +102401,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: IntercomSupplyCargo
+- proto: IntercomSupply
   entities:
   - uid: 15332
     components:
@@ -104166,13 +104116,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 15129
-- proto: Magic9Ball
-  entities:
-  - uid: 15506
-    components:
-    - type: Transform
-      pos: -11.522799,17.801073
-      parent: 2
 - proto: MailBag
   entities:
   - uid: 15507
@@ -106424,18 +106367,6 @@ entities:
     - type: Transform
       pos: 55.456284,21.479446
       parent: 2
-- proto: PlushieVulp
-  entities:
-  - uid: 15848
-    components:
-    - type: Transform
-      pos: 5.5724497,-31.418818
-      parent: 2
-  - uid: 15849
-    components:
-    - type: Transform
-      pos: 57.143784,21.656652
-      parent: 2
 - proto: PlushieXeno
   entities:
   - uid: 15850
@@ -106839,200 +106770,6 @@ entities:
     components:
     - type: Transform
       pos: -33.5,-27.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyAlwaysWatching
-  entities:
-  - uid: 15900
-    components:
-    - type: Transform
-      pos: -7.5,-29.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyArnold
-  entities:
-  - uid: 15901
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 23.5,-7.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyCan
-  entities:
-  - uid: 15902
-    components:
-    - type: Transform
-      pos: -6.5,-13.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyDoNotGamble
-  entities:
-  - uid: 15903
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 39.5,2.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 15904
-    components:
-    - type: Transform
-      pos: -11.5,26.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyEnrico
-  entities:
-  - uid: 15905
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 57.5,-23.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyFaded
-  entities:
-  - uid: 15906
-    components:
-    - type: Transform
-      pos: -26.5,-13.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 15907
-    components:
-    - type: Transform
-      pos: -30.5,-18.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyHarmony
-  entities:
-  - uid: 15908
-    components:
-    - type: Transform
-      pos: 42.5,-23.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 15909
-    components:
-    - type: Transform
-      pos: 42.5,-1.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMagicCandle
-  entities:
-  - uid: 15910
-    components:
-    - type: Transform
-      pos: 13.5,-11.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMaintsSlasher
-  entities:
-  - uid: 15911
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 41.5,16.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMakeshiftClown
-  entities:
-  - uid: 15912
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 25.5,-27.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyManOfWeh
-  entities:
-  - uid: 15913
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 20.5,-16.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMoney
-  entities:
-  - uid: 15914
-    components:
-    - type: Transform
-      pos: -21.5,-34.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyMuhrinePropaganda
-  entities:
-  - uid: 15915
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 23.5,6.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonySmokeBreak
-  entities:
-  - uid: 15916
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 46.5,-27.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonySpaceAsshole
-  entities:
-  - uid: 15917
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 65.5,-19.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonySuperMatter
-  entities:
-  - uid: 15918
-    components:
-    - type: Transform
-      pos: -15.5,-1.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyWallMeat
-  entities:
-  - uid: 15919
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -6.5,-1.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterHarmonyWorkHard
-  entities:
-  - uid: 15920
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 7.5,-38.5
       parent: 2
     - type: Fixtures
       fixtures: {}
@@ -114887,7 +114624,7 @@ entities:
     - type: Transform
       pos: -26.263369,11.397366
       parent: 2
-- proto: SecurityBola
+- proto: Bola
   entities:
   - uid: 17298
     components:
